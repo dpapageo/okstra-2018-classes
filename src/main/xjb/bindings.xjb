@@ -1,0 +1,140 @@
+<jxb:bindings version="2.1"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              jxb:extensionBindingPrefixes="xjc">
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/geometryPrimitives.xsd">
+        <jxb:bindings node="//xs:attribute[@name='rows']">
+            <jxb:property name="GeometryPrimitivesAttributeRows"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:complexType[@name='ArcType']">
+            <jxb:class name="GeometryPrimitivesArcType"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='Arc']">
+            <jxb:class name="GeometryPrimitivesArc"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/measures.xsd">
+        <jxb:bindings node="//xs:element[@name='measure']">
+            <jxb:class name="MeasuresMeasure"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='angle']">
+            <jxb:class name="MeasuresAngle"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/gmlBase.xsd">
+        <jxb:bindings node="//xs:element[@name='AbstractObject']">
+            <jxb:class name="GmlBaseAbstractObject"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gco/gcoBase.xsd">
+        <jxb:bindings node="//xs:element[@name='AbstractObject']">
+            <jxb:class name="GcoBaseAbstractObject"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/xlink/xlink.xsd">
+        <jxb:bindings node="//xs:element[@name='title']">
+            <jxb:class name="XlinkTitle"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:attribute[@name='title']">
+            <jxb:property name="AttibuteTitle"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:complexType[@name='arcType']">
+            <jxb:property name="XlinkArcType"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/Schluesseltabellen.xsd">
+        <jxb:bindings node="//xs:complexType[@name='HindernisartType']">
+            <jxb:class name="SchluesseltabellenHindernisartType"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:complexType[@name='HindernisartPropertyType']">
+            <jxb:class name="SchluesseltabellenHindernisArtPropertyType"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/datums.xsd">
+        <jxb:bindings node="//xs:element[@name='secondDefiningParameter']">
+            <jxb:class name="DatumsSecondDefiningParameter"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='ellipsoid']">
+            <jxb:class name="PropertyEllipsoid"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='primeMeridian']">
+            <jxb:class name="PropertyPrimeMeridian"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='GeodeticDatum']">
+            <jxb:class name="DatumsGeodeticDatum"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='VerticalDatum']">
+            <jxb:class name="DatumsVerticalDatum"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='EngineeringDatum']">
+            <jxb:class name="DatumsEngineeringDatum"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='ImageDatum']">
+            <jxb:class name="DatumsImageDatum"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='TemporalDatum']">
+            <jxb:class name="DatumsTemporalDatum"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/valueObjects.xsd">
+        <jxb:bindings node="//xs:complexType[@name='BooleanPropertyType']">
+            <jxb:class name="ValueObjectsBooleanPropertyType"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='Boolean']">
+            <jxb:class name="ValueObjectsBoolean"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/coordinateOperations.xsd">
+        <jxb:bindings node="//xs:element[@name='parameterValue']">
+            <jxb:class name="CoordinateOperationsparameterValue"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='operationParameter']">
+            <jxb:class name="CoordinateOperationParameter"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='Conversion']">
+            <jxb:class name="CoordinateOperationConversion"/>
+        </jxb:bindings>
+    </jxb:bindings>
+
+    <jxb:bindings schemaLocation="../resources/lib/oklabi/schema/2018.2/gml/3.2.1/coordinateSystems.xsd">
+        <jxb:bindings node="//xs:element[@name='EllipsoidalCS']">
+            <jxb:class name="CoordinateSystemsEllipsoidalCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='CartesianCS']">
+            <jxb:class name="CoordinateSystemsCartesianCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='SphericalCS']">
+            <jxb:class name="CoordinateSystemsSphericalCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='VerticalCS']">
+            <jxb:class name="CoordinateSystemsVerticalCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='CylindricalCS']">
+            <jxb:class name="CoordinateSystemsCylindricalCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='LinearCS']">
+            <jxb:class name="CoordinateSystemsLinearCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='PolarCS']">
+            <jxb:class name="CoordinateSystemsPolarCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='UserDefinedCS']">
+            <jxb:class name="CoordinateSystemsUserDefinedCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='AffineCS']">
+            <jxb:class name="CoordinateSystemsAffineCS"/>
+        </jxb:bindings>
+        <jxb:bindings node="//xs:element[@name='TimeCS']">
+            <jxb:class name="CoordinateSystemsTimeCS"/>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://schema.idmvu.org/4000/idmvu-basis" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:idmvu-basis="http://schema.idmvu.org/4000/idmvu-basis" xmlns:idmvu-typen="http://schema.idmvu.org/4000/idmvu-typen" elementFormDefault="qualified" version="4.000">
+    <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+	<import namespace="http://www.w3.org/1999/xlink" schemaLocation="./xlink/xlink.xsd" />
+    <import namespace="http://schema.idmvu.org/4000/idmvu-typen" schemaLocation="idmvu-typen.xsd"/>    
+    <complexType name="ObjectRefType">
+        <simpleContent>
+            <extension base="string">
+                <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                <attribute name="Objektklasse" type="string" use="required"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+    <complexType name="KeyValuePropertyType">
+        <simpleContent>
+            <extension base="string">
+                <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                <attribute name="Objektklasse" type="string" use="optional"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+    <!-- Meta-Daten fuer IDMVU-Daten -->
+    <element name="IDMVUMetaDaten" type="idmvu-basis:IDMVUMetaDatenType" substitutionGroup="gml:AbstractMetaData"/>
+    <complexType name="IDMVUMetaDatenType" mixed="true">
+        <complexContent>
+            <extension base="gml:AbstractMetaDataType">
+                <sequence>
+                    <element name="description" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                    <element name="implementation_level" type="string" minOccurs="0"/>
+                    <element name="name" type="string" minOccurs="0"/>
+                    <element name="time_stamp" type="dateTime" minOccurs="0"/>
+                    <element name="author" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                    <element name="organization" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                    <element name="preprocessor_version" type="string" minOccurs="0"/>
+                    <element name="originating_system" type="string" minOccurs="0"/>
+                    <element name="authorization" type="string" minOccurs="0"/>
+                    <element name="schema_identifiers" type="string" maxOccurs="unbounded"/>
+                    <element name="relRep" type="idmvu-basis:RelRepType" minOccurs="0"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <simpleType name="RelRepType">
+        <restriction base="string">
+            <enumeration value="einseitig"/>
+            <enumeration value="beidseitig"/>
+        </restriction>
+    </simpleType>
+</schema>

@@ -1,0 +1,1355 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;;
+01.03.06;#000.8000;;Geländepunkt ;Punkt;;;
+01.03.06;#000.8000;;Geländebruchkante;Linie;;;
+01.03.06;#000.8101;;Trigonometrischer Punkt;Punkt;;;
+01.03.06;#000.8102;;Aufnahmepunkt (amtl.);Punkt;;;
+01.03.06;#000.8103;;Höhenfestpunkt (amtl.);Punkt;;;
+01.03.06;#000.8004;;Querprofil Bezugspunkt, Paßpunkt ;Punkt;;;
+01.03.06;#000.8004;;Querprofil (Profillinie );Linie;;;
+01.03.06;#000.8005;;Festpunkt (SBV), Polygonpunkt;Punkt;;;
+01.03.06;#000.8005;;Visierlinie Netz ;Linie;;;
+01.03.06;#000.8006;;Höhenfestpunkt (SBV);Punkt;;;
+01.03.06;#000.8007;;Böschung unten;Linie ;;;
+01.03.06;#000.8008;;Böschung oben;Linie;;;
+01.03.06;#000.8009;;geländeunabhängiger Punkt;Punkt;;;
+01.03.06;#000.8010;;Fahrbahnmitte / Achskleinpunkt;Punkt;;;
+01.03.06;#000.8010;;Fahrbahnmitte (Linien zur Darstellung von Straßen in kleinmaßstäblichen Plänen);Linie;;;
+01.03.06;#001.8000;;Querneigung 0 % in Achse;Punkt
+01.03.06;#001.8001;;Querneigungswechsel;Punkt
+01.03.06;#001.8001;;Autobahn;Linie
+01.03.06;#001.8002;;Querneigungsänderung;Punkt
+01.03.06;#001.8002;;Bundesstraße;Linie
+01.03.06;#001.8003;;Gradiente – Tangentenschnittpunkt;Punkt
+01.03.06;#001.8003;;Landesstraße;Linie
+01.03.06;#001.8004;;Gradiente – Ausrundung Anfang;Punkt
+01.03.06;#001.8004;;Kreisstraße;Linie
+01.03.06;#001.8005;;Gradiente – Ausrundung Ende;Punkt
+01.03.06;#001.8005;;sonstige Straßen;Linie
+01.03.06;#001.8006;;Gradiente – Hochpunkt;Punkt
+01.03.06;#001.8006;;Wege;Linie
+01.03.06;#001.8007;;Gradiente – Tiefpunkt;Punkt
+01.03.06;#001.8007;;Bestandsachse ASB;Linie
+01.03.06;#001.8008;;Sichtdreieck Standpunkt;Punkt
+01.03.06;#001.8008;;Fahrbahnachse ASB;Linie
+01.03.06;#001.8009;;Sichtdreieck Zielpunkt;Punkt
+01.03.06;#000.8011;;Fahrbahnrand;Punkt
+01.03.06;#000.8011;;Fahrbahnrand;Linie
+01.03.06;#001.8010;;Achskleinpunkt mit Abstand rechts;Punkt
+01.03.06;#001.8011;;Fahrbahnrand aus berechneten Koordinaten;Punkt
+01.03.06;#001.8011;;Fahrbahnrand aus berechneten Koordinaten;Linie
+01.03.06;#001.8012;;Fahrbahnrand aus Digitalisierung / Konstruktion;Punkt
+01.03.06;#001.8012;;Fahrbahnrand aus Digitalisierung / Konstruktion;Linie
+01.03.06;#001.8014;;Mittelstreifenüberfahrt;Linie
+01.03.06;#001.8015;;Beginn Verziehung Fahrbahnrand;Punkt
+01.03.06;#001.8016;;Ende Verziehung Fahrbahnrand;Punkt
+01.03.06;#001.8017;;Betonfuge in Fahrbahn;Punkt
+01.03.06;#001.8017;;Betonfuge in Fahrbahn;Linie
+01.03.06;#001.8018;;Fahrbahnrand (überdeckt);Linie
+01.03.06;#001.8019;;Achskleinpunkt mit Abstand links;Punkt
+01.03.06;#000.8012;;Fahrspurrand;Punkt
+01.03.06;#000.8012;;Fahrspurrand;Linie
+01.03.06;#001.8021;;Fahrspurrand aus berechneten Koordinaten;Punkt
+01.03.06;#001.8021;;Fahrspurrand aus berechneten Koordinaten;Linie
+01.03.06;#001.8022;;Fahrspurrand aus Digitalisierung / Konstruktion;Punkt
+01.03.06;#001.8022;;Fahrspurrand aus Digitalisierung / Konstruktion;Linie
+01.03.06;#001.8024;;Standspurrand;Punkt
+01.03.06;#001.8024;;Standspurrand;Linie
+01.03.06;#001.8025;;Beginn Verziehung Fahrspurrand;Punkt
+01.03.06;#001.8026;;Ende Verziehung Fahrspurrand;Punkt
+01.03.06;#000.8013;;Randstein unten;Punkt
+01.03.06;#000.8013;;Randsteinlinie (unten);Linie
+01.03.06;#001.8031;;Randstein unten, Granitsteine;Punkt
+01.03.06;#001.8031;;Randstein unten, Granitsteine;Linie
+01.03.06;#001.8032;;Randstein unten, Granitsteine abgesenkt;Punkt
+01.03.06;#001.8032;;Randstein unten, Granitsteine abgesenkt;Linie
+01.03.06;#001.8033;;Randstein unten, Beton;Punkt
+01.03.06;#001.8033;;Randstein unten, Beton;Linie
+01.03.06;#001.8034;;Randstein unten, Beton abgesenkt;Punkt
+01.03.06;#001.8034;;Randstein unten, Beton abgesenkt;Linie
+01.03.06;#001.8035;;Randstein unten, Flachbordstein;Punkt
+01.03.06;#001.8035;;Randstein unten, Flachbordstein;Linie
+01.03.06;#001.8036;;Randstein unten, Flachbordstein abgesenkt;Punkt
+01.03.06;#001.8036;;Randstein unten, Flachbordstein abgesenkt;Linie
+01.03.06;#001.8037;;Randstein unten, Tiefbord Granit;Punkt
+01.03.06;#001.8037;;Randstein unten, Tiefbord Granit;Linie
+01.03.06;#001.8038;;Randstein unten, Tiefbord Beton;Punkt
+01.03.06;#001.8038;;Randstein unten, Tiefbord Beton;Linie
+01.03.06;#001.8039;;Randstein unten, sonstige Randsteine;Punkt
+01.03.06;#001.8039;;Randstein unten, sonstige Randsteine;Linie
+01.03.06;#000.8014;;Randstein oben;Punkt
+01.03.06;#000.8014;;Randstein oben;Linie
+01.03.06;#001.8045;;Randstein oben - Beginn Absenkung;Punkt
+01.03.06;#001.8046;;Randstein oben – abgesenkt;Punkt
+01.03.06;#001.8046;;Randstein oben – abgesenkt;Linie
+01.03.06;#000.8015;;Bankett;Punkt
+01.03.06;#000.8015;;Bankett;Linie
+01.03.06;#001.8051;;Auffüllung ( eben ) ;Punkt
+01.03.06;#001.8051;;Auffüllung ( eben );Linie
+01.03.06;#001.8052;;Abgrabung ( eben );Punkt
+01.03.06;#001.8052;;Abgrabung ( eben );Linie
+01.03.06;#000.8016;;Längsmarkierung;Punkt
+01.03.06;#000.8016;;Längsmarkierung;Linie
+01.03.06;#001.8060;;Fahrbahnbegrenzung, nicht unterbrochene Leitlinie;Linie
+01.03.06;#001.8061;;Leitlinie außerorts, außerhalb von Knotenpunkten;Linie
+01.03.06;#001.8062;;Leitlinie innerorts, außerhalb von Knotenpunkten;Linie
+01.03.06;#001.8063;;Leitlinie außerorts, innerhalb von Knotenpunkten;Linie
+01.03.06;#001.8064;;Leitlinie innerorts, innerhalb von Knotenpunkten;Linie
+01.03.06;#001.8065;;Warnlinie außerorts;Linie
+01.03.06;#001.8066;;Warnlinie innerorts;Linie
+01.03.06;#001.8067;;einseitige Fahrbahnbegrenzung  außerorts;Linie
+01.03.06;#001.8068;;einseitige Fahrbahnbegrenzung innerorts;Linie
+01.03.06;#001.8069;;Fahrstreifenbegrenzung Doppelstrich;Linie
+01.03.06;#000.8017;;Sperrfläche;Punkt
+01.03.06;#000.8017;;Sperrfläche;Linie
+01.03.06;#001.8071;;großes Schrägstrichgatter;Linie
+01.03.06;#001.8072;;kleines Schrägstrichgatter;Linie
+01.03.06;#001.8073;;unterbrochene Sonderfahrstreifenbegrenzung Autobahn;Linie
+01.03.06;#001.8074;;unterbrochene Sonderfahrstreifenbegrenzung außerorts;Linie
+01.03.06;#001.8075;;unterbrochene Sonderfahrstreifenbegrenzung innerorts;Linie
+01.03.06;#001.8076;;Wechselfahrstreifenbegrenzung außerorts;Linie
+01.03.06;#001.8077;;Wechselfahrstreifenbegrenzung innerorts;Linie
+01.03.06;#001.8078;;Wechselfahrstreifenbegrenzung Autobahn;Linie
+01.03.06;#000.8018;;Quermarkierung;Punkt
+01.03.06;#000.8018;;Quermarkierung;Linie
+01.03.06;#001.8081;;Haltelinie;Linie
+01.03.06;#001.8082;;Wartelinie;Linie
+01.03.06;#001.8083;;Fußgängerüberweg;Linie
+01.03.06;#001.8084;;Fußgängerfurt;Linie
+01.03.06;#001.8085;;Radfahrerfurt;Linie
+01.03.06;#001.8086;;Sonderfahrstreifenbegrenzung / Bushaltebucht;Linie
+01.03.06;#001.8087;;Fahrbahnbegrenzung bei Zufahrten ( Blockung 3 / 3 );Linie
+01.03.06;#001.8088;;Fahrstreifenbegrenzung bei Zufahrten ( Blockung 1,5 / 1,5 );Linie
+01.03.06;#001.8089;;Grenzmarkierung Halte- und Parkverbote;Linie
+01.03.06;#000.8019;;sonstige Markierung;Punkt
+01.03.06;#000.8019;;sonstige Markierung;Linie
+01.03.06;#001.8091;;Richtungspfeile Positionierungspunkt;Punkt
+01.03.06;#001.8092;;Leitlinie Autobahn ( durchgehender Schmalstrich );Linie
+01.03.06;#001.8093;;Leitlinie Autobahn ( unterbrochener Schmalstrich );Linie
+01.03.06;#001.8094;;Leitlinie Autobahn, innerhalb von Knotenpunkten;Linie
+01.03.06;#001.8095;;Warnlinie Autobahn;Linie
+01.03.06;#001.8096;;Sonderfahrstreifenbegrenzung;Linie
+01.03.06;#001.8097;;Text ( wie BUS, 30 , 50 u.ä.) Positionierungspunkt;Punkt
+01.03.06;#001.8097;;Fahrbahnbegrenzungslinie unterbrochen Autobahn;Linie
+01.03.06;#001.8098;;aufgemalte Verkehrszeichen und sonstiges,;Punkt
+01.03.06;#001.8098;;aufgemalte Verkehrszeichen und sonstiges;Linie
+01.03.06;#000.8020;;Grenzpunkt ;Punkt
+01.03.06;#000.8020;;Grenzlinie;Linie
+01.03.06;#002.8001;;Grenzpunkt  aufgemessen (nicht amtl. Koord.);Punkt
+01.03.06;#002.8001;;Grenze der BAB ( oder anderer klas. Straße );Linie
+01.03.06;#002.8102;;Grenzpunkt aus ALK (amtl. endgültige Koord.) ;Punkt
+01.03.06;#002.8102;;Flurstücksgrenze aus ALK;Linie
+01.03.06;#002.8103;;Grenzpunkt aus ALK ( grafische Koord.);Punkt
+01.03.06;#002.8004;;Grenzpunkt aus Konstruktion/Digitalisierung;Punkt
+01.03.06;#002.8105;;unvermarkter Grenzpunkt  (amtl. endgültige Koord.);Punkt
+01.03.06;#002.8006;;unvermarkter Grenzpunkt  ( grafische Koord.);Punkt
+01.03.06;#002.8007;;unvermarkter Grenzpunkt aus Digi./Konstr.;Punkt
+01.03.06;#002.8007;;Grenze Tank- und Rast GmbH;Linie
+01.03.06;#002.8108;;Grenzpunkt mit unklarer Codierung in ALK;Punkt
+01.03.06;#002.8109;;Kreismittelpunkt aus ALK;Punkt
+01.03.06;#002.8109;;Zuordnungspfeil für Flst.Nr. aus ALK;Linie
+01.03.06;#000.8021;;Grunderwerbsgrenzen Knickpunkte;Punkt
+01.03.06;#000.8021;;Grunderwerbsgrenzen;Linie
+01.03.06;#002.8010;;Knickpunkt Grunderwerb Sonderflächen;Punkt
+01.03.06;#002.8010;;Grenzlinie Grunderwerb Sonderfläche;Linie
+01.03.06;#002.8011;;Knickpunkt Grunderwerb Bund;Punkt
+01.03.06;#002.8011;;Grenzlinie Grunderwerb Bund;Linie
+01.03.06;#002.8012;;Knickpunkt Grunderwerb Land;Punkt
+01.03.06;#002.8012;;Grenzlinie Grunderwerb Land;Linie
+01.03.06;#002.8013;;Knickpunkt Grunderwerb Kreis;Punkt
+01.03.06;#002.8013;;Grenzlinie Grunderwerb Kreis;Linie
+01.03.06;#002.8014;;Knickpunkt Grunderwerb Gemeinde;Punkt
+01.03.06;#002.8014;;Grenzlinie Grunderwerb Gemeinde;Linie
+01.03.06;#002.8015;;Knickpunkt dauernd beanspruchte Flächen (DB);Punkt
+01.03.06;#002.8015;;Grenzlinie dauernd beanspruchte Flächen (DB);Linie
+01.03.06;#002.8016;;Knickpunkt vorübergehend beanspruchte Flächen (VB);Punkt
+01.03.06;#002.8016;;Grenzlinie vorübergehend beanspruchte Flächen (VB);Linie
+01.03.06;#002.8017;;Knickpunkt Grunderwerb Nebenanlagen;Punkt
+01.03.06;#002.8017;;Grenzlinie Grunderwerb Nebenanlagen;Linie
+01.03.06;#002.8018;;Knickpunkt  Ausgleichsfläche;Punkt
+01.03.06;#002.8018;;Grenzlinie Ausgleichsfläche ;Linie
+01.03.06;#002.8019;;Knickpunkt Tauschflächen;Punkt
+01.03.06;#002.8019;;Grenzlinie Tauschflächen;Linie
+01.03.06;#000.8022;;Wohnhaus ;Punkt
+01.03.06;#000.8022;;Gebäudelinie Wohnhaus (Aufnahme: ohne Schraffur);Linie
+01.03.06;#002.8020;;Gebäudelinie Wohnhaus aus Aufnahme mit Schraffur;Linie
+01.03.06;#002.8021;;Wohnhaus aufgemessen;Punkt
+01.03.06;#002.8021;;Gebäudelinie Wohnhaus aufgemessen;Linie
+01.03.06;#002.8122;;Gebäudepunkt aus ALK;Punkt
+01.03.06;#002.8122;;Gebäudelinie Wohnhaus aus ALK Schraffur S2;Linie
+01.03.06;#002.8023;;Hochhausumrisslinie ( Stift 4 );Linie
+01.03.06;#002.8024;;Fensterhöhe ( für Schallschutzberechnungen );Punkt
+01.03.06;#002.8024;;Gebäudelinie innen;Linie
+01.03.06;#002.8025;;EFH (Erdgeschoss-Fußboden-Höhe) ;Punkt
+01.03.06;#002.8025;;Gebäudelinie unterirdisch (allgem.);Linie
+01.03.06;#002.8026;;Wohnhaus aus Digitalisierung / Konstruktion;Punkt
+01.03.06;#002.8026;;Gebäudelinie Wohnhaus aus Digitalisierung / Konstruktion;Linie
+01.03.06;#002.8027;;Firsthöhe;Punkt
+01.03.06;#002.8027;;Firstlinie Wohnhaus;Linie
+01.03.06;#002.8028;;Wohnhaus geplant ;Punkt
+01.03.06;#002.8028;;Gebäudelinie Wohnhaus geplant ;Linie
+01.03.06;#002.8029;;Wohnhaus oben;Punkt
+01.03.06;#002.8029;;Gebäudelinie Wohnhaus oben;Linie
+01.03.06;#000.8023;;gewerblich genutztes Gebäude ;Punkt
+01.03.06;#000.8023;;Gebäudelinie Gewerbegebäude (Aufnahme: ohne Schraffur);Linie
+01.03.06;#002.8030;;Gebäudelinie Gewerbegebäude aus Aufnahme mit Schraffur;Linie
+01.03.06;#002.8031;;gewerblich genutztes Gebäude aufgemessen;Punkt
+01.03.06;#002.8031;;Gebäudelinie Gewerbegebäude aufgemessen ;Linie
+01.03.06;#002.8132;;Gebäudelinie Gewerbegebäude aus ALK Schraffur P2;Linie
+01.03.06;#002.8135;;Gebäudelinie aus ALK Schraffur S0 - keine Schraffur;Linie
+01.03.06;#002.8036;;gewerblich genutztes Gebäude Digi./Konstruktion;Punkt
+01.03.06;#002.8036;;Gebäudelinie Gewerbegebäude aus Digitalisierung / Konstruktion;Linie
+01.03.06;#002.8037;;Firstlinie Gewerbegebäude;Linie
+01.03.06;#002.8038;;gewerblich genutztes Gebäude geplant / im Bau;Punkt
+01.03.06;#002.8038;;Gebäudelinie Gewerbegebäude geplant / im Bau;Linie
+01.03.06;#002.8039;;gewerblich genutztes Gebäude oben;Punkt
+01.03.06;#002.8039;;Gebäudelinie Gewerbegebäude oben;Linie
+01.03.06;#000.8024;;öffentliche Gebäude ;Punkt
+01.03.06;#000.8024;;Gebäudelinie Schraffur f. öffentl. Gebäude (50 gon fett)  (bei terrestrischer Aufnahme: ohne Schraffur);Linie
+01.03.06;#002.8040;;Gebäudelinie öffentliches Gebäude aus Aufnahme mit Schraffur ;Linie
+01.03.06;#002.8041;;öffentliches Gebäude aufgemessen;Punkt
+01.03.06;#002.8041;;Gebäudelinie öffentliches Gebäude aufgemessen;Linie
+01.03.06;#002.8142;;Gebäudelinie öffentliches Gebäude aus ALK Schraffur S4;Linie
+01.03.06;#002.8046;;öffentliches Gebäude aus Digi./Konstruktion;Punkt
+01.03.06;#002.8046;;Gebäudelinie öffentliches Gebäude aus Digi. / Konstruktion;Linie
+01.03.06;#002.8048;;öffentliches Gebäude geplant;Punkt
+01.03.06;#002.8048;;Gebäudelinie öffentliches Gebäude geplant;Linie
+01.03.06;#002.8049;;öffentliches Gebäude oben;Punkt
+01.03.06;#002.8049;;Gebäudelinie öffentliches Gebäudelinie oben;Linie
+01.03.06;#000.8025;;Überdachungen, Durchfahrt ;Punkt
+01.03.06;#000.8025;;Umgrenzung der Überdachung (allgemein);Linie
+01.03.06;#002.8051;;Überdachung/Durchfahrt aufgemessen;Punkt
+01.03.06;#002.8051;;Umgrenzung der Überdachung / Durchfahrt (geschlossen);Linie
+01.03.06;#002.8052;;Umgrenzung der Überdachung / Durchfahrt (offen);Linie
+01.03.06;#002.8053;;Überdachungsdiagonale (gestrichelt);Linie
+01.03.06;#002.8056;;Überdachung/Durchfahrt aus Digi. / Konstruktion;Punkt
+01.03.06;#002.8059;;Überdachung oben;Punkt
+01.03.06;#002.8059;;Überdachung oben;Linie
+01.03.06;#000.8026;;Gebäudeanbauten;Punkt
+01.03.06;#000.8026;;Gebäudeanbauten;Linie
+01.03.06;#002.8061;;Kellerfenster;Punkt
+01.03.06;#002.8062;;Lichtschacht;Punkt
+01.03.06;#002.8062;;Lichtschacht Umrisslinie;Linie
+01.03.06;#002.8063;;Terrasse;Punkt
+01.03.06;#002.8063;;Terrasse Umrisslinie;Linie
+01.03.06;#002.8065;;Gebäudeeingang;Punkt
+01.03.06;#002.8065;;Gebäudeeingang;Linie
+01.03.06;#002.8069;;Anbau oben;Punkt
+01.03.06;#002.8069;;Anbau oben;Linie
+01.03.06;#000.8027;;Bauleitplanung ( Grenzpunkt );Punkt
+01.03.06;#000.8027;;Bauleitplanung ( Grenzlinie );Linie
+01.03.06;#002.8071;;Grenzlinie Bebauungsplan;Punkt
+01.03.06;#002.8071;;Grenzlinie Bebauungsplan;Linie
+01.03.06;#002.8072;;Wohnbaufläche;Punkt
+01.03.06;#002.8072;;Wohnbaufläche;Linie
+01.03.06;#027.8021;;Kleinsiedlungsgebiet;Punkt
+01.03.06;#027.8021;;  Kleinsiedlungsgebiet;Linie
+01.03.06;#027.8022;;reines Wohngebiet;Punkt
+01.03.06;#027.8022;;reines Wohngebiet;Linie
+01.03.06;#027.8023;;allgemeines Wohngebiet;Punkt
+01.03.06;#027.8023;;allgemeines Wohngebiet;Linie
+01.03.06;#027.8024;;besonderes Wohngebiet;Punkt
+01.03.06;#027.8024;;besonderes Wohngebiet;Linie
+01.03.06;#002.8073;;Gemischte Baufläche;Punkt
+01.03.06;#002.8073;;Gemischte Baufläche;Linie
+01.03.06;#027.8031;;Dorfgebiet;Punkt
+01.03.06;#027.8031;;Dorfgebiet;Linie
+01.03.06;#027.8032;;Mischgebiet;Punkt
+01.03.06;#027.8032;;Mischgebiet;Linie
+01.03.06;#027.8033;;Kerngebiet;Punkt
+01.03.06;#027.8033;;Kerngebiet;Linie
+01.03.06;#002.8074;;Gewerbliche Baufläche;Punkt
+01.03.06;#002.8074;;Gewerbliche Baufläche;Linie
+01.03.06;#027.8041;;Gewerbegebiet;Punkt
+01.03.06;#027.8041;;Gewerbegebiet;Linie
+01.03.06;#027.8042;;Industriegebiet;Punkt
+01.03.06;#027.8042;;Industriegebiet;Linie
+01.03.06;#002.8075;;Sonderbauflächen;Punkt
+01.03.06;#002.8075;;Sonderbauflächen;Linie
+01.03.06;#027.8051;;sonstige Sondergebiete ( Krankenhaus );Punkt
+01.03.06;#027.8051;;sonstige Sondergebiete ( Krankenhaus );Linie
+01.03.06;#027.8052;;sonstige Sondergebiete ( Schule );Punkt
+01.03.06;#027.8052;;sonstige Sondergebiete (Schule );Linie
+01.03.06;#002.8076;;Grenzpunkt Flächennutzungsplan;Punkt
+01.03.06;#002.8076;;Grenzlinie Flächennutzungsplan;Linie
+01.03.06;#000.8028;;Gemarkungsgrenzpunkt (allgemein);Punkt
+01.03.06;#000.8028;;Gemarkungsgrenze (allgemein);Linie
+01.03.06;#002.8080;;Gemarkungsgrenze;Linie
+01.03.06;#002.8081;;Gemarkungsgrenzpunkt aufgemessen;Punkt
+01.03.06;#002.8081;;Flurgrenze;Linie
+01.03.06;#002.8082;;Gemarkungsgrenzpunkt amtl. Koordinaten;Punkt
+01.03.06;#002.8082;;Gemeinde-, Stadtgrenze;Linie
+01.03.06;#002.8083;;Kreisgrenze;Linie
+01.03.06;#002.8084;;Grenze der Region;Linie
+01.03.06;#002.8085;;Gemarkungsgrenzpunkt unvermarkt;Punkt
+01.03.06;#002.8085;;RP-Bezirksgrenze;Linie
+01.03.06;#002.8086;;Gemarkungsgrenzpunkt aus Digi. / Konstruktion;Punkt
+01.03.06;#002.8086;;Landes- (Staats-) grenze;Linie
+01.03.06;#002.8087;;Bundesgrenze;Linie
+01.03.06;#000.8029;;Nutzungsgrenze ;Punkt
+01.03.06;#000.8029;;Nutzungsgrenzlinie ( auch aus ALK );Linie
+01.03.06;#002.8090;;Nutzungsgrenze aus Befliegung oder Geländeaufnahme;Punkt
+01.03.06;#002.8090;;Nutzungsgrenzlinie aus Befliegung oder Geländeaufnahme;Linie
+01.03.06;#002.8092;;Nutzungsgrenze aus amtl. Koordinaten;Punkt
+01.03.06;#002.8095;;Acker;Linie
+01.03.06;#002.8096;;Funktionsfläche ( z. B. Tank- und Rastanlagen );Linie
+01.03.06;#002.8097;;Grünland (intensiv );Linie
+01.03.06;#002.8098;;Grünland (extensiv);Linie
+01.03.06;#002.8099;;Brachfläche, Unland;Linie
+01.03.06;#000.8030;;Wegrand ;Punkt
+01.03.06;#000.8030;;Wegrand ;Linie
+01.03.06;#003.8001;;Wegrand aufgemessen;Punkt
+01.03.06;#003.8001;;Grasweg / Erdweg;Linie
+01.03.06;#003.8002;;Wegrand aus berechneten Koordinaten;Punkt
+01.03.06;#003.8002;;wassergebunden befestigter Weg;Linie
+01.03.06;#003.8003;;bit. befestigter Weg;Linie
+01.03.06;#003.8004;;gepflasterter Weg;Linie
+01.03.06;#003.8005;;Wegmitte;Punkt
+01.03.06;#003.8005;;sonstiger befestigter Weg;Linie
+01.03.06;#003.8006;;Wegrand digitalisiert / Konstruktion;Punkt
+01.03.06;#003.8006;;bit. Gehweg;Linie
+01.03.06;#003.8007;;bit. Radweg;Linie
+01.03.06;#003.8008;;bit. kombinierter Rad-/Gehweg;Linie
+01.03.06;#003.8009;;bit. Mehrzweckweg;Linie
+01.03.06;#000.8031;;Mulde  (Tiefpunkt);Punkt
+01.03.06;#000.8031;;Muldensohle;Linie
+01.03.06;#003.8011;;Mulde unbefestigt;Linie
+01.03.06;#003.8012;;Mulde befestigt;Linie
+01.03.06;#003.8019;;Muldenaußenrand ( Punkt der Begrenzungslinie );Punkt
+01.03.06;#003.8019;;Muldenaußenrandlinie;Linie
+01.03.06;#000.8032;;Wasserbauwerke;Punkt
+01.03.06;#000.8032;;Wasserbauwerke;Linie
+01.03.06;#003.8026;;Wehr;Punkt
+01.03.06;#003.8026;;Wehr;Linie
+01.03.06;#003.8027;;Rechen;Punkt
+01.03.06;#003.8027;;Rechen;Linie
+01.03.06;#003.8028;;Schleuse;Punkt
+01.03.06;#003.8028;;Schleuse;Linie
+01.03.06;#000.8033;;Mauer unten ;Punkt
+01.03.06;#000.8033;;Mauer unten;Linie
+01.03.06;#003.8030;;Mauer Umrissline unten;Linie
+01.03.06;#003.8031;;Hinterkante Mauer unten ( i. d. R. ohne Darstellung );Linie
+01.03.06;#003.8032;;Mauer rechts d=20 cm ( Dicke );Linie
+01.03.06;#003.8033;;Mauer rechts d=30 cm ( Dicke );Linie
+01.03.06;#003.8034;;Mauer rechts d=40 cm ( Dicke );Linie
+01.03.06;#003.8035;;Mauer rechts d=50 cm ( Dicke );Linie
+01.03.06;#003.8036;;Mauer rechts d=60 cm ( Dicke );Linie
+01.03.06;#000.8034;;Mauer oben;Punkt
+01.03.06;#000.8034;;Mauer oben;Linie
+01.03.06;#003.8040;;Mauer Umrissline oben;Linie
+01.03.06;#003.8041;;L-Steine;Punkt
+01.03.06;#003.8041;;L-Steine (rechts);Linie
+01.03.06;#003.8042;;U-Steine;Punkt
+01.03.06;#003.8042;;U-Steine (rechts);Linie
+01.03.06;#003.8043;;Gabionen;Punkt
+01.03.06;#003.8043;;Gabionen (rechts);Linie
+01.03.06;#000.8035;;Schienenoberkante;Punkt
+01.03.06;#000.8035;;Schiene;Linie
+01.03.06;#003.8051;;Punkt einer Schienen-Mittellinie;Punkt
+01.03.06;#003.8051;;Schienenmittellinie - Gleisachse (Normalspur);Linie
+01.03.06;#003.8052;;Schienenmittellinie - Gleisachse ( 1 m  - Spur );Linie
+01.03.06;#003.8053;;Schienenmittellinie - Gleisachse ( 0.75 m - Spur );Linie
+01.03.06;#003.8057;;Schotterbett unten;Punkt
+01.03.06;#003.8057;;Schotterbett unten;Linie
+01.03.06;#003.8058;;Schotterbett oben;Punkt
+01.03.06;#003.8058;;Schotterbett oben;Linie
+01.03.06;#000.8036;;Rand einer befestigten Fläche;Punkt
+01.03.06;#000.8036;;Rand einer befestigten Fläche;Linie
+01.03.06;#003.8061;;Betonbefestigung;Punkt
+01.03.06;#003.8061;;Betonbefestigung;Linie
+01.03.06;#003.8062;;bituminöse Befestigung;Punkt
+01.03.06;#003.8062;;bituminöse Befestigung;Linie
+01.03.06;#003.8063;;Pflaster Naturstein;Punkt
+01.03.06;#003.8063;;Pflaster Naturstein;Linie
+01.03.06;#003.8064;;Pflaster Kunststein;Punkt
+01.03.06;#003.8064;;Pflaster Kunststein;Linie
+01.03.06;#003.8065;;wassergebundene Befestigung;Punkt
+01.03.06;#003.8065;;wassergebundene Befestigung;Linie
+01.03.06;#003.8067;;Rasengittersteine;Punkt
+01.03.06;#003.8067;;Rasengittersteine;Linie
+01.03.06;#003.8069;;sonstige Befestigung;Punkt
+01.03.06;#003.8069;;sonstige Befestigung;Linie
+01.03.06;#000.8037;;Graben unten;Punkt
+01.03.06;#000.8037;;Graben unten;Linie
+01.03.06;#003.8075;;Grabentiefpunkt / Grabenmitte;Punkt
+01.03.06;#003.8075;;Grabensohle / Grabenmitte;Linie
+01.03.06;#000.8038;;Graben oben;Punkt
+01.03.06;#000.8038;;Graben oben;Linie
+01.03.06;#000.8039;;sonst. topographische Punkte;Punkt
+01.03.06;#000.8039;;sonst. topographische Linien;Linie
+01.03.06;#003.8190;;Punkt einer topografische Linie aus ALK;Punkt
+01.03.06;#003.8192;;topographische Linie aus ALK;Linie
+01.03.06;#003.8093;;topographische Linie von DRITTEN;Linie
+01.03.06;#003.8194;;herausfallender Punkt aus ALK;Punkt
+01.03.06;#003.8195;;historischer Punkt aus ALK;Punkt
+01.03.06;#003.8195;;überdeckte topografische Linie aus ALK;Linie
+01.03.06;#003.8197;;Böschungslinie unten aus ALK;Linie
+01.03.06;#003.8198;;Böschungslinie oben aus ALK;Linie
+01.03.06;#003.8199;;Punkt ohne Kennung aus ALK ;Punkt
+01.03.06;#003.8199;;Linie ohne Kennung aus ALK;Linie
+01.03.06;#000.8040;;Brückenwiderlager;Punkt
+01.03.06;#000.8040;;Brückenwiderlager;Linie
+01.03.06;#004.8000;;Kreuzungspunkt des BW;Punkt
+01.03.06;#004.8001;;Brückenwiderlager unten;Punkt
+01.03.06;#004.8001;;Brückenwiderlager unten;Linie
+01.03.06;#004.8002;;Brückenwiderlager oben;Punkt
+01.03.06;#004.8002;;Brückenwiderlager oben;Linie
+01.03.06;#004.8003;;Auflager;Punkt
+01.03.06;#004.8003;;Auflager Umrisslinie;Linie
+01.03.06;#004.8004;;Dehnfuge;Punkt
+01.03.06;#004.8004;;Dehnfuge;Linie
+01.03.06;#004.8005;;Punkt der Auflagerachse;Punkt
+01.03.06;#004.8005;;Auflagerachse;Linie
+01.03.06;#004.8006;;Fahrbahnübergang;Punkt
+01.03.06;#004.8006;;Fahrbahnübergang;Linie
+01.03.06;#004.8007;;Gewölbefußpunkt;Punkt
+01.03.06;#004.8007;;Gewölbefuß;Linie
+01.03.06;#004.8008;;Flügelwand unten;Punkt
+01.03.06;#004.8008;;Flügelwand unten;Linie
+01.03.06;#004.8009;;Flügelwand oben;Punkt
+01.03.06;#004.8009;;Flügelwand oben;Linie
+01.03.06;#000.8041;;Pfeiler;Punkt
+01.03.06;#000.8041;;Pfeiler;Linie
+01.03.06;#004.8011;;Pfeiler unten;Punkt
+01.03.06;#004.8011;;Pfeiler unten;Linie
+01.03.06;#004.8012;;Pfeiler oben;Punkt
+01.03.06;#004.8012;;Pfeiler oben;Linie
+01.03.06;#004.8015;;Pfeilerfundament unten;Punkt
+01.03.06;#004.8015;;Pfeilerfundament unten;Linie
+01.03.06;#004.8016;;Pfeilerfundament oben;Punkt
+01.03.06;#004.8016;;Pfeilerfundament oben;Linie
+01.03.06;#004.8019;;Arbeitsraum an Bauwerken;Punkt
+01.03.06;#004.8019;;Arbeitsraum an Bauwerken;Linie
+01.03.06;#000.8042;;Sonderbauwerke;Punkt
+01.03.06;#000.8042;;Sonderbauwerke;Linie
+01.03.06;#004.8021;;Tunnelportal;Punkt
+01.03.06;#004.8021;;Tunnelportal;Linie
+01.03.06;#004.8023;;Dunglege;Punkt
+01.03.06;#004.8023;;Dunglege;Linie
+01.03.06;#004.8027;;Stahlfertigteildurchlaß sichtbarer Teil;Punkt
+01.03.06;#004.8027;;Stahlfertigteildurchlaß sichtbarer Teil;Linie
+01.03.06;#004.8028;;Stahlfertigteildurchlaß unsichtbarer Teil;Punkt
+01.03.06;#004.8028;;Stahlfertigteildurchlaß unsichtbarer Teil;Linie
+01.03.06;#000.8043;;Stützmauer unten ;Punkt
+01.03.06;#000.8043;;Stützmauer unten ;Linie
+01.03.06;#004.8035;;Betongleitwand mit Hinterfüllung unten;Punkt
+01.03.06;#004.8035;;Betongleitwand mit Hinterfüllung unten;Linie
+01.03.06;#000.8044;;Stützmauer oben;Punkt
+01.03.06;#000.8044;;Stützmauer oben;Linie
+01.03.06;#004.8045;;Betongleitwand mit Hinterfüllung oben;Punkt
+01.03.06;#004.8045;;Betongleitwand mit Hinterfüllung oben;Linie
+01.03.06;#000.8045;;Treppe;Punkt
+01.03.06;#000.8045;;Treppe;Linie
+01.03.06;#004.8052;;Rolltreppe;Punkt
+01.03.06;#004.8052;;Rolltreppe;Linie
+01.03.06;#004.8053;;Podest;Punkt
+01.03.06;#004.8053;;Podest;Linie
+01.03.06;#004.8055;;Rampe;Punkt
+01.03.06;#004.8055;;Rampe;Linie
+01.03.06;#004.8056;;Fahrstuhl;Punkt
+01.03.06;#004.8056;;Fahrstuhl;Linie
+01.03.06;#000.8046;;Geländer;Punkt
+01.03.06;#000.8046;;Geländer;Linie
+01.03.06;#004.8061;;Palisade;Punkt
+01.03.06;#004.8061;;Palisade;Linie
+01.03.06;#004.8065;;Schutzgeländer um Kraftstoffzapfsäulen (Tank- und Rastanlagen);Punkt
+01.03.06;#004.8065;;Schutzgeländer um Kraftstoffzapfsäulen (Tank- und Rastanlagen);Linie
+01.03.06;#004.8069;;Geländer oben;Punkt
+01.03.06;#004.8069;;Geländer oben;Linie
+01.03.06;#000.8047;;Lärmschutzwand;Punkt
+01.03.06;#000.8047;;Lärmschutzwand;Linie
+01.03.06;#004.8071;;Lärmschutzwand unten Straßenseite;Punkt
+01.03.06;#004.8071;;Lärmschutzwand unten Straßenseite;Linie
+01.03.06;#004.8072;;Lärmschutzwand unten Außenseite;Punkt
+01.03.06;#004.8072;;Lärmschutzwand unten Außenseite ;Linie
+01.03.06;#004.8073;;Lärmschutzwand oben Straßenseite;Punkt
+01.03.06;#004.8073;;Lärmschutzwand oben Straßenseite;Linie
+01.03.06;#004.8074;;Lärmschutzwand oben Außenseite;Punkt
+01.03.06;#004.8074;;Lärmschutzwand oben Außenseite;Linie
+01.03.06;#004.8077;;Lärmschutzwand unten;Punkt
+01.03.06;#004.8077;;Umrisslinien der Lärmschutzwand unten;Linie
+01.03.06;#004.8078;;Lärmschutzwand oben;Punkt
+01.03.06;#004.8078;;Umrisslinien der Lärmschutzwand oben;Linie
+01.03.06;#004.8079;;Lärmschutzwand oben mittig;Punkt
+01.03.06;#004.8079;;Lärmschutzwand mittig (oben);Linie
+01.03.06;#084.8070;;Lärmschutzwand Beton;Linie
+01.03.06;#084.8071;;Lärmschutzwand Holz;Linie
+01.03.06;#084.8072;;Lärmschutzwand Metall;Linie
+01.03.06;#084.8073;;Lärmschutzwand Glas;Linie
+01.03.06;#084.8074;;Lärmschutzwand Kunststoff;Linie
+01.03.06;#084.8075;;Lärmschutzwand Beton bepflanzt;Linie
+01.03.06;#084.8076;;Lärmschutzwand Holz bepflanzt;Linie
+01.03.06;#084.8077;;Lärmschutzwand Metall bepflanzt;Linie
+01.03.06;#084.8078;;Lärmschutzwand Glas bepflanzt;Linie
+01.03.06;#084.8079;;Lärmschutzwand Kunststoff bepflanzt;Linie
+01.03.06;#000.8048;;Unterkante Bauwerk;Punkt
+01.03.06;#000.8048;;Unterkante Bauwerk;Linie
+01.03.06;#000.8049;;Gesimskante;Punkt
+01.03.06;#000.8049;;Gesimskante;Linie
+01.03.06;#000.8050;;Kontrollschacht  der Straßenentwässerung;Punkt
+01.03.06;#000.8050;;Straßenentwässerungsleitung;Linie
+01.03.06;#005.8002;;Leichtstoffabscheider (Kraftstoff);Punkt
+01.03.06;#005.8002;;Leichtstoffabscheider (Kraftstoff) Umrisslinie;Linie
+01.03.06;#005.8003;;Leichtstoffabscheider (Fett);Punkt
+01.03.06;#005.8003;;Leichtstoffabscheider (Fett) Umrisslinie;Linie
+01.03.06;#005.8004;;Schacht mit Pumpwerk;Punkt
+01.03.06;#005.8004;;Schacht mit Pumpwerk Umrisslinie;Linie
+01.03.06;#005.8005;;Drosselschacht;Punkt
+01.03.06;#005.8005;;Sickerrohrleitung, Dränage;Linie
+01.03.06;#005.8006;;Kontrollschacht rund;Punkt
+01.03.06;#005.8007;;Kontrollschacht eckig ( auch deaktiv );Punkt
+01.03.06;#005.8007;;Umrisslinie Absturzbauwerk (Energieumwandlungsschacht);Linie
+01.03.06;#005.8008;;Kontrollschacht ( künftig entfallend );Punkt
+01.03.06;#005.8008;;Entwässerungsleitung ( künftig entfallend );Linie
+01.03.06;#005.8009;;Ecke des Kontrollschachtes der Entwässerung;Punkt
+01.03.06;#005.8009;;Umrisslinie des Kontrollschachtes;Linie
+01.03.06;#000.8051;;Muldenablaufschacht;Punkt
+01.03.06;#005.8011;;Muldenablaufschacht rund;Punkt
+01.03.06;#005.8012;;Muldenablaufschacht eckig;Punkt
+01.03.06;#005.8013;;Muldenablaufschacht eckig Betonsockel;Punkt
+01.03.06;#005.8018;;Muldenablaufschacht ( künftig entfallend );Punkt
+01.03.06;#005.8019;;Ecke des Muldenablaufschachtes (-bauwerkes);Punkt
+01.03.06;#005.8019;;Umrisslinie des Muldenablaufschachtes (-bauwerkes);Linie
+01.03.06;#000.8052;;Straßenablauf (allg.);Punkt
+01.03.06;#005.8021;;Straßenablaufschacht mittig;Punkt
+01.03.06;#005.8022;;Straßenablaufschacht schmal (seitlich);Punkt
+01.03.06;#005.8023;;Bergablaufschacht breit (seitlich);Punkt
+01.03.06;#005.8024;;Hofablauf (mittig);Punkt
+01.03.06;#005.8028;;Straßenablaufschacht ( künftig entfallend );Punkt
+01.03.06;#005.8029;;Ecke eines Straßenablaufs;Punkt
+01.03.06;#005.8029;;Umrisslinie eines Straßenablaufs;Linie
+01.03.06;#000.8053;;Straßenablauf an Randstein ( Bezugspunkt mittig ) ;Punkt
+01.03.06;#005.8031;;Straßenablauf an Randstein (Bezugspunkt am Hochbord / seitlich);Punkt
+01.03.06;#005.8038;;Straßenablauf an Randstein ( künftig entfallend ) ;Punkt
+01.03.06;#000.8054;;Entwässerungsrinne;Punkt
+01.03.06;#000.8054;;Entwässerungsrinne;Linie
+01.03.06;#005.8042;;Kastenrinne;Punkt
+01.03.06;#005.8042;;Kastenrinne;Linie
+01.03.06;#005.8043;;Spitzrinne;Punkt
+01.03.06;#005.8043;;Spitzrinne;Linie
+01.03.06;#005.8044;;Pflasterrinne;Punkt
+01.03.06;#005.8044;;Pflasterrinne;Linie
+01.03.06;#005.8048;;Tiefpunkt in Rinne;Punkt
+01.03.06;#005.8048;;Rinnensohle / Mitte Rinne;Linie
+01.03.06;#005.8049;;Punkt einer Umrisslinie einer Rinne;Punkt
+01.03.06;#005.8049;;Umrisslinie einer Rinne;Linie
+01.03.06;#000.8055;;Durchlass/Dole;Punkt
+01.03.06;#000.8055;;Umrisslinie Durchlass/Dole;Linie
+01.03.06;#005.8051;;Durchlass - Einlauf;Punkt
+01.03.06;#005.8052;;Durchlass - Auslauf;Punkt
+01.03.06;#005.8053;;Dole - Einlauf;Punkt
+01.03.06;#005.8054;;Dole - Auslauf;Punkt
+01.03.06;#005.8055;;Auslauf einer Entwässerungsleitung;Punkt
+01.03.06;#005.8055;;unterirdischer Verlauf eines Durchlasses / einer Dole;Linie
+01.03.06;#005.8056;;Einlauf ( Rohr im Graben );Punkt
+01.03.06;#005.8057;;Einleitungsstelle;Punkt
+01.03.06;#005.8058;;Durchlass/Dole ( künftig entfallend );Punkt
+01.03.06;#005.8059;;Eckpunkt Durchlass / Dole;Punkt
+01.03.06;#005.8059;;Umrisslinie Durchlass / Dole - geländeunabhängig;Linie
+01.03.06;#000.8056;;Schlitzrinne;Punkt
+01.03.06;#000.8056;;Schlitzrinne;Linie
+01.03.06;#005.8061;;Schlitzrinne Außenrand;Punkt
+01.03.06;#005.8061;;Schlitzrinne Umrisslinie;Linie
+01.03.06;#005.8062;;Schlitzrinne rechts;Punkt
+01.03.06;#005.8062;;Schlitzrinne rechts;Linie
+01.03.06;#000.8057;;Punkt eines Linienverlaufs ( Nutzung für Hilfspunkte E-Leitungen bei Digitalisierung );Punkt
+01.03.06;#005.8077;;Leitungs-/Kabelverlauf Aufnahmepunkt in Geländehöhe;Punkt
+01.03.06;#005.8078;;Leitungs-/Kabelverlauf Aufnahmepunkt Oberkante Leitung;Punkt
+01.03.06;#005.8079;;Leitungs-/Kabelverlauf Aufnahmepunkt Graben unten;Punkt
+01.03.06;#000.8058;;Entlüftung ;Punkt
+01.03.06;#005.8085;;Domschacht;Punkt
+01.03.06;#005.8086;;Domschacht Umrisslinienpunkt;Punkt
+01.03.06;#005.8086;;Domschacht Umrisslinie;Linie
+01.03.06;#005.8089;;Entlüftung oben;Punkt
+01.03.06;#000.8059;;Schachtsohle;Punkt
+01.03.06;#005.8091;;Hilfspunkt Entwässerung;Punkt
+01.03.06;#005.8093;;Einlauf im Schacht   ( Haupteinlauf );Punkt
+01.03.06;#005.8095;;Auslauf im Schacht;Punkt
+01.03.06;#005.8097;;Nebeneinlauf im Schacht  ;Punkt
+01.03.06;#005.8099;;Überlauf ;Punkt
+01.03.06;#000.8060;;Kontrollschacht  einer Ver- und Entsorgungsrohrleitung;Punkt
+01.03.06;#000.8060;;Ver-, Entsorgungsrohrleitung (allg.);Linie
+01.03.06;#006.8000;;Schutzrohr;Punkt
+01.03.06;#006.8000;;Schutzrohr ( 8600 Schutzrohr – Umriss );Linie
+01.03.06;#006.8001;;Kontrollschacht Wasserleitung ;Punkt
+01.03.06;#006.8001;;Wasserleitung ( Digi-Hilfspkt: 691 );Linie
+01.03.06;#006.8002;;Kontrollschacht Fernwärmeleitung;Punkt
+01.03.06;#006.8002;;Fernwärmeleitung ( Digi-Hilfspkt: 692 );Linie
+01.03.06;#006.8003;;Kontrollschacht Ölleitung;Punkt
+01.03.06;#006.8003;;Ölleitung ( Digi-Hilfspkt: 693 );Linie
+01.03.06;#006.8004;;Kontrollschacht Gasleitung;Punkt
+01.03.06;#006.8004;;Gasleitung ( Digi-Hilfspkt: 694 );Linie
+01.03.06;#006.8005;;Wasserfassung (Brunnen);Punkt
+01.03.06;#006.8005;;Wasserfassung (Brunnen) - Umrisslinie;Linie
+01.03.06;#006.8006;;Kontrollschacht Regenwasserleitung;Punkt
+01.03.06;#006.8006;;Regenwasserleitung ( Digi-Hilfspkt: 695 );Linie
+01.03.06;#006.8007;;Kontrollschacht Mischwasser ;Punkt
+01.03.06;#006.8007;;Mischwasserleitung ( Digi-Hilfspkt: 696 );Linie
+01.03.06;#006.8008;;Kontrollschacht Schmutzwasser ;Punkt
+01.03.06;#006.8008;;Schmutzwasserleitung ( Digi-Hilfspkt: 697 );Linie
+01.03.06;#006.8009;;Kontrollschacht-Bauwerksecke;Punkt
+01.03.06;#006.8009;;Umrisslinie des Kontrollschacht-Bauwerks;Linie
+01.03.06;#000.8061;;Schieberschacht;Punkt
+01.03.06;#006.8011;;Schieberschacht Wasser;Punkt
+01.03.06;#006.8012;;Schieberschacht Fernwärmeleitung;Punkt
+01.03.06;#006.8013;;Schieberschacht Ölleitung;Punkt
+01.03.06;#006.8014;;Schieberschacht Gas;Punkt
+01.03.06;#006.8015;;Schieberschacht Schmutzwasserleitung;Punkt
+01.03.06;#006.8018;;Kontrollschacht ( künftig entfallend );Punkt
+01.03.06;#006.8018;;Leitung ( künftig entfallend );Linie
+01.03.06;#000.8062;;Schaltkasten;Punkt
+01.03.06;#006.8020;;Schaltkasten oben mitte;Punkt
+01.03.06;#006.8021;;Verbindungsmuffe;Punkt
+01.03.06;#006.8022;;Abzweigmuffe;Punkt
+01.03.06;#006.8023;;Kondensatormuffe;Punkt
+01.03.06;#006.8024;;Pupinspulenmuffe, Pupinspulenkasten;Punkt
+01.03.06;#006.8025;;Blindmuffe;Punkt
+01.03.06;#006.8026;;Kupplung;Punkt
+01.03.06;#006.8027;;Schaltkasten, Aufnahmepunkt Mitte seitlich;Punkt
+01.03.06;#006.8028;;Schaltkastenecke unten;Punkt
+01.03.06;#006.8028;;Schaltkasten-Umrisslinie unten;Linie
+01.03.06;#006.8029;;Schaltkastenecke oben;Punkt
+01.03.06;#006.8029;;Schaltkasten-Umrisslinie oben;Linie
+01.03.06;#000.8063;;Kabelstein (allgemein);Punkt
+01.03.06;#000.8063;;Streckenkabel BAB ( AUSA );Linie
+01.03.06;#006.8030;;Kabelschleife ( Aufnahmepunkt oberirdisch );Punkt
+01.03.06;#006.8031;;Kabelstein AUSA;Punkt
+01.03.06;#006.8032;;Muffenstein AUSA ;Punkt
+01.03.06;#006.8033;;Muffe ( Aufnahmepunkt oberirdisch );Punkt
+01.03.06;#006.8034;;Pupinspule ( Aufnahmepunkt oberirdisch );Punkt
+01.03.06;#006.8035;;Kabelstein Strom;Punkt
+01.03.06;#006.8036;;Marke Gas;Punkt
+01.03.06;#006.8037;;Marke Wasser;Punkt
+01.03.06;#006.8038;;Kabelstein Fernmeldeleitung;Punkt
+01.03.06;#006.8039;;Kabelstein Eisenbahn;Punkt
+01.03.06;#000.8064;;Kabelschacht;Punkt
+01.03.06;#000.8064;;E-Leitungen ( allgem. ) ;Linie
+01.03.06;#006.8040;;Leerrohr / Kabelformstein;Punkt
+01.03.06;#006.8040;;Leerrohr / Kabelformstein;Linie
+01.03.06;#006.8041;;Kabelschacht Strom;Punkt
+01.03.06;#006.8041;;Stromerdleitung ( Digi-Hilfspkt: 571 );Linie
+01.03.06;#006.8042;;Kabelschacht Verkehrssteuerungsanlage;Punkt
+01.03.06;#006.8042;;Kabel der Verkehrsteuerungsanlage ( Digi-Hilfspkt: 572 );Linie
+01.03.06;#006.8043;;Kabelschacht Lichtwellenleiter;Punkt
+01.03.06;#006.8043;;Lichtwellenleiter / Glasfaserkabel ( Digi-Hilfspkt: 573 );Linie
+01.03.06;#006.8044;;Kabelschacht Sammelleitung;Punkt
+01.03.06;#006.8044;;Sammelleitung / mehrfach genutzte Kabeltrasse ( Digi-Hilfspkt: 574 );Linie
+01.03.06;#006.8045;;Kabelschacht Fernmeldeleitung;Punkt
+01.03.06;#006.8045;;Fernmeldeleitung ( Fremdleitungen ) ( Digi-Hilfspkt: 575 );Linie
+01.03.06;#006.8046;;Kabelschacht Eisenbahn;Punkt
+01.03.06;#006.8046;;Kabel Eisenbahn ( Digi-Hilfspkt: 576 );Linie
+01.03.06;#006.8047;;Kontaktschleifen in Fahrbahn;Punkt
+01.03.06;#006.8047;;Kontaktschleifen in Fahrbahn;Linie
+01.03.06;#006.8049;;Kabelschachtecke;Punkt
+01.03.06;#006.8049;;Kabelschacht-Umrisslinie;Linie
+01.03.06;#000.8065;;Gittermast;Punkt
+01.03.06;#006.8053;;Gittermastmittelpunkt;Punkt
+01.03.06;#006.8053;;Gittermast-Diagonallinie;Linie
+01.03.06;#006.8055;;Gittermastecke;Punkt
+01.03.06;#006.8055;;Gittermast-Umrisslinie;Linie
+01.03.06;#006.8058;;Gittermastfundament oben;Punkt
+01.03.06;#006.8058;;Gittermastfundament oben Umrisslinie;Linie
+01.03.06;#006.8059;;Gittermast Mitte oben;Punkt
+01.03.06;#000.8066;;Mast;Punkt
+01.03.06;#000.8066;;Freileitung (allg.);Linie
+01.03.06;#006.8061;;Betonmast;Punkt
+01.03.06;#006.8061;;Stromfreileitung ( Digi-Hilfspkt: 651 );Linie
+01.03.06;#006.8062;;Holzmast;Punkt
+01.03.06;#006.8063;;Holzmast ( A-Mast );Punkt
+01.03.06;#006.8064;;Stahlmast;Punkt
+01.03.06;#006.8065;;Fernmeldefreileitung ( Digi-Hilfspkt: 665 );Linie
+01.03.06;#006.8066;;Fahrdrahtmast (Eisen-, Straßenbahn);Punkt
+01.03.06;#006.8066;;Fahrdraht / Oberleitung;Linie
+01.03.06;#006.8067;;Sendemast;Punkt
+01.03.06;#006.8068;;Fahnenmast;Punkt
+01.03.06;#006.8069;;Mast oben;Punkt
+01.03.06;#000.8067;;Fernsprechzelle;Punkt
+01.03.06;#000.8067;;Fernsprechzelle (Umriss);Linie
+01.03.06;#006.8070;;Fernsprechzelle Mittelpunkt oben;Punkt
+01.03.06;#006.8075;;Fernsprechzelle Eckpunkt unten;Punkt
+01.03.06;#006.8075;;Umrisslinie einer Fernsprechzelle unten;Linie
+01.03.06;#006.8079;;Fernsprechzelle Eckpunkt oben;Punkt
+01.03.06;#006.8079;;Umrisslinie einer Fernsprechzelle oben;Linie
+01.03.06;#000.8068;;Hydrant ;Punkt
+01.03.06;#006.8081;;Hydrant Unterflur;Punkt
+01.03.06;#006.8085;;Hydrant  Oberflur - Geländehöhe;Punkt
+01.03.06;#006.8089;;Hydrant  Oberflur - oben;Punkt
+01.03.06;#000.8070;;Schutzplanke einfach;Punkt
+01.03.06;#000.8070;;Schutzplanke einfach rechts;Linie
+01.03.06;#007.8001;;Schutzplanke einfach - Geländehöhe;Punkt
+01.03.06;#007.8002;;Schutzplanke einfach - Beginn Absenkung Geländehöhe;Punkt
+01.03.06;#007.8008;;Schutzplanke einfach - Beginn Absenkung oben;Punkt
+01.03.06;#007.8009;;Schutzplanke einfach - Oberkante Leitplanke;Punkt
+01.03.06;#007.8009;;Schutzplanke einfach oben;Linie
+01.03.06;#000.8071;;Schutzplanke doppelt;Punkt
+01.03.06;#000.8071;;Schutzplanke doppelt mittig;Linie
+01.03.06;#007.8011;;Schutzplanke doppelt  - Geländehöhe unten;Punkt
+01.03.06;#007.8011;;Schutzplanke doppelt rechts;Linie
+01.03.06;#007.8012;;Schutzplanke doppelt - Beginn Absenkung Geländehöhe unten;Punkt
+01.03.06;#007.8015;;Betongleitwand unten (freistehend);Punkt
+01.03.06;#007.8015;;Betongleitwand  unten rechts (freistehend);Linie
+01.03.06;#007.8016;;Betongleitwand mittig oben (freistehend);Punkt
+01.03.06;#007.8016;;Betongleitwand mittig oben (freistehend);Linie
+01.03.06;#007.8018;;Schutzplanke doppelt  - Beginn Absenkung oben;Punkt
+01.03.06;#007.8019;;Schutzplanke doppelt  - Oberkante Leitplanke;Punkt
+01.03.06;#007.8019;;Schutzplanke doppelt mittig oben;Linie
+01.03.06;#000.8072;;Einrichtungen an Rastanlagen;Punkt
+01.03.06;#000.8072;;Einrichtungen an Rastanlagen, Umrisslinie;Linie
+01.03.06;#007.8021;;Mülltonne, Papierkorb;Punkt
+01.03.06;#007.8022;;Bank;Punkt
+01.03.06;#007.8022;;Bank, Umrisslinie;Linie
+01.03.06;#007.8023;;Tisch;Punkt
+01.03.06;#007.8023;;Tisch, Umrisslinie;Linie
+01.03.06;#007.8024;;Spielgerät;Punkt
+01.03.06;#007.8024;;Spielgerät, Umrisslinie;Linie
+01.03.06;#007.8025;;Fahrradständer;Punkt
+01.03.06;#007.8025;;Fahrradständer, Umrisslinie;Linie
+01.03.06;#007.8026;;Kraftstoffzapfsäule;Punkt
+01.03.06;#007.8026;;Umrisslinie einer Kraftstoffzapfsäule;Linie
+01.03.06;#007.8027;;Tank oberirdisch;Punkt
+01.03.06;#007.8027;;Umrisslinie eines oberirdischen Tanks;Linie
+01.03.06;#007.8028;;Tank unterirdisch;Punkt
+01.03.06;#007.8028;;Umrisslinie eines unterirdischen Tanks;Linie
+01.03.06;#007.8029;;Einrichtungen an Rastanlagen oben;Punkt
+01.03.06;#007.8029;;Einrichtungen an Rastanlagen oben;Linie
+01.03.06;#000.8073;;Beleuchtungsmast;Punkt
+01.03.06;#007.8031;;Ortsbeleuchtung Stahlmast;Punkt
+01.03.06;#007.8032;;Ortsbeleuchtung Betonmast;Punkt
+01.03.06;#007.8033;;Ortsbeleuchtung Holzmast;Punkt
+01.03.06;#007.8034;;Ortsbeleuchtung Hängelampe;Punkt
+01.03.06;#007.8035;;Pultlampe;Punkt
+01.03.06;#007.8036;;Pollerleuchte (kleine Leuchte TR);Punkt
+01.03.06;#007.8038;;Uhr, Temperaturanzeige;Punkt
+01.03.06;#007.8039;;Beleuchtungsmast oben;Punkt
+01.03.06;#000.8074;;Notrufsäule;Punkt
+01.03.06;#007.8049;;Notrufsäule oben;Punkt
+01.03.06;#000.8075;;Stationszeichen der Straßendatenbank;Punkt
+01.03.06;#007.8050;;Hilfspunkt SIB allgemein;Punkt
+01.03.06;#007.8050;;Hilfslinie SIB allgemein;Linie
+01.03.06;#007.8051;;Hilfspunkt OD-Grenze ;Punkt
+01.03.06;#007.8051;;OD-Grenze  ;Linie
+01.03.06;#007.8052;;Netzknoten;Punkt
+01.03.06;#007.8053;;Astnullpunkt;Punkt
+01.03.06;#007.8054;;Astendpunkt;Punkt
+01.03.06;#007.8055;;Kilometrierungstafel BAB;Punkt
+01.03.06;#007.8057;;Hilfspunkt Blattbegrenzung TK / SM-Grenze ;Punkt
+01.03.06;#007.8057;;Begrenzungslinie TK / SM-Grenze ;Linie
+01.03.06;#007.8058;;Hilfspunkt Überlappung Feldkarte;Punkt
+01.03.06;#007.8058;;Linie Überlappung Feldkarte;Linie
+01.03.06;#007.8059;;Stationszeichen oben;Punkt
+01.03.06;#000.8076;;Pegel / Bodenerkundung (allg.);Punkt
+01.03.06;#000.8076;;Bodenerkundung (allgem.), Umrisslinie;Linie
+01.03.06;#007.8060;;refraktionsseismische Untersuchung ( R );Punkt
+01.03.06;#007.8061;;geoelektrische Untersuchung (G);Punkt
+01.03.06;#007.8062;;Bohrung (B);Punkt
+01.03.06;#007.8063;;Kleinbohrung / Sondierbohrung (SB);Punkt
+01.03.06;#007.8064;;Kernbohrung (KB);Punkt
+01.03.06;#007.8065;;orientierte Kernbohrung (KBR);Punkt
+01.03.06;#007.8066;;Schürfe (Sch);Punkt
+01.03.06;#007.8066;;Schürfe, Umrisslinie;Linie
+01.03.06;#007.8067;;Rammsondierung (RS);Punkt
+01.03.06;#007.8068;;Drucksondierung (DS);Punkt
+01.03.06;#007.8069;;Sonstige z. B. Flügelsondierung/Isotopensondierung (FS/IS);Punkt
+01.03.06;#000.8077;;Zaun (allg.);Punkt
+01.03.06;#000.8077;;Zaun (allg.);Linie
+01.03.06;#007.8071;;Metallzaun;Punkt
+01.03.06;#007.8071;;Metallzaun;Linie
+01.03.06;#007.8072;;Holzzaun;Punkt
+01.03.06;#007.8072;;Holzzaun;Linie
+01.03.06;#007.8073;;Metallzaun auf einer Mauer;Linie
+01.03.06;#007.8074;;Holzzaun auf einer Mauer;Linie
+01.03.06;#007.8075;;Weidezaun;Punkt
+01.03.06;#007.8075;;Weidezaun;Linie
+01.03.06;#007.8079;;Zaunpunkt oben;Punkt
+01.03.06;#007.8079;;Zaun oben;Linie
+01.03.06;#000.8078;;Tor im Zaun;Punkt
+01.03.06;#000.8078;;Tor im Zaun;Linie
+01.03.06;#007.8089;;Torpunkt oben;Punkt
+01.03.06;#007.8089;;Tor im Zaun oben;Linie
+01.03.06;#000.8079;;Hilfspunkt einer Höhenlinie / Isolinien;Punkt
+01.03.06;#007.8091;;Hilfspunkt Höhenlinie Typ 1;Punkt
+01.03.06;#007.8091;;Höhenlinie Typ 1   ( z. B.  10 m - Linie );Linie
+01.03.06;#007.8092;;Hilfspunkt Höhenlinie Typ 1;Punkt
+01.03.06;#007.8092;;Höhenlinie Typ 2   ( z. B.    5 m - Linie );Linie
+01.03.06;#007.8093;;Hilfspunkt Höhenlinie Typ 1;Punkt
+01.03.06;#007.8093;;Höhenlinie Typ 3   ( z. B.    1 m - Linie );Linie
+01.03.06;#007.8094;;Hilfspunkt Höhenlinie Typ 1;Punkt
+01.03.06;#007.8094;;Höhenlinie Typ 4   ( z. B.  0,5 m - Linie );Linie
+01.03.06;#007.8095;;Hilfspunkt Höhenlinie Typ 1;Punkt
+01.03.06;#007.8095;;Höhenlinie Typ 5   ( z. B.  0,25 m - Linie );Linie
+01.03.06;#000.8080;;Schild zur Verkehrslenkung ;Punkt
+01.03.06;#000.8080;;Schild zur Verkehrslenkung ;Linie
+01.03.06;#008.8001;;Schild zur Verkehrslenkung (1 Pfosten);Punkt
+01.03.06;#008.8002;;Schild zur Verkehrslenkung (2 Pfosten);Punkt
+01.03.06;#008.8003;;Pfeilwegweiser nach links (1 Pfosten);Punkt
+01.03.06;#008.8004;;Pfeilwegweiser nach rechts (1 Pfosten);Punkt
+01.03.06;#008.8005;;Pfeilwegweiser nach links (2 Pfosten);Punkt
+01.03.06;#008.8006;;Pfeilwegweiser nach rechts (2 Pfosten);Punkt
+01.03.06;#008.8009;;Schild zur Verkehrslenkung oben;Punkt
+01.03.06;#008.8009;;Schild zur Verkehrslenkung oben;Linie
+01.03.06;#000.8081;;Gefahrenzeichen (StVO 101-199), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#000.8082;;Vorschriftszeichen (StVO 205-299), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#000.8083;;Richtzeichen (StVO 301-399), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#000.8084;;Schilderbrücke Fundamenteckpunkt (unten);Punkt
+01.03.06;#000.8084;;Schilderbrücke Fundament-Umrisslinie;Linie
+01.03.06;#008.8041;;Schilderbrücke – Punkt einer Umrisslinie;Punkt
+01.03.06;#008.8041;;Schilderbrücke - Umriss Schilderbrücke;Linie
+01.03.06;#008.8044;;Mautbrücke;Punkt
+01.03.06;#008.8044;;Mautbrücke;Linie
+01.03.06;#008.8045;;Fundamentmitte ( = Symbolaufpunkt );Punkt
+01.03.06;#008.8045;;Schilderbrücke als 2-Punkt-Linie ( Verbindung Punkte 845-845 );Linie
+01.03.06;#008.8048;;Schilderfundamenteckpunkt (oben);Punkt
+01.03.06;#008.8048;;Schilderfundament oben;Linie
+01.03.06;#008.8049;;Punkt einer Schilderbrücke oben;Punkt
+01.03.06;#008.8049;;Schilderbrücke oben;Linie
+01.03.06;#000.8085;;Bahnschranke;Punkt
+01.03.06;#000.8085;;Bahnschranke;Linie
+01.03.06;#008.8051;;Andreaskreuz ;Punkt
+01.03.06;#008.8052;;Blinkleuchte ;Punkt
+01.03.06;#008.8053;;Eisenbahnsignal ;Punkt
+01.03.06;#008.8059;;Bahnschranke oben;Punkt
+01.03.06;#008.8059;;Bahnschranke oben;Linie
+01.03.06;#000.8086;;Verkehrssteuerungseinrichtung;Punkt
+01.03.06;#000.8086;;Verkehrssteuerungseinrichtung, Umrisslinie;Linie
+01.03.06;#008.8061;;Sichtweitenmessgerät Nebelwarnanlage Hauptgerät;Punkt
+01.03.06;#008.8061;;Sichtweitenmessgerät Nebelwarnanlage Hauptgerät;Linie
+01.03.06;#008.8062;;Sichtweitenmessgerät Nebelwarnanlage Nebengerät;Punkt
+01.03.06;#008.8062;;Sichtweitenmessgerät Nebelwarnanlage Nebengerät;Linie
+01.03.06;#008.8063;;Wetterstation;Punkt
+01.03.06;#008.8063;;Wetterstation;Linie
+01.03.06;#008.8064;;Radaranlage ( Geschwindigkeitsmessgerät );Punkt
+01.03.06;#008.8064;;Radaranlage ( Geschwindigkeitsmessgerät );Linie
+01.03.06;#008.8065;;Wechselverkehrszeichen;Punkt
+01.03.06;#008.8065;;Wechselverkehrszeichen;Linie
+01.03.06;#008.8066;;Überwachungskamera;Punkt
+01.03.06;#008.8066;;Überwachungskamera;Linie
+01.03.06;#000.8088;;Verkehrsampel;Punkt
+01.03.06;#000.8088;;Lichtzeichenbrücke;Linie
+01.03.06;#008.8081;;Lichtzeichenbrücke Fundamentpunkt unten;Punkt
+01.03.06;#008.8081;;Lichtzeichenbrücke Umriss Fundament unten;Linie
+01.03.06;#008.8083;;Verkehrsampel oben;Punkt
+01.03.06;#008.8085;;Fundamentmitte ( Symbolaufpunkt );Punkt
+01.03.06;#008.8085;;Lichtzeichenbrücke 2-Punkt-Linie ( Verbindung Punkte 885-885 );Linie
+01.03.06;#008.8088;;Lichtzeichenbrücke Fundamentpunkt oben;Punkt
+01.03.06;#008.8088;;Lichtzeichenbrücke Umriss Fundament oben;Linie
+01.03.06;#008.8089;;Punkt einer Lichtzeichenbrücke oben;Punkt
+01.03.06;#008.8089;;Lichtzeichenbrücke oben;Linie
+01.03.06;#000.8089;;Schilder ( allgem. );Punkt
+01.03.06;#000.8089;;Schild als Linie / Umrisslinie;Linie
+01.03.06;#008.8091;;Ortsschild (Zeichen 310/311);Punkt
+01.03.06;#008.8092;;Werbetafel, Infotafel;Punkt
+01.03.06;#008.8092;;Werbetafel, Infotafel als Linie / Umrisslinie;Linie
+01.03.06;#008.8095;;Verkehrsspiegel;Punkt
+01.03.06;#008.8099;;Schild oben;Punkt
+01.03.06;#008.8099;;Schild oben;Linie
+01.03.06;#009.8000;;BAUM - Konstruktion  (var. Æ ) über Lageplan bearbeiten in CARD/1;Punkt
+01.03.06;#009.8001;;Laubbaum allg.;Punkt
+01.03.06;#009.8001;;Baumreihe Laubbäume;Linie
+01.03.06;#009.8002;;Nadelbaum allg.;Punkt
+01.03.06;#009.8002;;Baumreihe Nadelbäume;Linie
+01.03.06;#009.8003;;Ziergehölz;Punkt
+01.03.06;#009.8004;;Obstbaum;Punkt
+01.03.06;#009.8009;;Baum mittig oben;Punkt
+01.03.06;#000.8091;;Waldrand / Grenzlinie einer Gehölzfläche;Punkt
+01.03.06;#000.8091;;Waldrand / Grenzlinie einer Gehölzfläche;Linie
+01.03.06;#009.8011;;Waldrand Laubwald;Punkt
+01.03.06;#009.8011;;Laubgehölz;Linie
+01.03.06;#009.8012;;Waldrand Nadelwald;Punkt
+01.03.06;#009.8012;;Nadelgehölz;Linie
+01.03.06;#009.8013;;Waldrand Mischwald;Punkt
+01.03.06;#009.8013;;Mischgehölz;Linie
+01.03.06;#009.8014;;Grenze Straßenbegleitgrün (Gehölz);Punkt
+01.03.06;#009.8014;;Straßenbegleitgrün (Gehölz);Linie
+01.03.06;#009.8015;;Grenze geschlossene Gehölzfläche;Punkt
+01.03.06;#009.8015;;Geschlossene Gehölzfläche;Linie
+01.03.06;#009.8016;;Grenze Streuobstwiese;Punkt
+01.03.06;#009.8016;;Streuobstwiese;Linie
+01.03.06;#009.8017;;Grenze Baumschule;Punkt
+01.03.06;#009.8017;;Baumschule;Linie
+01.03.06;#009.8018;;Grenze sonstiges Gehölz;Punkt
+01.03.06;#009.8018;;sonstige Gehölze;Linie
+01.03.06;#009.8019;;Waldrand oben;Punkt
+01.03.06;#009.8019;;Waldrand oben;Linie
+01.03.06;#000.8092;;Punkt einer Grenze Waldschutz   (bis 2005 Hecke);Punkt
+01.03.06;#000.8092;;Grenze eines geschützten Waldgebiets nach LandeswaldG;Linie
+01.03.06;#009.8021;;Schutzwald (Boden-, Biotopschutzwald, gegen schädliche Umwelteinwirkungen );Linie
+01.03.06;#009.8023;;Waldschutzgebiet - Bannwald;Linie
+01.03.06;#009.8024;;Waldschutzgebiet - Schonwald;Linie
+01.03.06;#009.8025;;Erholungswald;Linie
+01.03.06;#009.8029;;sonstige Waldschutzgebiete;Linie
+01.03.06;#000.8093;;Gebüsch / Hecke;Punkt
+01.03.06;#000.8093;;Gebüsch / Hecke ;Linie
+01.03.06;#009.8031;;Einzelbusch (Mitte);Punkt
+01.03.06;#009.8032;;Einzelstrauch;Punkt
+01.03.06;#009.8034;;Randpunkt einer Hecke ;Punkt
+01.03.06;#009.8034;;Umrisslinie Hecke;Linie
+01.03.06;#009.8035;;Hecke Außenkante rechts;Linie
+01.03.06;#009.8037;;Hecke oben;Punkt
+01.03.06;#009.8037;;Hecke oben mittig;Linie
+01.03.06;#009.8038;;Randpunkt eines Gebüschs;Punkt
+01.03.06;#009.8038;;Umrisslinie Gebüsch;Linie
+01.03.06;#009.8039;;Randpunkt eines Gebüschs oben;Punkt
+01.03.06;#009.8039;;Umrisslinie Gebüsch oben;Linie
+01.03.06;#000.8094;;Uferlinie eines Gewässers;Punkt
+01.03.06;#000.8094;;Uferlinie eines Gewässers;Linie
+01.03.06;#009.8041;;aktueller Wasserspiegel;Punkt
+01.03.06;#009.8042;;mittlerer Wasserspiegel;Punkt
+01.03.06;#009.8043;;Gewässer verdolt /unterirdisch;Punkt
+01.03.06;#009.8043;;Gewässerlinie verdolt / unterirdisch;Linie
+01.03.06;#009.8045;;Überschwemmungsfläche aktuell;Punkt
+01.03.06;#009.8045;;Grenze der aktuellen Überschwemmung;Linie
+01.03.06;#009.8046;;sonstige Gewässerfläche;Punkt
+01.03.06;#009.8046;;sonstige Gewässerfläche;Linie
+01.03.06;#009.8047;;Positionspunkt eines Fließrichtungspfeils;Punkt
+01.03.06;#009.8048;;Grenzpunkt Einzugsgebiet;Punkt
+01.03.06;#009.8048;;Grenze Einzugsgebiet;Linie
+01.03.06;#009.8049;;Bachsohle / Gewässersohle;Punkt
+01.03.06;#009.8049;;Bachsohle / Gewässersohle;Linie
+01.03.06;#000.8095;;Grenzpunkt von ökologischen Sonderflächen;Punkt
+01.03.06;#000.8095;;Grenzlinie einer ökologischen Sonderfläche ;Linie
+01.03.06;#009.8050;;Grenze einer Altlastfläche;Linie
+01.03.06;#009.8051;;Grenze Straßenbegleitgrün ( Rasen );Linie
+01.03.06;#009.8052;;Grenze Sukzessionsfläche;Linie
+01.03.06;#009.8053;;Grenze sonstige Grünfläche;Linie
+01.03.06;#009.8054;;Grenze Lärmschutzgebiet;Linie
+01.03.06;#009.8055;;Grenzpunkt Ausgleichsfläche;Punkt
+01.03.06;#009.8055;;Grenze Ausgleichsfläche;Linie
+01.03.06;#009.8056;;Grenzpunkt Ersatzmaßnahme;Punkt
+01.03.06;#009.8056;;Grenze Ersatzmaßnahme;Linie
+01.03.06;#009.8057;;Grenze Aufschüttungen;Linie
+01.03.06;#009.8058;;Grenze Abgrabungen;Linie
+01.03.06;#000.8096;;Punkt einer Grenze nach Wassergesetz;Punkt
+01.03.06;#000.8096;;Grenze von Schutzgebiet nach Wassergesetz;Linie
+01.03.06;#009.8061;;WSZ I;Punkt
+01.03.06;#009.8061;;Grenze WSZ I;Linie
+01.03.06;#009.8062;;WSZ II   ( auch WSZ IIa Und IIb );Punkt
+01.03.06;#009.8062;;Grenze WSZ II     ( auch WSZ IIa und IIb );Linie
+01.03.06;#009.8063;;WSZ III / IIIa;Punkt
+01.03.06;#009.8063;;Grenze WSZ III / IIIa;Linie
+01.03.06;#009.8064;;WSZ IIIb;Punkt
+01.03.06;#009.8064;;Grenze WSZ IIIb;Linie
+01.03.06;#009.8065;;Hochwasserschutzfläche;Punkt
+01.03.06;#009.8065;;Grenze Hochwasserschutzfläche;Linie
+01.03.06;#009.8066;;Überschwemmungsgebiet;Punkt
+01.03.06;#009.8066;;Grenze Überschwemmungsgebiet;Linie
+01.03.06;#009.8068;;Quellenschutzgebiet;Punkt
+01.03.06;#009.8068;;Grenze Quellenschutzgebiet;Linie
+01.03.06;#000.8097;;Punkt einer Grenze nach Naturschutzgesetz;Punkt
+01.03.06;#000.8097;;Grenze eines Schutzgebiets nach Naturschutzgesetz;Linie
+01.03.06;#009.8070;;Sonderflächen gemäß Einschrieb;Punkt
+01.03.06;#009.8070;;Sonderflächen gemäß Einschrieb;Linie
+01.03.06;#009.8071;;Landschaftsschutzgebiet (LSG);Punkt
+01.03.06;#009.8071;;Grenze Landschaftsschutzgebiet (LSG);Linie
+01.03.06;#009.8072;;Naturschutzgebiet (NSG);Punkt
+01.03.06;#009.8072;;Grenze Naturschutzgebiet (NSG);Linie
+01.03.06;#009.8073;;Europäischen Vogelschutzgebiets (SPA);Punkt
+01.03.06;#009.8073;;Grenze eines Europäischen Vogelschutzgebiets (SPA);Linie
+01.03.06;#009.8075;;Naturpark;Punkt
+01.03.06;#009.8075;;Grenze Naturpark;Linie
+01.03.06;#009.8076;;Besonders geschützten Biotops (§ 24a / 32 Biotop);Punkt
+01.03.06;#009.8076;;Grenze eines besonders geschützten Biotops (§ 24a / 32 Biotop);Linie
+01.03.06;#009.8077;;FFH-Gebiet;Punkt
+01.03.06;#009.8077;;Grenze FFH-Gebiet;Linie
+01.03.06;#009.8078;;Nationalpark;Punkt
+01.03.06;#009.8078;;Grenze Nationalpark;Linie
+01.03.06;#009.8079;;Grenze Biosphärengebiet;Punkt
+01.03.06;#009.8079;;Grenze Biosphärengebiet;Linie
+01.03.06;#000.8098;;Natur- / Denkmal (allg.);Punkt
+01.03.06;#000.8098;;Umrisslinie eines Denkmals / Naturdenkmals;Linie
+01.03.06;#009.8080;;Geotop ( Einzelpunkte aus RIPS );Punkt
+01.03.06;#009.8080;;Geotop Umrisslinie;Linie
+01.03.06;#009.8081;;Standbild;Punkt
+01.03.06;#009.8083;;Bildstock;Punkt
+01.03.06;#009.8084;;Wegkreuz;Punkt
+01.03.06;#009.8085;;Naturdenkmal Laubbaum;Punkt
+01.03.06;#009.8086;;Naturdenkmal Nadelbaum;Punkt
+01.03.06;#009.8087;;Naturdenkmal (allg.) z.B. Höhle, Biotop;Punkt
+01.03.06;#009.8088;;Eckpunkt eines Denkmals;Punkt
+01.03.06;#009.8089;;Denkmal / Naturdenkmal oben;Punkt
+01.03.06;#009.8089;;Umrisslinie eines Denkmals / Naturdenkmals oben;Linie
+01.03.06;#000.8099;;Sonstiges lt. Feldbuch ;Punkt
+01.03.06;#000.8099;;Sonstiges lt. Feldbuch ;Linie
+01.03.06;#080.8001;;Schnittpunkt aus ALK;Punkt
+01.03.06;#080.8002;;AP Versicherung aus ALK;Punkt
+01.03.06;#080.8005;;Kontrollpunkt – Kontrollmessung zum Anschlusspunkt;Punkt
+01.03.06;#080.8008;;Freier Standpunkt - unvermarkt;Punkt
+01.03.06;#080.8009;;Kreismittelpunkt;Punkt
+01.03.06;#085.8000;;Referenzpunkt für GPS-Messungen;Punkt
+01.03.06;#085.8002;;Versicherung von Festpunkten der SBV;Punkt
+01.03.06;#088.8000;;Bodenpunkt aus Laser-Scan - bereinigte Rohdaten;Punkt
+01.03.06;#088.8001;;Bodenpunkt aus Laser-Scan - transformierte Rohdaten;Punkt
+01.03.06;#088.8009;;Brückenpunkt aus Laser-Scan - bereinigte Rohdaten;Punkt
+01.03.06;#088.8011;;Punkt aus Laser-Scan - 1 m x 1 m Raster;Punkt
+01.03.06;#088.8015;;Punkt aus Laser-Scan - 5 m x 5 m Raster;Punkt
+01.03.06;#088.8090;;Hochpunkt aus Laser-Scan - bereinigte Rohdaten;Punkt
+01.03.06;#088.8091;;Hochpunkt aus Laser-Scan - transformierte Rohdaten;Punkt
+01.03.06;#089.8095;;Projektnullpunkt;Punkt
+01.03.06;#089.8097;;Positionierungspunkt eines Rasterdatenbestands;Punkt
+01.03.06;#089.8099;;Eckpunkt eines Rasterdatenbestands;Punkt
+01.03.06;#084.8081;;Horizontalbolzen;Punkt
+01.03.06;#084.8082;;Vertikalbolzen;Punkt
+01.03.06;#084.8083;;Zielmarke;Punkt
+01.03.06;#084.8084;;Minireflektor;Punkt
+01.03.06;#084.8085;;Beobachtungspfeiler;Punkt
+01.03.06;#084.8086;;Firstbolzen;Punkt
+01.03.06;#084.8087;;Konvergenzmesspunkte;Punkt
+01.03.06;#084.8088;;Konsole;Punkt
+01.03.06;#084.8089;;permanentes Fernziel;Punkt
+01.03.06;#030.8907;;Böschung unten;Linie 
+01.03.06;#030.8908;;Böschung oben;Linie
+01.03.06;#030.8910;;Fahrbahnmitte / Achskleinpunkt;Punkt
+01.03.06;#030.8910;;Fahrbahnmitte (Linien zur Darstellung von Straßen in kleinmaßstäblichen Plänen);Linie
+01.03.06;#030.8911;;Fahrbahnrand;Punkt
+01.03.06;#030.8911;;Fahrbahnrand;Linie
+01.03.06;#030.8912;;Fahrspurrand;Punkt
+01.03.06;#030.8912;;Fahrspurrand;Linie
+01.03.06;#030.8913;;Randstein unten;Punkt
+01.03.06;#030.8913;;Randsteinlinie (unten);Linie
+01.03.06;#030.8914;;Randstein oben;Punkt
+01.03.06;#030.8914;;Randstein oben;Linie
+01.03.06;#030.8915;;Bankett;Punkt
+01.03.06;#030.8915;;Bankett;Linie
+01.03.06;#031.8951;;Auffüllung ( eben ) ;Punkt
+01.03.06;#031.8951;;Auffüllung ( eben );Linie
+01.03.06;#031.8952;;Abgrabung ( eben );Punkt
+01.03.06;#031.8952;;Abgrabung ( eben );Linie
+01.03.06;#030.8916;;Längsmarkierung;Punkt
+01.03.06;#030.8916;;Längsmarkierung;Linie
+01.03.06;#030.8917;;Sperrfläche;Punkt
+01.03.06;#030.8917;;Sperrfläche;Linie
+01.03.06;#030.8918;;Quermarkierung;Punkt
+01.03.06;#030.8918;;Quermarkierung;Linie
+01.03.06;#030.8919;;sonstige Markierung;Punkt
+01.03.06;#030.8919;;sonstige Markierung;Linie
+01.03.06;#030.8921;;Grunderwerbsgrenzen Knickpunkte;Punkt
+01.03.06;#030.8921;;Grunderwerbsgrenzen;Linie
+01.03.06;#032.8910;;Knickpunkt Grunderwerb Sonderflächen;Punkt
+01.03.06;#032.8910;;Grenzlinie Grunderwerb Sonderfläche;Linie
+01.03.06;#032.8911;;Knickpunkt Grunderwerb Bund;Punkt
+01.03.06;#032.8911;;Grenzlinie Grunderwerb Bund;Linie
+01.03.06;#032.8912;;Knickpunkt Grunderwerb Land;Punkt
+01.03.06;#032.8912;;Grenzlinie Grunderwerb Land;Linie
+01.03.06;#032.8913;;Knickpunkt Grunderwerb Kreis;Punkt
+01.03.06;#032.8913;;Grenzlinie Grunderwerb Kreis;Linie
+01.03.06;#032.8914;;Knickpunkt Grunderwerb Gemeinde;Punkt
+01.03.06;#032.8914;;Grenzlinie Grunderwerb Gemeinde;Linie
+01.03.06;#032.8915;;Knickpunkt dauernd beanspruchte Flächen (DB);Punkt
+01.03.06;#032.8915;;Grenzlinie dauernd beanspruchte Flächen (DB);Linie
+01.03.06;#032.8916;;Knickpunkt vorübergehend beanspruchte Flächen (VB);Punkt
+01.03.06;#032.8916;;Grenzlinie vorübergehend beanspruchte Flächen (VB);Linie
+01.03.06;#032.8917;;Knickpunkt Grunderwerb Nebenanlagen;Punkt
+01.03.06;#032.8917;;Grenzlinie Grunderwerb Nebenanlagen;Linie
+01.03.06;#032.8918;;Knickpunkt  Ausgleichsfläche;Punkt
+01.03.06;#032.8918;;Grenzlinie Ausgleichsfläche ;Linie
+01.03.06;#032.8919;;Knickpunkt Tauschflächen;Punkt
+01.03.06;#032.8919;;Grenzlinie Tauschflächen;Linie
+01.03.06;#030.8930;;Wegrand ;Punkt
+01.03.06;#030.8930;;Wegrand ;Linie
+01.03.06;#030.8931;;Mulde  (Tiefpunkt);Punkt
+01.03.06;#030.8931;;Muldensohle;Linie
+01.03.06;#030.8932;;Wasserbauwerke;Punkt
+01.03.06;#030.8932;;Wasserbauwerke;Linie
+01.03.06;#030.8933;;Mauer unten ;Punkt
+01.03.06;#030.8933;;Mauer unten;Linie
+01.03.06;#030.8934;;Mauer oben;Punkt
+01.03.06;#030.8934;;Mauer oben;Linie
+01.03.06;#030.8935;;Schienenoberkante;Punkt
+01.03.06;#030.8935;;Schiene;Linie
+01.03.06;#030.8936;;Rand einer befestigten Fläche;Punkt
+01.03.06;#030.8936;;Rand einer befestigten Fläche;Linie
+01.03.06;#030.8937;;Graben unten;Punkt
+01.03.06;#030.8937;;Graben unten;Linie
+01.03.06;#030.8938;;Graben oben;Punkt
+01.03.06;#030.8938;;Graben oben;Linie
+01.03.06;#030.8940;;Brückenwiderlager;Punkt
+01.03.06;#030.8940;;Brückenwiderlager;Linie
+01.03.06;#030.8941;;Pfeiler;Punkt
+01.03.06;#030.8941;;Pfeiler;Linie
+01.03.06;#030.8942;;Sonderbauwerke;Punkt
+01.03.06;#030.8942;;Sonderbauwerke;Linie
+01.03.06;#034.8921;;Tunnelportal;Punkt
+01.03.06;#034.8921;;Tunnelportal;Linie
+01.03.06;#030.8943;;Stützmauer unten ;Punkt
+01.03.06;#030.8943;;Stützmauer unten ;Linie
+01.03.06;#034.8935;;Betongleitwand ;Punkt
+01.03.06;#034.8935;;Betongleitwand ;Linie
+01.03.06;#030.8944;;Stützmauer oben;Punkt
+01.03.06;#030.8944;;Stützmauer oben;Linie
+01.03.06;#030.8945;;Treppe;Punkt
+01.03.06;#030.8945;;Treppe;Linie
+01.03.06;#030.8946;;Geländer;Punkt
+01.03.06;#030.8946;;Geländer;Linie
+01.03.06;#030.8947;;Lärmschutzwand;Punkt
+01.03.06;#030.8947;;Lärmschutzwand;Linie
+01.03.06;#030.8948;;Unterkante Bauwerk;Punkt
+01.03.06;#030.8948;;Unterkante Bauwerk;Linie
+01.03.06;#030.8949;;Gesimskante;Punkt
+01.03.06;#030.8949;;Gesimskante;Linie
+01.03.06;#030.8950;;Kontrollschacht  der Straßenentwässerung;Punkt
+01.03.06;#030.8950;;Straßenentwässerungsleitung;Linie
+01.03.06;#030.8951;;Muldenablaufschacht;Punkt
+01.03.06;#030.8952;;Straßenablauf (allg.);Punkt
+01.03.06;#030.8953;;Straßenablauf an Randstein ;Punkt
+01.03.06;#030.8954;;Entwässerungsrinne;Punkt
+01.03.06;#030.8954;;Entwässerungsrinne;Linie
+01.03.06;#030.8955;;Durchlass/Dole;Punkt
+01.03.06;#030.8955;;Umrisslinie Durchlass/Dole;Linie
+01.03.06;#030.8956;;Schlitzrinne;Punkt
+01.03.06;#030.8956;;Schlitzrinne;Linie
+01.03.06;#030.8957;;Punkt eines Linienverlaufs (für geplante Leitungen);Punkt
+01.03.06;#030.8958;;Entlüftung ;Punkt
+01.03.06;#030.8959;;Schachtsohle;Punkt
+01.03.06;#030.8960;;Kontrollschacht  einer Ver- und Entsorgungsrohrleitung;Punkt
+01.03.06;#030.8960;;Ver-, Entsorgungsrohrleitung (allg.);Linie
+01.03.06;#036.8900;;Schutzrohr;Punkt
+01.03.06;#036.8900;;Schutzrohr ( 8600 Schutzrohr – Umriss );Linie
+01.03.06;#036.8901;;Kontrollschacht Wasserleitung ;Punkt
+01.03.06;#036.8901;;Wasserleitung ;Linie
+01.03.06;#036.8902;;Kontrollschacht Fernwärmeleitung;Punkt
+01.03.06;#036.8902;;Fernwärmeleitung ;Linie
+01.03.06;#036.8903;;Kontrollschacht Ölleitung;Punkt
+01.03.06;#036.8903;;Ölleitung ;Linie
+01.03.06;#036.8904;;Kontrollschacht Gasleitung;Punkt
+01.03.06;#036.8904;;Gasleitung ;Linie
+01.03.06;#036.8905;;Wasserfassung (Brunnen);Punkt
+01.03.06;#036.8905;;Wasserfassung (Brunnen) - Umrisslinie;Linie
+01.03.06;#036.8906;;Kontrollschacht Regenwasserleitung;Punkt
+01.03.06;#036.8906;;Regenwasserleitung ;Linie
+01.03.06;#036.8907;;Kontrollschacht Mischwasser ;Punkt
+01.03.06;#036.8907;;Mischwasserleitung ;Linie
+01.03.06;#036.8908;;Kontrollschacht Schmutzwasser ;Punkt
+01.03.06;#036.8908;;Schmutzwasserleitung ;Linie
+01.03.06;#030.8961;;Schieberschacht;Punkt
+01.03.06;#036.8911;;Schieberschacht Wasser;Punkt
+01.03.06;#036.8912;;Schieberschacht Fernwärmeleitung;Punkt
+01.03.06;#036.8913;;Schieberschacht Ölleitung;Punkt
+01.03.06;#036.8914;;Schieberschacht Gas;Punkt
+01.03.06;#036.8915;;Schieberschacht Schmutzwasserleitung;Punkt
+01.03.06;#030.8962;;Schaltkasten;Punkt
+01.03.06;#036.8921;;Verbindungsmuffe;Punkt
+01.03.06;#036.8922;;Abzweigmuffe;Punkt
+01.03.06;#036.8923;;Kondensatormuffe;Punkt
+01.03.06;#036.8924;;Pupinspulenmuffe, Pupinspulenkasten;Punkt
+01.03.06;#036.8925;;Blindmuffe;Punkt
+01.03.06;#036.8926;;Kupplung;Punkt
+01.03.06;#030.8963;;Streckenkabel BAB ( AUSA );Linie
+01.03.06;#030.8964;;Kabelschacht;Punkt
+01.03.06;#030.8964;;E-Leitungen ( allgem. ) ;Linie
+01.03.06;#036.8941;;Kabelschacht Strom;Punkt
+01.03.06;#036.8941;;Stromerdleitung ;Linie
+01.03.06;#036.8942;;Kabelschacht Verkehrssteuerungsanlage;Punkt
+01.03.06;#036.8942;;Kabel der Verkehrsteuerungsanlage ;Linie
+01.03.06;#036.8943;;Kabelschacht Lichtwellenleiter;Punkt
+01.03.06;#036.8943;;Lichtwellenleiter / Glasfaserkabel ;Linie
+01.03.06;#036.8944;;Kabelschacht Sammelleitung;Punkt
+01.03.06;#036.8944;;Sammelleitung / mehrfach genutzte Kabeltrasse ;Linie
+01.03.06;#036.8945;;Kabelschacht Fernmeldeleitung;Punkt
+01.03.06;#036.8945;;Fernmeldeleitung ;Linie
+01.03.06;#036.8947;;Kontaktschleifen in Fahrbahn;Punkt
+01.03.06;#036.8947;;Kontaktschleifen in Fahrbahn;Linie
+01.03.06;#030.8965;;Gittermast;Punkt
+01.03.06;#030.8966;;Mast;Punkt
+01.03.06;#030.8966;;Freileitung (allg.);Linie
+01.03.06;#036.8967;;Sendemast;Punkt
+01.03.06;#030.8967;;Fernsprechzelle;Punkt
+01.03.06;#030.8967;;Fernsprechzelle (Umriss);Linie
+01.03.06;#030.8968;;Hydrant ;Punkt
+01.03.06;#030.8970;;Schutzplanke einfach;Punkt
+01.03.06;#030.8970;;Schutzplanke einfach ;Linie
+01.03.06;#030.8971;;Schutzplanke doppelt;Punkt
+01.03.06;#030.8971;;Schutzplanke doppelt ;Linie
+01.03.06;#030.8972;;Einrichtungen an Rastanlagen;Punkt
+01.03.06;#030.8972;;Einrichtungen an Rastanlagen, Umrisslinie;Linie
+01.03.06;#037.8926;;Kraftstoffzapfsäule;Punkt
+01.03.06;#037.8926;;Umrisslinie einer Kraftstoffzapfsäule;Linie
+01.03.06;#037.8927;;Tank oberirdisch;Punkt
+01.03.06;#037.8927;;Umrisslinie eines oberirdischen Tanks;Linie
+01.03.06;#037.8928;;Tank unterirdisch;Punkt
+01.03.06;#037.8928;;Umrisslinie eines unterirdischen Tanks;Linie
+01.03.06;#030.8973;;Beleuchtungsmast;Punkt
+01.03.06;#030.8974;;Notrufsäule;Punkt
+01.03.06;#030.8976;;Pegel / Bodenerkundung (allg.);Punkt
+01.03.06;#030.8976;;Bodenerkundung (allgem.), Umrisslinie;Linie
+01.03.06;#030.8977;;Zaun (allg.);Punkt
+01.03.06;#030.8977;;Zaun (allg.);Linie
+01.03.06;#030.8978;;Tor im Zaun;Punkt
+01.03.06;#030.8978;;Tor im Zaun;Linie
+01.03.06;#030.8980;;Schild zur Verkehrslenkung ;Punkt
+01.03.06;#030.8980;;Schild zur Verkehrslenkung ;Linie
+01.03.06;#030.8981;;Gefahrenzeichen (StVO 101-199), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#030.8982;;Vorschriftszeichen (StVO 205-299), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#030.8983;;Richtzeichen (StVO 301-399), für Beschilderungspläne: 8000+StVO Nr. ;Punkt
+01.03.06;#030.8984;;Schilderbrücke Fundamenteckpunkt (unten);Punkt
+01.03.06;#030.8984;;Schilderbrücke Fundament-Umrisslinie;Linie
+01.03.06;#030.8986;;Verkehrssteuerungseinrichtung;Punkt
+01.03.06;#030.8986;;Verkehrssteuerungseinrichtung, Umrisslinie;Linie
+01.03.06;#038.8961;;Sichtweitenmessgerät Nebelwarnanlage;Punkt
+01.03.06;#038.8961;;Sichtweitenmessgerät Nebelwarnanlage ;Linie
+01.03.06;#038.8965;;Wechselverkehrszeichen;Punkt
+01.03.06;#038.8965;;Wechselverkehrszeichen;Linie
+01.03.06;#038.8966;;Überwachungskamera;Punkt
+01.03.06;#038.8966;;Überwachungskamera;Linie
+01.03.06;#030.8988;;Verkehrsampel;Punkt
+01.03.06;#030.8988;;Lichtzeichenbrücke;Linie
+01.03.06;#030.8989;;Schilder ( allgem. );Punkt
+01.03.06;#030.8989;;Schild als Linie / Umrisslinie;Linie
+01.03.06;#038.8992;;Werbetafel, Infotafel;Punkt
+01.03.06;#038.8992;;Werbetafel, Infotafel als Linie / Umrisslinie;Linie
+01.03.06;#039.8901;;Laubbaum allg.;Punkt
+01.03.06;#039.8901;;Baumreihe Laubbäume;Linie
+01.03.06;#039.8902;;Nadelbaum allg.;Punkt
+01.03.06;#039.8902;;Baumreihe Nadelbäume;Linie
+01.03.06;#030.8991;;Waldrand / Grenzlinie einer Gehölzfläche;Punkt
+01.03.06;#030.8991;;Waldrand / Grenzlinie einer Gehölzfläche;Linie
+01.03.06;#030.8993;;Gebüsch / Hecke;Punkt
+01.03.06;#030.8993;;Gebüsch / Hecke ;Linie
+01.03.06;#030.8994;;Uferlinie eines Gewässers;Punkt
+01.03.06;#030.8994;;Uferlinie eines Gewässers;Linie
+01.03.06;#030.8995;;Grenzpunkt von ökologischen Sonderflächen;Punkt
+01.03.06;#030.8995;;Grenzlinie einer ökologischen Sonderfläche ;Linie
+01.03.06;#039.8951;;Grenze Straßenbegleitgrün ( Rasen );Linie
+01.03.06;#039.8952;;Grenze Sukzessionsfläche;Linie
+01.03.06;#039.8953;;Grenze sonstige Grünfläche;Linie
+01.03.06;#039.8955;;Grenzpunkt Ausgleichsfläche;Punkt
+01.03.06;#039.8955;;Grenze Ausgleichsfläche;Linie
+01.03.06;#039.8956;;Grenzpunkt Ersatzmaßnahme;Punkt
+01.03.06;#039.8956;;Grenze Ersatzmaßnahme;Linie
+01.03.06;#039.8957;;Grenze Aufschüttungen;Linie
+01.03.06;#039.8958;;Grenze Abgrabungen;Linie
+01.03.06;#030.8996;;Punkt einer Grenze nach Wassergesetz;Punkt
+01.03.06;#030.8996;;Grenze von Schutzgebiet nach Wassergesetz;Linie
+01.03.06;#039.8961;;WSZ I;Punkt
+01.03.06;#039.8961;;Grenze WSZ I;Linie
+01.03.06;#039.8962;;WSZ II   ( auch WSZ IIa Und IIb );Punkt
+01.03.06;#039.8962;;Grenze WSZ II     ( auch WSZ IIa und IIb );Linie
+01.03.06;#039.8963;;WSZ III / IIIa;Punkt
+01.03.06;#039.8963;;Grenze WSZ III / IIIa;Linie
+01.03.06;#039.8964;;WSZ IIIb;Punkt
+01.03.06;#039.8964;;Grenze WSZ IIIb;Linie
+01.03.06;#039.8965;;Hochwasserschutzfläche;Punkt
+01.03.06;#039.8965;;Grenze Hochwasserschutzfläche;Linie
+01.03.06;#039.8966;;Überschwemmungsgebiet;Punkt
+01.03.06;#039.8966;;Grenze Überschwemmungsgebiet;Linie
+01.03.06;#039.8968;;Quellenschutzgebiet;Punkt
+01.03.06;#039.8968;;Grenze Quellenschutzgebiet;Linie
+01.03.06;#030.8997;;Punkt einer Grenze nach Naturschutzgesetz;Punkt
+01.03.06;#030.8997;;Grenze eines Schutzgebiets nach Naturschutzgesetz;Linie
+01.03.06;#030.8999;;Sonstiges lt. Feldbuch ;Punkt
+01.03.06;#030.8999;;Sonstiges lt. Feldbuch ;Linie
+01.03.06;#030.8901;;allgemeiner Punkt der Planung;Punkt 
+01.03.06;#030.8901;;allgemeine Linie der Planung  ( durchgezogen, Stift: 2.;Linie
+01.03.06;#030.8902;;Maßlinienpunkte;Punkt
+01.03.06;#030.8902;;Maßlinien  ( durchgezogen, Stift: 2, mit Schräglinien );Linie
+01.03.06;#030.8903;;Positionspunkt Querneigungskeil;Punkt
+01.03.06;#030.8903;;Querneigungskeil ( durchgezogen, Stift: 2, mit Schraffur );Linie
+01.03.06;#030.8904;;Bauanfang / Bauende;Punkt 
+01.03.06;#030.8904;;Bauanfang / Bauende ( durchgezogen,  1:500/1000: Stift 4, 1:250 Stift 5 );Linie
+01.03.06;#030.8905;;Achshauptpunkt einer Randachse;Punkt
+01.03.06;#030.8905;;Elementbemaßungsline für Randachse ( durchgez. Stift: 2);Linie
+01.03.06;#030.8906;;Achshauptpunkt einer Hauptachse;Punkt
+01.03.06;#030.8906;;Elementbemaßungsline für Hauptachse ( durchgez. Stift: 4) ; Linie
+01.03.06;#030.8909;;Radienmittelpunkt;Punkt 
+25.10.01;99999.9999;;Sonstiges;Punkt
+25.10.01;99999.9999;;Sonstiges;Linie
+25.10.01;99999.9999;;Sonstiges;Text
+25.10.01;99999.9999;;Sonstiges;Flaeche
+01.03.06;T000.8000;;Text allgemein, ohne weitere Angaben;Text
+01.03.06;T001.8000;;Text Stift 1, SCHWARZ Stiftdicke 0.18;Text
+01.03.06;T002.8000;;Text Stift 2, SCHWARZ Stiftdicke 0.25;Text
+01.03.06;T003.8000;;Text Stift 3, SCHWARZ Stiftdicke 0.35;Text
+01.03.06;T004.8000;;Text Stift 4, SCHWARZ Stiftdicke 0.50;Text
+01.03.06;T005.8000;;Text Stift 5, SCHWARZ Stiftdicke 0.70;Text
+01.03.06;T006.8000;;Text Stift 6, SCHWARZ Stiftdicke 1.00;Text
+01.03.06;T007.8000;;Text Stift 7, SCHWARZ Stiftdicke in STF anpassen;Text
+01.03.06;T008.8000;;Text Stift 8, SCHWARZ Stiftdicke in STF anpassen;Text
+01.03.06;T009.8000;;Text Stift 9, SCHWARZ Stiftdicke in STF anpassen;Text
+01.03.06;T000.8010;;Gemeindenamen aus ALK;Text
+01.03.06;T000.8011;;Ortsteilnamen aus ALK;Text
+01.03.06;T000.8012;;Gewannnamen aus ALK;Text
+01.03.06;T000.8013;;Beschriftungen mit Code 9802 – Texthöhe 2,5 – aus ALK;Text
+01.03.06;T000.8014;;Beschriftungen mit Code 9803 + 9804 – Texthöhe 3,5 – aus ALK;Text
+01.03.06;T000.8015;;Beschriftungen mit Code 9805 – Texthöhe 5,0 – aus ALK;Text
+01.03.06;T000.8016;;Beschriftungen mit Code 9807 – Texthöhe 7,0 – aus ALK;Text
+01.03.06;T000.8017;;Gewässerbeschriftung Code 9812 – Texthöhe 2,5, linksgeneigt – aus ALK;Text
+01.03.06;T000.8018;;Straßennamen Code 9813 + 9814 – Texthöhe 3,5 rechtsgeneigt – aus ALK;Text
+01.03.06;T000.8019;;Sonstige Texte aus ALK – Texthöhe 2,5 ;Text
+01.03.06;T000.8020;;Flurstücksnummern aus ALK;Text
+01.03.06;T000.8021;;Beschriftung Grunderwerb - Ordnungsnummern;Text
+01.03.06;T000.8022;;Gebäudenummern aus ALK ( für Maßstäbe 1:250 - 1:1 000 );Text
+01.03.06;T000.8023;;Gebäudenummern aus ALK für kleinere Maßstäbe ( 1:2000 – 1:5 000 ) ;Text
+01.03.06;T000.8024;;Gebäudenamen / Gebäudebezeichnung aus ALK;Text
+01.03.06;T000.8025;;Gebäudenutzung aus ALK und sonstigen Erhebungen;Text
+01.03.06;T000.8026;;Beschriftung Staat, Land, RP-Bezirk u. ä.;Text
+01.03.06;T000.8027;;Beschriftung Kreise;Text
+01.03.06;T000.8028;;Beschriftung Gemeinde-, Gemarkungs- und Flurnamen;Text
+01.03.06;T000.8029;;Nutzungsarten aus ALK;Text
+01.03.06;T000.8030;;Beschriftung von topografischen Objekten ;Text
+01.03.06;T000.8031;;Beschriftung von Straßen ( von ...  nach ...  u. ä. );Text
+01.03.06;T000.8032;;Beschriftung von klassifizierten Straßen ( Straßennummer, -bezeichnung );Text
+01.03.06;T000.8035;;Beschriftung an Bahnlinien;Text
+01.03.06;T000.8040;;Bauwerksbeschriftung allgemein / Bauwerksnummern;Text
+01.03.06;T000.8041;;Bauwerksbeschriftung mit Stift 1;Text
+01.03.06;T000.8042;;Bauwerksbeschriftung mit Stift 2;Text
+01.03.06;T000.8043;;Bauwerksbeschriftung mit Stift 3;Text
+02.03.06;T000.8044;;Bauwerksbeschriftung mit Stift 4;Text
+03.03.06;T000.8045;;Bauwerksbeschriftung mit Stift 5;Text
+04.03.06;T000.8046;;Bauwerksbeschriftung mit Stift 6;Text
+01.03.06;T000.8047;;Beschriftung Lärmschutz;Text
+01.03.06;T000.8050;;Beschriftung der Entwässerung allgemein;Text
+01.03.06;T000.8051;;Beschriftung der Entwässerung mit Stift 1;Text
+01.03.06;T000.8052;;Beschriftung der Entwässerung mit Stift 2;Text
+01.03.06;T000.8053;;Beschriftung der Entwässerung mit Stift 3;Text
+01.03.06;T000.8054;;Beschriftung der Entwässerung mit Stift 4;Text
+01.03.06;T000.8055;;Beschriftung der Entwässerung mit Stift 5;Text
+01.03.06;T000.8056;;Beschriftung der Entwässerung mit Stift 6;Text
+01.03.06;T000.8057;;Beschriftung der Entwässerung mit Stift 7;Text
+01.03.06;T000.8058;;Beschriftung der Entwässerung mit Stift 8;Text
+01.03.06;T000.8059;;Beschriftung der Schachtsohlen;Text
+01.03.06;T000.8060;;Beschriftung von Ver- und Entsorgungsleitungen allgemein;Text
+01.03.06;T000.8600;;Beschriftung von Schutzrohren ;Text
+01.03.06;T000.8601;;Beschriftung von Wasserleitungen;Text
+01.03.06;T000.8602;;Beschriftung von Fernwärmeleitungen;Text
+01.03.06;T000.8603;;Beschriftung von Ölleitungen;Text
+01.03.06;T000.8604;;Beschriftung von Gasleitungen;Text
+01.03.06;T000.8605;;Beschriftung von Wasserfassungen / Brunnen;Text
+01.03.06;T000.8606;;Beschriftung von Regenwasserleitungen;Text
+01.03.06;T000.8607;;Beschriftung von Mischwasserleitungen;Text
+01.03.06;T000.8608;;Beschriftung von Schmutzwasserleitungen;Text
+01.03.06;T000.8062;;Beschriftung von elektrischen Anlagen;Text
+01.03.06;T000.8063;;Beschriftung von Streckenkabeln der Autobahn ( AUSA );Text
+01.03.06;T000.8064;;Beschriftung von Elektroleitungen ;Text
+01.03.06;T000.8066;;Beschriftung von Freileitungen;Text
+01.03.06;T000.8067;;Beschriftung von Fernmeldeleitungen;Text
+01.03.06;T000.8072;;Beschriftung an Rastplätzen ;Text
+01.03.06;T000.8726;;Beschriftung Tank- und Rastanlagen – Zapfsäulen;Text
+01.03.06;T000.8727;;Beschriftung Tank- und Rastanlagen – oberirdische Tanks;Text
+01.03.06;T000.8728;;Beschriftung Tank- und Rastanlagen – unterirdische Tanks;Text
+01.03.06;T000.8729;;Beschriftung Tank- und Rastanlagen – sonstige Beschriftungen;Text
+01.03.06;T000.8073;;Beschriftung von Beleuchtungseinrichtungen;Text
+01.03.06;T000.8075;;Beschriftungen der Straßendatenbank, allgemein ( auch Stationierung );Text
+01.03.06;T000.8751;;Beschriftung der OD-Grenzen;Text
+01.03.06;T000.8752;;Beschriftung von Netzknoten;Text
+01.03.06;T000.8753;;Beschriftung Ast-Nullpunkt;Text
+01.03.06;T000.8754;;Beschriftung Ast-Endpunkt;Text
+01.03.06;T000.8756;;Beschriftung von Bauwerken in der SDB;Text
+01.03.06;T000.8076;;Beschriftung von Punkten der Bodenerkundung;Text
+01.03.06;T000.8079;;Höhenkoten;Text
+01.03.06;T000.8080;;Beschriftung an wegweisender Beschilderung;Text
+01.03.06;T000.8081;;Beschriftung von Verkehrszeichen;Text
+01.03.06;T000.8086;;Beschriftung von Verkehrssteuerungseinrichtungen;Text
+01.03.06;T000.8090;;Beschriftung von Einzelbäumen;Text
+01.03.06;T000.8091;;Beschriftung Bewuchs;Text
+01.03.06;T000.8094;;Beschriftung Gewässer  ( siehe auch Code 17 aus ALK );Text
+01.03.06;T000.8095;;Beschriftungen aus der Bauleitplanung;Text
+01.03.06;T000.8096;;Beschriftungen für Gewässerschutz;Text
+01.03.06;T000.8097;;Beschriftungen für Landschafts- und Naturschutz;Text
+01.03.06;T000.8098;;Beschriftung von Denkmälern;Text
+01.03.06;T000.8100;;Beschriftungen in Flurbereinigungsgebieten – z . B. vorläufige Gewannnamen;Text
+01.03.06;T000.8200;;vorläufige Flurstücksnummern in Flurbereinigungsgebieten;Text
+01.03.06;T000.8500;;Beschriftung von Festpunkten;Text
+01.03.06;T000.8501;;Beschriftung der Vermarkungsart von Festpunkten;Text
+01.03.06;T000.8991;;Text Stift 1, SCHWARZ Stiftdicke 0.18, freigestellt;Text
+01.03.06;T000.8992;;Text Stift 2, SCHWARZ Stiftdicke 0.25, freigestellt;Text
+01.03.06;T000.8993;;Text Stift 3, SCHWARZ Stiftdicke 0.35, freigestellt;Text
+01.03.06;T000.8994;;Text Stift 4, SCHWARZ Stiftdicke 0.50, freigestellt;Text
+01.03.06;T000.8995;;Text Stift 5, SCHWARZ Stiftdicke 0.70, freigestellt;Text
+01.03.06;T000.8996;;Text Stift 6, SCHWARZ Stiftdicke 1.00, freigestellt;Text

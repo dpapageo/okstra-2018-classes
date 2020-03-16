@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:okstra="http://www.okstra.de/okstra/2.018.2" xmlns:okstra-basis="http://www.okstra.de/okstra/2.018.2/okstra-basis" xmlns:okstra-typen="http://www.okstra.de/okstra/2.018.2/okstra-typen" elementFormDefault="qualified" targetNamespace="http://www.okstra.de/okstra/2.018.2" version="2.018.2">
+  <include schemaLocation="okstra.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-basis" schemaLocation="okstra-basis.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-typen" schemaLocation="okstra-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AOA_Laenge_aendern" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_Laenge_aendernType"/>
+  <complexType name="AOA_Laenge_aendernType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Laenge_neu" type="okstra-typen:Kilometer"/>
+          <element name="Anfangsstation" type="okstra-typen:Kilometer"/>
+          <element name="Endstation" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_Laenge_aendernPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_Laenge_aendern"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_Teilabschnitt_einfuegen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_Teilabschnitt_einfuegenType"/>
+  <complexType name="AOA_Teilabschnitt_einfuegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Station" type="okstra-typen:Kilometer"/>
+          <element name="Laenge" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_Teilabschnitt_einfuegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_Teilabschnitt_einfuegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_Teilabschnitt_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_Teilabschnitt_loeschenType"/>
+  <complexType name="AOA_Teilabschnitt_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Anfangsstation" type="okstra-typen:Kilometer"/>
+          <element name="Endstation" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_Teilabschnitt_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_Teilabschnitt_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_Teilgeometrie_aendern" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_Teilgeometrie_aendernType"/>
+  <complexType name="AOA_Teilgeometrie_aendernType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Teilgeometrie_neu" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="Gesamtgeometrie_neu" type="gml:CurvePropertyType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Anfangsstation" type="okstra-typen:Kilometer"/>
+          <element name="Endstation" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_Teilgeometrie_aendernPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_Teilgeometrie_aendern"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_anlegen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_anlegenType"/>
+  <complexType name="AOA_anlegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Liniengeometrie" type="gml:CurvePropertyType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Laenge" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_anlegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_anlegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_drehen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_drehenType"/>
+  <complexType name="AOA_drehenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_drehenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_drehen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_loeschenType"/>
+  <complexType name="AOA_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_spalten" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_spaltenType"/>
+  <complexType name="AOA_spaltenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="Station" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_spaltenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_spalten"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_verschmelzen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_verschmelzenType"/>
+  <complexType name="AOA_verschmelzenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung_1" type="okstra-typen:AOA_Kennung"/>
+          <element name="AOA_Kennung_2" type="okstra-typen:AOA_Kennung"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_verschmelzenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_verschmelzen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="AOA_zu_Strasse_zuordnen" substitutionGroup="gml:AbstractFeature" type="okstra:AOA_zu_Strasse_zuordnenType"/>
+  <complexType name="AOA_zu_Strasse_zuordnenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Strassenbezeichnung" type="okstra:StrassenbezeichnungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AOA_zu_Strasse_zuordnenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AOA_zu_Strasse_zuordnen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NK_Position_aendern" substitutionGroup="gml:AbstractFeature" type="okstra:NK_Position_aendernType"/>
+  <complexType name="NK_Position_aendernType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Netzknotennummer" type="okstra-typen:Netzknotennummer"/>
+          <element name="Punktgeometrie_neu" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NK_Position_aendernPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NK_Position_aendern"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NK_anlegen" substitutionGroup="gml:AbstractFeature" type="okstra:NK_anlegenType"/>
+  <complexType name="NK_anlegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Netzknotennummer" type="okstra-typen:Netzknotennummer"/>
+          <element name="Punktgeometrie" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NK_anlegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NK_anlegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NK_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:NK_loeschenType"/>
+  <complexType name="NK_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Netzknotennummer" type="okstra-typen:Netzknotennummer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NK_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NK_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NK_umbenennen" substitutionGroup="gml:AbstractFeature" type="okstra:NK_umbenennenType"/>
+  <complexType name="NK_umbenennenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Netzknotennummer_alt" type="okstra-typen:Netzknotennummer"/>
+          <element name="Netzknotennummer_neu" type="okstra-typen:Netzknotennummer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NK_umbenennenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NK_umbenennen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NPO_Position_aendern" substitutionGroup="gml:AbstractFeature" type="okstra:NPO_Position_aendernType"/>
+  <complexType name="NPO_Position_aendernType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="AOA_Kennung_alt" type="okstra-typen:AOA_Kennung"/>
+          <element name="Station_alt" type="okstra-typen:Kilometer"/>
+          <element name="AOA_Kennung_neu" type="okstra-typen:AOA_Kennung"/>
+          <element name="Station_neu" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NPO_Position_aendernPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NPO_Position_aendern"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NPO_anlegen" substitutionGroup="gml:AbstractFeature" type="okstra:NPO_anlegenType"/>
+  <complexType name="NPO_anlegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Station" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NPO_anlegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NPO_anlegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NPO_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:NPO_loeschenType"/>
+  <complexType name="NPO_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="AOA_Kennung" type="okstra-typen:AOA_Kennung"/>
+          <element name="Station" type="okstra-typen:Kilometer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NPO_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NPO_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NP_Position_aendern" substitutionGroup="gml:AbstractFeature" type="okstra:NP_Position_aendernType"/>
+  <complexType name="NP_Position_aendernType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="Punktgeometrie_neu" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NP_Position_aendernPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NP_Position_aendern"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NP_anlegen" substitutionGroup="gml:AbstractFeature" type="okstra:NP_anlegenType"/>
+  <complexType name="NP_anlegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+          <element name="Nullpunktart" type="okstra-basis:KeyValuePropertyType"/>
+          <element name="Punktgeometrie" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NP_anlegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NP_anlegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NP_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:NP_loeschenType"/>
+  <complexType name="NP_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer" type="okstra-typen:Nullpunktnummer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NP_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NP_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="NP_umbenennen" substitutionGroup="gml:AbstractFeature" type="okstra:NP_umbenennenType"/>
+  <complexType name="NP_umbenennenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Nullpunktnummer_alt" type="okstra-typen:Nullpunktnummer"/>
+          <element name="Nullpunktnummer_neu" type="okstra-typen:Nullpunktnummer"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NP_umbenennenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:NP_umbenennen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Netzaenderungstransaktion" substitutionGroup="gml:AbstractFeature" type="okstra:NetzaenderungstransaktionType"/>
+  <complexType name="NetzaenderungstransaktionType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Transaktionsnummer" type="string"/>
+          <element name="Transaktionsbezeichnung" type="string"/>
+          <element name="Wirksamkeitsdatum" type="date"/>
+          <element name="erzeugendes_System" type="string"/>
+          <element minOccurs="0" name="Bemerkung" type="string"/>
+          <element maxOccurs="unbounded" name="hat_Operation" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="NetzaenderungstransaktionPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Netzaenderungstransaktion"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="STR_anlegen" substitutionGroup="gml:AbstractFeature" type="okstra:STR_anlegenType"/>
+  <complexType name="STR_anlegenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Strassenbezeichnung" type="okstra:StrassenbezeichnungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="STR_anlegenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:STR_anlegen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="STR_loeschen" substitutionGroup="gml:AbstractFeature" type="okstra:STR_loeschenType"/>
+  <complexType name="STR_loeschenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Strassenbezeichnung" type="okstra:StrassenbezeichnungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="STR_loeschenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:STR_loeschen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="STR_umbenennen" substitutionGroup="gml:AbstractFeature" type="okstra:STR_umbenennenType"/>
+  <complexType name="STR_umbenennenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Operation_ID" type="string"/>
+          <element name="in_Transaktion" type="okstra-basis:ObjectRefType"/>
+          <element name="Strassenbezeichnung_alt" type="okstra:StrassenbezeichnungPropertyType"/>
+          <element name="Strassenbezeichnung_neu" type="okstra:StrassenbezeichnungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="STR_umbenennenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:STR_umbenennen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>

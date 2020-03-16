@@ -1,0 +1,85 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;;
+20.06.03;0211.0000;2.6.1.1;Staatsgrenze;Linie;07;;
+20.06.03;0212.0000;2.6.1.2;Landesgrenze;Linie;08;;
+20.06.03;0213.0000;2.6.1.3;Regierungsbezirksgrenze;Linie;09;;
+20.06.03;0214.0000;2.6.1.4;Kreisgrenze;Linie;10;;
+20.06.03;0215.0000;2.6.1.5;Gemeindegrenze;Linie;11;;
+20.06.03;0231.0000;2.6.1.6;Gemarkungsgrenze;Linie;12;;
+20.06.03;0232.0000;2.6.1.7;Flurgrenze;Linie;13;;
+24.07.03;0233.0000;2.6.1.8;Flurstücksgrenze;Linie;14;;
+03.02.04;0241.0000;2.2.7.34;Nutzungsartengrenze;Linie;15;;
+18.06.03;0253.0000;2.3.3.10;Topographische Zuordnungslinie;Linie;67;;
+20.06.03;0265.0000;2.6.1.11;Bauamtsgrenze;Linie;71;;
+20.06.03;0266.0000;2.6.1.12;Meistereigrenze;Linie;72;;
+28.10.03;0278.0000;2.7.5.6;Wasserschutzgebietsgrenze;Linie;39;;
+04.07.03;0427.0001;;Neigungrichtung;Punkt;M08;;
+19.04.04;0473.0001;2.3.11.3;Stützmauer;Linie;53;;
+18.06.03;0474.0000;2.3.9.2;Spundwand;Linie;42
+25.10.01;0719.0000;1.4.1;Gitterkreuz;Punkt;M50
+25.10.01;0719.0000;1.4.1;Gitternetzlinien;Linie;0
+25.10.01;0719.0001;;Schneiderahmen / Faltmarkierung;Linie;0
+25.10.01;0719.0002;;Heftrand;Linie;0
+25.10.01;0719.0003;;Koordinatenrahmen;Linie;0
+25.10.01;0719.0004;;Innenrahmen;Linie;0
+25.10.01;0719.0005;;Gitternetzbeschriftung;Text;1
+25.10.01;0719.0006;;Eckpunktbeschriftung;Text;1
+25.10.01;0719.0007;;Information im Schneiderahmen;Text;1
+;1072.0000;2.4.2.4;Firstlinie;Linie;69
+27.10.03;3402.0000;2.5.1;Unterirdische Leitungen;Linie;82
+27.10.03;3403.0000;2.5.2;Oberirdische  Leitungen;Linie;81
+25.10.01;3403.0000;2.5.2;Oberirdische  Leitungen;Text;1
+06.06.03;5004.0000;2.3.1.16;Achslinie;Linie;74
+25.10.01;5113.0000;2.3.1.3;Randstreifen unter 0,50m breit;Linie;31
+25.10.01;5114.0000;2.3.1.4;Randstreifen 0,50m und breiter;Linie;32
+25.10.01;5115.0000;2.3.1.5;Randstreifen mit unterbrochener Markierung;Linie;33
+06.06.03;5116.0000;2.3.1.6;Fahrbahnmarkierung;Linie;04
+24.06.02;5141.0000;2.3.1.22;Gehweg an Straßen;Linie;D54
+06.06.03;5141.0000;2.3.1.22;Gehweg an Straßen;Text;1
+06.06.03;5173.0000;2.3.1.18;Hochbord;Linie;64
+06.06.03;5174.0000;2.3.1.19;Tiefbord (Randeinfassung);Linie;65
+25.10.01;5211.0000;2.3.1.20;Unbefestigter Weg;Linie;66
+06.06.03;5215.0000;2.3.1.21;Weg unter 1mm Kartenbreite;Linie;34
+06.06.03;5296.0000;2.3.1.1;Straße, Weg - Begrenzung des befahrbaren Raumes;Linie;62
+25.10.01;5297.0000;2.3.1.2;Straße, Weg - überdeckte Begrenzungslinie;Linie;63
+18.06.03;5432.0000;2.3.4.2;Straßenbahngleisachse;Linie;41
+25.10.01;5444.0000;2.3.6.1;Seil- und Schwebebahn Personenbeförderung;Linie;79
+18.06.03;8038.0000;2.3.8.2;Veränderliche oder unbestimmbare Uferlinie;Linie;30
+25.10.01;8508.0000;2.3.1.17;Wegseitengraben, Rinne, Straßengraben (bis 1mm Kartenbreite) Grüppe;Linie;05
+25.10.01;8508.0000;2.3.1.17;Wegseitengraben, Rinne, Straßengraben (bis 1mm Kartenbreite) Grüppe;Text;1
+25.10.01;9242.0000;2.3.2.6;Lärmschutzwand;Punkt;1;
+25.10.01;9242.0000;2.3.2.6;Lärmschutzwand;Linie;54;
+25.10.01;99999.9999;;Sonstiges;Punkt;1;
+25.10.01;99999.9999;;Sonstiges;Linie;0;
+25.10.01;99999.9999;;Sonstiges;Text;1;
+25.10.01;99999.9999;;Sonstiges;Flaeche;0;
+25.10.01;L351.0000;2.2.11;Hecke links (in Aufnahmerichtung);Linie;46;
+23.10.03;L473.0000;2.2.10;links (in Aufnahmerichtung);Linie;44;
+25.10.01;L8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk links (in Aufnahmerichtung);Linie;55;
+03.02.04;R351.0000;2.2.11;Hecke,  topographisch bedeutend, rechts (in Aufnahmerichtung);Linie;48;
+03.02.04;R473.0000;2.2.10;Futtermauer, Stützmauer rechts (in Aufnahmerichtung);Linie;53;
+18.06.03;R8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk rechts (in Aufnahmerichtung);Linie;68;
+17.02.03;RE85.0001;RE 85;Fahrbahn;Flaeche;15;
+17.02.03;RE85.0002;RE 85;Bankett;Flaeche;105;
+27.11.03;RE85.0003;RE 85;Dammböschung;Flaeche;90;
+27.11.03;RE85.0004;RE 85;Einschnittsböschung;Flaeche;114;
+17.02.03;RE85.0005;RE 85;Insel gepflastert;Flaeche;16;
+17.02.03;RE85.0006;RE 85;Stützwand, Widerlager;Flaeche;08;
+17.02.03;RE85.0007;RE 85;geplanter Gebäudeabbruch;Flaeche;10;
+17.02.03;RE85.0008;RE 85;Gewässer mit Fließrichtung;Flaeche;35;
+21.11.03;RE85.0009;RE 85;Gehweg;Flaeche;115;
+17.02.03;RE85.0010;RE 85;Zufahrt;Flaeche;54;
+21.11.03;RE85.0011;RE 85;Wirtschaftsweg;Flaeche;15;
+04.11.03;RE85.0012;RE 85;Grunderwerb - für den Straßenbau vorübergehend benötigte Fläche;Flaeche;89;
+04.11.03;RE85.0013;RE 85;Grunderwerb - dauernd zu beschränkende Fläche;Flaeche;95;
+04.11.03;RE85.0014;RE 85;Grunderwerb - Restfläche;Flaeche;26;
+21.11.03;RE85.0015;RE 85;Trennstreifen;Flaeche;105;
+17.02.03;RE85.0016;RE 85;Radweg;Flaeche;82;
+21.11.03;RE85.0017;RE 85;Geh-/Radweg;Flaeche;82;
+03.12.03;RE85.0019;RE 85;Aufschüttung;Flaeche;90;
+03.12.03;RE85.0020;RE 85;Abgrabung;Flaeche;114;
+21.11.03;RE85.0021;RE 85;Lärmschutzwall;Flaeche;60;
+17.02.03;RE85.0022;RE 85;Lärmschutzwand;Flaeche;08;
+17.02.03;RE85.0023;RE 85;Gewässer ohne Fließrichtung;Flaeche;35;
+04.11.03;RE85.0024;RE 85;Grunderwerb - für den Straßenbau zu erwerbende Fläche;Flaeche;99;
+21.11.03;RE85.0025;RE 85;Gebäude bereits abgebrochen;Flaeche;10;
+25.10.01;Z351.0000;2.2.11;Hecke beidseitig;Linie;50;

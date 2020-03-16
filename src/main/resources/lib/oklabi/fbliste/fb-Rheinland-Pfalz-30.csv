@@ -1,0 +1,1099 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode
+1.1.2012;0114.0000;2.7.4.5;Abteilungsstein, Jagenstein ;Punkt;für Vermessung
+1.1.2012;5004.0000;;Achse, Achslinie;Linie;für Vermessung
+1.1.2012;6110.0000;2.2.7.1;Acker, Ackerland;Flaeche;für Vermessung
+1.1.2012;6110.0000;2.2.7.1;Acker, Ackerland (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+16.1.2014;19002-0000;;AFIS-Höhenfestpunkt;Punkt;aus AFIS
+16.1.2014;19002-0000;;AFIS-Höhenfestpunkt;Text;aus AFIS
+16.1.2014;19001-0000;;AFIS-Lagefestpunkt;Punkt;aus AFIS
+16.1.2014;19001-0000;;AFIS-Lagefestpunkt;Text;aus AFIS
+1.1.2012;8073.7002;;Amphibienleiteinrichtung;Linie;für Vermessung
+1.1.2012;5542.0000;2.3.7.1;Anflugbefeuerung (doppelt);Punkt;für Vermessung
+1.1.2012;5543.0000;2.3.7.2;Anflugbefeuerung (einfach);Punkt;für Vermessung
+1.1.2012;5747.0000;2.7.4.1;Anschlagsäule, Werbefläche;Punkt;für Vermessung
+1.1.2012;51002-1270;;Antenne;Flaeche;aus ALKIS
+1.1.2012;31002-2400;;Arkade, auskragendes od. zurückspringendes Geschoss;Flaeche;aus ALKIS
+1.1.2012;13001-0000;;Aufnahme-/Polygonpunkt;Punkt;aus AFIS
+1.1.2012;13001-0000;;Aufnahme-/Polygonpunkt;Text;aus AFIS
+16.1.2014;0122.0000;2.1.2;Aufnahmepunkt (der Straßenbauverwaltung);Punkt;für Vermessung
+16.1.2014;0122.0000;2.1.2;Aufnahmepunkt (der Straßenbauverwaltung);Text;für Vermessung
+16.1.2014;#251.7001;;AUSA-Kabel;Linie;für Vermessung
+1.1.2012;9703.0000;2.7.4.13;Aussichtsturm;Punkt;für Vermessung
+1.1.2012;9703.0000;2.7.4.13;Aussichtsturm;Text;für Vermessung
+1.1.2012;51001-1003;;Aussichtsturm;Flaeche;aus ALKIS
+16.1.2014;8401.0001;3.3.6;Bach;Text;für Vermessung
+1.1.2012;8401.0000;2.3.8.7;Bach unter 1mm Kartenbreite;Text;für Vermessung
+1.1.2012;02320-2506;;Bach, Durchlass, Graben verdolt/unterirdisch/bedeckt;Linie;aus ALKIS
+1.1.2012;31001-3091;;Bahnhofsgebäude;Flaeche;aus ALKIS
+1.1.2012;5477.0000;2.3.5.1;Bahnschranke;Punkt;für Vermessung
+1.1.2012;5446.0000;2.3.6.3;Bandstraße;Linie;für Vermessung
+1.1.2012;02320-2504;;Bandstraße, Förderband unter der Erdoberfläche/Wasserfläche;Linie;aus ALKIS
+1.1.2012;0265.0000;2.6.1.11;Bauamtsgrenze;Linie;für Vermessung
+1.1.2012;7515.0000;2.7.1.5;Baum von besonderer planerischer Bedeutung;Punkt;für Vermessung
+16.1.2014;6320.0000;2.2.7.8;Baumschule;Punkt;für Vermessung
+16.1.2014;6320.0000;2.2.7.8;Baumschule;Flaeche;für Vermessung
+1.1.2012;02310-3446;;Baumschule (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3446;;Baumschule (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;51002-0000;;Bauwerk oder Anlage für Industrie und Gewerbe, allgemein;Flaeche;aus ALKIS
+1.1.2012;51006-0000;;Bauwerk oder Anlage für Sport, Freizeit und Erholung, allgemein;Flaeche;aus ALKIS
+1.1.2012;51009-0000;;Bauwerk oder Einrichtung, sonstige;Flaeche;aus ALKIS
+16.1.2014;5005.0000;3.2.11;Bauwerksbezeichnung;Text;für Vermessung
+16.1.2014;5005.0000;;Bauwerksbezeichnung;Punkt;für Vermessung
+1.1.2012;51011-0000;;Bauwerkspunkt, besonderer;Punkt;aus ALKIS
+16.1.2014;#999.7022;;Befestigungswechsel;Linie;für Vermessung
+1.1.2012;7855.7003;;Begrenzung Gewässerdurchlass über/unter 1mm Kartenbreite;Linie;für Vermessung
+16.1.2014;7855.7004;;Begrenzung Wasser-Entsorg.-Durchlass über/unter 1mm Kartenbreite;Linie;für Vermessung
+1.1.2012;02320-2507;;Begrenzungslinie Arkade, auskragendes od. zurückspringendes Geschoss;Linie;aus ALKIS
+16.1.2014;#23B.7004;;Begrenzungslinie Brücke, Steg > 1mm Kartenbreite;Linie;für Vermessung
+16.1.2014;5297.7001;;Begrenzungslinie des befahrbaren Raumes (überdeckt);Linie;für Vermessung
+16.1.2014;1047.0000;2.4.4.4;Begrenzungslinie einer Arkade;Linie;für Vermessung
+16.1.2014;1046.0000;2.4.4.6;Begrenzungslinie eines aufgeständerten Gebäudes;Linie;für Vermessung
+1.1.2012;31001-1400;;Begrenzungslinie eines aufgeständerten Gebäudes;Linie;aus ALKIS
+1.1.2012;02320-2511;;Begrenzungslinie eines aufgeständerten Hochhaus;Linie;aus ALKIS
+16.1.2014;1043.0000;2.4.4.5;Begrenzungslinie eines auskragenden od. zurückspringenden Geschosses;Linie;für Vermessung
+1.1.2012;31003-1000;;Begrenzungslinie eines Gebäude, offen;Linie;aus ALKIS
+16.1.2014;1014.0000;2.4.1.4;Begrenzungslinie eines Gebäudes, offen;Linie;für Vermessung
+16.1.2014;1011.0000;2.4.1.1;Begrenzungslinie eines Hochhaus;Linie;für Vermessung
+1.1.2012;02320-2509;;Begrenzungslinie eines Hochhaus;Linie;aus ALKIS
+16.1.2014;1013.0000;2.4.1.3;Begrenzungslinie eines nicht öffentlichen Gebäudes;Linie;für Vermessung
+16.1.2014;1012.0000;2.4.1.2;Begrenzungslinie eines öffentlichen Gebäudes;Linie;für Vermessung
+16.1.2014;1016.0000;2.4.1.5;Begrenzungslinie eines unterirdischen Gebäudes;Linie;für Vermessung
+16.1.2014;1017.0000;2.4.1.6;Begrenzungslinie eines zerstörten Gebäudes;Linie;für Vermessung
+1.1.2012;5211.7001;;Begrenzungslinie unbefestigter Weg;Linie;für Vermessung
+1.1.2012;0251.0000;2.2.6;Begrenzungslinie, topographische ~;Linie;für Vermessung
+1.1.2012;0252.0000;2.2.6.1;Begrenzungslinie, topographische ~, überdeckt;Linie;für Vermessung
+16.1.2014;#223.7001;;Begrenzungslinie, unsicher;Linie;für Vermessung
+1.1.2012;3591.0000;2.5.5.12;Benzin-, Ölabscheider;Punkt;für Vermessung
+1.1.2012;0126.0000;2.1.3;Beobachtungspfeiler (der Straßenbauverwaltung);Punkt;für Vermessung
+1.1.2012;0126.0000;2.1.3;Beobachtungspfeiler (der Straßenbauverwaltung);Text;für Vermessung
+1.1.2012;02310-3405;;Bergbaubetrieb, Bergwerk (in Betrieb) (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;3196.0000;2.7.3.8;Bergbauschacht (eckig);Punkt;für Vermessung
+1.1.2012;31001-2171;;Bergwerk;Flaeche;aus ALKIS
+16.1.2014;1771.0000;2.7.3.5;Bergwerk in Betrieb;Punkt;für Vermessung
+16.1.2014;1772.0000;2.7.3.7;Bergwerk, außer Betrieb;Punkt;für Vermessung
+16.1.2014;1773.0000;2.7.3.6;Bergwerk, vorübergehend stillgelegt;Punkt;für Vermessung
+16.1.2014;9104-7036;;Beschriftung Straßenklassifizierung;Text;aus ALKIS
+1.1.2012;9104-7035;;Beschriftung Topographie;Text;aus ALKIS
+1.1.2012;9104-7040;;Beschriftung zu Gewässern;Text;aus ALKIS
+1.1.2012;9245-7040;;Beschriftung zu Gewässern;Text;aus ALKIS
+1.1.2012;9142-7045;;Beschriftung zu öfftl.-rechtl. Festsetzungen;Text;aus ALKIS
+1.1.2012;9145-7040;;Beschriftung zu öfftl.-rechtl. Festsetzungen (Wasser-, Heilquellenschutzgebiete);Text;aus ALKIS
+1.1.2012;9072-7045;;Beschriftung zu öfftl.-rechtlichen Festsetzungen;Text;aus ALKIS
+1.1.2012;9141-7079;;Beschriftung: Flächen- u. Bauwerksfkt., Namen v. Strassen, Bahnen;Text;aus ALKIS
+16.1.2014;6800.0000;2.2.7.18;Betriebsfläche, landwirtschaftliche;Punkt;für Vermessung
+16.1.2014;6800.0000;2.2.7.18;Betriebsfläche, landwirtschaftliche;Text;für Vermessung
+16.1.2014;6800.0000;2.2.7.18;Betriebsfläche, landwirtschaftliche;Flaeche;für Vermessung
+1.1.2012;31001-2450;;Betriebsgebäude zur Seilbahn;Flaeche;aus ALKIS
+1.1.2012;31001-3037;;Bibliothek, Bücherei;Flaeche;aus ALKIS
+1.1.2012;02310-3315;;Bibliothek, Bücherei (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;9341.0000;2.7.2.3;Bildstock;Punkt;für Vermessung
+1.1.2012;51002-1215;;Biogasanlage;Flaeche;aus ALKIS
+16.1.2014;9242.7001;;Blendschutzeinrichtung;Linie;für Vermessung
+1.1.2012;5476.0000;2.3.5.4;Blinklicht;Punkt;für Vermessung
+1.1.2012;9010.0000;2.7.4.15;Bohrpunkt, Bohrung;Punkt;für Vermessung
+16.1.2014;0463.0000;2.2.1.8;Böschung, befestigt;Linie;für Vermessung
+16.1.2014;0463.7001;;Böschungsbefestigung (Beschriftung), Art der  ~;Text;für Vermessung
+1.1.2012;0492.0000;2.2.1.5;Böschungshöhe;Text;für Vermessung
+16.1.2014;0481.7001;;Böschungsober- oder Unterkante, deutlich;Linie;für Vermessung
+16.1.2014;0482.7001;;Böschungsober- oder Unterkante, undeutlich;Linie;für Vermessung
+1.1.2012;0481.0000;2.2.1.1;Böschungsoberkante, deutlich;Linie;für Vermessung
+1.1.2012;0482.0000;2.2.1.3;Böschungsoberkante, undeutlich;Linie;für Vermessung
+16.1.2014;0487.0000;2.2.1.7;Böschungsrichtung, angedeutet;Linie;für Vermessung
+1.1.2012;0486.0000;2.2.1.6;Böschungsschraffen;Linie;für Vermessung
+16.1.2014;0484.0000;2.2.1.2;Böschungsunterkante, deutlich;Linie;für Vermessung
+16.1.2014;0485.0000;2.2.1.4;Böschungsunterkante, undeutlich;Linie;für Vermessung
+1.1.2012;02310-3417;;Botanischer Garten (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3016;;Botschaft, Konsulat;Flaeche;aus ALKIS
+16.1.2014;6900.0000;2.2.7.19;Brachland, Unland;Text;für Vermessung
+16.1.2014;6900.0000;2.2.7.19;Brachland, Unland;Flaeche;für Vermessung
+1.1.2012;5745.0000;2.5.8.1;Briefkasten;Punkt;für Vermessung
+1.1.2012;53001-0000;;Brücke, Widerlager;Flaeche;aus ALKIS
+1.1.2012;53001-0000;;Brücke, Widerlager;Linie;aus ALKIS
+1.1.2012;5736.0000;2.3.11.4;Brückenpfeiler;Punkt;für Vermessung
+1.1.2012;2371.0000;2.7.4.6;Brückenwaage;Punkt;für Vermessung
+1.1.2012;51009-1781;;Brunnen (Trinkwasserversorgung);Flaeche;aus ALKIS
+1.1.2012;3411.0000;2.5.5.1;Brunnen, Brunnenstube;Punkt;für Vermessung
+1.1.2012;8033.0000;2.3.9.3;Buhne;Linie;für Vermessung
+16.1.2014;5111.0000;3.2.2;Bundesautobahn;Text;für Vermessung
+16.1.2014;5122.0000;3.2.3;Bundesstraße;Text;für Vermessung
+1.1.2012;31001-3038;;Burg, Festung;Flaeche;aus ALKIS
+1.1.2012;31001-3097;;Bus-Bahnhof-Gebäude;Flaeche;aus ALKIS
+1.1.2012;02310-3332;;Bus-Bahnhof-Gebäude (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;5439.0000;2.3.3.6;Bushaltestelle;Punkt;für Vermessung
+16.1.2014;4301.0000;2.2.7.32;Campingplatz;Flaeche;für Vermessung
+16.1.2014;4301.0000;2.2.7.32;Campingplatz (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3412;;Campingplatz (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;3447.7001;;Co-, Kondensatormuffe (AUSA-Kabel);Punkt;für Vermessung
+16.1.2014;#23B.7006;;Dehnfuge;Linie;für Vermessung
+1.1.2012;9332.0000;2.7.2.1;Denkmal, Denkstein, Standbild;Punkt;für Vermessung
+16.1.2014;3455.0000;2.5.4.5;Doppelmast;Punkt;für Vermessung
+1.1.2012;3455.7001;;Doppelmast (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3455.7002;;Doppelmast (Telekommunikation);Punkt;für Vermessung
+1.1.2012;3921.0000;2.7.3.2;Drehkran;Punkt;für Vermessung
+1.1.2012;8073.0000;2.3.12.1;Düker;Linie;für Vermessung
+16.1.2014;10420000;2.4.4.3;Durchfahrt an überbauter Verkehrsstraße;Linie;für Vermessung
+1.1.2012;31002-2610;;Durchfahrt an überbauter Verkehrsstraße, im Gebäude;Flaeche;aus ALKIS
+1.1.2012;1041.0000;2.4.4.2;Durchfahrt im Gebäude;Linie;für Vermessung
+16.1.2014;#33.7001;;Durchmesser-Zeichen (für Durchlässe o.ä.);Text;für Vermessung
+16.1.2014;#25.7001;;Durchmesser-Zeichen (für Leitungen);Text;für Vermessung
+16.1.2014;0719.0006;;Eckpunktbeschriftung;Text;für Vermessung
+1.1.2012;8095.0000;2.1.7.4;Eichpfahl;Punkt;für Vermessung
+16.1.2014;7855.7001;;Ein-, Auslaß von Entwässerung, Durchlaß;Punkt;für Vermessung
+1.1.2012;7855.7002;;Einlaufschacht, Muldeneinlauf;Punkt;für Vermessung
+1.1.2012;3504.7011;;Einsteige-, Kanalschacht (eckig);Punkt;für Vermessung
+1.1.2012;3504.7001;;Einsteige-, Kanalschacht (rund);Punkt;für Vermessung
+16.1.2014;3484.7001;;Einsteigeschacht für Elektrizitätsversorgung (rechteckig);Punkt;für Vermessung
+16.1.2014;3484.0000;2.5.8.4;Einsteigeschacht für Fernmeldewesen;Punkt;für Vermessung
+16.1.2014;3474.0000;2.5.9.3;Einsteigeschacht für Heizungsanlage (Fernheizung);Punkt;für Vermessung
+16.1.2014;3484.7002;;Einsteigeschacht für Telekommunikation (rechteckig);Punkt;für Vermessung
+1.1.2012;3504.7002;;Einsteigeschacht, sonst. Versorgung (rund);Punkt;für Vermessung
+1.1.2012;8084.0000;2.7.4.10;Eisbrecher;Punkt;für Vermessung
+1.1.2012;31001-3090;;Empfangsgebäude;Flaeche;aus ALKIS
+1.1.2012;3432.0000;2.5.2.5;Erdgas-, Heizgasleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3433.0000;2.5.1.5;Erdgas-, Heizgasleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;3195.0000;2.5.9.4;Erdgasförderstelle;Punkt;für Vermessung
+1.1.2012;3191.0000;2.5.9.2;Erdölpumpe, Ölförderanlage;Punkt;für Vermessung
+16.1.2014;5110.0000;3.2.1;Europastraße;Text;für Vermessung
+1.1.2012;5751.0000;2.7.4.14;Fahnenmast;Punkt;für Vermessung
+1.1.2012;5113.0000;2.3.1.3;Fahrbahnbegrenzung, Rand-, Leitstreifen  < 0,5 m;Linie;für Vermessung
+1.1.2012;5114.0000;2.3.1.4;Fahrbahnbegrenzung, Rand-, Leitstreifen  >= 0,5 m;Linie;für Vermessung
+1.1.2012;5115.0000;2.3.1.5;Fahrbahnbegrenzung, Rand-, Leitstreifen mit unterbrochener Markierung;Linie;für Vermessung
+1.1.2012;5116.0000;2.3.1.6;Fahrbahnmarkierung;Linie;für Vermessung
+16.1.2014;0441.0000;2.2.4;Fels;Linie;für Vermessung
+16.1.2014;0441.0000;2.2.4;Fels;Text;für Vermessung
+1.1.2012;3475.0000;2.5.2.9;Fernheizleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3476.0000;2.5.1.9;Fernheizleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;3486.0000;2.5.8.3;Fernsprechhäuschen;Punkt;für Vermessung
+16.1.2014;3422.0000;2.5.2.2;Fernwasserleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3424.0000;2.5.1.2;Fernwasserleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;3487.7001;;Feuchtigkeitssensor;Punkt;für Vermessung
+1.1.2012;3487.0000;2.5.9.1;Feuermelder;Punkt;für Vermessung
+1.1.2012;31001-3072;;Feuerwehr;Flaeche;aus ALKIS
+1.1.2012;02310-3326;;Feuerwehr (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3019;;Finanzamt;Flaeche;aus ALKIS
+1.1.2012;1072.0000;2.4.2.4;Firstlinie;Linie;für Vermessung
+1.1.2012;8083.0000;2.3.10.6;Fischtreppe, Kaskade;Linie;für Vermessung
+16.1.2014;8025.0000;2.3.8.3;Fließrichtungspfeil von Bach, Fließgewässer, Graben;Punkt;für Vermessung
+1.1.2012;02310-3488;;Fließrichtungspfeil von Bach, Fließgewässer, Graben;Punkt;aus ALKIS
+16.1.2014;#23B.7002;;Flügelwand von Widerlager;Linie;für Vermessung
+16.1.2014;#23B.7003;;Flügelwand von Widerlager, verdeckt;Linie;für Vermessung
+16.1.2014;5511.0000;2.2.7.33;Flughafen;Text;für Vermessung
+16.1.2014;5511.0000;2.2.7.33;Flughafen;Flaeche;für Vermessung
+1.1.2012;31001-3092;;Flughafengebäude;Flaeche;aus ALKIS
+16.1.2014;0232.0000;3.1.6;Flurnummer;Text;für Vermessung
+16.1.2014;0233.0000;;Flurstück;Flaeche;für Vermessung
+1.1.2012;11001-0000;;Flurstück;Flaeche;aus ALKIS
+16.1.2014;0233.0000;3.1.7;Flurstücksnummer;Text;für Vermessung
+1.1.2012;11001-0000;;Flurstücksnummer;Text;aus ALKIS
+1.1.2012;9103-7071;;Flurstücksnummer;Text;aus ALKIS
+16.1.2014;0234.0000;3.1.8;Flurstücksnummer in besonderer Darstellung;Text;für Vermessung
+16.1.2014;8114.0000;3.3.3;Fluß;Text;für Vermessung
+1.1.2012;02310-3402;;Förderanlage (Symbol);Punkt;aus ALKIS
+1.1.2012;02320-2521;;Förderband, Bandstraße, Tor;Linie;aus ALKIS
+1.1.2012;31001-3024;;Forschungsinstitut;Flaeche;aus ALKIS
+1.1.2012;51005-1110;;Freileitung;Linie;aus ALKIS
+1.1.2012;51005-1110;;Freileitung;Text;aus ALKIS
+1.1.2012;1044.0000;2.4.5.3;Freitreppe;Linie;für Vermessung
+1.1.2012;31001-3062;;Freizeit-, Vereinsheim, Dorfgemeinschafts-, Bürgerhaus;Flaeche;aus ALKIS
+1.1.2012;9411.0000;2.2.7.20;Friedhof;Punkt;für Vermessung
+1.1.2012;9411.0000;2.2.7.20;Friedhof;Flaeche;für Vermessung
+1.1.2012;31001-3080;;Friedhofsgebäude;Flaeche;aus ALKIS
+1.1.2012;5172.0000;2.5.4.9;Fundament, Gittermastfundament;Punkt;für Vermessung
+1.1.2012;02310-3506;;Funkmast, Antenne;Punkt;aus ALKIS
+1.1.2012;3485.0000;2.5.4.7;Funkmast, Funkstelle, Umsetzer;Punkt;für Vermessung
+16.1.2014;5227.0000;2.3.11.2;Furt;Punkt;für Vermessung
+16.1.2014;5227.0000;2.3.11.2;Furt;Linie;für Vermessung
+16.1.2014;5227.0000;2.3.11.2;Furt;Text;für Vermessung
+16.1.2014;5733.0000;2.3.11.1;Fußgängersteg;Linie;für Vermessung
+1.1.2012;02310-3424;;Fußweg, Gang (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;0473.0000;2.2.10;Futter-, Stützmauer;Linie;für Vermessung
+16.1.2014;L321.0000;2.6.4.4;Futter-, Stützmauer (in Aufnahmerichtung links);Linie;für Vermessung
+16.1.2014;R321.0000;2.6.4.4;Futter-, Stützmauer (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;0321.0000;2.6.4.4;Futter-, Stützmauer als Grenzmauer;Linie;für Vermessung
+16.1.2014;Z321.0000;2.6.4.4;Futter-, Stützmauer gemeinschaftlich;Linie;für Vermessung
+16.1.2014;Z473.0000;2.2.10;Futter-, Stützmauer, beidseitig;Linie;für Vermessung
+16.1.2014;2366.0000;2.4.4;Garage;Text;für Vermessung
+1.1.2012;31001-2463;;Garage;Flaeche;aus ALKIS
+16.1.2014;4281.0000;2.2.7.41;Garten, Gartenland;Flaeche;für Vermessung
+16.1.2014;4281.7000;;Garten, Gartenland (Nutzungsarten-Einzelsymbol);Punkt;für Vermessung
+1.1.2012;02310-3421;;Garten, Gartenland (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;4281.0000;2.2.7.41;Garten, Gartenland (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3421;;Garten, Gartenland (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;2572.0000;2.5.7.1;Gasometer;Punkt;für Vermessung
+16.1.2014;2572.0000;2.5.7.1;Gasometer;Text;für Vermessung
+16.1.2014;3435.7001;;Gasschieber;Punkt;für Vermessung
+16.1.2014;1112.0000;2.4.4;Gebäude;Text;für Vermessung
+1.1.2012;31001-2611;;Gebäude der Kläranlage;Flaeche;aus ALKIS
+1.1.2012;31001-3020;;Gebäude für Bildung und Forschung;Flaeche;aus ALKIS
+1.1.2012;31001-3050;;Gebäude für Gesundheitswesen;Flaeche;aus ALKIS
+1.1.2012;31001-3030;;Gebäude für kulturelle Zwecke;Flaeche;aus ALKIS
+1.1.2012;31001-3000;;Gebäude für öffentliche Zwecke;Flaeche;aus ALKIS
+1.1.2012;31001-3040;;Gebäude für religiöse Zwecke;Flaeche;aus ALKIS
+1.1.2012;31001-3070;;Gebäude für Sicherheit und Ordnung;Flaeche;aus ALKIS
+1.1.2012;31001-3060;;Gebäude für soziale Zwecke;Flaeche;aus ALKIS
+1.1.2012;31001-2000;;Gebäude für Wirtschaft oder Gewerbe;Flaeche;aus ALKIS
+1.1.2012;02320-2032;;Gebäude nach Quellenlage nicht zu spezifizieren, unter der Erdoberfläche;Linie;aus ALKIS
+16.1.2014;1000.0000;2.2.7.17;Gebäude- und Freifläche;Text;für Vermessung
+16.1.2014;1000.0000;2.2.7.17;Gebäude- und Freifläche;Flaeche;für Vermessung
+16.1.2014;#244.7001;;Gebäude-(eck-)punkt;Punkt;für Vermessung
+16.1.2014;31001-0000;;Gebäude-(eck-)punkt;Punkt;aus ALKIS
+1.1.2012;9074-7035;;Gebäudename, -funktion;Text;aus ALKIS
+16.1.2014;1062.0000;2.4.3.3;Gebäuderaster;Flaeche;für Vermessung
+1.1.2012;1061.0000;2.4.3.1;Gebäudeschraffur, 50 gon (Wohngebäude);Flaeche;für Vermessung
+1.1.2012;1063.0000;2.4.3.2;Gebäudeschraffur, parallel (Wirtschafts-/Industriegebäude);Flaeche;für Vermessung
+1.1.2012;31002-1400;;Gebäudeteil mit abweichender Geschosshöhe;Flaeche;aus ALKIS
+1.1.2012;1019.0000;2.4.4.8;Gebäudeverbindungsgang;Linie;für Vermessung
+1.1.2012;1019.0000;2.4.4.8;Gebäudeverbindungsgang;Text;für Vermessung
+16.1.2014;5151.0000;2.3.1.23;Geh- / Radweg;Linie;für Vermessung
+16.1.2014;5151.0000;2.3.1.23;Geh- / Radweg;Punkt;für Vermessung
+16.1.2014;5151.0000;2.3.1.23;Geh- / Radweg;Text;für Vermessung
+1.1.2012;02310-3470;;Gehölz, Gebüsch (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3470;;Gehölz, Gebüsch (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;7400.0000;2.2.7.23;Gehölzfläche;Punkt;für Vermessung
+16.1.2014;7400.0000;2.2.7.23;Gehölzfläche;Flaeche;für Vermessung
+16.1.2014;5141.0000;2.3.1.22;Gehweg an Straßen;Linie;für Vermessung
+16.1.2014;5141.0000;2.3.1.22;Gehweg an Straßen;Punkt;für Vermessung
+16.1.2014;5141.0000;2.3.1.22;Gehweg an Straßen;Text;für Vermessung
+1.1.2012;0431.0000;2.2.2.1;Gelände-, Rasterhöhenpunkt (mit Höhe);Punkt;für Vermessung
+1.1.2012;0431.0000;2.2.2.1;Gelände-, Rasterhöhenpunkt (mit Höhe);Text;für Vermessung
+16.1.2014;0431.7000;2.2.2.1;Geländelinie, -bruchkante (mit Höhe) ;Linie;für Vermessung
+16.1.2014;02310-3629;;Geländepunkt, besonderer topographischer Punkt (ohne Höhe);Punkt;aus ALKIS
+16.1.2014;5003.7001;;Geländer;Linie;für Vermessung
+16.1.2014;0618.0000;3.1.4;Gemarkungsname;Text;für Vermessung
+1.1.2012;9202-7076;;Gemeinde-, Gemarkungsname, Wohnplatzname;Text;aus ALKIS
+16.1.2014;5129.0000;3.2.7;Gemeindestraße;Text;für Vermessung
+1.1.2012;31001-3015;;Gericht;Flaeche;aus ALKIS
+16.1.2014;0646.0000;3.1.5;Gewannbezeichnung, Lagebezeichnung;Text;für Vermessung
+1.1.2012;71003-1320;;Gewässer I. Ordnung - nach Landesrecht;Flaeche;aus ALKIS
+1.1.2012;71003-1310;;Gewässer I. Ordnung (Bundeswasserstraße);Flaeche;aus ALKIS
+1.1.2012;71003-1330;;Gewässer II. Ordnung;Flaeche;aus ALKIS
+1.1.2012;71003-1340;;Gewässer III. Ordnung;Flaeche;aus ALKIS
+1.1.2012;02320-2520;;Gewässer, stehend, nicht ständig Wasser führend;Linie;aus ALKIS
+1.1.2012;02310-3490;;Gewässer, stehend, wie See, Teich usw., (Sportboot-)hafenbecken (Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3490;;Gewässer, stehend, wie See, Teich usw., (Sportboot-)hafenbecken (Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;0719.0000;1.4.1;Gitterkreuz;Punkt;für Vermessung
+16.1.2014;0719.0005;;Gitternetzbeschriftung;Text;für Vermessung
+1.1.2012;0719.0000;1.4.1;Gitternetzlinien;Linie;für Vermessung
+16.1.2014;9293.0000;;Gleitwand, Beton-;Linie;für Vermessung
+1.1.2012;8501.0000;2.3.8.8;Graben unter 1mm Kartenbreite, nass;Linie;für Vermessung
+1.1.2012;8501.0000;2.3.8.8;Graben unter 1mm Kartenbreite, nass;Text;für Vermessung
+16.1.2014;8501.0001;3.3.13;Graben, nass;Text;für Vermessung
+16.1.2014;8503.0000;3.3.15;Graben, trocken;Text;für Vermessung
+16.1.2014;0211.0000;2.6.1.1;Grenze der Bundesrepublik Deutschland (Staatsgrenze);Linie;für Vermessung
+1.1.2012;11002-7101;;Grenze der Bundesrepublik Deutschland (Staatsgrenze);Linie;aus ALKIS
+16.1.2014;0232.0000;2.6.1.7;Grenze der Flur (Flurgrenze);Linie;für Vermessung
+1.1.2012;11002-3000;;Grenze der Flur (Flurgrenze);Linie;aus ALKIS
+16.1.2014;0231.0000;2.6.1.6;Grenze der Gemarkung (Gemarkungsgrenze);Linie;für Vermessung
+1.1.2012;11002-7003;;Grenze der Gemarkung (Gemarkungsgrenze);Linie;aus ALKIS
+16.1.2014;0215.0000;2.6.1.5;Grenze der Gemeinde (Gemeindegrenze);Linie;für Vermessung
+1.1.2012;11002-7106;;Grenze der Gemeinde (Gemeindegrenze);Linie;aus ALKIS
+1.1.2012;11002-7108;;Grenze der Verwaltungsgemeinschaft;Linie;aus ALKIS
+16.1.2014;0212.0000;2.6.1.2;Grenze des Bundeslandes (Landesgrenze);Linie;für Vermessung
+1.1.2012;11002-7102;;Grenze des Bundeslandes (Landesgrenze);Linie;aus ALKIS
+16.1.2014;0233.0000;2.6.1.8;Grenze des Flurstücks (Flurstücksgrenze);Linie;für Vermessung
+1.1.2012;11001-0000;;Grenze des Flurstücks (Flurstücksgrenze);Linie;aus ALKIS
+1.1.2012;11002-1000;;Grenze des Flurstücks (Flurstücksgrenze);Linie;aus ALKIS
+16.1.2014;0248.0000;2.6.1.10;Grenze des Flurstücks (Flurstücksgrenze) als Mittellinie in Gewässern;Linie;für Vermessung
+16.1.2014;0213.0000;2.6.1.3;Grenze des Regierungsbezirkes (Regierungsbezirksgrenze);Linie;für Vermessung
+1.1.2012;11002-7103;;Grenze des Regierungsbezirkes (Regierungsbezirksgrenze);Linie;aus ALKIS
+16.1.2014;0214.0000;2.6.1.4;Grenze des Stadt-/Landkreises (Kreisgrenze);Linie;für Vermessung
+1.1.2012;11002-7104;;Grenze des Stadt-/Landkreises (Kreisgrenze);Linie;aus ALKIS
+16.1.2014;0319.0000;2.6.4.10;Grenzgraben, trocken;Linie;für Vermessung
+16.1.2014;0318.0000;2.6.4.9;Grenzgraben, wasserführend;Linie;für Vermessung
+16.1.2014;L311.0000;2.6.4.1;Grenzhecke (in Aufnahmerichtung links);Linie;für Vermessung
+16.1.2014;R311.0000;2.6.4.1;Grenzhecke (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;A311.0000;2.6.4.1;Grenzhecke gemeinschaftlich;Linie;für Vermessung
+16.1.2014;0111.0000;2.6.3.1;Grenzmarke an Staats-, Landesgrenze;Punkt;für Vermessung
+16.1.2014;L313.0000;2.6.4.3;Grenzmauer (in Aufnahmerichtung links);Linie;für Vermessung
+16.1.2014;R313.0000;2.6.4.3;Grenzmauer (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;Z313.0000;2.6.4.3;Grenzmauer gemeinschaftlich, beidseitig;Linie;für Vermessung
+1.1.2012;0118.0000;2.6.3.3;Grenzpunkt, abgemarkt;Punkt;für Vermessung
+1.1.2012;11003-1000;;Grenzpunkt, dauerhaft und gut erkennbar abgemarkt;Punkt;aus ALKIS
+1.1.2012;11003-9500;;Grenzpunkt, unvermarkt oder unterirdische Marke;Punkt;aus ALKIS
+16.1.2014;0317.0000;2.6.4.8;Grenzrain;Linie;für Vermessung
+1.1.2012;9395.0000;2.7.4.11;Grenzstein,  Meilenstein (historisch);Punkt;für Vermessung
+16.1.2014;0316.0000;2.6.4.7;Grenzwall (mit Bewachsung);Linie;für Vermessung
+16.1.2014;0315.0000;2.6.4.6;Grenzwall (ohne Bewachsung);Linie;für Vermessung
+16.1.2014;L312.0000;2.6.4.2;Grenzzaun (in Aufnahmerichtung links);Linie;für Vermessung
+16.1.2014;R312.0000;2.6.4.2;Grenzzaun (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;A312.0000;2.6.4.2;Grenzzaun gemeinschaftlich;Linie;für Vermessung
+16.1.2014;6210.0000;2.2.7.3;Grünanlage, Grünland;Flaeche;für Vermessung
+16.1.2014;6210.7001;;Grünanlage, Grünland (Nutzungsarten-Einzelsymbol);Punkt;für Vermessung
+1.1.2012;02310-3413;;Grünanlage, Grünland (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6210.0000;2.2.7.3;Grünanlage, Grünland (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3413;;Grünanlage, Grünland (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;8096.0000;2.5.5.13;Grundwasserbeobachtungsrohr;Punkt;für Vermessung
+1.1.2012;8094.0000;2.1.7.5;Grundwassermeßstelle;Punkt;für Vermessung
+16.1.2014;5902.0000;2.2.7.36;Grünland (in Verkehrsflächen);Punkt;für Vermessung
+16.1.2014;5902.0000;2.2.7.36;Grünland (in Verkehrsflächen);Flaeche;für Vermessung
+1.1.2012;31001-3221;;Hallenbad;Flaeche;aus ALKIS
+1.1.2012;02310-3334;;Hallenbad (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;1031.0000;2.4.2.1;Hausnummer;Text;für Vermessung
+1.1.2012;9071-7073;;Hausnummer, Gebäudefunktion;Text;aus ALKIS
+16.1.2014;L351.0000;2.2.11;Hecke (in Aufnahmerichtung links);Linie;für Vermessung
+1.1.2012;0351.0000;2.2.11;Hecke (in Aufnahmerichtung rechts);Linie;für Vermessung
+1.1.2012;0356.0000;2.7.4.9;Hecktor;Punkt;für Vermessung
+16.1.2014;0719.0002;;Heftrand;Linie;für Vermessung
+16.1.2014;6600.0000;2.2.7.15;Heide;Flaeche;für Vermessung
+1.1.2012;02310-3474;;Heide (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6600.0000;2.2.7.15;Heide (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3474;;Heide (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;31001-3052;;Heilanstalt, Pflegeanstalt, -station;Flaeche;aus ALKIS
+16.1.2014;#232.7001;;Helligkeitsmeßgerät;Punkt;für Vermessung
+1.1.2012;5281.0000;2.3.3.1;Hinweistafel, -zeichen, Ortsschild (freistehend);Punkt;für Vermessung
+1.1.2012;5173.0000;2.3.1.18;Hochbord;Linie;für Vermessung
+1.1.2012;31001-3023;;Hochschulgebäude (Fachhochschule, Universität);Flaeche;aus ALKIS
+1.1.2012;3444.0000;2.5.2.4;Hochspannungsleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3446.0000;2.5.1.4;Hochspannungsleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;8023.0000;2.3.10.7;Höhe des Wasserspiegels;Punkt;für Vermessung
+1.1.2012;8023.0000;2.3.10.7;Höhe des Wasserspiegels;Text;für Vermessung
+1.1.2012;1055.0000;2.3.11.5;Höhe Unterkante;Punkt;für Vermessung
+1.1.2012;1055.0000;2.3.11.5;Höhe Unterkante;Text;für Vermessung
+1.1.2012;1056.0000;2.4.2.5;Höhenangaben an Gebäuden;Punkt;für Vermessung
+1.1.2012;1056.0000;2.4.2.5;Höhenangaben an Gebäuden;Text;für Vermessung
+16.1.2014;1056.7001;;Höhengeländepunkt am Gebäude;Punkt;für Vermessung
+1.1.2012;0416.0000;2.2.3.6;Höhenlinie - 0,5/0.25 Meter;Linie;für Vermessung
+1.1.2012;0416.0000;2.2.3.6;Höhenlinie - 0,5/0.25 Meter;Text;für Vermessung
+1.1.2012;0415.0000;2.2.3.5;Höhenlinie - 1 Meter;Linie;für Vermessung
+1.1.2012;0415.0000;2.2.3.5;Höhenlinie - 1 Meter;Text;für Vermessung
+1.1.2012;0412.0000;2.2.3.2;Höhenlinie - 10 Meter;Linie;für Vermessung
+1.1.2012;0412.0000;2.2.3.2;Höhenlinie - 10 Meter;Text;für Vermessung
+16.1.2014;0411.0002;;Höhenlinie - 100 Meter;Linie;für Vermessung
+16.1.2014;0411.0002;;Höhenlinie - 100 Meter;Text;für Vermessung
+1.1.2012;0414.0000;2.2.3.4;Höhenlinie - 2,5 Meter;Linie;für Vermessung
+1.1.2012;0414.0000;2.2.3.4;Höhenlinie - 2,5 Meter;Text;für Vermessung
+1.1.2012;0411.0000;2.2.3.1;Höhenlinie - 20 Meter;Linie;für Vermessung
+1.1.2012;0411.0000;2.2.3.1;Höhenlinie - 20 Meter;Text;für Vermessung
+1.1.2012;0413.0000;2.2.3.3;Höhenlinie - 5 Meter;Linie;für Vermessung
+1.1.2012;0413.0000;2.2.3.3;Höhenlinie - 5 Meter;Text;für Vermessung
+16.1.2014;0411.0001;;Höhenlinie - 50 Meter;Linie;für Vermessung
+16.1.2014;0411.0001;;Höhenlinie - 50 Meter;Text;für Vermessung
+1.1.2012;0427.0000;2.2.3.7;Höhenlinie - unsicher;Linie;für Vermessung
+1.1.2012;0144.0000;2.1.6.3;Höhenmarke (der Straßenbauverwaltung);Punkt;für Vermessung
+1.1.2012;0144.0000;2.1.6.3;Höhenmarke (der Straßenbauverwaltung);Text;für Vermessung
+1.1.2012;3456.7001;;Holzmast (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3456.7002;;Holzmast (Telekommunikation);Punkt;für Vermessung
+16.1.2014;6130.0000;2.2.7.24;Hopfen;Flaeche;für Vermessung
+1.1.2012;02310-3442;;Hopfen (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6130.0000;2.2.7.24;Hopfen (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3442;;Hopfen (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;3489.7002;;Induktionsschleife;Punkt;für Vermessung
+16.1.2014;0719.0007;;Information im Schneiderahmen;Text;für Vermessung
+16.1.2014;0719.0004;;Innenrahmen;Linie;für Vermessung
+1.1.2012;31001-3061;;Jugendfreizeitheim;Flaeche;aus ALKIS
+1.1.2012;31001-3075;;Justizvollzugsanstalt;Flaeche;aus ALKIS
+1.1.2012;3449.0000;2.5.8.6;Kabelformstein, -kanal;Punkt;für Vermessung
+1.1.2012;3489.0000;2.5.6.1;Kabelkasten, Schaltkasten;Punkt;für Vermessung
+16.1.2014;8221.0000;3.3.4;Kanal;Text;für Vermessung
+16.1.2014;1143.0000;2.4.6.3;Kapelle;Text;für Vermessung
+1.1.2012;31001-3043;;Kapelle;Flaeche;aus ALKIS
+1.1.2012;02310-3318;;Kapelle (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3073;;Kaserne;Flaeche;aus ALKIS
+1.1.2012;9204-7076;;Katasterbezeichnungen, -namen;Text;aus ALKIS
+1.1.2012;3513.0000;2.7.4.3;Kehrichtgrube;Punkt;für Vermessung
+1.1.2012;02320-2512;;Keller, Tiefgarage unter der Erdoberfläche;Linie;aus ALKIS
+1.1.2012;1071.0000;2.4.2.3;Kennzeichnung der Dachformen;Text;für Vermessung
+1.1.2012;3444.7001;;Kennzeichnung von Hochspannungsleitungen;Punkt;für Vermessung
+16.1.2014;5285.0000;2.3.2.1;Kilometerstein, - tafel;Punkt;für Vermessung
+16.1.2014;5413.0000;2.3.5.2;Kilometerstein, - tafel an Schienenbahn;Punkt;für Vermessung
+16.1.2014;5636.0000;2.3.10.2;Kilometerstein, - tafel an Wasserstraße;Punkt;für Vermessung
+16.1.2014;5636.0000;2.3.10.2;Kilometerstein, - tafel an Wasserstraße;Text;für Vermessung
+1.1.2012;31001-3065;;Kinderkrippe, -garten, -tagesstätte;Flaeche;aus ALKIS
+1.1.2012;02310-3323;;Kinderkrippe, -garten, -tagesstätte (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;1475.0000;2.5.9.9;Kiosk und WC (Nutzungssymbol);Punkt;für Vermessung
+16.1.2014;1141.0000;2.4.6.1;Kirche;Text;für Vermessung
+1.1.2012;31001-3041;;Kirche;Flaeche;aus ALKIS
+1.1.2012;51002-1210;;Klärbecken;Flaeche;aus ALKIS
+16.1.2014;4261.0000;2.2.7.40;Klein-, Schrebergarten, Laubenkolonie;Flaeche;für Vermessung
+16.1.2014;4261.0000;2.2.7.40;Klein-, Schrebergarten, Laubenkolonie (Nutzungsartensymbol);Punkt;für Vermessung
+1.1.2012;02310-3419;;Klein-, Schrebergarten, Laubenkolonie (Nutzungsartensymbol);Punkt;aus ALKIS
+16.1.2014;0123.0000;2.1.4;Kleinpunkt (vermarkt), Punkt in Messungslinie;Punkt;für Vermessung
+16.1.2014;0123.0000;2.1.4;Kleinpunkt (vermarkt), Punkt in Messungslinie;Text;für Vermessung
+1.1.2012;8073.7001;;Kleintier-, Amphibien-, Wilddurchlass, -tunnel;Linie;für Vermessung
+1.1.2012;31001-3033;;Konzertgebäude;Flaeche;aus ALKIS
+16.1.2014;0719.0003;;Koordinatenrahmen;Linie;für Vermessung
+1.1.2012;02310-3403;;Kraftwerk (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3051;;Krankenhaus, Heil-, Pflegeanstalt, Pflegestation;Flaeche;aus ALKIS
+1.1.2012;02310-3321;;Krankenhaus, Heil-, Pflegeanstalt, Pflegestation (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;5124.0000;3.2.6;Kreisstraße;Text;für Vermessung
+1.1.2012;31001-3017;;Kreisverwaltung;Flaeche;aus ALKIS
+1.1.2012;9342.0000;2.7.2.4;Kreuz;Punkt;für Vermessung
+1.1.2012;51001-1005;;Kühlturm;Flaeche;aus ALKIS
+16.1.2014;5123.0000;3.2.4;Landesstraße;Text;für Vermessung
+16.1.2014;0612.0000;3.1.2;Landgemeinde;Text;für Vermessung
+16.1.2014;9241.0000;2.3.2.5;Lärmschutzwall;Linie;für Vermessung
+16.1.2014;9241.0000;2.3.2.5;Lärmschutzwall;Text;für Vermessung
+16.1.2014;9242.0000;2.3.2.6;Lärmschutzwand;Linie;für Vermessung
+16.1.2014;9242.0000;2.3.2.6;Lärmschutzwand;Text;für Vermessung
+1.1.2012;5742.0000;2.5.6.3;Laterne, elektrisch;Punkt;für Vermessung
+1.1.2012;5741.0000;2.5.6.4;Laterne, Gas-;Punkt;für Vermessung
+1.1.2012;8091.0000;2.1.7.1;Lattenpegel;Punkt;für Vermessung
+16.1.2014;7300.0000;2.2.7.13;Laub- und Nadelholz, Mischwald;Flaeche;für Vermessung
+1.1.2012;02310-3462;;Laub- und Nadelholz, Mischwald (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;7300.0000;2.2.7.13;Laub- und Nadelholz, Mischwald (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3462;;Laub- und Nadelholz, Mischwald (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;7503.0000;2.7.1.1;Laubbaum, hervorragender ~;Punkt;für Vermessung
+1.1.2012;7506.0000;2.7.1.6;Laubbaumreihe;Punkt;für Vermessung
+16.1.2014;5901.0000;2.2.7.35;Laubgehölz (in Verkehrsflächen);Punkt;für Vermessung
+16.1.2014;5901.0000;2.2.7.35;Laubgehölz (in Verkehrsflächen);Flaeche;für Vermessung
+16.1.2014;7100.0000;2.2.7.11;Laubwald (-gehölz, -busch);Flaeche;für Vermessung
+16.1.2014;7402.0000;2.2.7.39;Laubwald (-gehölz, -busch);Punkt;für Vermessung
+16.1.2014;7402.0000;2.2.7.39;Laubwald (-gehölz, -busch);Flaeche;für Vermessung
+1.1.2012;02310-3458;;Laubwald (-gehölz, -busch) (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;7100.0000;2.2.7.11;Laubwald (-gehölz, -busch) (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3458;;Laubwald (-gehölz, -busch) (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;3923.0000;2.7.3.3;Laufkran;Punkt;für Vermessung
+16.1.2014;5006.0000;;Leitpfosten;Punkt;für Vermessung
+1.1.2012;51005-0000;;Leitung;Flaeche;aus ALKIS
+1.1.2012;3441.0000;2.5.2.3;Leitung der Elektrizitätsversorgung, oberirdisch;Linie;für Vermessung
+1.1.2012;3442.0000;2.5.1.3;Leitung der Elektrizitätsversorgung, unterirdisch;Linie;für Vermessung
+1.1.2012;3471.0000;2.5.2.8;Leitung der Heizungsanlage, oberirdisch;Linie;für Vermessung
+1.1.2012;3472.0000;2.5.1.8;Leitung der Heizungsanlage, unterirdisch;Linie;für Vermessung
+1.1.2012;3403.0000;2.5.2;Leitung der sonst. Ver-/Entsorgung, oberirdisch;Linie;für Vermessung
+1.1.2012;3403.0000;2.5.2;Leitung der sonst. Ver-/Entsorgung, oberirdisch;Text;für Vermessung
+1.1.2012;3402.0000;2.5.1;Leitung der sonst. Ver-/Entsorgung, unterirdisch;Linie;für Vermessung
+1.1.2012;3402.0000;2.5.1;Leitung der sonst. Ver-/Entsorgung, unterirdisch;Text;für Vermessung
+1.1.2012;3481.0000;2.5.2.10;Leitung des Fernmeldewesens, oberirdisch;Linie;für Vermessung
+1.1.2012;3482.0000;2.5.1.10;Leitung des Fernmeldewesens, unterirdisch;Linie;für Vermessung
+1.1.2012;5646.0000;2.3.10.1;Leuchtfeuer;Punkt;für Vermessung
+1.1.2012;5288.0000;2.3.3.8;Licht-, Richtzeichenbrücke;Punkt;für Vermessung
+16.1.2014;4212.0000;2.2.7.22;Liegewiese;Punkt;für Vermessung
+16.1.2014;4212.0000;2.2.7.22;Liegewiese;Flaeche;für Vermessung
+16.1.2014;#999.7021;;Linienbegleitsymbol: geneigter Strich, 1,5/0,5 mm;Punkt;für Vermessung
+16.1.2014;#999.7018;;Linienbegleitsymbol: geneigter Strich, 1/1 mm;Punkt;für Vermessung
+16.1.2014;#999.7019;;Linienbegleitsymbol: geneigter Strich, 3/3 mm;Punkt;für Vermessung
+16.1.2014;#999.7020;;Linienbegleitsymbol: geneigter Strich, 5/5 mm;Punkt;für Vermessung
+16.1.2014;#999.7006;;Linienbegleitsymbol: Kreis, d=0,25 mm;Punkt;für Vermessung
+16.1.2014;#999.7007;;Linienbegleitsymbol: Kreis, d=0,5 mm;Punkt;für Vermessung
+16.1.2014;#999.7008;;Linienbegleitsymbol: Kreis, d=0,5 mm (gefüllt);Punkt;für Vermessung
+16.1.2014;#999.7009;;Linienbegleitsymbol: Kreis, d=1 mm;Punkt;für Vermessung
+16.1.2014;#999.7010;;Linienbegleitsymbol: Kreis, d=1 mm (gefüllt);Punkt;für Vermessung
+16.1.2014;#999.7011;;Linienbegleitsymbol: Rechteck, 1x1 mm;Punkt;für Vermessung
+16.1.2014;#999.7012;;Linienbegleitsymbol: Rechteck, 1x1 mm (gefüllt);Punkt;für Vermessung
+16.1.2014;#999.7014;;Linienbegleitsymbol: senkrechter Strich_1, l= 1,5mm;Punkt;für Vermessung
+16.1.2014;#999.7013;;Linienbegleitsymbol: senkrechter Strich_1, l= 1mm;Punkt;für Vermessung
+16.1.2014;#999.7015;;Linienbegleitsymbol: senkrechter Strich_1, l= 2 mm;Punkt;für Vermessung
+16.1.2014;#999.7016;;Linienbegleitsymbol: senkrechter Strich_1, l= 4 mm;Punkt;für Vermessung
+16.1.2014;#999.7017;;Linienbegleitsymbol: senkrechter Strich_2, l= 1, a= 1mm;Punkt;für Vermessung
+1.1.2012;51002-1250;;Mast;Flaeche;aus ALKIS
+1.1.2012;5172.7001;;Mast, -fundament (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;02310-3504;;Mast, -fundament (Elektrizitätsversorgung);Punkt;aus ALKIS
+1.1.2012;5172.7002;;Mast, -fundament (Telekommunikation);Punkt;für Vermessung
+16.1.2014;L352.0000;2.2.9;Mauer, (in Aufnahmerichtung links);Linie;für Vermessung
+1.1.2012;R352.0000;2.2.9;Mauer, (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;Z352.0000;2.2.9;Mauer, beidseitig (mittig);Linie;für Vermessung
+1.1.2012;02320-2510;;Mauer, historische, Stadt~, Ufer~, Kai~, Stütz~;Linie;aus ALKIS
+1.1.2012;0142.0000;2.1.6.2;Mauerbolzen (der Straßenbauverwaltung);Punkt;für Vermessung
+1.1.2012;0142.0000;2.1.6.2;Mauerbolzen (der Straßenbauverwaltung);Text;für Vermessung
+1.1.2012;0266.0000;2.6.1.12;Meistereigrenze;Linie;für Vermessung
+1.1.2012;3443.0000;2.5.3.4;Merkstein, -zeichen für Elektrizitätsversorgung;Punkt;für Vermessung
+1.1.2012;3443.7002;;Merkstein, -zeichen für Energiekabelmuffe;Punkt;für Vermessung
+1.1.2012;3477.0000;2.5.3.10;Merkstein, -zeichen für Fernheizleitung;Punkt;für Vermessung
+1.1.2012;3483.7001;;Merkstein, -zeichen für Fernmeldekabelmuffe;Punkt;für Vermessung
+1.1.2012;3483.0000;2.5.3.11;Merkstein, -zeichen für Fernmeldewesen;Punkt;für Vermessung
+1.1.2012;3434.0000;2.5.3.6;Merkstein, -zeichen für Gasleitung;Punkt;für Vermessung
+1.1.2012;3473.0000;2.5.3.9;Merkstein, -zeichen für Heizungsanlage;Punkt;für Vermessung
+1.1.2012;3448.0000;2.5.3.5;Merkstein, -zeichen für Hochspannungsleitung;Punkt;für Vermessung
+1.1.2012;3494.0000;2.5.3.8;Merkstein, -zeichen für Produktenfernleitung;Punkt;für Vermessung
+1.1.2012;3466.0000;2.5.3.7;Merkstein, -zeichen für Rohölleitung;Punkt;für Vermessung
+1.1.2012;3443.7001;;Merkstein, -zeichen für Telekommunikationskabel;Punkt;für Vermessung
+1.1.2012;3426.0000;2.5.3.3;Merkstein, -zeichen für Wasserversorgung;Punkt;für Vermessung
+1.1.2012;5295.0000;2.3.3.9;Mittelstreifenüberfahrt;Punkt;für Vermessung
+16.1.2014;6500.0000;2.2.7.14;Moor;Flaeche;für Vermessung
+1.1.2012;02310-3476;;Moor (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6500.0000;2.2.7.14;Moor (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3476;;Moor (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;3489.7004;;Muffenschacht (AUSA-Kabel);Punkt;für Vermessung
+1.1.2012;3512.0000;2.7.4.4;Müllboxenanlage;Punkt;für Vermessung
+1.1.2012;31001-3034;;Museum;Flaeche;aus ALKIS
+1.1.2012;7505.0000;2.7.1.2;Nadelbaum, hervorragender ~;Punkt;für Vermessung
+1.1.2012;7507.0000;2.7.1.7;Nadelbaumreihe;Punkt;für Vermessung
+16.1.2014;5903.0000;2.2.7.37;Nadelgehölz (in Verkehrsflächen);Punkt;für Vermessung
+16.1.2014;5903.0000;2.2.7.37;Nadelgehölz (in Verkehrsflächen);Flaeche;für Vermessung
+16.1.2014;7200.0000;2.2.7.12;Nadelwald (-gehölz);Flaeche;für Vermessung
+1.1.2012;02310-3460;;Nadelwald (-gehölz) (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;7200.0000;2.2.7.12;Nadelwald (-gehölz) (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3460;;Nadelwald (-gehölz) (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;9333.0000;2.7.2.2;Naturdenkmal (Baum);Punkt;für Vermessung
+16.1.2014;5002.7001;;Netzknotenbezeichnung;Text;für Vermessung
+1.1.2012;5002.0000;2.3.2.7;Netzknotenpunkt (Rahmen);Punkt;für Vermessung
+1.1.2012;3487.7002;;Niederschlagsfühler;Punkt;für Vermessung
+1.1.2012;0039.0000;1.4.2;Nordpfeil;Punkt;für Vermessung
+1.1.2012;9488.0000;2.5.8.5;Notrufsäule;Punkt;für Vermessung
+1.1.2012;43001-1010;;Nutzungsart: Acker, Ackerland;Flaeche;aus ALKIS
+1.1.2012;44001-8220;;Nutzungsart: Altarm;Flaeche;aus ALKIS
+1.1.2012;44001-8210;;Nutzungsart: Altwasser;Flaeche;aus ALKIS
+1.1.2012;42016-5630;;Nutzungsart: Anlegestelle;Flaeche;aus ALKIS
+1.1.2012;41002-1450;;Nutzungsart: Ausstellung, Messe;Flaeche;aus ALKIS
+1.1.2012;44001-8500;;Nutzungsart: Bach;Flaeche;aus ALKIS
+1.1.2012;44006-8640;;Nutzungsart: Baggersee;Flaeche;aus ALKIS
+1.1.2012;42010-0000;;Nutzungsart: Bahnverkehr;Flaeche;aus ALKIS
+1.1.2012;41002-1420;;Nutzungsart: Bank, Kredit;Flaeche;aus ALKIS
+1.1.2012;43001-1031;;Nutzungsart: Baumschule;Flaeche;aus ALKIS
+1.1.2012;41002-1460;;Nutzungsart: Beherbergung;Flaeche;aus ALKIS
+1.1.2012;41004-0000;;Nutzungsart: Bergbaubetrieb - allgemein;Flaeche;aus ALKIS
+1.1.2012;41004-3000;;Nutzungsart: Bergbaubetrieb - Erze;Flaeche;aus ALKIS
+1.1.2012;41004-5000;;Nutzungsart: Bergbaubetrieb - Industrieminerale, Salze;Flaeche;aus ALKIS
+1.1.2012;41004-4020;;Nutzungsart: Bergbaubetrieb - Kohle;Flaeche;aus ALKIS
+1.1.2012;41004-4000;;Nutzungsart: Bergbaubetrieb - Treib- und Brennstoffe;Flaeche;aus ALKIS
+1.1.2012;41006-2720;;Nutzungsart: Betrieb;Flaeche;aus ALKIS
+1.1.2012;41002-1780;;Nutzungsart: Betriebliche Sozialeinrichtung;Flaeche;aus ALKIS
+1.1.2012;41002-2600;;Nutzungsart: Betriebsfläche Entsorgungsanlage;Flaeche;aus ALKIS
+1.1.2012;41002-2550;;Nutzungsart: Betriebsfläche Versorganlage: Öl;Flaeche;aus ALKIS
+1.1.2012;41002-2502;;Nutzungsart: Betriebsfläche Versorgungsanlage, allgemein;Flaeche;aus ALKIS
+1.1.2012;41002-2530;;Nutzungsart: Betriebsfläche Versorgungsanlage: Elektrizität;Flaeche;aus ALKIS
+1.1.2012;41002-2580;;Nutzungsart: Betriebsfläche Versorgungsanlage: Funk- und Fernmeldewesen;Flaeche;aus ALKIS
+1.1.2012;41002-2560;;Nutzungsart: Betriebsfläche Versorgungsanlage: Gas;Flaeche;aus ALKIS
+1.1.2012;41002-2570;;Nutzungsart: Betriebsfläche Versorgungsanlage: Wärme;Flaeche;aus ALKIS
+1.1.2012;41002-2520;;Nutzungsart: Betriebsfläche Versorgungsanlage: Wasser;Flaeche;aus ALKIS
+1.1.2012;41006-7600;;Nutzungsart: Betriebsfläche, forstwirtschaftliche;Flaeche;aus ALKIS
+1.1.2012;41006-6800;;Nutzungsart: Betriebsfläche, landwirtschaftliche;Flaeche;aus ALKIS
+1.1.2012;41007-1120;;Nutzungsart: Bildung und Forschung;Flaeche;aus ALKIS
+1.1.2012;41008-4430;;Nutzungsart: Botanischer Garten;Flaeche;aus ALKIS
+1.1.2012;43001-1200;;Nutzungsart: Brachland;Flaeche;aus ALKIS
+1.1.2012;41008-4330;;Nutzungsart: Campingplatz;Flaeche;aus ALKIS
+1.1.2012;41002-2630;;Nutzungsart: Deponie;Flaeche;aus ALKIS
+1.1.2012;41008-4160;;Nutzungsart: Eis-, Rollschuhbahn;Flaeche;aus ALKIS
+1.1.2012;42010-1100;;Nutzungsart: Eisenbahn;Flaeche;aus ALKIS
+1.1.2012;41008-4300;;Nutzungsart: Erholungsfläche;Flaeche;aus ALKIS
+1.1.2012;42016-5640;;Nutzungsart: Fähranlage;Flaeche;aus ALKIS
+1.1.2012;42006-5210;;Nutzungsart: Fahrweg;Flaeche;aus ALKIS
+1.1.2012;41007-0000;;Nutzungsart: Fläche besonderer funktionaler Prägung;Flaeche;aus ALKIS
+1.1.2012;41006-0000;;Nutzungsart: Fläche gemischter Nutzung;Flaeche;aus ALKIS
+1.1.2012;44001-0000;;Nutzungsart: Fließgewässer;Flaeche;aus ALKIS
+1.1.2012;42015-5510;;Nutzungsart: Flughafen;Flaeche;aus ALKIS
+1.1.2012;42015-0000;;Nutzungsart: Flugverkehr;Flaeche;aus ALKIS
+1.1.2012;44001-8200;;Nutzungsart: Fluß;Flaeche;aus ALKIS
+1.1.2012;41002-2510;;Nutzungsart: Förderanlage;Flaeche;aus ALKIS
+1.1.2012;41002-1760;;Nutzungsart: Forschung;Flaeche;aus ALKIS
+1.1.2012;41008-4200;;Nutzungsart: Freizeitanlage;Flaeche;aus ALKIS
+1.1.2012;41008-4230;;Nutzungsart: Freizeitpark;Flaeche;aus ALKIS
+1.1.2012;41009-0000;;Nutzungsart: Friedhof;Flaeche;aus ALKIS
+1.1.2012;42001-5130;;Nutzungsart: Fußgängerzone;Flaeche;aus ALKIS
+1.1.2012;42006-5220;;Nutzungsart: Fußweg;Flaeche;aus ALKIS
+1.1.2012;42006-5230;;Nutzungsart: Gang;Flaeche;aus ALKIS
+1.1.2012;43001-1030;;Nutzungsart: Garten, Gartenland;Flaeche;aus ALKIS
+1.1.2012;41002-1490;;Nutzungsart: Gärtnerei;Flaeche;aus ALKIS
+1.1.2012;42015-5501;;Nutzungsart: Gebäude- und Freifläche zu Verkehrsanlagen, Luftfahrt;Flaeche;aus ALKIS
+1.1.2012;42010-2321;;Nutzungsart: Gebäude- und Freifläche zu Verkehrsanlagen, Schiene;Flaeche;aus ALKIS
+1.1.2012;42016-2341;;Nutzungsart: Gebäude- und Freifläche zu Verkehrsanlagen, Schifffahrt;Flaeche;aus ALKIS
+1.1.2012;42001-2311;;Nutzungsart: Gebäude- und Freifläche zu Verkehrsanlagen, Straße;Flaeche;aus ALKIS
+1.1.2012;41006-2700;;Nutzungsart: Gebäude- und Freifläche: Land- und Forstwirtschaft;Flaeche;aus ALKIS
+1.1.2012;41006-2100;;Nutzungsart: Gebäude- und Freifläche: Mischnutzung mit Wohnen;Flaeche;aus ALKIS
+1.1.2012;43003-0000;;Nutzungsart: Gehölzfläche;Flaeche;aus ALKIS
+1.1.2012;41007-1150;;Nutzungsart: Gesundheit, Kur;Flaeche;aus ALKIS
+16.1.2014;43007-1110;;Nutzungsart: Gewaesserbegleitfläche, bebaut;Flaeche;aus ALKIS
+16.1.2014;43007-1120;;Nutzungsart: Gewaesserbegleitfläche, unbebaut;Flaeche;aus ALKIS
+1.1.2012;44006-0000;;Nutzungsart: Gewässer, stehend;Flaeche;aus ALKIS
+1.1.2012;43007-1100;;Nutzungsart: Gewässerbegleitfläche;Flaeche;aus ALKIS
+1.1.2012;41006-2160;;Nutzungsart: Gewerbe und Industrie mit Wohnen;Flaeche;aus ALKIS
+1.1.2012;41008-4110;;Nutzungsart: Golfplatz;Flaeche;aus ALKIS
+1.1.2012;44001-8400;;Nutzungsart: Graben;Flaeche;aus ALKIS
+1.1.2012;43001-1020;;Nutzungsart: Grünanlage, Grünland;Flaeche;aus ALKIS
+1.1.2012;41002-1770;;Nutzungsart: Grundstoff;Flaeche;aus ALKIS
+1.1.2012;42016-5610;;Nutzungsart: Hafenanlage (Landfläche);Flaeche;aus ALKIS
+1.1.2012;44005-0000;;Nutzungsart: Hafenbecken;Flaeche;aus ALKIS
+1.1.2012;41003-7000;;Nutzungsart: Halde - Abraum;Flaeche;aus ALKIS
+1.1.2012;41003-0000;;Nutzungsart: Halde - allgemein;Flaeche;aus ALKIS
+1.1.2012;41003-1000;;Nutzungsart: Halde - Baustoffe;Flaeche;aus ALKIS
+1.1.2012;41003-4000;;Nutzungsart: Halde - Erde;Flaeche;aus ALKIS
+1.1.2012;41003-2000;;Nutzungsart: Halde - Kohle;Flaeche;aus ALKIS
+1.1.2012;41003-6000;;Nutzungsart: Halde - Schlacke;Flaeche;aus ALKIS
+1.1.2012;41003-8000;;Nutzungsart: Halde - Schrott, Altmaterial;Flaeche;aus ALKIS
+1.1.2012;41003-5000;;Nutzungsart: Halde - Schutt;Flaeche;aus ALKIS
+1.1.2012;41002-1440;;Nutzungsart: Handel;Flaeche;aus ALKIS
+1.1.2012;41002-1400;;Nutzungsart: Handel und Dienstleistung;Flaeche;aus ALKIS
+1.1.2012;41006-2150;;Nutzungsart: Handel und Dienstleistungen mit Wohnen;Flaeche;aus ALKIS
+1.1.2012;41002-1720;;Nutzungsart: Handwerk;Flaeche;aus ALKIS
+1.1.2012;43004-0000;;Nutzungsart: Heide;Flaeche;aus ALKIS
+1.1.2012;41007-1300;;Nutzungsart: historische Anlage;Flaeche;aus ALKIS
+1.1.2012;41009-9404;;Nutzungsart: historischer Friedhof;Flaeche;aus ALKIS
+1.1.2012;43001-1012;;Nutzungsart: Hopfen;Flaeche;aus ALKIS
+1.1.2012;41002-1700;;Nutzungsart: Industrie und Gewerbe;Flaeche;aus ALKIS
+1.1.2012;44001-8300;;Nutzungsart: Kanal;Flaeche;aus ALKIS
+1.1.2012;41008-4440;;Nutzungsart: Klein-, Schrebergarten, Laubenkolonie;Flaeche;aus ALKIS
+1.1.2012;41007-1130;;Nutzungsart: Kultur;Flaeche;aus ALKIS
+1.1.2012;41002-1740;;Nutzungsart: Lagerplatz;Flaeche;aus ALKIS
+1.1.2012;42015-5540;;Nutzungsart: Landeplatz, Sonderlandeplatz;Flaeche;aus ALKIS
+1.1.2012;43001-0000;;Nutzungsart: Landwirtschaft;Flaeche;aus ALKIS
+1.1.2012;43002-1300;;Nutzungsart: Laub- und Nadelholz, Mischwald;Flaeche;aus ALKIS
+1.1.2012;43002-1100;;Nutzungsart: Laubwald (-gehölz, -busch);Flaeche;aus ALKIS
+1.1.2012;42009-5340;;Nutzungsart: Marktplatz;Flaeche;aus ALKIS
+1.1.2012;44007-0000;;Nutzungsart: Meer;Flaeche;aus ALKIS
+1.1.2012;43005-0000;;Nutzungsart: Moor;Flaeche;aus ALKIS
+1.1.2012;42010-1400;;Nutzungsart: Museumsbahn;Flaeche;aus ALKIS
+1.1.2012;43002-1200;;Nutzungsart: Nadelwald (-gehölz);Flaeche;aus ALKIS
+1.1.2012;43001-1050;;Nutzungsart: Obstbaumanlage, -plantage;Flaeche;aus ALKIS
+1.1.2012;43001-1052;;Nutzungsart: Obststrauchanlage, -plantage;Flaeche;aus ALKIS
+1.1.2012;41006-2140;;Nutzungsart: Öffentlich mit Wohnen;Flaeche;aus ALKIS
+1.1.2012;41007-1100;;Nutzungsart: Öffentliche Zwecke;Flaeche;aus ALKIS
+1.1.2012;41008-4420;;Nutzungsart: Park, Parkanlage;Flaeche;aus ALKIS
+1.1.2012;42009-5310;;Nutzungsart: Parkplatz, -fläche;Flaeche;aus ALKIS
+1.1.2012;42009-0000;;Nutzungsart: Platz;Flaeche;aus ALKIS
+1.1.2012;41002-1710;;Nutzungsart: Produktion;Flaeche;aus ALKIS
+1.1.2012;42006-5250;;Nutzungsart: Rad- und Fußweg;Flaeche;aus ALKIS
+1.1.2012;42006-5240;;Nutzungsart: Radweg;Flaeche;aus ALKIS
+1.1.2012;42009-5320;;Nutzungsart: Rastplatz, Raststätte, Rastanlage;Flaeche;aus ALKIS
+1.1.2012;41008-4140;;Nutzungsart: Reitplatz;Flaeche;aus ALKIS
+1.1.2012;42006-5260;;Nutzungsart: Reitweg;Flaeche;aus ALKIS
+1.1.2012;41007-1140;;Nutzungsart: Religiöse Einrichtung;Flaeche;aus ALKIS
+1.1.2012;41008-4130;;Nutzungsart: Rennbahn;Flaeche;aus ALKIS
+1.1.2012;41002-1470;;Nutzungsart: Restauration;Flaeche;aus ALKIS
+1.1.2012;41008-4220;;Nutzungsart: Safaripark, Wildpark;Flaeche;aus ALKIS
+1.1.2012;42010-1104;;Nutzungsart: S-Bahn;Flaeche;aus ALKIS
+1.1.2012;41008-4150;;Nutzungsart: Schießanlage;Flaeche;aus ALKIS
+1.1.2012;42016-0000;;Nutzungsart: Schiffsverkehr;Flaeche;aus ALKIS
+1.1.2012;41008-4320;;Nutzungsart: Schwimmbad, Freibad;Flaeche;aus ALKIS
+1.1.2012;44006-8610;;Nutzungsart: See;Flaeche;aus ALKIS
+1.1.2012;42015-5550;;Nutzungsart: Segelfluggelände;Flaeche;aus ALKIS
+1.1.2012;42010-1300;;Nutzungsart: Seilbahn, Bergbahn;Flaeche;aus ALKIS
+1.1.2012;41007-1170;;Nutzungsart: Sicherheit und Ordnung;Flaeche;aus ALKIS
+1.1.2012;41007-1160;;Nutzungsart: Soziales;Flaeche;aus ALKIS
+1.1.2012;43001-1013;;Nutzungsart: Spargel;Flaeche;aus ALKIS
+1.1.2012;44006-8631;;Nutzungsart: Speicherbecken;Flaeche;aus ALKIS
+1.1.2012;41008-4470;;Nutzungsart: Spielplatz, Bolzplatz;Flaeche;aus ALKIS
+1.1.2012;41008-0000;;Nutzungsart: Sport-, Freizeit- und Erholungsfläche;Flaeche;aus ALKIS
+1.1.2012;41008-4100;;Nutzungsart: Sportanlage;Flaeche;aus ALKIS
+1.1.2012;44005-8810;;Nutzungsart: Sportboothafenbecken;Flaeche;aus ALKIS
+1.1.2012;41008-4120;;Nutzungsart: Sportplatz;Flaeche;aus ALKIS
+1.1.2012;42010-1200;;Nutzungsart: Stadtbahn;Flaeche;aus ALKIS
+1.1.2012;44006-8630;;Nutzungsart: Stausee;Flaeche;aus ALKIS
+1.1.2012;42010-1201;;Nutzungsart: Straßenbahn;Flaeche;aus ALKIS
+1.1.2012;42001-0000;;Nutzungsart: Strassenverkehr;Flaeche;aus ALKIS
+1.1.2012;43001-1011;;Nutzungsart: Streuobstacker;Flaeche;aus ALKIS
+1.1.2012;43001-1021;;Nutzungsart: Streuobstwiese;Flaeche;aus ALKIS
+1.1.2012;43006-0000;;Nutzungsart: Sumpf;Flaeche;aus ALKIS
+1.1.2012;41005-0000;;Nutzungsart: Tagebau, Grube, Steinbruch - allgemein;Flaeche;aus ALKIS
+1.1.2012;41005-1000;;Nutzungsart: Tagebau, Grube, Steinbruch - Erden, Lockergestein;Flaeche;aus ALKIS
+1.1.2012;41005-5000;;Nutzungsart: Tagebau, Grube, Steinbruch - Industrieminerale, Salze;Flaeche;aus ALKIS
+1.1.2012;41005-1009;;Nutzungsart: Tagebau, Grube, Steinbruch - Kies, Kiessand;Flaeche;aus ALKIS
+1.1.2012;41005-2020;;Nutzungsart: Tagebau, Grube, Steinbruch - Lavaschlacke;Flaeche;aus ALKIS
+1.1.2012;41005-1004;;Nutzungsart: Tagebau, Grube, Steinbruch - Lehm;Flaeche;aus ALKIS
+1.1.2012;41005-1006;;Nutzungsart: Tagebau, Grube, Steinbruch - Mergel;Flaeche;aus ALKIS
+1.1.2012;41005-1008;;Nutzungsart: Tagebau, Grube, Steinbruch - Sand;Flaeche;aus ALKIS
+1.1.2012;41005-2000;;Nutzungsart: Tagebau, Grube, Steinbruch - Steine, Gestein, Festgestein;Flaeche;aus ALKIS
+1.1.2012;41005-1001;;Nutzungsart: Tagebau, Grube, Steinbruch - Ton;Flaeche;aus ALKIS
+1.1.2012;41005-4010;;Nutzungsart: Tagebau, Grube, Steinbruch - Torf;Flaeche;aus ALKIS
+1.1.2012;41005-4000;;Nutzungsart: Tagebau, Grube, Steinbruch - Treib- und Brennstoffe;Flaeche;aus ALKIS
+1.1.2012;41002-1730;;Nutzungsart: Tankstelle;Flaeche;aus ALKIS
+1.1.2012;44006-8620;;Nutzungsart: Teich;Flaeche;aus ALKIS
+1.1.2012;41008-4170;;Nutzungsart: Tennisplatz;Flaeche;aus ALKIS
+1.1.2012;42010-1202;;Nutzungsart: U-Bahn;Flaeche;aus ALKIS
+1.1.2012;43007-0000;;Nutzungsart: Unland, Vegetationslose Fläche;Flaeche;aus ALKIS
+1.1.2012;43007-1000;;Nutzungsart: Vegetationslose Fläche;Flaeche;aus ALKIS
+1.1.2012;43007-1010;;Nutzungsart: Vegetationslose Fläche, Fels;Flaeche;aus ALKIS
+1.1.2012;43007-1040;;Nutzungsart: Vegetationslose Fläche, Sand;Flaeche;aus ALKIS
+1.1.2012;41002-1480;;Nutzungsart: Vergnügung;Flaeche;aus ALKIS
+1.1.2012;42010-2322;;Nutzungsart: Verkehrsbegleitfläche Bahnverkehr;Flaeche;aus ALKIS
+1.1.2012;42001-2312;;Nutzungsart: Verkehrsbegleitfläche Straße;Flaeche;aus ALKIS
+1.1.2012;41008-4270;;Nutzungsart: Verkehrsübungsplatz;Flaeche;aus ALKIS
+1.1.2012;41002-1430;;Nutzungsart: Versicherung;Flaeche;aus ALKIS
+1.1.2012;41002-2500;;Nutzungsart: Versorgungsanlage;Flaeche;aus ALKIS
+1.1.2012;41007-1110;;Nutzungsart: Verwaltung;Flaeche;aus ALKIS
+1.1.2012;41002-1410;;Nutzungsart: Verwaltung, freie Berufe;Flaeche;aus ALKIS
+1.1.2012;43002-0000;;Nutzungsart: Wald;Flaeche;aus ALKIS
+1.1.2012;42006-0000;;Nutzungsart: Weg;Flaeche;aus ALKIS
+1.1.2012;43001-1040;;Nutzungsart: Weingarten;Flaeche;aus ALKIS
+1.1.2012;41002-1790;;Nutzungsart: Werft;Flaeche;aus ALKIS
+16.1.2014;41008-4310;;Nutzungsart: Wochenend- und Ferienhausfläche;Flaeche;aus ALKIS
+1.1.2012;41008-4450;;Nutzungsart: Wochenendplatz;Flaeche;aus ALKIS
+1.1.2012;41001-0000;;Nutzungsart: Wohnbaufläche;Flaeche;aus ALKIS
+1.1.2012;41006-2710;;Nutzungsart: Wohnen;Flaeche;aus ALKIS
+1.1.2012;41006-2130;;Nutzungsart: Wohnen mit Gewerbe und Industrie;Flaeche;aus ALKIS
+1.1.2012;41006-2120;;Nutzungsart: Wohnen mit Handel und Dienstleistungen;Flaeche;aus ALKIS
+1.1.2012;41006-2110;;Nutzungsart: Wohnen mit Öffentlich;Flaeche;aus ALKIS
+1.1.2012;41006-2730;;Nutzungsart: Wohnen und Betrieb;Flaeche;aus ALKIS
+1.1.2012;41008-4210;;Nutzungsart: Zoo;Flaeche;aus ALKIS
+1.1.2012;9101-7079;;Nutzungsartenangaben, -bezeichnungen, Flächenfunktionen;Text;aus ALKIS
+1.1.2012;0241.0000;2.2.7.34;Nutzungsartenfläche der Bestandsvermessung;Flaeche;für Vermessung
+1.1.2012;0241.0000;2.2.7.34;Nutzungsartengrenze der Bestandsvermessung;Linie;für Vermessung
+16.1.2014;40000-0000;;Nutzungsartenteilfläche zum Flurstück;Flaeche;aus ALKIS
+1.1.2012;31001-3064;;Obdachlosenheim;Flaeche;aus ALKIS
+16.1.2014;0430.0000;;Objektlinie (nicht im Geländeniveau) mit NHN-Höhen für DOM;Linie;für Vermessung
+16.1.2014;0435.0000;;Objektpunkt (nicht im Geländeniveau) mit NHN-Höhen für DOM;Punkt;für Vermessung
+16.1.2014;0435.0000;;Objektpunkt (nicht im Geländeniveau) mit NHN-Höhen für DOM;Text;für Vermessung
+1.1.2012;7511.0000;2.7.1.8;Obstbaum;Punkt;für Vermessung
+16.1.2014;6710.0000;2.2.7.6;Obstbaumanlage, -plantage;Flaeche;für Vermessung
+1.1.2012;02310-3450;;Obstbaumanlage, -plantage (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;02310-3452;;Obstbaumanlage, -plantage (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6710.0000;2.2.7.6;Obstbaumanlage, -plantage (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3450;;Obstbaumanlage, -plantage (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3452;;Obstbaumanlage, -plantage (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;7512.0000;2.7.1.9;Obstbaumreihe;Punkt;für Vermessung
+16.1.2014;6720.0000;2.2.7.7;Obststrauchanlage, -plantage;Flaeche;für Vermessung
+1.1.2012;02310-3454;;Obststrauchanlage, -plantage (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6720.0000;2.2.7.7;Obststrauchanlage, -plantage (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3454;;Obststrauchanlage, -plantage (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;0285.0000;2.7.5.12;Öffentlich-rechtliche Grenze: Altlast;Linie;für Vermessung
+1.1.2012;71006-1634;;Öffentlich-rechtliche Grenze: Altlast;Flaeche;aus ALKIS
+16.1.2014;0289.0000;2.7.5.18;Öffentlich-rechtliche Grenze: andere;Linie;für Vermessung
+16.1.2014;0289.0000;2.7.5.18;Öffentlich-rechtliche Grenze: andere;Text;für Vermessung
+1.1.2012;71006-1656;;Öffentlich-rechtliche Grenze: Ausgleichs- oder Kompensationsfläche;Flaeche;aus ALKIS
+1.1.2012;71008-1760;;Öffentlich-rechtliche Grenze: Bauland;Flaeche;aus ALKIS
+1.1.2012;71008-2610;;Öffentlich-rechtliche Grenze: Baulast;Flaeche;aus ALKIS
+1.1.2012;71006-1641;;Öffentlich-rechtliche Grenze: Belastungsgebiet;Flaeche;aus ALKIS
+1.1.2012;71011-8000;;Öffentlich-rechtliche Grenze: Benachteiligtes landwirtschaftliches Gebiet;Flaeche;aus ALKIS
+1.1.2012;71008-2140;;Öffentlich-rechtliche Grenze: Beschleunigtes Zusammenlegungsverfahren (Par. 91 FlurbG);Flaeche;aus ALKIS
+1.1.2012;71006-1662;;Öffentlich-rechtliche Grenze: Bodenschutzgebiet;Flaeche;aus ALKIS
+16.1.2014;0283.0000;2.7.5.10;Öffentlich-rechtliche Grenze: Denkmalzone;Linie;für Vermessung
+1.1.2012;71009-2910;;Öffentlich-rechtliche Grenze: Denkmalzone oder -bereich;Flaeche;aus ALKIS
+1.1.2012;71004-1441;;Öffentlich-rechtliche Grenze: Festgesetztes Überschwemmungsgebiet;Flaeche;aus ALKIS
+1.1.2012;71006-1611;;Öffentlich-rechtliche Grenze: Flora-Fauna-Habitat-Gebiet;Flaeche;aus ALKIS
+1.1.2012;71008-2110;;Öffentlich-rechtliche Grenze: Flurbereinigung (Par. 1, 37 FlurbG);Flaeche;aus ALKIS
+1.1.2012;71008-2100;;Öffentlich-rechtliche Grenze: Flurbereinigungsverfahren;Flaeche;aus ALKIS
+1.1.2012;71008-2150;;Öffentlich-rechtliche Grenze: Freiwilliger Landtausch (Par. 103a FlurbG);Flaeche;aus ALKIS
+1.1.2012;71006-1622;;Öffentlich-rechtliche Grenze: Geschützter Landschaftsbestandteil, Landschaftsschutzgebiet;Flaeche;aus ALKIS
+16.1.2014;0284.0000;2.7.5.11;Öffentlich-rechtliche Grenze: Grabungsschutzgebiet;Linie;für Vermessung
+1.1.2012;71009-2930;;Öffentlich-rechtliche Grenze: Grabungsschutzgebiet;Flaeche;aus ALKIS
+16.1.2014;0281.0000;2.7.5.8;Öffentlich-rechtliche Grenze: Heilquellenschutzgebiet;Linie;für Vermessung
+1.1.2012;71005-1520;;Öffentlich-rechtliche Grenze: Heilquellenschutzgebiet;Flaeche;aus ALKIS
+16.1.2014;0273.0000;2.7.5.2;Öffentlich-rechtliche Grenze: Hochwasser;Linie;für Vermessung
+16.1.2014;0273.0000;2.7.5.2;Öffentlich-rechtliche Grenze: Hochwasser;Text;für Vermessung
+1.1.2012;71009-2700;;Öffentlich-rechtliche Grenze: Kulturdenkmal;Flaeche;aus ALKIS
+16.1.2014;0277.0000;2.7.5.5;Öffentlich-rechtliche Grenze: Landschaftsschutzgebiet;Linie;für Vermessung
+1.1.2012;0279.0000;2.7.5.7;Öffentlich-rechtliche Grenze: Lärmschutzbereich;Linie;für Vermessung
+1.1.2012;71006-1653;;Öffentlich-rechtliche Grenze: Naturdenkmal;Flaeche;aus ALKIS
+16.1.2014;0276.0000;2.7.5.4;Öffentlich-rechtliche Grenze: Naturschutzgebiet;Linie;für Vermessung
+1.1.2012;71006-1621;;Öffentlich-rechtliche Grenze: Naturschutzgebiet;Flaeche;aus ALKIS
+16.1.2014;0282.0000;2.7.5.9;Öffentlich-rechtliche Grenze: Pegelschutzgebiet;Linie;für Vermessung
+1.1.2012;71008-1840;;Öffentlich-rechtliche Grenze: Sanierungsverfahren;Flaeche;aus ALKIS
+1.1.2012;71006-1632;;Öffentlich-rechtliche Grenze: Schädliche Bodenveränderung;Flaeche;aus ALKIS
+1.1.2012;71006-1642;;Öffentlich-rechtliche Grenze: Schutzbedürftiges Gebiet;Flaeche;aus ALKIS
+1.1.2012;71006-1610;;Öffentlich-rechtliche Grenze: Schutzfläche nach Europarecht;Flaeche;aus ALKIS
+1.1.2012;71005-0000;;Öffentlich-rechtliche Grenze: Schutzgebiet nach Wasserrecht;Flaeche;aus ALKIS
+1.1.2012;71012-1010;;Öffentlich-rechtliche Grenze: Schutzgebiet nach Wasserrecht, Zone I;Flaeche;aus ALKIS
+1.1.2012;71012-1020;;Öffentlich-rechtliche Grenze: Schutzgebiet nach Wasserrecht, Zone II;Flaeche;aus ALKIS
+1.1.2012;71012-1030;;Öffentlich-rechtliche Grenze: Schutzgebiet nach Wasserrecht, Zone III;Flaeche;aus ALKIS
+1.1.2012;71012-1040;;Öffentlich-rechtliche Grenze: Schutzgebiet nach Wasserrecht, Zone IV;Flaeche;aus ALKIS
+1.1.2012;71011-9999;;Öffentlich-rechtliche Grenze: sonstige Fläche;Flaeche;aus ALKIS
+1.1.2012;71011-4720;;Öffentlich-rechtliche Grenze: Truppen-, Standortübungsplatz;Flaeche;aus ALKIS
+1.1.2012;71011-4610;;Öffentlich-rechtliche Grenze: Übergabebescheidverfahren;Flaeche;aus ALKIS
+16.1.2014;0272.0000;2.7.5.1;Öffentlich-rechtliche Grenze: Überschwemmungsgebiet;Linie;für Vermessung
+16.1.2014;0272.0000;2.7.5.1;Öffentlich-rechtliche Grenze: Überschwemmungsgebiet;Text;für Vermessung
+1.1.2012;71008-1750;;Öffentlich-rechtliche Grenze: Umlegung nach dem BauGB;Flaeche;aus ALKIS
+1.1.2012;71008-2130;;Öffentlich-rechtliche Grenze: Unternehmensflurbereinigung;Flaeche;aus ALKIS
+1.1.2012;71006-1612;;Öffentlich-rechtliche Grenze: Vogelschutzgebiet;Flaeche;aus ALKIS
+1.1.2012;71006-1655;;Öffentlich-rechtliche Grenze: Vorkaufsrecht;Flaeche;aus ALKIS
+16.1.2014;0278.7001;;Öffentlich-rechtliche Grenze: Wasserschutzgebiet;Linie;für Vermessung
+1.1.2012;71005-1510;;Öffentlich-rechtliche Grenze: Wasserschutzgebiet;Flaeche;aus ALKIS
+1.1.2012;71011-7100;;Öffentlich-rechtliche Grenze: Weinbausteillage;Flaeche;aus ALKIS
+1.1.2012;71011-7300;;Öffentlich-rechtliche Grenze: Weinbausteilstlage;Flaeche;aus ALKIS
+1.1.2012;71011-7000;;Öffentlich-rechtliche Grenze: Weinlage;Flaeche;aus ALKIS
+1.1.2012;5289.0000;2.3.2.2;Ortsdurchfahrtsstein;Punkt;für Vermessung
+16.1.2014;4211.0000;2.2.7.21;Park, -anlage;Flaeche;für Vermessung
+1.1.2012;02310-3415;;Park, -anlage (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;4211.0000;2.2.7.21;Park, -anlage (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3415;;Park, -anlage (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;31001-2461;;Parkhaus, -deck;Flaeche;aus ALKIS
+16.1.2014;2361.0000;2.4.6.6;Parkhaus, -deck (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3309;;Parkhaus, -deck (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;5311.0000;2.4.6.9;Parkplatz, -fläche (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3432;;Parkplatz, -fläche (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;2369.0000;2.5.9.8;Parkplatz, -fläche mit WC (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;2372.0000;2.7.4.8;Parkscheinautomat;Punkt;für Vermessung
+1.1.2012;31001-3011;;Parlament;Flaeche;aus ALKIS
+1.1.2012;8093.0000;2.1.7.3;Pegel;Punkt;für Vermessung
+1.1.2012;5623.0000;2.3.10.4;Personenfähre (Symbol);Punkt;für Vermessung
+16.1.2014;8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk;Linie;für Vermessung
+16.1.2014;R8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk  (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;L8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk (in Aufnahmerichtung links);Linie;für Vermessung
+1.1.2012;0141.0000;2.1.6.1;Pfeilerbolzen (der Straßenbauverwaltung);Punkt;für Vermessung
+1.1.2012;0141.0000;2.1.6.1;Pfeilerbolzen (der Straßenbauverwaltung);Text;für Vermessung
+1.1.2012;0147.0000;2.1.6.4;Pfeilerbolzen, HP=PP (der Straßenbauverwaltung);Punkt;für Vermessung
+1.1.2012;0147.0000;2.1.6.4;Pfeilerbolzen, HP=PP (der Straßenbauverwaltung);Text;für Vermessung
+16.1.2014;#999.7001;;Pluslänge (Anfang bzw. Ende, AUSA-Kabel);Punkt;für Vermessung
+1.1.2012;31001-3071;;Polizei, -wache;Flaeche;aus ALKIS
+1.1.2012;02310-3324;;Polizei, -wache (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;3488.0000;2.5.8.2;Polizeirufsäule;Punkt;für Vermessung
+16.1.2014;5010.0000;;Poller, Absperrpfosten;Punkt;für Vermessung
+16.1.2014;0127.0000;2.1.2;Polygonpunkt (der Straßenbauverwaltung);Punkt;für Vermessung
+16.1.2014;0127.0000;2.1.2;Polygonpunkt (der Straßenbauverwaltung);Text;für Vermessung
+1.1.2012;3922.0000;2.7.3.1;Portalkran;Punkt;für Vermessung
+1.1.2012;31001-3013;;Post;Flaeche;aus ALKIS
+1.1.2012;02310-3312;;Post (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;3492.0000;2.5.2.7;Produktenfernleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3493.0000;2.5.1.7;Produktenfernleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;2513.0000;2.5.5.8;Pumpe;Punkt;für Vermessung
+16.1.2014;#999.7002;;Pupinspule, -nkastenmuffe (AUSA-Kabel);Punkt;für Vermessung
+1.1.2012;8011.0000;2.3.8.9;Quelle;Punkt;für Vermessung
+1.1.2012;02310-3428;;Rad- und Fußweg (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;02310-3426;;Radweg (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;5161.0000;2.3.1.24;Radweg an Straßen;Linie;für Vermessung
+16.1.2014;5161.0000;2.3.1.24;Radweg an Straßen;Punkt;für Vermessung
+1.1.2012;1049.0000;2.4.4.9;Rampe;Linie;für Vermessung
+16.1.2014;1472.0000;2.5.9.6;Rastplatz, Raststätte, Rastanlage (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3434;;Rastplatz, Raststätte, Rastanlage (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3012;;Rathaus;Flaeche;aus ALKIS
+1.1.2012;RE85.0020;;RE 85 Abgrabung;Flaeche;
+1.1.2012;RE85.0019;;RE 85 Aufschüttung;Flaeche;
+1.1.2012;RE85.0002;;RE 85 Bankett;Flaeche;
+1.1.2012;RE85.0003;;RE 85 Dammböschung;Flaeche;
+1.1.2012;RE85.0004;;RE 85 Einschnittsböschung;Flaeche;
+1.1.2012;RE85.0001;;RE 85 Fahrbahn;Flaeche;
+1.1.2012;RE85.0025;;RE 85 Gebäude bereits abgebrochen;Flaeche
+1.1.2012;RE85.0017;;RE 85 Geh-/Radweg;Flaeche
+1.1.2012;RE85.0009;;RE 85 Gehweg;Flaeche
+1.1.2012;RE85.0007;;RE 85 geplanter Gebäudeabbruch;Flaeche
+1.1.2012;RE85.0008;;RE 85 Gewässer mit Fließrichtung;Flaeche
+1.1.2012;RE85.0023;;RE 85 Gewässer ohne Fließrichtung;Flaeche
+1.1.2012;RE85.0013;;RE 85 Grunderwerb - dauernd zu beschränkende Fläche;Flaeche
+1.1.2012;RE85.0012;;RE 85 Grunderwerb - für den Straßenbau vorübergehend benötigte Fläche;Flaeche
+1.1.2012;RE85.0024;;RE 85 Grunderwerb - für den Straßenbau zu erwerbende Fläche;Flaeche
+1.1.2012;RE85.0014;;RE 85 Grunderwerb - Restfläche;Flaeche
+1.1.2012;RE85.0005;;RE 85 Insel gepflastert;Flaeche
+1.1.2012;RE85.0021;;RE 85 Lärmschutzwall;Flaeche
+1.1.2012;RE85.0022;;RE 85 Lärmschutzwand;Flaeche
+1.1.2012;RE85.0016;;RE 85 Radweg;Flaeche
+1.1.2012;RE85.0006;;RE 85 Stützwand, Widerlager;Flaeche
+1.1.2012;RE85.0015;;RE 85 Trennstreifen;Flaeche
+1.1.2012;RE85.0011;;RE 85 Wirtschaftsweg;Flaeche;
+1.1.2012;RE85.0010;;RE 85 Zufahrt;Flaeche;
+1.1.2012;31001-2527;;Reaktorgebäude;Flaeche;aus ALKIS
+16.1.2014;#999.7003;;Regelmuffe (Ausa-Kabel);Punkt;für Vermessung
+1.1.2012;7855.7005;;Regenrinne, Pflasterrinne;Linie;für Vermessung
+1.1.2012;02310-3430;;Reitweg (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;0733.0000;3.2.10;Richtungshinweise im Kartenrahmen;Text;für Vermessung
+1.1.2012;5271.0000;2.3.1.7;Richtungspfeil geradeaus;Punkt;für Vermessung
+1.1.2012;5272.0000;2.3.1.8;Richtungspfeil geradeaus und links ab;Punkt;für Vermessung
+1.1.2012;5273.0000;2.3.1.9;Richtungspfeil geradeaus und rechts ab;Punkt;für Vermessung
+1.1.2012;5276.0000;2.3.1.12;Richtungspfeil links ab;Punkt;für Vermessung
+1.1.2012;5278.0000;2.3.1.14;Richtungspfeil links und rechts ab;Punkt;für Vermessung
+1.1.2012;5279.7002;;Richtungspfeil Mini-Kreisplatz;Punkt;für Vermessung
+1.1.2012;5274.0000;2.3.1.10;Richtungspfeil nach links;Punkt;für Vermessung
+1.1.2012;5275.0000;2.3.1.11;Richtungspfeil nach rechts;Punkt;für Vermessung
+1.1.2012;5277.0000;2.3.1.13;Richtungspfeil rechts ab;Punkt;für Vermessung
+1.1.2012;3464.0000;2.5.2.6;Rohölleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3465.0000;2.5.1.6;Rohölleitung, unterirdisch;Linie;für Vermessung
+1.1.2012;7855.0000;2.3.12.2;Rohrauslauf / Entwässerung;Punkt;für Vermessung
+16.1.2014;51004-1101;;Rohrleitung, Pipeline;Flaeche;aus ALKIS
+1.1.2012;02320-2523;;Rohrleitung, Pipeline unter der Erd-, der Wasseroberfläche, Erdkabel;Linie;aus ALKIS
+1.1.2012;53009-2020;;Rückhaltebecken;Flaeche;aus ALKIS
+1.1.2012;53009-2020;;Rückhaltebecken;Linie;aus ALKIS
+1.1.2012;31001-3035;;Rundfunk, Fernsehen;Flaeche;aus ALKIS
+1.1.2012;02310-3411;;Safaripark, Wildpark (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3242;;Sanatorium;Flaeche;aus ALKIS
+16.1.2014;1195.0000;2.4.6.5;S-Bahn-Bahnhof, -Haltestelle, -Haltepunkt (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3330;;S-Bahn-Bahnhof, -Haltestelle, -Haltepunkt (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3095;;S-Bahn-Bahnhof-Gebäude;Flaeche;aus ALKIS
+1.1.2012;5282.7002;;Schaltverteiler für WVZ-Anlage;Punkt;für Vermessung
+16.1.2014;2721.0000;2.4.4;Scheune;Text;für Vermessung
+1.1.2012;3435.0000;2.5.3.2;Schieberkappe, -schacht (Gasversorgung);Punkt;für Vermessung
+1.1.2012;3429.0000;2.5.3.1;Schieberkappe, -schacht (Wasserversorgung);Punkt;für Vermessung
+1.1.2012;5411.0000;2.3.4.1;Schienenbahngleisachse;Linie;für Vermessung
+16.1.2014;3507.0000;2.5.5.9;Schienensinkkasten;Punkt;für Vermessung
+1.1.2012;02310-3524;;Schießanlage (Symbol);Punkt;aus ALKIS
+1.1.2012;3498.0000;2.5.3.12;Schilderpfahl (allg.);Punkt;für Vermessung
+1.1.2012;3498.0000;2.5.3.12;Schilderpfahl (allg.);Text;für Vermessung
+1.1.2012;3498.7002;;Schilderpfahl (sonst. Versorgung);Punkt;für Vermessung
+1.1.2012;3498.7002;;Schilderpfahl (sonst. Versorgung);Text;für Vermessung
+1.1.2012;3498.7001;;Schilderpfahl (Wasserversorgung);Punkt;für Vermessung
+1.1.2012;3498.7001;;Schilderpfahl (Wasserversorgung);Text;für Vermessung
+16.1.2014;6206.0000;2.2.7.26;Schilf, Reith, Reet, Rohr;Flaeche;für Vermessung
+16.1.2014;6206.0000;2.2.7.26;Schilf, Reith, Reet, Rohr (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;3521.0000;2.5.5.10;Schlammbecken, -fang;Punkt;für Vermessung
+16.1.2014;3532.0000;2.5.2.12;Schlitzrinne;Linie;für Vermessung
+1.1.2012;31001-3031;;Schloss;Flaeche;aus ALKIS
+16.1.2014;0719.0001;;Schneiderahmen / Faltmarkierung;Linie;für Vermessung
+1.1.2012;3911.0000;2.7.3.4;Schornstein;Punkt;für Vermessung
+1.1.2012;02320-2513;;Schornstein, Schlot, Esse im Gebäude;Linie;aus ALKIS
+16.1.2014;5477.7001;;Schranke;Punkt;für Vermessung
+1.1.2012;8092.0000;2.1.7.2;Schreibpegel;Punkt;für Vermessung
+1.1.2012;31001-3021;;Schule, allgemein bildende;Flaeche;aus ALKIS
+1.1.2012;31001-3022;;Schule, berufsbildend;Flaeche;aus ALKIS
+16.1.2014;2723.0000;2.4.4;Schuppen;Text;für Vermessung
+1.1.2012;31001-3074;;Schutzbunker;Flaeche;aus ALKIS
+1.1.2012;9291.0000;2.3.2.3;Schutzeinrichtung, abweisend, Leitplanke (einseitig), rechts;Linie;für Vermessung
+1.1.2012;9292.0000;2.3.2.4;Schutzeinrichtung, abweisend, Leitplanke (zweiseitig) mittig;Linie;für Vermessung
+1.1.2012;31001-3281;;Schutzhütte;Flaeche;aus ALKIS
+16.1.2014;8611.0000;3.3.8;See;Text;für Vermessung
+1.1.2012;02310-3439;;Segelfluggelände (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;53005-2300;;Seil- und Schwebebahn (zur Personenbeförderung);Linie;aus ALKIS
+1.1.2012;5445.0000;2.3.6.2;Seil- und Schwebebahn Materialbeförderung;Linie;für Vermessung
+16.1.2014;5444.7001;;Seil- und Schwebebahn, Sessellift, Skiaufzug;Linie;für Vermessung
+1.1.2012;51001-1008;;Sende-, Funk-, Fernmeldeturm;Flaeche;aus ALKIS
+1.1.2012;31001-3063;;Seniorenfreizeitstätte;Flaeche;aus ALKIS
+16.1.2014;5447.0000;2.3.6.4;Sessellift;Linie;für Vermessung
+1.1.2012;13002-0000;;Sicherungspunkt;Punkt;aus AFIS
+16.1.2014;#232.7002;;Sichtweitenmeßgerät;Punkt;für Vermessung
+1.1.2012;3531.0000;2.5.5.11;Sickergrube, Klärgrube;Punkt;für Vermessung
+1.1.2012;3509.0000;2.5.1.12;Sickerrohrleitung;Linie;für Vermessung
+1.1.2012;5472.0000;2.3.5.3;Signal, Eisenbahnsignal;Punkt;für Vermessung
+1.1.2012;51003-1201;;Silo;Flaeche;aus ALKIS
+16.1.2014;5448.0000;2.3.6.5;Skilift, Schlepplift;Linie;für Vermessung
+1.1.2012;53005-2400;;Skilift, Schlepplift;Linie;aus ALKIS
+16.1.2014;6140.0000;2.2.7.25;Spargel;Flaeche;für Vermessung
+1.1.2012;02310-3444;;Spargel (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6140.0000;2.2.7.25;Spargel (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3444;;Spargel (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;31001-2142;;Speichergebäude;Flaeche;aus ALKIS
+1.1.2012;51006-1410;;Spielfeld;Flaeche;aus ALKIS
+1.1.2012;02310-3423;;Spielplatz, Bolzplatz (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3211;;Sport-, Turnhalle;Flaeche;aus ALKIS
+1.1.2012;4216.0000;2.5.5.2;Springbrunnen, Zierbrunnen;Punkt;für Vermessung
+16.1.2014;0323.0000;2.6.4.5;Spundmauer, -wand;Linie;für Vermessung
+16.1.2014;L323.0000;2.6.4.5;Spundmauer, -wand  (in Aufnahmerichtung links);Linie;für Vermessung
+16.1.2014;R323.0000;2.6.4.5;Spundmauer, -wand  (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;5125.0000;3.2.5;Staatsstraße;Text;für Vermessung
+1.1.2012;51006-1440;;Stadion;Flaeche;aus ALKIS
+16.1.2014;0617.0000;3.1.3;Stadtbezirk;Text;für Vermessung
+16.1.2014;0611.0000;3.1.1;Stadtgemeinde;Text;für Vermessung
+16.1.2014;3452.0000;2.5.4.3;Stahlbetonmast;Punkt;für Vermessung
+1.1.2012;3452.7001;;Stahlbetonmast (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3452.7002;;Stahlbetonmast (Telekommunikation);Punkt;für Vermessung
+16.1.2014;3454.7001;;Stahlgitterhochspannungsmast (Elektrizitätsversorgung);Punkt;für Vermessung
+16.1.2014;3453.0000;2.5.4.1;Stahlgittermast;Punkt;für Vermessung
+1.1.2012;3453.7001;;Stahlgittermast (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3453.7002;;Stahlgittermast (Telekommunikation);Punkt;für Vermessung
+16.1.2014;3451.0000;2.5.4.2;Stahlrohrmast;Punkt;für Vermessung
+1.1.2012;3451.7001;;Stahlrohrmast (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3451.7002;;Stahlrohrmast (Telekommunikation);Punkt;für Vermessung
+16.1.2014;2724.0000;2.4.4;Stall;Text;für Vermessung
+1.1.2012;5003.0000;2.3.2.8;Stationszeichen;Punkt;für Vermessung
+1.1.2012;5003.0000;2.3.2.8;Stationszeichen (Textzusatz: Stationsangabe);Text;für Vermessung
+16.1.2014;8621.0000;3.3.10;Stausee;Text;für Vermessung
+16.1.2014;#999.7005;;Steigpfeil;Punkt;für Vermessung
+16.1.2014;0462.0000;2.2.5;Steilrand;Linie;für Vermessung
+16.1.2014;L462.0000;2.2.5;Steilrand (in Aufnahmerichtung links);Linie;für Vermessung
+1.1.2012;R462.0000;2.2.5;Steilrand (in Aufnahmerichtung rechts);Linie;für Vermessung
+1.1.2012;3198.0000;2.7.3.9;Stollenmundloch, Höhle, Kellereingang im Berg/Fels;Punkt;für Vermessung
+1.1.2012;5296.0000;2.3.1.1;Straße, Weg - Begrenzung des befahrbaren Raumes;Linie;für Vermessung
+1.1.2012;5435.0000;2.5.4.8;Straßenbahn-, Obusmast;Punkt;für Vermessung
+1.1.2012;5432.0000;2.3.4.2;Straßenbahngleisachse;Linie;für Vermessung
+1.1.2012;5434.0000;2.3.3.5;Straßenbahnhaltestelle;Punkt;für Vermessung
+16.1.2014;5121.0000;3.2.9;Straßennamen;Text;für Vermessung
+1.1.2012;3505.0000;2.5.5.6;Straßensinkkasten (Einlauf mittig);Punkt;für Vermessung
+1.1.2012;3508.0000;2.5.5.7;Straßensinkkasten (Einlauf seitlich);Punkt;für Vermessung
+16.1.2014;#232.7003;;Streckenstation Langzeitzählstelle;Punkt;für Vermessung
+16.1.2014;6120.0000;2.2.7.2;Streuobstacker;Flaeche;für Vermessung
+1.1.2012;02310-3440;;Streuobstacker (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6120.0000;2.2.7.2;Streuobstacker (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3440;;Streuobstacker (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;6220.0000;2.2.7.4;Streuobstwiese;Flaeche;für Vermessung
+1.1.2012;02310-3441;;Streuobstwiese (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6220.0000;2.2.7.4;Streuobstwiese (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3441;;Streuobstwiese (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;0473.7001;;Stützmauer (als Begrenzung Straße / Wege);Linie;für Vermessung
+1.1.2012;0473.7002;;Stützmauer (an Gewässer);Linie;für Vermessung
+1.1.2012;0473.7003;;Stützmauer (an sonstigen Verkehrsanlagen);Linie;für Vermessung
+1.1.2012;02310-3478;;Sumpf (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3478;;Sumpf (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;1055.7001;;"Symbol ""Höhe Unterkante Bauwerk""";Punkt;für Vermessung
+16.1.2014;1142.0000;2.4.6.2;Synagoge;Text;für Vermessung
+1.1.2012;31001-3042;;Synagoge;Flaeche;aus ALKIS
+1.1.2012;02310-3317;;Synagoge (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;02310-3407;;Tagebau, Grube, Steinbruch (Nutzungsartensymbol);Punkt;aus ALKIS
+16.1.2014;3151.0000;2.2.7.29;Tagebau, Grube, Steinbruch: Erz;Punkt;für Vermessung
+16.1.2014;3151.0000;2.2.7.29;Tagebau, Grube, Steinbruch: Erz;Flaeche;für Vermessung
+16.1.2014;3161.0000;2.2.7.30;Tagebau, Grube, Steinbruch: Kohle;Punkt;für Vermessung
+16.1.2014;3161.0000;2.2.7.30;Tagebau, Grube, Steinbruch: Kohle;Flaeche;für Vermessung
+16.1.2014;3181.0000;2.2.7.31;Tagebau, Grube, Steinbruch: Lava, -schlacke;Punkt;für Vermessung
+16.1.2014;3181.0000;2.2.7.31;Tagebau, Grube, Steinbruch: Lava, -schlacke;Flaeche;für Vermessung
+16.1.2014;3141.0000;2.2.7.28;Tagebau, Grube, Steinbruch: Steine, Gestein, Festgestein;Punkt;für Vermessung
+16.1.2014;3141.0000;2.2.7.28;Tagebau, Grube, Steinbruch: Steine, Gestein, Festgestein;Flaeche;für Vermessung
+1.1.2012;1732.0000;2.5.9.7;Tank- und Rastanlage (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;1731.0000;2.5.9.5;Tankstelle (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3401;;Tankstelle (Nutzungssymbol);Punkt;aus ALKIS
+16.1.2014;8801.0001;3.3.11;Teich;Text;für Vermessung
+1.1.2012;31001-3032;;Theater, Oper;Flaeche;aus ALKIS
+1.1.2012;02310-3314;;Theater, Oper (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;5174.0000;2.3.1.19;Tiefbord (Randeinfassung);Linie;für Vermessung
+1.1.2012;31001-2465;;Tiefgarage;Flaeche;aus ALKIS
+16.1.2014;2363.0000;2.4.6.8;Tiefgarage (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3336;;Tiefgarage (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;3447.0000;2.5.6.5;Transformator, Umformer;Punkt;für Vermessung
+16.1.2014;51004-0000;;Transport, Transportanlage;Flaeche;aus ALKIS
+1.1.2012;51004-1100;;Transportanlage, z.B. Rohrleitung, Pipeline;Linie;aus ALKIS
+16.1.2014;3401.0000;2.5.2.13;Transportrichtungspfeil;Punkt;für Vermessung
+1.1.2012;3401.7001;;Transportrichtungspfeil (Wasser-Ver-/Entsorgung);Punkt;für Vermessung
+1.1.2012;31001-3081;;Trauerhalle;Flaeche;aus ALKIS
+16.1.2014;#23B.7007;;Trennfuge;Linie;für Vermessung
+16.1.2014;1044.7001;;Treppe (maßst.), Begrenzung und Stufen;Linie;für Vermessung
+1.1.2012;8083.7001;;Treppe (unmaßst.);Linie;für Vermessung
+16.1.2014;1048.0000;2.4.5.4;Treppenunterkante (Freitreppe);Linie;für Vermessung
+1.1.2012;0162.0000;2.1.1;Trigonometrischer Punkt (Boden-, Hochpunkt, Exzentrum, ober-, unterirdisch);Punkt;für Vermessung
+1.1.2012;0162.0000;2.1.1;Trigonometrischer Punkt (Boden-, Hochpunkt, Exzentrum, ober-, unterirdisch);Text;für Vermessung
+1.1.2012;5292.0000;2.3.2.10;Tür im Wildschutzzaun, Lärmschutzwand o.ä.;Punkt;für Vermessung
+1.1.2012;9701.0000;2.7.4.12;Turm;Punkt;für Vermessung
+1.1.2012;9701.0000;2.7.4.12;Turm;Text;für Vermessung
+1.1.2012;51001-0000;;Turm;Flaeche;aus ALKIS
+1.1.2012;02320-2514;;Turm im Gebäude;Linie;aus ALKIS
+16.1.2014;1194.0000;2.4.6.4;U-Bahn-Bahnhof, -Haltestelle, -Haltepunkt (Nutzungssymbol);Punkt;für Vermessung
+1.1.2012;02310-3328;;U-Bahn-Bahnhof, -Haltestelle, -Haltepunkt (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;31001-3094;;U-Bahn-Bahnhof-Gebäude;Flaeche;aus ALKIS
+1.1.2012;51009-1610;;Überdachung;Flaeche;aus ALKIS
+1.1.2012;1045.0000;2.4.4.1;Überdachung, offene Halle, Durchfahrt, Markierung für  ~;Linie;für Vermessung
+16.1.2014;#23B.7008;;Übergangskonstruktion;Linie;für Vermessung
+1.1.2012;8037.0000;2.3.8.1;Uferlinie, fest;Linie;für Vermessung
+1.1.2012;8038.0000;2.3.8.2;Uferlinie, veränderlich oder unbestimmbar;Linie;für Vermessung
+1.1.2012;5746.0000;2.7.4.2;Uhr;Punkt;für Vermessung
+1.1.2012;31001-2523;;Umformer, Transformator (Gebäude und Bauwerk);Flaeche;aus ALKIS
+1.1.2012;R2310-3521;;"Umformer, Transformator (Gebäude und Bauwerk), ""Blitz""-Signatur""";Punkt;aus ALKIS
+16.1.2014;3445.0000;2.5.1.13;Ummantelung;Linie;für Vermessung
+1.1.2012;3445.7001;;Ummantelung (Elektrizitätsversorgung);Punkt;für Vermessung
+1.1.2012;3445.7002;;Ummantelung (Telekommunikation);Punkt;für Vermessung
+1.1.2012;02310-3404;;Umspannstation (Symbol Gebäude);Punkt;aus ALKIS
+1.1.2012;02310-3480;;Unland, Vegetationslose Fläche (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3480;;Unland, Vegetationslose Fläche (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;3428.0000;2.5.5.4;Unterflurhydrant;Punkt;für Vermessung
+1.1.2012;02310-3481;;Vegetationslose Fläche, Fels (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3481;;Vegetationslose Fläche, Fels (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;02310-3484;;Vegetationslose Fläche, Sand (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3484;;Vegetationslose Fläche: Sand (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;31001-3036;;Veranstaltungsgebäude;Flaeche;aus ALKIS
+16.1.2014;3489.7003;;Verbindungs-, Abzweigmuffe (AUSA-Kabel);Punkt;für Vermessung
+1.1.2012;5287.0000;2.3.3.7;Verkehrs-, Wechselverkehrszeichenbrücke;Punkt;für Vermessung
+1.1.2012;5284.0000;2.3.3.4;Verkehrsampel;Punkt;für Vermessung
+1.1.2012;5286.0000;2.3.3.3;Verkehrszeichen (feststehend);Punkt;für Vermessung
+1.1.2012;13003-0000;;Vermessungspunkt, Kleinpunkt;Punkt;aus AFIS
+1.1.2012;13003-0000;;Vermessungspunkt, Kleinpunkt;Text;aus AFIS
+1.1.2012;5282.7003;;Versorgungsanschluss für WVZ-Anlage;Punkt;für Vermessung
+1.1.2012;31001-3010;;Verwaltungsgebäude;Flaeche;aus ALKIS
+1.1.2012;1033.0000;2.4.2.2;Vollgeschosse, Anzahl der ~;Text;für Vermessung
+16.1.2014;5279.0000;2.3.1.15;Vorankündigungspfeil;Punkt;für Vermessung
+1.1.2012;51003-0000;;Vorratsbehälter, Speicherbauwerk;Flaeche;aus ALKIS
+1.1.2012;02310-3522;;Vorratsbehälter, Speicherbauwerk, Silo (Symbol);Punkt;aus ALKIS
+1.1.2012;5622.0000;2.3.10.3;Wagenfähre (Symbol);Punkt;für Vermessung
+1.1.2012;02310-3456;;Wald - allgemein (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+1.1.2012;R2310-3456;;Wald - allgemein (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+1.1.2012;31001-2513;;Wasserbehälter;Flaeche;aus ALKIS
+1.1.2012;3421.0000;2.5.2.1;Wasserleitung, oberirdisch;Linie;für Vermessung
+1.1.2012;3423.0000;2.5.1.1;Wasserleitung, unterirdisch;Linie;für Vermessung
+16.1.2014;3429.7001;;Wasserschieber;Punkt;für Vermessung
+16.1.2014;2514.0000;2.5.5.14;Wasserturm;Punkt;für Vermessung
+1.1.2012;51001-1001;;Wasserturm;Flaeche;aus ALKIS
+1.1.2012;5282.7001;;Wechselverkehrszeichen, freistehend;Punkt;für Vermessung
+16.1.2014;5201.0000;3.2.8;Weg;Text;für Vermessung
+1.1.2012;5215.0000;2.3.1.21;Weg unter 1mm Kartenbreite;Linie;für Vermessung
+1.1.2012;8508.7001;;Wegeseitengraben, Rinne, Straßengraben;Linie;für Vermessung
+1.1.2012;5282.0000;2.3.3.2;Wegweiser von besonderer Bedeutung;Punkt;für Vermessung
+1.1.2012;8062.0000;2.3.10.5;Wehr;Linie;für Vermessung
+16.1.2014;8802.0000;3.3.12;Weiher;Text;für Vermessung
+16.1.2014;6400.0000;2.2.7.9;Weingarten;Flaeche;für Vermessung
+1.1.2012;02310-3448;;Weingarten (Nutzungsarten-Einzelsymbol);Punkt;aus ALKIS
+16.1.2014;6400.0000;2.2.7.9;Weingarten (Nutzungsarten-Gruppensymbol);Punkt;für Vermessung
+1.1.2012;R2310-3448;;Weingarten (Nutzungsarten-Gruppensymbol);Punkt;aus ALKIS
+16.1.2014;1721.0000;2.4.4;Werkstatt;Text;für Vermessung
+1.1.2012;4242.0000;2.3.2.9;Wildschutzzaun;Linie;für Vermessung
+1.1.2012;4242.0000;2.3.2.9;Wildschutzzaun;Text;für Vermessung
+1.1.2012;3495.7001;;Windanzeiger;Punkt;für Vermessung
+1.1.2012;3495.0000;2.5.6.2;Windrad, -motor;Punkt;für Vermessung
+1.1.2012;02310-3501;;Windrad, -motor;Punkt;aus ALKIS
+1.1.2012;51002-1220;;Windrad, -motor;Flaeche;aus ALKIS
+1.1.2012;31001-1000;;Wohngebäude;Flaeche;aus ALKIS
+16.1.2014;5449.0000;2.3.6.6;Zahnradbahn, Bergbahn;Linie;für Vermessung
+16.1.2014;0353.7001;;Zaun;Punkt;für Vermessung
+16.1.2014;L353.0000;2.2.8;Zaun, (in Aufnahmerichtung links);Linie;für Vermessung
+1.1.2012;R353.0000;2.2.8;Zaun, (in Aufnahmerichtung rechts);Linie;für Vermessung
+16.1.2014;A353.0000;2.2.8;Zaun, beidseitig;Linie;für Vermessung
+16.1.2014;0353.7003;;Zaun, gemeinschaftlich;Linie;für Vermessung
+1.1.2012;31001-3014;;Zollamt;Flaeche;aus ALKIS
+1.1.2012;02310-3410;;Zoo (Nutzungssymbol);Punkt;aus ALKIS
+1.1.2012;1208.0000;2.4.5.1;Zufahrt, Einfahrt;Punkt;für Vermessung
+1.1.2012;1209.0000;2.4.5.2;Zugang, Eingang;Punkt;für Vermessung
+16.1.2014;0291.0000;2.6.2.1;Zugehörigkeitshaken;Punkt;für Vermessung
+16.1.2014;0292.0000;2.6.2.2;Zuordnungspfeil;Punkt;für Vermessung
+1.1.2012;02320-2004;;Zuordnungspfeil (auch bei abweichendem Rechtszustand);Linie;aus ALKIS
+1.1.2012;99999.9999;;sonstige Beschriftung;Text;
+1.1.2012;99999.9999;;sonstige Flaeche;Flaeche;
+1.1.2012;99999.9999;;sonstige Linie;Linie;
+1.1.2012;99999.9999;;sonstiger Punkt;Punkt;

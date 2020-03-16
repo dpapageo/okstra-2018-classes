@@ -1,0 +1,1680 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;;
+01.11.06;#0000.9201;;AK-Schwarz;Flaeche;1;;
+01.11.06;#0000.9210;;AK-D-Grün;Flaeche;10;;
+01.11.06;#0000.9211;;AK-H-Blau;Flaeche;11;;
+01.11.06;#0000.9212;;AK-Blau;Flaeche;12;;
+01.11.06;#0000.9213;;AK-D-Blau;Flaeche;13;;
+01.11.06;#0000.9214;;AK-H-Gelb;Flaeche;14;;
+01.11.06;#0000.9215;;AK-Gelb;Flaeche;15;;
+01.11.06;#0000.9216;;AK-Orange;Flaeche;16;;
+01.11.06;#0000.9217;;AK-H-Braun;Flaeche;17;;
+01.11.06;#0000.9218;;AK-Braun;Flaeche;18;;
+01.11.06;#0000.9219;;AK-D-Braun;Flaeche;19;;
+01.11.06;#0000.9202;;AK-H-Grau;Flaeche;2;;
+01.11.06;#0000.9220;;Ak-Weiß;Flaeche;20;;
+01.11.06;#0200.9100;;KL-Wohngebäude;Flaeche;20000;;
+01.11.06;#0200.9110;;KL-Wirtschaftsgebäude;Flaeche;20010
+01.11.06;#0200.9120;;KL-Wasserfläche;Flaeche;20020
+01.11.06;#0200.9130;;KL-Mauer;Flaeche;20030
+01.11.06;#0200.9140;;KL-Treppe;Flaeche;20040
+01.11.06;#0020.9010;;BT-Stützmauer;Flaeche;2010
+01.11.06;#0020.9020;;BT-Mauer freistehend;Flaeche;2020
+01.11.06;#0020.9050;;BT-Mittelstreifenüberfah;Flaeche;2050
+01.11.06;#0000.9221;;AK-Transparent;Flaeche;21
+01.11.06;#0021.9000;;BT-Waldrand;Flaeche;2100
+01.11.06;#0022.9000;;BB-Bauwerk;Flaeche;2200
+01.11.06;#0023.9000;;BG-Wohngebäude;Flaeche;2300
+01.11.06;#0023.9010;;BG-Wirtschaftsgebäude;Flaeche;2310
+01.11.06;#0023.9020;;BG-Wirtschaftsgebäude klein;Flaeche;2320
+01.11.06;#0000.9203;;AK-Grau;Flaeche;3
+01.11.06;#0000.9204;;AK-H-Rot;Flaeche;4
+01.11.06;#0400.9010;;LB-Acker;Flaeche;40010
+01.11.06;#0400.9020;;LB-Wirtschaftsgrünland;Flaeche;40020
+01.11.06;#0400.9030;;LB-Sonderkulturen;Flaeche;40030
+01.11.06;#0400.9050;;LB-Laubwald;Flaeche;40050
+01.11.06;#0400.9060;;LB-Mischwald;Flaeche;40060
+01.11.06;#0400.9070;;LB-Nadelwald;Flaeche;40070
+01.11.06;#0400.9080;;LB-Gehölze;Flaeche;40080
+01.11.06;#0400.9090;;LB-Grünanlagen;Flaeche;40090
+01.11.06;#0401.9000;;LB-ök.wertv.Flächen;Flaeche;40100
+01.11.06;#0401.9010;;LB-Gebüsch, Hecken;Flaeche;40110
+01.11.06;#0401.9020;;LB-Gewässer;Flaeche;40120
+01.11.06;#0401.9030;;LB-Feuchtgebiete;Flaeche;40130
+01.11.06;#0401.9040;;LB-offene Standorte;Flaeche;40140
+01.11.06;#0404.9030;;LB-L.bild präg.Struktur;Flaeche;40430
+01.11.06;#0412.9010;;LB-Gehölze zu verpfl.;Flaeche;41210
+01.11.06;#0420.9900;;LM-Waldneugründung;Flaeche;42000
+01.11.06;#0420.9910;;LM-Waldrand-Unterpfl.;Flaeche;42010
+01.11.06;#0420.9920;;LM-Obstwiese;Flaeche;42020
+01.11.06;#0420.9930;;LM-Baum-Strauchpflanzung;Flaeche;42030
+01.11.06;#0420.9940;;LM-HeckenstandortV;Flaeche;42040
+01.11.06;#0420.9950;;LM-Stillgewässer;Flaeche;42050
+01.11.06;#0420.9960;;LM-Fließgewässer;Flaeche;42060
+01.11.06;#0420.9970;;LM-Röhricht;Flaeche;42070
+01.11.06;#0420.9980;;LM-Feuchtwiese;Flaeche;42080
+01.11.06;#0420.9990;;LM-LandschRasenAnsaat;Flaeche;42090
+01.11.06;#0421.9900;;LM-Magerstandort;Flaeche;42100
+01.11.06;#0421.9910;;LM-Sukzessionsflächen;Flaeche;42110
+01.11.06;#0421.9920;;LM-ExtensivierungGrünl;Flaeche;42120
+01.11.06;#0421.9930;;LM-NeuanlExtensivesGrünl;Flaeche;42130
+01.11.06;#0000.9205;;AK-Rot;Flaeche;5
+01.11.06;#0050.9010;;BN-Autobahn;Flaeche;5010
+01.11.06;#0050.9020;;BN-Bundesstraße;Flaeche;5020
+01.09.10;#0050.9022;;BN-Bundesstraße_G;Flaeche;5022
+01.11.06;#0050.9030;;BN-Staatsstraße;Flaeche;5030
+01.09.10;#0050.9032;;BN-Staatsstraße_G;Flaeche;5032
+01.11.06;#0050.9040;;BN-Kreisstraße;Flaeche;5040
+01.11.06;#0050.9050;;BN-Gemeindverb.straße;Flaeche;5050
+01.11.06;#0050.9060;;BN-Ortsstraße;Flaeche;5060
+01.11.06;#0050.9070;;BN-Wirtschaftsweg;Flaeche;5070
+01.09.10;#0050.9072;;BN-öFW;Flaeche;5072
+01.09.10;#0050.9074;;BN-beschrW;Flaeche;5074
+01.11.06;#0050.9080;;BN-Bahnstrecke;Flaeche;5080
+01.11.06;#0050.9090;;BN-Wasserfläche;Flaeche;5090
+01.11.06;#0051.9010;;BN-Wasserschutzgebiet;Flaeche;5110
+01.11.06;#0052.9000;;BN-Wohngebiet;Flaeche;5200
+01.11.06;#0052.9010;;BN-Mischgebiet;Flaeche;5210
+01.11.06;#0052.9020;;BN-Gewerbegebiet;Flaeche;5220
+01.11.06;#0052.9030;;BN-Sondergebiet;Flaeche;5230
+01.11.06;#0052.9035;;BN-Gemeinbedarfsgebiet;Flaeche;5235
+01.11.06;#0052.9040;;BN-Grünfläche;Flaeche;5240
+01.11.06;#0052.9050;;BN-Naturschutzgebiet;Flaeche;5250
+01.11.06;#0052.9060;;BN-Landschaftsschutzgeb.;Flaeche;5260
+01.11.06;#0052.9070;;BN-Biotop;Flaeche;5270
+01.11.06;#0052.9080;;BN-Wald;Flaeche;5280
+01.11.06;#0052.9090;;BN-FFH-Gebiet;Flaeche;5290
+01.11.06;#0053.9020;;BN-Bodendenkmal;Flaeche;5320
+01.09.10;#0053.9030;;BN-Bodenaltlast;Flaeche;5330
+01.11.06;#0000.9206;;AK-D-Rot;Flaeche;6
+01.11.06;#0060.9910;;PV-Fahrbahn;Flaeche;6010
+01.11.06;#0060.9920;;PV-Fahrbahn-gepflastert;Flaeche;6020
+01.11.06;#0060.9930;;PV-Fahrbahn-Beton;Flaeche;6030
+01.11.06;#0060.9940;;PV-Gehweg;Flaeche;6040
+01.11.06;#0060.9950;;PV-Gehweg gepflastert;Flaeche;6050
+01.11.06;#0060.9960;;PV-Radweg;Flaeche;6060
+01.11.06;#0060.9970;;PV-Radweg-gepflastert;Flaeche;6070
+01.11.06;#0060.9980;;PV-Wirtschaftsweg-bit;Flaeche;6080
+01.11.06;#0060.9990;;PV-Wirtschaftsweg-gesch.;Flaeche;6090
+01.11.06;#0061.9900;;PV-Wirtschaftsweg-unbef.;Flaeche;6100
+01.11.06;#0061.9910;;PV-Parkfläche;Flaeche;6110
+01.11.06;#0061.9920;;PV-Parkfläche-gepfl.;Flaeche;6120
+01.11.06;#0061.9925;;PV-Parkfläche-Rasenpfl.;Flaeche;6125
+01.11.06;#0061.9930;;PV-Parkfläche-gesch.;Flaeche;6130
+01.11.06;#0061.9940;;PV-Zufahrt;Flaeche;6140
+01.11.06;#0061.9950;;PV-Zufahrt-gepfl.;Flaeche;6150
+01.11.06;#0061.9980;;PV-Rinne;Flaeche;6180
+01.11.06;#0061.9990;;PV-Bankett;Flaeche;6190
+01.11.06;#0062.9900;;PV-Grünfläche;Flaeche;6200
+01.11.06;#0062.9910;;PV-Mulde;Flaeche;6210
+01.11.06;#0062.9920;;PV-Grabensohle;Flaeche;6220
+01.11.06;#0062.9930;;PV-Wasserfläche;Flaeche;6230
+01.11.06;#0062.9940;;PV-RISTWAG-Abdichtung;Flaeche;6240
+01.11.06;#0062.9950;;PV-Einschnittsböschung;Flaeche;6250
+01.11.06;#0062.9970;;PV-Dammböschung;Flaeche;6270
+01.11.06;#0062.9980;;PV-Auffüllung;Flaeche;6280
+01.11.06;#0062.9990;;PV-Ausschlitzung;Flaeche;6290
+01.09.10;#0062.9995;;PV-Mittelstreifenüberfah;Flaeche;6295
+01.11.06;#0063.9900;;PG-Gebäude;Flaeche;6300
+01.11.06;#0063.9910;;PG-Gebäude-Abbruch;Flaeche;6310
+01.11.06;#0064.9900;;PB-Bauwerk;Flaeche;6400
+01.11.06;#0064.9910;;PB-Mauer/Stützmauer;Flaeche;6410
+01.11.06;#0064.9920;;PB-Bauwerk-Abbruch;Flaeche;6420
+01.11.06;#0065.9900;;PA-LS-Wall;Flaeche;6500
+01.11.06;#0065.9910;;PA-LS-Wand;Flaeche;6510
+01.11.06;#0065.9920;;PA-LS-Hausseite;Flaeche;6520
+01.11.06;#0068.9900;;PM-RMS-Fußgängerüberweg;Flaeche;6800
+01.11.06;#0068.9910;;PM-RMS-Sperrfläche li;Flaeche;6810
+01.11.06;#0068.9911;;PM-RMS-Sperrfläche re;Flaeche;6811
+01.11.06;#0068.9915;;PM-RMS-Sperrfläche klein;Flaeche;6815
+01.11.06;#0000.9207;;AK-Violett;Flaeche;7
+01.11.06;#0070.9920;;PR-GE-Straßenbau;Flaeche;7020
+01.11.06;#0070.9930;;PR-GE-landschft.Ersatzfl;Flaeche;7030
+01.11.06;#0070.9940;;PR-GE-vorüberg.Beanspr.;Flaeche;7040
+01.11.06;#0070.9950;;PR-GE-dauernd zu beschr.;Flaeche;7050
+01.11.06;#0070.9955;;PR-GE-für Dritte;Flaeche;7055
+01.11.06;#0070.9956;;PR-GE-Restfläche;Flaeche;7056
+01.11.06;#0070.9957;;PR-GE-Rückstand;Flaeche;7057
+01.11.06;#0070.9958;;PR-GE-Unbekannt;Flaeche;7058
+01.11.06;#0070.9960;;PR-Wassereinzugsgebiet;Flaeche;7060
+01.11.06;#0000.9208;;AK-H-Grün;Flaeche;8
+01.11.06;#0000.9209;;AK-Grün;Flaeche;9
+01.11.06;#0210.9100;;KL-Flurstück (transparent);Flaeche;21000
+01.11.06;#0020.9060;;BT-Markier.Fußg.überweg;Flaeche;2060
+01.11.06;#0020.9061;;BT-Markier.Sperrfl.links;Flaeche;2061
+01.11.06;#0020.9062;;BT-Markier.Sperrfl.rechts;Flaeche;2062
+01.11.06;#0020.9063;;BT-Markier.Sperrfl.klein;Flaeche;2063
+01.09.10;#0500.9900;;VS-HViSt-Fahrbahn;Flaeche;50000
+01.09.10;#0501.9900;;VS-Wasserfläche;Flaeche;50100
+01.09.10;#0501.9910;;VS-Pflasterfläche;Flaeche;50110
+01.09.10;#0501.9940;;VS-Schotterfläche;Flaeche;50140
+01.09.10;#0502.9900;;VS-Sichtfläche;Flaeche;50200
+01.09.10;#0512.9900;;VH-Fahrzeug;Flaeche;51200
+01.09.10;#0513.9900;;VH-Wohngebäude;Flaeche;51300
+01.09.10;#0513.9910;;VH-Nebengebäude;Flaeche;51310
+01.09.10;#0516.9900;;VH-BW-Überbau;Flaeche;51600
+01.09.10;#0516.9910;;VH-BW-Kappe;Flaeche;51610
+01.09.10;#0516.9920;;VH-BW-Widerlager;Flaeche;51620
+01.09.10;#0516.9930;;VH-BW-Pfeiler;Flaeche;51630
+01.11.06;#0000.9201;;AK-Schwarz/0,13/dot0;Linie;1
+01.11.06;#0010.9212;;AK-D-Blau/0,25/dot20;Linie;1012
+01.11.06;#0010.9213;;AK-D-Blau/0,35/dot20;Linie;1013
+01.11.06;#0010.9214;;AK-D-Blau/0,50/dot20;Linie;1014
+01.11.06;#0010.9215;;AK-D-Blau/0,70/dot20;Linie;1015
+01.11.06;#0001.9202;;AK-H-Blau/0,25/dot0;Linie;102
+01.11.06;#0001.9203;;AK-H-Blau/0,35/dot0;Linie;103
+01.11.06;#0001.9204;;AK-H-Blau/0,50/dot0;Linie;104
+01.11.06;#0001.9205;;AK-H-Blau/0,70/dot0;Linie;105
+01.11.06;#0001.9212;;AK-Blau/0,25/dot0;Linie;112
+01.11.06;#0001.9213;;AK-Blau/0,35/dot0;Linie;113
+01.11.06;#0001.9214;;AK-Blau/0,50/dot0;Linie;114
+01.11.06;#0001.9215;;AK-Blau/0,70/dot0;Linie;115
+01.11.06;#0001.9222;;AK-D-Blau/0,25/dot0;Linie;122
+01.11.06;#0001.9223;;AK-D-Blau/0,35/dot0;Linie;123
+01.11.06;#0001.9224;;AK-D-Blau/0,50/dot0;Linie;124
+01.11.06;#0001.9225;;AK-D-Blau/0,70/dot0;Linie;125
+01.11.06;#0001.9226;;AK-H-Gelb/0,25/dot0;Linie;126
+01.11.06;#0001.9227;;AK-H-Gelb/0,35/dot0;Linie;127
+01.11.06;#0001.9228;;AK-H-Gelb/0,50/dot0;Linie;128
+01.11.06;#0001.9229;;AK-H-Gelb/0,70/dot0;Linie;129
+01.11.06;#0000.9213;;AK-H-Grau/0,25/dot0;Linie;13
+01.11.06;#0001.9232;;AK-Gelb/0,25/dot0;Linie;132
+01.11.06;#0001.9233;;AK-Gelb/0,35/dot0;Linie;133
+01.11.06;#0001.9234;;AK-Gelb/0,50/dot0;Linie;134
+01.11.06;#0001.9235;;AK-Gelb/0,70/dot0;Linie;135
+01.11.06;#0000.9214;;AK-H-Grau/0,35/dot0;Linie;14
+01.11.06;#0001.9242;;AK-Orange/0,25/dot0;Linie;142
+01.11.06;#0001.9243;;AK-Orange/0,35/dot0;Linie;143
+01.11.06;#0001.9244;;AK-Orange/0,50/dot0;Linie;144
+01.11.06;#0001.9245;;AK-Orange/0,70/dot0;Linie;145
+01.11.06;#0000.9215;;AK-H-Grau/0,50/dot0;Linie;15
+01.11.06;#0001.9252;;AK-H-Braun/0,25/dot0;Linie;152
+01.11.06;#0001.9253;;AK-H-Braun/0,35/dot0;Linie;153
+01.11.06;#0001.9254;;AK-H-Braun/0,50/dot0;Linie;154
+01.11.06;#0001.9255;;AK-H-Braun/0,70/dot0;Linie;155
+01.11.06;#0000.9216;;AK-H-Grau/0,70/dot0;Linie;16
+01.11.06;#0001.9262;;AK-Braun/0,25/dot0;Linie;162
+01.11.06;#0001.9263;;AK-Braun/0,35/dot0;Linie;163
+01.11.06;#0001.9264;;AK-Braun/0,50/dot0;Linie;164
+01.11.06;#0001.9265;;AK-Braun/0,70/dot0;Linie;165
+01.11.06;#0001.9272;;AK-D-Braun/0,25/dot0;Linie;172
+01.11.06;#0001.9273;;AK-D-Braun/0,35/dot0;Linie;173
+01.11.06;#0001.9274;;AK-D-Braun/0,50/dot0;Linie;174
+01.11.06;#0001.9275;;AK-D-Braun/0,70/dot0;Linie;175
+01.11.06;#0019.9272;;AK-Weiß/0,25/dot0;Linie;1972
+01.11.06;#0019.9273;;AK-Weiß/0,35/dot0;Linie;1973
+01.11.06;#0019.9274;;AK-Weiß/0,50/dot0;Linie;1974
+01.11.06;#0019.9275;;AK-Weiß/0,70/dot0;Linie;1975
+01.11.06;#0019.9290;;AK-Unbestimmt;Linie;1990
+01.11.06;#0019.9299;;AK-Unsichtbar;Linie;1999
+01.11.06;#0000.9202;;AK-Schwarz/0,18/dot0;Linie;2
+01.11.06;#0020.9000;;BT-Bruchkante-allgemein;Linie;2000
+01.11.06;#0200.9100;;KL-Staats/Landesgrenzen;Linie;20000
+01.11.06;#0200.9105;;KL-Staats/Landesgr.n.ab.;Linie;20005
+01.11.06;#0200.9110;;KL-Reg.-Bez.Grenze;Linie;20010
+01.11.06;#0200.9115;;KL-Reg.-Bez.Grenze.n.ab.;Linie;20015
+01.11.06;#0200.9120;;KL-Kreisgrenze;Linie;20020
+01.11.06;#0200.9125;;KL-Kreisgrenze n.abgem.;Linie;20025
+01.11.06;#0200.9130;;KL-Gemeinde/Gemarkungsgr.;Linie;20030
+01.11.06;#0200.9135;;KL-Gem./Gemarkgr.n.ab.;Linie;20035
+01.11.06;#0200.9140;;KL-Gemarkungsgrenze;Linie;20040
+01.11.06;#0200.9145;;KL-Gemarkungsgr.n.ab.;Linie;20045
+01.11.06;#0200.9150;;KL-Gemeindegrenze;Linie;20050
+01.11.06;#0200.9155;;KL-Gemeindegr.n.ab.;Linie;20055
+01.11.06;#0200.9160;;KL-Flurstücksgrenze;Linie;20060
+01.11.06;#0200.9165;;KL-Flurstücksgr.n.ab.;Linie;20065
+01.11.06;#0200.9170;;KL-Gebäudeumriss;Linie;20070
+01.11.06;#0200.9175;;KL-Gebäude-Detail;Linie;20075
+01.11.06;#0200.9180;;KL-Gebäude-Durchfahrt;Linie;20080
+01.11.06;#0200.9190;;KL-Nutzungsartgrenze;Linie;20090
+01.11.06;#0201.9100;;KL-Gewässergrenze;Linie;20100
+01.11.06;#0201.9110;;KL-Zaun;Linie;20110
+01.11.06;#0201.9120;;KL-Mauer;Linie;20120
+01.11.06;#0201.9130;;KL-Hecke;Linie;20130
+01.11.06;#0201.9140;;KL-Fahrbahn,Gehweg,Gleis;Linie;20140
+01.09.10;#0020.9010;;BT-Achse-bestehend;Linie;2010
+01.09.10;#0020.9011;;BT-ASB-Bestandsachse;Linie;2011
+01.09.10;#0020.9012;;BT-ASB-Hilfsachse;Linie;2012
+01.11.06;#0020.9015;;BT-Markierung unterbr.;Linie;2015
+01.11.06;#0020.9016;;BT-Markierung;Linie;2016
+01.11.06;#0201.9150;;KL-Mauerlinie;Linie;20150
+01.11.06;#0201.9160;;KL-Böschungskante,Grube;Linie;20160
+01.11.06;#0201.9170;;KL-Durchlass;Linie;20170
+01.11.06;#0201.9180;;KL-Brücke;Linie;20180
+01.11.06;#0201.9190;;KL-Fußweg;Linie;20190
+01.11.06;#0020.9020;;BT-Bordstein;Linie;2020
+01.09.10;#0020.9021;;BT-Bordstein verdeckt;Linie;2021
+01.09.10;#0020.9022;;BT-Hochbord;Linie;2022
+01.09.10;#0020.9023;;BT-Tiefbord;Linie;2023
+01.11.06;#0020.9030;;BT-Fahrbahnrand;Linie;2030
+01.09.10;#0020.9031;;BT-Fahrbahnrand verdeckt;Linie;2031
+01.11.06;#0020.9035;;BT-Wegrand befestigt;Linie;2035
+01.11.06;#0020.9040;;BT-Wegrand-unbefsetigt;Linie;2040
+01.11.06;#0020.9045;;BT-Geh-u.Radweg;Linie;2045
+01.11.06;#0020.9050;;BT-Pflasterzeile(n);Linie;2050
+01.11.06;#0020.9060;;BT-Gleis;Linie;2060
+01.11.06;#0021.9000;;BT-Böschung;Linie;2100
+01.11.06;#0021.9001;;BT-Böschung-Schraffur;Linie;2101
+01.11.06;#0021.9010;;BT-Höhenlinie-hervorgeh.;Linie;2110
+01.11.06;#0021.9015;;BT-Höhenlinie-hervorgeh.;Linie;2115
+01.11.06;#0021.9020;;BT-Höhenlinie;Linie;2120
+01.11.06;#0021.9025;;BT-Höhenlinie;Linie;2125
+01.11.06;#0000.9222;;AK-Grau/0,25/dot0;Linie;22
+01.11.06;#0022.9000;;BT-Wasserspiegel;Linie;2200
+01.11.06;#0022.9010;;BT-Gewässer;Linie;2210
+01.11.06;#0022.9020;;BT-Gewässersohle;Linie;2220
+01.11.06;#0022.9030;;BL-Durchlaß;Linie;2230
+01.11.06;#0022.9040;;BT-Mulde;Linie;2240
+01.11.06;#0022.9050;;BT-Rinne;Linie;2250
+01.09.10;#0022.9052;;BT-Schlitzrinne;Linie;2252
+01.11.06;#0022.9060;;BT-Graben;Linie;2260
+01.11.06;#0022.9070;;BT-Wehr;Linie;2270
+01.11.06;#0022.9080;;BT-Spundwand;Linie;2280
+01.11.06;#0022.9085;;BT-Dichtwand;Linie;2285
+01.11.06;#0022.9090;;BT-Treppe;Linie;2290
+01.11.06;#0000.9223;;AK-Grau/0,35/dot0;Linie;23
+01.11.06;#0023.9010;;BT-Zaun;Linie;2310
+01.11.06;#0023.9015;;BT-Wildschutzzaun;Linie;2315
+01.11.06;#0023.9020;;BT-Hecke;Linie;2320
+01.11.06;#0023.9030;;BT-Rain (Schutzbepflanzung);Linie;2330
+01.11.06;#0023.9040;;BT-Biotop;Linie;2340
+01.11.06;#0000.9224;;AK-Grau/0,50/dot0;Linie;24
+01.11.06;#0024.9000;;BT-Stützmauer;Linie;2400
+01.11.06;#0024.9010;;BT-Mauer;Linie;2410
+01.11.06;#0024.9020;;BT-Mauer-Symbol;Linie;2420
+01.11.06;#0000.9225;;AK-Grau/0,70/dot0;Linie;25
+01.11.06;#0025.9000;;BT-Stahlschutzplanke;Linie;2500
+01.11.06;#0025.9010;;BL-Betongleitwand;Linie;2510
+01.11.06;#0025.9020;;BT-Blendschutz;Linie;2520
+01.11.06;#0025.9030;;BT-Nutzungsartengrenze;Linie;2530
+01.11.06;#0026.9000;;BA-Lärmschutzwall;Linie;2600
+01.11.06;#0026.9010;;BA-Lärmschutzwand;Linie;2610
+01.11.06;#0026.9020;;BA-Schilderbrücke;Linie;2620
+01.11.06;#0000.9203;;AK-Schwarz/0,25/dot0;Linie;3
+01.11.06;#0030.9000;;BB-Bauwerkslinie;Linie;3000
+01.11.06;#0030.9010;;BB-Bauwerkslinie-verdeckt;Linie;3010
+01.11.06;#0030.9020;;BB-Treppe;Linie;3020
+01.11.06;#0030.9030;;BB-Geländer;Linie;3030
+01.11.06;#0030.9040;;BB-Fuge;Linie;3040
+01.09.10;#0030.9050;;BB-Fahrbahnrand;Linie;3050
+01.09.10;#0030.9055;;BB-Bordstein;Linie;3055
+01.09.10;#0030.9060;;BB-Fundament;Linie;3060
+01.11.06;#0031.9000;;BG-Gebäudelinie;Linie;3100
+01.11.06;#0031.9010;;BG-Gebäudelinie-verdeckt;Linie;3110
+01.11.06;#0031.9020;;BG-Gebäudefirst;Linie;3120
+01.11.06;#0031.9030;;BG-unterirdischer Baukörper;Linie;3130
+01.11.06;#0031.9040;;BG-Traufe;Linie;3140
+01.11.06;#0000.9232;;AK-H-Rot/0,25/dot0;Linie;32
+01.11.06;#0000.9233;;AK-H-Rot/0,35/dot0;Linie;33
+01.11.06;#0000.9234;;AK-H-Rot/0,50/dot0;Linie;34
+01.11.06;#0000.9235;;AK-H-Rot/0,70/dot0;Linie;35
+01.11.06;#0000.9204;;AK-Schwarz/0,35/dot0;Linie;4
+01.11.06;#0400.9000;;LB-Umrahmung Realnutzung;Linie;40000
+01.11.06;#0400.9010;;LB-Baumreihe;Linie;40010
+01.11.06;#0400.9040;;LB-Plangebietsgrenze;Linie;40040
+01.11.06;#0401.9000;;LB-Umrahmung Biotoptypen;Linie;40100
+01.11.06;#0403.9010;;LB-Lebensräume;Linie;40310
+01.11.06;#0403.9020;;LB-Austauschbeziehungen;Linie;40320
+01.11.06;#0403.9030;;LB-Wechselbeziehungen;Linie;40330
+01.11.06;#0403.9040;;LB-Aust.bez.beeintr.;Linie;40340
+01.11.06;#0404.9000;;LB-Umrahmung L.Bild;Linie;40400
+01.11.06;#0404.9020;;LB-Baumreihe L.Bild;Linie;40420
+01.11.06;#0404.9030;;LB-naturn.gest.Waldrand;Linie;40430
+01.11.06;#0404.9040;;LB-prägend. Ortsrand;Linie;40440
+01.11.06;#0405.9000;;LB-Natursch.gebiet vorh.;Linie;40500
+01.11.06;#0405.9010;;LB-Natursch.gebiet gepl.;Linie;40510
+01.11.06;#0405.9020;;LB-Nationalpark vorh.;Linie;40520
+01.11.06;#0405.9030;;LB-Nationalpark gepl.;Linie;40530
+01.11.06;#0405.9050;;LB-gesch.L.bestand.vorh.;Linie;40550
+01.11.06;#0405.9060;;LB-gesch.L.bestand.gepl.;Linie;40560
+01.11.06;#0405.9070;;LB-Landsch.gebiet vorh.;Linie;40570
+01.11.06;#0405.9080;;LB-Landsch.gebiet gepl.;Linie;40580
+01.11.06;#0405.9090;;LB-Naturpark vorh.;Linie;40590
+01.11.06;#0406.9000;;LB-Naturpark gepl.;Linie;40600
+01.11.06;#0406.9010;;LB-Biosph.reservat vorh.;Linie;40610
+01.11.06;#0406.9020;;LB-Biosph.reservat gepl.;Linie;40620
+01.11.06;#0406.9030;;LB-FFH-Gebiet vorh.;Linie;40630
+01.11.06;#0406.9040;;LB-FFH-Gebiet gepl.;Linie;40640
+01.11.06;#0406.9050;;LB-Vogelsch.gebiet vorh.;Linie;40650
+01.11.06;#0406.9060;;LB-Vogelsch.gebiet gepl.;Linie;40660
+01.11.06;#0406.9080;;LB-sonst.Schutzgebiete;Linie;40680
+01.11.06;#0407.9000;;LB-Amtl.kart.Biotope;Linie;40700
+01.11.06;#0407.9010;;LB-Eigenkart.Biotope;Linie;40710
+01.11.06;#0408.9000;;LB-Regionalplanung;Linie;40800
+01.11.06;#0408.9010;;LB-Flächennutzungsplan;Linie;40810
+01.11.06;#0408.9020;;LB-Waldfunktionsplan;Linie;40820
+01.11.06;#0409.9030;;LB-Beeinträcht.zone alt;Linie;40930
+01.11.06;#0409.9040;;LB-Beeinträcht.zone neu;Linie;40940
+01.11.06;#0409.9070;;LB-Verlust Aust.bez.;Linie;40970
+01.11.06;#0409.9080;;LB-beeintr.Lebensraum;Linie;40980
+01.11.06;#0041.9000;;BL-Wasserleitung;Linie;4100
+01.11.06;#0410.9010;;LB-Verlust Baumreihe;Linie;41010
+01.11.06;#0041.9005;;BL-Abwasserdruckleitung;Linie;4105
+01.11.06;#0041.9010;;BL-MW-Leitung;Linie;4110
+01.11.06;#0041.9011;;BL-RW-Leitung;Linie;4111
+01.11.06;#0041.9012;;BL-SW-Leitung;Linie;4112
+01.11.06;#0041.9020;;BL-Dränleitung;Linie;4120
+01.11.06;#0412.9010;;LB-Umrahmung Minimierung;Linie;41210
+01.11.06;#0412.9020;;LB-Vegst.zu verpfl.;Linie;41220
+01.11.06;#0041.9030;;BL-Sickerleitung;Linie;4130
+01.11.06;#0000.9242;;AK-Rot/0,25/dot0;Linie;42
+01.11.06;#0042.9000;;BL-Gasleitung;Linie;4200
+01.11.06;#0420.9900;;LM-Waldneugründung;Linie;42000
+01.11.06;#0420.9910;;LM-Waldrand-Unterpl.;Linie;42010
+01.11.06;#0420.9920;;LM-Obstwiese;Linie;42020
+01.11.06;#0420.9930;;LM-BaumStrauch-Pflanzung;Linie;42030
+01.11.06;#0420.9940;;LM-HeckenstandortV;Linie;42040
+01.11.06;#0420.9950;;LM-Stillgewässer;Linie;42050
+01.11.06;#0420.9960;;LM-Fließgewässer;Linie;42060
+01.11.06;#0420.9970;;LM-Röhricht;Linie;42070
+01.11.06;#0420.9980;;LM-Feuchtwiese;Linie;42080
+01.11.06;#0420.9990;;LM-LandschRasenAnsaat;Linie;42090
+01.11.06;#0042.9010;;BL-Fernheizleitung;Linie;4210
+01.11.06;#0421.9900;;LM-Magerstandort;Linie;42100
+01.11.06;#0421.9910;;LM-Sukzessionsfläche;Linie;42110
+01.11.06;#0421.9920;;LM-ExtensivierungGrünl;Linie;42120
+01.11.06;#0421.9930;;LM-NeuanlExtensivesGrünl;Linie;42130
+01.11.06;#0421.9940;;LM-Wildleitzaun;Linie;42140
+01.11.06;#0421.9950;;LM-Amphibienleitsystem;Linie;42150
+01.11.06;#0421.9960;;LM-AmphibienDurchlass;Linie;42160
+01.11.06;#0421.9970;;LM-SchutzzaunBauzeit;Linie;42170
+01.11.06;#0421.9980;;LM-Geschützte Fläche;Linie;42180
+01.11.06;#0421.9990;;LM-Entsiegelung;Linie;42190
+01.11.06;#0422.9900;;LM-VegetationsStV;Linie;42200
+01.11.06;#0422.9910;;LM-Maßnahmengrenze;Linie;42210
+01.11.06;#0000.9243;;AK-Rot/0,35/dot0;Linie;43
+01.11.06;#0043.9000;;BL-Fernmeldekabel;Linie;4300
+01.11.06;#0043.9010;;BL-Niederspannungskabel;Linie;4310
+01.11.06;#0043.9015;;BL-Mittelspannungskabel;Linie;4315
+01.11.06;#0043.9020;;BL-Hochspannungskabel;Linie;4320
+01.11.06;#0043.9025;;BL-LWL-Kabel;Linie;4325
+01.11.06;#0043.9030;;BL-Kabelkanal;Linie;4330
+01.11.06;#0000.9244;;AK-Rot/0,50/dot0;Linie;44
+01.11.06;#0044.9000;;BL-Pipeline;Linie;4400
+01.11.06;#0044.9010;;BL-Kraftstoffleitung;Linie;4410
+01.11.06;#0000.9245;;AK-Rot/0,70/dot0;Linie;45
+01.11.06;#0045.9000;;BL-Fernmeldefreileitung;Linie;4500
+01.11.06;#0045.9010;;BL-Niederspannungsfreileitung;Linie;4510
+01.11.06;#0045.9015;;BL-Mittelspannungsfreileitung;Linie;4515
+01.11.06;#0045.9020;;BL-Hochspannungsfreileitung;Linie;4520
+01.11.06;#0046.9000;;BL-BAB-FM-Kabel;Linie;4600
+01.11.06;#0046.9005;;BL-BAB-E-Kabel;Linie;4605
+01.11.06;#0046.9010;;BL-BAB-Kabel;Linie;4610
+01.11.06;#0000.9205;;AK-Schwarz/0,50/dot0;Linie;5
+01.11.06;#0050.9010;;BN-Autobahn;Linie;5010
+01.09.10;#0050.9011;;BN-Autobahn_Ast;Linie;5011
+01.11.06;#0050.9020;;BN-Bundesstraße;Linie;5020
+01.09.10;#0050.9021;;BN-Bundesstraße_Ast;Linie;5021
+01.09.10;#0050.9022;;BN-Bundesstraße_G;Linie;5022
+01.09.10;#0050.9023;;BN-Bundesstraße_G_Ast;Linie;5023
+01.11.06;#0050.9030;;BN-Staatsstraße;Linie;5030
+01.09.10;#0050.9031;;BN-Staatsstraße_Ast;Linie;5031
+01.09.10;#0050.9032;;BN-Staatsstraße_G;Linie;5032
+01.09.10;#0050.9033;;BN-Staatsstraße_G_Ast;Linie;5033
+01.11.06;#0050.9040;;BN-Kreisstraße;Linie;5040
+01.09.10;#0050.9041;;BN-Kreisstraße_Ast;Linie;5041
+01.11.06;#0050.9050;;BN-Gemeindverb.straße;Linie;5050
+01.09.10;#0050.9051;;BN-Gemeindverb.str_Ast;Linie;5051
+01.11.06;#0050.9060;;BN-Ortsstraße;Linie;5060
+01.09.10;#0050.9061;;BN-Ortsstraße_Ast;Linie;5061
+01.11.06;#0050.9070;;BN-Wirtschaftsweg;Linie;5070
+01.09.10;#0050.9072;;BN-öFW;Linie;5072
+01.09.10;#0050.9073;;BN-öFW_Ast;Linie;5073
+01.09.10;#0050.9074;;BN-beschrWeg;Linie;5074
+01.09.10;#0050.9075;;BN-beschrWeg_Ast;Linie;5075
+01.11.06;#0050.9080;;BN-Bahnstrecke;Linie;5080
+01.11.06;#0050.9090;;BN-Wasserfläche;Linie;5090
+01.11.06;#0051.9000;;BN-Hochwasserber.grenze;Linie;5100
+01.11.06;#0051.9005;;BN-Überschwemmungsgr.;Linie;5105
+01.11.06;#0051.9010;;BN-Wasserschutzgebiet;Linie;5110
+01.11.06;#0000.9252;;AK-D-Rot/0,25/dot0;Linie;52
+01.11.06;#0052.9000;;BN-Wohngebiet;Linie;5200
+01.11.06;#0052.9010;;BN-Mischgebiet;Linie;5210
+01.11.06;#0052.9020;;BN-Gewerbegebiet;Linie;5220
+01.11.06;#0052.9030;;BN-Sondergebiet;Linie;5230
+01.11.06;#0052.9035;;BN-Gemeindebedarfsgebiet;Linie;5235
+01.11.06;#0052.9040;;BN-Grünfläche;Linie;5240
+01.11.06;#0052.9050;;BN-Naturschutzgebiet;Linie;5250
+01.11.06;#0052.9060;;BN-Landschaftsschutzgeb.;Linie;5260
+01.11.06;#0052.9070;;BN-Biotop;Linie;5270
+01.11.06;#0052.9080;;BN-Wald;Linie;5280
+01.11.06;#0052.9090;;BN-FFH-Gebiet;Linie;5290
+01.11.06;#0000.9253;;AK-D-Rot/0,35/dot0;Linie;53
+01.11.06;#0053.9000;;BN-Jagdgebiet;Linie;5300
+01.11.06;#0005.9231;;AK-Schwarz/0,13/dot3;Linie;531
+01.11.06;#0053.9010;;BN-Ausgleichsfläche;Linie;5310
+01.11.06;#0005.9232;;AK-Schwarz/0,18/dot3;Linie;532
+01.11.06;#0053.9020;;BN-Bodendenkmal;Linie;5320
+01.09.10;#0053.9030;;BN-Bodenaltlast;Linie;5330
+01.11.06;#0005.9233;;AK-Schwarz/0,25/dot3;Linie;533
+01.11.06;#0005.9234;;AK-Schwarz/0,35/dot3;Linie;534
+01.11.06;#0005.9235;;AK-Schwarz/0,50/dot3;Linie;535
+01.11.06;#0005.9236;;AK-Schwarz/0,70/dot3;Linie;536
+01.11.06;#0005.9237;;AK-Schwarz/1,00/dot3;Linie;537
+01.11.06;#0000.9254;;AK-D-Rot/0,50/dot0;Linie;54
+01.11.06;#0000.9255;;AK-D-Rot/0,70/dot0;Linie;55
+01.11.06;#0005.9272;;AK-Rot/0,25/dot3;Linie;572
+01.11.06;#0005.9273;;AK-Rot/0,35/dot3;Linie;573
+01.11.06;#0005.9274;;AK-Rot/0,50/dot3;Linie;574
+01.11.06;#0005.9275;;AK-Rot/0,70/dot3;Linie;575
+01.11.06;#0005.9292;;AK-Violett/0,25/dot3;Linie;592
+01.11.06;#0005.9293;;AK-Violett/0,35/dot3;Linie;593
+01.11.06;#0005.9294;;AK-Violett/0,50/dot3;Linie;594
+01.11.06;#0005.9295;;AK-Violett/0,70/dot3;Linie;595
+01.11.06;#0000.9206;;AK-Schwarz/0,70/dot0;Linie;6
+01.11.06;#0060.9910;;PV-Achse-Hauptachse;Linie;6010
+01.11.06;#0060.9911;;PV-Achse-Fahrbahnrand;Linie;6011
+01.11.06;#0060.9912;;PV-Achse-Randausrundung;Linie;6012
+01.11.06;#0060.9913;;PV-Achse-Dreiecksinsel;Linie;6013
+01.11.06;#0060.9914;;PV-Achse-Tropfen;Linie;6014
+01.11.06;#0060.9915;;PV-Achse-Radweg;Linie;6015
+01.11.06;#0060.9916;;PV-Achse-Trassenbegl.BW;Linie;6016
+01.11.06;#0060.9917;;PV-Achse-Grabensohle;Linie;6017
+01.11.06;#0060.9919;;PV-Achse-Sonstiges;Linie;6019
+01.11.06;#0060.9920;;PV-Rinne;Linie;6020
+01.09.10;#0060.9921;;PV-Schlitzrinne;Linie;6021
+01.11.06;#0060.9930;;PV-Bord;Linie;6030
+01.11.06;#0060.9940;;PV-Hochbord;Linie;6040
+01.11.06;#0060.9945;;PV-Flachbord;Linie;6045
+01.11.06;#0060.9950;;PV-Tiefbord;Linie;6050
+01.11.06;#0060.9955;;PV-Rasenbord;Linie;6055
+01.11.06;#0060.9960;;PV-Fahrbahnrand;Linie;6060
+01.11.06;#0060.9961;;PV-Fahrbahnr. verd.;Linie;6061
+01.11.06;#0060.9962;;PV-Fahrstreifen;Linie;6062
+01.11.06;#0060.9963;;PV-Standstreifen;Linie;6063
+01.11.06;#0060.9964;;PV-Mehrzweckstreifen;Linie;6064
+01.11.06;#0060.9965;;PV-Wegrand;Linie;6065
+01.11.06;#0060.9966;;PV-Wegrand verd.;Linie;6066
+01.11.06;#0060.9970;;PV-Geh-/Radwegrand;Linie;6070
+01.11.06;#0060.9971;;PV-Geh-/Radwegr. verd.;Linie;6071
+01.11.06;#0060.9975;;PV-Park-/Rastplatz;Linie;6075
+01.11.06;#0060.9976;;PV-Haltestelle;Linie;6076
+01.11.06;#0060.9980;;PV-Bankett;Linie;6080
+01.11.06;#0060.9981;;PV-Grünstreifen;Linie;6081
+01.11.06;#0060.9990;;PV-Mulde;Linie;6090
+01.11.06;#0060.9995;;PV-Rauhbett;Linie;6095
+01.11.06;#0060.9999;;PV-Sonstiges;Linie;6099
+01.11.06;#0061.9900;;PV-Graben;Linie;6100
+01.11.06;#0061.9901;;PV-Böschung-Schraffur;Linie;6101
+01.11.06;#0061.9910;;PV-Böschung;Linie;6110
+01.11.06;#0061.9920;;PV-Durchlass;Linie;6120
+01.11.06;#0061.9930;;PV-Wasserspiegel;Linie;6130
+01.11.06;#0061.9940;;PV-Zaun;Linie;6140
+01.11.06;#0061.9950;;PV-Blendschutz;Linie;6150
+01.11.06;#0061.9960;;PV-Mauer;Linie;6160
+01.11.06;#0061.9965;;PV-Mauer-Symbol;Linie;6165
+01.11.06;#0061.9970;;PV-Stahlschutzplanke;Linie;6170
+01.11.06;#0061.9975;;PV-Betonschutzwand;Linie;6175
+01.11.06;#0061.9980;;PV-Abbruchlinie;Linie;6180
+01.09.10;#0061.9985;;PV-Breite unsichtbar;Linie;6185
+01.09.10;#0061.9990;;PV-Achse-Nebenachse;Linie;6190
+01.09.10;#0061.9991;;PV-Achse-Gehweg;Linie;6191
+01.11.06;#0000.9262;;AK-Violett/0,25/dot0;Linie;62
+01.11.06;#0062.9900;;PS-Gleis;Linie;6200
+01.11.06;#0062.9910;;PS-Gleisachse;Linie;6210
+01.11.06;#0006.9222;;AK-D-Grün/0,25/dot3;Linie;622
+01.11.06;#0006.9223;;AK-D-Grün/0,35/dot3;Linie;623
+01.11.06;#0006.9224;;AK-D-Grün/0,50/dot3;Linie;624
+01.11.06;#0006.9225;;AK-D-Grün/0,70/dot3;Linie;625
+01.11.06;#0000.9263;;AK-Violett/0,35/dot0;Linie;63
+01.11.06;#0063.9900;;PG-Geb.Ansicht,Draufsich;Linie;6300
+01.11.06;#0063.9902;;PG-Geb.Grundriß,Schnitt;Linie;6302
+01.11.06;#0063.9904;;PG-Geb.Kante,verdeckt;Linie;6304
+01.11.06;#0063.9906;;PG-Gebäude-Achse;Linie;6306
+01.11.06;#0000.9264;;AK-Violett/0,50/dot0;Linie;64
+01.11.06;#0000.9265;;AK-Violett/0,70/dot0;Linie;65
+01.11.06;#0065.9900;;PA-LS-Wall;Linie;6500
+01.11.06;#0065.9910;;PA-LS-Wand;Linie;6510
+01.11.06;#0065.9915;;PA-LS-Wand-Symbol;Linie;6515
+01.11.06;#0006.9252;;AK-D-Blau/0,25/dot3;Linie;652
+01.11.06;#0065.9920;;PA-LS-Hausseite;Linie;6520
+01.11.06;#0006.9253;;AK-D-Blau/0,35/dot3;Linie;653
+01.11.06;#0006.9254;;AK-D-Blau/0,50/dot3;Linie;654
+01.11.06;#0006.9255;;AK-D-Blau/0,70/dot3;Linie;655
+01.11.06;#0066.9900;;PL-Abwasserleitung;Linie;6600
+01.11.06;#0066.9901;;PL-Regenwasserkanal;Linie;6601
+01.11.06;#0066.9902;;PL-Schmutzwasserkanal;Linie;6602
+01.11.06;#0066.9910;;PL-Abwasserdruckleitung;Linie;6610
+01.11.06;#0066.9920;;PL-Wasserleitung;Linie;6620
+01.11.06;#0066.9930;;PL-Sickerrohrleitung;Linie;6630
+01.11.06;#0066.9932;;PL-Kunststoffteilsicherr;Linie;6632
+01.11.06;#0066.9934;;PL-Kunststoffrohr;Linie;6634
+01.11.06;#0066.9936;;PL-Kunststoffmehrzweckr;Linie;6636
+01.11.06;#0066.9940;;PL-Huckepackleitung;Linie;6640
+01.11.06;#0066.9945;;PL-Doppelrohrleitung;Linie;6645
+01.11.06;#0066.9950;;PL-Sickerschlitz;Linie;6650
+01.11.06;#0066.9960;;PL-Stahlbetonrohr;Linie;6660
+01.09.10;#0066.9965;;PL-Fließrichtung Rohrltg;Linie;6665
+01.11.06;#0066.9970;;PL-Fernmeldkabel;Linie;6670
+01.11.06;#0066.9980;;PL-Elektrokabel;Linie;6680
+01.11.06;#0066.9990;;PL-Elektrofreileitung;Linie;6690
+01.11.06;#0067.9900;;PL-Gasleitung;Linie;6700
+01.11.06;#0067.9910;;PL-Kabelkanal;Linie;6710
+01.11.06;#0067.9920;;PL-BAB-Kabel;Linie;6720
+01.11.06;#0068.9900;;PM-RMS-Schmalstr;Linie;6800
+01.11.06;#0068.9901;;PM-RMS-Schmalstr   6/12;Linie;6801
+01.11.06;#0068.9902;;PM-RMS-Schmalstr   4/8;Linie;6802
+01.11.06;#0068.9903;;PM-RMS-Schmalstr   3/6;Linie;6803
+01.11.06;#0068.9904;;PM-RMS-Schmalstr   6/6;Linie;6804
+01.11.06;#0068.9906;;PM-RMS-Schmalstr   3/3;Linie;6806
+01.11.06;#0068.9907;;PM-RMS-Schmalstr   6/3;Linie;6807
+01.11.06;#0068.9908;;PM-RMS-Schmalstr   4/2;Linie;6808
+01.11.06;#0068.9909;;PM-RMS-Schmalstr   3/1.5;Linie;6809
+01.11.06;#0068.9910;;PM-RMS-Schmalstr 1.5/1.5;Linie;6810
+01.11.06;#0068.9912;;PM-RMS-Schmalstr 0.5/0.5;Linie;6812
+01.11.06;#0068.9920;;PM-RMS-Breitstr;Linie;6820
+01.11.06;#0068.9924;;PM-RMS-Breitstr    6/6;Linie;6824
+01.11.06;#0068.9926;;PM-RMS-Breitstr    3/3;Linie;6826
+01.11.06;#0068.9928;;PM-RMS-Breitstr    4/2;Linie;6828
+01.11.06;#0068.9929;;PM-RMS-Breitstr  1.5/1.5;Linie;6829
+01.11.06;#0068.9940;;PM-RMS-Haltelinie;Linie;6840
+01.11.06;#0068.9941;;PM-RMS-Wartelin  0.5/0.2;Linie;6841
+01.11.06;#0068.9942;;PM-RMS-Fußgänger 0.5/0.2;Linie;6842
+01.11.06;#0068.9943;;PM-RMS-Radfahrer 0.5/0.2;Linie;6843
+01.09.10;#0069.9900;;PI-Isophone allgemein Na;Linie;6900
+01.09.10;#0069.9902;;PI-Isophone 47db(A) Nach;Linie;6902
+01.09.10;#0069.9904;;PI-Isophone 49db(A) Nach;Linie;6904
+01.09.10;#0069.9906;;PI-Isophone 54db(A) Nach;Linie;6906
+01.09.10;#0069.9908;;PI-Isophone 59db(A) Nach;Linie;6908
+01.09.10;#0069.9910;;PI-Isophone 60db(A) Nach;Linie;6910
+01.09.10;#0069.9920;;PI-Isophone allgemein Ta;Linie;6920
+01.09.10;#0069.9922;;PI-Isophone 57db(A) Tag;Linie;6922
+01.09.10;#0069.9924;;PI-Isophone 59db(A) Tag;Linie;6924
+01.09.10;#0069.9926;;PI-Isophone 64db(A) Tag;Linie;6926
+01.09.10;#0069.9928;;PI-Isophone 69db(A) Tag;Linie;6928
+01.09.10;#0069.9930;;PI-Isophone 70db(A) Tag;Linie;6930
+01.11.06;#0000.9207;;AK-Schwarz/1,00/dot0;Linie;7
+01.11.06;#0070.9910;;PR-Grunderwerbsgrenze;Linie;7010
+01.11.06;#0070.9920;;PR-GE-Straßenbau;Linie;7020
+01.11.06;#0070.9930;;PR-GE-landsch.Ersatzfl.;Linie;7030
+01.11.06;#0070.9940;;PR-GE-vorüberg.Beanspr.;Linie;7040
+01.11.06;#0070.9950;;PR-GE-dauernd zu beschr.;Linie;7050
+01.11.06;#0070.9955;;PR-GE-für Dritte;Linie;7055
+01.11.06;#0070.9956;;PR-GE-Restfläche;Linie;7056
+01.11.06;#0070.9957;;PR-GE-Rückstand;Linie;7057
+01.11.06;#0070.9958;;PR-GE-Unbekannt;Linie;7058
+01.11.06;#0070.9960;;PR-Wassereinzugsgebiet;Linie;7060
+01.11.06;#0080.9901;;PV-GR-Hauptfahrbahn;Linie;8001
+01.11.06;#0080.9902;;PV-GR-Nebenfahrbahn;Linie;8002
+01.11.06;#0080.9903;;PV-GR-Gehweg;Linie;8003
+01.11.06;#0080.9904;;PV-GR-Radweg;Linie;8004
+01.11.06;#0080.9905;;PV-GR-Fussweg;Linie;8005
+01.11.06;#0080.9906;;PV-GR-Parkstreifen;Linie;8006
+01.11.06;#0080.9907;;PV-GR-Grünstreifen;Linie;8007
+01.11.06;#0080.9908;;PV-GR-Fahrbahnteiler;Linie;8008
+01.11.06;#0080.9909;;PV-GR-Busspur;Linie;8009
+01.11.06;#0080.9910;;PV-GR-Busbucht;Linie;8010
+01.11.06;#0080.9911;;PV-GR-Hauptachse;Linie;8011
+01.11.06;#0080.9912;;PV-GR-Grabensohle;Linie;8012
+01.09.10;#0080.9913;;PV-GR-Nebenachse;Linie;8013
+01.09.10;#0080.9914;;PV-GR-Trassenbegl.BW;Linie;8014
+01.09.10;#0080.9915;;PV-GR-Randausrundung;Linie;8015
+01.09.10;#0080.9916;;PV-GR-Fahrbahnrand;Linie;8016
+01.09.10;#0080.9917;;PV-GR-Hauptfahrbahn li;Linie;8017
+01.09.10;#0080.9918;;PV-GR-Hauptfahrbahn re;Linie;8018
+01.11.06;#0080.9999;;PV-GR-Sonstiges;Linie;8099
+01.11.06;#0081.9901;;PV-LP-Hauptfahrbahn;Linie;8101
+01.11.06;#0081.9902;;PV-LP-Nebenfahrbahn;Linie;8102
+01.11.06;#0081.9903;;PV-LP-Gehweg;Linie;8103
+01.11.06;#0081.9904;;PV-LP-Radweg;Linie;8104
+01.11.06;#0081.9905;;PV-LP-Fussweg;Linie;8105
+01.11.06;#0081.9906;;PV-LP-Parkstreifen;Linie;8106
+01.11.06;#0081.9907;;PV-LP-Grünstreifen;Linie;8107
+01.11.06;#0081.9908;;PV-LP-Fahrbahnteiler;Linie;8108
+01.11.06;#0081.9909;;PV-LP-Busspur;Linie;8109
+01.11.06;#0081.9910;;PV-LP-Busbucht;Linie;8110
+01.11.06;#0081.9911;;PV-LP-Hauptachse;Linie;8111
+01.11.06;#0081.9912;;PV-LP-Grabensohle;Linie;8112
+01.09.10;#0081.9913;;PV-LP-Nebenachse;Linie;8113
+01.09.10;#0081.9914;;PV-LP-Trassenbegl.BW;Linie;8114
+01.09.10;#0081.9915;;PV-LP-Randausrundung;Linie;8115
+01.09.10;#0081.9916;;PV-LP-Fahrbahnrand;Linie;8116
+01.09.10;#0081.9917;;PV-LP-Hauptfahrbahn li;Linie;8117
+01.09.10;#0081.9918;;PV-LP-Hauptfahrbahn re;Linie;8118
+01.09.10;#0081.9999;;PV-LP-Sonstiges;Linie;8199
+01.11.06;#0000.9272;;AK-H-Grün/0,25/dot0;Linie;72
+01.11.06;#0000.9273;;AK-H-Grün/0,35/dot0;Linie;73
+01.11.06;#0000.9274;;AK-H-Grün/0,50/dot0;Linie;74
+01.11.06;#0000.9275;;AK-H-Grün/0,70/dot0;Linie;75
+01.11.06;#0000.9282;;AK-Grün/0,25/dot0;Linie;82
+01.11.06;#0000.9283;;AK-Grün/0,35/dot0;Linie;83
+01.11.06;#0000.9284;;AK-Grün/0,50/dot0;Linie;84
+01.11.06;#0000.9285;;AK-Grün/0,70/dot0;Linie;85
+01.11.06;#0008.9291;;AK-Schwarz/0,13/dot20;Linie;891
+01.11.06;#0008.9292;;AK-Schwarz/0,18/dot20;Linie;892
+01.11.06;#0008.9293;;AK-Schwarz/0,25/dot20;Linie;893
+01.11.06;#0008.9294;;AK-Schwarz/0,35/dot20;Linie;894
+01.11.06;#0008.9295;;AK-Schwarz/0,50/dot20;Linie;895
+01.11.06;#0008.9296;;AK-Schwarz/0,70/dot20;Linie;896
+01.11.06;#0008.9297;;AK-Schwarz/1,00/dot20;Linie;897
+01.11.06;#0000.9292;;AK-D-Grün/0,25/dot0;Linie;92
+01.11.06;#0000.9293;;AK-D-Grün/0,35/dot0;Linie;93
+01.11.06;#0009.9232;;AK-Rot/0,25/dot20;Linie;932
+01.11.06;#0009.9233;;AK-Rot/0,35/dot20;Linie;933
+01.11.06;#0009.9234;;AK-Rot/0,50/dot20;Linie;934
+01.11.06;#0009.9235;;AK-Rot/0,70/dot20;Linie;935
+01.11.06;#0000.9294;;AK-D-Grün/0,50/dot0;Linie;94
+01.11.06;#0000.9295;;AK-D-Grün/0,70/dot0;Linie;95
+01.11.06;#0009.9252;;AK-Violett/0,25/dot20;Linie;952
+01.11.06;#0009.9253;;AK-Violett/0,35/dot20;Linie;953
+01.11.06;#0009.9254;;AK-Violett/0,50/dot20;Linie;954
+01.11.06;#0009.9255;;AK-Violett/0,70/dot20;Linie;955
+01.11.06;#0009.9282;;AK-D-Grün/0,25/dot20;Linie;982
+01.11.06;#0009.9283;;AK-D-Grün/0,35/dot20;Linie;983
+01.11.06;#0009.9284;;AK-D-Grün/0,50/dot20;Linie;984
+01.11.06;#0009.9285;;AK-D-Grün/0,70/dot20;Linie;985
+01.11.06;#0063.9908;;PG-Geb.Schnittachse;Linie;6308
+01.11.06;#0064.9900;;PB-BW-Ansicht,Draufsicht;Linie;6400
+01.11.06;#0064.9902;;PB-BW-Grundriß,Schnitt;Linie;6402
+01.11.06;#0064.9904;;PB-BW-Kante,verdeckt;Linie;6404
+01.11.06;#0064.9906;;PB-BW-Achse;Linie;6406
+01.11.06;#0064.9908;;PB-BW-Schnittachse;Linie;6408
+01.09.10;#0095.9910;;PQ-Hz_10 Gelände;Linie;9510
+01.09.10;#0095.9912;;PQ-Hz_12 Oberbodenabtrag;Linie;9512
+01.09.10;#0095.9915;;PQ-Hz_15 Asphaltdecksch.;Linie;9515
+01.09.10;#0095.9920;;PQ-Hz_20 Frostschutzsch;Linie;9520
+01.09.10;#0095.9930;;PQ-Hz_30 Planum;Linie;9530
+01.09.10;#0095.9940;;PQ-Hz_40 UK Oberb.Auftr.;Linie;9540
+01.09.10;#0095.9942;;PQ-Hz_42 Füllboden;Linie;9542
+01.09.10;#0095.9950;;PQ-Hz_50 Ok Oberb.Auftr.;Linie;9550
+01.09.10;#0095.9971;;PQ-Hz_71 Seitl.Begr.li;Linie;9571
+01.09.10;#0095.9972;;PQ-Hz_72 Seitl.Begr.re;Linie;9572
+01.09.10;#0095.9999;;PQ-Hz_99 Sonstiges;Linie;9599
+01.09.10;#0150.9900;;WN_zu wid.BAB;Linie;15000
+01.09.10;#0150.9910;;WN_zu wid.B-Str;Linie;15010
+01.09.10;#0150.9920;;WN_zu wid.B-Str_G;Linie;15020
+01.09.10;#0150.9930;;WN_zu wid.St-Str;Linie;15030
+01.09.10;#0150.9940;;WN_zu wid.St-Str_G;Linie;15040
+01.09.10;#0150.9950;;WN_zu wid.Kr-Str;Linie;15050
+01.09.10;#0150.9960;;WN_zu wid.GV-Str;Linie;15060
+01.09.10;#0150.9970;;WN_zu wid.Ortsstr;Linie;15070
+01.09.10;#0150.9980;;WN_zu wid.öFW;Linie;15080
+01.09.10;#0150.9990;;WN_zu wid.beschrW;Linie;15090
+01.09.10;#0151.9900;;WN_zu wid.BAB;Linie;15100
+01.09.10;#0151.9910;;WN_zu wid.B-Str;Linie;15110
+01.09.10;#0151.9920;;WN_zu wid.B-Str_G;Linie;15120
+01.09.10;#0151.9930;;WN_zu wid.St-Str;Linie;15130
+01.09.10;#0151.9940;;WN_zu wid.St-Str_G;Linie;15140
+01.09.10;#0151.9950;;WN_zu wid.Kr-Str;Linie;15150
+01.09.10;#0151.9960;;WN_zu wid.GV-Str;Linie;15160
+01.09.10;#0151.9970;;WN_zu wid.Ortsstr;Linie;15170
+01.09.10;#0151.9980;;WN_zu wid.öFW;Linie;15180
+01.09.10;#0151.9990;;WN_zu wid.beschrW;Linie;15190
+01.09.10;#0152.9900;;WE_einzuz.BAB;Linie;15200
+01.09.10;#0152.9910;;WE_einzuz.B-Str;Linie;15210
+01.09.10;#0152.9920;;WE_einzuz.B-Str_G;Linie;15220
+01.09.10;#0152.9930;;WE_einzuz.St-Str;Linie;15230
+01.09.10;#0152.9940;;WE_einzuz.St-Str_G;Linie;15240
+01.09.10;#0152.9950;;WE_einzuz.Kr-Str;Linie;15250
+01.09.10;#0152.9960;;WE_einzuz.GV-Str;Linie;15260
+01.09.10;#0152.9970;;WE_einzuz.Ortsstr;Linie;15270
+01.09.10;#0152.9980;;WE_einzuz.öFW;Linie;15280
+01.09.10;#0152.9990;;WE_einzuz.beschrW;Linie;15290
+01.09.10;#0153.9900;;WE_einzuz.BAB_Ast;Linie;15300
+01.09.10;#0153.9910;;WE_einzuz.B-Str_Ast;Linie;15310
+01.09.10;#0153.9920;;WE_einzuz.B-Str_G_Ast;Linie;15320
+01.09.10;#0153.9930;;WE_einzuz.St-Str_Ast;Linie;15330
+01.09.10;#0153.9940;;WE_einzuz.St-Str_G_Ast;Linie;15340
+01.09.10;#0153.9950;;WE_einzuz.Kr-Str_Ast;Linie;15350
+01.09.10;#0153.9960;;WE_einzuz.GV-Str_Ast;Linie;15360
+01.09.10;#0153.9970;;WE_einzuz.Ortsstr_Ast;Linie;15370
+01.09.10;#0153.9980;;WE_einzuz.öFW_Ast;Linie;15380
+01.09.10;#0153.9990;;WE_einzuz.beschrW_Ast;Linie;15390
+01.09.10;#0154.9910;;WU_B-Str->BAB;Linie;15410
+01.09.10;#0154.9930;;WU_St-Str->BAB;Linie;15430
+01.09.10;#0154.9931;;WU_St-Str->B-Str;Linie;15431
+01.09.10;#0154.9950;;WU_Kr-Str->BAB;Linie;15450
+01.09.10;#0154.9951;;WU_Kr-Str->B-Str;Linie;15451
+01.09.10;#0154.9953;;WU_Kr-Str->St-Str;Linie;15453
+01.09.10;#0154.9960;;WU_GV-Str->BAB;Linie;15460
+01.09.10;#0154.9961;;WU_GV-Str->B-Str;Linie;15461
+01.09.10;#0154.9963;;WU_GV-Str->St-Str;Linie;15463
+01.09.10;#0154.9965;;WU_GV-Str->Kr-Str;Linie;15465
+01.09.10;#0154.9970;;WU_Ortsstr->BAB;Linie;15470
+01.09.10;#0154.9971;;WU_Ortsstr->B-Str;Linie;15471
+01.09.10;#0154.9973;;WU_Ortsstr->St-Str;Linie;15473
+01.09.10;#0154.9975;;WU_Ortsstr->Kr-Str;Linie;15475
+01.09.10;#0154.9976;;WU_Ortsstr->GV-Str;Linie;15476
+01.09.10;#0154.9980;;WU_öFW->BAB;Linie;15480
+01.09.10;#0154.9981;;WU_öFW->B-Str;Linie;15481
+01.09.10;#0154.9983;;WU_öFW->St-Str;Linie;15483
+01.09.10;#0154.9985;;WU_öFW->Kr-Str;Linie;15485
+01.09.10;#0154.9986;;WU_öFW->GV-Str;Linie;15486
+01.09.10;#0154.9987;;WU_öFW->Ortsstr;Linie;15487
+01.09.10;#0154.9990;;WU_beschrW->BAB;Linie;15490
+01.09.10;#0154.9991;;WU_beschrW->B-Str;Linie;15491
+01.09.10;#0154.9993;;WU_beschrW->St-Str;Linie;15493
+01.09.10;#0154.9995;;WU_beschrw->Kr-Str;Linie;15495
+01.09.10;#0154.9996;;WU_beschrW->GV-Str;Linie;15496
+01.09.10;#0154.9997;;WU_beschrW->Ortsstr;Linie;15497
+01.09.10;#0154.9998;;WU_beschrW->öfW;Linie;15498
+01.09.10;#0155.9910;;WU_B-Str->BAB_Ast;Linie;15510
+01.09.10;#0155.9930;;WU_St-Str->BAB_Ast;Linie;15530
+01.09.10;#0155.9931;;WU_St-Str->B-Str_Ast;Linie;15531
+01.09.10;#0155.9950;;WU_Kr-Str->BAB_Ast;Linie;15550
+01.09.10;#0155.9951;;WU_Kr-Str->B-Str_Ast;Linie;15551
+01.09.10;#0155.9953;;WU_Kr-Str->St-Str_Ast;Linie;15553
+01.09.10;#0155.9960;;WU_GV-Str->BAB_Ast;Linie;15560
+01.09.10;#0155.9961;;WU_GV-Str->B-Str_Ast;Linie;15561
+01.09.10;#0155.9963;;WU_GV-Str->St-Str_Ast;Linie;15563
+01.09.10;#0155.9965;;WU_GV-Str->Kr-Str_Ast;Linie;15565
+01.09.10;#0155.9970;;WU_Ortsstr->BAB_Ast;Linie;15570
+01.09.10;#0155.9971;;WU_Ortsstr->B-Str_Ast;Linie;15571
+01.09.10;#0155.9973;;WU_Ortsstr->St-Str_Ast;Linie;15573
+01.09.10;#0155.9975;;WU_Ortsstr->Kr-Str_Ast;Linie;15575
+01.09.10;#0155.9976;;WU_Ortsstr->GV-Str_Ast;Linie;15576
+01.09.10;#0155.9980;;WU_öFW->BAB_Ast;Linie;15580
+01.09.10;#0155.9981;;WU_öFW->B-Str_Ast;Linie;15581
+01.09.10;#0155.9983;;WU_öFW->St-Str_Ast;Linie;15583
+01.09.10;#0155.9985;;WU_öFW->Kr-Str_Ast;Linie;15585
+01.09.10;#0155.9986;;WU_öFW->GV-Str_Ast;Linie;15586
+01.09.10;#0155.9987;;WU_öFW->Ortsstr_Ast;Linie;15587
+01.09.10;#0155.9990;;WU_beschrW->BAB_Ast;Linie;15590
+01.09.10;#0155.9991;;WU_beschrW->B-Str_Ast;Linie;15591
+01.09.10;#0155.9993;;WU_beschrW->St-Str_Ast;Linie;15593
+01.09.10;#0155.9995;;WU_beschrw->Kr-Str_Ast;Linie;15595
+01.09.10;#0155.9996;;WU_beschrW->GV-Str_Ast;Linie;15596
+01.09.10;#0155.9997;;WU_beschrW->Ortsstr_Ast;Linie;15597
+01.09.10;#0155.9998;;WU_beschrW->öfW_Ast;Linie;15598
+01.09.10;#0156.9901;;WU_BAB->B-Str;Linie;15601
+01.09.10;#0156.9903;;WU_BAB->St-Str;Linie;15603
+01.09.10;#0156.9905;;WU_BAB->Kr-Str;Linie;15605
+01.09.10;#0156.9906;;WU_BAB->GV-Str;Linie;15606
+01.09.10;#0156.9907;;WU_BAB->Ortsstr;Linie;15607
+01.09.10;#0156.9908;;WU_BAB->öFW;Linie;15608
+01.09.10;#0156.9909;;WU_BAB->beschrW;Linie;15609
+01.09.10;#0156.9913;;WU_B-Str->St-Str;Linie;15613
+01.09.10;#0156.9915;;WU_B-Str->Kr-Str;Linie;15615
+01.09.10;#0156.9916;;WU_B-Str->GV-Str;Linie;15616
+01.09.10;#0156.9917;;WU_B-Str->Ortsstr;Linie;15617
+01.09.10;#0156.9918;;WU_B->öFW;Linie;15618
+01.09.10;#0156.9919;;WU_B-Str->beschrW;Linie;15619
+01.09.10;#0156.9935;;WU_St-Str->Kr-Str;Linie;15635
+01.09.10;#0156.9936;;WU_St-Str->GV-Str;Linie;15636
+01.09.10;#0156.9937;;WU_St-Str->Ortsstr;Linie;15637
+01.09.10;#0156.9938;;WU_St-Str->öFW;Linie;15638
+01.09.10;#0156.9939;;WU_St-Str->beschrW;Linie;15639
+01.09.10;#0156.9956;;WU_KR-Str->GV-Str;Linie;15656
+01.09.10;#0156.9957;;WU_Kr-Str->Ortsstr;Linie;15657
+01.09.10;#0156.9958;;WU_Kr-Str->öFW;Linie;15658
+01.09.10;#0156.9959;;WU_Kr-Str->beschrW;Linie;15659
+01.09.10;#0156.9967;;WU_GV-Str->Ortsstr;Linie;15667
+01.09.10;#0156.9968;;WU_GV-Str->öFW;Linie;15668
+01.09.10;#0156.9969;;WU_GV-Str->beschrW;Linie;15669
+01.09.10;#0156.9978;;WU_Orststr->öFW;Linie;15678
+01.09.10;#0156.9979;;WU_Orststr->beschrW;Linie;15679
+01.09.10;#0156.9989;;WU_öFW->beschrW;Linie;15689
+01.09.10;#0157.9901;;WU_BAB->B-Str_Ast;Linie;15701
+01.09.10;#0157.9903;;WU_BAB->St-Str_Ast;Linie;15703
+01.09.10;#0157.9905;;WU_BAB->Kr-Str_Ast;Linie;15705
+01.09.10;#0157.9906;;WU_BAB->GV-Str_Ast;Linie;15706
+01.09.10;#0157.9907;;WU_BAB->Ortsstr_Ast;Linie;15707
+01.09.10;#0157.9908;;WU_BAB->öFW_Ast;Linie;15708
+01.09.10;#0157.9909;;WU_BAB->beschrW_Ast;Linie;15709
+01.09.10;#0157.9913;;WU_B-Str->St-Str_Ast;Linie;15713
+01.09.10;#0157.9915;;WU_B-Str->Kr-Str_Ast;Linie;15715
+01.09.10;#0157.9916;;WU_B-Str->GV-Str_Ast;Linie;15716
+01.09.10;#0157.9917;;WU_B-Str->Ortsstr_Ast;Linie;15717
+01.09.10;#0157.9918;;WU_B->öFW_Ast;Linie;15718
+01.09.10;#0157.9919;;WU_B-Str->beschrW_Ast;Linie;15719
+01.09.10;#0157.9935;;WU_St-Str->Kr-Str_Ast;Linie;15735
+01.09.10;#0157.9936;;WU_St-Str->GV-Str_Ast;Linie;15736
+01.09.10;#0157.9937;;WU_St-Str->Ortsstr_Ast;Linie;15737
+01.09.10;#0157.9938;;WU_St-Str->öFW_Ast;Linie;15738
+01.09.10;#0157.9939;;WU_St-Str->beschrW_Ast;Linie;15739
+01.09.10;#0157.9956;;WU_KR-Str->GV-Str_Ast;Linie;15756
+01.09.10;#0157.9957;;WU_Kr-Str->Ortsstr_Ast;Linie;15757
+01.09.10;#0157.9958;;WU_Kr-Str->öFW_Ast;Linie;15758
+01.09.10;#0157.9959;;WU_Kr-Str->beschrW_Ast;Linie;15759
+01.09.10;#0157.9967;;WU_GV-Str->Ortsstr_Ast;Linie;15767
+01.09.10;#0157.9968;;WU_GV-Str->öFW_Ast;Linie;15768
+01.09.10;#0157.9969;;WU_GV-Str->beschrW_Ast;Linie;15769
+01.09.10;#0157.9978;;WU_Orststr->öFW_Ast;Linie;15778
+01.09.10;#0157.9979;;WU_Orststr->beschrW_Ast;Linie;15779
+01.09.10;#0157.9989;;WU_öFW->beschrW_Ast;Linie;15789
+01.09.10;#0500.9900;;VS-HViSt-Fahrbahn;Linie;50000
+01.09.10;#0500.9910;;VS-HViSt-Bankett;Linie;50010
+01.09.10;#0500.9920;;VS-HViSt-Mulde;Linie;50020
+01.09.10;#0500.9930;;VS-HViSt-Böschung;Linie;50030
+01.09.10;#0500.9940;;VS-HViSt-vermGel;Linie;50040
+01.09.10;#0500.9950;;VS-HViSt-künstlGel;Linie;50050
+01.09.10;#0501.9900;;VS-Wasserfläche;Linie;50100
+01.09.10;#0501.9910;;VS-Pflasterfläche;Linie;50110
+01.09.10;#0501.9920;;VS-Bordstein;Linie;50120
+01.09.10;#0501.9930;;VS-Betonschutzwand;Linie;50130
+01.09.10;#0502.9900;;VS-Sichtstrahl;Linie;50200
+01.09.10;#0502.9910;;VS-Sichtfläche;Linie;50210
+01.09.10;#0510.9910;;VH-ESP_R;Linie;51010
+01.09.10;#0510.9911;;VH-ESP_L;Linie;51011
+01.09.10;#0510.9915;;VH-ESP-doppels;Linie;51015
+01.09.10;#0510.9920;;VH-EDSP_R;Linie;51020
+01.09.10;#0510.9921;;VH-EDSP_L;Linie;51021
+01.09.10;#0510.9925;;VH-DDSP;Linie;51025
+01.09.10;#0510.9930;;VH-SuperRail_R;Linie;51030
+01.09.10;#0510.9931;;VH-SuperRail_L;Linie;51031
+01.09.10;#0510.9935;;VH-SuperRail-doppels;Linie;51035
+01.09.10;#0510.9940;;VH-Betonschutzw-0,81_R;Linie;51040
+01.09.10;#0510.9941;;VH-Betonschutzw-0,81_L;Linie;51041
+01.09.10;#0510.9945;;VH-Betonschutzw-0,81-dop;Linie;51045
+01.09.10;#0510.9950;;VH-Betonschutzw-1,15_R;Linie;51050
+01.09.10;#0510.9951;;VH-Betonschutzw-1,15_L;Linie;51051
+01.09.10;#0510.9955;;VH-Betonschutzw-1,15-dop;Linie;51055
+01.09.10;#0511.9900;;VH-Lärmschutzwand;Linie;51100
+01.09.10;#0511.9910;;VH-Geländer;Linie;51110
+01.09.10;#0511.9920;;VH-Gartenzaun;Linie;51120
+01.09.10;#0511.9930;;VH-Blenschutzzaun;Linie;51130
+01.09.10;#0511.9940;;VH-Hecke;Linie;51140
+01.09.10;#0511.9950;;VH-Mauer,Stützwand;Linie;51150
+01.09.10;#0515.9910;;VH-Schilderbrücke;Linie;51510
+01.09.10;#0516.9900;;VH-BW-Randlinie;Linie;51600
+01.11.06;#0000.9201;;AK-Punkt;Punkt;1
+01.11.06;#0010.9010;;BT-Asphalt;Punkt;1010
+01.11.06;#0010.9015;;BT-Asphalt,klein;Punkt;1015
+01.11.06;#0010.9020;;BT-Beton;Punkt;1020
+01.11.06;#0010.9030;;BT-Schotter;Punkt;1030
+01.11.06;#0010.9040;;BT-Pflaster;Punkt;1040
+01.11.06;#0010.9050;;BT-Hecke;Punkt;1050
+01.11.06;#0010.9055;;BT-Gebüsch;Punkt;1055
+01.11.06;#0010.9060;;BT-Mischwald;Punkt;1060
+01.11.06;#0010.9070;;BT-Laubwald;Punkt;1070
+01.11.06;#0010.9080;;BT-Nadelwald;Punkt;1080
+01.11.06;#0010.9090;;BT-Garten;Punkt;1090
+01.11.06;#0010.9095;;BT-Gartenland;Punkt;1095
+01.11.06;#0011.9000;;BT-Obstbaumanlagen;Punkt;1100
+01.11.06;#0011.9010;;BT-Grünland;Punkt;1110
+01.11.06;#0011.9020;;BT-Moor;Punkt;1120
+01.11.06;#0011.9030;;BT-Weingarten;Punkt;1130
+01.11.06;#0011.9040;;BT-Hopfenbepflanzung;Punkt;1140
+01.11.06;#0011.9045;;BT-Fels,Gestein;Punkt;1145
+01.11.06;#0011.9050;;BT-Wasserfläche;Punkt;1150
+01.11.06;#0011.9060;;BT-Friedhof;Punkt;1160
+01.11.06;#0011.9070;;BT-Pfeil;Punkt;1170
+01.11.06;#0011.9080;;BT-Parkplatz;Punkt;1180
+01.11.06;#0011.9081;;BT-Kiosk;Punkt;1181
+01.11.06;#0011.9082;;BT-Tankstelle;Punkt;1182
+01.11.06;#0011.9083;;BT-Tankstelle,Kiosk;Punkt;1183
+01.11.06;#0011.9084;;BT-Tankstelle,Rastanlage;Punkt;1184
+01.11.06;#0011.9085;;BT-Rastanlage;Punkt;1185
+01.11.06;#0011.9086;;BT-Rastanlage,Motel;Punkt;1186
+01.11.06;#0011.9087;;BT-Tank,Rast,Motel;Punkt;1187
+01.11.06;#0012.9000;;BT-Schalthaus;Punkt;1200
+01.11.06;#0012.9001;;BT-Signalbrücke;Punkt;1201
+01.11.06;#0012.9002;;BT-Wechselwegweiser;Punkt;1202
+01.11.06;#0012.9003;;BT-Infrarot Bake;Punkt;1203
+01.11.06;#0012.9004;;BT-Zuflußregelung;Punkt;1204
+01.11.06;#0012.9005;;BT-dynam. Wegweisung;Punkt;1205
+01.11.06;#0012.9006;;BT-dynam. Hinweisschild;Punkt;1206
+01.11.06;#0012.9007;;BT-seitl. WVZ;Punkt;1207
+01.11.06;#0012.9008;;BT-Videokamera;Punkt;1208
+01.11.06;#0012.9009;;BT-Überkopfsensor;Punkt;1209
+01.11.06;#0012.9010;;BT-Überkopfsensor Mast;Punkt;1210
+01.11.06;#0012.9011;;BT-Umweltstation;Punkt;1211
+01.11.06;#0012.9012;;BT-Windrad;Punkt;1212
+01.11.06;#0012.9013;;BT-Windanzeiger;Punkt;1213
+01.11.06;#0012.9014;;BT-Hinweisschilder;Punkt;1214
+01.11.06;#0012.9015;;BTSchilderbrücke 1 St;Punkt;1215
+01.11.06;#0012.9016;;BT-Schilderbrücke 2 St;Punkt;1216
+01.11.06;#0012.9017;;BT-Abfallbehälter;Punkt;1217
+01.11.06;#0012.9018;;BT-Nässe Glatteis Mess;Punkt;1218
+01.11.06;#0012.9019;;BT-Nebel, Hauptgerät;Punkt;1219
+01.11.06;#0012.9020;;BT-Nebel, Nebengerät;Punkt;1220
+01.11.06;#0012.9021;;BT-Zählstelle;Punkt;1221
+01.11.06;#0013.9000;;BT-Camping;Punkt;1300
+01.11.06;#0013.9001;;BT-Flughafen;Punkt;1301
+01.11.06;#0013.9002;;BT-WC;Punkt;1302
+01.11.06;#0013.9003;;BT-PWC;Punkt;1303
+01.11.06;#0200.9100;;KL-Trig.Punkt;Punkt;20000
+01.11.06;#0020.9001;;BT-Standpunkt;Punkt;2001
+01.11.06;#0200.9110;;KL-Katasterfestpunkt;Punkt;20010
+01.11.06;#0020.9002;;BT-Grenzpunkt;Punkt;2002
+01.11.06;#0200.9120;;KL-Grenzpunkt vermarkt;Punkt;20020
+01.11.06;#0200.9121;;KL-Grenznagel;Punkt;20021
+01.11.06;#0200.9122;;KL-Grenzkreuz;Punkt;20022
+01.11.06;#0200.9123;;KL-Grenzpflock;Punkt;20023
+01.11.06;#0020.9003;;BG-Gebäude;Punkt;2003
+01.11.06;#0200.9130;;KL-Grenzpunkt unvermarkt;Punkt;20030
+01.11.06;#0200.9135;;KL-Grenzpunkt grafisch;Punkt;20035
+01.11.06;#0020.9004;;BT-Trig-Punkt;Punkt;2004
+01.11.06;#0200.9140;;KL-Gebäudepunkt;Punkt;20040
+01.11.06;#0020.9005;;BT-Höhenfestpunkt;Punkt;2005
+01.11.06;#0200.9150;;KL-Nutzungsartpunkt;Punkt;20050
+01.11.06;#0020.9006;;BT-Pflock;Punkt;2006
+01.11.06;#0200.9160;;KL-Sonstiger Punkt;Punkt;20060
+01.11.06;#0020.9007;;BT-Grenzstein;Punkt;2007
+01.11.06;#0200.9170;;KL-Höhenfestpunkt;Punkt;20070
+01.11.06;#0020.9008;;BT-Polygonpunkt;Punkt;2008
+01.11.06;#0020.9009;;BT-DGM-Zusatzpunkt;Punkt;2009
+01.11.06;#0020.9010;;BT-Achse;Punkt;2010
+01.11.06;#0020.9011;;BT-Rinne;Punkt;2011
+01.11.06;#0020.9012;;BT-Bord-UK;Punkt;2012
+01.11.06;#0020.9013;;BT-Bord-OK;Punkt;2013
+01.11.06;#0020.9014;;BT-Tiefbord;Punkt;2014
+01.11.06;#0020.9015;;BT-Fahrbahn;Punkt;2015
+01.11.06;#0020.9016;;BT-Geh-u.Radweg;Punkt;2016
+01.11.06;#0020.9017;;BT-Böschung-OK;Punkt;2017
+01.11.06;#0020.9018;;BT-Böschung-UK,Sohle;Punkt;2018
+01.11.06;#0020.9019;;BT-Durchlass;Punkt;2019
+01.11.06;#0020.9020;;BT-Gelände;Punkt;2020
+01.11.06;#0020.9021;;BT-Nutzung;Punkt;2021
+01.11.06;#0020.9022;;BT-Zaun;Punkt;2022
+01.11.06;#0020.9023;;BT-Hecke;Punkt;2023
+01.11.06;#0020.9024;;BT-Mauer-UK;Punkt;2024
+01.11.06;#0020.9025;;BT-Mauer-OK;Punkt;2025
+01.11.06;#0020.9026;;BT-Stahlschutzplanke;Punkt;2026
+01.11.06;#0020.9027;;BT-Einfahrt;Punkt;2027
+01.11.06;#0020.9028;;BT-Gewässer-UK;Punkt;2028
+01.11.06;#0020.9029;;BT-Gewässer-OK;Punkt;2029
+01.11.06;#0020.9030;;BT-Eingang-Symbol;Punkt;2030
+01.11.06;#0020.9031;;BT-Feldstein;Punkt;2031
+01.11.06;#0020.9032;;BT-Einfahrt-Symbol;Punkt;2032
+01.09.10;#0020.9033;;BT-Fahrbahnmarkierung;Punkt;2033
+01.09.10;#0020.9034;;BT-Bankett;Punkt;2034
+01.11.06;#0020.9038;;BT-Laubbaum;Punkt;2038
+01.11.06;#0020.9039;;BT-Nadelbaum;Punkt;2039
+01.11.06;#0020.9041;;BT-Baum2m;Punkt;2041
+01.11.06;#0020.9042;;BT-Baum4m;Punkt;2042
+01.11.06;#0020.9043;;BT-Baum6m;Punkt;2043
+01.11.06;#0020.9044;;BT-Baum8m;Punkt;2044
+01.11.06;#0020.9045;;BT-Baum10m;Punkt;2045
+01.11.06;#0020.9046;;BT-Baum12m;Punkt;2046
+01.11.06;#0020.9047;;BT-Baum14m;Punkt;2047
+01.11.06;#0020.9050;;BT-Schacht;Punkt;2050
+01.11.06;#0205.9100;;KL-Zugehörig.-Haken;Punkt;20500
+01.11.06;#0020.9051;;BT-Pumpwerk;Punkt;2051
+01.11.06;#0205.9110;;KL-Zuordnungspfeil;Punkt;20510
+01.11.06;#0020.9052;;BT-KD-eckig;Punkt;2052
+01.11.06;#0205.9120;;KL-Böschung aus SQD;Punkt;20520
+01.11.06;#0020.9053;;BT-KD-rund;Punkt;2053
+01.11.06;#0020.9054;;BT-Sickerschacht;Punkt;2054
+01.11.06;#0020.9060;;BT-KD-Einlauf;Punkt;2060
+01.11.06;#0206.9104;;KL-Pfeilerbolzen;Punkt;20604
+01.11.06;#0206.9105;;KL-Mauerbolzen, Pegel;Punkt;20605
+01.11.06;#0020.9061;;BT-Einlauf-mittig;Punkt;2061
+01.11.06;#0020.9062;;BT-Einlauf-Bord;Punkt;2062
+01.09.10;#0020.9063;;BT-Seitenablauf;Punkt;2063
+01.09.10;#0020.9064;;BT-Schlitzrinne;Punkt;2064
+01.11.06;#0206.9150;;KL-Zugeh.haken normal;Punkt;20650
+01.11.06;#0206.9151;;KL-Zugeh.haken klein;Punkt;20651
+01.11.06;#0206.9152;;KL-Zugeh.haken groß;Punkt;20652
+01.11.06;#0206.9160;;KL-Zuordnungspfeil;Punkt;20660
+01.11.06;#0206.9163;;KL-Pfeil (Zugänge);Punkt;20663
+01.11.06;#0020.9068;;BT-Wasserspiegel;Punkt;2068
+01.11.06;#0020.9069;;BT-Brunnen;Punkt;2069
+01.11.06;#0020.9070;;BT-Wasserschieber;Punkt;2070
+01.11.06;#0207.9100;;KL-Hopfengarten 4er;Punkt;20700
+01.11.06;#0207.9101;;KL-Hopfengarten 1er;Punkt;20701
+01.11.06;#0207.9110;;KL-Grünland 7er;Punkt;20710
+01.11.06;#0207.9111;;KL-Grünland 3er;Punkt;20711
+01.11.06;#0207.9112;;KL-Grünland 1er;Punkt;20712
+01.11.06;#0020.9072;;BT-Hydrant-UI;Punkt;2072
+01.11.06;#0207.9120;;KL-Obstbaumanlage 5er;Punkt;20720
+01.11.06;#0207.9121;;KL-Obstbaumanlage 3er;Punkt;20721
+01.11.06;#0207.9122;;KL-Obstbaumanlage 1er;Punkt;20722
+01.11.06;#0020.9073;;BT-Hydrant-OI;Punkt;2073
+01.11.06;#0207.9130;;KL-Gartenland 4er;Punkt;20730
+01.11.06;#0207.9131;;KL-Gartenland 1er;Punkt;20731
+01.11.06;#0207.9150;;KL-Torfstich;Punkt;20750
+01.11.06;#0207.9160;;KL-Grünanl.LB+NB 6er;Punkt;20760
+01.11.06;#0207.9161;;KL-Grünanl. LB+NB 3er;Punkt;20761
+01.11.06;#0207.9162;;KL-Grünanlage LB 1er;Punkt;20762
+01.11.06;#0207.9163;;KL-Grünanlage NB 1er;Punkt;20763
+01.11.06;#0207.9170;;KL-Weingarten 4er;Punkt;20770
+01.11.06;#0207.9171;;KL-Weingarten 1er;Punkt;20771
+01.11.06;#0207.9180;;KL-Moor (Sumpfl.) 4er;Punkt;20780
+01.11.06;#0207.9181;;KL-Moor (Sumpfl.) 1er;Punkt;20781
+01.11.06;#0207.9190;;KL-Heide, Hutung 4er;Punkt;20790
+01.11.06;#0207.9191;;KL-Heide, Hutung 1er;Punkt;20791
+01.11.06;#0020.9080;;BT-Gasschieber;Punkt;2080
+01.11.06;#0208.9100;;KL-Wald (Holzung) 7er;Punkt;20800
+01.11.06;#0208.9101;;KL-Wald (Holzung) 3er;Punkt;20801
+01.11.06;#0020.9081;;BT-Gasschieber;Punkt;2081
+01.11.06;#0208.9110;;KL-Laubbaum 7er;Punkt;20810
+01.11.06;#0208.9111;;KL-Laubbaum 3er;Punkt;20811
+01.11.06;#0208.9112;;KL-Laubbaum 1er;Punkt;20812
+01.11.06;#0208.9120;;KL-Nadelwald 7er;Punkt;20820
+01.11.06;#0208.9121;;KL-Nadelwald 3er;Punkt;20821
+01.11.06;#0208.9122;;KL-Nadelwald 1ert;Punkt;20822
+01.11.06;#0208.9130;;KL-Gebüsch 3er;Punkt;20830
+01.11.06;#0208.9131;;KL-Gebüsch 1er;Punkt;20831
+01.11.06;#0208.9140;;KL-Fließpfeil normal;Punkt;20840
+01.11.06;#0208.9141;;KL-Fließpfeil klein;Punkt;20841
+01.11.06;#0208.9142;;KL-Frißepfeil groß;Punkt;20842
+01.11.06;#0020.9085;;BT-Laterne;Punkt;2085
+01.11.06;#0208.9150;;KL-Wasserfläche 4er;Punkt;20850
+01.11.06;#0208.9151;;KL-Wasserfläche 1er;Punkt;20851
+01.11.06;#0020.9086;;BT-Kabelkasten-OI;Punkt;2086
+01.11.06;#0208.9160;;KL-Friedhof 4er;Punkt;20860
+01.11.06;#0208.9161;;KL-Friedhof 1er;Punkt;20861
+01.11.06;#0020.9087;;BT-Kabelkasten-UI;Punkt;2087
+01.11.06;#0208.9170;;KL-Ödland/Unland 4er;Punkt;20870
+01.11.06;#0208.9171;;KL-Ödland/Unland 1er;Punkt;20871
+01.11.06;#0020.9088;;BT-Kabelstein;Punkt;2088
+01.11.06;#0208.9190;;KL-Bösch.schraffen;Punkt;20890
+01.11.06;#0208.9191;;KL-Bösch.schraffent;Punkt;20891
+01.11.06;#0208.9192;;KL-Bösch.schraffen;Punkt;20892
+01.11.06;#0208.9193;;KL-Bösch.schraffen;Punkt;20893
+01.11.06;#0208.9194;;KL-Bösch.schraffen;Punkt;20894
+01.11.06;#0020.9090;;BT-Fettabscheider;Punkt;2090
+01.11.06;#0209.9100;;KL-Fähre;Punkt;20900
+01.11.06;#0209.9101;;KL-Kilometerstein;Punkt;20901
+01.11.06;#0209.9102;;KL-Bildstock, Feldkreuz;Punkt;20902
+01.11.06;#0209.9103;;KL-Laubbaum gemessen;Punkt;20903
+01.11.06;#0209.9104;;KL-Nadelbaum gemessen;Punkt;20904
+01.11.06;#0209.9105;;KL-Denkmal;Punkt;20905
+01.11.06;#0209.9106;;KL-Brunnen;Punkt;20906
+01.11.06;#0209.9107;;KL-Springbrunnen;Punkt;20907
+01.11.06;#0209.9108;;KL-Quelle;Punkt;20908
+01.11.06;#0209.9109;;KL-Hochspannungsmast;Punkt;20909
+01.11.06;#0020.9091;;BT-Ölabscheider;Punkt;2091
+01.11.06;#0209.9110;;KL-Funkmast;Punkt;20910
+01.11.06;#0209.9111;;KL-Seilbahnmast;Punkt;20911
+01.11.06;#0209.9112;;KL-Wegweiser;Punkt;20912
+01.11.06;#0209.9113;;KL-Oberflurhydrant;Punkt;20913
+01.11.06;#0209.9114;;KL-Unterflurhydrant;Punkt;20914
+01.11.06;#0209.9115;;KL-Schieber;Punkt;20915
+01.11.06;#0209.9116;;KL-Tankstelle;Punkt;20916
+01.11.06;#0209.9117;;KL-Straßenlampe;Punkt;20917
+01.11.06;#0209.9118;;KL-Beleuchtungshochmast;Punkt;20918
+01.11.06;#0209.9119;;KL-Fahrleitungsmast;Punkt;20919
+01.11.06;#0020.9092;;BT-Kraftstoffabscheider;Punkt;2092
+01.11.06;#0209.9120;;KL-Windmotor;Punkt;20920
+01.11.06;#0209.9121;;KL-Fahnenmast;Punkt;20921
+01.11.06;#0209.9122;;KL-Brückenwaage;Punkt;20922
+01.11.06;#0209.9123;;KL-Litfaßsäule;Punkt;20923
+01.11.06;#0209.9124;;KL-Verkehrsampel;Punkt;20924
+01.11.06;#0209.9125;;KL-Fernsprechhäuschen;Punkt;20925
+01.11.06;#0209.9126;;KL-Feuermeldert;Punkt;20926
+01.11.06;#0209.9127;;KL-Polizeirufsäule;Punkt;20927
+01.11.06;#0020.9093;;BT-Sandabscheider;Punkt;2093
+01.11.06;#0209.9150;;KL-Einstigschacht;Punkt;20950
+01.11.06;#0209.9151;;KL-Einstiegschacht WL;Punkt;20951
+01.11.06;#0209.9152;;KL-Einstiegschacht AL;Punkt;20952
+01.11.06;#0209.9153;;KL-Einstiegschacht FH;Punkt;20953
+01.11.06;#0209.9154;;KL-Einstiegschacht FM;Punkt;20954
+01.11.06;#0209.9155;;KL-Einstiegschacht EL;Punkt;20955
+01.11.06;#0020.9097;;BT-Fahnenmast;Punkt;2097
+01.09.10;#0021.9000;;BT-Netzknoten;Punkt;2100
+01.09.10;#0021.9001;;BT-Stationierung;Punkt;2101
+01.11.06;#0021.9010;;BT-KMStein;Punkt;2110
+01.11.06;#0021.9011;;BT-Ortstafel;Punkt;2111
+01.11.06;#0021.9012;;BT-Orstdurchfahrt;Punkt;2112
+01.11.06;#0021.9013;;BT-V-Ampel;Punkt;2113
+01.11.06;#0021.9015;;BT-Hinweistafel;Punkt;2115
+01.11.06;#0021.9016;;BT-Verkehrsschild;Punkt;2116
+01.11.06;#0021.9017;;BT-Bushaltestelle;Punkt;2117
+01.11.06;#0021.9030;;BT-Gleis;Punkt;2130
+25.10.01;#0021.9031;;BT-Andreaskreuz;Punkt;2131
+25.10.01;#0021.9032;;BT-Schranke;Punkt;2132
+25.10.01;#0021.9057;;BT-Telefonzelle;Punkt;2157
+25.10.01;#0021.9058;;BT-Notrufsäule;Punkt;2158
+01.11.06;#0021.9059;;BT-Denkmal;Punkt;2159
+01.11.06;#0021.9060;;BT-Bildstock;Punkt;2160
+01.11.06;#0022.9020;;BT-Uferbefestigung;Punkt;2220
+01.11.06;#0022.9030;;BT-Spundwand;Punkt;2230
+01.11.06;#0022.9040;;BT-Wehr;Punkt;2240
+01.11.06;#0022.9050;;BT-Quelle;Punkt;2250
+01.11.06;#0022.9060;;BT-Pegel;Punkt;2260
+01.11.06;#0022.9070;;BT-Gleisachse;Punkt;2270
+01.11.06;#0022.9090;;BT-Mulde;Punkt;2290
+01.11.06;#0023.9000;;BT-Bankett;Punkt;2300
+01.11.06;#0023.9005;;BT-Weg befestigt;Punkt;2305
+01.11.06;#0023.9010;;BT-Weg unbefestigt;Punkt;2310
+01.11.06;#0023.9020;;BT-Graben-OK;Punkt;2320
+01.11.06;#0023.9030;;BT-Graben-UK;Punkt;2330
+01.11.06;#0023.9040;;BT-Treppe;Punkt;2340
+01.09.10;#0023.9050;;BT-Waldrand;Punkt;2350
+01.11.06;#0025.9010;;BT-Betonschutzwand;Punkt;2510
+01.11.06;#0025.9020;;BT-Blendschutz;Punkt;2520
+01.11.06;#0025.9030;;BA-LS-Wall;Punkt;2530
+01.11.06;#0025.9040;;BA-LS-Wand;Punkt;2540
+01.11.06;#0025.9050;;BA-Schilderbrücke;Punkt;2550
+01.11.06;#0025.9060;;BA-Zählstelle;Punkt;2560
+01.11.06;#0025.9070;;BA-Meßstelle;Punkt;2570
+01.11.06;#0025.9080;;BA-Mast-Maut;Punkt;2580
+01.11.06;#0025.9090;;BA-Mobilfunkmast;Punkt;2590
+01.11.06;#0026.9000;;BA-Trafostation;Punkt;2600
+01.11.06;#0030.9000;;BB-Widerlager;Punkt;3000
+01.11.06;#0030.9010;;BB-Bauwerkspunkt;Punkt;3010
+01.11.06;#0030.9020;;BB-Treppe;Punkt;3020
+01.11.06;#0030.9030;;BB-Geländer;Punkt;3030
+01.11.06;#0030.9040;;BB-Fuge;Punkt;3040
+01.09.10;#0030.9050;;BB-Fahrbahnrand;Punkt;3050
+01.09.10;#0030.9055;;BB-Bordstein;Punkt;3055
+01.09.10;#0030.9060;;BB-Fundament;Punkt;3060
+01.09.10;#0030.9065;;BB-Straßeneinlauf;Punkt;3065
+01.11.06;#0031.9000;;BG-Baukörper-verdeckt;Punkt;3100
+01.11.06;#0031.9010;;BG-Kellerfenster;Punkt;3110
+01.11.06;#0031.9020;;BG-Firstpunkt;Punkt;3120
+01.11.06;#0031.9030;;BG-Traufpunkt;Punkt;3130
+01.11.06;#0400.9020;;LB-Einzel-Laubbaum;Punkt;40020
+01.11.06;#0400.9030;;LB-Einzel-Nadelbaum;Punkt;40030
+01.11.06;#0400.9050;;LB-Laubwald;Punkt;40050
+01.11.06;#0400.9060;;LB-Mischwald;Punkt;40060
+01.11.06;#0400.9070;;LB-Nadelwald;Punkt;40070
+01.11.06;#0400.9080;;LB-Symbol-Baumhecke;Punkt;40080
+01.11.06;#0402.9010;;LB-Tierart;Punkt;40210
+01.11.06;#0402.9020;;LB-Pflanzenart;Punkt;40220
+01.11.06;#0403.9050;;LB-Funkt.bezieh.Pfeil;Punkt;40350
+01.11.06;#0403.9060;;LB-SFunkt.bezieh.Text;Punkt;40360
+01.11.06;#0404.9010;;LB-Baum-L.bild;Punkt;40410
+01.11.06;#0404.9050;;LB-prägender Ortsrand;Punkt;40450
+01.11.06;#0405.9001;;LB-Naturschutzgebiet;Punkt;40501
+01.11.06;#0405.9021;;LB-Nationalpark;Punkt;40521
+01.11.06;#0405.9040;;LB-Naturdenkmal;Punkt;40540
+01.11.06;#0405.9051;;LB-gesch.Lbest.teil;Punkt;40551
+01.11.06;#0405.9071;;LB-Landschaftsschutzgebiet;Punkt;40571
+01.11.06;#0405.9091;;LB-Naturpark;Punkt;40591
+01.11.06;#0406.9011;;LB-Biosphärenreservat;Punkt;40611
+01.11.06;#0406.9031;;LB-FFH-Gebiet;Punkt;40631
+01.11.06;#0406.9051;;LB-Vogelschutzgebiet;Punkt;40651
+01.11.06;#0406.9070;;LB-BayNatschG;Punkt;40670
+01.11.06;#0407.9001;;LB-Amtl.kart.Biotop;Punkt;40701
+01.11.06;#0407.9011;;LB-Eig.kart.Biotope;Punkt;40711
+01.11.06;#0409.9000;;LB-Konflikbereich Nr.;Punkt;40900
+01.11.06;#0409.9010;;LB-Konfliktbereich Nr. fortl.;Punkt;40910
+01.11.06;#0409.9050;;LB-beeintr. Tierart;Punkt;40950
+01.11.06;#0409.9060;;LB-beeintr. Pflanzenart;Punkt;40960
+01.11.06;#0409.9071;;LB-Aust.bez.Pfeil;Punkt;40971
+01.11.06;#0409.9072;;LB-Aust.bez.Text;Punkt;40972
+01.11.06;#0409.9090;;LB-beeintr. Blick;Punkt;40990
+01.11.06;#0041.9000;;BL-Wasserleitung;Punkt;4100
+01.11.06;#0410.9000;;LB-Verlust Einzelbaum;Punkt;41000
+01.11.06;#0041.9010;;BL-MW-Leitung;Punkt;4110
+01.11.06;#0041.9011;;BL-RW-Leitung;Punkt;4111
+01.11.06;#0041.9012;;BL-SW-Leitung;Punkt;4112
+01.11.06;#0041.9020;;BL-Dränleitung;Punkt;4120
+01.11.06;#0412.9000;;LB-Baum zu Verpflanzen;Punkt;41200
+01.11.06;#0412.9010;;LB-B.hecke zu verpfl.;Punkt;41210
+01.11.06;#0412.9030;;LB-Verpflanzungsgebiet;Punkt;41230
+01.11.06;#0041.9030;;BL-Sickerleitung;Punkt;4130
+01.11.06;#0042.9000;;BL-Gasleitung;Punkt;4200
+01.11.06;#0420.9900;;LM-Einzelbaumverpflanzung;Punkt;42000
+01.11.06;#0420.9905;;LM-Baumpflanzung;Punkt;42005
+01.11.06;#0420.9910;;LM-BaumstaV;Punkt;42010
+01.11.06;#0420.9920;;LM-Verpflanzung1;Punkt;42020
+01.11.06;#0420.9930;;LM-Verpflanzung2;Punkt;42030
+01.11.06;#0420.9940;;LM-Fließpfeil;Punkt;42040
+01.11.06;#0420.9980;;LM-Heckenstandort;Punkt;42080
+01.11.06;#0042.9010;;BL-Fernheizleitung;Punkt;4210
+01.11.06;#0421.9940;;LM-Obstwiese;Punkt;42140
+01.11.06;#0043.9000;;BL-Fernmeldekabel;Punkt;4300
+01.11.06;#0430.9900;;LM-Pflanzplatz-Nr.;Punkt;43000
+01.11.06;#0430.9910;;LM-Gehölz großkronig;Punkt;43010
+01.11.06;#0430.9920;;LM-Gehölz kleinkronig;Punkt;43020
+01.11.06;#0430.9990;;LM-bestehender Baum;Punkt;43090
+01.11.06;#0043.9010;;BL-Niederspannungskabel;Punkt;4310
+01.11.06;#0043.9015;;BL-Mittelspannungskabel;Punkt;4315
+01.11.06;#0043.9020;;BL-Hochspannungskabel;Punkt;4320
+01.09.10;#0043.9025;;BL-LWL-Kabel;Punkt;4325
+01.11.06;#0044.9000;;BL-Pipeline;Punkt;4400
+01.11.06;#0044.9010;;BL-Kraftstoffleitung;Punkt;4410
+01.11.06;#0045.9000;;BL-Fernmeldefreileitung;Punkt;4500
+01.11.06;#0045.9001;;BL-Telefonmast;Punkt;4501
+01.11.06;#0045.9010;;BL-Niederspannungsfreileitung;Punkt;4510
+01.11.06;#0045.9011;;BL-NS-Mast;Punkt;4511
+01.11.06;#0045.9015;;BL-Mittelspannungsfreileitung;Punkt;4515
+01.11.06;#0045.9016;;BL-MS-Mast;Punkt;4516
+01.11.06;#0045.9020;;BL-Hochspannungsfreileitung;Punkt;4520
+01.11.06;#0045.9021;;BL-HS-Mast;Punkt;4521
+01.11.06;#0045.9030;;BL-Fahrleitungsmast;Punkt;4530
+01.11.06;#0045.9040;;BL-Mast-allgemein;Punkt;4540
+01.09.10;#0045.9050;;BL-Sohlhöhe;Punkt;4550
+01.09.10;#0046.9000;;BL-BAB-FM Kabel;Punkt;4600
+01.09.10;#0046.9005;;BL-BAB-E Kabel;Punkt;4605
+01.09.10;#0046.9010;;BL-BAB Kabel;Punkt;4610
+01.11.06;#0051.9020;;BN-WSG 1;Punkt;5120
+01.11.06;#0051.9030;;BN-BWSG 2;Punkt;5130
+01.11.06;#0051.9040;;BN-WSG 3;Punkt;5140
+01.11.06;#0052.9000;;BN-Wohngebiet;Punkt;5200
+01.11.06;#0052.9010;;BN-Mischgebiet;Punkt;5210
+01.11.06;#0052.9020;;BN-Gewerbegebiet;Punkt;5220
+01.11.06;#0052.9030;;BN-Sodergebiet;Punkt;5230
+01.11.06;#0052.9040;;BN-Grünfläche;Punkt;5240
+01.11.06;#0052.9050;;BN-Narurschutzgebiet;Punkt;5250
+01.11.06;#0052.9060;;BN-Landschaftsschutzgebiet;Punkt;5260
+01.11.06;#0052.9070;;BN-Biotop;Punkt;5270
+01.11.06;#0052.9080;;BN-Bodendenkmal;Punkt;5280
+01.11.06;#0052.9090;;BN-FFH-Gebiet;Punkt;5290
+01.11.06;#0053.9001;;BN-Jaddgebiet;Punkt;5301
+01.11.06;#0054.9000;;BN-öffentliche Verwaltung;Punkt;5400
+01.11.06;#0054.9010;;BN-Schule;Punkt;5410
+01.11.06;#0054.9020;;BN-Kirche;Punkt;5420
+01.11.06;#0054.9030;;BNsoziale Zwecke;Punkt;5430
+01.11.06;#0054.9040;;BN-gesundheitl. Zwecke;Punkt;5440
+01.11.06;#0054.9050;;BN-kulturelle Zwecke;Punkt;5450
+01.11.06;#0054.9060;;BN-Gebiet sportl.Zwecke;Punkt;5460
+01.11.06;#0054.9070;;BN-Post;Punkt;5470
+01.11.06;#0054.9080;;BN-Schutzbauwerk;Punkt;5480
+01.11.06;#0054.9090;;BN-Feuerwehr;Punkt;5490
+01.11.06;#0055.9000;;BN-Sportanlage;Punkt;5500
+01.11.06;#0055.9010;;BN-Spielplatz 2;Punkt;5510
+01.11.06;#0055.9020;;BN-Fläche Sportanlage;Punkt;5520
+01.11.06;#0055.9030;;BN-ruhender Verkehr;Punkt;5530
+01.11.06;#0055.9040;;BN-öffentl. Parkfläche;Punkt;5540
+01.11.06;#0055.9050;;BN-Fußgängerbereich;Punkt;5550
+01.11.06;#0055.9060;;BN-verkehrsberuhigt;Punkt;5560
+01.11.06;#0055.9070;;BN-Elektritizät;Punkt;5570
+01.11.06;#0055.9080;;BN-Gas;Punkt;5580
+01.11.06;#0055.9090;;BN-Fernwärme;Punkt;5590
+01.11.06;#0056.9000;;BN-Wasser;Punkt;5600
+01.11.06;#0056.9010;;BN-Abwasser;Punkt;5610
+01.11.06;#0056.9020;;BN-Abfall;Punkt;5620
+01.11.06;#0056.9030;;BN-Ablagerung;Punkt;5630
+01.11.06;#0056.9040;;BN-Punmpstation;Punkt;5640
+01.11.06;#0056.9050;;BN-Parkanlage;Punkt;5650
+01.11.06;#0056.9060;;BN-Dauerkleingarten;Punkt;5660
+01.11.06;#0056.9070;;BN-Sportplatz;Punkt;5670
+01.11.06;#0056.9080;;BN-Spielplatz;Punkt;5680
+01.11.06;#0056.9090;;BN-Zeltplatz;Punkt;5690
+01.11.06;#0057.9000;;BN-Freibad;Punkt;5700
+01.11.06;#0057.9010;;BN-Friedhof;Punkt;5710
+01.11.06;#0060.9900;;PV-Allgemein;Punkt;6000
+01.11.06;#0060.9910;;PV-Achshauptpunkt;Punkt;6010
+01.11.06;#0060.9911;;PV-Achskleinpunkt;Punkt;6011
+01.11.06;#0060.9912;;PV-Fahrbahn;Punkt;6012
+01.11.06;#0060.9914;;PV-Böschung-oben;Punkt;6014
+01.11.06;#0060.9916;;PV-Böschung-unten;Punkt;6016
+01.11.06;#0060.9918;;PV-Mulde;Punkt;6018
+01.11.06;#0060.9920;;PV-Durchlaß;Punkt;6020
+01.11.06;#0060.9930;;PV-Straßeneinlauf;Punkt;6030
+01.11.06;#0060.9932;;PV-Einlauf 300/500;Punkt;6032
+01.11.06;#0060.9934;;PV-Einlauf 500/500;Punkt;6034
+01.11.06;#0060.9936;;PV-Einlauf 500/780;Punkt;6036
+01.11.06;#0060.9940;;PV-Muldeneinlauf;Punkt;6040
+01.11.06;#0060.9950;;PV-DN oval;Punkt;6050
+01.09.10;#0060.9964;;PV-Schlitzrinne;Punkt;6064
+01.11.06;#0061.9910;;PV-Poller;Punkt;6110
+01.11.06;#0061.9920;;PV-Laterne;Punkt;6120
+01.11.06;#0061.9930;;PV-Verkehrsampel;Punkt;6130
+01.11.06;#0061.9945;;PV-Zaunpfosten;Punkt;6145
+01.09.10;#0061.9951;;PV-Schalthaus;Punkt;6151
+01.09.10;#0061.9952;;PV-Signalbrücke;Punkt;6152
+01.09.10;#0061.9953;;PV-Wechselwegweiser;Punkt;6153
+01.09.10;#0061.9954;;PV-Infrarot Bake;Punkt;6154
+01.09.10;#0061.9955;;PV-Zuflußregelung;Punkt;6155
+01.09.10;#0061.9956;;PV-dynam. Wegweisung;Punkt;6156
+01.09.10;#0061.9957;;PV-dynam. Hinweisschild;Punkt;6157
+01.09.10;#0061.9958;;PV-seitl.WVZ;Punkt;6158
+01.09.10;#0061.9959;;PV-Videokamera;Punkt;6159
+01.09.10;#0061.9960;;PV-Überkopfsensor;Punkt;6160
+01.09.10;#0061.9961;;PV-Überkopfsensor Mast;Punkt;6161
+01.09.10;#0061.9962;;PV-Umweltstation;Punkt;6162
+01.09.10;#0061.9963;;PV-Windrad;Punkt;6163
+01.09.10;#0061.9964;;PV-Windanzeiger;Punkt;6164
+01.09.10;#0061.9966;;PV-Hinweisschilder;Punkt;6166
+01.09.10;#0061.9967;;PV-Schilderbrücke 1St;Punkt;6167
+01.09.10;#0061.9968;;PV-Schilderbrücke 2St;Punkt;6168
+01.09.10;#0061.9969;;PV-Abfallbehälter;Punkt;6169
+01.09.10;#0061.9970;;PV-Nässe-Glatteis-Mess;Punkt;6170
+01.09.10;#0061.9971;;PV-Nebel-Hauptgerät;Punkt;6171
+01.09.10;#0061.9972;;PV-Nebel Nebengerät;Punkt;6172
+01.09.10;#0061.9973;;PV-Zählstelle;Punkt;6173
+01.11.06;#0061.9980;;PV-Bohrpunkt;Punkt;6180
+01.11.06;#0061.9990;;PV-Hochpunkt;Punkt;6190
+01.11.06;#0061.9995;;PV-Tiefpunkt;Punkt;6195
+01.11.06;#0062.9900;;PV-Pfeil 1;Punkt;6200
+01.11.06;#0062.9905;;PV-Pfeil 2;Punkt;6205
+01.11.06;#0062.9906;;PV-Pfeil 3;Punkt;6206
+01.11.06;#0062.9910;;PV-Fließpfeil;Punkt;6210
+01.11.06;#0062.9920;;PV-Gebüsch;Punkt;6220
+01.11.06;#0062.9925;;PV-Baum;Punkt;6225
+01.11.06;#0062.9930;;PV-Richtung-gerade;Punkt;6230
+01.11.06;#0062.9932;;PV-Richtung-rechts;Punkt;6232
+01.11.06;#0062.9934;;PV-Richtung-links;Punkt;6234
+01.11.06;#0062.9936;;PV-Richtung-gerade-rechts;Punkt;6236
+01.11.06;#0062.9938;;PV-Richtung-gerade-links;Punkt;6238
+01.11.06;#0062.9939;;PV-Richtung-Vorankündigungl;Punkt;6239
+01.11.06;#0062.9940;;PV-Nordpfeil 1;Punkt;6240
+01.11.06;#0062.9945;;PV-Nordpfeil 2;Punkt;6245
+01.11.06;#0062.9980;;PV-Auffüllung;Punkt;6280
+01.11.06;#0062.9990;;PV-Ausschlitzung;Punkt;6290
+01.11.06;#0063.9900;;PU-Kernbohrung gepl.;Punkt;6300
+01.11.06;#0063.9901;;PU-Kleinbohrung gepl.;Punkt;6301
+01.11.06;#0063.9902;;PU-Rammson. schw. gepl.;Punkt;6302
+01.11.06;#0063.9903;;PU-Rammson. leicht gepl.;Punkt;6303
+01.11.06;#0063.9904;;PU-Grundw.Messtel.gepl.;Punkt;6304
+01.11.06;#0063.9905;;PU-Schurf gepl.;Punkt;6305
+01.11.06;#0063.9910;;PU-Kernbohrung vorh.;Punkt;6310
+01.11.06;#0063.9911;;PU-Kleinbohrung vorh.;Punkt;6311
+01.11.06;#0063.9912;;PU-Rammson. schw. vorh.;Punkt;6312
+01.11.06;#0063.9913;;PU-Rammson. leicht vorh.;Punkt;6313
+01.11.06;#0063.9914;;PU-Grundw.Messstel.vorh.;Punkt;6314
+01.11.06;#0063.9915;;PU-Schurf vorh.;Punkt;6315
+01.11.06;#0064.9900;;PB-BW-Beschreibung;Punkt;6400
+01.11.06;#0065.9900;;PA-LS-Nr.;Punkt;6500
+01.11.06;#0065.9905;;PA-LS-Nr.-Überschreitung;Punkt;6505;;;
+01.11.06;#0065.9910;;PA-LS-Wandpfosten;Punkt;6510;;;
+01.11.06;#0065.9920;;PA-LS-Ergebnisse;Punkt;6520;;;
+01.09.10;#0065.9930;;PA-Zählstelle;Punkt;6530;;;
+01.09.10;#0065.9931;;PA-Meßtstelle;Punkt;6531;;;
+01.09.10;#0065.9932;;PA-Mast-Maut;Punkt;6532;;;
+01.09.10;#0065.9933;;PA-Mobilfunkmast;Punkt;6533;;;
+01.09.10;#0065.9934;;PA-Trafostation;Punkt;6534;;;
+01.11.06;#0066.9900;;PL-Konstrollschacht;Punkt;6600;;;
+01.11.06;#0066.9902;;PL-Schacht DN1000;Punkt;6602;;;
+01.11.06;#0066.9904;;PL-Schacht DN1200;Punkt;6604;;;
+01.11.06;#0066.9906;;PL-Schacht DN1500;Punkt;6606;;;
+01.11.06;#0066.9908;;PL-Schacht DN2000;Punkt;6608;;;
+01.11.06;#0066.9920;;PL-Sickerschacht;Punkt;6620;;;
+01.11.06;#0066.9930;;PL-Kontrolls DN600;Punkt;6630;;;
+01.11.06;#0066.9935;;PL-Kontrolls DN1000;Punkt;6635;;;
+01.11.06;#0066.9940;;PL-Kontrolls DN1000/1000;Punkt;6640
+01.09.10;#0066.9945;;PL-Auslaufbauwerk;Punkt;6645
+01.11.06;#0070.9900;;PR-BWV-Nr.;Punkt;7000
+01.11.06;#0070.9910;;PR-GE-Nr.;Punkt;7010
+01.11.06;#0070.9960;;PR-Einleitungsstelle;Punkt;7060
+01.11.06;#0070.9970;;PR-Einzugsgebiets-Nummer;Punkt;7070
+01.11.06;#0090.9910;;PQ-Leitpfosten linksl;Punkt;9010
+01.11.06;#0090.9915;;PQ-Leitpfosten rechts;Punkt;9015
+01.11.06;#0090.9920;;PQ-ESP rechts;Punkt;9020
+01.11.06;#0090.9925;;PQ-ESP links;Punkt;9025
+01.11.06;#0090.9930;;PQ-DSP rechts;Punkt;9030
+01.11.06;#0090.9935;;PQ-DSP links;Punkt;9035
+01.09.10;#0090.9936;;PQ-SuperRail links;Punkt;9036
+01.09.10;#0090.9937;;PQ-SuperRail rechts;Punkt;9037
+01.11.06;#0090.9940;;PQ-Betonrinne;Punkt;9040
+01.09.10;#0090.9941;;PQ-BSW links;Punkt;9041
+01.09.10;#0090.9942;;PQ-BSW rechts;Punkt;9042
+01.09.10;#0090.9943;;PQ-BSW beisdeitig;Punkt;9043
+01.11.06;#0090.9950;;PQ-Höhenkote;Punkt;9050
+01.11.06;#0090.9960;;PQ-Höhe NN;Punkt;9060
+01.11.06;#0090.9970;;PQ-Wasserlinie;Punkt;9070
+01.11.06;#0091.9900;;PQ-Lkw;Punkt;9100
+01.11.06;#0091.9910;;PQ-Pkw 1;Punkt;9110
+01.11.06;#0091.9920;;PQ-Pkw 2;Punkt;9120
+01.11.06;#0091.9930;;PQ-Pkw vorne;Punkt;9130
+01.11.06;#0091.9940;;PQ-Pkw hinten;Punkt;9140
+01.11.06;#0091.9950;;PQ-Lkw vorne;Punkt;9150
+01.11.06;#0091.9960;;PQ-Lkw hinten;Punkt;9160
+01.11.06;#0091.9970;;PQ-Bus vorne;Punkt;9170
+01.11.06;#0091.9980;;PQ-Bus hinten;Punkt;9180
+01.11.06;#0092.9900;;PQ-Mann;Punkt;9200
+01.11.06;#0092.9910;;PQ-Frau-Kind;Punkt;9210
+01.11.06;#0092.9920;;PQ-Fahrradfahrer;Punkt;9220
+01.11.06;#0092.9930;;PQ-Fahrradfahrer vorne;Punkt;9230
+01.11.06;#0092.9940;;PQ-Fahrradfahrer hinten;Punkt;9240
+01.11.06;#0093.9900;;PQ-Schacht DN 600;Punkt;9300
+01.11.06;#0093.9910;;PQ-Schacht DN 1000;Punkt;9310
+01.11.06;#0093.9920;;PQ-Ortbetonschacht;Punkt;9320
+01.09.10;#0093.9930;;PQ-Straßeneinlauf kurz;Punkt;9330
+01.09.10;#0500.9910;;VS-Leitpfosten;Punkt;50010
+01.09.10;#0501.9900;;VS-Pkw1;Punkt;50100
+01.09.10;#0501.9910;;VS-Pkw2;Punkt;50110
+01.09.10;#0501.9950;;VS-Lkw;Punkt;50150
+01.09.10;#0502.9900;;VS-Sichtstrahl-Schnittpu;Punkt;50200
+01.09.10;#0510.9910;;VH-Baum2m;Punkt;51010
+01.09.10;#0510.9920;;VH-Baum4m;Punkt;51020
+01.09.10;#0510.9930;;VH-Baum6m;Punkt;51030
+01.09.10;#0510.9940;;VH-Baum8m;Punkt;51040
+01.09.10;#0510.9950;;VH-Baum10m;Punkt;51050
+01.11.06;T0000.9201;;AK-Schw/Stan/s/ 1.3/n;Text;1
+01.11.06;T0010.9201;;AK-Schw/TT-Ar/s/ 1.5/n;Text;1001
+01.11.06;T0010.9202;;AK-Schw/TT-Ar/s/ 2.0/n;Text;1002
+01.11.06;T0010.9203;;AK-Schw/TT-Ar/s/ 2.5/n;Text;1003
+01.11.06;T0010.9204;;AK-Schw/TT-Ar/s/ 3.5/n;Text;1004
+01.11.06;T0010.9205;;AK-Schw/TT-Ar/s/ 5.0/n;Text;1005
+01.11.06;T0010.9206;;AK-Schw/TT-Ar/s/ 7.0/n;Text;1006
+01.11.06;T0010.9207;;AK-Schw/TT-Ar/s/10.0/n;Text;1007
+01.11.06;T0010.9240;;AK-Rot/TT-Ar/s/ 1.5/n;Text;1040
+01.11.06;T0010.9241;;AK-Rot/TT-Ar/s/ 2.0/n;Text;1041
+01.11.06;T0010.9242;;AK-Rot/TT-Ar/s/ 2.5/n;Text;1042
+01.11.06;T0010.9243;;AK-Rot/TT-Ar/s/ 3.5/n;Text;1043
+01.11.06;T0010.9244;;AK-Rot/TT-Ar/s/ 5.0/n;Text;1044
+01.11.06;T0010.9245;;AK-Rot/TT-Ar/s/ 7.0/n;Text;1045
+01.11.06;T0010.9246;;AK-Rot/TT-Ar/s/10.0/n;Text;1046
+01.11.06;T0010.9290;;AK-Grün/TT-Ar/s/ 1.5/n;Text;1090
+01.11.06;T0010.9291;;AK-Grün/TT-Ar/s/ 2.0/n;Text;1091
+01.11.06;T0010.9292;;AK-Grün/TT-Ar/s/ 2.5/n;Text;1092
+01.11.06;T0010.9293;;AK-Grün/TT-Ar/s/ 3.5/n;Text;1093
+01.11.06;T0010.9294;;AK-Grün/TT-Ar/s/ 5.0/n;Text;1094
+01.11.06;T0010.9295;;AK-Grün/TT-Ar/s/ 7.0/n;Text;1095
+01.11.06;T0010.9296;;AK-Grün/TT-Ar/s/10.0/n;Text;1096
+01.11.06;T0011.9220;;AK-D-Blau/TT-Ar/s/ 1.5/n;Text;1120
+01.11.06;T0011.9221;;AK-D-Blau/TT-Ar/s/ 2.0/n;Text;1121
+01.11.06;T0011.9222;;AK-D-Blau/TT-Ar/s/ 2.5/n;Text;1122
+01.11.06;T0011.9223;;AK-D-Blau/TT-Ar/s/ 3.5/n;Text;1123
+01.11.06;T0011.9224;;AK-D-Blau/TT-Ar/s/ 5.0/n;Text;1124
+01.11.06;T0011.9225;;AK-D-Blau/TT-Ar/s/ 7.0/n;Text;1125
+01.11.06;T0011.9226;;AK-D-Blau/TT-Ar/s/10.0/n;Text;1126
+01.11.06;T0011.9230;;AK-Orange/TT-Ar/s/ 1.5/n;Text;1130
+01.11.06;T0011.9231;;AK-Orange/TT-Ar/s/ 2.0/n;Text;1131
+01.11.06;T0011.9232;;AK-Orange/TT-Ar/s/ 2.5/n;Text;1132
+01.11.06;T0011.9233;;AK-Orange/TT-Ar/s/ 3.5/n;Text;1133
+01.11.06;T0011.9234;;AK-Orange/TT-Ar/s/ 5.0/n;Text;1134
+01.11.06;T0011.9235;;AK-Orange/TT-Ar/s/ 7.0/n;Text;1135
+01.11.06;T0011.9236;;AK-Orange/TT-Ar/s/10.0/n;Text;1136
+01.11.06;T0011.9240;;AK-Schw/TT-Ar/s/ 1.5/n/b;Text;1140
+01.11.06;T0011.9241;;AK-Schw/TT-Ar/s/ 2.0/n/b;Text;1141
+01.11.06;T0011.9242;;AK-Schw/TT-Ar/s/ 2.5/n/b;Text;1142
+01.11.06;T0011.9243;;AK-Schw/TT-Ar/s/ 3.5/n/b;Text;1143
+01.11.06;T0011.9244;;AK-Schw/TT-Ar/s/ 5.0/n/b;Text;1144
+01.11.06;T0011.9245;;AK-Schw/TT-Ar/s/ 7.0/n/b;Text;1145
+01.11.06;T0011.9246;;AK-Schw/TT-Ar/s/10.0/n/b;Text;1146
+01.11.06;T0012.9201;;AK-Schw/TT-Ar/s/ 1.5/j;Text;1201
+01.11.06;T0012.9202;;AK-Schw/TT-Ar/s/ 2.0/j;Text;1202
+01.11.06;T0012.9203;;AK-Schw/TT-Ar/s/ 2.5/j;Text;1203
+01.11.06;T0012.9204;;AK-Schw/TT-Ar/s/ 3.5/j;Text;1204
+01.11.06;T0012.9205;;AK-Schw/TT-Ar/s/ 5.0/j;Text;1205
+01.11.06;T0012.9206;;AK-Schw/TT-Ar/s/ 7.0/j;Text;1206
+01.11.06;T0012.9207;;AK-Schw/TT-Ar/s/10.0/j;Text;1207
+01.11.06;T0001.9222;;AK-D-Blau/Stan/s/2.5/n;Text;122
+01.11.06;T0001.9223;;AK-D-Blau/Stan/s/3.5/n;Text;123
+01.11.06;T0001.9224;;AK-D-Blau/Stan/s/5.0/n;Text;124
+01.11.06;T0012.9240;;AK-Rot/TT-Ar/s/ 1.5/j;Text;1240
+01.11.06;T0012.9241;;AK-Rot/TT-Ar/s/ 2.0/j;Text;1241
+01.11.06;T0012.9242;;AK-Rot/TT-Ar/s/ 2.5/j;Text;1242
+01.11.06;T0012.9243;;AK-Rot/TT-Ar/s/ 3.5/j;Text;1243
+01.11.06;T0012.9244;;AK-Rot/TT-Ar/s/ 5.0/j;Text;1244
+01.11.06;T0012.9245;;AK-Rot/TT-Ar/s/ 7.0/j;Text;1245
+01.11.06;T0012.9246;;AK-Rot/TT-Ar/s/10.0/j;Text;1246
+01.11.06;T0001.9225;;AK-D-Blau/Stan/s/7.0/n;Text;125
+01.11.06;T0013.9220;;AK-D-Blau/TT-Ar/s/ 1.5/j;Text;1320
+01.11.06;T0013.9221;;AK-D-Blau/TT-Ar/s/ 2.0/j;Text;1321
+01.11.06;T0013.9222;;AK-D-Blau/TT-Ar/s/ 2.5/j;Text;1322
+01.11.06;T0013.9223;;AK-D-Blau/TT-Ar/s/ 3.5/j;Text;1323
+01.11.06;T0013.9224;;AK-D-Blau/TT-Ar/s/ 5.0/j;Text;1324
+01.11.06;T0013.9225;;AK-D-Blau/TT-Ar/s/ 7.0/j;Text;1325
+01.11.06;T0013.9226;;AK-D-Blau/TT-Ar/s/10.0/j;Text;1326
+01.11.06;T0013.9240;;AK-Schw/TT-Ar/s/ 1.5/j/b;Text;1340
+01.11.06;T0013.9241;;AK-Schw/TT-Ar/s/ 2.0/j/b;Text;1341
+01.11.06;T0013.9242;;AK-Schw/TT-Ar/s/ 2.5/j/b;Text;1342
+01.11.06;T0013.9243;;AK-Schw/TT-Ar/s/ 3.5/j/b;Text;1343
+01.11.06;T0013.9244;;AK-Schw/TT-Ar/s/ 5.0/j/b;Text;1344
+01.11.06;T0013.9245;;AK-Schw/TT-Ar/s/ 7.0/j/b;Text;1345
+01.11.06;T0013.9246;;AK-Schw/TT-Ar/s/10.0/j/b;Text;1346
+01.11.06;T0015.9201;;AK-Gelb/TT-Ar/s/ 1.5/n;Text;1501
+01.11.06;T0015.9202;;AK-Gelb/TT-Ar/s/ 2.0/n;Text;1502
+01.11.06;T0015.9203;;AK-Gelb/TT-Ar/s/ 2.5/n;Text;1503
+01.11.06;T0015.9204;;AK-Gelb/TT-Ar/s/ 3.5/n;Text;1504
+01.11.06;T0015.9205;;AK-Gelb/TT-Ar/s/ 5.0/n;Text;1505
+01.11.06;T0015.9206;;AK-Gelb/TT-Ar/s/ 7.0/n;Text;1506
+01.11.06;T0015.9207;;AK-Gelb/TT-Ar/s/10.0/n;Text;1507
+01.11.06;T0015.9251;;AK-Gelb/TT-Ar/s/ 1.5/n/b;Text;1551
+01.11.06;T0015.9252;;AK-Gelb/TT-Ar/s/ 2.0/n/b;Text;1552
+01.11.06;T0015.9253;;AK-Gelb/TT-Ar/s/ 2.5/n/b;Text;1553
+01.11.06;T0015.9254;;AK-Gelb/TT-Ar/s/ 3.5/n/b;Text;1554
+01.11.06;T0015.9255;;AK-Gelb/TT-Ar/s/ 5.0/n/b;Text;1555
+01.11.06;T0015.9256;;AK-Gelb/TT-Ar/s/ 7.0/n/b;Text;1556
+01.11.06;T0015.9257;;AK-Gelb/TT-Ar/s/10.0/n/b;Text;1557
+01.11.06;T0016.9201;;AK-Weiß/TT-Ar/s/ 1.5/n;Text;1601
+01.11.06;T0016.9202;;AK-Weiß/TT-Ar/s/ 2.0/n;Text;1602
+01.11.06;T0016.9203;;AK-Weiß/TT-Ar/s/ 2.5/n;Text;1603
+01.11.06;T0016.9204;;AK-Weiß/TT-Ar/s/ 3.5/n;Text;1604
+01.11.06;T0016.9205;;AK-Weiß/TT-Ar/s/ 5.0/n;Text;1605
+01.11.06;T0016.9206;;AK-Weiß/TT-Ar/s/ 7.0/n;Text;1606
+01.11.06;T0016.9207;;AK-Weiß/TT-Ar/s/10.0/n;Text;1607
+01.11.06;T0016.9251;;AK-Weiß/TT-Ar/s/ 1.5/n/b;Text;1651
+01.11.06;T0016.9252;;AK-Weiß/TT-Ar/s/ 2.0/n/b;Text;1652
+01.11.06;T0016.9253;;AK-Weiß/TT-Ar/s/ 2.5/n/b;Text;1653
+01.11.06;T0016.9254;;AK-Weiß/TT-Ar/s/ 3.5/n/b;Text;1654
+01.11.06;T0016.9255;;AK-Weiß/TT-Ar/s/ 5.0/n/b;Text;1655
+01.11.06;T0016.9256;;AK-Weiß/TT-Ar/s/ 7.0/n/b;Text;1656
+01.11.06;T0016.9257;;AK-Weiß/TT-Ar/s/10.0/n/b;Text;1657
+01.11.06;T0000.9202;;AK-Schw/Stan/s/ 1.8/n;Text;2
+01.11.06;T0200.9100;;KL-Bund/Land;Text;20000
+01.11.06;T0020.9001;;BT-Text Größe 1(sw);Text;2001
+01.11.06;T0200.9110;;KL-Reg.Bez.;Text;20010
+01.11.06;T0020.9002;;BT-Text Größe 2(sw);Text;2002
+01.11.06;T0200.9120;;KL-Kreis;Text;20020
+01.11.06;T0020.9003;;BT-Text Größe 3(sw);Text;2003
+01.11.06;T0200.9130;;KL_Gemeinde/Gemarkung;Text;20030
+01.11.06;T0020.9004;;BT-Text Größe 4(sw);Text;2004
+01.11.06;T0200.9140;;KL-Gewannenname;Text;20040
+01.11.06;T0020.9005;;BT-Text Größe 5(sw);Text;2005
+01.11.06;T0200.9150;;KL-Flst.-Nr.(normal);Text;20050
+01.11.06;T0020.9006;;BT-Text Größe 6(sw);Text;2006
+01.11.06;T0200.9160;;KL-Flst.-Nr.(klein);Text;20060
+01.11.06;T0200.9170;;KL-Hausnummer;Text;20070
+01.11.06;T0200.9180;;KL-Straße (übergeordnet);Text;20080
+01.11.06;T0200.9181;;KL-Ortsstraße;Text;20081
+01.11.06;T0200.9182;;KL-Parkplatz;Text;20082
+01.11.06;T0200.9183;;KL-Geh- und Radweg;Text;20083
+01.11.06;T0200.9185;;KL-Bahnlinie;Text;20085
+01.11.06;T0200.9190;;KL-Geb.-Nutzung/Name;Text;20090
+01.11.06;T0200.9195;;KL-Nutzungsartbeschreib.;Text;20095
+01.11.06;T0002.9201;;AK-Schw/Stan/s/ 1.3/j;Text;201
+01.11.06;T0201.9100;;KL-Gewässer (groß);Text;20100
+01.11.06;T0201.9110;;KL-Gewässer (klein);Text;20110
+01.11.06;T0002.9202;;AK-Schw/Stan/s/ 1.8/j;Text;202
+01.11.06;T0002.9203;;AK-Schw/Stan/s/ 2.5/j;Text;203
+01.11.06;T0002.9204;;AK-Schw/Stan/s/ 3.5/j;Text;204
+01.11.06;T0002.9205;;AK-Schw/Stan/s/ 5.0/j;Text;205
+01.11.06;T0002.9206;;AK-Schw/Stan/s/ 7.0/j;Text;206
+01.11.06;T0002.9207;;AK-Schw/Stan/s/10.0/j;Text;207
+01.11.06;T0021.9022;;BT-Text Größe 2(blau);Text;2122
+01.11.06;T0021.9023;;BT-Text Größe 3(blau);Text;2123
+01.11.06;T0021.9024;;BT-Text Größe 4(blau);Text;2124
+01.11.06;T0021.9025;;BT-Text Größe 5(blau);Text;2125
+01.11.06;T0002.9240;;AK-Rot/Stan/s/ 1.3/j;Text;240
+01.11.06;T0002.9241;;AK-Rot/Stan/s/ 1.8/j;Text;241
+01.11.06;T0002.9242;;AK-Rot/Stan/s/ 2.5/j;Text;242
+01.11.06;T0002.9243;;AK-Rot/Stan/s/ 3.5/j;Text;243
+01.11.06;T0002.9244;;AK-Rot/Stan/s/ 5.0/j;Text;244
+01.11.06;T0002.9245;;AK-Rot/Stan/s/ 7.0/j;Text;245
+01.11.06;T0002.9246;;AK-Rot/Stan/s/10.0/j;Text;246
+01.11.06;T0002.9262;;AK-Viol/Stan/s/2.5/j;Text;262
+01.11.06;T0002.9263;;AK-Viol/Stan/s/3.5/j;Text;263
+01.11.06;T0002.9264;;AK-Viol/Stan/s/5.0/j;Text;264
+01.11.06;T0002.9265;;AK-Viol/Stan/s/7.0/j;Text;265
+01.11.06;T0002.9292;;AK-D-Grün/Stan/s/2.5/j;Text;292
+01.11.06;T0002.9293;;AK-D-Grün/Stan/s/3.5/j;Text;293
+01.11.06;T0002.9294;;AK-D-Grün/Stan/s/5.0/j;Text;294
+01.11.06;T0002.9295;;AK-D-Grün/Stan/s/7.0/j;Text;295
+01.11.06;T0000.9203;;AK-Schw/Stan/s/ 2.5/n;Text;3
+01.11.06;T0030.9001;;BT-Text Größe 1(sw,f);Text;3001
+01.11.06;T0030.9002;;BT-Text Größe 2(sw,f);Text;3002
+01.11.06;T0030.9003;;BT-Text Größe 3(sw,f);Text;3003
+01.11.06;T0030.9004;;BT-Text Größe 4(sw,f);Text;3004
+01.11.06;T0030.9005;;BT-Text Größe 5(sw,f);Text;3005
+01.11.06;T0030.9006;;BT-Text Größe 6(sw,f);Text;3006
+01.11.06;T0031.9022;;BT-Text Größe 2(blau,f);Text;3122
+01.11.06;T0031.9023;;BT-Text Größe 3(blau,f);Text;3123
+01.11.06;T0031.9024;;BT-Text Größe 4(blau,f);Text;3124
+01.11.06;T0031.9025;;BT-Text Größe 5(blau,f);Text;3125
+01.11.06;T0003.9222;;AK-D-Blau/Stan/s/2.5/j;Text;322
+01.11.06;T0003.9223;;AK-D-Blau/Stan/s/3.5/j;Text;323
+01.11.06;T0003.9224;;AK-D-Blau/Stan/s/5.0/j;Text;324
+01.11.06;T0003.9225;;AK-D-Blau/Stan/s/7.0/j;Text;325
+01.11.06;T0000.9204;;AK-Schw/Stan/s/ 3.5/n;Text;4
+01.11.06;T0000.9240;;AK-Rot/Stan/s/ 1.3/n;Text;40
+01.11.06;T0401.9000;;LB-Biotoptypen;Text;40100
+01.11.06;T0402.9010;;LB-Tiere, Pflanzen;Text;40210
+01.11.06;T0403.9060;;LB-Funktionsbeziehungen;Text;40360
+01.11.06;T0406.9070;;LB-BayNatschG;Text;40670
+01.11.06;T0406.9080;;LB-Biotope;Text;40680
+01.11.06;T0407.9000;;LB-sonst.Schutzgebiete;Text;40700
+01.11.06;T0408.9000;;LB-Fachplanungen;Text;40800
+01.11.06;T0409.9010;;LB-Konflikt-Nr.fortl.;Text;40910
+01.11.06;T0409.9020;;LB-Konflikber.-Nr.;Text;40920
+01.11.06;T0409.9021;;LB-Konfl.leg.-Bau.km;Text;40921
+01.11.06;T0409.9022;;LB-Konf.leg.Beschreibung;Text;40922
+01.11.06;T0409.9050;;LB-Beeinträchtigungen;Text;40950
+01.11.06;T0000.9241;;AK-Rot/Stan/s/ 1.8/n;Text;41
+01.11.06;T0000.9242;;AK-Rot/Stan/s/ 2.5/n;Text;42
+01.11.06;T0420.9900;;LM-Schw/TT-Ar/s/2,0/n;Text;42000
+01.11.06;T0420.9910;;LM-Schw/TT-Ar/s/2,5/n;Text;42010
+01.11.06;T0420.9920;;LM-Schw/TT-Ar/s/3,0/n;Text;42020
+01.11.06;T0420.9930;;LM-Schw/TT-Ar/s/3,5/n;Text;42030
+01.11.06;T0420.9940;;LM-Schw/TT-Ar/s/4,0/n;Text;42040
+01.11.06;T0420.9950;;LM-Schw/TT-Ar/s/5,0/n;Text;42050
+01.11.06;T0420.9960;;LM-Schw/TT-Ar/s/8,0/n;Text;42060
+01.11.06;T0000.9243;;AK-Rot/Stan/s/ 3.5/n;Text;43
+01.11.06;T0430.9900;;LA-Schw/TT-Ar/s/2.0/n;Text;43000
+01.11.06;T0430.9910;;LA-Schw/TT-Ar/s/2.5/n;Text;43010
+01.11.06;T0430.9920;;LA-Schw/TT-Ar/s/3.0/n;Text;43020
+01.11.06;T0430.9930;;LA-Schw/TT-Ar/s/3.5/n;Text;43030
+01.11.06;T0430.9940;;LA-Schw/TT-Ar/s/4.0/n;Text;43040
+01.11.06;T0430.9950;;LA-Schw/TT-Ar/s/5.0/n;Text;43050
+01.11.06;T0430.9960;;LA-Schw/TT-ArB/s/8.0/n;Text;43060
+01.11.06;T0430.9970;;LA-Blau/TT-Ar/s/3.0/n;Text;43070
+01.11.06;T0430.9980;;LA-Blau/TT-Ar/s/3.5/n;Text;43080
+01.11.06;T0430.9990;;LA-Blau/TT-Ar/s/4.0/n;Text;43090
+01.11.06;T0000.9244;;AK-Rot/Stan/s/ 5.0/n;Text;44
+01.11.06;T0000.9245;;AK-Rot/Stan/s/ 7.0/n;Text;45
+01.11.06;T0000.9246;;AK-Rot/Stan/s/10.0/n;Text;46
+01.11.06;T0000.9205;;AK-Schw/Stan/s/ 5.0/n;Text;5
+01.11.06;T0000.9206;;AK-Schw/Stan/s/ 7.0/n;Text;6
+01.11.06;T0060.9901;;PV-Schw/Stan/s/ 1.3/n;Text;6001
+01.11.06;T0060.9902;;PV-Schw/Stan/s/ 1.8/n;Text;6002
+01.11.06;T0060.9903;;PV-Schw/Stan/s/ 2.5/n;Text;6003
+01.11.06;T0060.9904;;PV-Schw/Stan/s/ 3.5/n;Text;6004
+01.11.06;T0060.9905;;PV-Schw/Stan/s/ 5.0/n;Text;6005
+01.11.06;T0060.9906;;PV-Schw/Stan/s/ 7.0/n;Text;6006
+01.11.06;T0060.9907;;PV-Schw/Stan/s/10.0/n;Text;6007
+01.11.06;T0060.9940;;PV-Rot/Stan/s/ 1.3/n;Text;6040
+01.11.06;T0060.9941;;PV-Rot/Stan/s/ 1.8/n;Text;6041
+01.11.06;T0060.9942;;PV-Rot/Stan/s/ 2.5/n;Text;6042
+01.11.06;T0060.9943;;PV-Rot/Stan/s/ 3.5/n;Text;6043
+01.11.06;T0060.9944;;PV-Rot/Stan/s/ 5.0/n;Text;6044
+01.11.06;T0060.9945;;PV-Rot/Stan/s/ 7.0/n;Text;6045
+01.11.06;T0060.9946;;PV-Rot/Stan/s/10.0/n;Text;6046
+01.11.06;T0000.9262;;AK-Viol/Stan/s/2.5/n;Text;62
+01.11.06;T0000.9263;;AK-Viol/Stan/s/3.5/n;Text;63
+01.11.06;T0000.9264;;AK-Viol/Stan/s/5.0/n;Text;64
+01.11.06;T0000.9265;;AK-Viol/Stan/s/7.0/n;Text;65
+01.11.06;T0000.9207;;AK-Schw/Stan/s/10.0/n;Text;7
+01.11.06;T0070.9901;;PV-Schw/Stan/s/ 1.3/j;Text;7001
+01.11.06;T0070.9902;;PV-Schw/Stan/s/ 1.8/j;Text;7002
+01.11.06;T0070.9903;;PV-Schw/Stan/s/ 2.5/j;Text;7003
+01.11.06;T0070.9904;;PV-Schw/Stan/s/ 3.5/j;Text;7004
+01.11.06;T0070.9905;;PV-Schw/Stan/s/ 5.0/j;Text;7005
+01.11.06;T0070.9906;;PV-Schw/Stan/s/ 7.0/j;Text;7006
+01.11.06;T0070.9907;;PV-Schw/Stan/s/10.0/j;Text;7007
+01.11.06;T0070.9940;;PV-Rot/Stan/s/ 1.3/j;Text;7040
+01.11.06;T0070.9941;;PV-Rot/Stan/s/ 1.8/j;Text;7041
+01.11.06;T0070.9942;;PV-Rot/Stan/s/ 2.5/j;Text;7042
+01.11.06;T0070.9943;;PV-Rot/Stan/s/ 3.5/j;Text;7043
+01.11.06;T0070.9944;;PV-Rot/Stan/s/ 5.0/j;Text;7044
+01.11.06;T0070.9945;;PV-Rot/Stan/s/ 7.0/j;Text;7045
+01.11.06;T0070.9946;;PV-Rot/Stan/s/10.0/j;Text;7046
+01.11.06;T0080.9901;;PV-Schw/TT-Ar/s/ 1.3/n;Text;8001
+01.11.06;T0080.9902;;PV-Schw/TT-Ar/s/ 1.8/n;Text;8002
+01.11.06;T0080.9903;;PV-Schw/TT-Ar/s/ 2.5/n;Text;8003
+01.11.06;T0080.9904;;PV-Schw/TT-Ar/s/ 3.5/n;Text;8004
+01.11.06;T0080.9905;;PV-Schw/TT-Ar/s/ 5.0/n;Text;8005
+01.11.06;T0080.9906;;PV-Schw/TT-Ar/s/ 7.0/n;Text;8006
+01.11.06;T0080.9907;;PV-Schw/TT-Ar/s/10.0/n;Text;8007
+01.11.06;T0080.9940;;PV-Rot/TT-Ar/s/ 1.3/n;Text;8040
+01.11.06;T0080.9041;;PV-Rot/TT-Ar/s/ 1.8/n;Text;8041
+01.11.06;T0080.9942;;PV-Rot/TT-Ar/s/ 2.5/n;Text;8042
+01.11.06;T0080.9943;;PV-Rot/TT-Ar/s/ 3.5/n;Text;8043
+01.11.06;T0080.9944;;PV-Rot/TT-Ar/s/ 5.0/n;Text;8044
+01.11.06;T0080.9945;;PV-Rot/TT-Ar/s/ 7.0/n;Text;8045
+01.11.06;T0080.9946;;PV-Rot/TT-Ar/s/10.0/n;Text;8046
+01.11.06;T0090.9901;;PV-Schw/TT-Ar/s/ 1.3/j;Text;9001
+01.11.06;T0090.9902;;PV-Schw/TT-Ar/s/ 1.8/j;Text;9002
+01.11.06;T0090.9903;;PV-Schw/TT-Ar/s/ 2.5/j;Text;9003
+01.11.06;T0090.9904;;PV-Schw/TT-Ar/s/ 3.5/j;Text;9004
+01.11.06;T0090.9905;;PV-Schw/TT-Ar/s/ 5.0/j;Text;9005
+01.11.06;T0090.9906;;PV-Schw/TT-Ar/s/ 7.0/j;Text;9006
+01.11.06;T0090.9907;;PV-Schw/TT-Ar/s/10.0/j;Text;9007
+01.11.06;T0090.9940;;PV-Rot/TT-Ar/s/ 1.3/j;Text;9040
+01.11.06;T0090.9941;;PV-Rot/TT-Ar/s/ 1.8/j;Text;9041
+01.11.06;T0090.9942;;PV-Rot/TT-Ar/s/ 2.5/j;Text;9042
+01.11.06;T0090.9943;;PV-Rot/TT-Ar/s/ 3.5/j;Text;9043
+01.11.06;T0090.9944;;PV-Rot/TT-Ar/s/ 5.0/j;Text;9044
+01.11.06;T0090.9945;;PV-Rot/TT-Ar/s/ 7.0/j;Text;9045
+01.11.06;T0090.9946;;PV-Rot/TT-Ar/s/10.0/j;Text;9046
+01.11.06;T0000.9292;;AK-D-Grün/Stan/s/2.5/n;Text;92
+01.11.06;T0000.9293;;AK-D-Grün/Stan/s/3.5/n;Text;93
+01.11.06;T0000.9294;;AK-D-Grün/Stan/s/5.0/n;Text;94
+01.11.06;T0000.9295;;AK-D-Grün/Stan/s/7.0/n;Text;95

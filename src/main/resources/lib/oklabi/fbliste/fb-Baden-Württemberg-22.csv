@@ -1,0 +1,3001 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode
+01.04.2010;#000.8000;;Geländepunkt ;Punkt;0
+01.04.2010;#000.8000;;Geländebruchkante;Linie;0
+01.04.2010;#000.8001;;Trigonometrischer Punkt;Punkt;1
+01.04.2010;#000.8002;;Aufnahmepunkt (amtl.);Punkt;2
+01.04.2010;#000.8003;;Höhenfestpunkt (amtl.);Punkt;3
+01.04.2010;#000.8004;;Querprofil Bezugspunkt, Paßpunkt ;Punkt;4
+01.04.2010;#000.8004;;Querprofil (Profillinie);Linie;4
+01.04.2010;#000.8005;;Festpunkt (SBV), Polygonpunkt;Punkt;5
+01.04.2010;#000.8005;;Visierlinie Netz ;Linie;5
+01.04.2010;#000.8006;;Höhenfestpunkt (SBV);Punkt;6
+01.02.2011;#000.8006;;Niv. Schleifen;Linie;6
+01.04.2010;#000.8007;;Böschung unten;Punkt;7
+01.04.2010;#000.8007;;Böschung unten;Linie ;7
+01.04.2010;#000.8008;;Böschung oben;Punkt;8
+01.04.2010;#000.8008;;Böschung oben;Linie;8
+01.04.2010;#000.8009;;geländeunabhängiger Punkt (für DGM);Punkt;9;;
+01.02.2011;#000.8009;;geländeunabhängige Linie (DGM);Linie;9;;
+01.04.2010;#000.8010;;Fahrbahnmitte / Achskleinpunkt;Punkt;10;;
+01.04.2010;#000.8010;;Fahrbahnmitte / Achse (Linien zur Darstellung von Straßen in kleinmaßstäblichen Plänen);Linie;10;;
+01.04.2010;#001.8000;;Querneigung 0 % in Achse;Punkt;100;;
+01.04.2010;#001.8001;;Querneigungswechsel;Punkt;101;;
+01.04.2010;#001.8001;;Autobahn;Linie;101;;
+01.04.2010;#001.8002;;Querneigungsänderung;Punkt;102;;
+01.04.2010;#001.8002;;Bundesstraße;Linie;102;;
+01.04.2010;#001.8003;;Gradiente - Tangentenschnittpunkt;Punkt;103;;
+01.04.2010;#001.8003;;Landesstraße;Linie;103;;
+01.04.2010;#001.8004;;Gradiente - Ausrundung Anfang;Punkt;104;;
+01.04.2010;#001.8004;;Kreisstraße;Linie;104;;
+01.04.2010;#001.8005;;Gradiente - Ausrundung Ende;Punkt;105;;
+01.04.2010;#001.8005;;sonstige Straßen;Linie;105;;
+01.04.2010;#001.8006;;Gradiente - Hochpunkt;Punkt;106;;
+01.04.2010;#001.8006;;Wege;Linie;106;;
+01.04.2010;#001.8007;;Gradiente - Tiefpunkt;Punkt;107;;
+01.04.2010;#001.8007;;Bestandsachse ASB;Linie;107;;
+01.04.2010;#001.8008;;Sichtdreieck Standpunkt;Punkt;108;;
+01.04.2010;#001.8008;;Fahrbahnachse ASB;Linie;108;;
+01.04.2010;#001.8009;;Sichtdreieck Zielpunkt;Punkt;109;;
+01.04.2010;#001.8009;;Sichtfeld (Begrenzungslinie);Linie;109;;
+01.04.2010;#000.8011;;Fahrbahnrand;Punkt;11;;
+01.04.2010;#000.8011;;Fahrbahnrand;Linie;11;;
+01.04.2010;#001.8010;;Achskleinpunkt mit Abstand rechts;Punkt;110;;
+01.04.2010;#001.8011;;Fahrbahnrand aus berechneten Koordinaten;Punkt;111;;
+01.09.2011;#001.8011;;Fahrbahnrand (Betonbefestigung);Linie;111;;
+01.04.2010;#001.8012;;Fahrbahnrand aus Digitalisierung / Konstruktion;Punkt;112;;
+01.09.2011;#001.8012;;Fahrbahnrand (bituminöse Befestigung);Linie;112;;
+01.07.2011;#001.8014;;Mittelstreifenüberfahrt;Punkt;114;;
+01.04.2010;#001.8014;;Mittelstreifenüberfahrt;Linie;114;;
+01.04.2010;#001.8015;;Beginn Verziehung Fahrbahnrand;Punkt;115;;
+01.04.2010;#001.8016;;Ende Verziehung Fahrbahnrand;Punkt;116;;
+01.04.2010;#001.8017;;Betonfuge in Fahrbahn;Punkt;117;;
+01.04.2010;#001.8017;;Betonfuge in Fahrbahn;Linie;117;;
+01.04.2010;#001.8018;;Fahrbahnrand (überdeckt);Linie;118;;
+01.04.2010;#001.8019;;Achskleinpunkt mit Abstand links;Punkt;119;;
+01.04.2010;#000.8012;;Fahrspurrand;Punkt;12;;
+01.04.2010;#000.8012;;Fahrspurrand;Linie;12;;
+01.04.2010;#001.8021;;Fahrspurrand aus berechneten Koordinaten;Punkt;121;;
+01.04.2010;#001.8022;;Fahrspurrand aus Digitalisierung / Konstruktion;Punkt;122;;
+01.04.2010;#001.8024;;Standspurrand;Punkt;124;;
+01.04.2010;#001.8024;;Standspurrand;Linie;124;;
+01.04.2010;#001.8025;;Beginn Verziehung Fahrspurrand;Punkt;125;;
+01.04.2010;#001.8026;;Ende Verziehung Fahrspurrand;Punkt;126;;
+01.04.2010;#000.8013;;Randstein unten;Punkt;13;;
+01.04.2010;#000.8013;;Randsteinlinie (unten);Linie;13;;
+01.10.2010;#001.8031;;Randstein unten, Hochbord Granit;Punkt;131;;
+01.10.2010;#001.8031;;Randstein unten, Hochbord Granit;Linie;131;;
+01.10.2010;#001.8032;;Randstein unten, Hochbord Beton;Punkt;132;;
+01.10.2010;#001.8032;;Randstein unten, Hochbord Beton;Linie;132;;
+01.10.2010;#001.8033;;Randstein unten, Rundbordsteine Granit;Punkt;133;;
+01.10.2010;#001.8033;;Randstein unten, Rundbordsteine Granit;Linie;133;;
+01.10.2010;#001.8034;;Randstein unten, Rundbordsteine Beton;Punkt;134;;
+01.10.2010;#001.8034;;Randstein unten, Rundbordsteine Beton;Linie;134;;
+01.04.2010;#001.8035;;Randstein unten, Flachbordstein Granit;Punkt;135;;
+01.04.2010;#001.8035;;Randstein unten, Flachbordstein Granit;Linie;135;;
+01.10.2010;#001.8036;;Randstein unten, Flachbordstein Beton;Punkt;136;;
+01.10.2010;#001.8036;;Randstein unten, Flachbordstein Beton;Linie;136;;
+01.04.2010;#001.8037;;Randstein unten, Tiefbord Granit;Punkt;137;;
+01.04.2010;#001.8037;;Randstein unten, Tiefbord Granit;Linie;137;;
+01.04.2010;#001.8038;;Randstein unten, Tiefbord Beton;Punkt;138;;
+01.04.2010;#001.8038;;Randstein unten, Tiefbord Beton;Linie;138;;
+01.04.2010;#001.8039;;Randstein unten, sonstige Randsteine;Punkt;139;;
+01.04.2010;#001.8039;;Randstein unten, sonstige Randsteine;Linie;139;;
+01.04.2010;#000.8014;;Randstein oben;Punkt;14;;
+01.04.2010;#000.8014;;Randstein oben;Linie;14;;
+01.04.2010;#001.8045;;Randstein oben - Beginn / Ende Absenkung;Punkt;145;;
+01.04.2010;#001.8046;;Randstein oben - abgesenkt;Punkt;146;;
+01.04.2010;#001.8046;;Randstein oben - abgesenkt;Linie;146;;
+01.04.2010;#000.8015;;Bankett;Punkt;15;;
+01.04.2010;#000.8015;;Bankett;Linie;15;;
+01.04.2010;#001.8051;;Auffüllung (eben - ohne Böschungsschraffen);Punkt;151;;
+01.04.2010;#001.8051;;Auffüllung (eben - ohne Böschungsschraffen);Linie;151;;
+01.04.2010;#001.8052;;Abgrabung (eben - ohne Böschungsschraffen);Punkt;152;;
+01.04.2010;#001.8052;;Abgrabung (eben - ohne Böschungsschraffen);Linie;152;;
+01.04.2010;#000.8016;;Längsmarkierung;Punkt;16;;
+01.04.2010;#000.8016;;Längsmarkierung;Linie;16;;
+01.04.2010;#001.8060;;Fahrbahnbegrenzung, nicht unterbrochene Leitlinie;Linie;160;;
+01.04.2010;#001.8061;;Leitlinie außerorts, außerhalb von Knotenpunkten;Linie;161;;
+01.04.2010;#001.8062;;Leitlinie innerorts, außerhalb von Knotenpunkten;Linie;162;;
+01.04.2010;#001.8063;;Leitlinie außerorts, innerhalb von Knotenpunkten;Linie;163;;
+01.04.2010;#001.8064;;Leitlinie innerorts, innerhalb von Knotenpunkten;Linie;164;;
+01.04.2010;#001.8065;;Warnlinie außerorts;Linie;165;;
+01.04.2010;#001.8066;;Warnlinie innerorts;Linie;166;;
+01.04.2010;#001.8067;;einseitige Fahrbahnbegrenzung außerorts;Linie;167;;
+01.04.2010;#001.8068;;einseitige Fahrbahnbegrenzung innerorts;Linie;168;;
+01.04.2010;#001.8069;;Fahrstreifenbegrenzung Doppelstrich;Linie;169;;
+01.04.2010;#000.8017;;Sperrfläche;Punkt;17;;
+01.04.2010;#000.8017;;Sperrfläche;Linie;17;;
+01.04.2010;#001.8071;;großes Schrägstrichgatter;Linie;171;;
+01.04.2010;#017.8011;;Sperrfläche-groß (Schraffur links);Linie;1711;;
+01.04.2010;#017.8012;;Sperrfläche-groß (schraffur rechts);Linie;1712;;
+01.04.2010;#001.8072;;kleines Schrägstrichgatter;Linie;172;;
+01.04.2010;#017.8021;;Sperrfläche-klein (Schraffur links);Linie;1721;;
+01.04.2010;#017.8022;;Sperrfläche-klein (Schraffur rechts);Linie;1722;;
+01.04.2010;#001.8073;;unterbrochene Sonderfahrstreifenbegrenzung Autobahn;Linie;173;;
+01.04.2010;#001.8074;;unterbrochene Sonderfahrstreifenbegrenzung außerorts;Linie;174;;
+01.04.2010;#001.8075;;unterbrochene Sonderfahrstreifenbegrenzung innerorts;Linie;175;;
+01.04.2010;#001.8076;;Wechselfahrstreifenbegrenzung außerorts;Linie;176;;
+01.04.2010;#001.8077;;Wechselfahrstreifenbegrenzung innerorts;Linie;177;;
+01.04.2010;#001.8078;;Wechselfahrstreifenbegrenzung Autobahn;Linie;178;;
+01.04.2010;#000.8018;;Quermarkierung;Punkt;18;;
+01.04.2010;#000.8018;;Quermarkierung;Linie;18;;
+01.04.2010;#001.8081;;Haltelinie;Linie;181;;
+01.04.2010;#001.8082;;Wartelinie;Linie;182;;
+01.04.2010;#001.8083;;Fußgängerüberweg;Linie;183;;
+01.04.2010;#001.8084;;Fußgängerfurt;Linie;184;;
+01.04.2010;#001.8085;;Radfahrerfurt;Linie;185;;
+01.04.2010;#001.8086;;Sonderfahrstreifenbegrenzung / Bushaltebucht;Linie;186;;
+01.04.2010;#001.8087;;Fahrbahnbegrenzung bei Zufahrten (Blockung 3 / 3);Linie;187;;
+01.04.2010;#001.8088;;Fahrstreifenbegrenzung bei Zufahrten (Blockung 1,5 / 1,5);Linie;188;;
+01.04.2010;#001.8089;;Grenzmarkierung Halte- und Parkverbote;Linie;189;;
+01.04.2010;#000.8019;;sonstige Markierung;Punkt;19;;
+01.04.2010;#000.8019;;sonstige Markierung;Linie;19;;
+01.04.2010;#001.8091;;Richtungspfeile Positionierungspunkt;Punkt;191;;
+01.04.2010;#001.8092;;Leitlinie Autobahn (durchgehender Schmalstrich);Linie;192;;
+01.04.2010;#001.8093;;Leitlinie Autobahn (unterbrochener Schmalstrich);Linie;193;;
+01.04.2010;#001.8094;;Leitlinie Autobahn, innerhalb von Knotenpunkten;Linie;194;;
+01.04.2010;#001.8095;;Warnlinie Autobahn;Linie;195;;
+01.04.2010;#001.8096;;Sonderfahrstreifenbegrenzung;Linie;196;;
+01.04.2010;#001.8097;;Text (wie BUS, 30 , 50 u.ä.) Positionierungspunkt;Punkt;197;;
+01.04.2010;#001.8097;;Fahrbahnbegrenzungslinie unterbrochen Autobahn;Linie;197;;
+01.04.2010;#001.8098;;aufgemalte Verkehrszeichen und sonstiges, Positionierungspunkt;Punkt;198;;
+01.04.2010;#001.8098;;aufgemalte Verkehrszeichen und sonstiges;Linie;198;;
+01.04.2010;#000.8020;;Grenzpunkt ;Punkt;20;;
+01.04.2010;#000.8020;;Grenzlinie;Linie;20;;
+01.04.2010;#002.8001;;Grenzpunkt aufgemessen (nicht amtl. Koord.);Punkt;201;;
+01.04.2010;#002.8001;;Grenze des Straßenflurstücks;Linie;201;;
+01.04.2010;#002.8002;;Grenzpunkt aus ALK (amtl. endgültige Koord.) ;Punkt;202;;
+01.04.2010;#002.8002;;Flurstücksgrenze aus ALK;Linie;202;;
+01.04.2010;#002.8003;;Grenzpunkt aus ALK (grafische Koord.);Punkt;203;;
+01.04.2010;#002.8004;;Grenzpunkt aus Digi./Konstr.;Punkt;204;;
+01.04.2010;#002.8005;;unvermarkter Grenzpunkt aus ALK (amtl. endgültige Koord.);Punkt;205;;
+01.04.2010;#002.8006;;unvermarkter Grenzpunkt aus ALK (grafische Koord.);Punkt;206;;
+01.04.2010;#002.8007;;unvermarkter Grenzpunkt aus Digi./Konstr.;Punkt;207;;
+01.04.2010;#002.8007;;Grenze Tank- und Rast GmbH;Linie;207;;
+01.04.2010;#002.8008;;Grenzpunkt mit unklarer Codierung in ALK;Punkt;208;;
+01.04.2010;#002.8009;;Kreismittelpunkt aus ALK;Punkt;209;;
+01.04.2010;#002.8009;;Zuordnungspfeil für Flst.Nr. aus ALK;Linie;209;;
+01.04.2010;#000.8021;;Grunderwerbsgrenzen;Punkt;21;;
+01.04.2010;#000.8021;;Grunderwerbsgrenzen;Linie;21;;
+01.04.2010;#002.8010;;Grunderwerb Sonderfläche;Punkt;210;;
+01.04.2010;#002.8010;;Grunderwerb Sonderfläche;Linie;210;;
+01.04.2010;#002.8011;;Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Punkt;211;;
+01.04.2010;#002.8011;;Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Linie;211;;
+01.04.2010;#002.8012;;Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Punkt;212;;
+01.04.2010;#002.8012;;Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Linie;212;;
+01.04.2010;#002.8013;;Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Punkt;213;;
+01.04.2010;#002.8013;;Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Linie;213;;
+01.04.2010;#002.8014;;Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Punkt;214;;
+01.04.2010;#002.8014;;Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Linie;214;;
+01.04.2010;#002.8015;;dauernd zu belastende (beanspruchte) Fläche (DB);Punkt;215;;
+01.04.2010;#002.8015;;dauernd zu belastende (beanspruchte) Fläche (DB);Linie;215;;
+01.04.2010;#002.8016;;vorübergehend in Anspruch zu nehmende Fläche (VB);Punkt;216;;
+01.04.2010;#002.8016;;vorübergehend in Anspruch zu nehmende Fläche (VB);Linie;216;;
+01.04.2010;#002.8017;;Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Punkt;217;;
+01.04.2010;#002.8017;;Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Linie;217;;
+01.04.2010;#002.8018;;Ausgleichsfläche (für landschaftspflegerische Maßnahmen zu erwerbende Fläche);Punkt;218;;
+01.04.2010;#002.8018;;Ausgleichsfläche (für landschaftspflegerische Maßnahmen zu erwerbende Fläche);Linie;218;;
+01.04.2010;#002.8019;;Grunderwerb Tauschfläche;Punkt;219;;
+01.04.2010;#002.8019;;Grunderwerb Tauschfläche;Linie;219;;
+01.04.2010;#000.8022;;Wohnhaus (aufgemessen);Punkt;22;;
+01.04.2010;#000.8022;;Gebäudelinie Wohnhaus aus Aufnahme;Linie;22;;
+01.04.2010;#002.8020;;Gebäudelinie Wohnhaus aus Aufnahme mit Schraffur ;Linie;220;;
+01.04.2010;#002.8022;;Gebäudepunkt aus ALK (Differenzierung nur über Linienart möglich);Punkt;222;;
+01.04.2010;#002.8022;;Gebäudelinie Wohnhaus aus ALK;Linie;222;;
+01.04.2010;#002.8023;;Hochhausumrisslinie;Linie;223;;
+01.04.2010;#002.8024;;Fensterhöhe (für Schallschutzberechnungen);Punkt;224;;
+01.04.2010;#002.8024;;Gebäudelinie innen;Linie;224;;
+01.04.2010;#002.8025;;EFH (Erdgeschoss-Fußboden-Höhe) ;Punkt;225;;
+01.04.2010;#002.8025;;Gebäudelinie unterirdisch (allgem.);Linie;225;;
+01.04.2010;#002.8026;;Wohnhaus aus Digitalisierung / Konstruktion;Punkt;226;;
+01.04.2010;#002.8027;;Firsthöhe;Punkt;227;;
+01.04.2010;#002.8027;;Firstlinie;Linie;227;;
+01.04.2010;#002.8028;;Wohnhaus geplant / im Bau;Punkt;228;;
+01.04.2010;#002.8028;;Gebäudelinie Wohnhaus geplant / im Bau;Linie;228;;
+01.04.2010;#002.8029;;Wohnhaus oben *;Punkt;229;;
+01.04.2010;#002.8029;;Gebäudelinie Wohnhaus oben *;Linie;229;;
+01.04.2010;#000.8023;;gewerblich genutztes Gebäude (aufgemessen);Punkt;23;;
+01.04.2010;#000.8023;;Gebäudelinie Gewerbegebäude aus Aufnahme;Linie;23;;
+01.04.2010;#002.8030;;Gebäudelinie Gewerbegebäude aus Aufnahme mit Schraffur ;Linie;230;;
+01.04.2010;#002.8032;;Gebäudelinie Gewerbegebäude aus ALK ;Linie;232;;
+01.04.2010;#002.8035;;Gebäudelinie aus ALK - keine Schraffur;Linie;235;;
+01.04.2010;#002.8036;;gewerblich genutztes Gebäude Digi./Konstruktion;Punkt;236;;
+01.04.2010;#002.8038;;gewerblich genutztes Gebäude geplant / im Bau;Punkt;238;;
+01.04.2010;#002.8038;;Gebäudelinie Gewerbegebäude geplant / im Bau;Linie;238;;
+01.04.2010;#002.8039;;gewerblich genutztes Gebäude oben *;Punkt;239;;
+01.04.2010;#002.8039;;Gebäudelinie Gewerbegebäude oben *;Linie;239;;
+01.04.2010;#000.8024;;öffentliches Gebäude (aufgemessen) ;Punkt;24;;
+01.04.2010;#000.8024;;Gebäudelinie öffentl. Gebäude aus Aufnahme;Linie;24;;
+01.04.2010;#002.8040;;Gebäudelinie öffentliches Gebäude aus Aufnahme mit Schraffur ;Linie;240;;
+01.04.2010;#002.8042;;Gebäudelinie öffentliches Gebäude aus ALK ;Linie;242;;
+01.04.2010;#002.8046;;öffentliches Gebäude aus Digi./Konstruktion;Punkt;246;;
+01.04.2010;#002.8048;;öffentliches Gebäude geplant / im Bau;Punkt;248;;
+01.04.2010;#002.8048;;Gebäudelinie öffentliches Gebäude geplant / im Bau;Linie;248;;
+01.04.2010;#002.8049;;öffentliches Gebäude oben *;Punkt;249;;
+01.04.2010;#002.8049;;Gebäudelinie öffentliches Gebäudelinie oben *;Linie;249;;
+01.04.2010;#000.8025;;Überdachung, Durchfahrt (aufgemessen);Punkt;25;;
+01.04.2010;#000.8025;;Umgrenzung der Überdachung (allgemein);Linie;25;;
+01.04.2010;#002.8051;;Umgrenzung der Überdachung / Durchfahrt (geschlossen);Linie;251;;
+01.04.2010;#002.8052;;Umgrenzung der Überdachung / Durchfahrt (offen);Linie;252;;
+01.04.2010;#002.8053;;Überdachungsdiagonale (gestrichelt);Linie;253;;
+01.04.2010;#002.8056;;Überdachung/Durchfahrt aus Digi. / Konstruktion;Punkt;256;;
+01.04.2010;#002.8059;;Überdachung oben *;Punkt;259;;
+01.04.2010;#002.8059;;Überdachung oben *;Linie;259;;
+01.04.2010;#000.8026;;Gebäudeanbau (aufgemessen);Punkt;26;;
+01.04.2010;#000.8026;;Gebäudeanbau;Linie;26;;
+01.04.2010;#002.8061;;Kellerfenster;Punkt;261;;
+01.04.2010;#002.8062;;Lichtschacht;Punkt;262;;
+01.04.2010;#002.8062;;Lichtschacht Umrisslinie;Linie;262;;
+01.04.2010;#002.8063;;Terrasse;Punkt;263;;
+01.04.2010;#002.8063;;Terrasse Umrisslinie;Linie;263;;
+01.04.2010;#002.8065;;Gebäudeeingang;Punkt;265;;
+01.04.2010;#002.8065;;Gebäudeeingang;Linie;265;;
+01.02.2011;#002.8066;;Gebäudeanbau aus Digi. / Konstruktion;Punkt;266;;
+01.05.2011;#002.8067;;Gebäudesockel;Punkt;267;;
+01.05.2011;#002.8067;;Gebäudesockel;Linie;267;;
+01.05.2011;#002.8068;;Gebäudefundament;Punkt;268;;
+01.05.2011;#002.8068;;Gebäudefundament;Linie;268;;
+01.04.2010;#002.8069;;Anbau oben *;Punkt;269;;
+01.04.2010;#002.8069;;Anbau oben *;Linie;269;;
+01.04.2010;#000.8027;;Bauleitplanung (Grenzpunkt);Punkt;27;;
+01.04.2010;#000.8027;;Bauleitplanung (Grenzlinie);Linie;27;;
+01.04.2010;#002.8071;;Grenzlinie Bebauungsplan;Punkt;271;;
+01.04.2010;#002.8071;;Grenzlinie Bebauungsplan;Linie;271;;
+01.04.2010;#002.8072;;Wohnbaufläche;Punkt;272;;
+01.04.2010;#002.8072;;Wohnbaufläche;Linie;272;;
+01.04.2010;#027.8021;;Kleinsiedlungsgebiet;Punkt;2721;;
+01.04.2010;#027.8021;;Kleinsiedlungsgebiet;Linie;2721;;
+01.04.2010;#027.8022;;reines Wohngebiet;Punkt;2722;;
+01.04.2010;#027.8022;;reines Wohngebiet;Linie;2722;;
+01.04.2010;#027.8023;;allgemeines Wohngebiet;Punkt;2723;;
+01.04.2010;#027.8023;;allgemeines Wohngebiet;Linie;2723;;
+01.04.2010;#027.8024;;besonderes Wohngebiet;Punkt;2724;;
+01.04.2010;#027.8024;;besonderes Wohngebiet;Linie;2724;;
+01.04.2010;#002.8073;;Gemischte Baufläche;Punkt;273;;
+01.04.2010;#002.8073;;Gemischte Baufläche;Linie;273;;
+01.04.2010;#027.8031;;Dorfgebiet;Punkt;2731;;
+01.04.2010;#027.8031;;Dorfgebiet;Linie;2731;;
+01.04.2010;#027.8032;;Mischgebiet;Punkt;2732;;
+01.04.2010;#027.8032;;Mischgebiet;Linie;2732;;
+01.04.2010;#027.8033;;Kerngebiet;Punkt;2733;;
+01.04.2010;#027.8033;;Kerngebiet;Linie;2733;;
+01.04.2010;#002.8074;;Gewerbliche Baufläche;Punkt;274;;
+01.04.2010;#002.8074;;Gewerbliche Baufläche;Linie;274;;
+01.04.2010;#027.8041;;Gewerbegebiet;Punkt;2741;;
+01.04.2010;#027.8041;;Gewerbegebiet;Linie;2741;;
+01.04.2010;#027.8042;;Industriegebiet;Punkt;2742;;
+01.04.2010;#027.8042;;Industriegebiet;Linie;2742;;
+01.04.2010;#002.8075;;Sonderbaufläche;Punkt;275;;
+01.04.2010;#002.8075;;Sonderbaufläche;Linie;275;;
+01.04.2010;#027.8051;;sonstiges Sondergebiet (Krankenhaus);Punkt;2751;;
+01.04.2010;#027.8051;;sonstiges Sondergebiet (Krankenhaus);Linie;2751;;
+01.04.2010;#027.8052;;sonstiges Sondergebiet (Schule);Punkt;2752;;
+01.04.2010;#027.8052;;sonstiges Sondergebiet (Schule);Linie;2752;;
+01.04.2010;#002.8076;;Grenzpunkt Flächennutzungsplan;Punkt;276;;
+01.04.2010;#002.8076;;Grenzlinie Flächennutzungsplan;Linie;276;;
+01.04.2010;#000.8028;;Gemarkungsgrenzpunkt (aufgemessen);Punkt;28;;
+01.04.2010;#000.8028;;Gemarkungsgrenze (allgemein);Linie;28;;
+01.04.2010;#002.8080;;Gemarkungsgrenze;Linie;280;;
+01.04.2010;#002.8081;;Flurgrenze;Linie;281;;
+01.04.2010;#002.8082;;Gemarkungsgrenzpunkt amtl. Koordinaten (bei Umkodierung der ALK-Punkte);Punkt;282;;
+01.04.2010;#002.8082;;Gemeinde-, Stadtgrenze;Linie;282;;
+01.04.2010;#002.8083;;Kreisgrenze;Linie;283;;
+01.04.2010;#002.8084;;Grenze der Region;Linie;284;;
+01.04.2010;#002.8085;;RP-Bezirksgrenze;Linie;285;;
+01.04.2010;#002.8086;;Gemarkungsgrenzpunkt aus Digi. / Konstruktion;Punkt;286;;
+01.04.2010;#002.8086;;Landesgrenze;Linie;286;;
+01.04.2010;#002.8087;;Bundesgrenze;Linie;287;;
+01.04.2010;#002.8088;;Flurbereinigungsgebietsgrenzpunkt;Punkt;288;;
+01.04.2010;#002.8088;;Flurbereinigungsgebietsgrenze;Linie;288;;
+01.04.2010;#000.8029;;Nutzungsgrenze ;Punkt;29;;
+01.04.2010;#000.8029;;Nutzungsgrenzlinie ;Linie;29;;
+01.04.2010;#002.8090;;Nutzungsgrenze aus Befliegung oder Geländeaufnahme;Linie;290;;
+01.04.2010;#002.8095;;Acker;Linie;295;;
+01.04.2010;#002.8096;;Funktionsfläche (z. B. Tank- und Rastanlagen);Linie;296;;
+01.04.2010;#002.8097;;Grünland (intensiv);Linie;297;;
+01.04.2010;#002.8098;;Grünland (extensiv);Linie;298;;
+01.04.2010;#002.8099;;Brachfläche, Unland;Linie;299;;
+01.04.2010;#000.8030;;Wegrand ;Punkt;30;;
+01.04.2010;#000.8030;;Wegrand ;Linie;30;;
+01.04.2010;#003.8001;;Wegrand aufgemessen;Punkt;301;;
+01.04.2010;#003.8001;;Grasweg / Erdweg;Linie;301;;
+01.04.2010;#003.8002;;Wegrand aus berechneten Koordinaten;Punkt;302;;
+01.04.2010;#003.8002;;wassergebunden befestigter Weg;Linie;302;;
+01.04.2010;#003.8003;;bit. befestigter Weg;Linie;303;;
+01.04.2010;#003.8004;;gepflasterter Weg;Linie;304;;
+01.04.2010;#003.8005;;Wegmitte;Punkt;305;;
+01.04.2010;#003.8005;;sonstiger befestigter Weg;Linie;305;;
+01.04.2010;#003.8006;;Wegrand digitalisiert / Konstruktion;Punkt;306;;
+01.04.2010;#003.8006;;bit. Gehweg;Linie;306;;
+01.04.2010;#003.8007;;bit. Radweg;Linie;307;;
+01.04.2010;#003.8008;;bit. kombinierter Rad-/Gehweg;Linie;308;;
+01.04.2010;#003.8009;;bit. Mehrzweckweg;Linie;309;;
+01.04.2010;#000.8031;;Mulde (Tiefpunkt);Punkt;31;;
+01.04.2010;#000.8031;;Muldensohle;Linie;31;;
+01.04.2010;#003.8011;;Mulde unbefestigt;Linie;311;;
+01.04.2010;#003.8012;;Mulde befestigt;Linie;312;;
+01.04.2010;#003.8019;;Muldenaußenrand (Punkt der Begrenzungslinie);Punkt;319;;
+01.04.2010;#003.8019;;Muldenaußenrandlinie;Linie;319;;
+01.04.2010;#000.8032;;Sonderbauwerke (alt 42);Punkt;32;;
+01.04.2010;#000.8032;;Sonderbauwerke (alt 42);Linie;32;;
+01.04.2010;#003.8022;;Stahlfertigteildurchlaß sichtbarer Teil (alt 427);Punkt;322;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8022;;Stahlfertigteildurchlaß sichtbarer Teil (alt 427);Linie;322;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8023;;Stahlfertigteildurchlaß unsichtbarer Teil (alt 428);Punkt;323;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8023;;Stahlfertigteildurchlaß unsichtbarer Teil (alt 428);Linie;323;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8024;;Dunglege (alt 426);Punkt;324;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8024;;Dunglege (alt 426);Linie;324;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8025;;Salzsilo (alt 425);Punkt;325;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8025;;Salzsilo (alt 425);Linie;325;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8026;;Wehr;Punkt;326;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8026;;Wehr;Linie;326;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8027;;Rechen;Punkt;327;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8027;;Rechen;Linie;327;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8028;;Schleuse;Punkt;328;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8028;;Schleuse;Linie;328;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8033;;Mauer unten ;Punkt;33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8033;;Mauer unten;Linie;33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8031;;L-Steine unten;Punkt;331;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8031;;L-Steine unten ;Linie;331;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8032;;U-Steine unten;Punkt;332;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8032;;U-Steine unten;Linie;332;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8033;;Gabionen unten;Punkt;333;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8033;;Gabionen unten;Linie;333;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8034;;Trockenmauer unten;Punkt;334;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8034;;Trockenmauer unten;Linie;334;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8035;;Mauereck unten;Punkt;335;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8036;;Palisade unten;Punkt;336;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.07.2011;#003.8036;;Palisade unten;Linie;336;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8034;;Mauer oben;Punkt;34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8034;;Mauer oben (rechts);Linie;34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8040;;Mauer Umrissline oben;Linie;340;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8041;;L-Steine oben;Punkt;341;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8041;;L-Steine oben (rechts);Linie;341;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#003.8042;;U-Steine oben;Punkt;342;;
+01.04.2010;#003.8042;;U-Steine oben (rechts);Linie;342;;
+01.04.2010;#003.8043;;Gabionen oben;Punkt;343;;
+01.04.2010;#003.8043;;Gabionen oben (rechts);Linie;343;;
+01.07.2011;#003.8044;;Trockenmauer oben;Punkt;344;;
+01.05.2011;#003.8044;;Trockenmauer oben (rechts);Linie;344;;
+01.04.2010;#003.8045;;Mauerecke oben;Punkt;345;;
+01.07.2011;#003.8046;;Palisade oben;Punkt;346;;
+01.07.2011;#003.8046;;Palisade oben (rechts);Linie;346;;
+01.04.2010;#000.8035;;Schienenoberkante;Punkt;35;;
+01.04.2010;#000.8035;;Schiene;Linie;35;;
+01.04.2010;#003.8051;;Punkt einer Schienen-Mittellinie;Punkt;351;;
+01.04.2010;#003.8051;;Schienenmittellinie - Gleisachse (Normalspur);Linie;351;;
+01.04.2010;#003.8052;;Schienenmittellinie - Gleisachse (1 m - Spur);Linie;352;;
+01.04.2010;#003.8053;;Schienenmittellinie - Gleisachse (0.75 m - Spur);Linie;353;;
+01.07.2011;#003.8055;;Gleisachse - Achskleinpunkt (Mittellinie vor Ort gemittelt);Punkt;355;;
+01.04.2010;#003.8057;;Schotterbett unten;Punkt;357;;
+01.04.2010;#003.8057;;Schotterbett unten;Linie;357;;
+01.04.2010;#003.8058;;Schotterbett oben;Punkt;358;;
+01.04.2010;#003.8058;;Schotterbett oben;Linie;358;;
+01.04.2010;#000.8036;;Rand einer befestigten Fläche;Punkt;36;;
+01.04.2010;#000.8036;;Rand einer befestigten Fläche;Linie;36;;
+01.04.2010;#003.8061;;Betonbefestigung;Punkt;361;;
+01.04.2010;#003.8061;;Betonbefestigung;Linie;361;;
+01.04.2010;#003.8062;;bituminöse Befestigung;Punkt;362;;
+01.04.2010;#003.8062;;bituminöse Befestigung;Linie;362;;
+01.04.2010;#003.8063;;Pflaster Naturstein;Punkt;363;;
+01.04.2010;#003.8063;;Pflaster Naturstein;Linie;363;;
+01.04.2010;#003.8064;;Pflaster Kunststein;Punkt;364;;
+01.04.2010;#003.8064;;Pflaster Kunststein;Linie;364;;
+01.04.2010;#003.8065;;wassergebundene Befestigung;Punkt;365;;
+01.04.2010;#003.8065;;wassergebundene Befestigung;Linie;365;;
+01.04.2010;#003.8067;;Rasengittersteine;Punkt;367;;
+01.04.2010;#003.8067;;Rasengittersteine;Linie;367;;
+01.10.2010;#003.8068;;Steinschüttung (Grobschotter);Punkt;368;;
+01.10.2010;#003.8068;;Steinschüttung (Grobschotter);Linie;368;;
+01.04.2010;#003.8069;;sonstige Befestigung;Punkt;369;;
+01.04.2010;#003.8069;;sonstige Befestigung;Linie;369;;
+01.04.2010;#000.8037;;Graben unten;Punkt;37;;
+01.04.2010;#000.8037;;Graben unten;Linie;37;;
+01.04.2010;#003.8075;;Grabentiefpunkt / Grabenmitte;Punkt;375;;
+01.04.2010;#003.8075;;Grabensohle / Grabenmitte;Linie;375;;
+01.04.2010;#003.8076;;Grabensohlschale Mitte;Punkt;376;;
+01.04.2010;#003.8076;;Grabensohlschale Mitte;Linie;376;;
+01.04.2010;#000.8038;;Graben oben;Punkt;38;;
+01.04.2010;#000.8038;;Graben oben;Linie;38;;
+01.04.2010;#000.8039;;sonst. topografischer Punkte;Punkt;39;;
+01.04.2010;#000.8039;;sonst. topografische Linie;Linie;39;;
+01.04.2010;#003.8090;;Punkt einer topografischen Linie aus ALK;Punkt;390;;
+01.04.2010;#003.8092;;topografische Linie aus ALK;Linie;392;;
+01.04.2010;#003.8093;;topografische Linie von DRITTEN;Linie;393;;
+01.04.2010;#003.8094;;herausfallender Punkt aus ALK;Punkt;394;;
+01.05.2011;#003.8094;;Gewässerlinie aus ALK;Linie;394;;
+01.04.2010;#003.8095;;historischer Punkt aus ALK;Punkt;395;;
+01.04.2010;#003.8095;;überdeckte topografische Linie aus ALK;Linie;395;;
+01.04.2010;#003.8097;;Böschungslinie unten aus ALK;Linie;397;;
+01.04.2010;#003.8098;;Böschungslinie oben aus ALK;Linie;398;;
+01.04.2010;#003.8099;;Punkt ohne Kennung aus ALK (meist Leitpunkt oder PP);Punkt;399;;
+01.04.2010;#003.8099;;Linie ohne Kennung aus ALK;Linie;399;;
+01.04.2010;#000.8040;;Brückenwiderlager;Punkt;40;;
+01.04.2010;#000.8040;;Brückenwiderlager;Linie;40;;
+01.04.2010;#004.8000;;Kreuzungspunkt des BW;Punkt;400;;
+01.04.2010;#004.8001;;Brückenwiderlager unten;Punkt;401;;
+01.04.2010;#004.8001;;Brückenwiderlager unten;Linie;401;;
+01.04.2010;#004.8002;;Brückenwiderlager oben;Punkt;402;;
+01.04.2010;#004.8002;;Brückenwiderlager oben;Linie;402;;
+01.04.2010;#004.8003;;Auflager;Punkt;403;;
+01.04.2010;#004.8003;;Auflager Umrisslinie;Linie;403;;
+01.04.2010;#004.8004;;Dehnfuge;Punkt;404;;
+01.04.2010;#004.8004;;Dehnfuge;Linie;404;;
+01.04.2010;#004.8005;;Punkt der Auflagerachse;Punkt;405;;
+01.04.2010;#004.8005;;Auflagerachse;Linie;405;;
+01.04.2010;#004.8006;;Fahrbahnübergang;Punkt;406;;
+01.04.2010;#004.8006;;Fahrbahnübergang;Linie;406;;
+01.04.2010;#004.8007;;Gewölbefußpunkt;Punkt;407;;
+01.04.2010;#004.8007;;Gewölbefuß;Linie;407;;
+01.04.2010;#004.8008;;Flügelwand unten;Punkt;408;;
+01.04.2010;#004.8008;;Flügelwand unten;Linie;408;;
+01.04.2010;#004.8009;;Flügelwand oben;Punkt;409;;
+01.04.2010;#004.8009;;Flügelwand oben;Linie;409;;
+01.04.2010;#000.8041;;Pfeiler;Punkt;41;;
+01.04.2010;#000.8041;;Pfeiler;Linie;41;;
+01.04.2010;#004.8011;;Pfeiler unten;Punkt;411;;
+01.04.2010;#004.8011;;Pfeiler unten;Linie;411;;
+01.04.2010;#004.8012;;Pfeiler oben;Punkt;412;;
+01.04.2010;#004.8012;;Pfeiler oben;Linie;412;;
+01.04.2010;#004.8015;;Pfeilerfundament unten;Punkt;415;;
+01.04.2010;#004.8015;;Pfeilerfundament unten;Linie;415;;
+01.04.2010;#004.8016;;Pfeilerfundament oben;Punkt;416;;
+01.04.2010;#004.8016;;Pfeilerfundament oben;Linie;416;;
+01.05.2011;#004.8018;;Verbau;Punkt;418;;
+01.05.2011;#004.8018;;Verbau;Linie;418;;
+01.04.2010;#004.8019;;Arbeitsraum an Bauwerken;Punkt;419;;
+01.04.2010;#004.8019;;Arbeitsraum an Bauwerken;Linie;419;;
+01.04.2010;#000.8042;;Tunnel;Punkt;42;;
+01.04.2010;#000.8042;;Tunnel;Linie;42;;
+01.04.2010;#004.8020;;Tunnelwand;Punkt;420;;
+01.04.2010;#004.8020;;Tunnelwand;Linie;420;;
+01.04.2010;#004.8021;;Tunnelportal;Punkt;421;;
+01.04.2010;#004.8021;;Tunnelportal;Linie;421;;
+01.04.2010;#004.8022;;Nischeneck;Punkt;422;;
+01.04.2010;#004.8022;;Nische im Tunnel;Linie;422;;
+01.04.2010;#004.8023;;Wandschrank im Tunnel;Punkt;423;;
+01.04.2010;#004.8023;;Wandschrank im Tunnel;Linie;423;;
+01.04.2010;#004.8024;;Lüftungsschlitz im Tunnel;Punkt;424;;
+01.04.2010;#004.8024;;Lüftungsschlitz im Tunnel;Linie;424;;
+01.04.2010;#004.8029;;Blockfuge;Punkt;429;;
+01.04.2010;#004.8029;;Blockfuge;Linie;429;;
+01.04.2010;#000.8043;;Stützmauer unten ;Punkt;43;;
+01.04.2010;#000.8043;;Stützmauer unten ;Linie;43;;
+01.05.2011;#004.8031;;Spundwand unten ;Punkt;431;;
+01.05.2011;#004.8031;;Spundwand unten;Linie;431;;
+01.04.2010;#004.8035;;Betongleitwand mit Hinterfüllung unten;Punkt;435;;
+01.04.2010;#004.8035;;Betongleitwand mit Hinterfüllung unten;Linie;435;;
+01.04.2010;#000.8044;;Stützmauer oben;Punkt;44;;
+01.04.2010;#000.8044;;Stützmauer oben;Linie;44;;
+01.05.2011;#004.8041;;Spundwand oben;Punkt;441;;
+01.05.2011;#004.8041;;Spundwand oben;Linie;441;;
+01.04.2010;#004.8045;;Betongleitwand mit Hinterfüllung oben;Punkt;445;;
+01.04.2010;#004.8045;;Betongleitwand mit Hinterfüllung oben;Linie;445;;
+01.04.2010;#000.8045;;Treppe;Punkt;45;;
+01.04.2010;#000.8045;;Treppe;Linie;45;;
+01.04.2010;#004.8052;;Rolltreppe;Punkt;452;;
+01.04.2010;#004.8052;;Rolltreppe;Linie;452;;
+01.04.2010;#004.8053;;Podest;Punkt;453;;
+01.04.2010;#004.8053;;Podest;Linie;453;;
+01.04.2010;#004.8055;;Rampe;Punkt;455;;
+01.04.2010;#004.8055;;Rampe;Linie;455;;
+01.04.2010;#004.8056;;Fahrstuhl;Punkt;456;;
+01.04.2010;#004.8056;;Fahrstuhl;Linie;456;;
+01.04.2010;#000.8046;;Geländer;Punkt;46;;
+01.04.2010;#000.8046;;Geländer;Linie;46;;
+01.04.2010;#004.8065;;Schutzgeländer um Kraftstoffzapfsäulen (Tank- und Rastanlagen);Punkt;465;;
+01.04.2010;#004.8065;;Schutzgeländer um Kraftstoffzapfsäulen (Tank- und Rastanlagen);Linie;465;;
+01.04.2010;#004.8069;;Geländer oben *;Punkt;469;;
+01.04.2010;#004.8069;;Geländer oben *;Linie;469;;
+01.04.2010;#000.8047;;Lärmschutzwand;Punkt;47;;
+01.04.2010;#000.8047;;Lärmschutzwand;Linie;47;;
+01.04.2010;#004.8071;;Lärmschutzwand unten Straßenseite;Punkt;471;;
+01.04.2010;#004.8071;;Lärmschutzwand unten Straßenseite;Linie;471;;
+01.04.2010;#004.8072;;Lärmschutzwand unten Außenseite;Punkt;472;;
+01.04.2010;#004.8072;;Lärmschutzwand unten Außenseite ;Linie;472;;
+01.04.2010;#004.8073;;Lärmschutzwand oben Straßenseite;Punkt;473;;
+01.04.2010;#004.8073;;Lärmschutzwand oben Straßenseite;Linie;473;;
+01.04.2010;#004.8074;;Lärmschutzwand oben Außenseite;Punkt;474;;
+01.04.2010;#004.8074;;Lärmschutzwand oben Außenseite;Linie;474;;
+01.04.2010;#004.8077;;Lärmschutzwand unten;Punkt;477;;
+01.04.2010;#004.8077;;Umrisslinien der Lärmschutzwand unten;Linie;477;;
+01.04.2010;#004.8078;;Lärmschutzwand oben;Punkt;478;;
+01.04.2010;#004.8078;;Umrisslinien der Lärmschutzwand oben;Linie;478;;
+01.04.2010;#004.8079;;Lärmschutzwand oben mittig *;Punkt;479;;
+01.04.2010;#004.8079;;Lärmschutzwand mittig (oben);Linie;479;;
+01.04.2010;#084.8070;;Lärmschutzwand Beton;Linie;8470;;
+01.04.2010;#084.8071;;Lärmschutzwand Holz;Linie;8471;;
+01.04.2010;#084.8072;;Lärmschutzwand Metall;Linie;8472;;
+01.04.2010;#084.8073;;Lärmschutzwand Glas;Linie;8473;;
+01.04.2010;#084.8074;;Lärmschutzwand Kunststoff;Linie;8474;;
+01.04.2010;#084.8075;;Lärmschutzwand Beton bepflanzt;Linie;8475;;
+01.04.2010;#084.8076;;Lärmschutzwand Holz bepflanzt;Linie;8476;;
+01.04.2010;#084.8077;;Lärmschutzwand Metall bepflanzt;Linie;8477;;
+01.04.2010;#084.8078;;Lärmschutzwand Glas bepflanzt;Linie;8478;;
+01.04.2010;#084.8079;;Lärmschutzwand Kunststoff bepflanzt;Linie;8479;;
+01.04.2010;#000.8048;;Unterkante Bauwerk (aufgemessen);Punkt;48;;
+01.04.2010;#000.8048;;Unterkante Bauwerk;Linie;48;;
+01.04.2010;#004.8086;;Unterkante Bauwerk konstruiert / digitalisiert;Punkt;486;;
+01.04.2010;#000.8049;;Gesimskante (aufgemessen);Punkt;49;;
+01.04.2010;#000.8049;;Gesimskante;Linie;49;;
+01.04.2010;#004.8096;;Gesimskante konstruiert / digitalisiert;Punkt;496;;
+01.04.2010;#000.8050;;Kontrollschacht der Straßenentwässerung;Punkt;50;;
+01.04.2010;#000.8050;;Straßenentwässerungsleitung;Linie;50;;
+01.04.2010;#005.8000;;Schacht inaktiv (alt 507);Punkt;500;;
+01.05.2011;#005.8000;;Straßenentwässerungsleitung inaktiv;Linie;500;;
+01.10.2010;#005.8001;;Kontrollschacht mit Schieber;Punkt;501;;
+01.10.2010;#005.8001;;Kontrollschacht mit Schieber Umrisslinie;Linie;501;;
+01.04.2010;#005.8002;;Leichtstoffabscheider (Kraftstoff);Punkt;502;;
+01.04.2010;#005.8002;;Leichtstoffabscheider (Kraftstoff) Umrisslinie;Linie;502;;
+01.04.2010;#005.8003;;Leichtstoffabscheider (Fett);Punkt;503;;
+01.04.2010;#005.8003;;Leichtstoffabscheider (Fett) Umrisslinie;Linie;503;;
+01.04.2010;#005.8004;;Schacht mit Pumpwerk;Punkt;504;;
+01.04.2010;#005.8004;;Schacht mit Pumpwerk Umrisslinie;Linie;504;;
+01.04.2010;#005.8005;;Drosselschacht;Punkt;505;;
+01.04.2010;#005.8005;;Sickerrohrleitung, Drainage;Linie;505;;
+01.04.2010;#005.8006;;Kontrollschacht rund;Punkt;506;;
+01.04.2010;#005.8006;;Straßenentwässerung - Druckleitung;Linie;506;;
+01.04.2010;#005.8007;;Kontrollschacht eckig ;Punkt;507;;
+01.04.2010;#005.8007;;Umrisslinie Absturzbauwerk (Energieumwandlungsschacht);Linie;507;;
+01.04.2010;#005.8008;;Kontrollschacht (künftig entfallend);Punkt;508;;
+01.04.2010;#005.8008;;Entwässerungsleitung (künftig entfallend);Linie;508;;
+01.04.2010;#005.8009;;Ecke des Kontrollschachtes der Entwässerung;Punkt;509;;
+01.04.2010;#005.8009;;Umrisslinie des Kontrollschachtes;Linie;509;;
+01.02.2011;#085.8002;;Drainageleitung DN 100;Linie;8502;;
+01.02.2011;#085.8003;;Drainageleitung DN 150;Linie;8503;;
+01.02.2011;#085.8004;;Drainageleitung DN 200;Linie;8504;;
+01.02.2011;#085.8005;;Drainageleitung DN 250;Linie;8505;;
+01.02.2011;#085.8006;;Drainageleitung DN 300;Linie;8506;;
+01.02.2011;#085.8007;;Drainageleitung DN 400;Linie;8507;;
+01.02.2011;#085.8012;;Straßenentwässerungsleitung DN 200;Linie;8512;;
+01.02.2011;#085.8013;;Straßenentwässerungsleitung DN 300;Linie;8513;;
+01.02.2011;#085.8014;;Straßenentwässerungsleitung DN 400;Linie;8514;;
+01.02.2011;#085.8015;;Straßenentwässerungsleitung DN 500;Linie;8515;;
+01.02.2011;#085.8016;;Straßenentwässerungsleitung DN 600;Linie;8516;;
+01.02.2011;#085.8017;;Straßenentwässerungsleitung DN 700;Linie;8517;;
+01.02.2011;#085.8018;;Straßenentwässerungsleitung DN 800;Linie;8518;;
+01.02.2011;#085.8019;;Straßenentwässerungsleitung DN 900;Linie;8519;;
+01.02.2011;#085.8020;;Straßenentwässerungsleitung DN 1000;Linie;8520;;
+01.02.2011;#085.8021;;Straßenentwässerungsleitung DN 1100;Linie;8521;;
+01.02.2011;#085.8022;;Straßenentwässerungsleitung DN 1200;Linie;8522;;
+01.02.2011;#085.8023;;Straßenentwässerungsleitung DN 1300;Linie;8523;;
+01.02.2011;#085.8024;;Straßenentwässerungsleitung DN 1400;Linie;8524;;
+01.02.2011;#085.8025;;Straßenentwässerungsleitung DN 1500;Linie;8525;;
+01.02.2011;#085.8026;;Straßenentwässerungsleitung DN 1600;Linie;8526;;
+01.02.2011;#085.8027;;Straßenentwässerungsleitung DN 1700;Linie;8527;;
+01.02.2011;#085.8028;;Straßenentwässerungsleitung DN 1800;Linie;8528;;
+01.02.2011;#085.8029;;Straßenentwässerungsleitung DN 1900;Linie;8529;;
+01.02.2011;#085.8030;;Straßenentwässerungsleitung DN 2000;Linie;8530;;
+01.02.2011;#085.8040;;Straßenentwässerungsleitung DN 2200;Linie;8540;;
+01.04.2010;#000.8051;;Muldenablaufschacht;Punkt;51;;
+01.04.2010;#005.8011;;Muldenablaufschacht rund;Punkt;511;;
+01.04.2010;#005.8012;;Muldenablaufschacht eckig;Punkt;512;;
+01.04.2010;#005.8013;;Muldenablaufschacht mit Betonsockel;Punkt;513;;
+01.04.2010;#005.8018;;Muldenablaufschacht (künftig entfallend);Punkt;518;;
+01.04.2010;#005.8019;;Ecke des Muldenablaufschachtes (-bauwerkes);Punkt;519;;
+01.04.2010;#005.8019;;Umrisslinie des Muldenablaufschachtes (-bauwerkes);Linie;519;;
+01.04.2010;#000.8052;;Straßenablauf (allg.) - Bezugspunkt mittig;Punkt;52;;
+01.03.2011;#005.8020;;Straßenablaufschacht schmal (mittig);Punkt;520;;
+01.04.2010;#005.8021;;Straßenablaufschacht seitlich;Punkt;521;;
+01.04.2010;#005.8022;;Straßenablaufschacht schmal (seitlich);Punkt;522;;
+01.04.2010;#005.8023;;Bergablaufschacht breit (seitlich);Punkt;523;;
+01.04.2010;#005.8024;;Hofablauf (mittig);Punkt;524;;
+01.04.2010;#005.8028;;Straßenablaufschacht (künftig entfallend);Punkt;528;;
+01.04.2010;#005.8029;;Ecke eines Straßenablaufs;Punkt;529;;
+01.04.2010;#005.8029;;Umrisslinie eines Straßenablaufs;Linie;529;;
+01.04.2010;#000.8053;;Straßenablauf im Randstein - Bezugspunkt mittig (oben) ;Punkt;53;;
+01.04.2010;#005.8031;;Straßenablauf im Randstein (Bezugspunkt am Hochbord / seitlich unten);Punkt;531;;
+01.07.2011;#005.8032;;Straßenablauf im Randstein (Bezugspunkt am Hochbord / seitlich oben);Punkt;532;;
+01.04.2010;#005.8038;;Straßenablauf im Randstein (künftig entfallend) ;Punkt;538;;
+01.04.2010;#000.8054;;Entwässerungsrinne;Punkt;54;;
+01.04.2010;#000.8054;;Entwässerungsrinne;Linie;54;;
+01.04.2010;#005.8042;;Kastenrinne;Punkt;542;;
+01.04.2010;#005.8042;;Kastenrinne;Linie;542;;
+01.04.2010;#005.8043;;Spitzrinne;Punkt;543;;;;;;
+01.04.2010;#005.8043;;Spitzrinne;Linie;543;;;;;;
+01.04.2010;#005.8044;;Pflasterrinne;Punkt;544;;;;;;
+01.04.2010;#005.8044;;Pflasterrinne;Linie;544;;;;;;
+01.04.2010;#005.8045;;Gitterrost;Punkt;545;;;;;;
+01.04.2010;#005.8045;;Gitterrost;Linie;545;;;;;;
+01.04.2010;#005.8048;;Tiefpunkt in Rinne;Punkt;548;;;;;;
+01.04.2010;#005.8048;;Rinnensohle / Mitte Rinne;Linie;548;;;;;;
+01.04.2010;#005.8049;;Punkt einer Umrisslinie einer Rinne;Punkt;549;;;;;;
+01.04.2010;#005.8049;;Umrisslinie einer Rinne;Linie;549;;;;;;
+01.04.2010;#000.8055;;Durchlass/Dole;Punkt;55;;;;;;
+01.04.2010;#000.8055;;Durchlass/Dole;Linie;55;;;;;;
+01.04.2010;#005.8051;;Durchlass - Einlauf;Punkt;551;;;;;;
+01.04.2010;#005.8052;;Durchlass - Auslauf;Punkt;552;;;;;;
+01.04.2010;#005.8053;;Dole - Einlauf;Punkt;553;;;;;;
+01.04.2010;#005.8054;;Dole - Auslauf;Punkt;554;;;;;;
+01.04.2010;#005.8055;;Auslauf einer Entwässerungsleitung;Punkt;555;;
+01.04.2010;#005.8055;;unterirdischer Verlauf eines Durchlasses / einer Dole;Linie;555;;
+01.04.2010;#005.8056;;Einlauf (Rohr im Graben);Punkt;556;;
+01.04.2010;#005.8057;;Einleitungsstelle;Punkt;557;;
+01.04.2010;#005.8058;;Durchlass/Dole (künftig entfallend);Punkt;558;;
+01.05.2011;#005.8058;;Durchlass/Dole (künftig entfallend);Linie;558;;
+01.04.2010;#005.8059;;Eckpunkt Durchlass / Dole;Punkt;559;;
+01.04.2010;#005.8059;;Umrisslinie Durchlass / Dole - geländeunabhängig;Linie;559;;
+01.04.2010;#000.8056;;Schlitzrinne (Mitte);Punkt;56;;
+01.04.2010;#000.8056;;Schlitzrinne (Mitte) ;Linie;56;;
+01.04.2010;#005.8062;;Schlitzrinne rechts;Punkt;562;;
+01.04.2010;#005.8062;;Schlitzrinne rechts;Linie;562;;
+01.07.2011;#005.8069;;Schlitzrinne Außenrand;Punkt;569;;
+01.07.2011;#005.8069;;Schlitzrinne Umrisslinie;Linie;569;;
+01.04.2010;#000.8057;;Punkt eines Linienverlaufs (Nutzung für Hilfspunkte E-Leitungen bei Digitalisierung);Punkt;57;;
+01.05.2011;#005.8070;;Hilfspunkt für Mautkabel;Punkt;570;;
+01.04.2010;#005.8071;;Hilfspunkt für Stromerdleitung ;Punkt;571;;
+01.04.2010;#005.8072;;Hilfspunkt für Kabel der Verkehrsteuerungsanlage;Punkt;572;;
+01.04.2010;#005.8073;;Hilfspunkt für Lichtwellenleiter / Glasfaserkabel;Punkt;573;;
+01.04.2010;#005.8074;;Hilfspunkt für Sammelleitung / mehrfach genutzte Kabeltrasse ;Punkt;574;;
+01.04.2010;#005.8075;;Hilfspunkt für Fernmeldeleitung (Fremdleitungen);Punkt;575;;
+01.04.2010;#005.8076;;Hilfspunkt für Kabel Eisenbahn ;Punkt;576;;
+01.04.2010;#005.8077;;Leitungs-/Kabelverlauf Aufnahmepunkt in Geländehöhe;Punkt;577;;
+01.04.2010;#005.8078;;Leitungs-/Kabelverlauf Aufnahmepunkt Oberkante Leitung;Punkt;578;;
+01.04.2010;#005.8079;;Leitungs-/Kabelverlauf Aufnahmepunkt Graben unten;Punkt;579;;
+01.04.2010;#000.8058;;Entlüftung ;Punkt;58;;
+01.04.2010;#005.8085;;Domschacht;Punkt;585;;
+01.04.2010;#005.8086;;Domschacht Umrisslinienpunkt;Punkt;586;;
+01.04.2010;#005.8086;;Domschacht Umrisslinie;Linie;586;;
+01.04.2010;#005.8089;;Entlüftung oben;Punkt;589;;
+01.04.2010;#000.8059;;Schachtsohle;Punkt;59;;
+01.04.2010;#000.8059;;Umrisslinie Schacht unterirdisch;Linie;59;;
+01.09.2011;#005.8090;;Einzugsgebiet Straßenentwässerung;Linie;590
+01.04.2010;#005.8091;;Hilfspunkt Entwässerung;Punkt;591
+01.04.2010;#005.8093;;Einlauf im Schacht (Haupteinlauf);Punkt;593
+01.04.2010;#005.8095;;Auslauf im Schacht;Punkt;595
+01.04.2010;#005.8097;;Nebeneinlauf im Schacht;Punkt;597
+01.04.2010;#005.8099;;Überlauf ;Punkt;599
+01.04.2010;#000.8060;;Kontrollschacht einer Ver- und Entsorgungsrohrleitung;Punkt;60
+01.04.2010;#000.8060;;Ver-, Entsorgungsrohrleitung (allg.);Linie;60
+01.04.2010;#006.8000;;Schutzrohr;Punkt;600
+01.04.2010;#006.8000;;Schutzrohr;Linie;600
+01.07.2011;#086.8000;;Umrisslinie Schutzrohr;Punkt;8600
+01.04.2010;#086.8000;;Umrisslinie Schutzrohr;Linie;8600
+01.04.2010;#006.8001;;Kontrollschacht Wasserleitung ;Punkt;601
+01.04.2010;#006.8001;;Wasserleitung (Hilfspunkt: 691);Linie;601
+01.04.2010;#006.8002;;Kontrollschacht Fernwärmeleitung;Punkt;602
+01.04.2010;#006.8002;;Fernwärmeleitung (Hilfspunkt: 692);Linie;602
+01.04.2010;#006.8003;;Kontrollschacht Ölleitung;Punkt;603
+01.04.2010;#006.8003;;Ölleitung (Hilfspunkt: 693);Linie;603
+01.04.2010;#006.8004;;Kontrollschacht Gasleitung;Punkt;604
+01.04.2010;#006.8004;;Gasleitung (Hilfspunkt: 694);Linie;604
+01.04.2010;#006.8005;;Wasserfassung (Brunnen);Punkt;605
+01.04.2010;#006.8005;;Wasserfassung (Brunnen) - Umrisslinie;Linie;605
+01.04.2010;#006.8006;;Kontrollschacht Regenwasserleitung;Punkt;606
+01.04.2010;#006.8006;;Regenwasserleitung (Hilfspunkt: 696);Linie;606
+01.04.2010;#006.8007;;Kontrollschacht Mischwasser ;Punkt;607
+01.04.2010;#006.8007;;Mischwasserleitung (Hilfspunkt: 697);Linie;607
+01.04.2010;#006.8008;;Kontrollschacht Schmutzwasser ;Punkt;608
+01.04.2010;#006.8008;;Schmutzwasserleitung (Hilfspunkt: 698);Linie;608
+01.04.2010;#006.8009;;Kontrollschacht-Bauwerksecke;Punkt;609
+01.04.2010;#006.8009;;Umrisslinie des Kontrollschacht-Bauwerks;Linie;609
+01.04.2010;#000.8061;;Schieberschacht;Punkt;61
+01.04.2010;#006.8011;;Schieberschacht Wasser;Punkt;611
+01.04.2010;#006.8012;;Schieberschacht Fernwärmeleitung;Punkt;612
+01.04.2010;#006.8013;;Schieberschacht Ölleitung;Punkt;613
+01.04.2010;#006.8014;;Schieberschacht Gas;Punkt;614
+01.04.2010;#006.8015;;Schieberschacht Schmutzwasserleitung;Punkt;615
+01.04.2010;#006.8018;;Kontrollschacht (künftig entfallend);Punkt;618
+01.04.2010;#006.8018;;Leitung (künftig entfallend);Linie;618
+01.04.2010;#006.8019;;Regenfallrohr;Punkt;619
+01.04.2010;#006.8019;;Umrisslinie Regenfallrohr;Linie;619
+01.04.2010;#000.8062;;Schaltkasten / Kabelausstattungen;Punkt;62
+01.04.2010;#006.8020;;Schaltkasten oben mitte;Punkt;620
+01.04.2010;#006.8021;;Verbindungsmuffe;Punkt;621
+01.04.2010;#006.8022;;Abzweigmuffe;Punkt;622
+01.04.2010;#006.8023;;Kondensatormuffe;Punkt;623
+01.04.2010;#006.8024;;Pupinspulenmuffe, Pupinspulenkasten;Punkt;624
+01.04.2010;#006.8025;;Blindmuffe;Punkt;625
+01.04.2010;#006.8026;;Kupplung;Punkt;626
+01.04.2010;#006.8027;;Schaltkasten, Aufnahmepunkt Mitte seitlich;Punkt;627
+01.04.2010;#006.8028;;Schaltkastenecke unten;Punkt;628
+01.04.2010;#006.8028;;Schaltkasten-Umrisslinie unten;Linie;628
+01.04.2010;#006.8029;;Schaltkastenecke oben *;Punkt;629
+01.04.2010;#006.8029;;Schaltkasten-Umrisslinie oben *;Linie;629
+01.04.2010;#000.8063;;Kabelstein (allgemein);Punkt;63
+01.04.2010;#000.8063;;Streckenkabel BAB (AUSA) Kupferkabel;Linie;63
+01.04.2010;#006.8030;;Kabelschleife (Aufnahmepunkt oberirdisch);Punkt;630
+01.04.2010;#006.8031;;Kabelstein AUSA;Punkt;631
+01.04.2010;#006.8031;;BAB Lichtwellenleiter / Glasfaserkabel;Linie;631
+01.04.2010;#006.8032;;Muffenstein AUSA ;Punkt;632
+01.04.2010;#006.8033;;Muffe (Aufnahmepunkt oberirdisch);Punkt;633
+01.04.2010;#006.8034;;Pupinspule (Aufnahmepunkt oberirdisch);Punkt;634
+01.04.2010;#006.8035;;Kabelstein Strom;Punkt;635
+01.04.2010;#006.8036;;Marke Gas;Punkt;636
+01.04.2010;#006.8037;;Marke Wasser;Punkt;637
+01.04.2010;#006.8038;;Kabelstein Fernmeldeleitung;Punkt;638;;
+01.04.2010;#006.8039;;Kabelstein Eisenbahn;Punkt;639;;
+01.04.2010;#000.8064;;Kabelschacht;Punkt;64;;
+01.04.2010;#000.8064;;E-Leitungen (allgem.) ;Linie;64;;
+01.04.2010;#006.8040;;Leerrohr / Kabelformstein;Punkt;640;;
+01.04.2010;#006.8040;;Leerrohr / Kabelformstein;Linie;640;;
+01.07.2011;#086.8040;;Umrisslinie Leerrohr / Kabelformstein;Punkt;8640;;
+01.02.2011;#086.8040;;Umrisslinie Leerrohr / Kabelformstein;Linie;8640;;
+01.04.2010;#006.8041;;Kabelschacht Strom;Punkt;641;;
+01.04.2010;#006.8041;;Stromerdleitung (Hilfspunkt: 571);Linie;641;;
+01.04.2010;#006.8042;;Kabelschacht Verkehrssteuerungsanlage;Punkt;642;;
+01.04.2010;#006.8042;;Kabel der Verkehrsteuerungsanlage (Hilfspunkt: 572);Linie;642;;
+01.04.2010;#006.8043;;Kabelschacht Lichtwellenleiter;Punkt;643;;
+01.04.2010;#006.8043;;Lichtwellenleiter / Glasfaserkabel (Hilfspunkt: 573);Linie;643;;
+01.04.2010;#006.8044;;Kabelschacht Sammelleitung;Punkt;644;;
+01.04.2010;#006.8044;;Sammelleitung / mehrfach genutzte Kabeltrasse (Hilfspunkt: 574);Linie;644;;
+01.04.2010;#006.8045;;Kabelschacht Fernmeldeleitung;Punkt;645;;
+01.04.2010;#006.8045;;Fernmeldeleitung (Fremdleitungen) (Hilfspunkt: 575);Linie;645;;
+01.04.2010;#006.8046;;Kabelschacht Eisenbahn;Punkt;646;;
+01.04.2010;#006.8046;;Kabel Eisenbahn (Hilfspunkt: 576);Linie;646;;
+01.04.2010;#006.8048;;Kabelschacht Toll Collect;Punkt;648;;
+01.04.2010;#006.8048;;Kabel Toll Collect;Linie;648;;
+01.04.2010;#006.8049;;Kabelschachtecke;Punkt;649;;
+01.04.2010;#006.8049;;Kabelschacht-Umrisslinie;Linie;649;;
+01.04.2010;#000.8065;;Gittermast;Punkt;65;;
+01.04.2010;#006.8051;;Hilfspkt für Stromfreileitung;Punkt;651;;
+01.04.2010;#006.8053;;Gittermastmittelpunkt;Punkt;653;;
+01.04.2010;#006.8053;;Gittermast-Diagonallinie;Linie;653;;
+01.04.2010;#006.8055;;Gittermastecke;Punkt;655;;
+01.04.2010;#006.8055;;Gittermast-Umrisslinie;Linie;655;;
+01.02.2011;#006.8057;;Gittermastfundament unten;Punkt;657;;
+01.02.2011;#006.8057;;Gittermastfundament unten Umrisslinie;Linie;657;;
+01.02.2011;#006.8058;;Gittermastfundament oben;Punkt;658;;
+01.04.2011;#006.8058;;Gittermastfundament oben Umrisslinie;Linie;658;;
+01.04.2010;#006.8059;;Gittermast Mitte oben *;Punkt;659;;
+01.04.2010;#000.8066;;Mast;Punkt;66;;
+01.04.2010;#000.8066;;Freileitung (allg.);Linie;66;;
+01.04.2010;#006.8060;;20 KV Stromfreileitung;Linie;660;;
+01.04.2010;#006.8061;;Betonmast;Punkt;661;;
+01.04.2010;#006.8061;;Stromfreileitung (Hilfspunkt: 651);Linie;661;;
+01.04.2010;#006.8062;;Holzmast;Punkt;662;;
+01.04.2010;#006.8062;;110 KV Stromfreileitung;Linie;662;;
+01.04.2010;#006.8063;;Holzmast (A-Mast);Punkt;663;;
+01.04.2010;#006.8063;;220 KV Stromfreileitung;Linie;663;;
+01.04.2010;#006.8064;;Stahlmast;Punkt;664;;
+01.04.2010;#006.8064;;380 KV Stromfreileitung;Linie;664;;
+01.04.2010;#006.8065;;Hilfspkt für Fernmeldefreileitung;Punkt;665;;
+01.04.2010;#006.8065;;Fernmeldefreileitung (Hilfspunkt: 665);Linie;665;;
+01.04.2010;#006.8066;;Fahrdrahtmast (Eisen-, Straßenbahn);Punkt;666;;
+01.04.2010;#006.8066;;Fahrdraht / Oberleitung;Linie;666;;
+01.04.2010;#006.8067;;Sendemast;Punkt;667;;
+01.04.2010;#006.8068;;Fahnenmast;Punkt;668;;
+01.04.2010;#006.8069;;Mast oben *;Punkt;669;;
+01.04.2010;#000.8067;;Fernsprechzelle;Punkt;67;;
+01.04.2010;#000.8067;;Fernsprechzelle (Umriss);Linie;67;;
+01.04.2010;#006.8070;;Fernsprechzelle Mittelpunkt oben;Punkt;670;;
+01.04.2010;#006.8075;;Fernsprechzelle Eckpunkt unten;Punkt;675;;
+01.04.2010;#006.8075;;Umrisslinie einer Fernsprechzelle unten;Linie;675;;
+01.04.2010;#006.8079;;Fernsprechzelle Eckpunkt oben *;Punkt;679;;
+01.04.2010;#006.8079;;Umrisslinie einer Fernsprechzelle oben *;Linie;679;;
+01.04.2010;#000.8068;;Hydrant ;Punkt;68;;
+01.04.2010;#006.8081;;Hydrant Unterflur;Punkt;681;;
+01.04.2010;#006.8082;;Wasserhahn;Punkt;682;;
+01.04.2010;#006.8085;;Hydrant Oberflur - Geländehöhe;Punkt;685;;
+01.04.2010;#006.8086;;Hydrant im Tunnel;Punkt;686;;
+01.04.2010;#006.8089;;Hydrant Oberflur - oben *;Punkt;689;;
+01.04.2010;#006.8091;;Hilfspunkt für Wasserleitung ;Punkt;691;;
+01.04.2010;#006.8092;;Hilfspunkt für Fernwärmeleitung ;Punkt;692;;
+01.04.2010;#006.8093;;Hilfspunkt für Ölleitung ;Punkt;693;;
+01.04.2010;#006.8094;;Hilfspunkt für Gasleitung;Punkt;694;;
+01.02.2011;#006.8096;;Hilfspunkt für Regenwasserleitung ;Punkt;696;;
+01.02.2011;#006.8097;;Hilfspunkt für Mischwasserleitung ;Punkt;697;;
+01.02.2011;#006.8098;;Hilfspunkt für Schmutzwasserleitung ;Punkt;698;;
+01.04.2010;#000.8070;;Schutzplanke einfach;Punkt;70;;
+01.02.2011;#000.8070;;Einfache Distanz-Schutzplanke (EDSP) rechts;Linie;70;;
+01.02.2011;#007.8000;;Leitpfosten;Punkt;700;;
+01.04.2010;#007.8001;;Schutzplanke einfach - Geländehöhe;Punkt;701;;
+01.04.2010;#007.8002;;Schutzplanke einfach - Beginn Absenkung Geländehöhe;Punkt;702;;
+01.02.2011;#007.8002;;Einfache Schutzplanke (ESP) rechts;Linie;702;;
+01.02.2011;#007.8004;;Schutzplanke einfach - Super Rail;Punkt;704;;
+01.02.2011;#007.8004;;Schutzplanke einfach - Super Rail;Linie;704;;
+01.04.2010;#007.8008;;Schutzplanke einfach - Beginn Absenkung oben;Punkt;708;;
+01.04.2010;#007.8009;;Schutzplanke einfach - Oberkante Leitplanke;Punkt;709;;
+01.04.2010;#007.8009;;Schutzplanke einfach oben;Linie;709;;
+01.04.2010;#000.8071;;Schutzplanke doppelt;Punkt;71;;
+01.02.2011;#000.8071;;Doppelte Distanz-Schutzplanke (DDSP) mittig;Linie;71;;
+01.04.2010;#007.8011;;Schutzplanke doppelt - Geländehöhe unten;Punkt;711;;
+01.04.2010;#007.8011;;Distanz-Schutzplanke doppelt rechts;Linie;711;;
+01.04.2010;#007.8012;;Schutzplanke doppelt - Beginn Absenkung Geländehöhe unten;Punkt;712;;
+01.02.2011;#007.8012;;Doppelte Schutzplanke (DSP) mittig;Linie;712;;
+01.02.2011;#007.8014;;Schutzplanke doppelt - Super Rail ;Punkt;714;;
+01.02.2011;#007.8014;;Schutzplanke doppelt - Super Rail ;Linie;714;;
+01.02.2011;#007.8015;;Betongleitwand unten (freistehend);Punkt;715;;
+01.02.2011;#007.8015;;Betongleitwand unten rechts (freistehend);Linie;715;;
+01.04.2010;#007.8016;;Betongleitwand mittig oben (freistehend);Punkt;716;;
+01.04.2010;#007.8016;;Betongleitwand mittig oben (freistehend);Linie;716;;
+01.04.2010;#007.8017;;Umrisslinie Betongleitwand (freistehend);Linie;717;;
+01.04.2010;#007.8018;;Schutzplanke doppelt - Beginn Absenkung oben;Punkt;718;;
+01.04.2010;#007.8019;;Schutzplanke doppelt - Oberkante Leitplanke;Punkt;719;;
+01.04.2010;#007.8019;;Schutzplanke doppelt mittig oben;Linie;719;;
+01.04.2010;#000.8072;;Einrichtungen an Rastanlagen;Punkt;72;;
+01.04.2010;#000.8072;;Einrichtungen an Rastanlagen, Umrisslinie;Linie;72;;
+01.04.2010;#007.8021;;Mülltonne, Papierkorb;Punkt;721;;
+01.04.2010;#007.8022;;Bank;Punkt;722;;
+01.04.2010;#007.8022;;Bank, Umrisslinie;Linie;722;;
+01.04.2010;#007.8023;;Tisch;Punkt;723;;
+01.04.2010;#007.8023;;Tisch, Umrisslinie;Linie;723;;
+01.04.2010;#007.8024;;Spielgerät;Punkt;724;;
+01.04.2010;#007.8024;;Spielgerät, Umrisslinie;Linie;724;;
+01.04.2010;#007.8025;;Fahrradständer;Punkt;725;;
+01.04.2010;#007.8025;;Fahrradständer, Umrisslinie;Linie;725;;
+01.04.2010;#007.8026;;Kraftstoffzapfsäule;Punkt;726;;
+01.04.2010;#007.8026;;Umrisslinie einer Kraftstoffzapfsäule;Linie;726;;
+01.04.2010;#007.8027;;Tank oberirdisch;Punkt;727;;
+01.04.2010;#007.8027;;Umrisslinie eines oberirdischen Tanks;Linie;727;;
+01.04.2010;#007.8028;;Tank unterirdisch;Punkt;728;;
+01.04.2010;#007.8028;;Umrisslinie eines unterirdischen Tanks;Linie;728;;
+01.04.2010;#007.8029;;Einrichtungen an Rastanlagen oben *;Punkt;729;;
+01.04.2010;#007.8029;;Einrichtungen an Rastanlagen oben *;Linie;729;;
+01.04.2010;#000.8073;;Beleuchtungsmast;Punkt;73;;
+01.04.2010;#007.8031;;Ortsbeleuchtung Stahlmast;Punkt;731;;
+01.04.2010;#007.8032;;Ortsbeleuchtung Betonmast;Punkt;732;;
+01.04.2010;#007.8033;;Ortsbeleuchtung Holzmast;Punkt;733;;
+01.04.2010;#007.8034;;Ortsbeleuchtung Hängelampe;Punkt;734;;
+01.04.2010;#007.8035;;Pultlampe;Punkt;735;;
+01.04.2010;#007.8036;;Pollerleuchte (kleine Leuchte TR);Punkt;736;;
+01.04.2010;#007.8038;;Uhr, Temperaturanzeige;Punkt;738;;
+01.04.2010;#007.8039;;Beleuchtungsmast oben *;Punkt;739;;
+01.04.2010;#000.8074;;Notrufsäule;Punkt;74;;
+01.04.2010;#007.8049;;Notrufsäule oben *;Punkt;749;;
+01.04.2010;#000.8075;;Stationszeichen / Hilfspunkte Straßendatenbank;Punkt;75;;
+01.04.2010;#000.8075;;Stationszeichen/Hilfslinien Straßendatenbank;Linie;75;;
+01.04.2010;#007.8050;;Hilfspunkt SIB allgemein;Punkt;750;;
+01.04.2010;#007.8050;;Hilfslinie SIB allgemein;Linie;750;;
+01.04.2010;#007.8051;;Hilfspunkt OD-Grenze ;Punkt;751;;
+01.04.2010;#007.8051;;OD-Grenze;Linie;751;;
+01.04.2010;#007.8052;;Netzknoten;Punkt;752;;
+01.04.2010;#007.8053;;Astnullpunkt;Punkt;753;;
+01.04.2010;#007.8054;;Astendpunkt;Punkt;754;;
+01.04.2010;#007.8055;;Kilometrierungstafel BAB;Punkt;755;;
+01.04.2010;#007.8056;;Kilometerstein;Punkt;756;;
+01.04.2010;#007.8057;;Hilfspunkt Blattbegrenzung TK / AM/SM-Grenze (alt: 288);Punkt;757;;
+01.04.2010;#007.8057;;Begrenzungslinie TK / AM/SM-Grenze ;Linie;757;;
+01.04.2010;#007.8058;;Hilfspunkt Überlappung Feldkarte (alt: 289);Punkt;758;;
+01.04.2010;#007.8058;;Linie Überlappung Feldkarte;Linie;758;;
+01.04.2010;#007.8059;;Stationszeichen oben *;Punkt;759;;
+01.04.2010;#000.8076;;Pegel / Bodenerkundung (allg.);Punkt;76;;
+01.04.2010;#000.8076;;Bodenerkundung (allgem.), Umrisslinie;Linie;76;;
+01.04.2010;#007.8060;;refraktionsseismische Untersuchung (R);Punkt;760;;
+01.04.2010;#007.8061;;geoelektrische Untersuchung (G);Punkt;761;;
+01.04.2010;#007.8062;;Bohrung (B);Punkt;762;;
+01.04.2010;#007.8063;;Kleinbohrung / Sondierbohrung (SB);Punkt;763;;
+01.04.2010;#007.8064;;Kernbohrung (KB);Punkt;764;;
+01.04.2010;#007.8065;;orientierte Kernbohrung (KBR);Punkt;765;;
+01.04.2010;#007.8066;;Schürfe (Sch);Punkt;766;;
+01.04.2010;#007.8066;;Schürfe, Umrisslinie;Linie;766;;
+01.04.2010;#007.8067;;Rammsondierung (RS);Punkt;767;;
+01.04.2010;#007.8068;;Drucksondierung (DS);Punkt;768;;
+01.04.2010;#007.8069;;Sonstige z. B. Flügelsondierung/Isotopensondierung (FS/IS);Punkt;769;;
+01.04.2010;#000.8077;;Zaun (allg.);Punkt;77;;
+01.04.2010;#000.8077;;Zaun (allg.);Linie;77;;
+01.04.2010;#007.8071;;Metallzaun;Punkt;771;;
+01.04.2010;#007.8071;;Metallzaun;Linie;771;;
+01.04.2010;#007.8072;;Holzzaun;Punkt;772;;
+01.04.2010;#007.8072;;Holzzaun;Linie;772;;
+01.04.2010;#007.8073;;Metallzaun auf einer Mauer;Linie;773;;
+01.04.2010;#007.8074;;Holzzaun auf einer Mauer;Linie;774;;
+01.04.2010;#007.8075;;Weidezaun;Punkt;775;;
+01.04.2010;#007.8075;;Weidezaun;Linie;775;;
+01.09.2011;#007.8077;;Wildschutzzaun;Linie;777;;
+01.04.2010;#007.8079;;Zaunpunkt oben *;Punkt;779;;
+01.04.2010;#007.8079;;Zaun oben *;Linie;779;;
+01.04.2010;#000.8078;;Tor im Zaun;Punkt;78;;
+01.04.2010;#000.8078;;Tor im Zaun;Linie;78;;
+01.04.2010;#007.8081;;Torpfosten / Schrankenpfosten;Punkt;781;;
+01.04.2010;#007.8081;;Torpfosten Umrisslinie (auch Schrankenpfosten);Linie;781;;
+01.04.2010;#007.8085;;Schranke;Punkt;785;;
+01.04.2010;#007.8085;;Schranke;Linie;785;;
+01.04.2010;#007.8089;;Torpunkt oben *;Punkt;789;;
+01.04.2010;#007.8089;;Tor im Zaun oben;Linie;789;;
+01.02.2011;#000.8079;;Stützpunkt einer Höhenlinie / Isolinie;Punkt;79;;
+01.02.2011;#000.8079;;Höhenlinie / Isolinie (allgemein);Linie;79;;
+01.02.2011;#007.8090;;Stützpunkt Höhenlinie Sonderhöhe;Punkt;790;;
+01.02.2011;#007.8090;;Höhenlinie Sonderhöhe;Linie;790;;
+01.02.2011;#007.8091;;Stützpunkt Höhenlinie 0,1 m;Punkt;791;;
+01.02.2011;#007.8091;;Höhenlinie 0,1 m;Linie;791;;
+01.02.2011;#007.8092;;Stützpunkt Höhenlinie 0,2 m;Punkt;792;;
+01.02.2011;#007.8092;;Höhenlinie 0,2 m;Linie;792;;
+01.02.2011;#007.8093;;Stützpunkt Höhenlinie 0,25 m;Punkt;793;;
+01.02.2011;#007.8093;;Höhenlinie 0,25 m;Linie;793;;
+01.02.2011;#007.8094;;Stützpunkt Höhenlinie 0,5 m;Punkt;794;;
+01.02.2011;#007.8094;;Höhenlinie 0,5 m;Linie;794;;
+01.02.2011;#007.8095;;Stützpunkt Höhenlinie 1 m;Punkt;795;;
+01.02.2011;#007.8095;;Höhenlinie 1 m;Linie;795;;
+01.02.2011;#007.8096;;Stützpunkt Höhenlinie 5 m;Punkt;796;;
+01.02.2011;#007.8096;;Höhenlinie 5 m;Linie;796;;
+01.02.2011;#007.8097;;Stützpunkt Höhenlinie 10 m;Punkt;797;;
+01.02.2011;#007.8097;;Höhenlinie 10 m;Linie;797;;
+01.02.2011;#007.8098;;Stützpunkt Höhenlinie 50 m;Punkt;798;;
+01.02.2011;#007.8098;;Höhenlinie 50 m;Linie;798;;
+01.02.2011;#007.8099;;Stützpunkt Höhenlinie 100 m;Punkt;799;;
+01.02.2011;#007.8099;;Höhenlinie 100 m;Linie;799;;
+01.04.2010;#000.8080;;Schild zur Verkehrslenkung ;Punkt;80;;
+01.04.2010;#000.8080;;Schild zur Verkehrslenkung (Eckpkt: 898);Linie;80;;
+01.04.2010;#008.8001;;Schild zur Verkehrslenkung (1 Pfosten);Punkt;801;;
+01.04.2010;#008.8002;;Schild zur Verkehrslenkung (2 Pfosten);Punkt;802;;
+01.04.2010;#008.8003;;Pfeilwegweiser nach links (1 Pfosten);Punkt;803;;
+01.04.2010;#008.8004;;Pfeilwegweiser nach rechts (1 Pfosten);Punkt;804;;
+01.04.2010;#008.8005;;Pfeilwegweiser nach links (2 Pfosten);Punkt;805;;
+01.04.2010;#008.8006;;Pfeilwegweiser nach rechts (2 Pfosten);Punkt;806;;
+01.04.2010;#008.8009;;Schild zur Verkehrslenkung oben *;Punkt;809;;
+01.04.2010;#008.8009;;Schild zur Verkehrslenkung oben * (Eckpkt: 898);Linie;809;;
+01.04.2010;#000.8081;;Gefahrenzeichen (StVO 101-199), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;81;;
+01.04.2010;#000.8082;;Vorschriftszeichen (StVO 205-299), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;82;;
+01.04.2010;#000.8083;;Richtzeichen (StVO 301-399), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;83;;
+01.04.2010;#083.8001;;Vorfahrt (StVO 301);Punkt;8301;;
+01.04.2010;#083.8006;;Vorfahrtstraße (StVO 306);Punkt;8306;;
+01.04.2010;#083.8060;;Hinweisschild Notruftelefon (Tunnel);Punkt;8360;;
+01.04.2010;#083.8062;;Fluchtweganzeiger (Tunnel);Punkt;8362;;
+01.04.2010;#000.8084;;Schilder-(brücken) Fundamenteckpunkt (unten);Punkt;84;;
+01.04.2010;#000.8084;;Schilder-(brücken) Fundament-Umrisslinie;Linie;84;;
+01.04.2010;#008.8041;;Schilderbrücke - Punkt einer Umrisslinie;Punkt;841;;
+01.04.2010;#008.8041;;Schilderbrücke - Umriss Schilderbrücke;Linie;841;;
+01.04.2010;#008.8044;;Mautbrücke;Punkt;844;;
+01.04.2010;#008.8044;;Mautbrücke;Linie;844;;
+01.04.2010;#008.8045;;Fundamentmitte (= Symbolaufpunkt);Punkt;845;;
+01.04.2010;#008.8045;;Schilderbrücke als 2-Punkt-Linie (Verbindung Punkte 845-845);Linie;845;;
+01.04.2010;#008.8048;;Schilder(-brücken) Fundamenteckpunkt (oben);Punkt;848;;
+01.04.2010;#008.8048;;Schilder(-brücken) Fundament oben;Linie;848;;
+01.04.2010;#008.8049;;Punkt einer Schilderbrücke oben *;Punkt;849;;
+01.04.2010;#008.8049;;Schilderbrücke oben *;Linie;849;;
+01.04.2010;#000.8085;;Bahnschranke;Punkt;85;;
+01.04.2010;#000.8085;;Bahnschranke;Linie;85;;
+01.04.2010;#008.8051;;Andreaskreuz (auch PA 8201);Punkt;851;;
+01.04.2010;#008.8052;;Blinkleuchte ;Punkt;852;;
+01.04.2010;#008.8053;;Eisenbahnsignal ;Punkt;853;;
+01.04.2010;#008.8059;;Bahnschranke oben *;Punkt;859;;
+01.04.2010;#008.8059;;Bahnschranke oben *;Linie;859;;
+01.04.2010;#000.8086;;Verkehrssteuerungseinrichtung;Punkt;86;;
+01.04.2010;#000.8086;;Verkehrssteuerungseinrichtung, Umrisslinie;Linie;86;;
+01.04.2010;#008.8061;;Sichtweitenmessgerät Nebelwarnanlage Hauptgerät;Punkt;861;;
+01.04.2010;#008.8061;;Sichtweitenmessgerät Nebelwarnanlage Hauptgerät;Linie;861;;
+01.04.2010;#008.8062;;Sichtweitenmessgerät Nebelwarnanlage Nebengerät;Punkt;862;;
+01.04.2010;#008.8062;;Sichtweitenmessgerät Nebelwarnanlage Nebengerät;Linie;862;;
+01.04.2010;#008.8063;;Wetterstation;Punkt;863;;
+01.04.2010;#008.8063;;Wetterstation;Linie;863;;
+01.04.2010;#008.8064;;Radaranlage (Geschwindigkeitsmessgerät);Punkt;864;;
+01.04.2010;#008.8064;;Radaranlage (Geschwindigkeitsmessgerät);Linie;864;;
+01.04.2010;#008.8065;;Wechselverkehrszeichen;Punkt;865;;
+01.04.2010;#008.8065;;Wechselverkehrszeichen;Linie;865;;
+01.04.2010;#008.8066;;Überwachungskamera;Punkt;866;;
+01.02.2011;#008.8067;;Lautsprecher;Punkt;867;;
+01.04.2010;#008.8069;;Induktionsschleife (alt : 647);Punkt;869;;
+01.04.2010;#008.8069;;Induktionsschleife (alt : 647);Linie;869;;
+01.04.2010;#000.8088;;Verkehrsampel;Punkt;88;;
+01.04.2010;#000.8088;;Lichtzeichenbrücke;Linie;88;;
+01.04.2010;#008.8081;;Lichtzeichenbrücke Fundamentpunkt unten;Punkt;881;;
+01.04.2010;#008.8081;;Lichtzeichenbrücke Umriss Fundament unten;Linie;881;;
+01.04.2010;#008.8083;;Verkehrsampel oben *;Punkt;883;;
+01.04.2010;#008.8085;;Fundamentmitte (Symbolaufpunkt);Punkt;885;;
+01.04.2010;#008.8085;;Lichtzeichenbrücke 2-Punkt-Linie (Verbindung Punkte 885-885);Linie;885;;
+01.04.2010;#008.8088;;Lichtzeichenbrücke Fundamentpunkt oben;Punkt;888;;
+01.04.2010;#008.8088;;Lichtzeichenbrücke Umriss Fundament oben;Linie;888;;
+01.04.2010;#008.8089;;Punkt einer Lichtzeichenbrücke oben *;Punkt;889;;
+01.04.2010;#008.8089;;Lichtzeichenbrücke oben *;Linie;889;;
+01.04.2010;#000.8089;;Schilder (allgem.);Punkt;89;;
+01.04.2010;#000.8089;;Schild als Linie / Umrisslinie (Eckpkt: 898);Linie;89;;
+01.04.2010;#008.8091;;Ortsschild (Zeichen 310/311);Punkt;891;;
+01.04.2010;#008.8092;;Werbetafel, Infotafel;Punkt;892;;
+01.04.2010;#008.8092;;Werbetafel, Infotafel als Linie / Umrisslinie;Linie;892;;
+01.04.2010;#008.8095;;Verkehrsspiegel;Punkt;895;;
+01.10.2010;#008.8098;;Eckpunkt Schild (Unterscheidung durch LA);Punkt;898;;
+01.04.2010;#008.8099;;Schild oben* ;Punkt;899;;
+01.04.2010;#008.8099;;Schild oben*;Linie;899;;
+01.04.2010;#000.8090;;Einzelbaum;Punkt;90;;
+01.04.2010;#009.8000;;BAUM - Konstruktion (var. ae) über Lageplan bearbeiten in CARD/1 / Baumart über Baumkode;Punkt;900;;
+01.04.2010;#009.8001;;Laubbaum allg.;Punkt;901;;
+01.04.2010;#009.8001;;Baumreihe Laubbäume;Linie;901;;
+01.04.2010;#009.8002;;Nadelbaum allg.;Punkt;902;;
+01.04.2010;#009.8002;;Baumreihe Nadelbäume;Linie;902;;
+01.04.2010;#009.8003;;Ziergehölz;Punkt;903;;
+01.04.2010;#009.8003;;Baumreihe Ziergehölz;Linie;903;;
+01.04.2010;#009.8004;;Obstbaum;Punkt;904;;
+01.04.2010;#009.8004;;Baumreihe Obstbäume;Linie;904;;
+01.04.2010;#009.8009;;Baum mittig oben *;Punkt;909;;
+01.04.2010;#000.8091;;Waldrand / Grenzlinie einer Gehölzfläche;Punkt;91;;
+01.04.2010;#000.8091;;Waldrand / Grenzlinie einer Gehölzfläche;Linie;91;;
+01.04.2010;#009.8011;;Waldrand Laubwald;Punkt;911;;
+01.04.2010;#009.8011;;Laubgehölz;Linie;911;;
+01.04.2010;#009.8012;;Waldrand Nadelwald;Punkt;912;;
+01.04.2010;#009.8012;;Nadelgehölz;Linie;912;;
+01.04.2010;#009.8013;;Waldrand Mischwald;Punkt;913;;
+01.04.2010;#009.8013;;Mischgehölz;Linie;913;;
+01.04.2010;#009.8014;;Grenze Straßenbegleitgrün (Gehölz);Punkt;914;;
+01.04.2010;#009.8014;;Straßenbegleitgrün (Gehölz);Linie;914;;
+01.04.2010;#009.8015;;Grenze geschlossene Gehölzfläche;Punkt;915;;
+01.04.2010;#009.8015;;Geschlossene Gehölzfläche;Linie;915;;
+01.04.2010;#009.8016;;Grenze Streuobstwiese;Punkt;916;;
+01.04.2010;#009.8016;;Streuobstwiese;Linie;916;;
+01.04.2010;#009.8017;;Grenze Baumschule;Punkt;917;;
+01.04.2010;#009.8017;;Baumschule;Linie;917;;
+01.04.2010;#009.8018;;Grenze sonstiges Gehölz;Punkt;918;;
+01.04.2010;#009.8018;;sonstige Gehölze;Linie;918;;
+01.04.2010;#009.8019;;Waldrand oben *;Punkt;919;;
+01.04.2010;#009.8019;;Waldrand oben *;Linie;919;;
+01.04.2010;#000.8092;;Punkt einer Grenze Waldschutz;Punkt;92;;
+01.04.2010;#000.8092;;Grenze eines geschützten Waldgebiets nach LandeswaldG;Linie;92;;
+01.04.2010;#009.8021;;Schutzwald (Boden-, Biotopschutzwald, gegen schädliche Umwelteinwirkungen);Linie;921;;
+01.04.2010;#009.8023;;Waldschutzgebiet - Bannwald;Linie;923;;
+01.04.2010;#009.8024;;Waldschutzgebiet - Schonwald;Linie;924;;
+01.04.2010;#009.8025;;Erholungswald;Linie;925;;
+01.04.2010;#009.8029;;sonstige Waldschutzgebiete;Linie;929;;
+01.04.2010;#000.8093;;Gebüsch / Hecke;Punkt;93;;
+01.04.2010;#000.8093;;Gebüsch / Hecke ;Linie;93;;
+01.06.2011;#009.8031;;Einzelbusch / -strauch (Mitte) - rund;Punkt;931;;
+01.06.2011;#009.8032;;Einzelbusch / -strauch (Mitte) - oval;Punkt;932;;
+01.02.2011;#009.8033;;Hecke mittig ;Punkt;933;;
+01.02.2011;#009.8033;;Hecke mittig ;Linie;933;;
+01.04.2010;#009.8034;;Randpunkt einer Hecke;Punkt;934;;
+01.04.2010;#009.8034;;Umrisslinie Hecke;Linie;934;;
+01.04.2010;#009.8035;;Hecke Außenkante rechts;Linie;935;;
+01.04.2010;#009.8037;;Hecke oben *;Punkt;937;;
+01.04.2010;#009.8037;;Hecke oben mittig *;Linie;937;;
+01.04.2010;#009.8038;;Randpunkt eines Gebüschs;Punkt;938;;
+01.04.2010;#009.8038;;Umrisslinie Gebüsch;Linie;938;;
+01.04.2010;#009.8039;;Randpunkt eines Gebüschs oben *;Punkt;939;;
+01.04.2010;#009.8039;;Umrisslinie Gebüsch oben *;Linie;939;;
+01.04.2010;#000.8094;;Uferlinie eines Gewässers;Punkt;94;;
+01.04.2010;#000.8094;;Uferlinie eines Gewässers;Linie;94;;
+01.04.2010;#009.8041;;aktueller Wasserspiegel;Punkt;941;;
+01.04.2010;#009.8042;;mittlerer Wasserspiegel / Dauerstau;Punkt;942;;
+01.10.2010;#009.8042;;Dauerstau (bei Becken);Linie;942;;
+01.04.2010;#009.8043;;Gewässer verdolt /unterirdisch;Punkt;943;;
+01.04.2010;#009.8043;;Gewässerlinie verdolt / unterirdisch;Linie;943;;
+01.10.2010;#009.8044;;Stauziel;Punkt;944;;
+01.10.2010;#009.8044;;Stauziel;Linie;944;;
+01.04.2010;#009.8045;;Überschwemmungsfläche aktuell;Punkt;945;;
+01.04.2010;#009.8045;;Grenze der aktuellen Überschwemmung;Linie;945;;
+01.04.2010;#009.8046;;sonstige Gewässerfläche;Punkt;946;;
+01.04.2010;#009.8046;;sonstige Gewässerfläche;Linie;946;;
+01.04.2010;#009.8047;;Positionspunkt eines Fließrichtungspfeils;Punkt;947;;
+01.04.2010;#009.8048;;Grenzpunkt Einzugsgebiet;Punkt;948;;
+01.04.2010;#009.8048;;Grenze Einzugsgebiet;Linie;948;;
+01.04.2010;#009.8049;;Bachsohle / Gewässersohle;Punkt;949;;
+01.04.2010;#009.8049;;Bachsohle / Gewässersohle;Linie;949;;
+01.04.2010;#000.8095;;Grenzpunkt von ökologischer Sonderfläche;Punkt;95;;
+01.04.2010;#000.8095;;Grenzlinie einer ökologischen Sonderfläche ;Linie;95;;
+01.04.2010;#009.8050;;Grenze einer Altlastfläche;Linie;950;;
+01.04.2010;#009.8051;;Grenze Straßenbegleitgrün (Rasen);Linie;951;;
+01.04.2010;#009.8052;;Grenze Sukzessionsfläche;Linie;952;;
+01.04.2010;#009.8053;;Grenze sonstige Grünfläche;Linie;953;;
+01.04.2010;#009.8054;;Grenze Lärmschutzgebiet;Linie;954;;
+01.04.2010;#009.8055;;Grenze Ausgleichsfläche;Linie;955;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8056;;Grenze Ersatzmaßnahme;Linie;956;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8057;;Grenze Aufschüttungen;Linie;957;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8058;;Grenze Abgrabungen;Linie;958;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8096;;Punkt einer Grenze nach Wassergesetz;Punkt;96;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8096;;Grenze von Schutzgebiet nach Wassergesetz;Linie;96;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8061;;Grenze WSZ I;Linie;961;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8062;;Grenze WSZ II (auch WSZ IIa und IIb);Linie;962;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8063;;Grenze WSZ III / IIIa;Linie;963;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8064;;Grenze WSZ IIIb;Linie;964;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8065;;Grenze Hochwasserschutzfläche;Linie;965;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8066;;Grenze Überschwemmungsgebiet;Linie;966;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8068;;Grenze Quellenschutzgebiet;Linie;968;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8097;;Punkt einer Grenze nach Naturschutzgesetz;Punkt;97;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8097;;Grenze eines Schutzgebiets nach Naturschutzgesetz;Linie;97;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8070;;Sonderflächen gemäß Einschrieb;Linie;970;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8071;;Grenze Landschaftsschutzgebiet (LSG);Linie;971;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8072;;Grenze Naturschutzgebiet (NSG);Linie;972;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8073;;Grenze eines Europäischen Vogelschutzgebiets (SPA);Linie;973;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8075;;Grenze Naturpark;Linie;975;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8076;;Grenze eines besonders geschützten Biotops (§ 24a / 32 Biotop);Linie;976;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8077;;Grenze FFH-Gebiet;Linie;977;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8078;;Grenze Nationalpark;Linie;978;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8079;;Grenze Biosphärengebiet;Linie;979;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8098;;Natur- / Denkmal (allg.);Punkt;98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#000.8098;;Umrisslinie eines Denkmals / Naturdenkmals;Linie;98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8080;;Geotop (Einzelpunkte aus RIPS);Punkt;980;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8080;;Geotop Umrisslinie;Linie;980;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8081;;Standbild;Punkt;981;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8083;;Bildstock;Punkt;983;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8084;;Wegkreuz;Punkt;984;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8085;;Naturdenkmal Laubbaum;Punkt;985;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+01.04.2010;#009.8086;;Naturdenkmal Nadelbaum;Punkt;986;;
+01.04.2010;#009.8087;;Naturdenkmal (allg.) z.B. Höhle, Biotop;Punkt;987;;
+01.04.2010;#009.8088;;Eckpunkt eines Denkmals;Punkt;988;;
+01.04.2010;#009.8089;;Denkmal / Naturdenkmal oben *;Punkt;989;;
+01.04.2010;#009.8089;;Umrisslinie eines Denkmals / Naturdenkmals oben *;Linie;989;;
+01.04.2010;#000.8099;;Sonstiges lt. Feldbuch ;Punkt;99;;
+01.04.2010;#000.8099;;Sonstiges lt. Feldbuch ;Linie;99;;
+01.05.2011;#009.8099;;Punkt im Lageplan nicht darstellen;Punkt;999;;
+01.05.2011;#009.8099;;Linie im Lageplan nicht darstellen;Linie;999;;
+01.09.2010;#050.8000;;Planum;Punkt;5000;;
+01.09.2010;#050.8000;;Planum;Linie;5000;;
+01.09.2010;#050.8001;;Frostschutz;Punkt;5001;;
+01.09.2010;#050.8001;;Frostschutz;Linie;5001;;
+01.09.2010;#050.8011;;Decke Fahrbahnrand;Punkt;5011;;
+01.09.2010;#050.8011;;Decke Fahrbahnrand;Linie;5011;;
+01.09.2010;#050.8012;;Decke Fahrspurrand;Punkt;5012;;
+01.09.2010;#050.8012;;Decke Fahrspurrand;Linie;5012;;
+01.04.2010;#080.8001;;Schnittpunkt aus ALK;Punkt;8001;;
+01.04.2010;#080.8002;;AP Versicherung aus ALK;Punkt;8002;;
+01.04.2010;#090.8002;;AP Versicherung aus ALK (unvermarkt) nur für Umsetzungstabelle;Punkt;9002;;
+01.04.2010;#080.8005;;Kontrollpunkt - Kontrollmessung zum Anschlusspunkt (Punktnummer: Punktnummer des Festpunkts + K);Punkt;8005;;
+01.04.2010;#080.8008;;Freier Standpunkt - unvermarkt (Punktnummer: FS + beliebige Nummer);Punkt;8008;;
+01.04.2010;#080.8009;;Kreismittelpunkt (nicht gleichzeitig Grenzpunkt, sonst 209);Punkt;8009;;
+01.04.2010;#085.8000;;Referenzpunkt für GPS-Messungen;Punkt;8500;;
+01.04.2010;#085.8002;;Versicherung von Festpunkten der SBV;Punkt;8502;;
+01.04.2010;#088.8000;;Bodenpunkt aus Laser-Scan - bereinigte Rohdaten Format GDE;Punkt;8800;;
+01.04.2010;#088.8001;;Bodenpunkt aus Laser-Scan - transformierte Rohdaten Format GRD;Punkt;8801;;
+01.04.2010;#088.8009;;Brückenpunkt aus Laser-Scan - bereinigte Rohdaten Format BRU;Punkt;8809;;
+01.04.2010;#088.8011;;Punkt aus Laser-Scan - 1 m x 1 m Raster;Punkt;8811;;
+01.04.2010;#088.8015;;Punkt aus Laser-Scan - 5 m x 5 m Raster;Punkt;8815;;
+01.04.2010;#088.8090;;Hochpunkt aus Laser-Scan - bereinigte Rohdaten Format VGE;Punkt;8890;;
+01.04.2010;#088.8091;;Hochpunkt aus Laser-Scan - transformierte Rohdaten Format VEG;Punkt;8891;;
+01.04.2010;#089.8095;;Projektnullpunkt;Punkt;8995;;
+01.02.2011;#089.8096;;Positionierungspunkt eines Rasterdatenbestands;Punkt;8996;;
+01.02.2011;#089.8096;;Rasterlinie ;Linie;8996;;
+01.04.2010;#089.8099;;Eckpunkt eines Rasterdatenbestands;Punkt;8999;;
+01.05.2011;#084.8080;;Messpunkt für Bauwerksüberwachung;Punkt;8480;;
+01.04.2010;#084.8081;;Horizontalbolzen;Punkt;8481;;
+01.04.2010;#084.8082;;Vertikalbolzen;Punkt;8482;;
+01.04.2010;#084.8083;;Zielmarke;Punkt;8483;;
+01.04.2010;#084.8084;;Minireflektor;Punkt;8484;;
+01.04.2010;#084.8085;;Beobachtungspfeiler;Punkt;8485;;
+01.04.2010;#084.8086;;Firstbolzen;Punkt;8486;;
+01.04.2010;#084.8087;;Konvergenzmesspunkte;Punkt;8487;;
+01.04.2010;#084.8088;;Konsole;Punkt;8488;;
+01.04.2010;#084.8089;;permanentes Fernziel;Punkt;8489;;
+01.04.2010;#080.8007;;Böschungslinien ohne Trennung unten/oben;Punkt;8007;;
+01.02.2011;#080.8007;;Böschungslinien ohne Trennung unten/oben;Linie;8007;;
+01.04.2010;#089.8097;;Böschungsschraffe als Linie;Punkt;8997;;
+01.02.2011;#089.8097;;Böschungsschraffe als Linie;Linie;8997;;
+01.04.2010;#010.8011;;Fahrbahnrand - aus ALK;Linie;1011;;
+01.02.2011;#010.8025;;Durchfahrt - aus ALK;Linie;1025;;
+01.04.2010;#010.8026;;Gebäudeanbauten - aus ALK;Linie;1026;;
+01.04.2010;#010.8029;;Nutzungsgrenzlinie - aus ALK;Linie;1029;;
+01.04.2010;#010.8030;;Wegrand - aus ALK;Linie;1030;;
+01.04.2010;#010.8034;;Mauer oben - aus ALK;Linie;1034;;
+01.04.2010;#010.8040;;Brückenwiderlager - aus ALK;Linie;1040;;
+01.04.2010;#010.8041;;Pfeiler - aus ALK;Linie;1041;;
+01.04.2010;#010.8044;;Stützmauer oben - aus ALK;Linie;1044;;
+01.04.2010;#010.8045;;Treppe - aus ALK;Linie;1045;;
+01.04.2010;#010.8049;;Gesimskante - aus ALK;Linie;1049;;
+01.02.2011;#010.8098;;Schornstein - aus ALK;Linie;1098;;
+01.02.2011;#010.8099;;Windkraftanlage - aus ALK;Linie;1099;;
+01.04.2010;#011.8018;;Fahrbahnrand (überdeckt) - aus ALK;Linie;1118;;
+01.02.2011;#012.8052;;Umgrenzung der Überdachung - aus ALK;Linie;1252;;
+01.02.2011;#013.8025;;Silo aus ALK;Linie;1325;;
+01.04.2010;#016.8001;;Wasserleitung - aus ALK;Linie;1601;;
+01.04.2010;#016.8002;;Fernwärmeleitung - aus ALK;Linie;1602;;
+01.04.2010;#016.8003;;Ölleitung - aus ALK;Linie;1603;;
+01.04.2010;#016.8004;;Gasleitung - aus ALK;Linie;1604;;
+01.04.2010;#016.8005;;Wasserfassung (Brunnen) - Umrisslinie - aus ALK;Linie;1605;;
+01.04.2010;#016.8041;;Stromerdleitung - aus ALK;Linie;1641;;
+01.04.2010;#016.8055;;Gittermast-Umrisslinie - aus ALK;Linie;1655;;
+01.04.2010;#016.8061;;Stromfreileitung - aus ALK;Linie;1661;;
+01.04.2010;#017.8027;;Tank - aus ALK;Linie;1727;;
+01.05.2011;#020.8002;;Aufnahmepunkt - aus Flurb ;Punkt;2002;;
+01.04.2010;#020.8011;;Fahrbahnrand - aus Flurb;Linie;2011;;
+01.02.2011;#020.8025;;Durchfahrt - aus Flurb;Linie;2025;;
+01.04.2010;#020.8026;;Gebäudeanbauten - aus Flurb;Linie;2026;;
+01.04.2010;#020.8029;;Nutzungsgrenzlinie - aus Flurb;Linie;2029;;
+01.04.2010;#020.8030;;Wegrand - aus Flurb;Linie;2030;;
+01.04.2010;#020.8034;;Mauer oben - aus Flurb;Linie;2034;;
+01.04.2010;#020.8040;;Brückenwiderlager - aus Flurb;Linie;2040;;
+01.04.2010;#020.8041;;Pfeiler - aus Flurb;Linie;2041;;
+01.04.2010;#020.8044;;Stützmauer oben - aus Flurb;Linie;2044;;
+01.04.2010;#020.8045;;Treppe - aus Flurb;Linie;2045;;
+01.04.2010;#020.8049;;Gesimskante - aus Flurb;Linie;2049;;
+01.02.2011;#020.8098;;Schornstein - aus Flurb;Linie;2098;;
+01.02.2011;#020.8099;;Windkraftanlage - aus Flurb;Linie;2099;;
+01.04.2010;#021.8018;;Fahrbahnrand (überdeckt) - aus Flurb;Linie;2118;;
+01.04.2010;#022.8002;;Grenzpunkt - aus Flurb (endgültige Koord.) ;Punkt;2202;;
+01.04.2010;#022.8002;;Flurstücksgrenze - aus Flurb;Linie;2202;;
+01.04.2010;#022.8003;;Grenzpunkt - aus Flurb (grafische Koord.);Punkt;2203;;
+01.04.2010;#022.8005;;unvermarkter Grenzpunkt - aus Flurb (endgültige Koord.);Punkt;2205;;
+01.04.2010;#022.8006;;unvermarkter Grenzpunkt - aus Flurb (grafische Koord.);Punkt;2206;;
+01.04.2010;#022.8008;;Grenzpunkt mit unklarer Codierung - aus Flurb;Punkt;2208;;
+01.04.2010;#022.8009;;Kreismittelpunkt - aus Flurb;Punkt;2209
+01.04.2010;#022.8009;;Zuordnungspfeil für Flst.Nr. - aus Flurb;Linie;2209
+01.04.2010;#022.8022;;Gebäudepunkt - aus Flurb (Differenzierung nur über Linienart möglich);Punkt;2222
+01.04.2010;#022.8022;;Gebäudelinie Wohnhaus - aus Flurb Schraffur S2;Linie;2222
+01.04.2010;#022.8032;;Gebäudelinie Gewerbegebäude - aus Flurb Schraffur P2;Linie;2232
+01.04.2010;#022.8042;;Gebäudelinie öffentliches Gebäude - aus Flurb Schraffur S4;Linie;2242
+01.04.2010;#022.8051;;Umgrenzung der Überdachung / Durchfahrt (geschlossen) - aus Flurb;Linie;2251
+01.04.2010;#022.8052;;Umgrenzung der Überdachung / Durchfahrt (offen) - aus Flurb;Linie;2252
+01.04.2010;#022.8053;;Überdachungsdiagonale (gestrichelt) - aus Flurb;Linie;2253
+01.04.2010;#022.8080;;Gemarkungsgrenze - aus Flurb;Linie;2280
+01.04.2010;#022.8081;;Flurgrenze - aus Flurb;Linie;2281
+01.04.2010;#022.8082;;Gemarkungsgrenzpunkt - aus Flurb;Punkt;2282
+01.04.2010;#022.8082;;Gemeinde-, Stadtgrenze - aus Flurb;Linie;2282
+01.04.2010;#022.8083;;Kreisgrenze - aus Flurb;Linie;2283
+01.04.2010;#022.8084;;Grenze der Region - aus Flurb;Linie;2284
+01.04.2010;#022.8085;;unvermarkter Gemarkungsgrenzpunkt - aus Flurb;Punkt;2285
+01.04.2010;#022.8085;;RP-Bezirksgrenze - aus Flurb;Linie;2285
+01.04.2010;#022.8086;;Landes- (Staats-) grenze - aus Flurb;Linie;2286
+01.04.2010;#022.8087;;Bundesgrenze - aus Flurb;Linie;2287
+01.02.2011;#023.8025;;Silo - aus Flurb;Linie;2325
+01.04.2010;#023.8090;;Punkt einer topografische Linie - aus Flurb;Punkt;2390
+01.04.2010;#023.8092;;topographische Linie - aus Flurb;Linie;2392
+01.04.2010;#023.8094;;herausfallender Punkt - aus Flurb;Punkt;2394
+01.04.2010;#023.8095;;historischer Punkt - aus Flurb;Punkt;2395
+01.04.2010;#023.8095;;überdeckte topografische Linie - aus Flurb;Linie;2395
+01.04.2010;#023.8097;;Böschungslinie unten - aus Flurb;Linie;2397
+01.04.2010;#023.8098;;Böschungslinie oben - aus Flurb;Linie;2398
+01.04.2010;#023.8099;;Punkt ohne Kennung - aus Flurb (meist Leitpunkt oder PP);Punkt;2399
+01.04.2010;#023.8099;;Linie ohne Kennung - aus Flurb;Linie;2399
+01.04.2010;#026.8001;;Wasserleitung - aus Flurb;Linie;2601
+01.04.2010;#026.8002;;Fernwärmeleitung - aus Flurb;Linie;2602
+01.04.2010;#026.8003;;Ölleitung - aus Flurb;Linie;2603
+01.04.2010;#026.8004;;Gasleitung - aus Flurb;Linie;2604
+01.04.2010;#026.8005;;Wasserfassung (Brunnen) - Umrisslinie - aus Flurb;Linie;2605
+01.04.2010;#026.8041;;Stromerdleitung - aus Flurb;Linie;2641
+01.04.2010;#026.8055;;Gittermast-Umrisslinie - aus Flurb;Linie;2655
+01.04.2010;#026.8061;;Stromfreileitung - aus Flurb;Linie;2661
+01.04.2010;#027.8027;;Tank - aus Flurb;Linie;2727
+01.05.2011;#030.8007;;Planung - Böschung unten;Punkt;3007
+01.04.2010;#030.8007;;Planung - Böschung unten;Linie ;3007
+01.05.2011;#030.8008;;Planung - Böschung oben;Punkt;3008
+01.04.2010;#030.8008;;Planung - Böschung oben;Linie;3008
+01.04.2010;#030.8010;;Planung - Fahrbahnmitte / Achskleinpunkt;Punkt;3010
+01.04.2010;#030.8010;;Planung - Fahrbahnmitte / Achse (Linien zur Darstellung von Straßen in kleinmaßstäblichen Plänen);Linie;3010
+01.04.2010;#030.8011;;Planung - Fahrbahnrand;Punkt;3011
+01.04.2010;#030.8011;;Planung - Fahrbahnrand;Linie;3011
+01.09.2011;#031.8011;;Planung - Fahrbahnrand (Betonbefestigung);Linie;3111
+01.04.2010;#030.8012;;Planung - Fahrspurrand;Punkt;3012
+01.04.2010;#030.8012;;Planung - Fahrspurrand;Linie;3012;
+01.09.2011;#031.8012;;Planung - Fahrbahnrand (bituminöse Befestigung);Linie;3112;
+01.04.2010;#030.8013;;Planung - Randstein unten;Punkt;3013;
+01.04.2010;#030.8013;;Planung - Randsteinlinie (unten);Linie;3013;
+01.04.2010;#030.8014;;Planung - Randstein oben;Punkt;3014;
+01.04.2010;#030.8014;;Planung - Randstein oben;Linie;3014;
+01.04.2010;#030.8015;;Planung - Bankett;Punkt;3015;
+01.04.2010;#030.8015;;Planung - Bankett;Linie;3015; 
+01.04.2010;#031.8051;;Planung - Auffüllung (eben - ohne Böschungsschraffen) ;Punkt;3151;
+01.04.2010;#031.8051;;Planung - Auffüllung (eben - ohne Böschungsschraffen);Linie;3151;
+01.04.2010;#031.8052;;Planung - Abgrabung (eben - ohne Böschungsschraffen);Punkt;3152;
+01.04.2010;#031.8052;;Planung - Abgrabung (eben - ohne Böschungsschraffen);Linie;3152;
+01.04.2010;#030.8016;;Planung - Längsmarkierung;Punkt;3016;
+01.04.2010;#030.8016;;Planung - Längsmarkierung;Linie;3016;
+01.11.2011;#031.8060;;Planung - Fahrbahnbegrenzung, nicht unterbrochene Leitlinie;Linie;3160;
+01.11.2011;#031.8061;;Planung - Leitlinie außerorts, außerhalb von Knotenpunkten;Linie;3161;
+01.11.2011;#031.8062;;Planung - Leitlinie innerorts, außerhalb von Knotenpunkten;Linie;3162
+01.11.2011;#031.8063;;Planung - Leitlinie außerorts, innerhalb von Knotenpunkten;Linie;3163
+01.11.2011;#031.8064;;Planung - Leitlinie innerorts, innerhalb von Knotenpunkten;Linie;3164
+01.11.2011;#031.8065;;Planung - Warnlinie außerorts;Linie;3165
+01.11.2011;#031.8066;;Planung - Warnlinie innerorts;Linie;3166
+01.11.2011;#031.8067;;Planung - einseitige Fahrbahnbegrenzung außerorts;Linie;3167
+01.11.2011;#031.8068;;Planung - einseitige Fahrbahnbegrenzung innerorts;Linie;3168
+01.11.2011;#031.8069;;Planung - Fahrstreifenbegrenzung Doppelstrich;Linie;3169
+01.04.2010;#030.8017;;Planung - Sperrfläche;Punkt;3017
+01.04.2010;#030.8017;;Planung - Sperrfläche;Linie;3017
+01.11.2011;#031.8071;;Planung - großes Schrägstrichgatter;Linie;3171
+01.11.2011;#031.8072;;Planung - kleines Schrägstrichgatter;Linie;3172
+01.11.2011;#031.8073;;Planung - unterbrochene Sonderfahrstreifenbegrenzung Autobahn;Linie;3173
+01.11.2011;#031.8074;;Planung - unterbrochene Sonderfahrstreifenbegrenzung außerorts;Linie;3174
+01.11.2011;#031.8075;;Planung - unterbrochene Sonderfahrstreifenbegrenzung innerorts;Linie;3175
+01.11.2011;#031.8076;;Planung - Wechselfahrstreifenbegrenzung außerorts;Linie;3176
+01.11.2011;#031.8077;;Planung - Wechselfahrstreifenbegrenzung innerorts;Linie;3177
+01.11.2011;#031.8078;;Planung - Wechselfahrstreifenbegrenzung Autobahn;Linie;3178
+01.04.2010;#030.8018;;Planung - Quermarkierung;Punkt;3018
+01.04.2010;#030.8018;;Planung - Quermarkierung;Linie;3018
+01.11.2011;#031.8081;;Planung - Haltelinie;Linie;3181
+01.11.2011;#031.8082;;Planung - Wartelinie;Linie;3182
+01.11.2011;#031.8083;;Planung - Fußgängerüberweg;Linie;3183
+01.11.2011;#031.8084;;Planung - Fußgängerfurt;Linie;3184
+01.11.2011;#031.8085;;Planung - Radfahrerfurt;Linie;3185
+01.11.2011;#031.8086;;Planung - Sonderfahrstreifenbegrenzung / Bushaltebucht;Linie;3186
+01.11.2011;#031.8087;;Planung - Fahrbahnbegrenzung bei Zufahrten (Blockung 3 / 3);Linie;3187
+01.11.2011;#031.8088;;Planung - Fahrstreifenbegrenzung bei Zufahrten (Blockung 1,5 / 1,5);Linie;3188
+01.11.2011;#031.8089;;Planung - Grenzmarkierung Halte- und Parkverbote;Linie;3189
+01.04.2010;#030.8019;;Planung - sonstige Markierung;Punkt;3019
+01.04.2010;#030.8019;;Planung - sonstige Markierung;Linie;3019
+01.11.2011;#031.8091;;Planung - Richtungspfeile Positionierungspunkt;Punkt;3191
+01.11.2011;#031.8092;;Planung - Leitlinie Autobahn (durchgehender Schmalstrich);Linie;3192
+01.11.2011;#031.8093;;Planung - Leitlinie Autobahn (unterbrochener Schmalstrich);Linie;3193
+01.11.2011;#031.8094;;Planung - Leitlinie Autobahn, innerhalb von Knotenpunkten;Linie;3194
+01.11.2011;#031.8095;;Planung - Warnlinie Autobahn;Linie;3195
+01.11.2011;#031.8096;;Planung - Sonderfahrstreifenbegrenzung;Linie;3196
+01.11.2011;#031.8097;;Planung - Text (wie BUS, 30 , 50 u.ä.) Positionierungspunkt;Punkt;3197
+01.11.2011;#031.8097;;Planung - Fahrbahnbegrenzungslinie unterbrochen Autobahn;Linie;3197
+01.11.2011;#031.8098;;Planung - aufgemalte Verkehrszeichen und sonstiges, Positionierungspunkt;Punkt;3198
+01.11.2011;#031.8098;;Planung - aufgemalte Verkehrszeichen und sonstiges;Linie;3198
+01.04.2010;#030.8021;;Planung - Grunderwerbsgrenzen Knickpunkte;Punkt;3021
+01.04.2010;#030.8021;;Planung - Grunderwerbsgrenzen;Linie;3021
+01.04.2010;#032.8010;;Planung - Grunderwerb Sonderfläche;Punkt;3210
+01.04.2010;#032.8010;;Planung - Grunderwerb Sonderfläche;Linie;3210
+01.04.2010;#032.8011;;Planung - Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Punkt;3211
+01.04.2010;#032.8011;;Planung - Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Linie;3211
+01.04.2010;#032.8012;;Planung - Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Punkt;3212
+01.04.2010;#032.8012;;Planung - Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Linie;3212
+01.04.2010;#032.8013;;Planung - Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Punkt;3213
+01.04.2010;#032.8013;;Planung - Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Linie;3213
+01.04.2010;#032.8014;;Planung - Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Punkt;3214
+01.04.2010;#032.8014;;Planung - Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Linie;3214
+01.04.2010;#032.8015;;Planung - dauernd zu belastende (beanspruchte) Fläche (DB);Punkt;3215
+01.04.2010;#032.8015;;Planung - dauernd zu belastende (beanspruchte) Fläche (DB);Linie;3215
+01.04.2010;#032.8016;;Planung - vorübergehend in Anspruch zu nehmende Fläche (VB);Punkt;3216
+01.04.2010;#032.8016;;Planung - vorübergehend in Anspruch zu nehmende Fläche (VB);Linie;3216
+01.04.2010;#032.8017;;Planung - Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Punkt;3217
+01.04.2010;#032.8017;;Planung - Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Linie;3217
+01.04.2010;#032.8018;;Planung - Ausgleichsfläche (für landschaftspflegerische Maßnahmen zu erwerbende Fläche);Punkt;3218
+01.04.2010;#032.8018;;Planung - Ausgleichsfläche (für landschaftspflegerische Maßnahmen zu erwerbende Fläche);Linie;3218
+01.04.2010;#032.8019;;Planung - Grunderwerb Tauschfläche;Punkt;3219
+01.04.2010;#032.8019;;Planung - Grunderwerb Tauschfläche;Linie;3219
+01.03.2011;#030.8022;;Planung - Wohnhaus;Punkt;3022
+01.04.2010;#030.8022;;Planung - Gebäudelinie Wohnhaus;Linie;3022
+01.04.2010;#030.8023;;Planung - gewerblich genutztes Gebäude;Punkt;3023
+01.04.2010;#030.8023;;Planung - Gebäudelinie Gewerbegebäude;Linie;3023
+01.04.2010;#030.8024;;Planung - öffentliches Gebäude;Punkt;3024
+01.04.2010;#030.8024;;Planung - Gebäudelinie öffentl. Gebäude;Linie;3024
+01.04.2010;#030.8025;;Planung - Überdachung;Punkt;3025
+01.04.2010;#030.8025;;Planung - Umgrenzung der Überdachung;Linie;3025
+01.04.2010;#030.8030;;Planung - Wegrand ;Punkt;3030
+01.04.2010;#030.8030;;Planung - Wegrand ;Linie;3030
+01.04.2010;#030.8031;;Planung - Mulde (Tiefpunkt);Punkt;3031
+01.04.2010;#030.8031;;Planung - Muldensohle;Linie;3031
+23.11.2011;#033.8019;;Planung - Muldenaußenrandlinien;Punkt;3319
+23.11.2011;#033.8019;;Planung - Muldenaußenrandlinien;Linie;3319
+01.04.2010;#030.8032;;Planung - Sonderbauwerke (alt 42);Punkt;3032
+01.04.2010;#030.8032;;Planung - Sonderbauwerke (alt 42);Linie;3032
+01.04.2010;#030.8033;;Planung - Mauer unten ;Punkt;3033
+01.04.2010;#030.8033;;Planung - Mauer unten;Linie;3033
+01.04.2010;#030.8034;;Planung - Mauer oben;Punkt;3034
+01.04.2010;#030.8034;;Planung - Mauer oben;Linie;3034
+01.04.2010;#030.8035;;Planung - Schienenoberkante;Punkt;3035
+01.04.2010;#030.8035;;Planung - Schiene;Linie;3035
+01.04.2010;#030.8036;;Planung - Rand einer befestigten Fläche;Punkt;3036
+01.04.2010;#030.8036;;Planung - Rand einer befestigten Fläche;Linie;3036
+01.04.2010;#030.8037;;Planung - Graben unten;Punkt;3037
+01.04.2010;#030.8037;;Planung - Graben unten;Linie;3037
+01.04.2010;#030.8038;;Planung - Graben oben;Punkt;3038
+01.04.2010;#030.8038;;Planung - Graben oben;Linie;3038
+01.04.2010;#030.8040;;Planung - Brückenwiderlager;Punkt;3040
+01.04.2010;#030.8040;;Planung - Brückenwiderlager;Linie;3040
+01.11.2011;#034.8001;;Planung - Brückenwiderlager unten;Punkt;3401
+01.11.2011;#034.8001;;Planung - Brückenwiderlager unten;Linie;3401
+01.11.2011;#034.8002;;Planung - Brückenwiderlager oben;Punkt;3402
+01.11.2011;#034.8002;;Planung - Brückenwiderlager oben;Linie;3402
+01.11.2011;#034.8003;;Planung - Auflager;Punkt;3403
+01.11.2011;#034.8003;;Planung - Auflager Umrisslinie;Linie;3403
+01.11.2011;#034.8004;;Planung - Dehnfuge;Punkt;3404
+01.11.2011;#034.8004;;Planung - Dehnfuge;Linie;3404
+01.11.2011;#034.8005;;Planung - Punkt der Auflagerachse;Punkt;3405
+01.11.2011;#034.8005;;Planung - Auflagerachse;Linie;3405
+01.11.2011;#034.8006;;Planung - Fahrbahnübergang;Punkt;3406
+01.11.2011;#034.8006;;Planung - Fahrbahnübergang;Linie;3406
+01.11.2011;#034.8007;;Planung - Gewölbefußpunkt;Punkt;3407
+01.11.2011;#034.8007;;Planung - Gewölbefuß;Linie;3407
+01.11.2011;#034.8008;;Planung - Flügelwand unten;Punkt;3408
+01.11.2011;#034.8008;;Planung - Flügelwand unten;Linie;3408
+01.11.2011;#034.8009;;Planung - Flügelwand oben;Punkt;3409
+01.11.2011;#034.8009;;Planung - Flügelwand oben;Linie;3409
+01.04.2010;#030.8041;;Planung - Pfeiler;Punkt;3041
+01.04.2010;#030.8041;;Planung - Pfeiler;Linie;3041
+01.11.2011;#034.8011;;Planung - Pfeiler unten;Punkt;3411
+01.11.2011;#034.8011;;Planung - Pfeiler unten;Linie;3411
+01.11.2011;#034.8012;;Planung - Pfeiler oben;Punkt;3412
+01.11.2011;#034.8012;;Planung - Pfeiler oben;Linie;3412
+01.11.2011;#034.8015;;Planung - Pfeilerfundament unten;Punkt;3415
+01.11.2011;#034.8015;;Planung - Pfeilerfundament unten;Linie;3415
+01.11.2011;#034.8016;;Planung - Pfeilerfundament oben;Punkt;3416
+01.11.2011;#034.8016;;Planung - Pfeilerfundament oben;Linie;3416
+01.11.2011;#034.8018;;Planung - Verbau;Punkt;3418
+01.11.2011;#034.8018;;Planung - Verbau;Linie;3418
+01.11.2011;#034.8019;;Planung - Arbeitsraum an Bauwerken;Punkt;3419
+01.11.2011;#034.8019;;Planung - Arbeitsraum an Bauwerken;Linie;3419
+01.04.2010;#030.8042;;Planung - Tunnel;Punkt;3042
+01.04.2010;#030.8042;;Planung - Tunnel;Linie;3042
+01.02.2011;#034.8020;;Planung - Tunnelwand;Punkt;3420
+01.02.2011;#034.8020;;Planung - Tunnelwand;Linie;3420
+01.04.2010;#034.8021;;Planung - Tunnelportal;Punkt;3421
+01.04.2010;#034.8021;;Planung - Tunnelportal;Linie;3421
+01.04.2010;#030.8043;;Planung - Stützmauer unten ;Punkt;3043
+01.04.2010;#030.8043;;Planung - Stützmauer unten ;Linie;3043
+01.04.2010;#030.8044;;Planung - Stützmauer oben;Punkt;3044
+01.04.2010;#030.8044;;Planung - Stützmauer oben;Linie;3044
+01.04.2010;#030.8045;;Planung - Treppe;Punkt;3045
+01.04.2010;#030.8045;;Planung - Treppe;Linie;3045
+01.04.2010;#030.8046;;Planung - Geländer;Punkt;3046
+01.04.2010;#030.8046;;Planung - Geländer;Linie;3046
+01.04.2010;#030.8047;;Planung - Lärmschutzwand;Punkt;3047
+01.04.2010;#030.8047;;Planung - Lärmschutzwand;Linie;3047
+01.12.2011;#034.8070;;Planung - Lärmschutzwand Beton;Linie;3470
+01.12.2011;#034.8071;;Planung - Lärmschutzwand Holz;Linie;3471
+01.12.2011;#034.8072;;Planung - Lärmschutzwand Metall;Linie;3472
+01.12.2011;#034.8073;;Planung - Lärmschutzwand Glas;Linie;3473
+01.12.2011;#034.8074;;Planung - Lärmschutzwand Kunststoff;Linie;3474
+01.12.2011;#034.8075;;Planung - Lärmschutzwand Beton bepflanzt;Linie;3475
+01.12.2011;#034.8076;;Planung - Lärmschutzwand Holz bepflanzt;Linie;3476
+01.12.2011;#034.8077;;Planung - Lärmschutzwand Metall bepflanzt;Linie;3477
+01.12.2011;#034.8078;;Planung - Lärmschutzwand Glas bepflanzt;Linie;3478
+01.12.2011;#034.8079;;Planung - Lärmschutzwand Kunststoff bepflanzt;Linie;3479
+01.04.2010;#030.8048;;Planung - Unterkante Bauwerk;Punkt;3048
+01.04.2010;#030.8048;;Planung - Unterkante Bauwerk;Linie;3048
+01.04.2010;#030.8049;;Planung - Gesimskante;Punkt;3049
+01.04.2010;#030.8049;;Planung - Gesimskante;Linie;3049
+01.04.2010;#030.8050;;Planung - Kontrollschacht der Straßenentwässerung;Punkt;3050
+01.04.2010;#030.8050;;Planung - Straßenentwässerungsleitung;Linie;3050
+01.04.2010;#030.8051;;Planung - Muldenablaufschacht;Punkt;3051
+01.04.2010;#030.8052;;Planung - Straßenablauf (allg.);Punkt;3052
+01.04.2010;#030.8053;;Planung - Straßenablauf im Randstein ;Punkt;3053
+01.04.2010;#030.8054;;Planung - Entwässerungsrinne;Punkt;3054
+01.04.2010;#030.8054;;Planung - Entwässerungsrinne;Linie;3054
+01.04.2010;#030.8055;;Planung - Durchlass/Dole;Punkt;3055
+01.04.2010;#030.8055;;Planung - Umrisslinie Durchlass/Dole;Linie;3055
+01.04.2010;#030.8056;;Planung - Schlitzrinne (Mitte);Punkt;3056
+01.04.2010;#030.8056;;Planung - Schlitzrinne (Mitte);Linie;3056
+01.04.2010;#030.8057;;Planung - Punkt eines Linienverlaufs (für geplante Leitungen);Punkt;3057
+01.04.2010;#030.8058;;Planung - Entlüftung ;Punkt;3058
+01.04.2010;#030.8059;;Planung - Schachtsohle;Punkt;3059
+01.09.2011;#035.8090;;Planung - Einzugsgebiet Straßenentwässerung;Linie;3590
+01.04.2010;#030.8060;;Planung - Kontrollschacht einer Ver- und Entsorgungsrohrleitung;Punkt;3060
+01.04.2010;#030.8060;;Planung - Ver-, Entsorgungsrohrleitung (allg.);Linie;3060
+01.04.2010;#036.8000;;Planung - Schutzrohr;Punkt;3600
+01.04.2010;#036.8000;;Planung - Schutzrohr;Linie;3600
+01.04.2010;#036.8001;;Planung - Kontrollschacht Wasserleitung ;Punkt;3601
+01.04.2010;#036.8001;;Planung - Wasserleitung ;Linie;3601
+01.04.2010;#036.8002;;Planung - Kontrollschacht Fernwärmeleitung;Punkt;3602
+01.04.2010;#036.8002;;Planung - Fernwärmeleitung ;Linie;3602
+01.04.2010;#036.8003;;Planung - Kontrollschacht Ölleitung;Punkt;3603
+01.04.2010;#036.8003;;Planung - Ölleitung ;Linie;3603
+01.04.2010;#036.8004;;Planung - Kontrollschacht Gasleitung;Punkt;3604
+01.04.2010;#036.8004;;Planung - Gasleitung ;Linie;3604
+01.04.2010;#036.8005;;Planung - Wasserfassung (Brunnen);Punkt;3605
+01.04.2010;#036.8005;;Planung - Wasserfassung (Brunnen) - Umrisslinie;Linie;3605
+01.04.2010;#036.8006;;Planung - Kontrollschacht Regenwasserleitung;Punkt;3606
+01.04.2010;#036.8006;;Planung - Regenwasserleitung ;Linie;3606
+01.04.2010;#036.8007;;Planung - Kontrollschacht Mischwasser ;Punkt;3607
+01.04.2010;#036.8007;;Planung - Mischwasserleitung ;Linie;3607
+01.04.2010;#036.8008;;Planung - Kontrollschacht Schmutzwasser ;Punkt;3608
+01.04.2010;#036.8008;;Planung - Schmutzwasserleitung ;Linie;3608
+01.04.2010;#030.8061;;Planung - Schieberschacht;Punkt;3061
+01.04.2010;#036.8011;;Planung - Schieberschacht Wasser;Punkt;3611
+01.04.2010;#036.8012;;Planung - Schieberschacht Fernwärmeleitung;Punkt;3612
+01.04.2010;#036.8013;;Planung - Schieberschacht Ölleitung;Punkt;3613
+01.04.2010;#036.8014;;Planung - Schieberschacht Gas;Punkt;3614
+01.04.2010;#036.8015;;Planung - Schieberschacht Schmutzwasserleitung;Punkt;3615
+01.04.2010;#030.8062;;Planung - Schaltkasten;Punkt;3062
+01.04.2010;#036.8021;;Planung - Verbindungsmuffe;Punkt;3621
+01.04.2010;#036.8022;;Planung - Abzweigmuffe;Punkt;3622
+01.04.2010;#036.8023;;Planung - Kondensatormuffe;Punkt;3623
+01.04.2010;#036.8024;;Planung - Pupinspulenmuffe, Pupinspulenkasten;Punkt;3624
+01.04.2010;#036.8025;;Planung - Blindmuffe;Punkt;3625
+01.04.2010;#036.8026;;Planung - Kupplung;Punkt;3626
+01.04.2010;#030.8063;;Planung - Streckenkabel BAB (AUSA) Kupferkabel;Linie;3063
+01.04.2010;#036.8031;;Planung - BAB Lichtwellenleiter / Glasfaserkabel;Linie;3631
+01.04.2010;#030.8064;;Planung - Kabelschacht;Punkt;3064
+01.04.2010;#030.8064;;Planung - E-Leitungen (allgem.) ;Linie;3064
+01.02.2011;#036.8040;;Planung - Leerrohr;Punkt;3640
+01.02.2011;#036.8040;;Planung - Leerrohr;Linie;3640
+01.04.2010;#036.8041;;Planung - Kabelschacht Strom;Punkt;3641
+01.04.2010;#036.8041;;Planung - Stromerdleitung ;Linie;3641
+01.04.2010;#036.8042;;Planung - Kabelschacht Verkehrssteuerungsanlage;Punkt;3642
+01.04.2010;#036.8042;;Planung - Kabel der Verkehrsteuerungsanlage ;Linie;3642
+01.04.2010;#036.8043;;Planung - Kabelschacht Lichtwellenleiter;Punkt;3643
+01.04.2010;#036.8043;;Planung - Lichtwellenleiter / Glasfaserkabel ;Linie;3643
+01.04.2010;#036.8044;;Planung - Kabelschacht Sammelleitung;Punkt;3644
+01.04.2010;#036.8044;;Planung - Sammelleitung / mehrfach genutzte Kabeltrasse ;Linie;3644
+01.04.2010;#036.8045;;Planung - Kabelschacht Fernmeldeleitung;Punkt;3645
+01.04.2010;#036.8045;;Planung - Fernmeldeleitung ;Linie;3645
+01.02.2011;#036.8048;;Planung - Kabelschacht Toll Collect;Punkt;3648
+01.02.2011;#036.8048;;Planung - Kabel Toll Collect;Linie;3648
+01.04.2010;#030.8065;;Planung - Gittermast;Punkt;3065
+01.04.2010;#030.8066;;Planung - Mast;Punkt;3066
+01.04.2010;#030.8066;;Planung - Freileitung (allg.);Linie;3066
+01.02.2011;#036.8061;;Planung - Stromfreileitung;Linie;3661
+01.02.2011;#036.8065;;Planung - Fernmeldefreileitung;Linie;3665
+01.04.2010;#036.8067;;Planung - Sendemast;Punkt;3667
+01.04.2010;#030.8067;;Planung - Fernsprechzelle;Punkt;3067
+01.04.2010;#030.8067;;Planung - Fernsprechzelle (Umriss);Linie;3067
+01.04.2010;#030.8068;;Planung - Hydrant ;Punkt;3068
+01.04.2010;#030.8070;;Planung - Schutzplanke einfach;Punkt;3070
+01.04.2010;#030.8070;;Planung - Einfache Distanz-Schutzplanke (EDSP) rechts;Linie;3070
+01.02.2011;#037.8002;;Planung - Einfache Schutzplanke (ESP) rechts;Linie;3702
+01.02.2011;#037.8004;;Planung - Schutzplanke einfach - Super Rail;Linie;3704
+01.04.2010;#030.8071;;Planung - Schutzplanke doppelt;Punkt;3071
+01.04.2010;#030.8071;;Planung - Doppelte Distanz-Schutzplanke (DDSP) mittig;Linie;3071
+01.02.2011;#037.8012;;Planung - Doppelte Schutzplanke (DSP) mittig;Linie;3712
+01.02.2011;#037.8014;;Planung - Schutzplanke doppelt - Super Rail ;Linie;3714
+01.04.2010;#037.8016;;Planung - Betongleitwand mittig ;Punkt;3716
+01.04.2010;#037.8016;;Planung - Betongleitwand mittig ;Linie;3716
+01.02.2011;#037.8017;;Planung - Umrisslinie Betongleitwand;Linie;3717
+01.04.2010;#030.8072;;Planung - Einrichtungen an Rastanlagen;Punkt;3072
+01.04.2010;#030.8072;;Planung - Einrichtungen an Rastanlagen, Umrisslinie;Linie;3072
+01.04.2010;#037.8026;;Planung - Kraftstoffzapfsäule;Punkt;3726
+01.04.2010;#037.8026;;Planung - Umrisslinie einer Kraftstoffzapfsäule;Linie;3726
+01.04.2010;#037.8027;;Planung - Tank oberirdisch;Punkt;3727
+01.04.2010;#037.8027;;Planung - Umrisslinie eines oberirdischen Tanks;Linie;3727
+01.04.2010;#037.8028;;Planung - Tank unterirdisch;Punkt;3728
+01.04.2010;#037.8028;;Planung - Umrisslinie eines unterirdischen Tanks;Linie;3728
+01.04.2010;#030.8073;;Planung - Beleuchtungsmast;Punkt;3073
+01.04.2010;#030.8074;;Planung - Notrufsäule;Punkt;3074
+01.04.2010;#030.8076;;Planung - Pegel / Bodenerkundung (allg.);Punkt;3076
+01.04.2010;#030.8076;;Planung - Bodenerkundung (allgem.), Umrisslinie;Linie;3076
+01.04.2010;#030.8077;;Planung - Zaun (allg.);Punkt;3077
+01.04.2010;#030.8077;;Planung - Zaun (allg.);Linie;3077
+01.09.2011;#037.8077;;Planung - Wildschutzzaun;Linie;3777
+01.04.2010;#030.8078;;Planung - Tor im Zaun;Linie;3078
+01.03.2011;#037.8085;;Planung - Schranke;Punkt;3785
+01.03.2011;#037.8085;;Planung - Schranke;Linie;3785
+01.04.2010;#030.8080;;Planung - Schild zur Verkehrslenkung ;Punkt;3080
+01.04.2010;#030.8080;;Planung - Schild zur Verkehrslenkung ;Linie;3080
+01.04.2010;#030.8081;;Planung - Gefahrenzeichen (StVO 101-199), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;3081
+01.04.2010;#030.8082;;Planung - Vorschriftszeichen (StVO 205-299), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;3082
+01.04.2010;#030.8083;;Planung - Richtzeichen (StVO 301-399), für Beschilderungspläne: 8000+StVO Nr. ;Punkt;3083
+01.04.2010;#030.8084;;Planung - Schilderbrücke Fundamenteckpunkt;Punkt;3084
+01.04.2010;#030.8084;;Planung - Schilderbrücke Fundament-Umrisslinie;Linie;3084
+01.04.2010;#038.8045;;Planung - Schilderbrücke;Punkt;3845
+01.04.2010;#038.8045;;Planung - Schilderbrücke als 2-Punkt-Linie;Linie;3845
+01.04.2010;#030.8086;;Planung - Verkehrssteuerungseinrichtung;Punkt;3086
+01.04.2010;#030.8086;;Planung - Verkehrssteuerungseinrichtung, Umrisslinie;Linie;3086
+01.04.2010;#038.8061;;Planung - Sichtweitenmessgerät Nebelwarnanlage;Punkt;3861
+01.04.2010;#038.8061;;Planung - Sichtweitenmessgerät Nebelwarnanlage ;Linie;3861
+01.02.2011;#038.8064;;Planung - Radaranlage (Geschwindigkeitsmessgerät);Punkt;3864
+01.02.2011;#038.8064;;Planung - Radaranlage (Geschwindigkeitsmessgerät);Linie;3864
+01.04.2010;#038.8065;;Planung - Wechselverkehrszeichen;Punkt;3865
+01.04.2010;#038.8065;;Planung - Wechselverkehrszeichen;Linie;3865
+01.04.2010;#038.8066;;Planung - Überwachungskamera;Punkt;3866
+01.04.2010;#038.8069;;Planung - Induktionsschleife (alt : 647);Punkt;3869
+01.04.2010;#038.8069;;Planung - Induktionsschleife (alt : 647);Linie;3869
+01.04.2010;#030.8088;;Planung - Verkehrsampel;Punkt;3088
+01.04.2010;#030.8088;;Planung - Lichtzeichenbrücke;Linie;3088
+01.04.2010;#030.8089;;Planung - Schilder (allgem.);Punkt;3089
+01.04.2010;#030.8089;;Planung - Schild als Linie / Umrisslinie;Linie;3089
+01.04.2010;#038.8092;;Planung - Werbetafel, Infotafel;Punkt;3892
+01.04.2010;#038.8092;;Planung - Werbetafel, Infotafel als Linie / Umrisslinie;Linie;3892
+01.04.2010;#030.8090;;Planung - Einzelbaum;Punkt;3090
+01.04.2010;#039.8001;;Planung - Laubbaum allg.;Punkt;3901
+01.04.2010;#039.8001;;Planung - Baumreihe Laubbäume;Linie;3901
+01.04.2010;#039.8002;;Planung - Nadelbaum allg.;Punkt;3902
+01.04.2010;#039.8002;;Planung - Baumreihe Nadelbäume;Linie;3902
+01.04.2010;#030.8091;;Planung - Waldrand / Grenzlinie einer Gehölzfläche;Punkt;3091
+01.04.2010;#030.8091;;Planung - Waldrand / Grenzlinie einer Gehölzfläche;Linie;3091
+01.02.2011;#039.8014;;Planung - Grenze Straßenbegleitgrün (Gehölz);Punkt;3914
+01.02.2011;#039.8014;;Planung - Straßenbegleitgrün (Gehölz);Linie;3914
+01.04.2010;#030.8093;;Planung - Gebüsch;Punkt;3093
+01.04.2010;#030.8093;;Planung - Gebüsch;Linie;3093
+01.02.2011;#039.8033;;Planung - Hecke;Punkt;3933
+01.02.2011;#039.8033;;Planung - Hecke;Linie;3933
+01.04.2010;#030.8094;;Planung - Uferlinie eines Gewässers;Punkt;3094
+01.04.2010;#030.8094;;Planung - Uferlinie eines Gewässers;Linie;3094
+01.02.2011;#039.8042;;Planung - mittlerer Wasserspiegel / Dauerstau;Punkt;3942
+01.02.2011;#039.8042;;Planung - Dauerstau (bei Becken);Linie;3942
+01.02.2011;#039.8043;;Planung - Gewässer verdolt /unterirdisch;Punkt;3943
+01.02.2011;#039.8043;;Planung - Gewässerlinie verdolt / unterirdisch;Linie;3943
+01.02.2011;#039.8044;;Planung - Stauziel;Punkt;3944
+01.02.2011;#039.8044;;Planung - Stauziel;Linie;3944
+01.04.2010;#030.8095;;Planung - Grenzpunkt von ökologischen Sonderflächen;Punkt;3095
+01.04.2010;#030.8095;;Planung - Grenzlinie einer ökologischen Sonderfläche ;Linie;3095
+01.04.2010;#039.8051;;Planung - Grenze Straßenbegleitgrün (Rasen);Linie;3951
+01.04.2010;#039.8052;;Planung - Grenze Sukzessionsfläche;Linie;3952
+01.04.2010;#039.8053;;Planung - Grenze sonstige Grünfläche;Linie;3953
+01.04.2010;#039.8055;;Planung - Grenze Ausgleichsfläche;Linie;3955
+01.04.2010;#039.8056;;Planung - Grenze Ersatzmaßnahme;Linie;3956
+01.04.2010;#039.8057;;Planung - Grenze Aufschüttungen;Linie;3957
+01.04.2010;#039.8058;;Planung - Grenze Abgrabungen;Linie;3958
+01.04.2010;#030.8099;;Planung - Sonstiges lt. Anschrieb;Punkt;3099
+01.04.2010;#030.8099;;Planung - Sonstiges lt. Anschrieb;Linie;3099
+01.04.2010;#030.8001;;allgemeiner Punkt der Planung;Punkt ;3001
+01.04.2010;#030.8001;;allgemeine Linie der Planung (durchgezogen, Stift: 2);Linie;3001
+01.04.2010;#030.8002;;Maßlinienpunkte;Punkt;3002
+01.04.2010;#030.8002;;Maßlinien (durchgezogen, Stift: 2, mit Schräglinien);Linie;3002
+01.04.2010;#030.8003;;Positionspunkt Querneigungskeil;Punkt;3003
+01.04.2010;#030.8003;;Querneigungskeil (durchgezogen, Stift: 2, mit Schraffur);Linie;3003
+01.04.2010;#030.8004;;Bauanfang / Bauende;Punkt ;3004
+01.04.2010;#030.8004;;Bauanfang / Bauende (durchgezogen, 1:500/1000: Stift 4, 1:250 Stift 5);Linie;3004
+01.04.2010;#030.8005;;Achshauptpunkt einer Randachse / Nebenachse;Punkt;3005
+01.04.2010;#030.8005;;Elementbemaßungsline für Randachse / Nebenachse (durchgez. Stift: 2);Linie;3005
+01.04.2010;#030.8006;;Achshauptpunkt einer Hauptachse;Punkt;3006
+01.04.2010;#030.8006;;Elementbemaßungsline für Hauptachse (durchgez. Stift: 4); Linie;3006
+01.04.2010;#030.8009;;Radienmittelpunkt;Punkt ;3009
+01.12.2011;#031.8000;;Punkt für Querneigung Null;Punkt;3100
+01.12.2011;#031.8001;;Punkt für Querneigung links;Punkt;3101
+01.12.2011;#031.8002;;Punkt für Querneigung rechts;Punkt;3102
+01.12.2011;#031.8003;;Punkt Querneigung Dachform;Punkt;3103
+01.12.2011;#031.8004;;Endpunkte Querprofillinien im Lageplan;Punkt;3104
+01.12.2011;#031.8004;;Querprofillinien im Lageplan;Linie;3104
+01.12.2011;#031.8005;;Punkt für Neigungswechsel aus Höhenplan;Punkt;3105
+01.12.2011;#031.8006;;Positionspunkt Hochpunkt;Punkt;3106
+01.12.2011;#031.8007;;Positionspunkt Tiefpunkt;Punkt;3107
+01.04.2010;T000.8010;;Gemeindenamen aus ALK;Text;10
+01.04.2010;T000.8011;;Ortsteilnamen aus ALK;Text;11
+01.04.2010;T000.8012;;Gewannnamen aus ALK;Text;12
+01.04.2010;T000.8013;;Text aus ALK (Code 9802 + 9812 + 9822) - Texthöhe 2,5;Text;13
+01.04.2010;T000.8014;;Text aus ALK (Code 9803 + 9804 + 9813 + 9814 + 9823 + 9824 + 9831) - Texthöhe 3,5;Text;14
+01.04.2010;T000.8015;;Text aus ALK (Code 9805) - Texthöhe 5,0;Text;15
+01.04.2010;T000.8016;;Text aus ALK (Code 9807) - Texthöhe 7,0;Text;16
+01.04.2010;T000.8017;;Gewässerbeschriftung aus ALK (Code 9853) - Texthöhe 3,5;Text;17
+01.04.2010;T000.8018;;Gewässerbeschriftung aus ALK (Code 9855 + 9857 + 9861) - Texthöhe 5,0 bzw. 7,0;Text;18
+01.04.2010;T000.8019;;Sonstige Texte (Pkt. Nr.) aus ALK - Texthöhe 2,5 ;Text;19
+01.04.2010;T000.8020;;Flurstücksnummern aus ALK;Text;20
+01.04.2010;T000.8021;;Beschriftung Grunderwerb - Ordnungsnummern;Text;21
+01.04.2010;T000.8022;;Gebäudenummern aus ALK (für Maßstäbe 1:250 - 1:1 000);Text;22
+01.04.2010;T000.8023;;Gebäudenummern aus ALK für kleinere Maßstäbe (1:2000 - 1:5 000) ;Text;23
+01.04.2010;T000.8024;;Gebäudenamen / Gebäudebezeichnung aus ALK;Text;24
+01.04.2010;T000.8025;;Gebäudenutzung aus ALK und sonstigen Erhebungen;Text;25
+01.04.2010;T000.8026;;Beschriftung Staat, Land, RP-Bezirk u. ä.;Text;26
+01.04.2010;T000.8027;;Beschriftung Bauleitplanung;Text;27
+01.04.2010;T000.8028;;Beschriftung Gemeinde-, Gemarkungs- und Flurnamen;Text;28
+01.04.2010;T002.8083;;Beschriftung Kreise;Text;283
+01.04.2010;T002.8088;;Beschriftung Flurbereinigungsgebiet;Text;288
+01.04.2010;T000.8029;;Nutzungsarten aus ALK;Text;29
+01.04.2010;T020.8010;;Gemeindenamen von Flurneuordnung;Text;2010
+01.04.2010;T020.8011;;Ortsteilnamen von Flurneuordnung;Text;2011
+01.04.2010;T020.8012;;Gewannnamen von Flurneuordnung;Text;2012
+01.04.2010;T020.8013;;Text von Flurneuordnung - Texthöhe 2,5;Text;2013
+01.04.2010;T020.8014;;Text von Flurneuordnung - Texthöhe 3,5;Text;2014
+01.04.2010;T020.8015;;Text von Flurneuordnung - Texthöhe 5,0;Text;2015
+01.04.2010;T020.8016;;Text von Flurneuordnung - Texthöhe 7,0;Text;2016
+01.04.2010;T020.8017;;Gewässerbeschriftung von Flurneuordnung - Texthöhe 3,5;Text;2017
+01.04.2010;T020.8018;;Gewässerbeschriftung von Flurneuordnung - Texthöhe 5,0 bzw. 7,0;Text;2018
+01.04.2010;T020.8019;;Sonstige Texte (Pkt. Nr.) von Flurneuordnung - Texthöhe 2,5 ;Text;2019
+01.04.2010;T020.8020;;Flurstücksnummer von Flurneuordnung (nicht rechtskräftig);Text;2020
+01.04.2010;T020.8022;;Gebäudenummer von Flurneuordnung;Text;2022
+01.04.2010;T020.8023;;Gebäudenummern von Flurneuordnung für kleinere Maßstäbe (1:2000 - 1:5 000) ;Text;2023
+01.04.2010;T020.8024;;Gebäudenamen / Gebäudebezeichnung von Flurneuordnung;Text;2024
+01.04.2010;T020.8025;;Gebäudenutzungen von Flurneuordnung;Text;2025
+01.04.2010;T020.8029;;Nutzungsbeschriftung von Flurneuordnung;Text;2029
+01.04.2010;T000.8030;;Beschriftung von topografischen Objekten ;Text;30
+01.04.2010;T000.8031;;Beschriftung von Straßen (von ... nach ... u. ä.);Text;31
+01.04.2010;T000.8032;;Beschriftung von klassifizierten Straßen (Straßennummer, -bezeichnung);Text;32
+01.04.2010;T000.8035;;Beschriftung an Bahnlinien;Text;35
+01.03.2011;T000.8036;;Beschriftung Oberflächenstruktur befestigte Flächen;Text;36
+01.03.2011;T000.8039;;Beschriftung Randsteine;Text;39
+01.04.2010;T000.8040;;Bauwerksbeschriftung allgemein / Bauwerksnummern;Text;40
+01.04.2010;T000.8041;;Bauwerksbeschriftung - Stiftdicke 0,18 ;Text;41
+01.04.2010;T000.8042;;Bauwerksbeschriftung - Stiftdicke 0,25 ;Text;42
+01.04.2010;T000.8043;;Bauwerksbeschriftung - Stiftdicke 0,35 ;Text;43
+01.04.2010;T000.8047;;Beschriftung Lärmschutz;Text;47
+01.04.2010;T000.8050;;Beschriftung der Entwässerung allgemein;Text;50
+01.04.2010;T000.8051;;Beschriftung der Entwässerung - Stiftdicke 0,18;Text;51
+01.04.2010;T000.8052;;Beschriftung der Entwässerung - Stiftdicke 0,25 ;Text;52
+01.04.2010;T000.8053;;Beschriftung der Entwässerung - Stiftdicke 0,35 ;Text;53
+01.04.2010;T000.8055;;Beschriftung Dole / Durchlass (z. B. Gewässer);Text;55
+01.04.2010;T000.8059;;Beschriftung der Schachtsohlen;Text;59
+01.04.2010;T000.8060;;Beschriftung von Ver- und Entsorgungsleitungen allgemein;Text;60
+01.04.2010;T006.8000;;Beschriftung von Schutzrohren ;Text;600
+01.04.2010;T006.8001;;Beschriftung von Wasserleitungen;Text;601
+01.04.2010;T006.8002;;Beschriftung von Fernwärmeleitungen;Text;602
+01.04.2010;T006.8003;;Beschriftung von Ölleitungen;Text;603
+01.04.2010;T006.8004;;Beschriftung von Gasleitungen;Text;604
+01.04.2010;T006.8005;;Beschriftung von Wasserfassungen / Brunnen;Text;605
+01.04.2010;T006.8006;;Beschriftung von Regenwasserleitungen;Text;606
+01.04.2010;T006.8007;;Beschriftung von Mischwasserleitungen;Text;607
+01.04.2010;T006.8008;;Beschriftung von Schmutzwasserleitungen;Text;608
+01.04.2010;T000.8062;;Beschriftung von elektrischen Anlagen;Text;62
+01.04.2010;T000.8063;;Beschriftung von Streckenkabeln der Autobahn (AUSA);Text;63
+01.04.2010;T006.8031;;Beschriftung von BAB-Lichtwellenleiterkabel;Text;631
+01.04.2010;T000.8064;;Beschriftung von Elektroleitungen ;Text;64
+01.04.2010;T006.8040;;Beschriftung von Leerrohren / Kabelformsteinen;Text;640
+01.04.2010;T006.8041;;Beschriftung von Stromerdleitungen;Text;641
+01.04.2010;T006.8042;;Beschriftung von Verkehrssteueranlagen;Text;642
+01.04.2010;T006.8043;;Beschriftung der Lichtwellenleiterkabel;Text;643
+01.04.2010;T006.8044;;Beschriftung von Sammelleitungen;Text;644
+01.04.2010;T006.8045;;Beschriftung von Fernmeldeerdleitungen;Text;645
+01.04.2010;T000.8066;;Beschriftung von Freileitungen;Text;66
+01.04.2010;T006.8061;;Beschriftung von Stromfreileitungen;Text;661
+01.04.2010;T006.8065;;Beschriftung von Fernmeldefreileitungen ;Text;665
+01.04.2010;T000.8067;;Beschriftung von Fernmeldeleitungen;Text;67
+01.03.2011;T000.8070;;Beschriftung von Straßenbetriebseinrichtungen;Text;70
+01.04.2010;T000.8072;;Beschriftung an Rastplätzen ;Text;72
+01.04.2010;T007.8026;;Beschriftung Tank- und Rastanlagen - Zapfsäulen;Text;726
+01.04.2010;T007.8027;;Beschriftung Tank- und Rastanlagen - oberirdische Tanks;Text;727
+01.04.2010;T007.8028;;Beschriftung Tank- und Rastanlagen - unterirdische Tanks;Text;728
+01.04.2010;T007.8029;;Beschriftung Tank- und Rastanlagen - sonstige Beschriftungen;Text;729
+01.04.2010;T000.8073;;Beschriftung von Beleuchtungseinrichtungen;Text;73
+01.04.2010;T000.8075;;Beschriftungen der Straßendatenbank, allgemein (auch Stationierung);Text;75
+01.04.2010;T007.8051;;Beschriftung der OD-Grenzen;Text;751
+01.04.2010;T007.8052;;Beschriftung von Netzknoten;Text;752
+01.04.2010;T007.8053;;Beschriftung Ast-Nullpunkt;Text;753
+01.04.2010;T007.8054;;Beschriftung Ast-Endpunkt;Text;754
+01.04.2010;T007.8056;;Beschriftung von Bauwerken in der SDB;Text;756
+01.04.2010;T000.8076;;Beschriftung von Punkten der Bodenerkundung;Text;76
+01.04.2010;T000.8079;;Höhenkoten;Text;79
+01.02.2011;T007.8090;;Beschriftung von Sonder-Höhenlinie;Text;790
+01.02.2011;T007.8094;;Beschriftung von 0,5 m Höhenlinie;Text;794
+01.02.2011;T007.8095;;Beschriftung von 1 m Höhenlinie;Text;795
+01.02.2011;T007.8096;;Beschriftung von 5 m Höhenlinie;Text;796
+01.02.2011;T007.8097;;Beschriftung von 10 m Höhenlinie;Text;797
+01.02.2011;T007.8098;;Beschriftung von 50 m Höhenlinie;Text;798
+01.02.2011;T007.8099;;Beschriftung von 100 m Höhenlinie;Text;799
+01.04.2010;T000.8080;;Beschriftung an wegweisender Beschilderung;Text;80
+01.04.2010;T000.8081;;Beschriftung von Verkehrszeichen;Text;81
+01.04.2010;T008.8044;;Beschriftung Mautbrücke;Text;844
+01.04.2010;T000.8086;;Beschriftung von Verkehrssteuerungseinrichtungen;Text;86
+01.04.2010;T000.8090;;Beschriftung von Einzelbäumen;Text;90
+01.04.2010;T000.8091;;Beschriftung Bewuchs;Text;91
+01.04.2010;T000.8092;;Beschriftung Waldschutzgebiete;Text;92
+01.04.2010;T000.8094;;Beschriftung Gewässer (siehe auch Code 17 aus ALK);Text;94
+01.03.2011;T009.8041;;Beschriftung Wasserspiegel;Text;941
+01.04.2010;T000.8095;;Beschriftung ökologischer Sonderflächen;Text;95
+01.04.2010;T000.8096;;Beschriftungen für Gewässerschutz;Text;96
+01.04.2010;T000.8097;;Beschriftungen für Landschafts- und Naturschutz;Text;97
+01.03.2011;T009.8070;;Beschriftung Sonderflächen (Landschafts- und Naturschutz);Text;970
+01.03.2011;T009.8071;;Beschriftung Landschaftsschutzgebiet (LSG);Text;971
+01.03.2011;T009.8072;;Beschriftung Naturschutzgebiet (NSG);Text;972
+01.03.2011;T009.8073;;Beschriftung Europäisches Vogelschutzgebiet (SPA);Text;973
+01.03.2011;T009.8075;;Beschriftung Naturpark;Text;975
+01.03.2011;T009.8076;;Beschriftung besonders geschütztes Biotop (§ 24a / 32 Biotop);Text;976
+01.03.2011;T009.8077;;Beschriftung FFH-Gebiet;Text;977
+01.03.2011;T009.8078;;Beschriftung Nationalpark;Text;978
+01.03.2011;T009.8079;;Beschriftung Biosphärengebiet;Text;979
+01.04.2010;T000.8098;;Beschriftung von Denkmälern;Text;98
+01.04.2010;T005.8000;;Beschriftung von Festpunkten;Text;500
+01.04.2010;T005.8001;;Beschriftung der Vermarkungsart von Festpunkten;Text;501
+01.04.2010;T084.8080;;Beschriftung von Meßpunkten zur Bauwerksüberwachung;Text;8480
+01.04.2010;T000.8000;;Text allgemein, ohne weitere Angaben;Text;0
+01.04.2010;T000.8001;;Text, SCHWARZ Stiftdicke 0,18;Text;1
+01.04.2010;T000.8002;;Text, SCHWARZ Stiftdicke 0,25;Text;2
+01.04.2010;T000.8003;;Text, SCHWARZ Stiftdicke 0,35;Text;3
+01.04.2010;T000.8004;;Text, SCHWARZ Stiftdicke 0,50;Text;4
+01.04.2010;T000.8005;;Text, SCHWARZ Stiftdicke 0,70;Text;5
+01.04.2010;T000.8006;;Text, SCHWARZ Stiftdicke 1,00;Text;6
+01.04.2010;T000.8007;;Text, SCHWARZ Stiftdicke in STF anpassen;Text;7
+01.04.2010;T000.8008;;Text, SCHWARZ Stiftdicke in STF anpassen;Text;8
+01.04.2010;T000.8009;;Text, SCHWARZ Stiftdicke in STF anpassen;Text;9
+01.03.2011;T010.8001;;Text, GRAU Stiftdicke 0,18;Text;1001
+01.03.2011;T010.8002;;Text, GRAU Stiftdicke 0,25;Text;1002
+01.03.2011;T010.8003;;Text, GRAU Stiftdicke 0,35;Text;1003
+01.03.2011;T010.8004;;Text, GRAU Stiftdicke 0,50;Text;1004
+01.03.2011;T020.8001;;Text, ROT Stiftdicke 0,18;Text;2001
+01.03.2011;T020.8002;;Text, ROT Stiftdicke 0,25;Text;2002
+01.03.2011;T020.8003;;Text, ROT Stiftdicke 0,35;Text;2003
+01.03.2011;T020.8004;;Text, ROT Stiftdicke 0,50;Text;2004
+01.03.2011;T070.8001;;Text, GRÜN Stiftdicke 0,18;Text;7001
+01.03.2011;T070.8002;;Text, GRÜN Stiftdicke 0,25;Text;7002
+01.03.2011;T070.8003;;Text, GRÜN Stiftdicke 0,35;Text;7003
+01.03.2011;T070.8004;;Text, GRÜN Stiftdicke 0,50;Text;7004
+01.03.2011;T080.8001;;Text, BLAU Stiftdicke 0,18;Text;8001
+01.03.2011;T080.8002;;Text, BLAU Stiftdicke 0,25;Text;8002
+01.03.2011;T080.8003;;Text, BLAU Stiftdicke 0,35;Text;8003
+01.03.2011;T080.8004;;Text, BLAU Stiftdicke 0,50;Text;8004
+01.03.2011;T090.8001;;Text, GELB Stiftdicke 0,18;Text;9001
+01.03.2011;T090.8002;;Text, GELB Stiftdicke 0,25;Text;9002
+01.03.2011;T090.8003;;Text, GELB Stiftdicke 0,35;Text;9003
+01.03.2011;T090.8004;;Text, GELB Stiftdicke 0,50;Text;9004
+01.04.2010;T009.8091;;Text, SCHWARZ Stiftdicke 0,18 - freigestellt;Text;991
+01.04.2010;T009.8092;;Text, SCHWARZ Stiftdicke 0,25 - freigestellt;Text;992
+01.04.2010;T009.8093;;Text, SCHWARZ Stiftdicke 0,35 - freigestellt;Text;993
+01.04.2010;T009.8094;;Text, SCHWARZ Stiftdicke 0,50 - freigestellt;Text;994
+01.04.2010;T009.8095;;Text, SCHWARZ Stiftdicke 0,70 - freigestellt;Text;995
+01.04.2010;T009.8096;;Text, SCHWARZ Stiftdicke 1,00 - freigestellt;Text;996
+01.03.2011;T019.8091;;Text, GRAU Stiftdicke 0,18 - freigestellt;Text;1991
+01.03.2011;T019.8092;;Text, GRAU Stiftdicke 0,25 - freigestellt;Text;1992
+01.03.2011;T019.8093;;Text, GRAU Stiftdicke 0,35 - freigestellt;Text;1993
+01.03.2011;T019.8094;;Text, GRAU Stiftdicke 0,50 - freigestellt;Text;1994
+01.03.2011;T029.8091;;Text, ROT Stiftdicke 0,18 - freigestellt;Text;2991
+01.03.2011;T029.8092;;Text, ROT Stiftdicke 0,25 - freigestellt;Text;2992
+01.03.2011;T029.8093;;Text, ROT Stiftdicke 0,35 - freigestellt;Text;2993
+01.03.2011;T029.8094;;Text, ROT Stiftdicke 0,50 - freigestellt;Text;2994
+01.03.2011;T079.8091;;Text, GRÜN Stiftdicke 0,18 - freigestellt;Text;7991
+01.03.2011;T079.8092;;Text, GRÜN Stiftdicke 0,25 - freigestellt;Text;7992
+01.03.2011;T079.8093;;Text, GRÜN Stiftdicke 0,35 - freigestellt;Text;7993
+01.03.2011;T079.8094;;Text, GRÜN Stiftdicke 0,50 - freigestellt;Text;7994;;;;
+01.03.2011;T089.8091;;Text, BLAU Stiftdicke 0,18 - freigestellt;Text;8991;;;;
+01.03.2011;T089.8092;;Text, BLAU Stiftdicke 0,25 - freigestellt;Text;8992;;;;
+01.03.2011;T089.8093;;Text, BLAU Stiftdicke 0,35 - freigestellt;Text;8993;;;;
+01.03.2011;T089.8094;;Text, BLAU Stiftdicke 0,50 - freigestellt;Text;8994;;;;
+01.03.2011;T099.8091;;Text, GELB Stiftdicke 0,18 - freigestellt;Text;9991;;;;
+01.03.2011;T099.8092;;Text, GELB Stiftdicke 0,25 - freigestellt;Text;9992;;;;
+01.03.2011;T099.8093;;Text, GELB Stiftdicke 0,35 - freigestellt;Text;9993;;;;
+01.03.2011;T099.8094;;Text, GELB Stiftdicke 0,50 - freigestellt;Text;9994;;;;
+01.03.2011;T009.8099;;Text im Lageplan nicht darstellen;Text;999;;;;
+01.12.2011;T030.8021;;Planung - Beschriftung Grunderwerb - Ordnungsnummern;Text;3021;;;;
+01.12.2011;T032.8010;;Planung - Beschriftung Grunderwerb Sonderfläche;Text;3210;;;;
+01.12.2011;T032.8011;;Planung - Beschriftung Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Text;3211;;;;
+01.12.2011;T032.8012;;Planung - Beschriftung Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Text;3212;;;;
+01.12.2011;T032.8013;;Planung - Beschriftung Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Text;3213;;;;
+01.12.2011;T032.8014;;Planung - Beschriftung Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Text;3214;;;;
+01.12.2011;T032.8015;;Planung - Beschriftung dauernd zu belastende (beanspruchte) Flächen (DB);Text;3215;;;
+01.12.2011;T032.8016;;Planung - Beschriftung vorübergehend in Anspruch zu nehmende Flächen (VB);Text;3216;;;
+01.12.2011;T032.8017;;Planung - Beschriftung Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Text;3217;;;
+01.12.2011;T032.8018;;"Planung - Beschriftung Ausgleichsfläche 
+(für landschaftspflegerische Maßnahmen zu erwerbende Fläche)";Text;3218;;;
+01.12.2011;T032.8019;;Planung - Beschriftung Tauschfläche;Text;3219;;;
+01.12.2011;T030.8022;;Planung - Beschriftung Gebäude;Text;3022;;;
+01.12.2011;T030.8030;;Planung - Beschriftung von topografischen Objekten ;Text;3030;;;
+01.12.2011;T030.8031;;Planung - Beschriftung von Straßen (von ... nach ... u. ä.);Text;3031;;;
+01.12.2011;T030.8032;;Planung - Beschriftung von klassifizierten Straßen (Straßennummer, -bezeichnung);Text;3032;;;
+01.12.2011;T030.8035;;Planung - Beschriftung an Bahnlinien;Text;3035;;;
+01.12.2011;T030.8036;;Planung - Beschriftung Oberflächenstruktur befestigte Flächen;Text;3036;;;
+01.12.2011;T030.8039;;Planung - Beschriftung Randsteine;Text;3039;;;
+01.12.2011;T030.8040;;Planung - Bauwerksbeschriftung allgemein / Bauwerksnummern;Text;3040;;;
+01.12.2011;T030.8041;;Planung - Bauwerksbeschriftung - Stiftdicke 0,18 ;Text;3041;;;
+01.12.2011;T030.8042;;Planung - Bauwerksbeschriftung - Stiftdicke 0,25 ;Text;3042;;;
+01.12.2011;T030.8043;;Planung - Bauwerksbeschriftung - Stiftdicke 0,35 ;Text;3043;;;
+01.12.2011;T030.8047;;Planung - Beschriftung Lärmschutz;Text;3047
+01.12.2011;T030.8050;;Planung - Beschriftung der Entwässerung allgemein;Text;3050
+01.12.2011;T030.8051;;Planung - Beschriftung der Entwässerung - Stiftdicke 0,18;Text;3051
+01.12.2011;T030.8052;;Planung - Beschriftung der Entwässerung - Stiftdicke 0,25 ;Text;3052
+01.12.2011;T030.8053;;Planung - Beschriftung der Entwässerung - Stiftdicke 0,35 ;Text;3053
+01.12.2011;T030.8055;;Planung - Beschriftung Dole / Durchlass (z. B. Gewässer);Text;3055
+01.12.2011;T030.8059;;Planung - Beschriftung der Schachtsohlen;Text;3059
+01.12.2011;T030.8060;;Planung - Beschriftung von Ver- und Entsorgungsleitungen allgemein;Text;3060
+01.12.2011;T036.8000;;Planung - Beschriftung von Schutzrohren ;Text;3600
+01.12.2011;T036.8001;;Planung - Beschriftung von Wasserleitungen;Text;3601
+01.12.2011;T036.8002;;Planung - Beschriftung von Fernwärmeleitungen;Text;3602
+01.12.2011;T036.8003;;Planung - Beschriftung von Ölleitungen;Text;3603
+01.12.2011;T036.8004;;Planung - Beschriftung von Gasleitungen;Text;3604
+01.12.2011;T036.8005;;Planung - Beschriftung von Wasserfassungen / Brunnen;Text;3605
+01.12.2011;T036.8006;;Planung - Beschriftung von Regenwasserleitungen;Text;3606
+01.12.2011;T036.8007;;Planung - Beschriftung von Mischwasserleitungen;Text;3607
+01.12.2011;T036.8008;;Planung - Beschriftung von Schmutzwasserleitungen;Text;3608
+01.12.2011;T030.8062;;Planung - Beschriftung von elektrischen Anlagen;Text;3062
+01.12.2011;T030.8063;;Planung - Beschriftung von Streckenkabeln der Autobahn (AUSA);Text;3063
+01.12.2011;T030.8064;;Planung - Beschriftung von Elektroleitungen ;Text;3064
+01.12.2011;T036.8042;;Beschriftung von Verkehrssteueranlagen;Text;3642
+01.12.2011;T030.8066;;Planung - Beschriftung von Freileitungen;Text;3066
+01.12.2011;T030.8067;;Planung - Beschriftung von Fernmeldeleitungen;Text;3067
+01.12.2011;T030.8070;;Planung - Beschriftung von Straßenbetriebseinrichtungen;Text;3070
+01.12.2011;T030.8072;;Planung - Beschriftung an Rastplätzen ;Text;3072
+01.12.2011;T037.8026;;Planung - Beschriftung Tank- und Rastanlagen - Zapfsäulen;Text;3726
+01.12.2011;T037.8027;;Planung - Beschriftung Tank- und Rastanlagen - oberirdische Tanks;Text;3727
+01.12.2011;T037.8028;;Planung - Beschriftung Tank- und Rastanlagen - unterirdische Tanks;Text;3728
+01.12.2011;T037.8029;;Planung - Beschriftung Tank- und Rastanlagen - sonstige Beschriftungen;Text;3729
+01.12.2011;T030.8073;;Planung - Beschriftung von Beleuchtungseinrichtungen;Text;3073
+01.12.2011;T030.8075;;Planung - Beschriftungen der Straßendatenbank, allgemein;Text;3075
+01.12.2011;T037.8052;;Planung - Knotenpunktsbeschriftung;Text;3752
+01.04.2010;T030.8076;;Planung - Beschriftung von Punkten der Bodenerkundung;Text;3076
+01.04.2010;T030.8079;;Planung - Höhenkoten;Text;3079
+01.12.2011;T030.8080;;Planung - Beschriftung an wegweisender Beschilderung;Text;3080
+01.12.2011;T030.8081;;Planung - Beschriftung von Verkehrszeichen;Text;3081
+01.12.2011;T030.8086;;Planung - Beschriftung von Verkehrssteuerungseinrichtungen;Text;3086
+01.12.2011;T030.8089;;Planung - Beschriftung Schilder (allgem.);Text;3089
+01.12.2011;T030.8090;;Planung - Beschriftung von Einzelbäumen;Text;3090
+01.12.2011;T030.8091;;Planung - Beschriftung Bewuchs;Text;3091
+01.12.2011;T030.8094;;Planung - Beschriftung Gewässer (siehe auch Code 17 aus ALK);Text;3094
+01.12.2011;T039.8042;;Planung - Beschriftung Dauerstau (Becken);Text;3942
+01.12.2011;T030.8095;;Planung - Beschriftung ökologischer Sonderflächen;Text;3095
+01.04.2010;T030.8000;;Planung - Text allgemein, ohne weitere Angaben;Text;3000
+01.04.2010;T030.8001;;Planung - Text, SCHWARZ Stiftdicke 0,18;Text;3001
+01.04.2010;T030.8002;;Planung - Text, SCHWARZ Stiftdicke 0,25;Text;3002
+01.04.2010;T030.8003;;Planung - Text, SCHWARZ Stiftdicke 0,35;Text;3003
+01.04.2010;T030.8004;;Planung - Text, SCHWARZ Stiftdicke 0,50;Text;3004
+01.04.2010;T030.8005;;Planung - Text, SCHWARZ Stiftdicke 0,70;Text;3005
+01.04.2010;T030.8006;;Planung - Text, SCHWARZ Stiftdicke 1,00;Text;3006
+01.04.2010;T030.8007;;Planung - Text, SCHWARZ Stiftdicke in STF anpassen;Text;3007
+01.04.2010;T030.8008;;Planung - Text, SCHWARZ Stiftdicke in STF anpassen;Text;3008
+01.04.2010;T030.8009;;Planung - Text, SCHWARZ Stiftdicke in STF anpassen;Text;3009
+01.04.2010;T039.8091;;Planung - Text, SCHWARZ Stiftdicke 0,18 - freigestellt;Text;3991
+01.04.2010;T039.8092;;Planung - Text, SCHWARZ Stiftdicke 0,25 - freigestellt;Text;3992
+01.04.2010;T039.8093;;Planung - Text, SCHWARZ Stiftdicke 0,35 - freigestellt;Text;3993
+01.04.2010;T039.8094;;Planung - Text, SCHWARZ Stiftdicke 0,50 - freigestellt;Text;3994
+01.04.2010;T039.8095;;Planung - Text, SCHWARZ Stiftdicke 0,70 - freigestellt;Text;3995
+01.04.2010;T039.8096;;Planung - Text, SCHWARZ Stiftdicke 1,00 - freigestellt;Text;3996
+01.12.2011;T039.8002;;Planung - Beschriftung von Breiten (Maßlinien);Text;3902
+01.12.2011;T039.8003;;Planung - Beschriftung von Querneigungen;Text;3903
+01.12.2011;T039.8004;;Planung - Beschriftung von Längenstationierung (Querprofile);Text;3904
+01.12.2011;T039.8005;;Planung - Beschriftung von Nebenachsen;Text;3905
+01.12.2011;T039.8006;;Planung - Beschriftung von Haupachsen;Text;3906
+01.12.2011;T039.8007;;Planung - Beschriftung von Böschungsneigungen;Text;3907
+01.12.2011;T031.8003;;Planung - Beschriftung von Längsneigung ;Text;3103
+01.12.2011;T031.8004;;Planung - Beschriftung Kuppen-Wannenhalbmesser;Text;3104
+01.12.2011;T031.8005;;Planung - Beschriftung von Achselemente (Parameter);Text;3105
+01.12.2011;T031.8006;;Planung - Beschriftung von Station der Achselemente;Text;3106
+01.12.2011;T031.8007;;Planung - Beschriftung von Verziehungslängen;Text;3107
+01.12.2011;#090.8007;;Einschnittsböschung;Flaeche;9007
+01.12.2011;#090.8008;;Dammböschung;Flaeche;9008
+01.12.2011;#090.8010;;Fahrbahn;Flaeche;9010
+01.12.2011;#090.8011;;Fahrbahn - Vollausbau;Flaeche;9011
+01.12.2011;#090.8012;;Fahrbahn - Belagserneuerung;Flaeche;9012
+01.12.2011;#090.8013;;Zufahrt;Flaeche;9013
+01.12.2011;#090.8015;;Bankett;Flaeche;9015
+01.12.2011;#090.8017;;Fahrbahnteiler / Insel / Parkstreifen;Flaeche;9017
+01.12.2011;#090.8018;;Rekultivieren;Flaeche;9018
+01.12.2011;#090.8020;;Grunderwerb Sonderfläche;Flaeche;9020
+01.12.2011;#090.8021;;Grunderwerb Bund (für den Straßenbau zu erwerbende Fläche);Flaeche;9021
+01.12.2011;#090.8022;;Grunderwerb Land (für den Straßenbau zu erwerbende Fläche);Flaeche;9022
+01.12.2011;#090.8023;;Grunderwerb Kreis (für den Straßenbau zu erwerbende Fläche);Flaeche;9023
+01.12.2011;#090.8024;;Grunderwerb Gemeinde (für den Straßenbau zu erwerbende Fläche);Flaeche;9024
+01.12.2011;#090.8025;;dauernd zu belastende (beanspruchte) Flächen (DB);Flaeche;9025
+01.12.2011;#090.8026;;vorübergehend in Anspruch zu nehmende Flächen (VB);Flaeche;9026
+01.12.2011;#090.8027;;Grunderwerb Nebenanlagen (für Dritte zu erwerbende Fläche);Flaeche;9027
+01.12.2011;#090.8028;;Ausgleichsfläche (für landschaftspflegerische Maßnahmen zu erwerbende Fläche);Flaeche;9028
+01.12.2011;#090.8029;;Tauschflächen;Flaeche;9029
+01.12.2011;#090.8031;;Grasweg / Erdweg / Wirtschaftsweg;Flaeche;9031
+01.12.2011;#090.8032;;wassergebunden befestigter Weg / Radweg;Flaeche;9032
+01.12.2011;#090.8033;;bit. befestigter Weg;Flaeche;9033
+01.12.2011;#090.8034;;gepflasterter Weg;Flaeche;9034
+01.12.2011;#090.8035;;sonstiger befestigter Weg;Flaeche;9035
+01.12.2011;#090.8036;;bit. Gehweg;Flaeche;9036
+01.12.2011;#090.8037;;bit. Radweg;Flaeche;9037
+01.12.2011;#090.8038;;bit. kombinierter Rad-/Gehweg;Flaeche;9038
+01.12.2011;#090.8039;;bit. Mehrzweckweg / Wirtschaftsweg;Flaeche;9039
+01.12.2011;#090.8040;;Brücken-Widerlager;Flaeche;9040
+01.12.2011;#090.8041;;Brücken-Pfeiler;Flaeche;9041
+01.12.2011;#090.8042;;Tunnel;Flaeche;9042
+01.12.2011;#090.8043;;Stützwand;Flaeche;9043
+01.12.2011;#090.8047;;Lärmschutzwand;Flaeche;9047
+01.12.2011;#090.8051;;Mulde / Entwässerungsgraben;Flaeche;9051
+01.12.2011;#090.8054;;Gewässerfläche;Flaeche;9054
+01.12.2011;#090.8080;;Altlastfläche;Flaeche;9080
+01.12.2011;#090.8081;;Straßenbegleitgrün (Rasen) / Straßennebenflächen;Flaeche;9081
+01.12.2011;#090.8082;;Sukzessionsfläche;Flaeche;9082
+01.12.2011;#090.8083;;sonstige Grünfläche;Flaeche;9083
+01.12.2011;#090.8085;;Ausgleichsfläche;Flaeche;9085
+01.12.2011;#090.8086;;Ersatzmaßnahme;Flaeche;9086
+01.12.2011;#090.8087;;Aufschüttungen;Flaeche;9087
+01.12.2011;#090.8088;;Abgrabungen;Flaeche;9088
+01.12.2011;#090.8091;;Gehölzfläche;Flaeche;9091
+01.12.2011;#090.8092;;Gebüsch;Flaeche;9092
+01.04.2010;99999.9999;;Sonstiges;Punkt;
+01.04.2010;99999.9999;;Sonstiges;Linie;
+01.04.2010;99999.9999;;Sonstiges;Text;
+01.12.2011;99999.9999;;Sonstiges;Flaeche;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+;
+;
+;
+;
+;
+;
+;

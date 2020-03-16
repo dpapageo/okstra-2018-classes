@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema targetNamespace="http://schema.idmvu.org/4000/idmvu-typen"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:idmvu-typen="http://schema.idmvu.org/4000/idmvu-typen"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    elementFormDefault="qualified" version="4.000">
+    <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+    <import namespace="http://www.w3.org/1999/xlink" schemaLocation="./xlink/xlink.xsd" />
+    <!-- -->
+    <!-- ========================================= -->
+    <!-- = Definition der verwendeten Grundtypen = -->
+    <!-- ========================================= -->
+    <!-- -->
+    <complexType name="WeightType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="CurrencyType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>    <complexType name="ElectricCurrentType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="ForcePerUnitAreaType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="FrequencyType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="InformationType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="PowerType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="SlopeType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="VoltageType">
+        <simpleContent>
+            <extension base="gml:MeasureType"/>
+        </simpleContent>
+    </complexType>
+    <complexType name="Ampere">
+        <simpleContent>
+            <restriction base="idmvu-typen:ElectricCurrentType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="A" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="Anzahl">
+        <restriction base="integer"/>
+    </simpleType>
+    <simpleType name="AsbIngSchlüssel">
+        <restriction base="string"/>
+    </simpleType>
+    <complexType name="Bar">
+        <simpleContent>
+            <restriction base="idmvu-typen:ForcePerUnitAreaType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="bar" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="bit">
+        <simpleContent>
+            <restriction base="idmvu-typen:InformationType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="bit" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="Buchstabe">
+        <restriction base="string"/>
+    </simpleType>
+    <complexType name="EURO">
+        <simpleContent>
+            <restriction base="idmvu-typen:CurrencyType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="EUR" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Gon">
+        <simpleContent>
+            <restriction base="gml:AngleType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="gon" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Grad">
+        <simpleContent>
+            <restriction base="gml:AngleType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="Grad" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Hertz">
+        <simpleContent>
+            <restriction base="idmvu-typen:FrequencyType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="Hz" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="Jahr">
+        <restriction base="integer"/>
+    </simpleType>
+    <complexType name="Jahre">
+        <simpleContent>
+            <restriction base="gml:TimeType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="a" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kilogramm">
+        <simpleContent>
+            <restriction base="idmvu-typen:WeightType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="kg" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kilohertz">
+        <simpleContent>
+            <restriction base="idmvu-typen:FrequencyType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="kHz" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kilometer">
+        <simpleContent>
+            <restriction base="gml:LengthType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="km" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kilovolt">
+        <simpleContent>
+            <restriction base="idmvu-typen:VoltageType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="kV" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kilowatt">
+        <simpleContent>
+            <restriction base="idmvu-typen:PowerType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="kW" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Kubikmeter">
+        <simpleContent>
+            <restriction base="gml:VolumeType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="m%B3" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Liter">
+        <simpleContent>
+            <restriction base="gml:VolumeType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="l" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Megahertz">
+        <simpleContent>
+            <restriction base="idmvu-typen:FrequencyType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="MHz" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Meter">
+        <simpleContent>
+            <restriction base="gml:LengthType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="m" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="MeterProSekunde">
+        <simpleContent>
+            <restriction base="gml:SpeedType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="m%2Fs" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Millimeter">
+        <simpleContent>
+            <restriction base="gml:LengthType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="mm" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Monate">
+        <simpleContent>
+            <restriction base="gml:TimeType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="Monate" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="Postleitzahl">
+        <restriction base="integer"/>
+    </simpleType>
+    <complexType name="ProzentNeigung">
+        <simpleContent>
+            <restriction base="idmvu-typen:SlopeType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="%" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Quadratmeter">
+        <simpleContent>
+            <restriction base="gml:AreaType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="m%B2" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Quadratmillimeter">
+        <simpleContent>
+            <restriction base="gml:AreaType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="mm%B2" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Quadratzentimeter">
+        <simpleContent>
+            <restriction base="gml:AreaType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="cm%B2" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Radiant">
+        <simpleContent>
+            <restriction base="gml:AngleType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="rad" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="Schadensbewertung">
+        <restriction base="integer"/>
+    </simpleType>
+    <complexType name="Stundenkilometer">
+        <simpleContent>
+            <restriction base="gml:SpeedType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="km%2Fh" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <simpleType name="URI">
+        <restriction base="string"/>
+    </simpleType>
+    <complexType name="Volt">
+        <simpleContent>
+            <restriction base="idmvu-typen:VoltageType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="V" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+    <complexType name="Zentimeter">
+        <simpleContent>
+            <restriction base="gml:LengthType">
+                <attribute name="uom" type="gml:UomSymbol" fixed="cm" use="required"/>
+            </restriction>
+        </simpleContent>
+    </complexType>
+</schema>

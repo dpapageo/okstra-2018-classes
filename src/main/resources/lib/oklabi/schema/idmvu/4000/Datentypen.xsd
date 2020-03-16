@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:idmvu="http://schema.idmvu.org/4000/idmvu" xmlns:idmvu-basis="http://schema.idmvu.org/4000/idmvu-basis" xmlns:idmvu-typen="http://schema.idmvu.org/4000/idmvu-typen" elementFormDefault="qualified" targetNamespace="http://schema.idmvu.org/4000/idmvu" version="4.000.0">
+  <include schemaLocation="idmvu.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-basis" schemaLocation="idmvu-basis.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-typen" schemaLocation="idmvu-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="Abfallfach" substitutionGroup="gml:AbstractObject" type="idmvu:AbfallfachType"/>
+  <complexType name="AbfallfachType">
+    <sequence>
+      <element name="ArtAbfall" type="idmvu-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Volumen" type="idmvu-typen:Liter"/>
+      <element minOccurs="0" name="maxAbfallgewicht" type="idmvu-typen:Kilogramm"/>
+    </sequence>
+  </complexType>
+  <complexType name="AbfallfachPropertyType">
+    <sequence>
+      <element ref="idmvu:Abfallfach"/>
+    </sequence>
+  </complexType>
+  <element name="Annotation" substitutionGroup="gml:AbstractObject" type="idmvu:AnnotationType"/>
+  <complexType name="AnnotationType">
+    <sequence>
+      <element minOccurs="0" name="Dokumentenverweis" type="idmvu-typen:URI"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+      <element name="Datum" type="date"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="ZweckDerAngabe" type="idmvu-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="AnnotationPropertyType">
+    <sequence>
+      <element ref="idmvu:Annotation"/>
+    </sequence>
+  </complexType>
+  <element name="Anschrift" substitutionGroup="gml:AbstractObject" type="idmvu:AnschriftType"/>
+  <complexType name="AnschriftType">
+    <sequence>
+      <element minOccurs="0" name="Straße" type="string"/>
+      <element minOccurs="0" name="Hausnummer" type="string"/>
+      <element minOccurs="0" name="PLZ" type="idmvu-typen:Postleitzahl"/>
+      <element minOccurs="0" name="Ort" type="string"/>
+      <element minOccurs="0" name="Landeskennung" type="string"/>
+      <element minOccurs="0" name="Land" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AnschriftPropertyType">
+    <sequence>
+      <element ref="idmvu:Anschrift"/>
+    </sequence>
+  </complexType>
+  <element name="Betriebsdatenart" substitutionGroup="gml:AbstractObject" type="idmvu:BetriebsdatenartType"/>
+  <complexType name="BetriebsdatenartType">
+    <sequence>
+      <element name="Bezeichnung" type="string"/>
+      <element name="BetriebsdatenEinheit" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="BetriebsdatenartPropertyType">
+    <sequence>
+      <element ref="idmvu:Betriebsdatenart"/>
+    </sequence>
+  </complexType>
+  <element name="Fremdreferenz" substitutionGroup="gml:AbstractObject" type="idmvu:FremdreferenzType"/>
+  <complexType name="FremdreferenzType">
+    <sequence>
+      <element name="System" type="string"/>
+      <element name="Art" type="string"/>
+      <element name="ID" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="FremdreferenzPropertyType">
+    <sequence>
+      <element ref="idmvu:Fremdreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Genauigkeitsinfo" substitutionGroup="gml:AbstractObject" type="idmvu:GenauigkeitsinfoType"/>
+  <complexType name="GenauigkeitsinfoType">
+    <sequence>
+      <element minOccurs="0" name="Attributname" type="string"/>
+      <element minOccurs="0" name="Aufnahmegenauigkeit" type="idmvu-typen:Millimeter"/>
+      <element minOccurs="0" name="Genauigkeitsklasse" type="idmvu-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="GenauigkeitsinfoPropertyType">
+    <sequence>
+      <element ref="idmvu:Genauigkeitsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="GleisStreckennummer" substitutionGroup="gml:AbstractObject" type="idmvu:GleisStreckennummerType"/>
+  <complexType name="GleisStreckennummerType">
+    <sequence>
+      <element name="Art" type="string"/>
+      <element name="Nummer" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="GleisStreckennummerPropertyType">
+    <sequence>
+      <element ref="idmvu:GleisStreckennummer"/>
+    </sequence>
+  </complexType>
+  <element name="Höhe" substitutionGroup="gml:AbstractObject" type="idmvu:HöheType"/>
+  <complexType name="HöheType">
+    <sequence>
+      <element name="Höhenwert" type="idmvu-typen:Meter"/>
+      <element name="Höhensystem" type="idmvu-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Höhenstatus" type="idmvu-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Überprüfungsdatum" type="date"/>
+      <element minOccurs="0" name="Hinweise" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="HöhePropertyType">
+    <sequence>
+      <element ref="idmvu:Höhe"/>
+    </sequence>
+  </complexType>
+  <element name="Nutzungsart" substitutionGroup="gml:AbstractObject" type="idmvu:NutzungsartType"/>
+  <complexType name="NutzungsartType">
+    <sequence>
+      <element name="Name" type="string"/>
+      <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="NutzungsartPropertyType">
+    <sequence>
+      <element ref="idmvu:Nutzungsart"/>
+    </sequence>
+  </complexType>
+  <element name="Nutzungsdauer" substitutionGroup="gml:AbstractObject" type="idmvu:NutzungsdauerType"/>
+  <complexType name="NutzungsdauerType">
+    <sequence>
+      <element name="Anlagentyp" type="string"/>
+      <element name="Nutzungsdauer" type="idmvu-typen:Jahre"/>
+    </sequence>
+  </complexType>
+  <complexType name="NutzungsdauerPropertyType">
+    <sequence>
+      <element ref="idmvu:Nutzungsdauer"/>
+    </sequence>
+  </complexType>
+  <element name="Organisationsmerkmal" substitutionGroup="gml:AbstractObject" type="idmvu:OrganisationsmerkmalType"/>
+  <complexType name="OrganisationsmerkmalType">
+    <sequence>
+      <element name="Datum" type="date"/>
+      <element name="Person" type="string"/>
+      <element name="InternExtern" type="idmvu-basis:KeyValuePropertyType"/>
+      <element name="Anlass" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="OrganisationsmerkmalPropertyType">
+    <sequence>
+      <element ref="idmvu:Organisationsmerkmal"/>
+    </sequence>
+  </complexType>
+  <element name="PCV" substitutionGroup="gml:AbstractObject" type="idmvu:PCVType"/>
+  <complexType name="PCVType">
+    <sequence>
+      <element minOccurs="0" name="Winkel" type="idmvu-typen:Grad"/>
+      <element minOccurs="0" name="Variation" type="idmvu-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="PCVPropertyType">
+    <sequence>
+      <element ref="idmvu:PCV"/>
+    </sequence>
+  </complexType>
+  <element name="Punktort" substitutionGroup="gml:AbstractObject" type="idmvu:PunktortType"/>
+  <complexType name="PunktortType">
+    <sequence>
+      <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+      <element name="Koordinatenstatus" type="idmvu-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Überprüfungsdatum" type="date"/>
+      <element minOccurs="0" name="Hinweise" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="PunktortPropertyType">
+    <sequence>
+      <element ref="idmvu:Punktort"/>
+    </sequence>
+  </complexType>
+  <element name="Punktvermarkung" substitutionGroup="gml:AbstractObject" type="idmvu:PunktvermarkungType"/>
+  <complexType name="PunktvermarkungType">
+    <sequence>
+      <element name="HöheVomErdboden" type="idmvu-typen:Zentimeter"/>
+      <element minOccurs="0" name="ArtDerVermarkung" type="idmvu-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="ZustandDerVermarkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="PunktvermarkungPropertyType">
+    <sequence>
+      <element ref="idmvu:Punktvermarkung"/>
+    </sequence>
+  </complexType>
+  <element name="RoutenausschnittOK" substitutionGroup="gml:AbstractObject" type="idmvu:RoutenausschnittOKType"/>
+  <complexType name="RoutenausschnittOKType">
+    <sequence>
+      <element name="beginntBeiStraßenelementpunkt" type="idmvu:StraßenelementpunktOKPropertyType"/>
+      <element name="endetBeiStraßenelementpunkt" type="idmvu:StraßenelementpunktOKPropertyType"/>
+      <element maxOccurs="unbounded" name="KennungStraßenelement" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="RoutenausschnittOKPropertyType">
+    <sequence>
+      <element ref="idmvu:RoutenausschnittOK"/>
+    </sequence>
+  </complexType>
+  <element name="Schließfachart" substitutionGroup="gml:AbstractObject" type="idmvu:SchließfachartType"/>
+  <complexType name="SchließfachartType">
+    <sequence>
+      <element minOccurs="0" name="HöheSchließfach" type="idmvu-typen:Zentimeter"/>
+      <element minOccurs="0" name="BreiteSchließfach" type="idmvu-typen:Zentimeter"/>
+      <element minOccurs="0" name="TiefeSchließfach" type="idmvu-typen:Zentimeter"/>
+      <element minOccurs="0" name="AnzahlSchließfächer" type="idmvu-typen:Anzahl"/>
+    </sequence>
+  </complexType>
+  <complexType name="SchließfachartPropertyType">
+    <sequence>
+      <element ref="idmvu:Schließfachart"/>
+    </sequence>
+  </complexType>
+  <element name="StraßenelementpunktOK" substitutionGroup="gml:AbstractObject" type="idmvu:StraßenelementpunktOKType"/>
+  <complexType name="StraßenelementpunktOKType">
+    <sequence>
+      <element name="KennungStraßenelement" type="string"/>
+      <element name="Station" type="idmvu-typen:Meter"/>
+      <element minOccurs="0" name="AbstandZurBestandsachse" type="idmvu-typen:Meter"/>
+      <element minOccurs="0" name="AbstandZurFahrbahnoberfläche" type="idmvu-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="StraßenelementpunktOKPropertyType">
+    <sequence>
+      <element ref="idmvu:StraßenelementpunktOK"/>
+    </sequence>
+  </complexType>
+  <element name="StraßenpunktOKSTRA" substitutionGroup="gml:AbstractObject" type="idmvu:StraßenpunktOKSTRAType"/>
+  <complexType name="StraßenpunktOKSTRAType">
+    <sequence>
+      <element name="KennungAoA" type="string"/>
+      <element name="Station" type="idmvu-typen:Kilometer"/>
+      <element minOccurs="0" name="AbstandZurBestandsachse" type="idmvu-typen:Meter"/>
+      <element minOccurs="0" name="AbstandZurFahrbahnoberkante" type="idmvu-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="StraßenpunktOKSTRAPropertyType">
+    <sequence>
+      <element ref="idmvu:StraßenpunktOKSTRA"/>
+    </sequence>
+  </complexType>
+  <element name="TeilabschnittOKSTRA" substitutionGroup="gml:AbstractObject" type="idmvu:TeilabschnittOKSTRAType"/>
+  <complexType name="TeilabschnittOKSTRAType">
+    <sequence>
+      <element name="beginntBeiStraßenpunkt" type="idmvu:StraßenpunktOKSTRAPropertyType"/>
+      <element name="endetBeiStraßenpunkt" type="idmvu:StraßenpunktOKSTRAPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TeilabschnittOKSTRAPropertyType">
+    <sequence>
+      <element ref="idmvu:TeilabschnittOKSTRA"/>
+    </sequence>
+  </complexType>
+</schema>

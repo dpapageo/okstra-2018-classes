@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:idmvu="http://schema.idmvu.org/4000/idmvu" xmlns:idmvu-basis="http://schema.idmvu.org/4000/idmvu-basis" xmlns:idmvu-typen="http://schema.idmvu.org/4000/idmvu-typen" elementFormDefault="qualified" targetNamespace="http://schema.idmvu.org/4000/idmvu" version="4.000.0">
+  <include schemaLocation="idmvu.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-basis" schemaLocation="idmvu-basis.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-typen" schemaLocation="idmvu-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="Achszähleinrichtung" substitutionGroup="gml:AbstractFeature" type="idmvu:AchszähleinrichtungType"/>
+  <complexType name="AchszähleinrichtungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="zuSchaltschrank" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" name="zuZählpunkt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuZählgerät" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AchszähleinrichtungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Achszähleinrichtung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Bahnübergangssicherung" substitutionGroup="gml:AbstractFeature" type="idmvu:BahnübergangssicherungType"/>
+  <complexType name="BahnübergangssicherungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuVerkehrszeichen" type="idmvu-basis:ObjectRefType"/>
+          <element name="zuGleisquerung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BahnübergangssicherungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Bahnübergangssicherung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="GefahrenraumFreimeldeanlage" substitutionGroup="gml:AbstractFeature" type="idmvu:GefahrenraumFreimeldeanlageType"/>
+  <complexType name="GefahrenraumFreimeldeanlageType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="GeoFläche" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GefahrenraumFreimeldeanlagePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:GefahrenraumFreimeldeanlage"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Geschwindigkeitsüberwachungseinrichtung" substitutionGroup="gml:AbstractFeature" type="idmvu:GeschwindigkeitsüberwachungseinrichtungType"/>
+  <complexType name="GeschwindigkeitsüberwachungseinrichtungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+          <element maxOccurs="unbounded" name="zuAntenne" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSchaltkontakt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GeschwindigkeitsüberwachungseinrichtungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Geschwindigkeitsüberwachungseinrichtung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Gleisanschlusskasten" substitutionGroup="gml:AbstractFeature" type="idmvu:GleisanschlusskastenType"/>
+  <complexType name="GleisanschlusskastenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element name="Funktion" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuGleisstromkreis" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GleisanschlusskastenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Gleisanschlusskasten"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Gleisquerung" substitutionGroup="gml:AbstractFeature" type="idmvu:GleisquerungType"/>
+  <complexType name="GleisquerungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Straßenbreite" type="idmvu-typen:Meter"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ZugelasseneGeschwindigkeit" type="idmvu-typen:Stundenkilometer"/>
+          <element minOccurs="0" name="QuerendeVerkehrsart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtDerNichttechnischenSicherung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Straßenbaulastträger" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoFläche" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="zuBahnkreuzung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuBahnübergangssicherung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSignal" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GleisquerungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Gleisquerung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Gleisstromkreis" substitutionGroup="gml:AbstractFeature" type="idmvu:GleisstromkreisType"/>
+  <complexType name="GleisstromkreisType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="zuSchaltschrank" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ausführungsform" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Gleisstromfrequenz" type="idmvu-typen:Kilohertz"/>
+          <element minOccurs="0" name="Länge" type="idmvu-typen:Meter"/>
+          <element minOccurs="0" name="zuIsolierteSchiene" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="2" name="hatGleisanschlusskasten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatIsolierstoß" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="GleisstromkreisPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Gleisstromkreis"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Handschaltmittel" substitutionGroup="gml:AbstractFeature" type="idmvu:HandschaltmittelType"/>
+  <complexType name="HandschaltmittelType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element name="Art" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="HandschaltmittelPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Handschaltmittel"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Isolierstoß" substitutionGroup="gml:AbstractFeature" type="idmvu:IsolierstoßType"/>
+  <complexType name="IsolierstoßType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuTrennstoß" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="IsolierstoßPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Isolierstoß"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="IsolierteSchiene" substitutionGroup="gml:AbstractFeature" type="idmvu:IsolierteSchieneType"/>
+  <complexType name="IsolierteSchieneType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+          <element name="zuGleisstromkreis" type="idmvu-basis:ObjectRefType"/>
+          <element name="zuSchaltkontakt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="IsolierteSchienePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:IsolierteSchiene"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Leitstelle" substitutionGroup="gml:AbstractFeature" type="idmvu:LeitstelleType"/>
+  <complexType name="LeitstelleType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Leitsystem" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuGebäude" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuLautsprecher" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuDynFahrgastinformationsanzeige" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuAntenne" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LeitstellePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Leitstelle"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="LinienförmigeAntenne" substitutionGroup="gml:AbstractFeature" type="idmvu:LinienförmigeAntenneType"/>
+  <complexType name="LinienförmigeAntenneType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Übertragungsfrequenz" type="idmvu-typen:Hertz"/>
+          <element minOccurs="0" name="Wirkrichtung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtDerInformation" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Energieversorgung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtDerÜbermittelbarenDaten" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="MaxInformationsbreite" type="idmvu-typen:bit"/>
+          <element minOccurs="0" name="Wirkbereich" type="idmvu-typen:Zentimeter"/>
+          <element minOccurs="0" name="Anschrift" type="idmvu:AnschriftPropertyType"/>
+          <element minOccurs="0" name="Standortbeschreibung" type="string"/>
+          <element minOccurs="0" name="zuGeschwindigkeitsüberwachungseinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitstelle" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSignal" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuZugsicherungssystem" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="anIngenieurbauwerk" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuFernwirkanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="vonFunkstelle" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="LängeDerKurzschleife" type="idmvu-typen:Meter"/>
+          <element minOccurs="0" name="GeoLinie" type="gml:CurvePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LinienförmigeAntennePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:LinienförmigeAntenne"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="PunktförmigeAntenne" substitutionGroup="gml:AbstractFeature" type="idmvu:PunktförmigeAntenneType"/>
+  <complexType name="PunktförmigeAntenneType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Übertragungsfrequenz" type="idmvu-typen:Hertz"/>
+          <element minOccurs="0" name="Wirkrichtung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtDerInformation" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Energieversorgung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtDerÜbermittelbarenDaten" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="MaxInformationsbreite" type="idmvu-typen:bit"/>
+          <element minOccurs="0" name="Wirkbereich" type="idmvu-typen:Zentimeter"/>
+          <element minOccurs="0" name="Anschrift" type="idmvu:AnschriftPropertyType"/>
+          <element minOccurs="0" name="Standortbeschreibung" type="string"/>
+          <element minOccurs="0" name="zuGeschwindigkeitsüberwachungseinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitstelle" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSignal" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuZugsicherungssystem" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="anIngenieurbauwerk" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuFernwirkanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="vonFunkstelle" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PunktförmigeAntennePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:PunktförmigeAntenne"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="S-Stoß" substitutionGroup="gml:AbstractFeature" type="idmvu:S-StoßType"/>
+  <complexType name="S-StoßType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuTrennstoß" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="S-StoßPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:S-Stoß"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Schaltkontakt" substitutionGroup="gml:AbstractFeature" type="idmvu:SchaltkontaktType"/>
+  <complexType name="SchaltkontaktType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuGeschwindigkeitsüberwachungseinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuIsolierteSchiene" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SchaltkontaktPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Schaltkontakt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Schlüsselsperre" substitutionGroup="gml:AbstractFeature" type="idmvu:SchlüsselsperreType"/>
+  <complexType name="SchlüsselsperreType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SchlüsselsperrePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Schlüsselsperre"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Schrankenanlage" substitutionGroup="gml:AbstractFeature" type="idmvu:SchrankenanlageType"/>
+  <complexType name="SchrankenanlageType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Antriebsbauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="Schrankenbaumausführung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Schrankenbaumlänge" type="idmvu-typen:Meter"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SchrankenanlagePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Schrankenanlage"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Signal" substitutionGroup="gml:AbstractFeature" type="idmvu:SignalType"/>
+  <complexType name="SignalType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Höhe" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="HöheNichtstandard" type="idmvu-typen:Meter"/>
+          <element minOccurs="0" name="Anschrift" type="idmvu:AnschriftPropertyType"/>
+          <element minOccurs="0" name="Standortbeschreibung" type="string"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuSchaltschrank" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuGleisquerung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuAntenne" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuMast" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="anBauwerk" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SignalPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Signal"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Stellvorrichtung" substitutionGroup="gml:AbstractFeature" type="idmvu:StellvorrichtungType"/>
+  <complexType name="StellvorrichtungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Verschlussart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuSchaltschrank" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="StellvorrichtungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Stellvorrichtung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Steuerungsanlage" substitutionGroup="gml:AbstractFeature" type="idmvu:SteuerungsanlageType"/>
+  <complexType name="SteuerungsanlageType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ausführung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Fahrstraßenlogik" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="SiL" type="integer"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuVerteilungUmformung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuGefahrenraumFreimeldeanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuStellvorrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSchrankenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuFernwirkanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuBahnübergangssicherung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSchlüsselsperre" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuWeichenantrieb" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuWeichenüberwachung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuMeldeanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuGeschwindigkeitsüberwachungseinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSignal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuFreimeldeabschnitt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuAntenne" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuIsolierteSchiene" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuSchaltkontakt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verbundenMitSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatVerbindungZuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istUntergeordnet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="istÜbergeordnet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuHandschaltmittel" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuGebäude" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SteuerungsanlagePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Steuerungsanlage"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Trennstoß" substitutionGroup="gml:AbstractFeature" type="idmvu:TrennstoßType"/>
+  <complexType name="TrennstoßType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuGleisstromkreis" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="2" minOccurs="0" name="hatIsolierstoß" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatS-Stoß" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TrennstoßPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Trennstoß"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Verkehrszeichen" substitutionGroup="gml:AbstractFeature" type="idmvu:VerkehrszeichenType"/>
+  <complexType name="VerkehrszeichenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element name="StVONummer" type="string"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuBahnübergangssicherung" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VerkehrszeichenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Verkehrszeichen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Weichenantrieb" substitutionGroup="gml:AbstractFeature" type="idmvu:WeichenantriebType"/>
+  <complexType name="WeichenantriebType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Herstellerbezeichnung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Steuerungsart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSchaltschrank" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuLeitungspunkt" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="WeichenantriebPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Weichenantrieb"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Weichenüberwachung" substitutionGroup="gml:AbstractFeature" type="idmvu:WeichenüberwachungType"/>
+  <complexType name="WeichenüberwachungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element name="zuWeichenanlage" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="WeichenüberwachungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Weichenüberwachung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Zugsicherungssystem" substitutionGroup="gml:AbstractFeature" type="idmvu:ZugsicherungssystemType"/>
+  <complexType name="ZugsicherungssystemType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element name="Art" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="ArtInformationsübertragung" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatAntenne" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ZugsicherungssystemPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Zugsicherungssystem"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Zählgerät" substitutionGroup="gml:AbstractFeature" type="idmvu:ZählgerätType"/>
+  <complexType name="ZählgerätType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="AnzahlFreimeldeabschnitte" type="idmvu-typen:Anzahl"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element maxOccurs="unbounded" name="zuAchszähleinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="zuZählpunkt" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ZählgerätPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Zählgerät"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Zählpunkt" substitutionGroup="gml:AbstractFeature" type="idmvu:ZählpunktType"/>
+  <complexType name="ZählpunktType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="NutzungsdauerTechnisch" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="NutzungsdauerWirtschaftlich" type="idmvu-typen:Jahre"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EinAufbaudatum" type="date"/>
+          <element minOccurs="0" name="EinAufbaujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="Inbetriebnahmejahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="EndeHerstellergarantie" type="date"/>
+          <element minOccurs="0" name="EndeHändlergarantie" type="date"/>
+          <element minOccurs="0" name="EndeGewährleistungsfrist" type="date"/>
+          <element minOccurs="0" name="LetztesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="NächstesUntersuchungsdatum" type="date"/>
+          <element minOccurs="0" name="VorgabenUntersuchungsintervall" type="string"/>
+          <element minOccurs="0" name="Entsorgungsnachweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Störungsindikator" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Status" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gehörtZuGruppierung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="inGebiet" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatZustandsErfassungÄnderung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="verursachtLichtraumengstelle" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKosten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatInstandhaltungsplan" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatObjektbauteil" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatFördermittelbindung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Bauart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Typ" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="GeoPunkt" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="zuGeschwindigkeitsüberwachungseinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuIsolierteSchiene" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuSteuerungsanlage" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="zuAchszähleinrichtung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="zuZählgerät" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ZählpunktPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Zählpunkt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>

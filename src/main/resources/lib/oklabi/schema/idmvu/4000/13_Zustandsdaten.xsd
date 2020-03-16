@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:idmvu="http://schema.idmvu.org/4000/idmvu" xmlns:idmvu-basis="http://schema.idmvu.org/4000/idmvu-basis" xmlns:idmvu-typen="http://schema.idmvu.org/4000/idmvu-typen" elementFormDefault="qualified" targetNamespace="http://schema.idmvu.org/4000/idmvu" version="4.000.0">
+  <include schemaLocation="idmvu.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-basis" schemaLocation="idmvu-basis.xsd"/>
+  <import namespace="http://schema.idmvu.org/4000/idmvu-typen" schemaLocation="idmvu-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AngenommeneNutzungsdauer" substitutionGroup="gml:AbstractFeature" type="idmvu:AngenommeneNutzungsdauerType"/>
+  <complexType name="AngenommeneNutzungsdauerType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element name="Nutzungsdauer" type="idmvu-typen:Jahre"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AngenommeneNutzungsdauerPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:AngenommeneNutzungsdauer"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Anlagenklasse" substitutionGroup="gml:AbstractFeature" type="idmvu:AnlagenklasseType"/>
+  <complexType name="AnlagenklasseType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element name="Anlagenklasse" type="idmvu-basis:KeyValuePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AnlagenklassePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Anlagenklasse"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Kategorie" substitutionGroup="gml:AbstractFeature" type="idmvu:KategorieType"/>
+  <complexType name="KategorieType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element name="Wertebereich1Von" type="double"/>
+          <element name="Wertebereich1Bis" type="double"/>
+          <element minOccurs="0" name="Wertebereich2Von" type="double"/>
+          <element minOccurs="0" name="Wertebereich2Bis" type="double"/>
+          <element name="Kategoriebezeichnung" type="string"/>
+          <element minOccurs="0" name="zuParameter" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KategoriePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Kategorie"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Mangelmeldung" substitutionGroup="gml:AbstractFeature" type="idmvu:MangelmeldungType"/>
+  <complexType name="MangelmeldungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Vorgangsnummer" type="string"/>
+          <element minOccurs="0" name="Gattung" type="string"/>
+          <element minOccurs="0" name="Art" type="string"/>
+          <element minOccurs="0" name="Prüfart" type="string"/>
+          <element minOccurs="0" name="Mangel" type="string"/>
+          <element minOccurs="0" name="Umfang" type="double"/>
+          <element minOccurs="0" name="Mengeneinheit" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Instandsetzungshinweis" type="string"/>
+          <element minOccurs="0" name="Fehlerklasse" type="integer"/>
+          <element minOccurs="0" name="Lagebeschreibung" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Zustandsverweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="DatumErledigung" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Bearbeitungsstufe" type="idmvu:OrganisationsmerkmalPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatOrganisationsbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aufgrundVonZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="führtZuMaßnahme" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MangelmeldungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Mangelmeldung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Maßnahme" substitutionGroup="gml:AbstractFeature" type="idmvu:MaßnahmeType"/>
+  <complexType name="MaßnahmeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element name="DatumVon" type="date"/>
+          <element minOccurs="0" name="ZeitVon" type="time"/>
+          <element minOccurs="0" name="DatumBis" type="date"/>
+          <element minOccurs="0" name="ZeitBis" type="time"/>
+          <element minOccurs="0" name="Beschreibung" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="anObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="alterZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aktuellerZustand" type="idmvu-basis:ObjectRefType"/>
+          <element name="Maßnahmeart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element name="Maßnahmestatus" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Priorität" type="integer"/>
+          <element minOccurs="0" name="InspektionVisuell" type="boolean"/>
+          <element minOccurs="0" name="InspektionMessung" type="boolean"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="durchgeführtVonPerson" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aufgrundVonMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="mitMessgerät" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zuInstandhaltungsplanposition" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MaßnahmePropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Maßnahme"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Messgerät" substitutionGroup="gml:AbstractFeature" type="idmvu:MessgerätType"/>
+  <complexType name="MessgerätType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element name="Typbezeichnung" type="string"/>
+          <element name="Hersteller" type="string"/>
+          <element minOccurs="0" name="Baujahr" type="idmvu-typen:Jahr"/>
+          <element minOccurs="0" name="LetzteÜberprüfung" type="date"/>
+          <element minOccurs="0" name="PrüfungsintervallMonate" type="idmvu-typen:Monate"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="wirdVerwendetIn" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="misstZustandswert" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="kannMessen" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="MessgerätPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Messgerät"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Parameter" substitutionGroup="gml:AbstractFeature" type="idmvu:ParameterType"/>
+  <complexType name="ParameterType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element name="Parametername" type="string"/>
+          <element minOccurs="0" name="Einheit" type="string"/>
+          <element name="Parameterausprägung" type="idmvu-typen:Buchstabe"/>
+          <element minOccurs="0" name="Sollwert" type="double"/>
+          <element minOccurs="0" name="Basis" type="double"/>
+          <element minOccurs="0" name="EinheitBasis" type="string"/>
+          <element minOccurs="0" name="Werteart" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="kannGemessenWerdenVon" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuKategorie" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zuZustandswert" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ParameterPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Parameter"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Störung" substitutionGroup="gml:AbstractFeature" type="idmvu:StörungType"/>
+  <complexType name="StörungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element name="DatumVon" type="date"/>
+          <element minOccurs="0" name="ZeitVon" type="time"/>
+          <element minOccurs="0" name="DatumBis" type="date"/>
+          <element minOccurs="0" name="ZeitBis" type="time"/>
+          <element minOccurs="0" name="Beschreibung" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="anObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="alterZustand" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aktuellerZustand" type="idmvu-basis:ObjectRefType"/>
+          <element name="Störungsart" type="idmvu-basis:KeyValuePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="StörungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Störung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Zustand" substitutionGroup="gml:AbstractFeature" type="idmvu:ZustandType"/>
+  <complexType name="ZustandType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="istINSPIREKnoten" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezug" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRA" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hatNetzbezugOKSTRAKommunal" type="idmvu-basis:ObjectRefType"/>
+          <element name="ZustandDatum" type="date"/>
+          <element minOccurs="0" name="ZustandZeit" type="time"/>
+          <element minOccurs="0" name="Zustandsbeurteilung" type="string"/>
+          <element minOccurs="0" name="vonObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="führtZuMangelmeldung" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="zuZustandswert" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="alterZustandZu" type="idmvu-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="aktuellerZustandZu" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ZustandPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Zustand"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Zustandswert" substitutionGroup="gml:AbstractFeature" type="idmvu:ZustandswertType"/>
+  <complexType name="ZustandswertType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="ID" type="string"/>
+          <element minOccurs="0" name="GültigkeitVon" type="date"/>
+          <element minOccurs="0" name="GültigkeitBis" type="date"/>
+          <element minOccurs="0" name="Datenquelle" type="idmvu-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Ersterfasser" type="string"/>
+          <element minOccurs="0" name="Ersterfassungsdatum" type="date"/>
+          <element minOccurs="0" name="letzerBearbeiter" type="string"/>
+          <element minOccurs="0" name="letztesBearbeitungsdatum" type="date"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Genauigkeitsinfo" type="idmvu:GenauigkeitsinfoPropertyType"/>
+          <element minOccurs="0" name="Eigentum" type="idmvu-basis:KeyValuePropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Annotation" type="idmvu:AnnotationPropertyType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="Fremdreferenz" type="idmvu:FremdreferenzPropertyType"/>
+          <element minOccurs="0" name="hatNachfolgerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hatVorgängerObjekt" type="idmvu-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Zustandswert" type="double"/>
+          <element minOccurs="0" name="Zustandstext" type="string"/>
+          <element minOccurs="0" name="Zustandsverweis" type="idmvu-typen:URI"/>
+          <element minOccurs="0" name="Zustandsklassifikation" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="gemessenVon" type="idmvu-basis:ObjectRefType"/>
+          <element name="zuParameter" type="idmvu-basis:ObjectRefType"/>
+          <element name="zuZustand" type="idmvu-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="ZustandswertPropertyType">
+    <sequence minOccurs="0">
+      <element ref="idmvu:Zustandswert"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>

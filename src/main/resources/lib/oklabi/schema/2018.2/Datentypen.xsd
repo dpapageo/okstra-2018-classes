@@ -1,0 +1,2870 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:okstra="http://www.okstra.de/okstra/2.018.2" xmlns:okstra-basis="http://www.okstra.de/okstra/2.018.2/okstra-basis" xmlns:okstra-typen="http://www.okstra.de/okstra/2.018.2/okstra-typen" elementFormDefault="qualified" targetNamespace="http://www.okstra.de/okstra/2.018.2" version="2.018.2">
+  <include schemaLocation="okstra.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-basis" schemaLocation="okstra-basis.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-typen" schemaLocation="okstra-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="ASB_Datum" substitutionGroup="gml:AbstractObject" type="okstra:ASB_DatumType"/>
+  <complexType name="ASB_DatumType">
+    <sequence>
+      <element minOccurs="0" name="Tag" type="okstra-typen:Tag"/>
+      <element minOccurs="0" name="Monat" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Jahr" type="okstra-typen:Jahr"/>
+    </sequence>
+  </complexType>
+  <complexType name="ASB_DatumPropertyType">
+    <sequence>
+      <element ref="okstra:ASB_Datum"/>
+    </sequence>
+  </complexType>
+  <element name="Abkuehlversuch" substitutionGroup="gml:AbstractObject" type="okstra:AbkuehlversuchType"/>
+  <complexType name="AbkuehlversuchType">
+    <sequence>
+      <element name="Bruchtemperatur" type="okstra-typen:Grad_Celsius"/>
+      <element name="Bruchspannung" type="okstra-typen:Megapascal"/>
+      <element name="Max_Zugfestigkeitsreserve" type="okstra-typen:Megapascal"/>
+      <element name="Temperatur_Zugfestigkeitsreservemaximum" type="okstra-typen:Grad_Celsius"/>
+      <element name="Bewertung_Ergebnis" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AbkuehlversuchPropertyType">
+    <sequence>
+      <element ref="okstra:Abkuehlversuch"/>
+    </sequence>
+  </complexType>
+  <element name="Abstand_Achse_Achse" substitutionGroup="gml:AbstractObject" type="okstra:Abstand_Achse_AchseType"/>
+  <complexType name="Abstand_Achse_AchseType">
+    <sequence>
+      <element name="Station_zw_Achse" type="okstra-typen:Meter"/>
+      <element name="hat_zweite_Achse" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Abstand_Achse_AchsePropertyType">
+    <sequence>
+      <element ref="okstra:Abstand_Achse_Achse"/>
+    </sequence>
+  </complexType>
+  <element name="Abstand_Anzahl" substitutionGroup="gml:AbstractObject" type="okstra:Abstand_AnzahlType"/>
+  <complexType name="Abstand_AnzahlType">
+    <choice>
+      <element name="Abstand" type="okstra-typen:Meter"/>
+      <element name="Anzahl" type="okstra-typen:Anzahl"/>
+    </choice>
+  </complexType>
+  <complexType name="Abstand_AnzahlPropertyType">
+    <sequence>
+      <element ref="okstra:Abstand_Anzahl"/>
+    </sequence>
+  </complexType>
+  <element name="Abstreumaterial" substitutionGroup="gml:AbstractObject" type="okstra:AbstreumaterialType"/>
+  <complexType name="AbstreumaterialType">
+    <sequence>
+      <element name="Gesteinsart" type="string"/>
+      <element name="Lieferkoernung" type="string"/>
+      <element minOccurs="0" name="PSV" type="okstra:PSV_AbstreumaterialPropertyType"/>
+      <element minOccurs="0" name="Leuchtdichtekoeffizient" type="okstra-typen:cd_pro_Quadratmeter_und_Lux"/>
+      <element minOccurs="0" name="Ueberkorn" type="okstra:UeberkornPropertyType"/>
+      <element minOccurs="0" name="Unterkorn" type="okstra:UnterkornPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="AbstreumaterialPropertyType">
+    <sequence>
+      <element ref="okstra:Abstreumaterial"/>
+    </sequence>
+  </complexType>
+  <element name="Abweichender_Pruefzyklus" substitutionGroup="gml:AbstractObject" type="okstra:Abweichender_PruefzyklusType"/>
+  <complexType name="Abweichender_PruefzyklusType">
+    <sequence>
+      <element name="Zyklus" type="okstra:DauerPropertyType"/>
+      <element name="Pruefart" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Abweichender_PruefzyklusPropertyType">
+    <sequence>
+      <element ref="okstra:Abweichender_Pruefzyklus"/>
+    </sequence>
+  </complexType>
+  <element name="Adressdaten" substitutionGroup="gml:AbstractObject" type="okstra:AdressdatenType"/>
+  <complexType name="AdressdatenType">
+    <sequence>
+      <element minOccurs="0" name="Adresszeile_2" type="string"/>
+      <element minOccurs="0" name="Adresszeile_3" type="string"/>
+      <element minOccurs="0" name="Adresszeile_4" type="string"/>
+      <element minOccurs="0" name="Strasse" type="string"/>
+      <element minOccurs="0" name="Postfach" type="string"/>
+      <element minOccurs="0" name="Land" type="okstra:LandPropertyType"/>
+      <element minOccurs="0" name="Postleitzahl" type="string"/>
+      <element minOccurs="0" name="Ort" type="string"/>
+      <element minOccurs="0" name="NUTS_Code" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Kommunikationsdaten" type="okstra:KommunikationPropertyType"/>
+      <element minOccurs="0" name="Typ_der_Anschrift" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="AdressdatenPropertyType">
+    <sequence>
+      <element ref="okstra:Adressdaten"/>
+    </sequence>
+  </complexType>
+  <element name="Affinitaet" substitutionGroup="gml:AbstractObject" type="okstra:AffinitaetType"/>
+  <complexType name="AffinitaetType">
+    <sequence>
+      <element name="Umhuellungsgrad" type="okstra-typen:Prozent"/>
+    </sequence>
+  </complexType>
+  <complexType name="AffinitaetPropertyType">
+    <sequence>
+      <element ref="okstra:Affinitaet"/>
+    </sequence>
+  </complexType>
+  <element name="Ansatzreferenz" substitutionGroup="gml:AbstractObject" type="okstra:AnsatzreferenzType"/>
+  <complexType name="AnsatzreferenzType">
+    <sequence>
+      <element name="Blattnummer" type="integer"/>
+      <element name="Zeilenname" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AnsatzreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:Ansatzreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Anzahl_unscharf" substitutionGroup="gml:AbstractObject" type="okstra:Anzahl_unscharfType"/>
+  <complexType name="Anzahl_unscharfType">
+    <sequence>
+      <element minOccurs="0" name="Anzahl" type="okstra-typen:Anzahl"/>
+      <element minOccurs="0" name="Vorhanden" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="zu_Teilbauwerk" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Anzahl_unscharfPropertyType">
+    <sequence>
+      <element ref="okstra:Anzahl_unscharf"/>
+    </sequence>
+  </complexType>
+  <element name="Argument" substitutionGroup="gml:AbstractObject" type="okstra:ArgumentType"/>
+  <complexType name="ArgumentType">
+    <choice>
+      <element name="Datumsangabe" type="date"/>
+      <element name="Uhrzeitangabe" type="time"/>
+      <element name="Rechenzeichen" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Zahlenwert" type="double"/>
+      <element name="Koordinate" type="okstra:KoordinatePropertyType"/>
+      <element name="Tabellenreferenz" type="okstra:TabellenreferenzPropertyType"/>
+      <element name="Ansatzreferenz" type="okstra:AnsatzreferenzPropertyType"/>
+      <element name="Zuordnungssummenreferenz" type="okstra:ZuordnungssummenreferenzPropertyType"/>
+      <element name="Blattsummenreferenz" type="okstra:BlattsummenreferenzPropertyType"/>
+      <element name="Konstantenreferenz" type="okstra:KonstantenreferenzPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="ArgumentPropertyType">
+    <sequence>
+      <element ref="okstra:Argument"/>
+    </sequence>
+  </complexType>
+  <element name="Art_Fahrbahnuebergang" substitutionGroup="gml:AbstractObject" type="okstra:Art_FahrbahnuebergangType"/>
+  <complexType name="Art_FahrbahnuebergangType">
+    <sequence>
+      <element name="Bauart" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element minOccurs="0" name="Hersteller" type="string"/>
+      <element minOccurs="0" name="Mit_Laermminderung" type="boolean"/>
+      <element minOccurs="0" name="Typenbezeichnung" type="string"/>
+      <element minOccurs="0" name="Regelgeprueft_gemaess_TLTP" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="Art_FahrbahnuebergangPropertyType">
+    <sequence>
+      <element ref="okstra:Art_Fahrbahnuebergang"/>
+    </sequence>
+  </complexType>
+  <element name="Art_Fahrzeug_Rueckhaltesystem" substitutionGroup="gml:AbstractObject" type="okstra:Art_Fahrzeug_RueckhaltesystemType"/>
+  <complexType name="Art_Fahrzeug_RueckhaltesystemType">
+    <sequence>
+      <element name="Kennung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element name="Hersteller" type="string"/>
+      <element name="Modul" type="string"/>
+      <element name="Systembezeichnung" type="okstra:SystembezeichnungPropertyType"/>
+      <element name="Aufhaltestufe" type="string"/>
+      <element name="Wirkungsbereichsklasse" type="string"/>
+      <element name="Fahrzeugeindringung_Max" type="string"/>
+      <element name="Anprallheftigkeitsklasse" type="string"/>
+      <element name="Systemhoehe" type="okstra-typen:Meter"/>
+      <element name="Mitwirkung_des_Gelaenders" type="boolean"/>
+      <element name="Art_der_Pfostenbefestigung" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="In_Einsatzfreigabeliste_enthalten" type="boolean"/>
+      <element name="Mindestlaenge" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Art_Fahrzeug_RueckhaltesystemPropertyType">
+    <sequence>
+      <element ref="okstra:Art_Fahrzeug_Rueckhaltesystem"/>
+    </sequence>
+  </complexType>
+  <element name="Art_Lager" substitutionGroup="gml:AbstractObject" type="okstra:Art_LagerType"/>
+  <complexType name="Art_LagerType">
+    <sequence>
+      <element maxOccurs="unbounded" name="Bauart" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element minOccurs="0" name="Hersteller" type="string"/>
+      <element name="Typenbezeichnung" type="string"/>
+      <element minOccurs="0" name="Material_Rollen" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Material_Gleitflaeche" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Art_LagerPropertyType">
+    <sequence>
+      <element ref="okstra:Art_Lager"/>
+    </sequence>
+  </complexType>
+  <element name="Art_Massnahme" substitutionGroup="gml:AbstractObject" type="okstra:Art_MassnahmeType"/>
+  <complexType name="Art_MassnahmeType">
+    <sequence>
+      <element maxOccurs="unbounded" name="Kategorie" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Ordnungsnummer" type="string"/>
+      <element name="Name" type="string"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Kostenkatalog" type="okstra:KostenkatalogPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Art_MassnahmePropertyType">
+    <sequence>
+      <element ref="okstra:Art_Massnahme"/>
+    </sequence>
+  </complexType>
+  <element name="Art_Spannstahl" substitutionGroup="gml:AbstractObject" type="okstra:Art_SpannstahlType"/>
+  <complexType name="Art_SpannstahlType">
+    <sequence>
+      <element name="Kennung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element name="Hersteller" type="string"/>
+      <element name="Typenbezeichnung_Spannstahl" type="string"/>
+      <element name="Geltungsdauer_Bis" type="date"/>
+      <element name="Streckgrenze" type="okstra-typen:Newton_pro_Quadratmeter"/>
+      <element name="Bruchgrenze" type="okstra-typen:Newton_pro_Quadratmeter"/>
+      <element name="Spannungsrisskorrosionsgefaehrdet" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="Art_SpannstahlPropertyType">
+    <sequence>
+      <element ref="okstra:Art_Spannstahl"/>
+    </sequence>
+  </complexType>
+  <element name="Artengruppe" substitutionGroup="gml:AbstractObject" type="okstra:ArtengruppeType"/>
+  <complexType name="ArtengruppeType">
+    <sequence>
+      <element minOccurs="0" name="Angabe_Artengruppe" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Sonstige_Artengruppe" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="ArtengruppePropertyType">
+    <sequence>
+      <element ref="okstra:Artengruppe"/>
+    </sequence>
+  </complexType>
+  <element name="Asphaltgranulat" substitutionGroup="gml:AbstractObject" type="okstra:AsphaltgranulatType"/>
+  <complexType name="AsphaltgranulatType">
+    <sequence>
+      <element name="Bezeichnung_nach_TLAG" type="string"/>
+      <element name="Menge" type="okstra-typen:Massenanteil"/>
+      <element name="Zugabemenge_max_zulaessig" type="okstra-typen:Massenanteil"/>
+      <element name="Bindemittelanteil_Asphaltgranulat" type="okstra-typen:Massenanteil"/>
+      <element name="Erweichungspunkt_Rueck_Asphaltgranulat" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Nadelpenetration_Rueck" type="okstra-typen:Zehntel_mm"/>
+      <element minOccurs="0" name="Zugabebindemittel" type="okstra:ZugabebindemittelPropertyType"/>
+      <element name="Result_Erweichungspunkt_Bindemittelgemisch" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="AsphaltgranulatPropertyType">
+    <sequence>
+      <element ref="okstra:Asphaltgranulat"/>
+    </sequence>
+  </complexType>
+  <element name="Asphaltmischgut" substitutionGroup="gml:AbstractObject" type="okstra:AsphaltmischgutType"/>
+  <complexType name="AsphaltmischgutType">
+    <sequence>
+      <element name="Asphaltmischgutart_Sorte" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zusatz" type="okstra:Zusatz_AsphaltmischgutPropertyType"/>
+      <element minOccurs="0" name="Statische_Eindringtiefe_Wuerfel" type="okstra:Statische_Eindringtiefe_WuerfelPropertyType"/>
+      <element minOccurs="0" name="Rohdichte" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element name="Marshallprobekoerper" type="okstra:MarshallprobekoerperPropertyType"/>
+      <element minOccurs="0" name="Spaltzugfestigkeit" type="okstra:SpaltzugfestigkeitPropertyType"/>
+      <element minOccurs="0" name="Elastizitaetsmodul" type="okstra-typen:Newton_pro_Quadratmillimeter"/>
+      <element minOccurs="0" name="Wasseraufnahme" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Hohlraumgehalt_fiktiv" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Hohlraumausfuellungsgrad" type="okstra-typen:Prozent"/>
+      <element minOccurs="0" name="Spurrinnentiefe_proportional" type="okstra-typen:Prozent"/>
+      <element minOccurs="0" name="Spurrinnentiefe_absolut" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Spurbildungsrate" type="okstra-typen:Millimeter_pro_1000_Lastzyklen"/>
+      <element minOccurs="0" name="Stempeleindringtiefe_dynamisch" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Ermuedung" type="okstra:ErmuedungPropertyType"/>
+      <element minOccurs="0" name="Bindemittelvolumen" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Asphaltmischgutanlieferungstemperatur_min" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Asphaltmischgutanlieferungstemperatur_max" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Einaxialer_Druckschwellversuch" type="okstra:Einaxialer_DruckschwellversuchPropertyType"/>
+      <element minOccurs="0" name="Kaelteeigenschaften" type="okstra:KaelteeigenschaftenPropertyType"/>
+      <element minOccurs="0" name="Fueller_Bitumen_Verhaeltnis" type="double"/>
+      <element minOccurs="0" name="Verformungsbestaendigkeit" type="okstra:VerformungsbestaendigkeitPropertyType"/>
+      <element minOccurs="0" name="Aeussere_Beschaffenheit" type="string"/>
+      <element minOccurs="0" name="Einbautemperatur_Mischgut" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Fliesswert_Marshall" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Marshallstabilitaet" type="okstra-typen:Kilonewton"/>
+      <element minOccurs="0" name="Faserstoffe" type="string"/>
+      <element minOccurs="0" name="Steifigkeit" type="okstra:SteifigkeitPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="AsphaltmischgutPropertyType">
+    <sequence>
+      <element ref="okstra:Asphaltmischgut"/>
+    </sequence>
+  </complexType>
+  <element name="Aufhellungsgestein" substitutionGroup="gml:AbstractObject" type="okstra:AufhellungsgesteinType"/>
+  <complexType name="AufhellungsgesteinType">
+    <sequence>
+      <element name="Kornklasse" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Anteil" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Leuchtdichtekoeffizient_Deckschicht" type="okstra-typen:cd_pro_Quadratmeter_und_Lux"/>
+      <element name="Gesteinsart" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="AufhellungsgesteinPropertyType">
+    <sequence>
+      <element ref="okstra:Aufhellungsgestein"/>
+    </sequence>
+  </complexType>
+  <element name="Auflage" substitutionGroup="gml:AbstractObject" type="okstra:AuflageType"/>
+  <complexType name="AuflageType">
+    <sequence>
+      <element minOccurs="0" name="Position_des_Transports" type="string"/>
+      <element minOccurs="0" name="Beschreibung" type="string"/>
+      <element minOccurs="0" name="Abstand" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Geschwindigkeit" type="okstra-typen:Stundenkilometer"/>
+      <element minOccurs="0" name="Privates_Begleitfahrzeug" type="boolean"/>
+      <element minOccurs="0" name="Polizei" type="boolean"/>
+      <element minOccurs="0" name="Begleitfahrzeug_mit_WVZA" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zu_setzendes_STVO_Zeichen" type="string"/>
+      <element name="Schweregrad" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="AuflagePropertyType">
+    <sequence>
+      <element ref="okstra:Auflage"/>
+    </sequence>
+  </complexType>
+  <element name="Aufweitung_Verbreit_Verbind" substitutionGroup="gml:AbstractObject" type="okstra:Aufweitung_Verbreit_VerbindType"/>
+  <complexType name="Aufweitung_Verbreit_VerbindType">
+    <sequence>
+      <element name="Art_der_Verziehung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Tangentenlaenge" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Aufweitung_Verbreit_VerbindPropertyType">
+    <sequence>
+      <element ref="okstra:Aufweitung_Verbreit_Verbind"/>
+    </sequence>
+  </complexType>
+  <element name="Ausrundung" substitutionGroup="gml:AbstractObject" type="okstra:AusrundungType"/>
+  <complexType name="AusrundungType">
+    <sequence>
+      <element name="Scheitelradius" type="okstra-typen:Groesse"/>
+    </sequence>
+  </complexType>
+  <complexType name="AusrundungPropertyType">
+    <sequence>
+      <element ref="okstra:Ausrundung"/>
+    </sequence>
+  </complexType>
+  <element name="BR_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:BR_PunktType"/>
+  <complexType name="BR_PunktType">
+    <sequence>
+      <element minOccurs="0" name="Abstand" type="okstra-typen:Meter"/>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element name="Berechnung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="hat_Aufweitg_Verbreit_Verbind" type="okstra:Aufweitung_Verbreit_VerbindPropertyType"/>
+      <element minOccurs="0" name="hat_Abstand_Achse_Achse" type="okstra:Abstand_Achse_AchsePropertyType"/>
+      <element minOccurs="0" name="hat_Abstand_Achse_Linie" type="okstra-basis:ObjectRefType"/>
+      <element minOccurs="0" name="bez_auf_verallg_Spur" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BR_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:BR_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="Bankverbindung" substitutionGroup="gml:AbstractObject" type="okstra:BankverbindungType"/>
+  <complexType name="BankverbindungType">
+    <sequence>
+      <element name="Kontonummer" type="string"/>
+      <element name="Bankleitzahl" type="string"/>
+      <element minOccurs="0" name="Bankname" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="BankverbindungPropertyType">
+    <sequence>
+      <element ref="okstra:Bankverbindung"/>
+    </sequence>
+  </complexType>
+  <element name="Baubetrieb_Arbeitsstelle" substitutionGroup="gml:AbstractObject" type="okstra:Baubetrieb_ArbeitsstelleType"/>
+  <complexType name="Baubetrieb_ArbeitsstelleType">
+    <sequence>
+      <element minOccurs="0" name="gueltig_von" type="time"/>
+      <element minOccurs="0" name="gueltig_bis" type="time"/>
+      <element minOccurs="0" name="gueltig_MO" type="boolean"/>
+      <element minOccurs="0" name="gueltig_DI" type="boolean"/>
+      <element minOccurs="0" name="gueltig_MI" type="boolean"/>
+      <element minOccurs="0" name="gueltig_DO" type="boolean"/>
+      <element minOccurs="0" name="gueltig_FR" type="boolean"/>
+      <element minOccurs="0" name="gueltig_SA" type="boolean"/>
+      <element minOccurs="0" name="gueltig_SO" type="boolean"/>
+      <element minOccurs="0" name="Art_des_Schichtbetriebs" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Baubetrieb_ArbeitsstellePropertyType">
+    <sequence>
+      <element ref="okstra:Baubetrieb_Arbeitsstelle"/>
+    </sequence>
+  </complexType>
+  <element name="Baukilometerbereich" substitutionGroup="gml:AbstractObject" type="okstra:BaukilometerbereichType"/>
+  <complexType name="BaukilometerbereichType">
+    <sequence>
+      <element name="Baukilometer_Anfang" type="okstra-typen:Kilometer"/>
+      <element name="Baukilometer_Ende" type="okstra-typen:Kilometer"/>
+    </sequence>
+  </complexType>
+  <complexType name="BaukilometerbereichPropertyType">
+    <sequence>
+      <element ref="okstra:Baukilometerbereich"/>
+    </sequence>
+  </complexType>
+  <element name="Biegebalkenrheometer" substitutionGroup="gml:AbstractObject" type="okstra:BiegebalkenrheometerType"/>
+  <complexType name="BiegebalkenrheometerType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="Tieftemperaturverhalten" type="okstra:TieftemperaturverhaltenPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BiegebalkenrheometerPropertyType">
+    <sequence>
+      <element ref="okstra:Biegebalkenrheometer"/>
+    </sequence>
+  </complexType>
+  <element name="Bindemittel" substitutionGroup="gml:AbstractObject" type="okstra:BindemittelType"/>
+  <complexType name="BindemittelType">
+    <sequence>
+      <element minOccurs="0" name="Bindemittelsorte" type="string"/>
+      <element minOccurs="0" name="Sorte_gem_Eignungsnachweis" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zusatz" type="okstra:Zusatz_BindemittelPropertyType"/>
+      <element name="Erweichungspunkt_RuK" type="okstra:Erweichungspunkt_RuKPropertyType"/>
+      <element name="Bindemittelgehalt" type="okstra:BindemittelgehaltPropertyType"/>
+      <element minOccurs="0" name="Bindemittelablauf" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Nadelpenetration" type="okstra-typen:Zehntel_mm"/>
+      <element minOccurs="0" name="Kraftduktilitaet" type="okstra:KraftduktilitaetPropertyType"/>
+      <element minOccurs="0" name="Pruefung_Biegebalkenrheometer" type="okstra:BiegebalkenrheometerPropertyType"/>
+      <element minOccurs="0" name="Pruefung_Dyn_Scherrheometer" type="okstra:Dyn_ScherrheometerPropertyType"/>
+      <element minOccurs="0" name="Extraktionsverfahren" type="string"/>
+      <element minOccurs="0" name="Loesemittel" type="string"/>
+      <element minOccurs="0" name="Brechpunkt_Fraas" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Herstellerbezeichnung" type="string"/>
+      <element minOccurs="0" name="Elastische_Rueckstellung" type="okstra:Elastische_RueckstellungPropertyType"/>
+      <element minOccurs="0" name="Affinitaet" type="okstra:AffinitaetPropertyType"/>
+      <element minOccurs="0" name="Hersteller" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BindemittelPropertyType">
+    <sequence>
+      <element ref="okstra:Bindemittel"/>
+    </sequence>
+  </complexType>
+  <element name="Bindemittelgehalt" substitutionGroup="gml:AbstractObject" type="okstra:BindemittelgehaltType"/>
+  <complexType name="BindemittelgehaltType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Unzulaessige_Abweichung" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Gehalt_loeslich_BM" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Zuschlag_unloeslich_BM" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Bestimmungsverfahren" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BindemittelgehaltPropertyType">
+    <sequence>
+      <element ref="okstra:Bindemittelgehalt"/>
+    </sequence>
+  </complexType>
+  <element name="Biotoptyp" substitutionGroup="gml:AbstractObject" type="okstra:BiotoptypType"/>
+  <complexType name="BiotoptypType">
+    <sequence>
+      <element name="Schluessel" type="string"/>
+      <element name="Version_Schluessel" type="string"/>
+      <element name="Biotoptypangabe" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BiotoptypPropertyType">
+    <sequence>
+      <element ref="okstra:Biotoptyp"/>
+    </sequence>
+  </complexType>
+  <element name="Blattsummenreferenz" substitutionGroup="gml:AbstractObject" type="okstra:BlattsummenreferenzType"/>
+  <complexType name="BlattsummenreferenzType">
+    <sequence>
+      <element name="Blattnummer" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="BlattsummenreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:Blattsummenreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Bodenart" substitutionGroup="gml:AbstractObject" type="okstra:BodenartType"/>
+  <complexType name="BodenartType">
+    <sequence>
+      <element name="Schluessel" type="string"/>
+      <element name="Version_Schluessel" type="string"/>
+      <element name="Angabe_Bodenart" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="BodenartPropertyType">
+    <sequence>
+      <element ref="okstra:Bodenart"/>
+    </sequence>
+  </complexType>
+  <element name="Bogengeometrie" substitutionGroup="gml:AbstractObject" type="okstra:BogengeometrieType"/>
+  <complexType name="BogengeometrieType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="3" name="Bogenpunkt" type="okstra:Punkt_ASB-INGPropertyType"/>
+      <element minOccurs="0" name="Bogenlaenge" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Stich" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="BogengeometriePropertyType">
+    <sequence>
+      <element ref="okstra:Bogengeometrie"/>
+    </sequence>
+  </complexType>
+  <element name="CSBF_Identnummer" substitutionGroup="gml:AbstractObject" type="okstra:CSBF_IdentnummerType"/>
+  <complexType name="CSBF_IdentnummerType">
+    <sequence>
+      <element name="Landesschluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Projekt_Schluessel" type="string"/>
+      <element name="Massnahme_Schluessel" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="CSBF_IdentnummerPropertyType">
+    <sequence>
+      <element ref="okstra:CSBF_Identnummer"/>
+    </sequence>
+  </complexType>
+  <element name="Calciumhydroxidgehalt" substitutionGroup="gml:AbstractObject" type="okstra:CalciumhydroxidgehaltType"/>
+  <complexType name="CalciumhydroxidgehaltType">
+    <sequence>
+      <element minOccurs="0" name="Calciumhydroxidgehalt_Kategorie" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Calciumhydroxidgehalt" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Calciumhydroxidgehalt_Extraktion" type="okstra-typen:Massenanteil"/>
+    </sequence>
+  </complexType>
+  <complexType name="CalciumhydroxidgehaltPropertyType">
+    <sequence>
+      <element ref="okstra:Calciumhydroxidgehalt"/>
+    </sequence>
+  </complexType>
+  <element name="Daten_zur_Gesamtabnahme" substitutionGroup="gml:AbstractObject" type="okstra:Daten_zur_GesamtabnahmeType"/>
+  <complexType name="Daten_zur_GesamtabnahmeType">
+    <sequence>
+      <element name="Datum_Fertigstellung_real" type="date"/>
+      <element name="Einhaltung_Zwischentermine" type="boolean"/>
+      <element name="Datum_Schlussrechnung_VOB_soll" type="date"/>
+      <element minOccurs="0" name="Anzahl_Nachunternehmer_Bauende" type="okstra-typen:Anzahl"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Nachunternehmer_bis_Bauende" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Daten_zur_GesamtabnahmePropertyType">
+    <sequence>
+      <element ref="okstra:Daten_zur_Gesamtabnahme"/>
+    </sequence>
+  </complexType>
+  <element name="Dauer" substitutionGroup="gml:AbstractObject" type="okstra:DauerType"/>
+  <complexType name="DauerType">
+    <sequence>
+      <element minOccurs="0" name="Jahre" type="okstra-typen:Jahre"/>
+      <element minOccurs="0" name="Monate" type="okstra-typen:Monate"/>
+      <element minOccurs="0" name="Wochen" type="okstra-typen:Wochen"/>
+      <element minOccurs="0" name="Tage" type="okstra-typen:Tage"/>
+      <element minOccurs="0" name="Stunden" type="okstra-typen:Stunden"/>
+      <element minOccurs="0" name="Minuten" type="okstra-typen:Minuten"/>
+      <element minOccurs="0" name="Sekunden" type="okstra-typen:Sekunden"/>
+    </sequence>
+  </complexType>
+  <complexType name="DauerPropertyType">
+    <sequence>
+      <element ref="okstra:Dauer"/>
+    </sequence>
+  </complexType>
+  <element name="Durchgang" substitutionGroup="gml:AbstractObject" type="okstra:DurchgangType"/>
+  <complexType name="DurchgangType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Massenanteil"/>
+    </sequence>
+  </complexType>
+  <complexType name="DurchgangPropertyType">
+    <sequence>
+      <element ref="okstra:Durchgang"/>
+    </sequence>
+  </complexType>
+  <element name="Dyn_Scherrheometer" substitutionGroup="gml:AbstractObject" type="okstra:Dyn_ScherrheometerType"/>
+  <complexType name="Dyn_ScherrheometerType">
+    <sequence>
+      <element minOccurs="0" name="Temperatursweep" type="okstra:TemperatursweepPropertyType"/>
+      <element minOccurs="0" name="MSCRT" type="okstra:MSCRTPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Dyn_ScherrheometerPropertyType">
+    <sequence>
+      <element ref="okstra:Dyn_Scherrheometer"/>
+    </sequence>
+  </complexType>
+  <element name="Dynamische_Stempeleindringtiefe" substitutionGroup="gml:AbstractObject" type="okstra:Dynamische_StempeleindringtiefeType"/>
+  <complexType name="Dynamische_StempeleindringtiefeType">
+    <sequence>
+      <element name="Dynamische_Stempeleindringtiefe_absolut" type="okstra-typen:Millimeter"/>
+      <element name="Dynamische_Eindringtiefe" type="okstra-typen:Promille"/>
+      <element name="Stuetzring" type="boolean"/>
+      <element name="Probekoerper" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Abbruchkriterium" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Besonderheiten" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Verformungsverlauf" type="okstra:VerformungsverlaufPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Dynamische_StempeleindringtiefePropertyType">
+    <sequence>
+      <element ref="okstra:Dynamische_Stempeleindringtiefe"/>
+    </sequence>
+  </complexType>
+  <element name="Dynamischer_Spaltzugschwellversuch" substitutionGroup="gml:AbstractObject" type="okstra:Dynamischer_SpaltzugschwellversuchType"/>
+  <complexType name="Dynamischer_SpaltzugschwellversuchType">
+    <sequence>
+      <element minOccurs="0" name="Ermuedungsfunktion" type="okstra:ErmuedungsfunktionPropertyType"/>
+      <element minOccurs="0" name="Pruefvorschrift_Ermuedung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Pruefvorschrift_Steifigkeit" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Grenzwert_Steifigkeitsmodul_Niedrige_Temperatur_Hohe_Frequenz" type="okstra-typen:Megapascal"/>
+      <element minOccurs="0" name="Z0" type="double"/>
+      <element minOccurs="0" name="Z1" type="double"/>
+      <element minOccurs="0" name="krit_Spannweite_Einzelwerte" type="okstra-typen:Megapascal"/>
+      <element minOccurs="0" name="Abweichungen_Pruefvorschrift" type="string"/>
+      <element minOccurs="0" name="Prueftemperatur" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Frequenz" type="okstra-typen:Hertz"/>
+      <element minOccurs="0" name="Querdehnzahl" type="double"/>
+      <element minOccurs="0" name="Lastwechselzahl_0_05_Promille" type="integer"/>
+      <element minOccurs="0" name="Lastwechselzahl_0_1_Promille" type="integer"/>
+      <element minOccurs="0" name="Ermuedungszustand_Ende_Nutzungsdauer" type="integer"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Probe_Dyn_Spaltzugschwellversuch" type="okstra:Probe_Dyn_SpaltzugschwellversuchPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Dynamischer_SpaltzugschwellversuchPropertyType">
+    <sequence>
+      <element ref="okstra:Dynamischer_Spaltzugschwellversuch"/>
+    </sequence>
+  </complexType>
+  <element name="Eigenschaften_Fahrtrichtung" substitutionGroup="gml:AbstractObject" type="okstra:Eigenschaften_FahrtrichtungType"/>
+  <complexType name="Eigenschaften_FahrtrichtungType">
+    <sequence>
+      <element minOccurs="0" name="Hauptrichtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Fernziel_Fahrtrichtung" type="string"/>
+      <element minOccurs="0" name="V_zul" type="okstra-typen:Stundenkilometer"/>
+      <element minOccurs="0" name="V_zul_Innenbereich" type="okstra-typen:Stundenkilometer"/>
+      <element minOccurs="0" name="V_zul_Ueberleitung" type="okstra-typen:Stundenkilometer"/>
+      <element minOccurs="0" name="V_zul_Rueckleitung" type="okstra-typen:Stundenkilometer"/>
+      <element minOccurs="0" name="Anz_FS_im_Bauzustand" type="okstra-typen:Anzahl"/>
+      <element minOccurs="0" name="Anz_FS_im_Vorlauf_d_Arbeitsstelle" type="okstra-typen:Anzahl"/>
+      <element minOccurs="0" name="Breite_HFS" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Breite_UEFS1" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Breite_UEFS2" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Breite_UEFS3" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Befestigte_Breite" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Verbreiterung" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Beschraenkte_Fahrzeugbreite_UEFS1" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Beschraenkte_Fahrzeugbreite_UEFS2" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Beschraenkte_Fahrzeugbreite_UEFS3" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Verschwenkung" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Besonderheit_Strecke_Arbeitsstelle" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Standstreifenmitnutzung" type="boolean"/>
+      <element minOccurs="0" name="Standstreifensperrung" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="Eigenschaften_FahrtrichtungPropertyType">
+    <sequence>
+      <element ref="okstra:Eigenschaften_Fahrtrichtung"/>
+    </sequence>
+  </complexType>
+  <element name="Einaxialer_Druckschwellversuch" substitutionGroup="gml:AbstractObject" type="okstra:Einaxialer_DruckschwellversuchType"/>
+  <complexType name="Einaxialer_DruckschwellversuchType">
+    <sequence>
+      <element name="Dehnung" type="okstra-typen:Promille"/>
+      <element name="Dehnungsrate" type="okstra-typen:Promille_pro_10000_Lastwechsel"/>
+      <element name="Abbruchkriterium" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Erreichte_Anzahl_Belastungszyklen" type="integer"/>
+      <element name="Bewertung_Ergebnis" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Einaxialer_DruckschwellversuchPropertyType">
+    <sequence>
+      <element ref="okstra:Einaxialer_Druckschwellversuch"/>
+    </sequence>
+  </complexType>
+  <element name="Einaxialer_Zugversuch" substitutionGroup="gml:AbstractObject" type="okstra:Einaxialer_ZugversuchType"/>
+  <complexType name="Einaxialer_ZugversuchType">
+    <sequence>
+      <element name="Prueftemperatur" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Zugfestigkeit" type="okstra-typen:Megapascal"/>
+      <element name="Bruchdehnung" type="okstra-typen:Promille"/>
+      <element name="Zugfestigkeit_max" type="okstra-typen:Megapascal"/>
+      <element name="Bewertung_Ergebnis" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Einaxialer_ZugversuchPropertyType">
+    <sequence>
+      <element ref="okstra:Einaxialer_Zugversuch"/>
+    </sequence>
+  </complexType>
+  <element name="Einflusslinie_normiert" substitutionGroup="gml:AbstractObject" type="okstra:Einflusslinie_normiertType"/>
+  <complexType name="Einflusslinie_normiertType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="2" name="Stuetzpunkt" type="okstra:Punkt_normiert_ASB-INGPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Einflusslinie_normiertPropertyType">
+    <sequence>
+      <element ref="okstra:Einflusslinie_normiert"/>
+    </sequence>
+  </complexType>
+  <element name="Elastische_Rueckstellung" substitutionGroup="gml:AbstractObject" type="okstra:Elastische_RueckstellungType"/>
+  <complexType name="Elastische_RueckstellungType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Prozent"/>
+      <element name="Riss_Fadenlaenge" type="okstra-typen:Zentimeter"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Prozent"/>
+      <element name="Faden_gerissen" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="Elastische_RueckstellungPropertyType">
+    <sequence>
+      <element ref="okstra:Elastische_Rueckstellung"/>
+    </sequence>
+  </complexType>
+  <element name="Erfassungsqualitaet" substitutionGroup="gml:AbstractObject" type="okstra:ErfassungsqualitaetType"/>
+  <complexType name="ErfassungsqualitaetType">
+    <sequence>
+      <element minOccurs="0" name="Erfassung_Verfahren" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Standardabweichung" type="okstra-typen:Zentimeter"/>
+    </sequence>
+  </complexType>
+  <complexType name="ErfassungsqualitaetPropertyType">
+    <sequence>
+      <element ref="okstra:Erfassungsqualitaet"/>
+    </sequence>
+  </complexType>
+  <element name="Erfassungsstempel" substitutionGroup="gml:AbstractObject" type="okstra:ErfassungsstempelType"/>
+  <complexType name="ErfassungsstempelType">
+    <sequence>
+      <element name="Bearbeiter" type="string"/>
+      <element name="Zeitangabe" type="okstra:ZeitpunktPropertyType"/>
+      <element name="Seite" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="ErfassungsstempelPropertyType">
+    <sequence>
+      <element ref="okstra:Erfassungsstempel"/>
+    </sequence>
+  </complexType>
+  <element name="Ermuedung" substitutionGroup="gml:AbstractObject" type="okstra:ErmuedungType"/>
+  <complexType name="ErmuedungType">
+    <sequence>
+      <element minOccurs="0" name="Dynamischer_Spaltzugschwellversuch" type="okstra:Dynamischer_SpaltzugschwellversuchPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="ErmuedungPropertyType">
+    <sequence>
+      <element ref="okstra:Ermuedung"/>
+    </sequence>
+  </complexType>
+  <element name="Ermuedungsfunktion" substitutionGroup="gml:AbstractObject" type="okstra:ErmuedungsfunktionType"/>
+  <complexType name="ErmuedungsfunktionType">
+    <sequence>
+      <element minOccurs="0" name="k" type="double"/>
+      <element minOccurs="0" name="n" type="double"/>
+      <element minOccurs="0" name="R_Quadrat" type="double"/>
+    </sequence>
+  </complexType>
+  <complexType name="ErmuedungsfunktionPropertyType">
+    <sequence>
+      <element ref="okstra:Ermuedungsfunktion"/>
+    </sequence>
+  </complexType>
+  <element name="Erweichungspunkt_RuK" substitutionGroup="gml:AbstractObject" type="okstra:Erweichungspunkt_RuKType"/>
+  <complexType name="Erweichungspunkt_RuKType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Toleranz_Oben" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Toleranz_Unten" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="Erweichungspunkt_RuKPropertyType">
+    <sequence>
+      <element ref="okstra:Erweichungspunkt_RuK"/>
+    </sequence>
+  </complexType>
+  <element name="Faktor" substitutionGroup="gml:AbstractObject" type="okstra:FaktorType"/>
+  <complexType name="FaktorType">
+    <sequence>
+      <element name="Art_Faktor" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Wert" type="double"/>
+    </sequence>
+  </complexType>
+  <complexType name="FaktorPropertyType">
+    <sequence>
+      <element ref="okstra:Faktor"/>
+    </sequence>
+  </complexType>
+  <element name="Fertige_Schicht" substitutionGroup="gml:AbstractObject" type="okstra:Fertige_SchichtType"/>
+  <complexType name="Fertige_SchichtType">
+    <sequence>
+      <element name="Schichtdicke" type="okstra-typen:Zentimeter"/>
+      <element name="Hohlraumgehalt" type="okstra:HohlraumgehaltPropertyType"/>
+      <element name="Verdichtungsgrad" type="okstra:VerdichtungsgradPropertyType"/>
+      <element name="Schichtenverbund" type="okstra:SchichtenverbundPropertyType"/>
+      <element name="Raumdichte_BK" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element minOccurs="0" name="Einbaumenge" type="okstra-typen:Kilogramm_pro_Quadratmeter"/>
+      <element minOccurs="0" name="Ermuedung" type="okstra:ErmuedungPropertyType"/>
+      <element minOccurs="0" name="Kaelteeigenschaften" type="okstra:KaelteeigenschaftenPropertyType"/>
+      <element minOccurs="0" name="Mittlere_Texturtiefe" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Verformungsbestaendigkeit" type="okstra:VerformungsbestaendigkeitPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Fertige_SchichtPropertyType">
+    <sequence>
+      <element ref="okstra:Fertige_Schicht"/>
+    </sequence>
+  </complexType>
+  <element name="Formel" substitutionGroup="gml:AbstractObject" type="okstra:FormelType"/>
+  <complexType name="FormelType">
+    <choice>
+      <element name="Funktionsformel" type="okstra:FunktionsformelPropertyType"/>
+      <element name="Freitextformel" type="okstra:FreitextformelPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="FormelPropertyType">
+    <sequence>
+      <element ref="okstra:Formel"/>
+    </sequence>
+  </complexType>
+  <element name="Formelkatalog" substitutionGroup="gml:AbstractObject" type="okstra:FormelkatalogType"/>
+  <complexType name="FormelkatalogType">
+    <sequence>
+      <element name="Name" type="string"/>
+      <element name="Version" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="FormelkatalogPropertyType">
+    <sequence>
+      <element ref="okstra:Formelkatalog"/>
+    </sequence>
+  </complexType>
+  <element name="Formularfeld" substitutionGroup="gml:AbstractObject" type="okstra:FormularfeldType"/>
+  <complexType name="FormularfeldType">
+    <sequence>
+      <element name="Name" type="string"/>
+      <element minOccurs="0" name="Wert" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="FormularfeldPropertyType">
+    <sequence>
+      <element ref="okstra:Formularfeld"/>
+    </sequence>
+  </complexType>
+  <element name="Formularfeldgruppe" substitutionGroup="gml:AbstractObject" type="okstra:FormularfeldgruppeType"/>
+  <complexType name="FormularfeldgruppeType">
+    <sequence>
+      <element name="Name" type="string"/>
+      <element maxOccurs="unbounded" name="Formularfeld" type="okstra:FormularfeldPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="FormularfeldgruppePropertyType">
+    <sequence>
+      <element ref="okstra:Formularfeldgruppe"/>
+    </sequence>
+  </complexType>
+  <element name="Freitextformel" substitutionGroup="gml:AbstractObject" type="okstra:FreitextformelType"/>
+  <complexType name="FreitextformelType">
+    <sequence>
+      <element name="Formelkatalog" type="okstra:FormelkatalogPropertyType"/>
+      <element name="Formelnummer" type="integer"/>
+      <element name="Formeltext" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="FreitextformelPropertyType">
+    <sequence>
+      <element ref="okstra:Freitextformel"/>
+    </sequence>
+  </complexType>
+  <element name="Frist_Maengelansprueche" substitutionGroup="gml:AbstractObject" type="okstra:Frist_MaengelanspruecheType"/>
+  <complexType name="Frist_MaengelanspruecheType">
+    <sequence>
+      <element minOccurs="0" name="Lfd_Nummer_Teilabnahme" type="integer"/>
+      <element name="Nr_zugehoerige_Leistung" type="integer"/>
+      <element name="Zugehoerige_Leistung" type="string"/>
+      <element minOccurs="0" name="Beginn_Frist_Maengelansprueche" type="date"/>
+      <element name="Ende_Frist_Maengelansprueche" type="date"/>
+    </sequence>
+  </complexType>
+  <complexType name="Frist_MaengelanspruechePropertyType">
+    <sequence>
+      <element ref="okstra:Frist_Maengelansprueche"/>
+    </sequence>
+  </complexType>
+  <element name="Fueller" substitutionGroup="gml:AbstractObject" type="okstra:FuellerType"/>
+  <complexType name="FuellerType">
+    <sequence>
+      <element minOccurs="0" name="Typ" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bezeichnung" type="string"/>
+      <element minOccurs="0" name="Fueller_Kategorie" type="okstra:Fueller_KategoriePropertyType"/>
+      <element minOccurs="0" name="Hersteller" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="FuellerPropertyType">
+    <sequence>
+      <element ref="okstra:Fueller"/>
+    </sequence>
+  </complexType>
+  <element name="Fueller_Kategorie" substitutionGroup="gml:AbstractObject" type="okstra:Fueller_KategorieType"/>
+  <complexType name="Fueller_KategorieType">
+    <choice>
+      <element minOccurs="0" name="Calciumcarbonatgehalt_Kategorie" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Calciumhydroxidgehalt" type="okstra:CalciumhydroxidgehaltPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="Fueller_KategoriePropertyType">
+    <sequence>
+      <element ref="okstra:Fueller_Kategorie"/>
+    </sequence>
+  </complexType>
+  <element name="Funktionsformel" substitutionGroup="gml:AbstractObject" type="okstra:FunktionsformelType"/>
+  <complexType name="FunktionsformelType">
+    <sequence>
+      <element name="Formelkatalog" type="okstra:FormelkatalogPropertyType"/>
+      <element name="Formelnummer" type="integer"/>
+      <element maxOccurs="unbounded" name="Argument" type="okstra:ArgumentPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="FunktionsformelPropertyType">
+    <sequence>
+      <element ref="okstra:Funktionsformel"/>
+    </sequence>
+  </complexType>
+  <element name="Geometrie_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Geometrie_ASB-INGType"/>
+  <complexType name="Geometrie_ASB-INGType">
+    <sequence>
+      <element minOccurs="0" name="Bedeutung_Schluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bedeutung_Freitext" type="string"/>
+      <element minOccurs="0" name="Laenge" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Flaeche" type="okstra-typen:Quadratmeter"/>
+      <element minOccurs="0" name="Volumen" type="okstra-typen:Kubikmeter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Geometrie_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Geometrie_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Gesteinskoernung" substitutionGroup="gml:AbstractObject" type="okstra:GesteinskoernungType"/>
+  <complexType name="GesteinskoernungType">
+    <sequence>
+      <element minOccurs="0" name="Typen_Ist" type="string"/>
+      <element minOccurs="0" name="Typen_Soll" type="string"/>
+      <element name="Basisgestein" type="string"/>
+      <element minOccurs="0" name="Ergaenzungsgestein" type="string"/>
+      <element minOccurs="0" name="Gesteinsrohdichte" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element minOccurs="0" name="Gebrochenekornoberflaechen_Anteil" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Widerstand_Zertruemmerung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="PSV" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Korngroessenverteilung" type="okstra:KorngroessenverteilungPropertyType"/>
+      <element minOccurs="0" name="Widerstand_Frost_Tausalz" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Gewinnungsort" type="string"/>
+      <element minOccurs="0" name="Gesteinskoernungsgemisch" type="okstra:GesteinskoernungsgemischPropertyType"/>
+      <element name="Lieferwerk" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="GesteinskoernungPropertyType">
+    <sequence>
+      <element ref="okstra:Gesteinskoernung"/>
+    </sequence>
+  </complexType>
+  <element name="Gesteinskoernungsgemisch" substitutionGroup="gml:AbstractObject" type="okstra:GesteinskoernungsgemischType"/>
+  <complexType name="GesteinskoernungsgemischType">
+    <sequence>
+      <element minOccurs="0" name="Rohdichte_Gesteinskoernungsgemisch" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element minOccurs="0" name="Rechnerischer_PSV_Wert" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="GesteinskoernungsgemischPropertyType">
+    <sequence>
+      <element ref="okstra:Gesteinskoernungsgemisch"/>
+    </sequence>
+  </complexType>
+  <element name="Grad_Koor" substitutionGroup="gml:AbstractObject" type="okstra:Grad_KoorType"/>
+  <complexType name="Grad_KoorType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element name="Hoehe" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="hat_Ausrundung" type="okstra:AusrundungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Grad_KoorPropertyType">
+    <sequence>
+      <element ref="okstra:Grad_Koor"/>
+    </sequence>
+  </complexType>
+  <element name="HB_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:HB_PunktType"/>
+  <complexType name="HB_PunktType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element name="Differenzhoehe" type="okstra-typen:Meter"/>
+      <element name="Neigungswinkel" type="okstra-typen:Groesse"/>
+    </sequence>
+  </complexType>
+  <complexType name="HB_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:HB_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="HZ_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:HZ_PunktType"/>
+  <complexType name="HZ_PunktType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Hoehe_fest" type="okstra-typen:Meter"/>
+      <element name="Berechnung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="hat_Gradiente" type="okstra-basis:ObjectRefType"/>
+      <element minOccurs="0" name="hat_Hoehe_Linie" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="HZ_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:HZ_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="Haftzugfestigkeit" substitutionGroup="gml:AbstractObject" type="okstra:HaftzugfestigkeitType"/>
+  <complexType name="HaftzugfestigkeitType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Megapascal"/>
+      <element name="Unzulaessige_Abweichung" type="okstra-typen:Megapascal"/>
+      <element name="Lage_Bruchflaeche" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="HaftzugfestigkeitPropertyType">
+    <sequence>
+      <element ref="okstra:Haftzugfestigkeit"/>
+    </sequence>
+  </complexType>
+  <element name="Haushaltsbezug" substitutionGroup="gml:AbstractObject" type="okstra:HaushaltsbezugType"/>
+  <complexType name="HaushaltsbezugType">
+    <sequence>
+      <element minOccurs="0" name="Art_Haushalt" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Kapitel" type="string"/>
+      <element minOccurs="0" name="Titel" type="string"/>
+      <element minOccurs="0" name="OZ" type="string"/>
+      <element minOccurs="0" name="Betrag" type="okstra-typen:EURO"/>
+      <element minOccurs="0" name="Haushaltsjahr" type="okstra-typen:Jahr"/>
+      <element minOccurs="0" name="Erlaeuterung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="zu_Verwaltungsbezirk" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="HaushaltsbezugPropertyType">
+    <sequence>
+      <element ref="okstra:Haushaltsbezug"/>
+    </sequence>
+  </complexType>
+  <element name="Hierarchiestufe" substitutionGroup="gml:AbstractObject" type="okstra:HierarchiestufeType"/>
+  <complexType name="HierarchiestufeType">
+    <sequence>
+      <element name="Name" type="string"/>
+      <element name="Festlegung_Ende" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Stellenzahl" type="integer"/>
+      <element minOccurs="0" name="Trennzeichen" type="okstra:ZeichenmengePropertyType"/>
+      <element minOccurs="0" name="zulaessige_Zeichen" type="okstra:ZeichenmengePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="HierarchiestufePropertyType">
+    <sequence>
+      <element ref="okstra:Hierarchiestufe"/>
+    </sequence>
+  </complexType>
+  <element name="Hohlraumgehalt" substitutionGroup="gml:AbstractObject" type="okstra:HohlraumgehaltType"/>
+  <complexType name="HohlraumgehaltType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Volumenprozent"/>
+      <element minOccurs="0" name="Unzulaessige_Abweichung" type="okstra-typen:Volumenprozent"/>
+    </sequence>
+  </complexType>
+  <complexType name="HohlraumgehaltPropertyType">
+    <sequence>
+      <element ref="okstra:Hohlraumgehalt"/>
+    </sequence>
+  </complexType>
+  <element name="Hor_Koor" substitutionGroup="gml:AbstractObject" type="okstra:Hor_KoorType"/>
+  <complexType name="Hor_KoorType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element name="Hoehe" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Hor_KoorPropertyType">
+    <sequence>
+      <element ref="okstra:Hor_Koor"/>
+    </sequence>
+  </complexType>
+  <element name="Injektionsverfahren" substitutionGroup="gml:AbstractObject" type="okstra:InjektionsverfahrenType"/>
+  <complexType name="InjektionsverfahrenType">
+    <sequence>
+      <element name="Hersteller" type="string"/>
+      <element name="Fuellgutklasse" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Fuellgut" type="string"/>
+      <element name="Injektionsverfahren" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="InjektionsverfahrenPropertyType">
+    <sequence>
+      <element ref="okstra:Injektionsverfahren"/>
+    </sequence>
+  </complexType>
+  <element name="Kaelteeigenschaften" substitutionGroup="gml:AbstractObject" type="okstra:KaelteeigenschaftenType"/>
+  <complexType name="KaelteeigenschaftenType">
+    <sequence>
+      <element minOccurs="0" name="Einaxialer_Zugversuch" type="okstra:Einaxialer_ZugversuchPropertyType"/>
+      <element minOccurs="0" name="Abkuehlversuch" type="okstra:AbkuehlversuchPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KaelteeigenschaftenPropertyType">
+    <sequence>
+      <element ref="okstra:Kaelteeigenschaften"/>
+    </sequence>
+  </complexType>
+  <element name="Kommentar_Mengenberechnung" substitutionGroup="gml:AbstractObject" type="okstra:Kommentar_MengenberechnungType"/>
+  <complexType name="Kommentar_MengenberechnungType">
+    <sequence>
+      <element name="Bearbeiter" type="string"/>
+      <element name="Zeitangabe" type="okstra:ZeitpunktPropertyType"/>
+      <element name="Seite" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Beschreibung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Kommentar_MengenberechnungPropertyType">
+    <sequence>
+      <element ref="okstra:Kommentar_Mengenberechnung"/>
+    </sequence>
+  </complexType>
+  <element name="Kommunikation" substitutionGroup="gml:AbstractObject" type="okstra:KommunikationType"/>
+  <complexType name="KommunikationType">
+    <sequence>
+      <element name="Kommunikationsadresse" type="string"/>
+      <element name="Kommunikationstyp" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Dienstlich_Privat" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KommunikationPropertyType">
+    <sequence>
+      <element ref="okstra:Kommunikation"/>
+    </sequence>
+  </complexType>
+  <element name="Konstantenreferenz" substitutionGroup="gml:AbstractObject" type="okstra:KonstantenreferenzType"/>
+  <complexType name="KonstantenreferenzType">
+    <sequence>
+      <element name="Konstantenname" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="KonstantenreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:Konstantenreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Koordinate" substitutionGroup="gml:AbstractObject" type="okstra:KoordinateType"/>
+  <complexType name="KoordinateType">
+    <sequence>
+      <element minOccurs="0" name="x_Koordinate" type="double"/>
+      <element minOccurs="0" name="y_Koordinate" type="double"/>
+      <element minOccurs="0" name="z_Koordinate" type="double"/>
+    </sequence>
+  </complexType>
+  <complexType name="KoordinatePropertyType">
+    <sequence>
+      <element ref="okstra:Koordinate"/>
+    </sequence>
+  </complexType>
+  <element name="Koordinaten_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Koordinaten_ASB-INGType"/>
+  <complexType name="Koordinaten_ASB-INGType">
+    <sequence>
+      <element name="Koordinatengeometrie" type="okstra:MultigeometriePropertyType"/>
+      <element minOccurs="0" name="Koordinatenherkunft" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Koordinaten_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Koordinaten_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Koordinatenreferenzsystem" substitutionGroup="gml:AbstractObject" type="okstra:KoordinatenreferenzsystemType"/>
+  <complexType name="KoordinatenreferenzsystemType">
+    <sequence>
+      <element minOccurs="0" name="System_2D" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="System_3D" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="System_Hoehe" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KoordinatenreferenzsystemPropertyType">
+    <sequence>
+      <element ref="okstra:Koordinatenreferenzsystem"/>
+    </sequence>
+  </complexType>
+  <element name="Korn" substitutionGroup="gml:AbstractObject" type="okstra:KornType"/>
+  <complexType name="KornType">
+    <sequence>
+      <element name="Sieb" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Rueckstand" type="okstra-typen:Massenanteil"/>
+      <element name="Durchgang" type="okstra:DurchgangPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KornPropertyType">
+    <sequence>
+      <element ref="okstra:Korn"/>
+    </sequence>
+  </complexType>
+  <element name="Korngroesse" substitutionGroup="gml:AbstractObject" type="okstra:KorngroesseType"/>
+  <complexType name="KorngroesseType">
+    <sequence>
+      <element name="Korngroessenanteil" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Pruefwert" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Soll_Unten" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Toleranz_Oben" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Toleranz_Unten" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Unzulaessige_Abweichung" type="okstra-typen:Massenanteil"/>
+    </sequence>
+  </complexType>
+  <complexType name="KorngroessePropertyType">
+    <sequence>
+      <element ref="okstra:Korngroesse"/>
+    </sequence>
+  </complexType>
+  <element name="Korngroessenverteilung" substitutionGroup="gml:AbstractObject" type="okstra:KorngroessenverteilungType"/>
+  <complexType name="KorngroessenverteilungType">
+    <sequence>
+      <element name="Ueberkornanteil_Rueckstand" type="okstra-typen:Massenanteil"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Korn" type="okstra:KornPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KorngroessenverteilungPropertyType">
+    <sequence>
+      <element ref="okstra:Korngroessenverteilung"/>
+    </sequence>
+  </complexType>
+  <element name="Kostenbeschreibung" substitutionGroup="gml:AbstractObject" type="okstra:KostenbeschreibungType"/>
+  <complexType name="KostenbeschreibungType">
+    <sequence>
+      <element name="Kosten" type="okstra-typen:EURO"/>
+      <element name="Beschreibung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="KostenbeschreibungPropertyType">
+    <sequence>
+      <element ref="okstra:Kostenbeschreibung"/>
+    </sequence>
+  </complexType>
+  <element name="Kostenkatalog" substitutionGroup="gml:AbstractObject" type="okstra:KostenkatalogType"/>
+  <complexType name="KostenkatalogType">
+    <sequence>
+      <element name="Zustaendige_Stelle" type="okstra:Zustaendige_StellePropertyType"/>
+      <element name="Dimension_Mengenangabe" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Min_Wert" type="double"/>
+      <element name="Max_Wert" type="double"/>
+      <element name="Kosten" type="okstra-typen:EURO"/>
+      <element minOccurs="0" name="Dauer" type="okstra:DauerPropertyType"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="KostenkatalogPropertyType">
+    <sequence>
+      <element ref="okstra:Kostenkatalog"/>
+    </sequence>
+  </complexType>
+  <element name="Kraftduktilitaet" substitutionGroup="gml:AbstractObject" type="okstra:KraftduktilitaetType"/>
+  <complexType name="KraftduktilitaetType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Joule_pro_Quadratzentimeter"/>
+      <element name="Temperatur" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="KraftduktilitaetPropertyType">
+    <sequence>
+      <element ref="okstra:Kraftduktilitaet"/>
+    </sequence>
+  </complexType>
+  <element name="Land" substitutionGroup="gml:AbstractObject" type="okstra:LandType"/>
+  <complexType name="LandType">
+    <sequence>
+      <element minOccurs="0" name="postalischer_Code" type="string"/>
+      <element name="Land" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="LandPropertyType">
+    <sequence>
+      <element ref="okstra:Land"/>
+    </sequence>
+  </complexType>
+  <element name="Lastbild_Definition" substitutionGroup="gml:AbstractObject" type="okstra:Lastbild_DefinitionType"/>
+  <complexType name="Lastbild_DefinitionType">
+    <sequence>
+      <element minOccurs="0" name="Name_Lastbild" type="string"/>
+      <element minOccurs="0" name="Ueberschreitungsgrenze_Lastvergleich" type="okstra-typen:Prozent"/>
+      <element maxOccurs="unbounded" name="Lastdefinition" type="okstra:LastdefinitionPropertyType"/>
+      <element minOccurs="0" name="RGST_Bezug" type="string"/>
+      <element minOccurs="0" name="durchgehende_Flaechenlast" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="Lastbild_DefinitionPropertyType">
+    <sequence>
+      <element ref="okstra:Lastbild_Definition"/>
+    </sequence>
+  </complexType>
+  <element name="Lastdefinition" substitutionGroup="gml:AbstractObject" type="okstra:LastdefinitionType"/>
+  <complexType name="LastdefinitionType">
+    <sequence>
+      <element name="Art" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Achse" type="okstra:achsbezogene_DatenPropertyType"/>
+      <element minOccurs="0" name="Flaechenlast" type="okstra-typen:Newton_pro_Quadratmeter"/>
+      <element minOccurs="0" name="Ueberhang_Abstand_Vorne" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Ueberhang_Abstand_Hinten" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Berechnungsbreite" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="LastdefinitionPropertyType">
+    <sequence>
+      <element ref="okstra:Lastdefinition"/>
+    </sequence>
+  </complexType>
+  <element name="Laststufe" substitutionGroup="gml:AbstractObject" type="okstra:LaststufeType"/>
+  <complexType name="LaststufeType">
+    <sequence>
+      <element name="Scherspannung" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" name="Zyklus" type="okstra:ZyklusPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="LaststufePropertyType">
+    <sequence>
+      <element ref="okstra:Laststufe"/>
+    </sequence>
+  </complexType>
+  <element name="MLC_Info" substitutionGroup="gml:AbstractObject" type="okstra:MLC_InfoType"/>
+  <complexType name="MLC_InfoType">
+    <sequence>
+      <element minOccurs="0" name="Rad" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Kette" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="MLC_InfoPropertyType">
+    <sequence>
+      <element ref="okstra:MLC_Info"/>
+    </sequence>
+  </complexType>
+  <element name="MSCRT" substitutionGroup="gml:AbstractObject" type="okstra:MSCRTType"/>
+  <complexType name="MSCRTType">
+    <sequence>
+      <element minOccurs="0" name="Pruefgeraet" type="string"/>
+      <element minOccurs="0" name="Pruefvorschrift" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" name="Laststufe" type="okstra:LaststufePropertyType"/>
+      <element minOccurs="0" name="Alterungszustand_Bindemittel" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Prueftemperatur" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="MSCRTPropertyType">
+    <sequence>
+      <element ref="okstra:MSCRT"/>
+    </sequence>
+  </complexType>
+  <element name="Marshallprobekoerper" substitutionGroup="gml:AbstractObject" type="okstra:MarshallprobekoerperType"/>
+  <complexType name="MarshallprobekoerperType">
+    <sequence>
+      <element name="Raumdichte" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element name="Hohlraumgehalt" type="okstra:HohlraumgehaltPropertyType"/>
+      <element minOccurs="0" name="Herstelltemperatur" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Pruefverfahren_Raumdichte" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="MarshallprobekoerperPropertyType">
+    <sequence>
+      <element ref="okstra:Marshallprobekoerper"/>
+    </sequence>
+  </complexType>
+  <element name="Menge_mit_Dimension" substitutionGroup="gml:AbstractObject" type="okstra:Menge_mit_DimensionType"/>
+  <complexType name="Menge_mit_DimensionType">
+    <choice>
+      <element name="Laenge" type="okstra-typen:Meter"/>
+      <element name="Flaeche" type="okstra-typen:Quadratmeter"/>
+      <element name="Volumen" type="okstra-typen:Kubikmeter"/>
+      <element name="Winkel" type="okstra-typen:Radiant"/>
+      <element name="Anzahl" type="okstra-typen:Anzahl"/>
+      <element name="Anteil" type="okstra-typen:Prozent"/>
+      <element name="Temperatur" type="okstra-typen:Grad_Celsius"/>
+    </choice>
+  </complexType>
+  <complexType name="Menge_mit_DimensionPropertyType">
+    <sequence>
+      <element ref="okstra:Menge_mit_Dimension"/>
+    </sequence>
+  </complexType>
+  <element name="Menge_mit_Dimension_Erlaeuterung" substitutionGroup="gml:AbstractObject" type="okstra:Menge_mit_Dimension_ErlaeuterungType"/>
+  <complexType name="Menge_mit_Dimension_ErlaeuterungType">
+    <sequence>
+      <element name="Art" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Menge" type="okstra:Menge_mit_DimensionPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Menge_mit_Dimension_ErlaeuterungPropertyType">
+    <sequence>
+      <element ref="okstra:Menge_mit_Dimension_Erlaeuterung"/>
+    </sequence>
+  </complexType>
+  <element name="Multigeometrie" substitutionGroup="gml:AbstractObject" type="okstra:MultigeometrieType"/>
+  <complexType name="MultigeometrieType">
+    <choice>
+      <element name="Punktgeometrie" type="gml:MultiPointPropertyType"/>
+      <element name="Liniengeometrie" type="gml:MultiCurvePropertyType"/>
+      <element name="Flaechengeometrie" type="gml:MultiSurfacePropertyType"/>
+      <element name="Volumengeometrie" type="gml:MultiSolidPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="MultigeometriePropertyType">
+    <sequence>
+      <element ref="okstra:Multigeometrie"/>
+    </sequence>
+  </complexType>
+  <element name="Nachrechnungsinfo" substitutionGroup="gml:AbstractObject" type="okstra:NachrechnungsinfoType"/>
+  <complexType name="NachrechnungsinfoType">
+    <sequence>
+      <element name="Nachweisstufe" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Nachweisklasse" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Vorlaeufig_Eingeschraenkte_Nutzungsdauer" type="okstra-typen:Jahr"/>
+      <element name="Kompensationsmassnahme_Lastbeschraenkung" type="boolean"/>
+      <element name="Kompensationsmassnahme_Ueerholverbot" type="boolean"/>
+      <element name="Kompensationsmassnahme_Spurfuehrung" type="boolean"/>
+      <element name="Kompensationsmassnahme_Geschwindigkeitsbeschraenkung" type="boolean"/>
+      <element name="Kompensationsmassnahme_Abstandsgebot" type="boolean"/>
+      <element name="Kompensationsmassnahme_Monitoring" type="boolean"/>
+      <element name="Kompensationsmassnahme_Kuerzerer_Pruefzyklus" type="boolean"/>
+      <element name="Kompensationsmassnahme_Weitere_Massnahmen" type="boolean"/>
+      <element minOccurs="0" name="Bemerkungen" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="NachrechnungsinfoPropertyType">
+    <sequence>
+      <element ref="okstra:Nachrechnungsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="Objekt_ID" substitutionGroup="gml:AbstractObject" type="okstra:Objekt_IDType"/>
+  <complexType name="Objekt_IDType">
+    <sequence>
+      <element name="ID" type="string"/>
+      <element name="Namensraum_Verfahren" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Objekt_IDPropertyType">
+    <sequence>
+      <element ref="okstra:Objekt_ID"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_LastLocationReferencePoint" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_LastLocationReferencePointType"/>
+  <complexType name="OpenLR_LastLocationReferencePointType">
+    <sequence>
+      <element name="Coordinates" type="gml:PointPropertyType"/>
+      <element name="LineAttributes" type="okstra:OpenLR_LineAttributesPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_LastLocationReferencePointPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_LastLocationReferencePoint"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_LineAttributes" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_LineAttributesType"/>
+  <complexType name="OpenLR_LineAttributesType">
+    <sequence>
+      <element name="FRC" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="FOW" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="BEAR" type="okstra-typen:Grad"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_LineAttributesPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_LineAttributes"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_LineLocationReference" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_LineLocationReferenceType"/>
+  <complexType name="OpenLR_LineLocationReferenceType">
+    <sequence>
+      <element maxOccurs="unbounded" name="LocationReferencePoint" type="okstra:OpenLR_LocationReferencePointPropertyType"/>
+      <element name="LastLocationReferencePoint" type="okstra:OpenLR_LastLocationReferencePointPropertyType"/>
+      <element minOccurs="0" name="Offsets" type="okstra:OpenLR_OffsetsPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_LineLocationReferencePropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_LineLocationReference"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_LocationReferencePoint" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_LocationReferencePointType"/>
+  <complexType name="OpenLR_LocationReferencePointType">
+    <sequence>
+      <element name="Coordinates" type="gml:PointPropertyType"/>
+      <element name="LineAttributes" type="okstra:OpenLR_LineAttributesPropertyType"/>
+      <element name="PathAttributes" type="okstra:OpenLR_PathAttributesPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_LocationReferencePointPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_LocationReferencePoint"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_Offsets" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_OffsetsType"/>
+  <complexType name="OpenLR_OffsetsType">
+    <sequence>
+      <element minOccurs="0" name="PosOff" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="NegOff" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_OffsetsPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_Offsets"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_PathAttributes" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_PathAttributesType"/>
+  <complexType name="OpenLR_PathAttributesType">
+    <sequence>
+      <element name="LFRCNP" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="DNP" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_PathAttributesPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_PathAttributes"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_PoiWithAccessPoint" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_PoiWithAccessPointType"/>
+  <complexType name="OpenLR_PoiWithAccessPointType">
+    <sequence>
+      <element name="LocationReferencePoint" type="okstra:OpenLR_LocationReferencePointPropertyType"/>
+      <element name="LastLocationReferencePoint" type="okstra:OpenLR_LastLocationReferencePointPropertyType"/>
+      <element minOccurs="0" name="Offsets" type="okstra:OpenLR_OffsetsPropertyType"/>
+      <element name="Coordinates" type="gml:PointPropertyType"/>
+      <element minOccurs="0" name="SideOfRoad_Type" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Orientation_Type" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_PoiWithAccessPointPropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_PoiWithAccessPoint"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_PointAlongLine" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_PointAlongLineType"/>
+  <complexType name="OpenLR_PointAlongLineType">
+    <sequence>
+      <element name="LocationReferencePoint" type="okstra:OpenLR_LocationReferencePointPropertyType"/>
+      <element name="LastLocationReferencePoint" type="okstra:OpenLR_LastLocationReferencePointPropertyType"/>
+      <element minOccurs="0" name="Offsets" type="okstra:OpenLR_OffsetsPropertyType"/>
+      <element minOccurs="0" name="SideOfRoad_Type" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Orientation_Type" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OpenLR_PointAlongLinePropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_PointAlongLine"/>
+    </sequence>
+  </complexType>
+  <element name="OpenLR_PointLocationReference" substitutionGroup="gml:AbstractObject" type="okstra:OpenLR_PointLocationReferenceType"/>
+  <complexType name="OpenLR_PointLocationReferenceType">
+    <choice>
+      <element name="GeoCoordinate" type="gml:PointPropertyType"/>
+      <element name="PointAlongLine" type="okstra:OpenLR_PointAlongLinePropertyType"/>
+      <element name="PoiWithAccessPoint" type="okstra:OpenLR_PoiWithAccessPointPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="OpenLR_PointLocationReferencePropertyType">
+    <sequence>
+      <element ref="okstra:OpenLR_PointLocationReference"/>
+    </sequence>
+  </complexType>
+  <element name="Ortsangabe" substitutionGroup="gml:AbstractObject" type="okstra:OrtsangabeType"/>
+  <complexType name="OrtsangabeType">
+    <sequence>
+      <element name="Ortsangabe" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Groesse_Ortsangabe" type="okstra:Abstand_AnzahlPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="OrtsangabePropertyType">
+    <sequence>
+      <element ref="okstra:Ortsangabe"/>
+    </sequence>
+  </complexType>
+  <element name="Ortsbezug" substitutionGroup="gml:AbstractObject" type="okstra:OrtsbezugType"/>
+  <complexType name="OrtsbezugType">
+    <choice>
+      <element name="Strasse" type="okstra:StrassenbezeichnungPropertyType"/>
+      <element name="Koordinaten" type="okstra:Koordinaten_ASB-INGPropertyType"/>
+      <element name="Gemeindeschluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Dienststelle" type="okstra-basis:KeyValuePropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="OrtsbezugPropertyType">
+    <sequence>
+      <element ref="okstra:Ortsbezug"/>
+    </sequence>
+  </complexType>
+  <element name="PCV" substitutionGroup="gml:AbstractObject" type="okstra:PCVType"/>
+  <complexType name="PCVType">
+    <sequence>
+      <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+      <element minOccurs="0" name="Winkel" type="okstra-typen:Grad"/>
+      <element minOccurs="0" name="Variation" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="PCVPropertyType">
+    <sequence>
+      <element ref="okstra:PCV"/>
+    </sequence>
+  </complexType>
+  <element name="PSV_Abstreumaterial" substitutionGroup="gml:AbstractObject" type="okstra:PSV_AbstreumaterialType"/>
+  <complexType name="PSV_AbstreumaterialType">
+    <sequence>
+      <element name="Pruefwert" type="integer"/>
+      <element name="Soll" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="PSV_AbstreumaterialPropertyType">
+    <sequence>
+      <element ref="okstra:PSV_Abstreumaterial"/>
+    </sequence>
+  </complexType>
+  <element name="Polygon_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Polygon_ASB-INGType"/>
+  <complexType name="Polygon_ASB-INGType">
+    <sequence>
+      <element maxOccurs="unbounded" name="Punkt" type="okstra:Segment_PunktPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Polygon_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Polygon_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Probe_Dyn_Spaltzugschwellversuch" substitutionGroup="gml:AbstractObject" type="okstra:Probe_Dyn_SpaltzugschwellversuchType"/>
+  <complexType name="Probe_Dyn_SpaltzugschwellversuchType">
+    <sequence>
+      <element minOccurs="0" name="Probenbezeichnung" type="string"/>
+      <element minOccurs="0" name="Probekoerperdurchmesser" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Probekoerperhoehe" type="okstra-typen:Millimeter"/>
+      <element minOccurs="0" name="Raumdichte" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element minOccurs="0" name="elastische_Anfangsdehnung" type="okstra-typen:Promille"/>
+      <element minOccurs="0" name="Unterspannung" type="okstra-typen:Megapascal"/>
+      <element minOccurs="0" name="Oberspannung" type="okstra-typen:Megapascal"/>
+      <element minOccurs="0" name="Prueftemperatur" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Frequenz" type="okstra-typen:Hertz"/>
+      <element minOccurs="0" name="Phasenwinkel" type="okstra-typen:Grad"/>
+      <element minOccurs="0" name="Steifigkeitsmodul" type="okstra-typen:Megapascal"/>
+      <element minOccurs="0" name="Lastwechselzahl_Makroriss" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="Probe_Dyn_SpaltzugschwellversuchPropertyType">
+    <sequence>
+      <element ref="okstra:Probe_Dyn_Spaltzugschwellversuch"/>
+    </sequence>
+  </complexType>
+  <element name="Pruefstempel" substitutionGroup="gml:AbstractObject" type="okstra:PruefstempelType"/>
+  <complexType name="PruefstempelType">
+    <sequence>
+      <element name="Bearbeiter" type="string"/>
+      <element name="Zeitangabe" type="okstra:ZeitpunktPropertyType"/>
+      <element name="Seite" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="akzeptiert" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="PruefstempelPropertyType">
+    <sequence>
+      <element ref="okstra:Pruefstempel"/>
+    </sequence>
+  </complexType>
+  <element name="Punkt_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Punkt_ASB-INGType"/>
+  <complexType name="Punkt_ASB-INGType">
+    <sequence>
+      <element name="X" type="okstra-typen:Meter"/>
+      <element name="Y" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Punkt_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Punkt_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Punkt_normiert_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Punkt_normiert_ASB-INGType"/>
+  <complexType name="Punkt_normiert_ASB-INGType">
+    <sequence>
+      <element name="X" type="double"/>
+      <element name="Y" type="double"/>
+    </sequence>
+  </complexType>
+  <complexType name="Punkt_normiert_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Punkt_normiert_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Punktvermarkung" substitutionGroup="gml:AbstractObject" type="okstra:PunktvermarkungType"/>
+  <complexType name="PunktvermarkungType">
+    <sequence>
+      <element name="Hoehe_vom_Erdboden" type="double"/>
+      <element minOccurs="0" name="Art_der_Vermarkung" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zustand_der_Vermarkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="PunktvermarkungPropertyType">
+    <sequence>
+      <element ref="okstra:Punktvermarkung"/>
+    </sequence>
+  </complexType>
+  <element name="QN_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:QN_PunktType"/>
+  <complexType name="QN_PunktType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Querneigung" type="okstra-typen:Prozent_Neigung"/>
+      <element minOccurs="0" name="automatische_Berechnung" type="boolean"/>
+      <element minOccurs="0" name="Verziehungsform" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="QN_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:QN_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="QP_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:QP_PunktType"/>
+  <complexType name="QP_PunktType">
+    <sequence>
+      <element minOccurs="0" name="Bezeichnung" type="string"/>
+      <element name="Abstand_zur_Achse" type="okstra-typen:Meter"/>
+      <element name="Hoehe" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="QP_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:QP_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="RGB_Farbe" substitutionGroup="gml:AbstractObject" type="okstra:RGB_FarbeType"/>
+  <complexType name="RGB_FarbeType">
+    <sequence>
+      <element name="Farbwert_rot" type="okstra-typen:RGB_Farbwert"/>
+      <element name="Farbwert_gruen" type="okstra-typen:RGB_Farbwert"/>
+      <element name="Farbwert_blau" type="okstra-typen:RGB_Farbwert"/>
+    </sequence>
+  </complexType>
+  <complexType name="RGB_FarbePropertyType">
+    <sequence>
+      <element ref="okstra:RGB_Farbe"/>
+    </sequence>
+  </complexType>
+  <element name="Rahmengeometrie" substitutionGroup="gml:AbstractObject" type="okstra:RahmengeometrieType"/>
+  <complexType name="RahmengeometrieType">
+    <sequence>
+      <element name="Hoehe_Stiel_Anfang" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Fusspunkt_am_Anfang_gelenkig" type="boolean"/>
+      <element name="Laenge_Riegel" type="okstra-typen:Meter"/>
+      <element name="Hoehe_Stiel_Ende" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Fusspunkt_am_Ende_gelenkig" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="RahmengeometriePropertyType">
+    <sequence>
+      <element ref="okstra:Rahmengeometrie"/>
+    </sequence>
+  </complexType>
+  <element name="SW_Koor" substitutionGroup="gml:AbstractObject" type="okstra:SW_KoorType"/>
+  <complexType name="SW_KoorType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Sichtweite_erforderlich" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Sichtweite_vorhanden" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="SW_KoorPropertyType">
+    <sequence>
+      <element ref="okstra:SW_Koor"/>
+    </sequence>
+  </complexType>
+  <element name="Schadensbeispiel" substitutionGroup="gml:AbstractObject" type="okstra:SchadensbeispielType"/>
+  <complexType name="SchadensbeispielType">
+    <sequence>
+      <element name="Ordnungsnummer" type="string"/>
+      <element name="Name" type="string"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+      <element minOccurs="0" name="Schadensbewertung_S_Min" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schadensbewertung_S_Max" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schadensbewertung_V_Min" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schadensbewertung_V_Max" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schadensbewertung_D_Min" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schadensbewertung_D_Max" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bauwerksart" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bauteilart" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Baustoff" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Art_Schaden" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Rissart" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Dimension_Mengenangabe" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="OSA_erforderlich" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SchadensbeispielPropertyType">
+    <sequence>
+      <element ref="okstra:Schadensbeispiel"/>
+    </sequence>
+  </complexType>
+  <element name="Schicht_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Schicht_ASB-INGType"/>
+  <complexType name="Schicht_ASB-INGType">
+    <sequence>
+      <element minOccurs="0" name="Dicke" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Funktion" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Einbaudatum" type="okstra:ASB_DatumPropertyType"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="besteht_aus_Baustoff" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Schicht_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Schicht_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Schichtenverbund" substitutionGroup="gml:AbstractObject" type="okstra:SchichtenverbundType"/>
+  <complexType name="SchichtenverbundType">
+    <sequence>
+      <element name="Scherweg_Mittelwert" type="okstra-typen:Millimeter"/>
+      <element name="Schichtenverbund_Scherkraft" type="okstra:Schichtenverbund_ScherkraftPropertyType"/>
+      <element minOccurs="0" name="Haftzugfestigkeit" type="okstra:HaftzugfestigkeitPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SchichtenverbundPropertyType">
+    <sequence>
+      <element ref="okstra:Schichtenverbund"/>
+    </sequence>
+  </complexType>
+  <element name="Schichtenverbund_Scherkraft" substitutionGroup="gml:AbstractObject" type="okstra:Schichtenverbund_ScherkraftType"/>
+  <complexType name="Schichtenverbund_ScherkraftType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Kilonewton"/>
+      <element name="Soll_Unten" type="okstra-typen:Kilonewton"/>
+      <element name="Unzulaessige_Abweichung" type="okstra-typen:Kilonewton"/>
+    </sequence>
+  </complexType>
+  <complexType name="Schichtenverbund_ScherkraftPropertyType">
+    <sequence>
+      <element ref="okstra:Schichtenverbund_Scherkraft"/>
+    </sequence>
+  </complexType>
+  <element name="Schnittgroessenvergleich" substitutionGroup="gml:AbstractObject" type="okstra:SchnittgroessenvergleichType"/>
+  <complexType name="SchnittgroessenvergleichType">
+    <sequence>
+      <element name="Art_Schnittgroesse" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Schnittgroesse_DIN" type="double"/>
+      <element minOccurs="0" name="Schnittgroesse_ST" type="double"/>
+      <element minOccurs="0" name="Position_Feld_Stuetze_Auflager" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="SchnittgroessenvergleichPropertyType">
+    <sequence>
+      <element ref="okstra:Schnittgroessenvergleich"/>
+    </sequence>
+  </complexType>
+  <element name="Schriftfeld_RE_2012" substitutionGroup="gml:AbstractObject" type="okstra:Schriftfeld_RE_2012Type"/>
+  <complexType name="Schriftfeld_RE_2012Type">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="6" minOccurs="0" name="Text" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Schriftfeld_RE_2012PropertyType">
+    <sequence>
+      <element ref="okstra:Schriftfeld_RE_2012"/>
+    </sequence>
+  </complexType>
+  <element name="Schutzstatus" substitutionGroup="gml:AbstractObject" type="okstra:SchutzstatusType"/>
+  <complexType name="SchutzstatusType">
+    <sequence>
+      <element name="Quelle" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Statusangabe" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SchutzstatusPropertyType">
+    <sequence>
+      <element ref="okstra:Schutzstatus"/>
+    </sequence>
+  </complexType>
+  <element name="Segment_Punkt" substitutionGroup="gml:AbstractObject" type="okstra:Segment_PunktType"/>
+  <complexType name="Segment_PunktType">
+    <sequence>
+      <element name="Abstand_vom_Segmentanfang" type="okstra-typen:Meter"/>
+      <element name="Hoehe" type="okstra-typen:Meter"/>
+    </sequence>
+  </complexType>
+  <complexType name="Segment_PunktPropertyType">
+    <sequence>
+      <element ref="okstra:Segment_Punkt"/>
+    </sequence>
+  </complexType>
+  <element name="Spaltzugfestigkeit" substitutionGroup="gml:AbstractObject" type="okstra:SpaltzugfestigkeitType"/>
+  <complexType name="SpaltzugfestigkeitType">
+    <sequence>
+      <element name="Prueftemperatur" type="okstra-typen:Grad_Celsius"/>
+      <element name="Mittlere_Spaltzugfestigkeit" type="okstra-typen:Megapascal"/>
+      <element name="Bruchart" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SpaltzugfestigkeitPropertyType">
+    <sequence>
+      <element ref="okstra:Spaltzugfestigkeit"/>
+    </sequence>
+  </complexType>
+  <element name="Spannverfahren_Vorspannung" substitutionGroup="gml:AbstractObject" type="okstra:Spannverfahren_VorspannungType"/>
+  <complexType name="Spannverfahren_VorspannungType">
+    <sequence>
+      <element name="Kennung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element name="Hersteller" type="string"/>
+      <element name="Typenbezeichnung_Spannverfahren" type="string"/>
+      <element name="Geltungsdauer_Bis" type="date"/>
+      <element name="Extern" type="boolean"/>
+      <element name="maximale_Spannkraft" type="okstra-typen:Newton"/>
+      <element name="Spanngliedart" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Spannverfahren_VorspannungPropertyType">
+    <sequence>
+      <element ref="okstra:Spannverfahren_Vorspannung"/>
+    </sequence>
+  </complexType>
+  <element name="Startdatum" substitutionGroup="gml:AbstractObject" type="okstra:StartdatumType"/>
+  <complexType name="StartdatumType">
+    <sequence>
+      <element minOccurs="0" name="Jahr" type="okstra-typen:Jahr"/>
+      <element minOccurs="0" name="Monat_im_Jahr" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Woche_im_Jahr" type="okstra-typen:Woche"/>
+      <element minOccurs="0" name="Tag_im_Monat" type="okstra-typen:Tag"/>
+      <element minOccurs="0" name="Tag_in_der_Woche" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Nummer_des_Wochentages" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Stunde_am_Tag" type="okstra-typen:Stunde"/>
+      <element minOccurs="0" name="Minute_in_der_Stunde" type="okstra-typen:Minute"/>
+      <element minOccurs="0" name="Sekunde_in_der_Minute" type="okstra-typen:Sekunde"/>
+    </sequence>
+  </complexType>
+  <complexType name="StartdatumPropertyType">
+    <sequence>
+      <element ref="okstra:Startdatum"/>
+    </sequence>
+  </complexType>
+  <element name="Statische_Eindringtiefe_Wuerfel" substitutionGroup="gml:AbstractObject" type="okstra:Statische_Eindringtiefe_WuerfelType"/>
+  <complexType name="Statische_Eindringtiefe_WuerfelType">
+    <sequence>
+      <element name="Raumdichte_Wuerfel" type="okstra-typen:Gramm_pro_Kubikzentimeter"/>
+      <element name="Eindringtiefe_30min" type="okstra-typen:Millimeter"/>
+      <element name="Eindringtiefe_60min" type="okstra-typen:Millimeter"/>
+      <element name="Zunahme_weitere30min" type="okstra-typen:Millimeter"/>
+      <element name="Herstelltemperatur_Wuerfel" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="Statische_Eindringtiefe_WuerfelPropertyType">
+    <sequence>
+      <element ref="okstra:Statische_Eindringtiefe_Wuerfel"/>
+    </sequence>
+  </complexType>
+  <element name="Steifigkeit" substitutionGroup="gml:AbstractObject" type="okstra:SteifigkeitType"/>
+  <complexType name="SteifigkeitType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="Dynamischer_Spaltzugschwellversuch" type="okstra:Dynamischer_SpaltzugschwellversuchPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SteifigkeitPropertyType">
+    <sequence>
+      <element ref="okstra:Steifigkeit"/>
+    </sequence>
+  </complexType>
+  <element name="Strassenbezeichnung" substitutionGroup="gml:AbstractObject" type="okstra:StrassenbezeichnungType"/>
+  <complexType name="StrassenbezeichnungType">
+    <sequence>
+      <element name="Strassenklasse" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Strassennummer" type="okstra-typen:Strassennummer"/>
+      <element minOccurs="0" name="Zusatzbuchstabe" type="okstra-typen:Zusatzbuchstabe"/>
+      <element minOccurs="0" name="Identifizierungskennzeichen" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="StrassenbezeichnungPropertyType">
+    <sequence>
+      <element ref="okstra:Strassenbezeichnung"/>
+    </sequence>
+  </complexType>
+  <element name="Strassenelementpunkt" substitutionGroup="gml:AbstractObject" type="okstra:StrassenelementpunktType"/>
+  <complexType name="StrassenelementpunktType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Abstand_zur_Bestandsachse" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Abstand_zur_Fahrbahnoberkante" type="okstra-typen:Meter"/>
+      <element maxOccurs="unbounded" name="auf_Strassenelement" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="StrassenelementpunktPropertyType">
+    <sequence>
+      <element ref="okstra:Strassenelementpunkt"/>
+    </sequence>
+  </complexType>
+  <element name="Strassenpunkt" substitutionGroup="gml:AbstractObject" type="okstra:StrassenpunktType"/>
+  <complexType name="StrassenpunktType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Kilometer"/>
+      <element minOccurs="0" name="Abstand_zur_Bestandsachse" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Abstand_zur_Fahrbahnoberkante" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Abschnitt_Astnummer" type="string"/>
+      <element minOccurs="0" name="Kilometrierung" type="okstra-typen:Kilometer"/>
+      <element minOccurs="0" name="Blocknummer" type="string"/>
+      <element maxOccurs="unbounded" name="auf_Abschnitt_oder_Ast" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="StrassenpunktPropertyType">
+    <sequence>
+      <element ref="okstra:Strassenpunkt"/>
+    </sequence>
+  </complexType>
+  <element name="Strassenteilstueck" substitutionGroup="gml:AbstractObject" type="okstra:StrassenteilstueckType"/>
+  <complexType name="StrassenteilstueckType">
+    <sequence>
+      <element name="Strassenbezeichnung" type="okstra:StrassenbezeichnungPropertyType"/>
+      <element minOccurs="0" name="Anschlussstelle_von" type="string"/>
+      <element minOccurs="0" name="Anschlussstelle_bis" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="bis_Netzknoten" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="von_Netzknoten" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="auf_Abschnitt_oder_Ast" type="okstra-basis:ObjectRefType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="betrifft_Strasse" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="StrassenteilstueckPropertyType">
+    <sequence>
+      <element ref="okstra:Strassenteilstueck"/>
+    </sequence>
+  </complexType>
+  <element name="Systembezeichnung" substitutionGroup="gml:AbstractObject" type="okstra:SystembezeichnungType"/>
+  <complexType name="SystembezeichnungType">
+    <sequence>
+      <element name="Bezeichnung" type="string"/>
+      <element minOccurs="0" name="Regelwerk" type="string"/>
+      <element minOccurs="0" name="Datum" type="okstra:ASB_DatumPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="SystembezeichnungPropertyType">
+    <sequence>
+      <element ref="okstra:Systembezeichnung"/>
+    </sequence>
+  </complexType>
+  <element name="TMC_Location_Code" substitutionGroup="gml:AbstractObject" type="okstra:TMC_Location_CodeType"/>
+  <complexType name="TMC_Location_CodeType">
+    <sequence>
+      <element name="Laendercode" type="string"/>
+      <element name="Version" type="string"/>
+      <element name="Tabellennummer" type="integer"/>
+      <element name="Location_Code" type="integer"/>
+    </sequence>
+  </complexType>
+  <complexType name="TMC_Location_CodePropertyType">
+    <sequence>
+      <element ref="okstra:TMC_Location_Code"/>
+    </sequence>
+  </complexType>
+  <element name="TMC_Punktreferenz" substitutionGroup="gml:AbstractObject" type="okstra:TMC_PunktreferenzType"/>
+  <complexType name="TMC_PunktreferenzType">
+    <sequence>
+      <element name="Primaer" type="okstra:TMC_Location_CodePropertyType"/>
+      <element name="Offset" type="okstra-typen:Meter"/>
+      <element name="Richtung" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TMC_PunktreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:TMC_Punktreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="TMC_Streckenreferenz" substitutionGroup="gml:AbstractObject" type="okstra:TMC_StreckenreferenzType"/>
+  <complexType name="TMC_StreckenreferenzType">
+    <sequence>
+      <element name="Primaer" type="okstra:TMC_Location_CodePropertyType"/>
+      <element name="Offset_primaer" type="okstra-typen:Meter"/>
+      <element name="Sekundaer" type="okstra:TMC_Location_CodePropertyType"/>
+      <element name="Offset_sekundaer" type="okstra-typen:Meter"/>
+      <element name="Richtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Richtung_Verkettung" type="boolean"/>
+    </sequence>
+  </complexType>
+  <complexType name="TMC_StreckenreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:TMC_Streckenreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Tabellenfeld" substitutionGroup="gml:AbstractObject" type="okstra:TabellenfeldType"/>
+  <complexType name="TabellenfeldType">
+    <sequence>
+      <element name="Zeilennummer" type="integer"/>
+      <element minOccurs="0" name="Wert" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="TabellenfeldPropertyType">
+    <sequence>
+      <element ref="okstra:Tabellenfeld"/>
+    </sequence>
+  </complexType>
+  <element name="Tabellenreferenz" substitutionGroup="gml:AbstractObject" type="okstra:TabellenreferenzType"/>
+  <complexType name="TabellenreferenzType">
+    <sequence>
+      <element name="Blattnummer" type="integer"/>
+      <element name="Zeilenname" type="string"/>
+      <element name="Spaltenbezeichnung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="TabellenreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:Tabellenreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Tabellenspalte" substitutionGroup="gml:AbstractObject" type="okstra:TabellenspalteType"/>
+  <complexType name="TabellenspalteType">
+    <sequence>
+      <element name="Spaltennummer" type="integer"/>
+      <element name="Bezeichnung" type="string"/>
+      <element name="Spaltenart" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Beschreibung" type="string"/>
+      <element minOccurs="0" name="Berechnung_Spaltensumme" type="boolean"/>
+      <element minOccurs="0" name="Rechenvorschrift" type="string"/>
+      <element minOccurs="0" name="Masseinheit" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Tabellenfeld" type="okstra:TabellenfeldPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TabellenspaltePropertyType">
+    <sequence>
+      <element ref="okstra:Tabellenspalte"/>
+    </sequence>
+  </complexType>
+  <element name="Tagesgruppe" substitutionGroup="gml:AbstractObject" type="okstra:TagesgruppeType"/>
+  <complexType name="TagesgruppeType">
+    <sequence>
+      <element minOccurs="0" name="Fahrtzweckgruppe" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Normalzeitbereich" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="weitere_Tagesgruppen" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TagesgruppePropertyType">
+    <sequence>
+      <element ref="okstra:Tagesgruppe"/>
+    </sequence>
+  </complexType>
+  <element name="Temperatursweep" substitutionGroup="gml:AbstractObject" type="okstra:TemperatursweepType"/>
+  <complexType name="TemperatursweepType">
+    <sequence>
+      <element minOccurs="0" name="Pruefvorschrift" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Prueffrequenz" type="okstra-typen:Hertz"/>
+      <element maxOccurs="unbounded" name="Messwert" type="okstra:Temperatursweep_MesswertPropertyType"/>
+      <element minOccurs="0" name="Alterungszustand_Bindemittel" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TemperatursweepPropertyType">
+    <sequence>
+      <element ref="okstra:Temperatursweep"/>
+    </sequence>
+  </complexType>
+  <element name="Temperatursweep_Messwert" substitutionGroup="gml:AbstractObject" type="okstra:Temperatursweep_MesswertType"/>
+  <complexType name="Temperatursweep_MesswertType">
+    <sequence>
+      <element name="Temperatur" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Verformung" type="okstra-typen:Prozent"/>
+      <element name="Komplexer_Schermodul" type="okstra-typen:Pascal"/>
+      <element minOccurs="0" name="Phasenwinkel_GStern_15kPa" type="okstra-typen:Grad"/>
+      <element minOccurs="0" name="Phasenwinkel_GStern_1kPa" type="okstra-typen:Grad"/>
+      <element minOccurs="0" name="Aequisteifigkeitstemperatur_GStern_15kPa" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Aequisteifigkeitstemperatur_GStern_1kPa" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="Temperatursweep_MesswertPropertyType">
+    <sequence>
+      <element ref="okstra:Temperatursweep_Messwert"/>
+    </sequence>
+  </complexType>
+  <element name="Textausgestaltung" substitutionGroup="gml:AbstractObject" type="okstra:TextausgestaltungType"/>
+  <complexType name="TextausgestaltungType">
+    <sequence>
+      <element name="Breite" type="okstra-typen:Groesse"/>
+      <element name="Hoehe" type="okstra-typen:Groesse"/>
+      <element name="Einheit" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Schriftart" type="string"/>
+      <element name="Schrifthoehe" type="okstra-typen:Groesse"/>
+      <element name="Schriftfarbe" type="okstra:RGB_FarbePropertyType"/>
+      <element name="Kasten" type="boolean"/>
+      <element minOccurs="0" name="Beschriftungsfahne" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="vertikale_Ausrichtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="horizontale_Ausrichtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Einfuegeposition" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TextausgestaltungPropertyType">
+    <sequence>
+      <element ref="okstra:Textausgestaltung"/>
+    </sequence>
+  </complexType>
+  <element name="Tieftemperaturverhalten" substitutionGroup="gml:AbstractObject" type="okstra:TieftemperaturverhaltenType"/>
+  <complexType name="TieftemperaturverhaltenType">
+    <sequence>
+      <element name="Prueftemperatur" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Biegekriechsteifigkeit" type="integer"/>
+      <element name="mWert" type="double"/>
+      <element name="Temperatur_m03" type="okstra-typen:Grad_Celsius"/>
+      <element name="Temperatur_S300" type="okstra-typen:Grad_Celsius"/>
+      <element minOccurs="0" name="Pruefgeraet" type="string"/>
+      <element minOccurs="0" name="Alterungszustand_Bindemittel" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="TieftemperaturverhaltenPropertyType">
+    <sequence>
+      <element ref="okstra:Tieftemperaturverhalten"/>
+    </sequence>
+  </complexType>
+  <element name="Tunnel_Verkehrseinrichtungen_Info" substitutionGroup="gml:AbstractObject" type="okstra:Tunnel_Verkehrseinrichtungen_InfoType"/>
+  <complexType name="Tunnel_Verkehrseinrichtungen_InfoType">
+    <sequence>
+      <element minOccurs="0" name="Verkehrstechnische_Tunnelausstattung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Dauerzaehlstelle" type="boolean"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Tunnel_Verkehrseinrichtungen_InfoPropertyType">
+    <sequence>
+      <element ref="okstra:Tunnel_Verkehrseinrichtungen_Info"/>
+    </sequence>
+  </complexType>
+  <element name="Tunnel_zentrale_Anlagen_Info" substitutionGroup="gml:AbstractObject" type="okstra:Tunnel_zentrale_Anlagen_InfoType"/>
+  <complexType name="Tunnel_zentrale_Anlagen_InfoType">
+    <sequence>
+      <element minOccurs="0" name="Ersatzstromversorgung" type="boolean"/>
+      <element minOccurs="0" name="Betriebsgebaeude" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Lueftungsgebaeude_Kaverne" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abluftkamin" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Loeschwasserbecken_Hochbehaelter" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Rueckhaltebecken" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Hebeanlage_Pumpwerk" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Tunnel_zentrale_Anlagen_InfoPropertyType">
+    <sequence>
+      <element ref="okstra:Tunnel_zentrale_Anlagen_Info"/>
+    </sequence>
+  </complexType>
+  <element name="Tunnelbeleuchtungsinfo" substitutionGroup="gml:AbstractObject" type="okstra:TunnelbeleuchtungsinfoType"/>
+  <complexType name="TunnelbeleuchtungsinfoType">
+    <sequence>
+      <element minOccurs="0" name="Blendschutz_ueber_Portal" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Art_Blendschutz_ueber_Portal" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Vorfeldbeleuchtung" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Beleuchtungsart_Einfahrtsbeleuchtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Lampenart_Einfahrtsbeleuchtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Durchfahrtsbeleuchtung" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Lampenart_Durchfahrtsbeleuchtung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bemerkungen" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="TunnelbeleuchtungsinfoPropertyType">
+    <sequence>
+      <element ref="okstra:Tunnelbeleuchtungsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="Tunnellueftungsinfo" substitutionGroup="gml:AbstractObject" type="okstra:TunnellueftungsinfoType"/>
+  <complexType name="TunnellueftungsinfoType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="Lueftungssystem" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Lueftungsart_Normalbetrieb" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Lueftungsart_Brandfall" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Zwischendecke" type="boolean"/>
+      <element minOccurs="0" name="Zuluftkanaele" type="boolean"/>
+      <element minOccurs="0" name="Abluftkanaele" type="boolean"/>
+      <element minOccurs="0" name="Lueftungstrennwand_Rauchtrennwand" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Lueftungsart_Rettungsstollen" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bemerkungen" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="TunnellueftungsinfoPropertyType">
+    <sequence>
+      <element ref="okstra:Tunnellueftungsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="Tunnelsicherheitsinfo" substitutionGroup="gml:AbstractObject" type="okstra:TunnelsicherheitsinfoType"/>
+  <complexType name="TunnelsicherheitsinfoType">
+    <sequence>
+      <element minOccurs="0" name="Zufahrten_im_Tunnel" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abfahrten_im_Tunnel" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Mittelstreifenueberfahrten_vor_Portal" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Mittelstreifenueberfahrten_vor_Portal" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Ueberfahrten_im_Tunnel" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Ueberfahrten_im_Tunnel" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Seitenstreifen" type="boolean"/>
+      <element minOccurs="0" name="Pannenbuchten" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Pannenbuchten" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Wendebuchten" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Wendebuchten" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Notausgaenge" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Notausgaenge" type="okstra-typen:Meter"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Art_Notausgaenge" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Notgehwege" type="boolean"/>
+      <element minOccurs="0" name="Bordhoehe_Notgehwege" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Hoehenkontrolle" type="boolean"/>
+      <element minOccurs="0" name="Leiteinrichtungen" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Art_Leiteinrichtungen" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Notrufstationen" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Notrufstationen" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Videoueberwachung" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Bildauswertung_Videoueberwachung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Funk" type="boolean"/>
+      <element minOccurs="0" name="Funkmast" type="boolean"/>
+      <element minOccurs="0" name="Uebertragungsverfahren_BOS_Funk" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Uebertragungsverfahren_Betriebsfunk" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Verkehrsfunk" type="boolean"/>
+      <element minOccurs="0" name="Mobilfunk" type="boolean"/>
+      <element minOccurs="0" name="Lautsprecher" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Brandmeldeanlage" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Loeschwasserentnahmestellen" type="okstra:Anzahl_unscharfPropertyType"/>
+      <element minOccurs="0" name="Abstand_Loeschwasserentnahmestellen" type="okstra-typen:Meter"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Lage_Loeschwasserentnahmestellen" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Versorgungsart_Loeschwasserentnahmestelle" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Brandbekaempfungsanlage" type="boolean"/>
+      <element minOccurs="0" name="Fluchtwegkennzeichnung" type="boolean"/>
+      <element minOccurs="0" name="Orientierungsbeleuchtung" type="boolean"/>
+      <element minOccurs="0" name="Zulaessigkeit_Guetertransport_ADR" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Bemerkung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="TunnelsicherheitsinfoPropertyType">
+    <sequence>
+      <element ref="okstra:Tunnelsicherheitsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="Ueberkorn" substitutionGroup="gml:AbstractObject" type="okstra:UeberkornType"/>
+  <complexType name="UeberkornType">
+    <sequence>
+      <element minOccurs="0" name="Pruefwert" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Max_Ueberkorn" type="okstra-typen:Massenanteil"/>
+    </sequence>
+  </complexType>
+  <complexType name="UeberkornPropertyType">
+    <sequence>
+      <element ref="okstra:Ueberkorn"/>
+    </sequence>
+  </complexType>
+  <element name="Umfang_VES" substitutionGroup="gml:AbstractObject" type="okstra:Umfang_VESType"/>
+  <complexType name="Umfang_VESType">
+    <choice>
+      <element name="Hoechst_Mind_Geschwindigkeit" type="okstra-typen:Stundenkilometer"/>
+      <element name="Lastbeschraenkung" type="okstra-typen:Tonnen"/>
+      <element name="Massbeschraenkung" type="okstra-typen:Meter"/>
+      <element name="Abstand" type="okstra-typen:Meter"/>
+      <element name="Laenge_Verbotsstrecke" type="okstra-typen:Kilometer"/>
+    </choice>
+  </complexType>
+  <complexType name="Umfang_VESPropertyType">
+    <sequence>
+      <element ref="okstra:Umfang_VES"/>
+    </sequence>
+  </complexType>
+  <element name="Unterabschnitt_LV" substitutionGroup="gml:AbstractObject" type="okstra:Unterabschnitt_LVType"/>
+  <complexType name="Unterabschnitt_LVType">
+    <sequence>
+      <element name="OZ" type="string"/>
+      <element name="Beschreibung" type="string"/>
+      <element name="Gesamtpreis" type="okstra-typen:EURO"/>
+    </sequence>
+  </complexType>
+  <complexType name="Unterabschnitt_LVPropertyType">
+    <sequence>
+      <element ref="okstra:Unterabschnitt_LV"/>
+    </sequence>
+  </complexType>
+  <element name="Unterkorn" substitutionGroup="gml:AbstractObject" type="okstra:UnterkornType"/>
+  <complexType name="UnterkornType">
+    <sequence>
+      <element minOccurs="0" name="Pruefwert" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Max_Unterkorn" type="okstra-typen:Massenanteil"/>
+    </sequence>
+  </complexType>
+  <complexType name="UnterkornPropertyType">
+    <sequence>
+      <element ref="okstra:Unterkorn"/>
+    </sequence>
+  </complexType>
+  <element name="VEMAGS_Info" substitutionGroup="gml:AbstractObject" type="okstra:VEMAGS_InfoType"/>
+  <complexType name="VEMAGS_InfoType">
+    <sequence>
+      <element name="VEMAGS_Code_P" type="integer"/>
+      <element name="VEMAGS_Code_S" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="VEMAGS_InfoPropertyType">
+    <sequence>
+      <element ref="okstra:VEMAGS_Info"/>
+    </sequence>
+  </complexType>
+  <element name="V_Koor" substitutionGroup="gml:AbstractObject" type="okstra:V_KoorType"/>
+  <complexType name="V_KoorType">
+    <sequence>
+      <element name="Station" type="okstra-typen:Meter"/>
+      <element name="Geschwindigkeit" type="okstra-typen:Stundenkilometer"/>
+    </sequence>
+  </complexType>
+  <complexType name="V_KoorPropertyType">
+    <sequence>
+      <element ref="okstra:V_Koor"/>
+    </sequence>
+  </complexType>
+  <element name="Verdichtungsgrad" substitutionGroup="gml:AbstractObject" type="okstra:VerdichtungsgradType"/>
+  <complexType name="VerdichtungsgradType">
+    <sequence>
+      <element name="Pruefwert" type="okstra-typen:Prozent"/>
+      <element minOccurs="0" name="Soll_Oben" type="okstra-typen:Prozent"/>
+      <element name="Soll_Unten" type="okstra-typen:Prozent"/>
+      <element name="Unzulaessige_Abweichung" type="okstra-typen:Prozent"/>
+    </sequence>
+  </complexType>
+  <complexType name="VerdichtungsgradPropertyType">
+    <sequence>
+      <element ref="okstra:Verdichtungsgrad"/>
+    </sequence>
+  </complexType>
+  <element name="Verfahren_Betonersatzsystem" substitutionGroup="gml:AbstractObject" type="okstra:Verfahren_BetonersatzsystemType"/>
+  <complexType name="Verfahren_BetonersatzsystemType">
+    <sequence>
+      <element name="Hersteller" type="string"/>
+      <element name="Systembezeichnung" type="okstra:SystembezeichnungPropertyType"/>
+      <element name="Art_Betonersatzsystem" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" name="Schicht" type="okstra:Schicht_ASB-INGPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Verfahren_BetonersatzsystemPropertyType">
+    <sequence>
+      <element ref="okstra:Verfahren_Betonersatzsystem"/>
+    </sequence>
+  </complexType>
+  <element name="Verfahren_Brueckenseil_Kabel" substitutionGroup="gml:AbstractObject" type="okstra:Verfahren_Brueckenseil_KabelType"/>
+  <complexType name="Verfahren_Brueckenseil_KabelType">
+    <sequence>
+      <element name="Kennung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element name="Hersteller" type="string"/>
+      <element name="Typenbezeichnung" type="string"/>
+      <element name="Geltungsdauer_Bis" type="date"/>
+      <element name="Seilart" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Maximale_Seilkraft" type="okstra-typen:Newton"/>
+      <element name="Verformungsmodul" type="okstra-typen:Newton_pro_Quadratmeter"/>
+      <element minOccurs="0" name="Schlaglaenge" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Seildurchmesser" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Seilquerschnitt_Metallisch" type="okstra-typen:Quadratmeter"/>
+      <element minOccurs="0" name="Seilaufbau" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Verfahren_Brueckenseil_KabelPropertyType">
+    <sequence>
+      <element ref="okstra:Verfahren_Brueckenseil_Kabel"/>
+    </sequence>
+  </complexType>
+  <element name="Verfahren_Erd_und_Felsanker" substitutionGroup="gml:AbstractObject" type="okstra:Verfahren_Erd_und_FelsankerType"/>
+  <complexType name="Verfahren_Erd_und_FelsankerType">
+    <sequence>
+      <element name="Kennung" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+      <element name="Hersteller" type="string"/>
+      <element name="Typenbezeichnung" type="string"/>
+      <element name="Geltungsdauer_Bis" type="date"/>
+    </sequence>
+  </complexType>
+  <complexType name="Verfahren_Erd_und_FelsankerPropertyType">
+    <sequence>
+      <element ref="okstra:Verfahren_Erd_und_Felsanker"/>
+    </sequence>
+  </complexType>
+  <element name="Verfahren_Korrosionsschutz" substitutionGroup="gml:AbstractObject" type="okstra:Verfahren_KorrosionsschutzType"/>
+  <complexType name="Verfahren_KorrosionsschutzType">
+    <sequence>
+      <element name="Hersteller" type="string"/>
+      <element name="Systembezeichnung" type="okstra:SystembezeichnungPropertyType"/>
+      <element maxOccurs="unbounded" name="Schicht" type="okstra:Schicht_ASB-INGPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Verfahren_KorrosionsschutzPropertyType">
+    <sequence>
+      <element ref="okstra:Verfahren_Korrosionsschutz"/>
+    </sequence>
+  </complexType>
+  <element name="Verfahren_Oberflaechenschutzsystem" substitutionGroup="gml:AbstractObject" type="okstra:Verfahren_OberflaechenschutzsystemType"/>
+  <complexType name="Verfahren_OberflaechenschutzsystemType">
+    <sequence>
+      <element name="Hersteller" type="string"/>
+      <element name="Systembezeichnung" type="okstra:SystembezeichnungPropertyType"/>
+      <element name="Art_Oberflaechenschutzsystem" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" name="Schicht" type="okstra:Schicht_ASB-INGPropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Zulassung" type="okstra:ZulassungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Verfahren_OberflaechenschutzsystemPropertyType">
+    <sequence>
+      <element ref="okstra:Verfahren_Oberflaechenschutzsystem"/>
+    </sequence>
+  </complexType>
+  <element name="Verformungsbestaendigkeit" substitutionGroup="gml:AbstractObject" type="okstra:VerformungsbestaendigkeitType"/>
+  <complexType name="VerformungsbestaendigkeitType">
+    <sequence>
+      <element minOccurs="0" name="Dynamische_Stempeleindringtiefe" type="okstra:Dynamische_StempeleindringtiefePropertyType"/>
+      <element minOccurs="0" name="Einaxialer_Druckschwellversuch" type="okstra:Einaxialer_DruckschwellversuchPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="VerformungsbestaendigkeitPropertyType">
+    <sequence>
+      <element ref="okstra:Verformungsbestaendigkeit"/>
+    </sequence>
+  </complexType>
+  <element name="Verformungsverlauf" substitutionGroup="gml:AbstractObject" type="okstra:VerformungsverlaufType"/>
+  <complexType name="VerformungsverlaufType">
+    <sequence>
+      <element name="Anzahl_Belastungszyklen" type="integer"/>
+      <element name="Dehnung" type="okstra-typen:Promille"/>
+      <element name="Dehnungsrate" type="okstra-typen:Promille_pro_10000_Lastwechsel"/>
+    </sequence>
+  </complexType>
+  <complexType name="VerformungsverlaufPropertyType">
+    <sequence>
+      <element ref="okstra:Verformungsverlauf"/>
+    </sequence>
+  </complexType>
+  <element name="Versionsinfo" substitutionGroup="gml:AbstractObject" type="okstra:VersionsinfoType"/>
+  <complexType name="VersionsinfoType">
+    <sequence>
+      <element name="Erfassungsstempel" type="okstra:ErfassungsstempelPropertyType"/>
+      <element minOccurs="0" name="Pruefstempel" type="okstra:PruefstempelPropertyType"/>
+      <element minOccurs="0" name="Loeschkennzeichen" type="boolean"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="Kommentar" type="okstra:Kommentar_MengenberechnungPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="VersionsinfoPropertyType">
+    <sequence>
+      <element ref="okstra:Versionsinfo"/>
+    </sequence>
+  </complexType>
+  <element name="Waehrungsbetrag" substitutionGroup="gml:AbstractObject" type="okstra:WaehrungsbetragType"/>
+  <complexType name="WaehrungsbetragType">
+    <sequence>
+      <element name="Betrag" type="double"/>
+      <element name="Waehrungsangabe" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="WaehrungsbetragPropertyType">
+    <sequence>
+      <element ref="okstra:Waehrungsbetrag"/>
+    </sequence>
+  </complexType>
+  <element name="Wertungskriterium" substitutionGroup="gml:AbstractObject" type="okstra:WertungskriteriumType"/>
+  <complexType name="WertungskriteriumType">
+    <sequence>
+      <element minOccurs="0" name="Verschiedene_Kriterien" type="boolean"/>
+      <element minOccurs="0" name="Preis_Kriterium" type="boolean"/>
+      <element minOccurs="0" name="Preis_Wichtung" type="okstra-typen:Prozent"/>
+      <element minOccurs="0" name="TechnischerWert_Kriterium" type="boolean"/>
+      <element minOccurs="0" name="TechnischerWert_Wichtung" type="okstra-typen:Prozent"/>
+      <element minOccurs="0" name="Gestaltung_Kriterium" type="boolean"/>
+      <element minOccurs="0" name="Gestaltung_Wichtung" type="okstra-typen:Prozent"/>
+    </sequence>
+  </complexType>
+  <complexType name="WertungskriteriumPropertyType">
+    <sequence>
+      <element ref="okstra:Wertungskriterium"/>
+    </sequence>
+  </complexType>
+  <element name="Zeichenmenge" substitutionGroup="gml:AbstractObject" type="okstra:ZeichenmengeType"/>
+  <complexType name="ZeichenmengeType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="eingeschlossene_Kategorie" type="okstra-basis:KeyValuePropertyType"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="eingeschlossenes_Zeichen" type="string"/>
+      <element maxOccurs="unbounded" minOccurs="0" name="ausgeschlossenes_Zeichen" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZeichenmengePropertyType">
+    <sequence>
+      <element ref="okstra:Zeichenmenge"/>
+    </sequence>
+  </complexType>
+  <element name="Zeitabschnitt" substitutionGroup="gml:AbstractObject" type="okstra:ZeitabschnittType"/>
+  <complexType name="ZeitabschnittType">
+    <sequence>
+      <element name="Startzeitpunkt" type="okstra:ZeitpunktPropertyType"/>
+      <element minOccurs="0" name="Endezeitpunkt" type="okstra:ZeitpunktPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZeitabschnittPropertyType">
+    <sequence>
+      <element ref="okstra:Zeitabschnitt"/>
+    </sequence>
+  </complexType>
+  <element name="Zeitpunkt" substitutionGroup="gml:AbstractObject" type="okstra:ZeitpunktType"/>
+  <complexType name="ZeitpunktType">
+    <sequence>
+      <element name="Datum" type="date"/>
+      <element minOccurs="0" name="Uhrzeit" type="time"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZeitpunktPropertyType">
+    <sequence>
+      <element ref="okstra:Zeitpunkt"/>
+    </sequence>
+  </complexType>
+  <element name="Zeitraum" substitutionGroup="gml:AbstractObject" type="okstra:ZeitraumType"/>
+  <complexType name="ZeitraumType">
+    <choice>
+      <element name="ist_einfacher_Zeitraum" type="okstra:einfacher_ZeitraumPropertyType"/>
+      <element name="ist_komplexer_Zeitraum" type="okstra:komplexer_ZeitraumPropertyType"/>
+    </choice>
+  </complexType>
+  <complexType name="ZeitraumPropertyType">
+    <sequence>
+      <element ref="okstra:Zeitraum"/>
+    </sequence>
+  </complexType>
+  <element name="Zugabebindemittel" substitutionGroup="gml:AbstractObject" type="okstra:ZugabebindemittelType"/>
+  <complexType name="ZugabebindemittelType">
+    <sequence>
+      <element name="Art" type="string"/>
+      <element name="Sorte" type="string"/>
+      <element minOccurs="0" name="Anteil" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Erweichungspunkt_RuK" type="okstra-typen:Grad_Celsius"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZugabebindemittelPropertyType">
+    <sequence>
+      <element ref="okstra:Zugabebindemittel"/>
+    </sequence>
+  </complexType>
+  <element name="Zugangsbeschraenkung" substitutionGroup="gml:AbstractObject" type="okstra:ZugangsbeschraenkungType"/>
+  <complexType name="ZugangsbeschraenkungType">
+    <sequence>
+      <element name="Beschreibung" type="string"/>
+      <element minOccurs="0" name="Zeitraum" type="okstra:ZeitraumPropertyType"/>
+      <element name="Art" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZugangsbeschraenkungPropertyType">
+    <sequence>
+      <element ref="okstra:Zugangsbeschraenkung"/>
+    </sequence>
+  </complexType>
+  <element name="Zulassung" substitutionGroup="gml:AbstractObject" type="okstra:ZulassungType"/>
+  <complexType name="ZulassungType">
+    <sequence>
+      <element name="Nummer" type="string"/>
+      <element minOccurs="0" name="Datum" type="date"/>
+      <element minOccurs="0" name="zulassende_Stelle" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZulassungPropertyType">
+    <sequence>
+      <element ref="okstra:Zulassung"/>
+    </sequence>
+  </complexType>
+  <element name="Zuordnung" substitutionGroup="gml:AbstractObject" type="okstra:ZuordnungType"/>
+  <complexType name="ZuordnungType">
+    <sequence>
+      <element name="Ordnungsrahmen" type="string"/>
+      <element name="Ordnungsbegriff" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZuordnungPropertyType">
+    <sequence>
+      <element ref="okstra:Zuordnung"/>
+    </sequence>
+  </complexType>
+  <element name="Zuordnungssummenreferenz" substitutionGroup="gml:AbstractObject" type="okstra:ZuordnungssummenreferenzType"/>
+  <complexType name="ZuordnungssummenreferenzType">
+    <sequence>
+      <element name="Filter" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZuordnungssummenreferenzPropertyType">
+    <sequence>
+      <element ref="okstra:Zuordnungssummenreferenz"/>
+    </sequence>
+  </complexType>
+  <element name="Zusatz_Asphaltmischgut" substitutionGroup="gml:AbstractObject" type="okstra:Zusatz_AsphaltmischgutType"/>
+  <complexType name="Zusatz_AsphaltmischgutType">
+    <sequence>
+      <element minOccurs="0" name="Produktbezeichnung" type="string"/>
+      <element minOccurs="0" name="Art" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Menge" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Hersteller" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Zusatz_AsphaltmischgutPropertyType">
+    <sequence>
+      <element ref="okstra:Zusatz_Asphaltmischgut"/>
+    </sequence>
+  </complexType>
+  <element name="Zusatz_Bindemittel" substitutionGroup="gml:AbstractObject" type="okstra:Zusatz_BindemittelType"/>
+  <complexType name="Zusatz_BindemittelType">
+    <sequence>
+      <element name="Produktbezeichnung" type="string"/>
+      <element minOccurs="0" name="Typ_Zusatz_Bindemittel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Menge" type="okstra-typen:Massenanteil"/>
+      <element minOccurs="0" name="Hersteller" type="okstra-basis:ObjectRefType"/>
+    </sequence>
+  </complexType>
+  <complexType name="Zusatz_BindemittelPropertyType">
+    <sequence>
+      <element ref="okstra:Zusatz_Bindemittel"/>
+    </sequence>
+  </complexType>
+  <element name="Zustaendige_Stelle" substitutionGroup="gml:AbstractObject" type="okstra:Zustaendige_StelleType"/>
+  <complexType name="Zustaendige_StelleType">
+    <choice>
+      <element name="Zentraler_Dienststellenschluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="WSV_Dienststellenschluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Gemeindeschluessel" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Betreibergesellschaft" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Verwaltungsebene" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Sonstige_zustaendige_Stelle" type="string"/>
+    </choice>
+  </complexType>
+  <complexType name="Zustaendige_StellePropertyType">
+    <sequence>
+      <element ref="okstra:Zustaendige_Stelle"/>
+    </sequence>
+  </complexType>
+  <element name="Zustaendigkeit_ASB-ING" substitutionGroup="gml:AbstractObject" type="okstra:Zustaendigkeit_ASB-INGType"/>
+  <complexType name="Zustaendigkeit_ASB-INGType">
+    <sequence>
+      <element name="Zustaendige_Stelle" type="okstra:Zustaendige_StellePropertyType"/>
+      <element name="Aufgabe" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Sonstige_Aufgabe" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="Zustaendigkeit_ASB-INGPropertyType">
+    <sequence>
+      <element ref="okstra:Zustaendigkeit_ASB-ING"/>
+    </sequence>
+  </complexType>
+  <element name="Zustand_Bauteilgruppe" substitutionGroup="gml:AbstractObject" type="okstra:Zustand_BauteilgruppeType"/>
+  <complexType name="Zustand_BauteilgruppeType">
+    <sequence>
+      <element name="Bauteilgruppe" type="okstra-basis:KeyValuePropertyType"/>
+      <element name="Zustandsnote" type="double"/>
+      <element name="Substanzkennzahl" type="double"/>
+    </sequence>
+  </complexType>
+  <complexType name="Zustand_BauteilgruppePropertyType">
+    <sequence>
+      <element ref="okstra:Zustand_Bauteilgruppe"/>
+    </sequence>
+  </complexType>
+  <element name="Zyklus" substitutionGroup="gml:AbstractObject" type="okstra:ZyklusType"/>
+  <complexType name="ZyklusType">
+    <sequence>
+      <element name="Zyklusnummer" type="integer"/>
+      <element name="e0" type="double"/>
+      <element name="ec" type="double"/>
+      <element name="er" type="double"/>
+      <element name="e1" type="double"/>
+      <element name="e10" type="double"/>
+      <element name="Rueckformung" type="okstra-typen:Prozent"/>
+      <element name="Nachgiebigkeit" type="okstra-typen:Eins_pro_Kilopascal"/>
+    </sequence>
+  </complexType>
+  <complexType name="ZyklusPropertyType">
+    <sequence>
+      <element ref="okstra:Zyklus"/>
+    </sequence>
+  </complexType>
+  <element name="achsbezogene_Daten" substitutionGroup="gml:AbstractObject" type="okstra:achsbezogene_DatenType"/>
+  <complexType name="achsbezogene_DatenType">
+    <sequence>
+      <element name="Achsnummer" type="integer"/>
+      <element name="Achsabstand_zur_Vorderachse" type="okstra-typen:Meter"/>
+      <element minOccurs="0" name="Achslast" type="okstra-typen:Tonnen"/>
+      <element minOccurs="0" name="Achslast_kN" type="okstra-typen:Kilonewton"/>
+      <element name="Achstyp" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Ueberladung_vorhanden" type="boolean"/>
+      <element minOccurs="0" name="Ueberladung" type="okstra-typen:Tonnen"/>
+      <element minOccurs="0" name="Ueberladung_kN" type="okstra-typen:Kilonewton"/>
+    </sequence>
+  </complexType>
+  <complexType name="achsbezogene_DatenPropertyType">
+    <sequence>
+      <element ref="okstra:achsbezogene_Daten"/>
+    </sequence>
+  </complexType>
+  <element name="einfacher_Zeitraum" substitutionGroup="gml:AbstractObject" type="okstra:einfacher_ZeitraumType"/>
+  <complexType name="einfacher_ZeitraumType">
+    <sequence>
+      <element name="hat_Startdatum" type="okstra:StartdatumPropertyType"/>
+      <element name="hat_Dauer" type="okstra:DauerPropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="einfacher_ZeitraumPropertyType">
+    <sequence>
+      <element ref="okstra:einfacher_Zeitraum"/>
+    </sequence>
+  </complexType>
+  <element name="komplexer_Zeitraum" substitutionGroup="gml:AbstractObject" type="okstra:komplexer_ZeitraumType"/>
+  <complexType name="komplexer_ZeitraumType">
+    <sequence>
+      <element name="hat_ersten_Zeitraum" type="okstra:ZeitraumPropertyType"/>
+      <element name="hat_zweiten_Zeitraum" type="okstra:ZeitraumPropertyType"/>
+      <element name="hat_Operator" type="okstra-basis:KeyValuePropertyType"/>
+    </sequence>
+  </complexType>
+  <complexType name="komplexer_ZeitraumPropertyType">
+    <sequence>
+      <element ref="okstra:komplexer_Zeitraum"/>
+    </sequence>
+  </complexType>
+  <element name="standardisierte_Bewertung_Arbeitsstelle" substitutionGroup="gml:AbstractObject" type="okstra:standardisierte_Bewertung_ArbeitsstelleType"/>
+  <complexType name="standardisierte_Bewertung_ArbeitsstelleType">
+    <sequence>
+      <element minOccurs="0" name="Gesamtbewertung" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Gesamtbewertung_Arbeitsstellenkontext" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Gesamtbewertung_Streckenkontext" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Kosten_Arbeitsstellenkontext" type="okstra-typen:EURO"/>
+      <element minOccurs="0" name="Kosten_Streckenkontext" type="okstra-typen:EURO"/>
+      <element minOccurs="0" name="Pruefung_Regeln_Arbeitsstellenkontext" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Pruefung_Regeln_Streckenkontext" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Pruefung_Regeln_Netzabschnittskontext" type="okstra-basis:KeyValuePropertyType"/>
+      <element minOccurs="0" name="Erlaeuterung" type="string"/>
+    </sequence>
+  </complexType>
+  <complexType name="standardisierte_Bewertung_ArbeitsstellePropertyType">
+    <sequence>
+      <element ref="okstra:standardisierte_Bewertung_Arbeitsstelle"/>
+    </sequence>
+  </complexType>
+</schema>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:okstra="http://www.okstra.de/okstra/2.018.2" xmlns:okstra-basis="http://www.okstra.de/okstra/2.018.2/okstra-basis" xmlns:okstra-typen="http://www.okstra.de/okstra/2.018.2/okstra-typen" elementFormDefault="qualified" targetNamespace="http://www.okstra.de/okstra/2.018.2" version="2.018.2">
+  <include schemaLocation="okstra.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-basis" schemaLocation="okstra-basis.xsd"/>
+  <import namespace="http://www.okstra.de/okstra/2.018.2/okstra-typen" schemaLocation="okstra-typen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AKVS_Projekt" substitutionGroup="gml:AbstractFeature" type="okstra:AKVS_ProjektType"/>
+  <complexType name="AKVS_ProjektType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Bezeichnung_des_Projektes" type="string"/>
+          <element name="Bezeichnung_des_Teilprojektes" type="string"/>
+          <element name="Bezeichnung_der_Strassenbaumassnahme" type="string"/>
+          <element minOccurs="0" name="Bezeichnung_Bauwerk_Leistung_Variante" type="string"/>
+          <element name="Stationierung" type="string"/>
+          <element name="Laenge" type="okstra-typen:Kilometer"/>
+          <element name="Stufe_der_Kostenermittlung" type="okstra-basis:KeyValuePropertyType"/>
+          <element name="Unterlage_der_Planungsstufe" type="okstra-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="PROJIS-Ident-Nummer" type="string"/>
+          <element minOccurs="0" name="Bauwerksnummer" type="string"/>
+          <element name="Traeger_der_Baumassnahme" type="string"/>
+          <element name="Mehrwertsteuersatz" type="okstra-typen:Prozent"/>
+          <element name="Nr_der_Fortschreibung" type="integer"/>
+          <element name="hat_Kostendaten" type="okstra-basis:ObjectRefType"/>
+          <element name="hat_Formblaetter" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AKVS_ProjektPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:AKVS_Projekt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Baulos" substitutionGroup="gml:AbstractFeature" type="okstra:BaulosType"/>
+  <complexType name="BaulosType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Bezeichnung" type="string"/>
+          <element minOccurs="0" name="Nr_Baulos" type="integer"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Baulosbeteiligung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="Teil_von_Kostendaten" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Teil" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BaulosPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Baulos"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Baulosbeteiligung" substitutionGroup="gml:AbstractFeature" type="okstra:BaulosbeteiligungType"/>
+  <complexType name="BaulosbeteiligungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Art" type="okstra-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Prozentwert" type="okstra-typen:Prozent"/>
+          <element minOccurs="0" name="Menge" type="double"/>
+          <element name="zu_Baulos" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="zu_Leistungsbeschreibung" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BaulosbeteiligungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Baulosbeteiligung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Bruecke" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_BrueckeType"/>
+  <complexType name="EBWH_Untergruppe_BrueckeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baubehelfe" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Gestaltungsleistungen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Bauwerkshinterfuellung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Unterbauten" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Ueberbau" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Rueckbau_Bestandsbauwerk" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Schutzwaende" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_BrueckePropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Bruecke"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Irritationsschutzwand" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_IrritationsschutzwandType"/>
+  <complexType name="EBWH_Untergruppe_IrritationsschutzwandType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baubehelfe" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Gestaltungsleistungen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Bauwerkshinterfuellung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Irritationsschutzwand" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_IrritationsschutzwandPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Irritationsschutzwand"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Laermschutzwand" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_LaermschutzwandType"/>
+  <complexType name="EBWH_Untergruppe_LaermschutzwandType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baubehelfe" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Gestaltungsleistungen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Bauwerkshinterfuellung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Laermschutzwand" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_LaermschutzwandPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Laermschutzwand"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Sonstiges_Bauwerk" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_Sonstiges_BauwerkType"/>
+  <complexType name="EBWH_Untergruppe_Sonstiges_BauwerkType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Gruendung_Tragkonstruktion" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_Sonstiges_BauwerkPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Sonstiges_Bauwerk"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Stuetzwand" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_StuetzwandType"/>
+  <complexType name="EBWH_Untergruppe_StuetzwandType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baubehelfe" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Gestaltungsleistungen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Bauwerkshinterfuellung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Stuetzwand" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Rueckbau_Bestandsbauwerk" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_StuetzwandPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Stuetzwand"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Technische_Ausruestung_Tunnel" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_Technische_Ausruestung_TunnelType"/>
+  <complexType name="EBWH_Untergruppe_Technische_Ausruestung_TunnelType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Betriebsgebaeude" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Abwasseranlagen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Lufttechnische_Anlagen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Starkstromanlagen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Fernmelde_IT_Anlagen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Automation_von_Ingenieurbauwerken" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Nutzungsspezifische_Anlagen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gebaeudeautomation" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Beleuchtung_von_Tunneln" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_Technische_Ausruestung_TunnelPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Technische_Ausruestung_Tunnel"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Trogbauwerk" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_TrogbauwerkType"/>
+  <complexType name="EBWH_Untergruppe_TrogbauwerkType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baugruben" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gerueste" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Innenausbau_Strassenaufbau" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Entwaesserung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Pannenbuchten" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Stahlbetontrog" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_TrogbauwerkPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Trogbauwerk"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Tunnel_bergmaennisch" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_Tunnel_bergmaennischType"/>
+  <complexType name="EBWH_Untergruppe_Tunnel_bergmaennischType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baugruben" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gerueste" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Innenausbau_Strassenaufbau" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Entwaesserung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Pannenbuchten" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Tunnelinnenschale_Portale" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Rettungsstollen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Betriebsgebaeude" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_Tunnel_bergmaennischPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Tunnel_bergmaennisch"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="EBWH_Untergruppe_Tunnel_offen" substitutionGroup="gml:AbstractFeature" type="okstra:EBWH_Untergruppe_Tunnel_offenType"/>
+  <complexType name="EBWH_Untergruppe_Tunnel_offenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="zu_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+          <element name="Baustelleneinrichtung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Verkehrssicherung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gruendung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Technische_Bearbeitung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Baugruben" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Gerueste" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Innenausbau_Strassenaufbau" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Entwaesserung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Pannenbuchten" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Tunnelinnenschale_Portale" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Rettungsstollen" type="okstra:KostenbeschreibungPropertyType"/>
+          <element name="Bauwerkshinterfuellung" type="okstra:KostenbeschreibungPropertyType"/>
+          <element minOccurs="0" name="Betriebsgebaeude" type="okstra:KostenbeschreibungPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EBWH_Untergruppe_Tunnel_offenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:EBWH_Untergruppe_Tunnel_offen"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblaetter" substitutionGroup="gml:AbstractFeature" type="okstra:FormblaetterType"/>
+  <complexType name="FormblaetterType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Teil_von_AKVS_Projekt" type="okstra-basis:ObjectRefType"/>
+          <element name="hat_Formblatt_A" type="okstra-basis:ObjectRefType"/>
+          <element name="hat_Formblatt_B" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hat_Formblatt_ABW_ATM" type="okstra-basis:ObjectRefType"/>
+          <element name="hat_Titelblatt" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hat_Formblatt_EBWUE_ETMUE" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hat_Formblatt_EBWH" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FormblaetterPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblaetter"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_ABW_ATM" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_ABW_ATMType"/>
+  <complexType name="Formblatt_ABW_ATMType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Art_Formblatt" type="okstra-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Kostenfortschreibung_Nr" type="integer"/>
+          <element minOccurs="0" name="Gesehenvermerk_Datum" type="date"/>
+          <element minOccurs="0" name="Gesehenvermerk_AZ" type="string"/>
+          <element maxOccurs="2" minOccurs="2" name="Gesamtkosten_Streckenentwurf" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Anteil_Bund_Streckenentwurf" type="okstra-typen:EURO"/>
+          <element name="Kosten_Bauwerksentwurf_aus_Streckenentwurf" type="okstra-typen:EURO"/>
+          <element name="Anteil_Bund_Bauwerksentwurf" type="okstra-typen:EURO"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_ABW_ATMPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_ABW_ATM"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_A_Gesamtkostenverteilung" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_A_GesamtkostenverteilungType"/>
+  <complexType name="Formblatt_A_GesamtkostenverteilungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="4" minOccurs="4" name="Kosten_Bund_Strassenbauhaushalt_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Bund_sonstige_Mittel_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Land_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Kreis_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Gemeinde_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Sonstige_bisher" type="okstra-typen:EURO"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_A_GesamtkostenverteilungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_A_Gesamtkostenverteilung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_B" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_BType"/>
+  <complexType name="Formblatt_BType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Datum_letzte_Kostenueberpruefung" type="date"/>
+          <element minOccurs="0" name="Datum_aufgestellt_bisher" type="date"/>
+          <element name="Datum_aufgestellt_neu" type="date"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Strecke_ohne_Kostenteilung_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_Strecke_mit_Kostenteilung_bisher" type="okstra-typen:EURO"/>
+          <element maxOccurs="2" minOccurs="2" name="Kosten_besondere_Anlagen_bisher" type="okstra-typen:EURO"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_BPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_B"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_C" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_CType"/>
+  <complexType name="Formblatt_CType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="9" minOccurs="9" name="bisherige_Kosten_nach_Hauptgr" type="okstra-typen:EURO"/>
+          <element name="Teil_von_Teil_Kostendaten" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_CPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_C"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_EBWH" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_EBWHType"/>
+  <complexType name="Formblatt_EBWHType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="enthaelt_Untergruppe" type="okstra-basis:ObjectRefType"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_EBWHPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_EBWH"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Formblatt_EBWUE_ETMUE" substitutionGroup="gml:AbstractFeature" type="okstra:Formblatt_EBWUE_ETMUEType"/>
+  <complexType name="Formblatt_EBWUE_ETMUEType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Art_Formblatt" type="okstra-basis:KeyValuePropertyType"/>
+          <element name="OZ_Ueberschrift" type="string"/>
+          <element name="Text_Ueberschrift" type="string"/>
+          <element maxOccurs="unbounded" name="Unterabschnitt" type="okstra:Unterabschnitt_LVPropertyType"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Formblatt_EBWUE_ETMUEPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Formblatt_EBWUE_ETMUE"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Kostenbeteiligter" substitutionGroup="gml:AbstractFeature" type="okstra:KostenbeteiligterType"/>
+  <complexType name="KostenbeteiligterType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Typ" type="okstra-basis:KeyValuePropertyType"/>
+          <element name="Bezeichnung" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Kostenbeteiligung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="Teil_von_Kostendaten" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KostenbeteiligterPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Kostenbeteiligter"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Kostenbeteiligung" substitutionGroup="gml:AbstractFeature" type="okstra:KostenbeteiligungType"/>
+  <complexType name="KostenbeteiligungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Art" type="okstra-basis:KeyValuePropertyType"/>
+          <element minOccurs="0" name="Prozentwert" type="okstra-typen:Prozent"/>
+          <element minOccurs="0" name="Pauschalbetrag" type="okstra-typen:EURO"/>
+          <element minOccurs="0" name="Menge" type="integer"/>
+          <element name="zu_Kostenbeteiligtem" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Teil_von_Leistungsbeschreibung" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Teil_von_Teil_Kostendaten" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KostenbeteiligungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Kostenbeteiligung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Kostendaten" substitutionGroup="gml:AbstractFeature" type="okstra:KostendatenType"/>
+  <complexType name="KostendatenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="Teil_von_AKVS_Projekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" name="hat_Teile" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Baulos" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="25" name="hat_Kostenbeteiligten" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KostendatenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Kostendaten"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Leistungsbeschreibung" substitutionGroup="gml:AbstractFeature" type="okstra:LeistungsbeschreibungType"/>
+  <complexType name="LeistungsbeschreibungType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element minOccurs="0" name="Bauwerksnummer" type="integer"/>
+          <element name="Menge" type="integer"/>
+          <element name="Kosten_je_Einheit" type="okstra-typen:EURO"/>
+          <element minOccurs="0" name="Erlaeuterung_Begruendung" type="string"/>
+          <element minOccurs="0" name="Dicke" type="okstra-typen:Zentimeter"/>
+          <element minOccurs="0" name="Bezeichnung_Bauwerk" type="string"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Kostenbeteiligung" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="verwendet_Preiskatalogeintrag" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="in_Baulosbeteiligung" type="okstra-basis:ObjectRefType"/>
+          <element name="Teil_von_Teil_Kostendaten" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LeistungsbeschreibungPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Leistungsbeschreibung"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Preiskatalogeintrag" substitutionGroup="gml:AbstractFeature" type="okstra:PreiskatalogeintragType"/>
+  <complexType name="PreiskatalogeintragType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="KBK_Nummer" type="string"/>
+          <element name="Menge_untere_Grenze" type="integer"/>
+          <element name="Menge_obere_Grenze" type="integer"/>
+          <element name="Klasse" type="integer"/>
+          <element name="Preis_je_Einheit" type="okstra-typen:EURO"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Leistungsbeschreibung" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="PreiskatalogeintragPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Preiskatalogeintrag"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Teil_Kostendaten" substitutionGroup="gml:AbstractFeature" type="okstra:Teil_KostendatenType"/>
+  <complexType name="Teil_KostendatenType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Hauptteilnummer" type="okstra-typen:Anzahl_einstellig"/>
+          <element name="Teilnummer" type="okstra-typen:Anzahl_zweistellig"/>
+          <element maxOccurs="2" name="Bezeichnung" type="string"/>
+          <element name="Teil_von_Kostendaten" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="in_Baulos" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Leistungsbeschreibung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="hat_Kostenbeteiligung" type="okstra-basis:ObjectRefType"/>
+          <element minOccurs="0" name="hat_Formblatt_C" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Teil_KostendatenPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Teil_Kostendaten"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Titelblatt_AKVS" substitutionGroup="gml:AbstractFeature" type="okstra:Titelblatt_AKVSType"/>
+  <complexType name="Titelblatt_AKVSType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="OKSTRA_ID" type="okstra-typen:GUID"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Beschriftung" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremddatenbestand" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="referenziert_Fremdobjekt" type="okstra-basis:ObjectRefType"/>
+          <element maxOccurs="unbounded" minOccurs="0" name="zu_Kommunikationsobjekt" type="okstra-basis:ObjectRefType"/>
+          <element name="Strassenbauverwaltung" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element minOccurs="0" name="Buero" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element name="Strassenbaubehoerde" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element name="Aufgestellt" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element minOccurs="0" name="Geprueft" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element minOccurs="0" name="Genehmigt" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element minOccurs="0" name="Gesehen" type="okstra:Schriftfeld_RE_2012PropertyType"/>
+          <element name="Teil_von_Formblatt" type="okstra-basis:ObjectRefType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Titelblatt_AKVSPropertyType">
+    <sequence minOccurs="0">
+      <element ref="okstra:Titelblatt_AKVS"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.okstra.de/profile/1.0 http://www.okstra.de/schema/profile/1.0/profil.xsd"
+    xmlns="http://www.okstra.de/profile/1.0">
+    <profil name="Beispielprofil_1.015" modellversion="1.015" modell="OKSTRA">
+        <paket name="S_Strassennetz">
+            <objektarten auswahl="alle">
+                <objektart name="Strasse">
+                    <eigenschaft name="hat_Strassenbezeichnung">
+                        <eigenschaft name="Strassenklasse">
+                            <werte auswahl="einige">
+                                <wert kennung="A"/>
+                                <wert kennung="B"/>
+                                <wert kennung="S"/>
+                            </werte>
+                        </eigenschaft>
+                    </eigenschaft>
+                </objektart>
+                <objektart name="Verbotene_Fahrbeziehung_NP"
+                    weg="1"/>
+                <objektart name="Abschnitt">
+                    <eigenschaft name="dargestellt_von_Linie" min="1"
+                        max="1"/>
+                </objektart>
+                <objektart name="Ast">
+                    <eigenschaft name="dargestellt_von_Linie" min="1"
+                        max="1"/>
+                </objektart>
+            </objektarten>
+        </paket>
+        <paket name="S_Entwurf">
+        </paket>
+        <paket name="S_Allgemeine_Geometrieobjekte">
+        </paket>
+        <paket name="S_Geometrieschema">
+        </paket>
+        <paket name="S_Historisierung">
+        </paket>
+        <tabelle name="Quelle_der_Information_Land">
+            <werte auswahl="einige">
+                <wert kennung="05">
+                    <text name="Langtext">Deutsche Bahn AG</text>
+                </wert>
+                <wert kennung="06">
+                    <text name="Langtext">Wasser- und Schifffahrtsverwaltung des Bundes</text>
+                </wert>
+            </werte>
+        </tabelle>
+        <tabelle name="Knotenpunktsystem">
+            <werte>
+                <wert kennung="00" weg="1"/>
+            </werte>
+        </tabelle>
+        <koordrefsys name="DE_DHDN_3GK4"/>
+        <fbliste name="Brandenburg 2.0"/>
+    </profil>
+    <profil name="Beispielprofil_1.014" modellversion="1.014">
+    </profil>
+    <profil name="Beispielprofil_1.011" modellversion="1.011" modell="OKSTRA">
+        <paket name="Strassennetz">
+            <objektarten auswahl="alle">
+                <objektart name="Strasse">
+                    <eigenschaft name="hat_Strassenbezeichnung">
+                        <eigenschaft name="Strassenklasse">
+                            <werte auswahl="einige">
+                                <wert kennung="A"/>
+                                <wert kennung="S"/>
+                            </werte>
+                        </eigenschaft>
+                    </eigenschaft>
+                </objektart>
+                <objektart name="Verbotene_Fahrbeziehung"
+                    weg="1"/>
+                <objektart name="Abschnitt">
+                    <eigenschaft name="dargestellt_von_Linie" min="1"
+                        max="1"/>
+                </objektart>
+                <objektart name="Ast">
+                    <eigenschaft name="dargestellt_von_Linie" min="1"
+                        max="1"/>
+                </objektart>
+            </objektarten>
+        </paket>
+        <paket name="Entwurf">
+        </paket>
+        <paket name="Allgemeine_Geometrieobjekte">
+        </paket>
+        <paket name="Geometrieschema">
+        </paket>
+        <!--tabelle name="Baulast_Dritter">
+            <werte auswahl="einige">
+                <wert kennung="05">
+                    <text name="Langtext">Deutsche Bahn AG</text>
+                </wert>
+                <wert kennung="06">
+                    <text name="Langtext">Wasser- und Schifffahrtsverwaltung des Bundes</text>
+                </wert>
+            </werte>
+        </tabelle-->
+        <tabelle name="Knotenpunktsystem">
+            <werte>
+                <wert kennung="17" weg="1"/>
+            </werte>
+        </tabelle>
+    </profil>
+</profile>
+

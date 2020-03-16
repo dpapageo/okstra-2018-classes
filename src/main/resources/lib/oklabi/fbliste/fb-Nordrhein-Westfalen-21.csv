@@ -1,0 +1,2731 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;Ebene;Bemerkung
+06.12.12;#222.5001;;Geländepunkt;Punkt;a07;1100;
+06.12.12;#232.5001;;Geschwindigkeitsmeßanlage;Punkt;a18;1145;
+06.12.12;#254.5001;;Telefonmast;Punkt;a33;1400;
+06.12.12;#254.5002;;Hochspannungsmast;Punkt;a30;1400;
+06.12.12;#254.5003;;Niederspannungsmast;Punkt;a31;1400;
+06.12.12;#999.5001;;Litfaßsäule;Punkt;a65;1110;
+06.12.12;0039.0000;1.4.2;Nordpfeil;Punkt;M51;1351;
+06.12.12;0111.0000;2.6.3.1;Grenzmarken an Staats-, Landesgrenze;Punkt;C01;1010;
+06.12.12;0111.0000;2.6.3.1;Grenzmarken an Staats-, Landesgrenze;Text;1;1015;
+06.12.12;0112.0000;2.6.3.2;Grenzsäule an Staats-, Landesgrenze;Punkt;C17;1010;
+06.12.12;0114.0000;2.7.4.5;Jagenstein, Abteilungsstein;Punkt;G21;1110;
+06.12.12;0118.0000;2.6.3.3;Abgemarkter Grenzpunkt;Punkt;C14;1010;
+06.12.12;0118.5001;;Grenzpunkt;Punkt;a05;1010;
+06.12.12;0119.0000;2.6.3.4;Nicht abgemarkter Grenzpunkt;Punkt;C16;1010;
+06.12.12;0121.0000;2.1.2;Polygonpunkt;Punkt;a02;1200;
+06.12.12;0121.0000;2.1.2;Polygonpunkt;Text;1;1115;
+06.12.12;0122.0000;2.1.2;Aufnahmepunkt;Punkt;a02;1200;
+06.12.12;0122.0000;2.1.2;Aufnahmepunkt;Text;1;1200;
+06.12.12;0122.5001;;Aufnahmepunkt, Polygonpunkt;Punkt;a02;1200;
+25.10.01;0123.0000;2.1.4;Kleinpunkt  (vermarkt), Punkt in Messungslinie;Punkt;E04;1200;
+25.10.01;0123.0000;2.1.4;Kleinpunkt  (vermarkt), Punkt in Messungslinie;Text;1;1115;
+25.10.01;0126.0000;2.1.3;Beobachtungspfeiler der Straßenbauverwaltung;Punkt;a03;1200;
+06.06.03;0126.0000;2.1.3;Beobachtungspfeiler der Straßenbauverwaltung;Text;1;1200;
+06.12.12;0126.5001;;Beobachtungspfeiler;Punkt;a03;1200;
+06.12.12;0127.0000;2.1.2;Polygonpunkt der Straßenbauverwaltung;Punkt;a02;1200;
+06.12.12;0127.0000;2.1.2;Polygonpunkt der Straßenbauverwaltung;Text;1;1115;
+06.12.12;0141.0000;2.1.6.1;Pfeilerbolzen;Punkt;a04;1200;
+06.12.12;0141.0000;2.1.6.1;Pfeilerbolzen;Text;1;1115;
+06.12.12;0142.0000;2.1.6.2;Mauerbolzen;Punkt;a04;1200;
+06.12.12;0142.0000;2.1.6.2;Mauerbolzen;Text;1;1115;
+06.12.12;0144.0000;2.1.6.3;Höhenmarke;Punkt;a04;1200;
+06.12.12;0144.0000;2.1.6.3;Höhenmarke;Text;1;1115;
+06.12.12;0147.0000;2.1.6.4;HP = PP;Punkt;a04;1200;
+06.12.12;0147.0000;2.1.6.4;HP = PP;Text;1;1200;
+06.12.12;0147.5001;;Höhenpunkt = Polygonpunkt;Punkt;a04;1200;
+06.12.12;0162.0000;2.1.1;Bodenpunkt;Punkt;a01;1200;
+06.12.12;0211.0000;2.6.1.1;Staatsgrenze;Linie;07;1010;
+06.12.12;0212.0000;2.6.1.2;Landesgrenze;Linie;08;1010;
+06.12.12;0213.0000;2.6.1.3;Regierungsbezirksgrenze;Linie;09;1010;
+06.12.12;0214.0000;2.6.1.4;Kreisgrenze;Linie;10;1010;
+06.12.12;0215.0000;2.6.1.5;Gemeindegrenze;Linie;11;1010;
+06.12.12;0231.0000;2.6.1.6;Gemarkungsgrenze;Linie;12;1010;
+06.12.12;0232.0000;2.6.1.7;Flurgrenze;Linie;13;1010;
+06.12.12;0232.0000;3.1.6;Flurnummer;Text;1;1015;
+06.12.12;0233.0000;2.6.1.8;Flurstücksgrenze;Linie;14;1010;
+06.12.12;0233.0000;3.1.7;Flurstücksnummer;Text;1;1015;
+06.12.12;0234.0000;3.1.8;Flurstücksnummer in besonderer Darstellung;Text;1;1015;
+06.12.12;0235.0000;2.6.1.9;Strittige Grenze;Linie;I36;1010;
+06.12.12;0241.0000;2.2.7.34;Nutzungsartengrenze;Linie;15;1010;
+06.12.12;0241.0000;2.2.7.34;Nutzungsartengrenze;Flaeche;0;1010;
+06.12.12;0248.0000;2.6.1.10;Flurstücksgrenze als Mittellinie in Gewässern;Linie;I37;1010;
+06.12.12;0251.0000;2.2.6;Topographische   (Begrenzungs-) Linie;Linie;H15;1010;
+06.12.12;0252.0000;2.2.6.1;Überdeckte topographische (Begrenzungs-) Linie;Linie;H16;1010;
+06.12.12;0253.0000;2.3.3.10;Topographische Zuordnungslinie;Linie;67;1100;
+06.12.12;0265.0000;2.6.1.11;Bauamtsgrenze;Linie;71;1010;
+06.12.12;0266.0000;2.6.1.12;Meistereigrenze;Linie;72;1010;
+06.12.12;0271.0000;2.7.5.13;Zollgrenze, nicht gleichzeitig politische Grenze;Linie;I72;1120;
+06.12.12;0272.0000;2.7.5.1;Gesetzliche Überschwemmungsgrenze;Linie;I60;1120;
+06.12.12;0272.0000;2.7.5.1;Gesetzliche Überschwemmungsgrenze;Text;1;1120;
+06.12.12;0273.0000;2.7.5.2;Hochwassergrenze;Linie;I61;1120;
+06.12.12;0273.0000;2.7.5.2;Hochwassergrenze;Text;1;1120;
+06.12.12;0274.0000;2.7.5.14;Mittleres Tidehochwasser;Linie;I73;1120;
+06.12.12;0275.0000;2.7.5.3;Markscheide;Linie;I62;1120;
+06.12.12;0276.0000;2.7.5.4;Naturschutzgebietsgrenze;Linie;I63;1120
+06.12.12;0277.0000;2.7.5.5;Landschaftsschutz- Gebietsgrenze;Linie;I64;1120
+06.12.12;0278.0000;2.7.5.6;Wasserschutzgebietsgrenze;Linie;I65;1170
+06.12.12;0279.0000;2.7.5.7;Lärmschutzbereichsgrenze;Linie;I66;1140
+06.12.12;0281.0000;2.7.5.8;Heilquellenschutz- Gebietsgrenze;Linie;I67;1170
+06.12.12;0282.0000;2.7.5.9;Pegelschutzgebietsgrenze;Linie;I68;1120
+06.12.12;0283.0000;2.7.5.10;Denkmalzone (Grenze);Linie;I69;1120
+06.12.12;0284.0000;2.7.5.11;Grabungsschutzgebietsgrenze;Linie;I70;1120
+06.12.12;0285.0000;2.7.5.12;Altlasten (Grenze);Linie;I71;1120
+06.12.12;0286.0000;2.7.5.15;Flurbereinigungsverfahren (Grenze);Linie;I74;1016
+06.12.12;0287.0000;2.7.5.16;Umlegungsverfahren (Grenze);Linie;I75;1016
+06.12.12;0288.0000;2.7.5.17;Sanierungsverfahren (Grenze);Linie;I76;1016
+06.12.12;0289.0000;2.7.5.18;Andere öffentlichrechtliche Grenze;Linie;I77;1010
+06.12.12;0289.0000;2.7.5.18;Andere öffentlichrechtliche Grenze;Text;1;1015
+06.12.12;0291.0000;2.6.2.1;Zugehörigkeitshaken;Punkt;C06;1010
+06.12.12;0292.0000;2.6.2.2;Zuordnungspfeil;Punkt;C31;1010
+06.12.12;0311.0000;2.6.4.1;Grenzhecke;Linie;I40;1010;
+06.12.12;0312.0000;2.6.4.2;Grenzzaun;Linie;I43;1010;
+06.12.12;0313.0000;2.6.4.3;Grenzmauer;Linie;I45;1010;
+06.12.12;0315.0000;2.6.4.6;Grenzwall ohne Bewachsung;Linie;I52;1010;
+06.12.12;0316.0000;2.6.4.7;Grenzwall mit Bewachsung;Linie;I54;1010;
+06.12.12;0317.0000;2.6.4.8;Grenzrain;Linie;I56;1010;
+06.12.12;0318.0000;2.6.4.9;Wasserführender Grenzgraben;Linie;I58;1010;
+06.12.12;0319.0000;2.6.4.10;Trockener Grenzgraben;Linie;I59;1010;
+06.12.12;0321.0000;2.6.4.4;Futtermauer, Stützmauer als Grenzmauer;Linie;I47;1010;
+06.12.12;0323.0000;2.6.4.5;Spundmauer als Grenzeinrichtung;Linie;42;1010;
+06.12.12;0351.0000;2.2.11;Hecke,  topographisch bedeutend;Linie;50;1110;
+06.12.12;0356.0000;2.7.4.9;Hecktor;Punkt;G25;1120;
+06.12.12;0411.0000;2.2.3.1;Höhenlinie - 20 Meter;Linie;H07;1120;
+06.12.12;0411.0000;2.2.3.1;Höhenlinie - 20 Meter;Text;1;1120;
+06.12.12;0412.0000;2.2.3.2;Höhenlinie - 10 Meter;Linie;H08;1120;
+06.12.12;0412.0000;2.2.3.2;Höhenlinie - 10 Meter;Text;1;1120;
+06.12.12;0413.0000;2.2.3.3;Höhenlinie - 5 Meter;Linie;H9;1120;
+06.12.12;0413.0000;2.2.3.3;Höhenlinie - 5 Meter;Text;1;1120;
+06.12.12;0414.0000;2.2.3.4;Höhenlinie - 2,5 Meter;Linie;H10;1120;
+06.12.12;0414.0000;2.2.3.4;Höhenlinie - 2,5 Meter;Text;1;1120;
+06.12.12;0415.0000;2.2.3.5;Höhenlinie - 1 Meter;Linie;H11;1120;
+06.12.12;0415.0000;2.2.3.5;Höhenlinie - 1 Meter;Text;1;1120;
+06.12.12;0416.0000;2.2.3.6;Höhenlinie - 0,5/0.25 Meter;Linie;H12;1120;
+06.12.12;0416.0000;2.2.3.6;Höhenlinie - 0,5/0.25 Meter;Text;1;1120;
+06.12.12;0431.0000;2.2.2.1;Höhenpunkt mit Höhenzahl;Punkt;B50;1100;
+06.12.12;0431.0001;2.2.2.1;Höhenpunkt mit Höhenzahl;Text;1;1115;
+06.12.12;0435.0000;2.2.2.2;Einzelhöhe;Punkt;a07;1100;
+06.12.12;0435.0001;2.2.2.2;Einzelhöhe;Text;1;1115;
+06.12.12;0441.0000;2.2.4;Fels;Linie;0;1110;
+06.12.12;0463.0000;2.2.1.8;Befestigte Böschung;Linie;61;1100;
+06.12.12;0474.0000;2.3.9.2;Spundwand;Linie;42;1100;
+06.12.12;0481.0000;2.2.1.1;Deutliche Böschungsoberkante;Linie;H01;1100;
+06.12.12;0482.0000;2.2.1.3;Undeutliche Böschungsoberkante;Linie;H03;1100;
+06.12.12;0484.0000;2.2.1.2;Deutliche Böschungsunterkante;Linie;H02;1100;
+06.12.12;0485.0000;2.2.1.4;Undeutliche Böschungsunterkante;Linie;H04;1100;
+08.03.2013;0486.0000;2.2.1.6;Böschung (Schraffen);Linie;0;1185;Stift 1
+06.12.12;0487.0000;2.2.1.7;Angedeutete Böschungsrichtung erfasst;Linie;H05;1120;
+06.12.12;0487.0001;;Angedeutete Böschungsrichtung nicht erfasst;Linie;H06;1120;
+06.12.12;0492.0000;2.2.1.5;Böschungshöhe;Text;1;1120;
+06.12.12;0611.0000;3.1.1;Stadtgemeinde;Text;1;1015;
+06.12.12;0612.0000;3.1.2;Landgemeinde;Text;1;1015;
+06.12.12;0617.0000;3.1.3;Stadtbezirk;Text;1;1015;
+06.12.12;0618.0000;3.1.4;Gemarkungsname;Text;1;1015;
+06.12.12;0646.0000;3.1.5;Gewannbezeichnung Lagebezeichnung;Text;1;1015;
+06.12.12;0719.0000;1.4.1;Gitterkreuz;Punkt;M50;1351;
+06.12.12;0719.0000;1.4.1;Gitternetzlinien;Linie;0;1351;
+06.12.12;0719.0001;;Schneiderahmen / Faltmarkierung;Linie;0;1351;
+06.12.12;0719.0002;;Heftrand;Linie;0;1351;
+06.12.12;0719.0003;;Koordinatenrahmen;Linie;0;1351
+06.12.12;0719.0004;;Innenrahmen;Linie;0;1351
+06.12.12;0719.0005;;Gitternetzbeschriftung;Text;1;1351
+06.12.12;0719.0006;;Eckpunktbeschriftung;Text;1;1351
+06.12.12;0719.0007;;Information im Schneiderahmen;Text;1;1351
+06.12.12;0733.0000;3.2.10;Richtungshinweise im Kartenrahmen;Text;1;1015
+06.12.12;1000.0000;2.2.7.17;Gebäude- und Freifläche;Text;1;1115
+06.12.12;1011.0000;2.4.1.1;Hochhausbegrenzungslinie;Linie;0;1110
+06.12.12;1012.0000;2.4.1.2;Begrenzungslinie eines öffentlichen Gebäudes;Linie;0;1110
+06.12.12;1013.0000;2.4.1.3;Begrenzungslinie eines nicht öffentlichen Gebäudes;Linie;0;1110
+06.12.12;1014.0000;2.4.1.4;Offene Begrenzungslinie eines Gebäudes;Linie;0;1110
+06.12.12;1016.0000;2.4.1.5;Begrenzungslinie eines unterirdischen Gebäudes;Linie;0;1110
+06.12.12;1017.0000;2.4.1.6;Begrenzungslinie eines zerstörten Gebäudes;Linie;0;1110
+06.12.12;1017.0000;2.4.1.6;Begrenzungslinie eines zerstörten Gebäudes;Text;1;1115
+07.12.12;1019.0000;2.4.4.8;Gebäudeverbindungsgang;Linie;0;1110
+07.12.12;1019.0000;2.4.4.8;Gebäudeverbindungsgang;Text;1;1115
+07.12.12;1031.0000;2.4.2.1;Hausnummer;Text;1;1115;
+07.12.12;1033.0000;2.4.2.2;Anzahl der Vollgeschosse;Text;1;1115;
+07.12.12;1041.0000;2.4.4.2;Durchfahrt im Gebäude;Linie;H70;1110;
+07.12.12;1041.0000;2.4.4.2;Durchfahrt im Gebäude;Text;1;1115;
+07.12.12;1042.0000;2.4.4.3;Durchfahrt an überbauten Verkehrsstraßen;Linie;H71;1110;
+07.12.12;1042.0000;2.4.4.3;Durchfahrt an überbauten Verkehrsstraßen;Text;1;1115;
+07.12.12;1043.0000;2.4.4.5;Arkaden;Linie;H73;1110;
+07.12.12;1043.0000;2.4.4.5;Arkaden;Text;1;1115;
+07.12.12;1044.0000;2.4.5.3;Freitreppe;Linie;H76;1110;
+07.12.12;1045.0000;2.4.4.1;Markierung für  Überdachung, offene Halle, Durchfahrt;Linie;H69;1110;
+07.12.12;1045.0000;2.4.4.1;Markierung für  Überdachung, offene Halle, Durchfahrt;Text;1;1115;
+07.12.12;1046.0000;2.4.4.6;Aufgeständertes Haus;Linie;H74;1110;
+07.12.12;1046.0000;2.4.4.6;Aufgeständertes Haus;Text;1;1115;
+07.12.12;1047.0000;2.4.4.4;Auskragende Geschosse;Linie;H72;1110;
+07.12.12;1047.0000;2.4.4.4;Auskragende Geschosse;Text;1;1115;
+07.12.12;1048.0000;2.4.5.4;Treppenunterkante (Freitreppe);Linie;H77;1110;
+07.12.12;1049.0000;2.4.4.9;Rampe;Linie;H75;1110;
+07.12.12;1049.0000;2.4.4.9;Rampe;Text;1;1115;
+07.12.12;1055.0000;2.3.11.5;Höhe Unterkante;Punkt;a07;1100;
+07.12.12;1055.0000;2.3.11.5;Höhe Unterkante;Text;1;1115;
+07.12.12;1056.0000;2.4.2.5;Höhenangaben an Gebäuden;Punkt;a07;1110;
+07.12.12;1056.0000;2.4.2.5;Höhenangaben an Gebäuden;Text;1;1115;
+07.12.12;1061.0000;2.4.3.1;Schraffur für Gebäude (50 gon);Flaeche;0;1011;
+07.12.12;1062.0000;2.4.3.3;Raster für Gebäude;Flaeche;0;1011;
+07.12.12;1063.0000;2.4.3.2;Parallelschraffur für Gebäude;Flaeche;0;1011;
+07.12.12;1071.0000;2.4.2.3;Kennzeichnung der Dachformen;Text;1;1115;
+07.12.12;1072.0000;2.4.2.4;Firstlinie;Linie;H68;1110;
+07.12.12;1112.0000;2.4.4;Gebäude;Text;1;1115;
+07.12.12;1194.0000;2.4.6.4;U - Bahnhof;Punkt;A04;1110;
+07.12.12;1194.0000;2.4.6.4;U - Bahnhof;Text;1;1115;
+07.12.12;1195.0000;2.4.6.5;S - Bahnhof;Punkt;A05;1110;
+07.12.12;1195.0000;2.4.6.5;S - Bahnhof;Text;1;1115;
+07.12.12;1208.0000;2.4.5.1;Zufahrt, Einfahrt;Punkt;A08;1110
+07.12.12;1208.5001;;Ein- und Ausfahrt;Punkt;a76;1110
+07.12.12;1209.0000;2.4.5.2;Zugang, Eingang;Punkt;A09;1120
+07.12.12;1472.0000;2.5.9.6;Rastanlage;Punkt;F59;1120
+07.12.12;1475.0000;2.5.9.9;Kiosk und WC;Punkt;F65;1120
+07.12.12;1721.0000;2.4.4;Werkstatt;Text;1;1115
+07.12.12;1731.0000;2.5.9.5;Tankstelle;Punkt;F58;1120
+07.12.12;1732.0000;2.5.9.7;Tank- und Rastanlage;Punkt;F63;1120
+07.12.12;1771.0000;2.7.3.5;Bergwerk in Betrieb;Punkt;G13;1120
+07.12.12;1772.0000;2.7.3.7;Bergwerk, außer Betrieb;Punkt;G15;1120
+07.12.12;1773.0000;2.7.3.6;Bergwerk, vorübergehend stillgelegt;Punkt;G14;1120
+07.12.12;2361.0000;2.4.6.6;Parkhaus;Punkt;A06;1110
+07.12.12;2362.0000;2.4.6.7;Parkdeck;Punkt;A10;1110
+07.12.12;2363.0000;2.4.6.8;Tiefgarage;Punkt;A07;1110
+07.12.12;2366.0000;2.4.4;Garage;Text;1;1115
+07.12.12;2369.0000;2.5.9.8;Parken und WC;Punkt;F64;1120
+07.12.12;2371.0000;2.7.4.6;Brückenwaage;Punkt;G36;1120
+07.12.12;2371.0000;2.7.4.6;Brückenwaage;Text;1;1120
+07.12.12;2372.0000;2.7.4.8;Parkscheinautomat;Punkt;G37;1110
+07.12.12;2513.0000;2.5.5.8;Pumpe;Punkt;F34;1120
+07.12.12;2514.0000;2.5.5.14;Wasserturm;Punkt;F62;1110
+07.12.12;2514.0000;2.5.5.14;Wasserturm;Text;1;1115
+07.12.12;2572.0000;2.5.7.1;Gasometer;Punkt;F45;1160
+07.12.12;2572.0000;2.5.7.1;Gasometer;Text;1;1115
+07.12.12;2612.0000;2.4.4;Wasserklosett;Text;1;1115
+07.12.12;2721.0000;2.4.4;Scheune;Text;1;1115
+07.12.12;2723.0000;2.4.4;Schuppen;Text;1;1115
+07.12.12;2724.0000;2.4.4;Stall;Text;1;1115
+07.12.12;3141.0000;2.2.7.28;Steinbruch;Punkt;B20;1120
+07.12.12;3141.0000;2.2.7.28;Steinbruch;Text;1;1115
+07.12.12;3141.0000;2.2.7.28;Steinbruch;Flaeche;0;1120
+07.12.12;3151.0000;2.2.7.29;Erztagebau;Text;1;1115
+07.12.12;3151.0000;2.2.7.29;Erztagebau;Flaeche;0;1120;
+07.12.12;3161.0000;2.2.7.30;Kohletagebau;Punkt;B22;1120;
+07.12.12;3161.0000;2.2.7.30;Kohletagebau;Text;1;1115;
+07.12.12;3161.0000;2.2.7.30;Kohletagebau;Flaeche;0;1120;
+07.12.12;3171.0000;2.2.7.16;Torfstich;Punkt;B13;1120;
+07.12.12;3171.0000;2.2.7.16;Torfstich;Text;1;1115;
+07.12.12;3171.0000;2.2.7.16;Torfstich;Flaeche;0;1120;
+07.12.12;3181.0000;2.2.7.31;Lavaabbau;Text;1;1115;
+07.12.12;3181.0000;2.2.7.31;Lavaabbau;Flaeche;0;1120;
+07.12.12;3191.0000;2.5.9.2;Erdölpumpe, Ölförderanlage;Punkt;F54;1416;
+07.12.12;3195.0000;2.5.9.4;Erdgasförderstelle;Punkt;F56;1415;
+07.12.12;3196.0000;2.7.3.8;Bergbauschacht (eckig);Punkt;G16;1120;
+07.12.12;3198.0000;2.7.3.9;Stollenmundloch;Punkt;G18;1120;
+07.12.12;3401.0000;2.5.2.13;Transportrichtungspfeil;Punkt;F60;1115;
+07.12.12;3402.0000;2.5.1;Unterirdische Leitungen;Linie;I01;1400;
+07.12.12;3402.0000;;Unterirdische Leitungen;Text;1;1400;
+07.12.12;3403.0000;2.5.2;Oberirdische  Leitungen;Linie;I15;1400;
+07.12.12;3403.0000;2.5.2;Oberirdische  Leitungen;Text;1;1400;
+07.12.12;3411.0000;2.5.5.1;Brunnen, Brunnenstube;Punkt;F28;1160;
+07.12.12;3421.0000;2.5.2.1;Oberirdische Wasserleitung;Linie;I16;1411;
+07.12.12;3422.0000;2.5.2.2;Oberirdische Fernwasserleitung;Linie;I17;1412;
+07.12.12;3423.0000;2.5.1.1;Unterirdische Wasserleitung;Linie;I02;1411;
+07.12.12;3424.0000;2.5.1.2;Unterirdische Fernwasserleitung;Linie;I03;1412;
+07.12.12;3426.0000;2.5.3.3;Merkstein für Wasserversorgung;Punkt;F06;1160;
+07.12.12;3426.0000;2.5.3.3;Merkstein für Wasserversorgung;Text;1;1160;
+07.12.12;3427.0000;2.5.5.3;Oberflurhydrant;Punkt;a41;1160;
+07.12.12;3428.0000;2.5.5.4;Unterflurhydrant;Punkt;a42;1160;
+07.12.12;3429.0000;2.5.3.1;Schieberkappe -schacht (Wasser);Punkt;F04;1160;
+07.12.12;3429.0000;2.5.3.1;Schieberkappe -schacht (Wasser);Text;1;1160;
+07.12.12;3429.5001;;Wasserschieber;Punkt;a43;1160;
+07.12.12;3432.0000;2.5.2.5;Oberirdische Erdgas-, Heizgasleitung;Linie;I20;1415;
+07.12.12;3433.0000;2.5.1.5;Unterirdische Erdgas-, Heizgasleitung;Linie;I06;1415;
+07.12.12;3434.0000;2.5.3.6;Merkzeichen für Gasleitung;Punkt;F09;1160;
+07.12.12;3434.0000;2.5.3.6;Merkzeichen für Gasleitung;Text;1;1160;
+07.12.12;3435.0000;2.5.3.2;Schieberkappe -schacht (Gas);Punkt;a44;1160;
+07.12.12;3435.0000;2.5.3.2;Schieberkappe -schacht (Gas);Text;1;1160;
+07.12.12;3441.0000;2.5.2.3;Oberirdische Leitung der Elektrizitätsversorgung, Stahlgittermast;Linie;I18;1413;
+07.12.12;3442.0000;2.5.1.3;Unterirdische Leitung der Elektrizitätsversorgung;Linie;I04;1413;
+07.12.12;3443.0000;2.5.3.4;Merkstein für Elektrizitätsversorgung;Punkt;F07;1160;
+07.12.12;3443.0000;2.5.3.4;Merkstein für Elektrizitätsversorgung;Text;1;1160;
+07.12.12;3444.0000;2.5.2.4;Oberirdische Hochspannungsleitung;Linie;I19;1414;
+07.12.12;3445.0000;2.5.1.13;Ummantelung;Linie;I14;1423;
+07.12.12;3446.0000;2.5.1.4;Unterirdische Hochspannungsleitung;Linie;I05;1414;
+07.12.12;3447.0000;2.5.6.5;Transformator, Umformer;Punkt;a37;1160;
+07.12.12;3448.0000;2.5.3.5;Merkstein für Hochspannungsleitung;Punkt;F08;1160;
+07.12.12;3448.0000;2.5.3.5;Merkstein für Hochspannungsleitung;Text;1;1160;
+07.12.12;3449.0000;2.5.8.6;Kabelformsteine, Kabelkanal;Punkt;a40;1160;
+07.12.12;3451.0000;2.5.4.2;Stahlrohrmast;Punkt;a27;1400;
+07.12.12;3452.0000;2.5.4.3;Stahlbetonmast;Punkt;a28;1400;
+10.12.12;3453.0000;2.5.4.1;Einfacher Stahlgittermast;Punkt;a29;1400;
+10.12.12;3454.0000;2.5.4.6;Stahlgittermast, wenn die Leitung zwischen den Masten nicht dargestellt wird;Punkt;F21;1160;
+10.12.12;3455.0000;2.5.4.5;Doppelmast;Punkt;F20;1160;
+10.12.12;3456.0000;2.5.4.4;Holzmast;Punkt;a26;1400;
+10.12.12;3464.0000;2.5.2.6;Oberirdische Rohölleitung;Linie;I21;1416;
+10.12.12;3465.0000;2.5.1.6;Unterirdische Rohölleitung;Linie;I07;1416;
+10.12.12;3466.0000;2.5.3.7;Merkzeichen für Rohölleitung;Punkt;F10;1160;
+10.12.12;3466.0000;2.5.3.7;Merkzeichen für Rohölleitung;Text;1;1160;
+10.12.12;3471.0000;2.5.2.8;Oberirdische Leitung der Heizungsanlage;Linie;I23;1418;
+10.12.12;3472.0000;2.5.1.8;Unterirdische Leitung der Heizungsanlage;Linie;I09;1418;
+10.12.12;3473.0000;2.5.3.9;Merkstein für Heizungsanlage;Punkt;F12;1160;
+10.12.12;3473.0000;2.5.3.9;Merkstein für Heizungsanlage;Text;1;1160;
+10.12.12;3474.0000;2.5.9.3;Einsteigeschacht für Heizungsanlage (Fernheizung);Punkt;F55;1419;
+10.12.12;3474.0000;2.5.9.3;Einsteigeschacht für Heizungsanlage (Fernheizung);Text;1;1419;
+10.12.12;3475.0000;2.5.2.9;Oberirdische Fernheizleitung;Linie;I24;1419;
+10.12.12;3476.0000;2.5.1.9;Unterirdische Fernheizleitung;Linie;I10;1419;
+10.12.12;3477.0000;2.5.3.10;Merkstein für Fernheizleitung;Punkt;F13;1160;
+10.12.12;3477.0000;2.5.3.10;Merkstein für Fernheizleitung;Text;1;1160;
+10.12.12;3481.0000;2.5.2.10;Oberirdische Leitung des Fernmeldewesens;Linie;I25;1420;
+10.12.12;3482.0000;2.5.1.10;Unterirdische Leitung des Fernmeldewesens;Linie;I11;1420;
+10.12.12;3483.0000;2.5.3.11;Merkstein für Fernmeldewesen;Punkt;F14;1160;
+10.12.12;3483.0000;2.5.3.11;Merkstein für Fernmeldewesen;Text;1;1160;
+10.12.12;3483.5001;;Merkstein Kabel;Punkt;a39;1160;
+10.12.12;3484.0000;2.5.8.4;Einsteigeschacht für Fernmeldewesen;Punkt;F49;1160;
+10.12.12;3484.0000;2.5.8.4;Einsteigeschacht für Fernmeldewesen;Text;1;1115;
+10.12.12;3485.0000;2.5.4.7;Funkmast, Funkstelle, Umsetzer;Punkt;F22;1400;
+10.12.12;3486.0000;2.5.8.3;Fernsprechhäuschen;Punkt;F48;1110;
+10.12.12;3486.5001;;Telefonzelle;Punkt;a63;1110;
+10.12.12;3487.0000;2.5.9.1;Feuermelder;Punkt;F53;1160;
+10.12.12;3487.0000;2.5.9.1;Feuermelder;Text;1;1115;
+10.12.12;3488.0000;2.5.8.2;Polizeirufsäule;Punkt;F47;1110;
+10.12.12;3488.0000;2.5.8.2;Polizeirufsäule;Text;1;1115;
+10.12.12;3489.0000;2.5.6.1;Kabelkasten, Schaltkasten;Punkt;F40;1160;
+10.12.12;3489.5001;;Verteilerkasten Strom (oberirdisch);Punkt;a35;1160;
+10.12.12;3489.5002;;Verteilerkasten Post (oberirdisch);Punkt;a38;1160;
+10.12.12;3489.5003;;Verteilerkasten Strom (unterirdisch);Punkt;a36;1160;
+10.12.12;3492.0000;2.5.2.7;Oberirdische Produktenfernleitung;Linie;I22;1417;
+10.12.12;3493.0000;2.5.1.7;Unterirdische Produktenfernleitung;Linie;I08;1417;
+10.12.12;3494.0000;2.5.3.8;Merkzeichen für Produktenfernleitung;Punkt;F11;1160;
+10.12.12;3494.0000;2.5.3.8;Merkzeichen für Produktenfernleitung;Text;1;1160;
+10.12.12;3495.0000;2.5.6.2;Windrad, Windmotor;Punkt;a71;1110;
+10.12.12;3495.5001;;Windanzeiger;Punkt;a70;1110;
+10.12.12;3498.0000;2.5.3.12;Schilderpfahl (allg.);Punkt;a45;1160;
+10.12.12;3498.0000;2.5.3.12;Schilderpfahl (allg.);Text;1;1160;
+10.12.12;3498.5001;;Schildermast;Punkt;a13;1160;
+10.12.12;3498.5002;;Schilderpfahl (Gas);Punkt;a45;1160;
+10.12.12;3498.5003;;Schilderpfahl (Wasser);Punkt;a45;1160;
+10.12.12;3501.0000;2.5.2.11;Oberirdische Abwasserleitung;Linie;I26;1421;
+10.12.12;3502.0000;2.5.1.11;Unterirdische Abwasser-, Schmutzwasserleitung;Linie;I12;1421;
+10.12.12;3504.0000;2.5.5.5;Einsteigeschacht für Abwasserleitung;Punkt;F32;1165;
+10.12.12;3505.0000;2.5.5.6;Straßensinkkasten (Einlauf mittig);Punkt;a55;1165;
+10.12.12;3505.5002;;Gully (Rund);Punkt;a48;1165;
+10.12.12;3507.0000;2.5.5.9;Schienensinkkasten;Punkt;a60;1165;
+10.12.12;3508.0000;2.5.5.7;Straßensinkkasten (Einlauf seitlich);Punkt;a56;1165;
+10.12.12;3509.0000;2.5.1.12;Unterirdische Sickerrohrleitung;Linie;I13;1422;
+10.12.12;3512.0000;2.7.4.4;Müllboxenanlage;Punkt;G35;1120;
+10.12.12;3521.0000;2.5.5.10;Schlammbecken, -fang;Punkt;a57;1165;
+10.12.12;3531.0000;2.5.5.11;Sickergrube, Klärgrube;Punkt;F37;1165;
+10.12.12;3531.5001;;Sickergrube;Punkt;a54;1165;
+10.12.12;3532.0000;2.5.2.12;Schlitzrinne;Linie;I27;1165;
+10.12.12;3591.0000;2.5.5.12;Benzin-, Ölabscheider;Punkt;a58;1165;
+10.12.12;3911.0000;2.7.3.4;Schornstein;Punkt;G12;1110;
+10.12.12;3921.0000;2.7.3.2;Drehkran;Punkt;G32;1110;
+10.12.12;3922.0000;2.7.3.1;Portalkran;Punkt;G11;1110;
+10.12.12;3923.0000;2.7.3.3;Laufkran;Punkt;G33;1110;
+10.12.12;4211.0000;2.2.7.21;Parkanlage (Symbol);Punkt;B15;1120;
+10.12.12;4211.0000;2.2.7.21;Parkanlage;Flaeche;0;1120;
+10.12.12;4212.0000;2.2.7.22;Liegewiese;Punkt;B49;1120;
+10.12.12;4212.0000;2.2.7.22;Liegewiese;Flaeche;0;1120;
+10.12.12;4216.0000;2.5.5.2;Springbrunnen, Zierbrunnen;Punkt;F29;1110;
+10.12.12;4242.0000;2.3.2.9;Wildschutzzaun;Punkt;D59;1110;
+10.12.12;4261.0000;2.2.7.40;Klein-, Schrebergarten Laubenkolonie;Punkt;B42;1120;
+10.12.12;4261.0000;2.2.7.40;Klein-, Schrebergarten Laubenkolonie;Flaeche;0;1120;
+10.12.12;4281.0000;2.2.7.41;Garten;Punkt;B43;1120;
+10.12.12;4281.0000;2.2.7.41;Garten;Flaeche;0;1120;
+10.12.12;4301.0000;2.2.7.32;Campingplatz;Punkt;B23;1120;
+10.12.12;4301.0000;2.2.7.32;Campingplatz;Flaeche;0;1120;
+10.12.12;5002.0000;2.3.2.7;Netzknotenpunkt (Rahmen);Punkt;D36;1115;
+10.12.12;5003.0000;2.3.2.8;Stationszeichen;Punkt;a22;1135;
+10.12.12;5003.0000;3.2.11;Bauwerksbezeichnung;Text;1;1015;
+10.12.12;5004.0000;2.3.1.16;Achslinie;Linie;74;1130;
+10.12.12;5110.0000;3.2.1;Europastraße;Text;1;1015;
+10.12.12;5111.0000;3.2.2;Bundes - Autobahn;Text;1;1015;
+10.12.12;5113.0000;2.3.1.3;Randstreifen unter 0,50m breit;Linie;31;1130;
+10.12.12;5114.0000;2.3.1.4;Randstreifen 0,50m und breiter;Linie;32;1130;
+10.12.12;5115.0000;2.3.1.5;Randstreifen mit unterbrochener Markierung;Linie;33;1130;
+10.12.12;5116.0000;2.3.1.6;Fahrbahnmarkierung;Linie;04;1130;
+10.12.12;5121.0000;3.2.9;Straßennamen;Text;1;1015;
+10.12.12;5122.0000;3.2.3;Bundesstraße;Text;1;1015;
+10.12.12;5123.0000;3.2.4;Landesstraße;Text;1;1015;
+10.12.12;5124.0000;3.2.6;Kreisstraße;Text;1;1015;
+10.12.12;5125.0000;3.2.5;Staatsstraße;Text;1;1015;
+10.12.12;5129.0000;3.2.7;Gemeindestraße;Text;1;1015;
+10.12.12;5141.0000;2.3.1.22;Gehweg an Straßen;Linie;H29;1100;
+10.12.12;5141.0000;2.3.1.22;Gehweg an Straßen;Text;1;1115;
+10.12.12;5151.0000;2.3.1.23;Geh- / Radweg;Linie;H29;1100;
+10.12.12;5151.0000;2.3.1.23;Geh- / Radweg;Text;1;1115;
+10.12.12;5161.0000;2.3.1.24;Radweg an Straßen;Linie;H29;1100;
+10.12.12;5161.0000;2.3.1.24;Radweg an Straßen;Text;1;1115;
+10.12.12;5172.0000;2.5.4.9;Fundament, Gittermastfundament oben;Punkt;F27;1160;
+10.12.12;5173.0000;2.3.1.18;Hochbord;Linie;64;1105;
+10.12.12;5174.0000;2.3.1.19;Tiefbord (Randeinfassung);Linie;65;1105;
+10.12.12;5174.5001;;Flachbord;Punkt;a34;1110;
+10.12.12;5201.0000;3.2.8;Weg;Text;1;1015;
+10.12.12;5211.0000;2.3.1.20;Unbefestigter Weg;Linie;66;1100;
+10.12.12;5215.0000;2.3.1.21;Weg unter 1mm Kartenbreite;Linie;34;1100;
+10.12.12;5227.0000;2.3.11.2;Furt;Punkt;D44;1110;
+10.12.12;5227.0000;2.3.11.2;Furt;Linie;0;1110;
+10.12.12;5271.0000;2.3.1.7;Richtungspfeil geradeaus;Punkt;a84;1130;
+10.12.12;5272.0000;2.3.1.8;Richtungspfeil geradeaus und links ab;Punkt;a85;1130;
+10.12.12;5273.0000;2.3.1.9;Richtungspfeil geradeaus und rechts ab;Punkt;a86;1130;
+10.12.12;5274.0000;2.3.1.10;Richtungspfeil nach links;Punkt;a89;1130;
+10.12.12;5275.0000;2.3.1.11;Richtungspfeil nach rechts;Punkt;a90;1130;
+10.12.12;5276.0000;2.3.1.12;Richtungspfeil links ab;Punkt;a87;1130;
+10.12.12;5277.0000;2.3.1.13;Richtungspfeil rechts ab;Punkt;a88;1130;
+10.12.12;5278.0000;2.3.1.14;Richtungspfeil links und rechts ab;Punkt;a91;1130;
+10.12.12;5279.0000;2.3.1.15;Vorankündigungspfeil;Punkt;H19;1130;
+10.12.12;5281.0000;2.3.3.1;Freistehende Hinweistafel, -zeichen, Ortsschild;Punkt;a12;1145;
+10.12.12;5281.5001;;Hinweisschild;Punkt;a14;1145;
+10.12.12;5281.5002;;Schild (rechteckig/hoch);Punkt;a13;1145;
+10.12.12;5281.5003;;Schild (rechteckig/quer);Punkt;a12;1145;
+10.12.12;5282.0000;2.3.3.2;Wegweiser von besonderer Bedeutung;Punkt;D38;1145;
+10.12.12;5282.5001;2.3.3.1;Vorwegweiser;Punkt;a12;1145;
+10.12.12;5284.0000;2.3.3.4;Verkehrsampel, Lichtzeichenbrücke;Punkt;D08;1145;
+10.12.12;5284.5001;;Ampel;Punkt;a16;1145;
+10.12.12;5285.0000;2.3.2.1;Kilometerstein, Kilometertafel;Punkt;D01;1135;
+10.12.12;5286.0000;2.3.3.3;Feststehendes Verkehrszeichen;Punkt;a08;1145;
+10.12.12;5286.5001;;Vorschriftzeichen/Stoppschild;Punkt;a08;1145;
+10.12.12;5286.5002;;Haltestelle;Punkt;a74;1110;
+10.12.12;5286.5003;;Stoppschild;Punkt;a08;1145;
+10.12.12;5286.5004;;Vorfahrtsschild;Punkt;a09;1145;
+10.12.12;5286.5005;;Vorfahrt achten;Punkt;a10;1145;
+10.12.12;5286.5006;;Gefahrzeichen;Punkt;a11;1145;
+10.12.12;5287.0000;2.3.3.7;Verkehrszeichenbrücke;Punkt;D10;1145;
+10.12.12;5288.0000;2.3.3.8;Lichtzeichenbrücke;Punkt;D11;1145;
+10.12.12;5289.0000;2.3.2.2;Ortsdurchfahrtsstein;Punkt;a21;1135;
+10.12.12;5289.0000;2.3.2.2;Ortsdurchfahrtsstein;Text;1;1135;
+10.12.12;5292.0000;2.3.2.10;Tür (im Wildschutzzaun);Punkt;D35;1120;
+10.12.12;5295.0000;2.3.3.9;Mittelstreifenüberfahrt;Punkt;D12;1145;
+10.12.12;5296.0000;2.3.1.1;Straße, Weg - Begrenzung des befahrbaren Raumes;Linie;62;1100;
+10.12.12;5297.0000;2.3.1.2;Straße, Weg - überdeckte Begrenzungslinie;Linie;63;1100;
+10.12.12;5311.0000;2.4.6.9;Parkplatz in Städten und Gemeinden;Punkt;A12;1110;
+10.12.12;5411.0000;2.3.4.1;Durchgehendes Gleis der Bahnen (Achse), sonstiges;Linie;H44;1110;
+10.12.12;5413.0000;2.3.5.2;Kilometertafel, -stein;Punkt;a20;1145
+10.12.12;5432.0000;2.3.4.2;Straßenbahngleisachse;Linie;41;1110
+10.12.12;5434.0000;2.3.3.5;Straßenbahnhaltestelle;Punkt;a74;1145
+10.12.12;5435.0000;2.5.4.8;Straßenbahn- und Obusmast, Fahrdraht;Punkt;F26;1160
+10.12.12;5439.0000;2.3.3.6;Bushaltestelle;Punkt;a74;1145
+10.12.12;5444.0000;2.3.6.1;Seil- und Schwebebahn Personenbeförderung;Linie;79;1110
+10.12.12;5445.0000;2.3.6.2;Seil- und Schwebebahn Materialbeförderung;Linie;H47;1110
+10.12.12;5446.0000;2.3.6.3;Bandstraße;Linie;H48;1110
+10.12.12;5447.0000;2.3.6.4;Sessellift;Linie;H49;1110
+10.12.12;5448.0000;2.3.6.5;Skiaufzug;Linie;H50;1110
+10.12.12;5449.0000;2.3.6.6;Zahnradbahn (Bergbahn);Linie;H51;1110
+10.12.12;5472.0000;2.3.5.3;Signal, Eisenbahnsignal;Punkt;a19;1145
+10.12.12;5476.0000;2.3.5.4;Blinklicht;Punkt;a18;1145
+10.12.12;5477.0000;2.3.5.1;Bahnschranke;Punkt;a73;1110
+10.12.12;5477.5001;;Andreaskreuz mit Blinklicht;Punkt;a17;1145
+10.12.12;5477.5002;;Schranke;Punkt;a73;1110
+10.12.12;5477.5003;;Bake (Bahnübergang);Punkt;a13;1145
+10.12.12;5511.0000;2.2.7.33;Flughafen;Punkt;B35;1120
+10.12.12;5511.0000;2.2.7.33;Flughafen;Text;1;1115
+10.12.12;5511.0000;2.2.7.33;Flughafen;Flaeche;0;1120
+10.12.12;5542.0000;2.3.7.1;Anflugbefeuerung (doppelt);Punkt;D19;1110
+10.12.12;5543.0000;2.3.7.2;Anflugbefeuerung (einfach);Punkt;D42;1110
+10.12.12;5622.0000;2.3.10.3;Wagenfähre;Punkt;D24;1145
+10.12.12;5622.0000;2.3.10.3;Wagenfähre;Text;1;1115
+10.12.12;5623.0000;2.3.10.4;Personenfähre;Punkt;D25;1145
+10.12.12;5623.0000;2.3.10.4;Personenfähre;Linie;0;1145
+10.12.12;5623.0000;2.3.10.4;Personenfähre;Text;1;1115
+10.12.12;5636.0000;2.3.10.2;Kilometerstein an Wasserstraßen;Punkt;D22;1110
+10.12.12;5636.0000;2.3.10.2;Kilometerstein an Wasserstraßen;Text;1;1115
+10.12.12;5646.0000;2.3.10.1;Leuchtfeuer;Punkt;D21;1110
+10.12.12;5733.0000;2.3.11.1;Fußgängersteg;Linie;0;1110
+10.12.12;5742.0000;2.5.6.3;elektrische Laterne;Punkt;F42;1135
+10.12.12;5742.5001;;Lichtmast;Punkt;a25;1135
+10.12.12;5745.0000;2.5.8.1;Briefkasten;Punkt;a64;1110
+10.12.12;5746.0000;2.7.4.2;Uhr;Punkt;a75;1110
+10.12.12;5747.0000;2.7.4.1;Anschlagsäule bzw. Werbefläche;Punkt;a65;1110
+10.12.12;5751.0000;2.7.4.14;Fahnenmast;Punkt;a69;1110
+10.12.12;5901.0000;2.2.7.35;Laubgehölz (in Verkehrsflächen);Punkt;B37;1120
+10.12.12;5901.0000;2.2.7.35;Laubgehölz (in Verkehrsflächen);Flaeche;0;1120
+10.12.12;5902.0000;2.2.7.36;Grünland (in Verkehrsflächen);Punkt;B38;1120
+10.12.12;5902.0000;2.2.7.36;Grünland (in Verkehrsflächen);Flaeche;0;1120
+10.12.12;5903.0000;2.2.7.37;Nadelgehölz (in Verkehrsflächen);Punkt;B39;1120
+10.12.12;5903.0000;2.2.7.37;Nadelgehölz (in Verkehrsflächen);Flaeche;0;1120
+10.12.12;6110.0000;2.2.7.1;Ackerland;Punkt;B24;1120
+10.12.12;6110.0000;2.2.7.1;Ackerland;Flaeche;54;1120
+10.12.12;6120.0000;2.2.7.2;Streuobstacker;Punkt;B25;1120
+10.12.12;6120.0000;2.2.7.2;Streuobstacker;Flaeche;57;1120
+10.12.12;6130.0000;2.2.7.24;Hopfen;Punkt;B33;1120
+10.12.12;6130.0000;2.2.7.24;Hopfen;Flaeche;0;1120
+10.12.12;6140.0000;2.2.7.25;Spargel;Punkt;B34;1120
+10.12.12;6140.0000;2.2.7.25;Spargel;Flaeche;0;1120
+10.12.12;6204.0000;2.2.7.10;Korbweiden;Punkt;B07;1120
+10.12.12;6204.0000;2.2.7.10;Korbweiden;Flaeche;0;1120
+10.12.12;6206.0000;2.2.7.26;Schilf, Reith, Reet, Rohr (Gruppensymbol);Punkt;B18;1120
+10.12.12;6206.0000;2.2.7.26;Schilf, Reith, Reet, Rohr;Flaeche;0;1120
+10.12.12;6210.0000;2.2.7.3;Grünland (Gruppensymbol);Punkt;B01;1120
+10.12.12;6210.0000;2.2.7.3;Grünland;Flaeche;44;1120
+10.12.12;6220.0000;2.2.7.4;Streuobstwiese;Punkt;B26;1120
+10.12.12;6220.0000;2.2.7.4;Streuobstwiese;Flaeche;57;1120
+10.12.12;6310.0000;2.2.7.5;Gartenland (Gruppensymbol);Punkt;B03;1120
+10.12.12;6310.0000;2.2.7.5;Gartenland;Flaeche;42;1120
+10.12.12;6320.0000;2.2.7.8;Baumschule;Punkt;B05;1120
+10.12.12;6320.0000;2.2.7.8;Baumschule;Flaeche;0;1120
+10.12.12;6400.0000;2.2.7.9;Weingarten (Gruppensymbol);Punkt;B06;1120
+10.12.12;6400.0000;2.2.7.9;Weingarten;Flaeche;0;1120
+10.12.12;6500.0000;2.2.7.14;Moor;Punkt;B11;1120
+10.12.12;6500.0000;2.2.7.14;Moor;Flaeche;0;1120
+10.12.12;6600.0000;2.2.7.15;Heide;Punkt;B12;1120
+10.12.12;6600.0000;2.2.7.15;Heide;Flaeche;0;1120
+10.12.12;6710.0000;2.2.7.6;Obstbaumanlage (Gruppensymbol);Punkt;B04;1120
+10.12.12;6710.0000;2.2.7.6;Obstbaumanlage;Flaeche;71;1120
+10.12.12;6720.0000;2.2.7.7;Obststrauchanlage;Punkt;B27;1120
+10.12.12;6720.0000;2.2.7.7;Obststrauchanlage;Flaeche;55;1120
+10.12.12;6800.0000;2.2.7.18;Landwirtschaftliche Betriebsflächen;Punkt;B30;1120
+10.12.12;6800.0000;2.2.7.18;Landwirtschaftliche Betriebsflächen;Text;1;1115
+10.12.12;6800.0000;2.2.7.18;Landwirtschaftliche Betriebsflächen;Flaeche;0;1120
+10.12.12;6900.0000;2.2.7.19;Brachland, Unland (Symbol);Punkt;B31;1120
+10.12.12;6900.0000;2.2.7.19;Brachland, Unland;Text;1;1115
+10.12.12;6900.0000;2.2.7.19;Brachland, Unland;Flaeche;0;1120
+10.12.12;7100.0000;2.2.7.11;Laubwald (Symbol);Punkt;B08;1120
+10.12.12;7100.0000;2.2.7.11;Laubwald;Flaeche;0;1120
+10.12.12;7200.0000;2.2.7.12;Nadelwald (Symbol);Punkt;B09;1120
+10.12.12;7200.0000;2.2.7.12;Nadelwald;Flaeche;0;1120
+10.12.12;7300.0000;2.2.7.13;Mischwald;Punkt;B10;1120
+10.12.12;7300.0000;2.2.7.13;Mischwald;Flaeche;0;1120
+10.12.12;7400.0000;2.2.7.23;Gehölzfläche (Symbol);Punkt;B16;1120
+10.12.12;7400.0000;2.2.7.23;Gehölzfläche;Flaeche;0;1120
+10.12.12;7401.0000;2.2.7.38;Nadelgehölz;Punkt;B40;1120
+10.12.12;7401.0000;2.2.7.38;Nadelgehölz;Flaeche;0;1120
+10.12.12;7402.0000;2.2.7.39;Laubgehölz;Punkt;B41;1120
+10.12.12;7402.0000;2.2.7.39;Laubgehölz;Flaeche;0;1120
+10.12.12;7501.0000;2.7.1.3;Einzelner Laubbaum;Punkt;a79;1150
+10.12.12;7502.0000;2.7.1.4;Einzelner Nadelbaum;Punkt;a80;1150
+10.12.12;7503.0000;2.7.1.1;Hervorragender Laubbaum;Punkt;a81;1150
+10.12.12;7505.0000;2.7.1.2;Hervorragender Nadelbaum;Punkt;a82;1150
+10.12.12;7506.0000;2.7.1.6;Baumreihe von Laubbäumen;Punkt;G06;1120
+10.12.12;7507.0000;2.7.1.7;Baumreihe von Nadelbäumen;Punkt;G07;1120
+10.12.12;7515.0000;2.7.1.5;Eingemessener Baum von besonderer planerischer Bedeutung;Punkt;a83;1150
+10.12.12;7515.0000;2.7.1.5;Eingemessener Baum von besonderer planerischer Bedeutung;Text;1;1150
+10.12.12;7855.0000;2.3.12.2;Rohrauslauf / Entwässerung;Punkt;D47;1165
+10.12.12;7855.5001;;Kanaldeckel;Punkt;a46;1165
+10.12.12;7855.5002;;Durchlaß (Ein- und Auslauf);Punkt;a62;1175
+10.12.12;8011.0000;2.3.8.9;Quelle;Punkt;D20;1100
+10.12.12;8011.0000;2.3.8.9;Quelle;Text;1;1115
+10.12.12;8023.0000;2.3.10.7;Höhe des Wasserspiegels;Punkt;D26;1110
+10.12.12;8023.0000;2.3.10.7;Höhe des Wasserspiegels, Text;Text;1;1115
+10.12.12;8025.0000;2.3.8.3;Fließrichtungspfeil;Punkt;D31;1115
+10.12.12;8031.0000;2.3.9.1;Uferbefestigung (als senkrechte Mauer);Linie;H54;1175
+10.12.12;8033.0000;2.3.9.3;Buhne;Linie;H57;1175
+10.12.12;8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk;Punkt;D53;1175
+10.12.12;8037.0000;2.3.8.1;Feste Uferlinie;Linie;H52;1110
+10.12.12;8038.0000;2.3.8.2;Veränderliche oder unbestimmbare Uferlinie;Linie;30;1110
+10.12.12;8062.0000;2.3.10.5;Wehr;Linie;0;1110
+10.12.12;8073.0000;2.3.12.1;Düker;Linie;0;1165
+10.12.12;8083.0000;2.3.10.6;Fischtreppe, Kaskade;Linie;0;1110
+10.12.12;8084.0000;2.7.4.10;Eisbrecher;Punkt;G26;1110
+10.12.12;8091.0000;2.1.7.1;Lattenpegel;Punkt;E30;1120
+10.12.12;8091.0000;2.1.7.1;Lattenpegel;Text;1;1115
+10.12.12;8092.0000;2.1.7.2;Schreibpegel;Punkt;E31;1120
+10.12.12;8093.0000;2.1.7.3;Hochwasserpegel;Punkt;E32;1120
+10.12.12;8093.0000;2.1.7.3;Hochwasserpegel;Text;1;1115
+10.12.12;8094.0000;2.1.7.5;Grundwassermeßstelle;Punkt;E34;1120
+10.12.12;8095.0000;2.1.7.4;Eichpfahl;Punkt;E33;1120
+10.12.12;8095.0000;2.1.7.4;Eichpfahl;Text;1;1115
+10.12.12;8096.0000;2.5.5.13;Grundwasserbeobachtungsrohr;Punkt;F39;1110
+10.12.12;8112.0000;3.3.1;Schiffbarer Fluß, Strom;Text;1;1015
+10.12.12;8113.0000;3.3.2;Nicht schiffbarer Fluß;Text;1;1015
+10.12.12;8114.0000;3.3.3;Kleiner Fluß;Text;1;1015
+10.12.12;8221.0000;3.3.4;Schiffbarer Kanal;Text;1;1015
+10.12.12;8222.0000;3.3.5;Nichtschiffbarer Kanal;Text;1;1015
+10.12.12;8401.0000;2.3.8.7;Bach unter 1mm Kartenbreite;Flaeche;50;1100
+10.12.12;8401.0000;2.3.8.7;Bach unter 1mm Kartenbreite;Text;1;1115
+10.12.12;8401.0001;3.3.6;Oberirdischer Bach;Text;1;1015
+10.12.12;8402.0000;3.3.7;Unterirdischer Bach;Text;1;1015
+10.12.12;8501.0000;2.3.8.8;Nasser Graben unter 1mm Kartenbreite;Linie;0;1100
+10.12.12;8501.0000;2.3.8.8;Nasser Graben unter 1mm Kartenbreite;Text;1;1115
+10.12.12;8501.0001;3.3.13;Oberirdischer nasser Graben;Text;1;1015
+10.12.12;8502.0000;3.3.14;Unterirdischer nasser Graben;Text;1;1015
+10.12.12;8503.0000;3.3.15;Trockener Graben;Text;1;1015
+10.12.12;8508.0000;2.3.1.17;Wegseitengraben, Rinne, Straßengraben (bis 1mm Kartenbreite) Grüppe;Linie;05;1100
+10.12.12;8508.0000;2.3.1.17;Wegseitengraben, Rinne, Straßengraben (bis 1mm Kartenbreite) Grüppe;Text;1;1115
+10.12.12;8601.0000;2.3.8.5;See, feste Uferlinie;Punkt;D43;1100
+10.12.12;8601.0000;2.3.8.5;See, feste Uferlinie;Text;1;1115
+10.12.12;8601.0000;2.3.8.5;See, feste Uferlinie;Flaeche;50;1100
+10.12.12;8611.0000;3.3.8;Schiffbarer See;Text;1;1015
+10.12.12;8612.0000;3.3.9;Nicht schiffbarer See;Text;1;1015
+10.12.12;8621.0000;3.3.10;Stausee;Text;1;1015
+10.12.12;8801.0000;2.3.8.4;Teich, feste Uferlinie;Punkt;D41;1100
+10.12.12;8801.0000;2.3.8.4;Teich, feste Uferlinie;Flaeche;50;1100
+10.12.12;8801.0000;3.3.11;Teich;Text;1;1015
+10.12.12;8802.0000;3.3.12;Weiher;Text;1;1015
+10.12.12;9010.0000;2.7.4.15;Bohrpunkt, Bohrung;Punkt;G40;1120
+10.12.12;9241.0000;2.3.2.5;Lärmschutzwall;Text;1;1115
+15.02.13;9242.00LR;2.3.2.6;Lärmschutzwand links, rechts;Punkt;1;1115
+15.02.13;9242.00LR;2.3.2.6;Lärmschutzwand links, rechts;Linie;H21;1140
+15.02.13;9242.000Z;2.3.2.6;Lärmschutzwand mittig;Punkt;1;1115
+15.02.13;9242.000Z;2.3.2.6;Lärmschutzwand mittig;Linie;H20;1140
+10.12.12;9291.0000;2.3.2.3;Abweisende Schutzeinrichtung (einseitig), rechts;Punkt;1;1135
+10.12.12;9291.0000;2.3.2.3;Abweisende Schutzeinrichtung (einseitig), rechts;Linie;H41;1135
+10.12.12;9292.0000;2.3.2.4;Abweisende Schutzeinrichtung (zweiseitig) mittig;Linie;H42;1135
+10.12.12;9332.0000;2.7.2.1;Denkmal, Denkstein, Standbild;Punkt;a66;1110
+10.12.12;9333.0000;2.7.2.2;Naturdenkmal (Baum);Punkt;G31;1150
+10.12.12;9333.0000;2.7.2.2;Naturdenkmal (Baum);Text;1;1150
+10.12.12;9335.0000;2.7.4.7;Höhle, Kellereingang im Berg od. Fels;Punkt;G23;1120
+10.12.12;9341.0000;2.7.2.3;Bildstock;Punkt;a67;1110
+10.12.12;9342.0000;2.7.2.4;Kreuz;Punkt;a68;1110
+10.12.12;9395.0000;2.7.4.11;Historischer Grenzstein;Punkt;G27;1110
+10.12.12;9411.0000;2.2.7.20;Friedhof (Symbol);Punkt;B32;1120
+10.12.12;9411.0000;2.2.7.20;Friedhof;Flaeche;0;1120
+10.12.12;9430.0000;2.2.7.27;Historischer Friedhof;Punkt;B28;1120
+10.12.12;9430.0000;2.2.7.27;Historischer Friedhof;Text;1;1115
+10.12.12;9430.0000;2.2.7.27;Historischer Friedhof;Flaeche;0;1120
+10.12.12;9488.0000;2.5.8.5;Notrufsäule;Punkt;a24;1135
+10.12.12;9488.0000;2.5.8.5;Notrufsäule;Text;1;1135
+10.12.12;9701.0000;2.7.4.12;Turm;Punkt;G28;1120
+10.12.12;9701.0000;2.7.4.12;Turm;Text;1;1120
+10.12.12;9703.0000;2.7.4.13;Aussichtsturm;Punkt;G38;1120;
+10.12.12;9703.0000;2.7.4.13;Aussichtsturm;Text;1;1120;
+10.12.12;99999.9999;;Sonstiges;Punkt;1;1099;
+10.12.12;99999.9999;;Sonstiges;Linie;0;1199;
+10.12.12;99999.9999;;Sonstiges;Text;1;1199;
+10.12.12;99999.9999;;Sonstiges;Flaeche;0;1199;
+10.12.12;A311.0000;2.6.4.1;Grenzhecke gemeinschaftlich;Linie;I40;1010;
+10.12.12;A312.0000;2.6.4.2;Grenzzaun gemeinschaftlich;Linie;I43;1010;
+10.12.12;A315.0000;2.6.4.6;Grenzwall ohne Bewachsung gemeinschaftlich;Linie;I52;1010;
+10.12.12;A316.0000;2.6.4.7;Grenzwall mit Bewachsung gemeinschaftlich;Linie;I54;1010;
+10.12.12;A353.0000;2.2.8;Zaun beidseitig;Linie;51;1100;
+10.12.12;L311.0000;2.6.4.1;Grenzhecke links (in Aufnahmerichtung);Linie;I41;1010;
+10.12.12;L312.0000;2.6.4.2;Grenzzaun links (in Aufnahmerichtung);Linie;I44;1010;
+10.12.12;L313.0000;2.6.4.3;Grenzmauer links (in Aufnahmerichtung);Linie;I46;1010;
+10.12.12;L315.0000;2.6.4.6;Grenzwall ohne  Bewachsung links (in Aufnahmerichtung);Linie;I53;1010;
+10.12.12;L316.0000;2.6.4.7;Grenzwall mit Bewachsung links (in Aufnahmerichtung);Linie;I55;1010;
+10.12.12;L317.0000;2.6.4.8;Grenzrain links (in Aufnahmerichtung);Linie;I57;1010;
+10.12.12;L318.0000;2.6.4.9;Wasserführender Grenzgraben links (in Aufnahmerichtung);Linie;I58;1010;
+10.12.12;L319.0000;2.6.4.10;Trockener Grenzgraben links (in Aufnahmerichtung);Linie;I59;1010;
+10.12.12;L321.0000;2.6.4.4;Futtermauer, Stützmauer als Grenzmauer links (in Aufnahmerichtung);Linie;I48;1010;
+10.12.12;L323.0000;2.6.4.5;Spundmauer als Grenzeinrichtung links (in Aufnahmerichtung);Linie;I50;1010;
+10.12.12;L351.0000;2.2.11;Hecke, topographisch bedeutend links (in Aufnahmerichtung);Linie;46;1100;
+10.12.12;L352.0000;2.2.9;Mauer, topographisch bedeutend links (in Aufnahmerichtung);Linie;H21;1100;
+10.12.12;L353.0000;2.2.8;Zaun,  topographisch bedeutend links (in Aufnahmerichtung);Linie;49;1100;
+10.12.12;L462.0000;2.2.5;Steilrand links (in Aufnahmerichtung);Linie;H14;1100;
+10.12.12;L473.0000;2.2.10;Futtermauer, Stützmauer links (in Aufnahmerichtung);Linie;H21;1175;
+10.12.12;L8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk links (in Aufnahmerichtung);Linie;H58;1175;
+10.12.12;R311.0000;2.6.4.1;Grenzhecke rechts (in Aufnahmerichtung);Linie;I42;1010;
+10.12.12;R312.0000;2.6.4.2;Grenzzaun rechts (in Aufnahmerichtung);Linie;I44;1010;
+10.12.12;R313.0000;2.6.4.3;Grenzmauer rechts (in Aufnahmerichtung);Linie;I46;1010;
+10.12.12;R315.0000;2.6.4.6;Grenzwall ohne  Bewachsung rechts (in Aufnahmerichtung);Linie;I53;1010;
+10.12.12;R316.0000;2.6.4.7;Grenzwall mit Bewachsung rechts (in Aufnahmerichtung);Linie;I55;1010;
+10.12.12;R317.0000;2.6.4.8;Grenzrain rechts (in Aufnahmerichtung);Linie;I57;1010;
+10.12.12;R318.0000;2.6.4.9;Wasserführender Grenzgraben rechts (in Aufnahmerichtung);Linie;I58;1010;
+10.12.12;R319.0000;2.6.4.10;Trockener Grenzgraben rechts (in Aufnahmerichtung);Linie;I59;1010;
+10.12.12;R321.0000;2.6.4.4;Futtermauer, Stützmauer als Grenzmauer rechts (in Aufnahmerichtung);Linie;I49;1010;
+10.12.12;R323.0000;2.6.4.5;Spundmauer als Grenzeinrichtung rechts (in Aufnahmerichtung);Linie;I51;1010;
+10.12.12;R351.0000;2.2.11;Hecke, topographisch bedeutend rechts (in Aufnahmerichtung);Linie;48;1100;
+10.12.12;R352.0000;2.2.9;Mauer, topographisch bedeutend rechts (in Aufnahmerichtung);Linie;H22;1100;
+10.12.12;R353.0000;2.2.8;Zaun, topographisch bedeutend rechts (in Aufnahmerichtung);Linie;47;1100;
+10.12.12;R462.0000;2.2.5;Steilrand rechts (in Aufnahmerichtung);Linie;H14;1100;
+10.12.12;R473.0000;2.2.10;Futtermauer, Stützmauer rechts (in Aufnahmerichtung);Linie;H22;1175;
+10.12.12;R8036.0000;2.3.9.4;Pfahlwand, Holzbollwerk rechts (in Aufnahmerichtung);Linie;H59;1175;
+10.12.12;Z313.0000;2.6.4.3;Grenzmauer gemeinschaftlich (beidseitig);Linie;I45;1010;
+10.12.12;Z317.0000;2.6.4.8;Grenzrain gemeinschaftlich;Linie;I56;1010;
+10.12.12;Z318.0000;2.6.4.9;Wasserführender Grenzgraben gemeinschaftlich;Linie;I58;1010;
+10.12.12;Z319.0000;2.6.4.10;Trockener Grenzgraben gemeinschaftlich;Linie;I59;1010;
+08.03.2013;Z321.0000;2.6.4.4;Futtermauer, Stützmauer als Grenzmauer gemeinschaftlich;Linie;I47;1010;
+10.12.12;Z351.0000;2.2.11;Hecke, topographisch bedeutend beidseitig;Linie;50;1100;
+10.12.12;Z352.0000;2.2.9;Mauer, topographisch bedeutend beidseitig (mittig);Linie;H20;1100;
+10.12.12;Z473.0000;2.2.10;Futtermauer, Stützmauer beidseitig;Linie;H20;1175;
+10.12.12;#27.0000;;Umring für DGM;Linie;98;1195;
+10.12.12;#28.0000;;Inring für DGM;Linie;99;1195;
+10.12.12;RE85.0001;;Fahrbahn;Flaeche;15;3400;
+10.12.12;RE85.0001;;Fahrbahn;Linie;15;3400;
+10.12.12;RE85.0002;;Bankett;Flaeche;88;3560;
+10.12.12;RE85.0002;;Bankett;Linie;88;3560;
+10.12.12;RE85.0003;;Dammböschung;Flaeche;119;3580;
+10.12.12;RE85.0003;;Dammböschung;Linie;119;3580;
+10.12.12;RE85.0004;;Einschnittsböschung;Flaeche;114;3600;
+10.12.12;RE85.0004;;Einschnittsböschung;Linie;114;3600;
+10.12.12;RE85.0005;;Insel gepflastert;Flaeche;17;3540;
+10.12.12;RE85.0005;;Insel gepflastert;Linie;17;3540;
+10.12.12;RE85.0006;;Stützwand, Widerlager;Flaeche;08;3740;
+10.12.12;RE85.0006;;Stützwand, Widerlager;Linie;08;3740;
+10.12.12;RE85.0007;;geplanter Gebäudeabbruch;Flaeche;10;3720;
+10.12.12;RE85.0007;;geplanter Gebäudeabbruch;Linie;10;3720;
+10.12.12;RE85.0008;;Gewässer mit Fließrichtung;Flaeche;95;4270;
+10.12.12;RE85.0008;;Gewässer mit Fließrichtung;Linie;95;4270;
+10.12.12;RE85.0009;;Gehweg;Flaeche;85;3460;
+10.12.12;RE85.0009;;Gehweg;Linie;85;3460;
+10.12.12;RE85.0010;;Zufahrt;Flaeche;54;3520;
+10.12.12;RE85.0010;;Zufahrt;Linie;54;3520;
+10.12.12;RE85.0011;;Wirtschaftsweg;Flaeche;15;3680;
+10.12.12;RE85.0011;;Wirtschaftsweg;Linie;15;3680;
+11.12.12;RE85.0012;;Grunderwerb - vorübergehende Inanspruchnahme;Flaeche;82;1020;
+11.12.12;RE85.0012;;Grunderwerb - vorübergehende Inanspruchnahme;Linie;4 / 3;1020;Stift 4 / Linienart 3 
+11.12.12;RE85.0013;;Grunderwerb - dauernd zu beschränkende Fläche;Flaeche;96;1020;
+11.12.12;RE85.0013;;Grunderwerb - dauernd zu beschränkende Fläche;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0014;;Grunderwerb - abzugebende Fläche in alter Nutzung;Flaeche;88;1020;
+11.12.12;RE85.0014;;Grunderwerb - abzugebende Fläche in alter Nutzung;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0015;;Trennstreifen;Flaeche;88;3420;
+11.12.12;RE85.0015;;Trennstreifen;Linie;88;3420;
+11.12.12;RE85.0016;;Radweg;Flaeche;83;3480;
+11.12.12;RE85.0016;;Radweg;Linie;83;3480;
+11.12.12;RE85.0017;;Geh-/Radweg;Flaeche;83;3500;
+11.12.12;RE85.0017;;Geh-/Radweg;Linie;83;3500;
+11.12.12;RE85.0019;;Aufschüttung;Flaeche;119;3580;
+11.12.12;RE85.0019;;Aufschüttung;Linie;119;3580;
+11.12.12;RE85.0020;;Abgrabung;Flaeche;114;3600;
+11.12.12;RE85.0020;;Abgrabung;Linie;114;3600;
+11.12.12;RE85.0021;;Lärmschutzwall;Flaeche;119;4320;
+11.12.12;RE85.0021;;Lärmschutzwall;Linie;119;4320;
+11.12.12;RE85.0022;;Lärmschutzwand;Flaeche;08;4320;
+11.12.12;RE85.0022;;Lärmschutzwand;Linie;08;4320;
+11.12.12;RE85.0024;;Grunderwerb - zu erwerbende Fläche für den Träger der Straßenbaulast;Flaeche;84;1020;
+11.12.12;RE85.0024;;Grunderwerb - zu erwerbende Fläche für den Träger der Straßenbaulast;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0025;;Gebäude bereits abgebrochen;Flaeche;10;3720;
+11.12.12;RE85.0025;;Gebäude bereits abgebrochen;Linie;10;3720;
+11.12.12;RE85.0026;;Grunderwerb - zu erwerbende Kompensationsfläche für Träger der Straßenbaulast;Flaeche;86;1020;
+11.12.12;RE85.0026;;Grunderwerb - zu erwerbende Kompensationsfläche für Träger der Straßenbaulast;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0027;;Grunderwerb - zu erwerbende Fläche für Nebenanlagen und Nebenbetriebe;Flaeche;130;1020;
+11.12.12;RE85.0027;;Grunderwerb - zu erwerbende Fläche für Nebenanlagen und Nebenbetriebe;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0028;;Grunderwerb - zu erwerbende Fläche für Dritte;Flaeche;129;1020;
+11.12.12;RE85.0028;;Grunderwerb - zu erwerbende Fläche für Dritte;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+11.12.12;RE85.0029;;Grunderwerb - abzugebende Fläche nach Rekultivierung;Flaeche;28;1020;
+11.12.12;RE85.0029;;Grunderwerb - abzugebende Fläche nach Rekultivierung;Linie;4 / 4;1020;Stift 4 / Linienart 4 
+06.12.2012;41001-0000;;Wohnbauflaeche;Flaeche;0;1012;
+06.12.2012;41002-0000;;IndustrieUndGewerbeflaeche;Flaeche;0;1012;
+06.12.2012;41002-1400;;Handel und Dienstleistung;Flaeche;0;1012;
+06.12.2012;41002-1410;;Verwaltung, freie Berufe;Flaeche;0;1012;
+06.12.2012;41002-1420;;Bank, Kredit;Flaeche;0;1012;
+06.12.2012;41002-1430;;Versicherung;Flaeche;0;1012
+06.12.2012;41002-1440;;Handel;Flaeche;0;1012
+06.12.2012;41002-1450;;Ausstellung, Messe;Flaeche;0;1012
+06.12.2012;41002-1460;;Beherbergung;Flaeche;0;1012
+06.12.2012;41002-1470;;Restauration;Flaeche;0;1012
+06.12.2012;41002-1480;;Vergnuegung;Flaeche;0;1012
+06.12.2012;41002-1490;;Gaertnerei;Flaeche;0;1012
+06.12.2012;41002-1700;;Industrie und Gewerbe;Flaeche;0;1012
+06.12.2012;41002-1701;;Gebaeude- und Freiflaeche Industrie und Gewerbe;Flaeche;0;1012
+06.12.2012;41002-1710;;Produktion;Flaeche;0;1012
+06.12.2012;41002-1720;;Handwerk;Flaeche;0;1012
+06.12.2012;41002-1730;;Tankstelle;Flaeche;0;1012
+06.12.2012;41002-1740;;Lagerplatz;Flaeche;0;1012
+06.12.2012;41002-1750;;Transport;Flaeche;0;1012
+06.12.2012;41002-1760;;Forschung;Flaeche;0;1012
+06.12.2012;41002-1770;;Grundstoff;Flaeche;0;1012
+06.12.2012;41002-1780;;Betriebliche Sozialeinrichtung;Flaeche;0;1012
+06.12.2012;41002-1790;;Werft;Flaeche;0;1012
+06.12.2012;41002-2500;;Versorgungsanlage;Flaeche;0;1012
+06.12.2012;41002-2501;;Gebaeude- und Freiflaeche Versorgungsanlage;Flaeche;0;1012
+06.12.2012;41002-2502;;Betriebsflaeche Versorgungsanlage;Flaeche;0;1012
+06.12.2012;41002-2510;;Foerderanlage;Flaeche;0;1012
+06.12.2012;41002-2520;;Wasserwerk;Flaeche;0;1012
+06.12.2012;41002-2521;;Gebaeude- und Freiflaeche Versorgungsanlage, Wasser;Flaeche;0;1012
+06.12.2012;41002-2522;;Betriebsflaeche Versorgungsanlage, Wasser;Flaeche;0;1012
+06.12.2012;41002-2530;;Kraftwerk;Flaeche;0;1012
+06.12.2012;41002-2531;;Gebaeude- und Freiflaeche Versorgungsanlage, Elektrizitaet;Flaeche;0;1012
+06.12.2012;41002-2532;;Betriebsflaeche Versorgungsanlage, Elektrizitaet;Flaeche;0;1012
+06.12.2012;41002-2540;;Umspannstation;Flaeche;0;1012
+06.12.2012;41002-2550;;Raffinerie;Flaeche;0;1012
+06.12.2012;41002-2551;;Gebaeude- und Freiflaeche Versorgungsanlage, Oel;Flaeche;0;1012
+06.12.2012;41002-2552;;Betriebsflaeche Versorganlage, Oel;Flaeche;0;1012
+06.12.2012;41002-2560;;Gaswerk;Flaeche;0;1012
+06.12.2012;41002-2561;;Gebaeude- und Freiflaeche Versorgungsanlage, Gas;Flaeche;0;1012
+06.12.2012;41002-2562;;Betriebsflaeche Versorgungsanlage, Gas;Flaeche;0;1012
+06.12.2012;41002-2570;;Heizwerk;Flaeche;0;1012
+06.12.2012;41002-2571;;Gebaude- und Freiflaeche Versorgungsanlage, Waerme;Flaeche;0;1012
+06.12.2012;41002-2572;;Betriebsflaeche Versorgungsanlage, Waerme;Flaeche;0;1012
+06.12.2012;41002-2580;;Funk- und Fernmeldeanlage;Flaeche;0;1012
+06.12.2012;41002-2581;;Fernmeldewese;Flaeche;0;1012
+06.12.2012;41002-2582;;Betriebsflaeche Versorgungsanlage, Funk- und Fernmeldewesen;Flaeche;0;1012
+06.12.2012;41002-2600;;Entsorgung;Flaeche;0;1012
+06.12.2012;41002-2601;;Gebaeude- und Freiflaeche Entsorgungsanlage;Flaeche;0;1012
+06.12.2012;41002-2602;;Betriebsflaeche Entsorgungsanlage;Flaeche;0;1012
+06.12.2012;41002-2610;;Klaeranlage, Klaerwerk;Flaeche;0;1012
+06.12.2012;41002-2611;;Gebaeude-und Freiflaeche Entsorgungsanlage, Abwasserbeseitigung;Flaeche;0;1012
+06.12.2012;41002-2612;;Betriebsflaeche Entsorgungsanlage, Abwasserbeseitigung;Flaeche;0;1012
+06.12.2012;41002-2620;;Abfallbehandlungsanlage;Flaeche;0;1012
+06.12.2012;41002-2621;;Gebaeude- und Freiflaeche Entsorgungsanlage, Abfallbeseitigung;Flaeche;0;1012
+06.12.2012;41002-2622;;Betriebsflaeche Entsorgungsanlage, Abfallbeseitigung;Flaeche;0;1012
+06.12.2012;41002-2623;;Betriebsflaeche Entsorgungsanlage, Schlamm;Flaeche;0;1012
+06.12.2012;41002-2630;;Deponie (oberirdisch;Flaeche;0;1012
+06.12.2012;41002-2640;;Deponie (untertaegig);Flaeche;0;1012
+06.12.2012;41003-0000;;Halde;Flaeche;0;1012
+06.12.2012;41003-2000;;Kohle;Flaeche;0;1012
+06.12.2012;41003-4000;;Erde;Flaeche;0;1012
+06.12.2012;41003-5000;;Schutt;Flaeche;0;1012
+06.12.2012;41003-6000;;Schlacke;Flaeche;0;1012
+06.12.2012;41003-7000;;Abraum;Flaeche;0;1012
+06.12.2012;41003-8000;;Schrott, Altmaterial;Flaeche;0;1012
+06.12.2012;41003-9999;;Sonstiges;Flaeche;0;1012
+06.12.2012;41004-0000;;Bergbaubetrieb;Flaeche;0;1012
+06.12.2012;41004-1001;;Ton;Flaeche;0;1012
+06.12.2012;41004-1007;;Kalk, Kalktuff, Kreide;Flaeche;0;1012
+06.12.2012;41004-2002;;Schiefer, Dachschiefer;Flaeche;0;1012
+06.12.2012;41004-2003;;Methamorphe Schiefer;Flaeche;0;1012
+06.12.2012;41004-2005;;Kalkstein;Flaeche;0;1012
+06.12.2012;41004-2006;;Dolomitstein;Flaeche;0;1012
+06.12.2012;41004-2013;;Basalt, Diabas;Flaeche;0;1012
+06.12.2012;41004-2021;;Talkschiefer, Speckstein;Flaeche;0;1012
+06.12.2012;41004-3000;;Erze;Flaeche;0;1012
+06.12.2012;41004-3001;;Eisen;Flaeche;0;1012
+06.12.2012;41004-3002;;Buntmetallerze;Flaeche;0;1012
+06.12.2012;41004-3003;;Kupfer;Flaeche;0;1012
+06.12.2012;41004-3005;;Zink;Flaeche;0;1012
+06.12.2012;41004-3006;;Zinn;Flaeche;0;1012
+06.12.2012;41004-3007;;Wismut, Kobalt, Nickel;Flaeche;0;1012
+06.12.2012;41004-3008;;Uran;Flaeche;0;1012
+06.12.2012;41004-3009;;Mangan;Flaeche;0;1012
+06.12.2012;41004-3010;;Antimon;Flaeche;0;1012
+06.12.2012;41004-3011;;Edelmetallerze;Flaeche;0;1012
+06.12.2012;41004-4000;;Treib- und Brennstoffe;Flaeche;0;1012
+06.12.2012;41004-4020;;Kohle;Flaeche;0;1012
+06.12.2012;41004-4021;;Braunkohle;Flaeche;0;1012
+06.12.2012;41004-4022;;Steinkohle;Flaeche;0;1012
+06.12.2012;41004-4030;;Oelschiefer;Flaeche;0;1012
+06.12.2012;41004-5000;;Industrieminerale, Salze;Flaeche;0;1012
+06.12.2012;41004-5001;;Gipsstein;Flaeche;0;1012
+06.12.2012;41004-5002;;Anhydritstein;Flaeche;0;1012
+06.12.2012;41004-5003;;Steinsalz;Flaeche;0;1012
+06.12.2012;41004-5004;;Kalisalz;Flaeche;0;1012
+06.12.2012;41004-5005;;Kalkspat;Flaeche;0;1012
+06.12.2012;41004-5006;;Flussspat;Flaeche;0;1012
+06.12.2012;41004-5007;;Schwerspat;Flaeche;0;1012
+06.12.2012;41004-5011;;Graphit;Flaeche;0;1012
+06.12.2012;41005-0000;;TagebauGrubeSteinbruch;Flaeche;0;1012
+06.12.2012;41005-1000;;Erden, Lockergestein;Flaeche;0;1012
+06.12.2012;41005-1001;;Ton;Flaeche;0;1012
+06.12.2012;41005-1002;;Bentonit;Flaeche;0;1012
+06.12.2012;41005-1003;;Kaolin;Flaeche;0;1012
+06.12.2012;41005-1004;;Lehm;Flaeche;0;1012
+06.12.2012;41005-1005;;Loess, Loesslehm;Flaeche;0;1012
+06.12.2012;41005-1006;;Mergel;Flaeche;0;1012
+06.12.2012;41005-1007;;Kalk, Kalktuff, Kreide;Flaeche;0;1012
+06.12.2012;41005-1008;;Sand;Flaeche;0;1012
+06.12.2012;41005-1009;;Kies, Kiessand;Flaeche;0;1012
+06.12.2012;41005-1011;;Farberden;Flaeche;0;1012
+06.12.2012;41005-1012;;Quarzsand;Flaeche;0;1012
+06.12.2012;41005-1013;;Kieselerde;Flaeche;0;1012
+06.12.2012;41005-2000;;Steine, Gestein, Festgestein;Flaeche;0;1012
+06.12.2012;41005-2001;;Tonstein;Flaeche;0;1012
+06.12.2012;41005-2002;;Schiefer, Dachschiefer;Flaeche;0;1012
+06.12.2012;41005-2003;;Metamorphe Schiefer;Flaeche;0;1012
+06.12.2012;41005-2004;;Mergelstein;Flaeche;0;1012
+06.12.2012;41005-2005;;Kalkstein;Flaeche;0;1012
+06.12.2012;41005-2006;;Dolomitstein;Flaeche;0;1012
+06.12.2012;41005-2007;;Travertin;Flaeche;0;1012
+06.12.2012;41005-2008;;Mamor;Flaeche;0;1012
+06.12.2012;41005-2009;;Sandstein;Flaeche;0;1012
+06.12.2012;41005-2010;;Grauwacke;Flaeche;0;1012
+06.12.2012;41005-2011;;Quarzit;Flaeche;0;1012
+06.12.2012;41005-2012;;Gneis;Flaeche;0;1012
+06.12.2012;41005-2013;;Basalt, Diabas;Flaeche;0;1012
+06.12.2012;41005-2014;;Andesit;Flaeche;0;1012
+06.12.2012;41005-2015;;Porphyr, Quarzporphyr;Flaeche;0;1012
+06.12.2012;41005-2016;;Granit;Flaeche;0;1012
+06.12.2012;41005-2017;;Granodiorit;Flaeche;0;1012
+06.12.2012;41005-2018;;Tuff, Bimstein;Flaeche;0;1012
+06.12.2012;41005-2019;;Trass;Flaeche;0;1012
+06.12.2012;41005-2020;;Lavaschlacke;Flaeche;0;1012
+06.12.2012;41005-2021;;Talkschiefer, Speckstein;Flaeche;0;1012
+06.12.2012;41005-4000;;Treib- und Brennstoffe;Flaeche;0;1012
+06.12.2012;41005-4010;;Torf;Flaeche;0;1012
+06.12.2012;41005-4020;;Kohle;Flaeche;0;1012
+06.12.2012;41005-4021;;Braunkohle;Flaeche;0;1012
+06.12.2012;41005-4022;;Steinkohle;Flaeche;0;1012
+06.12.2012;41005-4030;;Oelschiefer;Flaeche;0;1012
+06.12.2012;41005-5000;;Industrieminerale, Salze;Flaeche;0;1012
+06.12.2012;41005-5001;;Gipsstein;Flaeche;0;1012
+06.12.2012;41005-5002;;Anhydritstein;Flaeche;0;1012
+06.12.2012;41005-5005;;Kalkspat;Flaeche;0;1012
+06.12.2012;41005-5007;;Schwerspat;Flaeche;0;1012
+06.12.2012;41005-5008;;Quarz;Flaeche;0;1012
+06.12.2012;41005-5009;;Feldspat;Flaeche;0;1012
+06.12.2012;41005-5010;;Pegmatitsand;Flaeche;0;1012
+06.12.2012;41005-9999;;Sonstiges;Flaeche;0;1012
+06.12.2012;41006-0000;;FlaecheGemischterNutzung;Flaeche;0;1012
+06.12.2012;41006-2100;;Gebaeude- und Freiflaeche, Mischnutzung mit Wohnen;Flaeche;0;1012
+06.12.2012;41006-2110;;Wohnen mit Oeffentlich;Flaeche;0;1012
+06.12.2012;41006-2120;;Wohnen mit Handel und Dienstleistungen;Flaeche;0;1012
+06.12.2012;41006-2130;;Wohnen mit Gewerbe und Industrie;Flaeche;0;1012
+06.12.2012;41006-2140;;Oeffentlich mit Wohnen;Flaeche;0;1012
+06.12.2012;41006-2150;;Handel und Dienstleistungen mit Wohnen;Flaeche;0;1012
+06.12.2012;41006-2160;;Gewerbe und Industrie mit Wohnen;Flaeche;0;1012
+06.12.2012;41006-2700;;Gebaeude- und Freiflaeche Land- und Forstwirtschaft;Flaeche;0;1012
+06.12.2012;41006-2710;;Wohnen;Flaeche;0;1012
+06.12.2012;41006-2720;;Betrieb;Flaeche;0;1012
+06.12.2012;41006-2730;;Wohnen und Betrieb;Flaeche;0;1012
+06.12.2012;41006-6800;;Landwirtschaftliche Betriebsflaeche;Flaeche;0;1012
+06.12.2012;41006-7600;;Forstwirtschaftliche Betriebsflaeche;Flaeche;0;1012
+06.12.2012;41007-0000;;FlaecheBesondererFunktionalerPraegung;Flaeche;0;1012
+06.12.2012;41007-1100;;Oeffentliche Zwecke;Flaeche;0;1012
+06.12.2012;41007-1110;;Verwaltung;Flaeche;0;1012
+06.12.2012;41007-1120;;Bildung und Forschung;Flaeche;0;1012
+06.12.2012;41007-1130;;Kultur;Flaeche;0;1012
+06.12.2012;41007-1140;;Religioese Einrichtung;Flaeche;0;1012
+06.12.2012;41007-1150;;Gesundheit, Kur;Flaeche;0;1012
+06.12.2012;41007-1160;;Soziales;Flaeche;0;1012
+06.12.2012;41007-1170;;Sicherheit und Ordnung;Flaeche;0;1012
+06.12.2012;41007-1200;;Parken;Flaeche;0;1012
+06.12.2012;41007-1300;;Historische Anlage;Flaeche;0;1012
+06.12.2012;41007-1310;;Burg-, Festungsanlage;Flaeche;0;1012
+06.12.2012;41007-1320;;Schlossanlage;Flaeche;0;1012
+06.12.2012;41008-0000;;SportFreizeitUndErholungsflaeche;Flaeche;0;1012
+06.12.2012;41008-4001;;Gebaeude- und Freiflaeche Sport, Freizeit und Erholung;Flaeche;0;1012
+06.12.2012;41008-4100;;Sportanlage;Flaeche;0;1012
+06.12.2012;41008-4101;;Gebaeude- und Freiflaeche Erholung, Sport;Flaeche;0;1012
+06.12.2012;41008-4110;;Golfplatz;Flaeche;0;1012
+06.12.2012;41008-4120;;Sportplatz;Flaeche;0;1012
+06.12.2012;41008-4130;;Rennbahn;Flaeche;0;1012
+06.12.2012;41008-4140;;Reitplatz;Flaeche;0;1012
+06.12.2012;41008-4150;;Schiess¸anlage;Flaeche;0;1012
+06.12.2012;41008-4160;;Eis-, Rollschuhbahn;Flaeche;0;1012
+06.12.2012;41008-4170;;Tennisplatz;Flaeche;0;1012
+06.12.2012;41008-4200;;Freizeitanlage;Flaeche;0;1012
+06.12.2012;41008-4210;;Zoo;Flaeche;0;1012
+06.12.2012;41008-4211;;Gebaeude- u. Freiflaeche Erholung, Zoologie;Flaeche;0;1012
+06.12.2012;41008-4220;;Safaripark, Wildpark;Flaeche;0;1012
+06.12.2012;41008-4230;;Freizeitpark;Flaeche;0;1012
+06.12.2012;41008-4240;;Freilichttheater;Flaeche;0;1012
+06.12.2012;41008-4250;;Freilichtmuseum;Flaeche;0;1012
+06.12.2012;41008-4260;;Autokino, Freilichtkino;Flaeche;0;1012
+06.12.2012;41008-4270;;Verkehrsuebungsplatz;Flaeche;0;1012
+06.12.2012;41008-4280;;Hundeuebungsplatz;Flaeche;0;1012
+06.12.2012;41008-4290;;Modellflugplatz;Flaeche;0;1012
+06.12.2012;41008-4300;;Erholungsflaeche;Flaeche;0;1012
+06.12.2012;41008-4301;;Gebaeude- und Freiflaeche Erholung;Flaeche;0;1012
+06.12.2012;41008-4310;;Wochenend- und Ferienhausflaeche;Flaeche;0;1012
+06.12.2012;41008-4320;;Schwimmbad, Freibad;Flaeche;0;1012
+06.12.2012;41008-4321;;Gebaeude- u. Freiflaeche Erholung, Bad;Flaeche;0;1012
+06.12.2012;41008-4330;;Campingplatz;Flaeche;0;1012
+06.12.2012;41008-4331;;Gebaeude- u. Freiflaeche Erholung, Camping;Flaeche;0;1012
+06.12.2012;41008-4400;;Gruenanlage;Flaeche;0;1012
+06.12.2012;41008-4410;;Gruenflaeche;Flaeche;0;1012
+06.12.2012;41008-4420;;Park;Flaeche;0;1012
+06.12.2012;41008-4430;;Botanischer Garten;Flaeche;0;1012
+06.12.2012;41008-4431;;Gebaeude- u. Freiflaeche Erholung, Botanik;Flaeche;0;1012
+06.12.2012;41008-4440;;Kleingarten;Flaeche;0;1012
+06.12.2012;41008-4450;;Wochenendplatz;Flaeche;0;1012
+06.12.2012;41008-4470;;Spielplatz, Bolzplatz;Flaeche;0;1012
+06.12.2012;41008-9999;;Sonstiges;Flaeche;0;1012
+06.12.2012;41009-0000;;Friedhof;Flaeche;0;1012
+06.12.2012;41009-9401;;Gebaeude- und Freiflaeche Friedhof;Flaeche;0;1012
+06.12.2012;41009-9402;;Friedhof (ohne Gebaeude);Flaeche;0;1012
+06.12.2012;41009-9403;;Friedhof (Park);Flaeche;0;1012
+06.12.2012;41009-9404;;Historischer Friedhof;Flaeche;0;1012
+06.12.2012;42009-0000;;Platz;Flaeche;0;1012
+06.12.2012;42009-5130;;Fussgaengerzone;Flaeche;0;1012
+06.12.2012;42009-5310;;Parkplatz;Flaeche;0;1012
+06.12.2012;42009-5320;;Rastplatz;Flaeche;0;1012
+06.12.2012;42009-5330;;Raststaette;Flaeche;0;1012
+06.12.2012;42009-5340;;Marktplatz;Flaeche;0;1012
+06.12.2012;42009-5350;;Festplatz;Flaeche;0;1012
+06.12.2012;42010-0000;;Bahnverkehr;Flaeche;0;1012
+06.12.2012;42010-1100;;Eisenbahn;Flaeche;0;1012
+06.12.2012;42010-1102;;Gueterverkehr;Flaeche;0;1012
+06.12.2012;42010-1104;;S-Bahn;Flaeche;0;1012
+06.12.2012;42010-1200;;Stadtbahn;Flaeche;0;1012
+06.12.2012;42010-1201;;Strass¸enbahn;Flaeche;0;1012
+06.12.2012;42010-1202;;U-Bahn;Flaeche;0;1012
+06.12.2012;42010-1300;;Seilbahn, Bergbahn;Flaeche;0;1012
+06.12.2012;42010-1301;;Zahnradbahn;Flaeche;0;1012
+06.12.2012;42010-1302;;Standseilbahn;Flaeche;0;1012
+06.12.2012;42010-1400;;Museumsbahn;Flaeche;0;1012
+06.12.2012;42010-1600;;Magnetschwebebahn;Flaeche;0;1012
+25.09.2012;02310-3002;;[PPO] Kartenrahmen DIN A4 (Ausgabekopf;Punkt;15;1071
+25.09.2012;02310-3003;;[PPO] Kartenrahmen DIN A3 (Ausgabekopf;Punkt;15;1071
+25.09.2012;02310-3004;;[PPO] Massstabsleiste (Ausgabekopf);Punkt;15;1071
+25.09.2012;02310-3021;;[PPO] Grenzpunkt mit Abmarkung(Marke), abweichender Rechtszustand;Punkt;15;1010
+25.09.2012;02310-3022;;[PPO] Grenzpunkt, Abmarkung zeitweilig ausgesetzt;Punkt;15;1010
+25.09.2012;02310-3023;;[PPO] Grenzpunkt, Abmarkung zeitweilig ausgesetzt, abweichender Rechtszustand;Punkt;15;1010
+25.09.2012;02310-3024;;[PPO] Grenzpunkt, Abmarkung nach Quellenlage nicht zu spezifizieren;Punkt;15;1010
+25.09.2012;02310-3025;;[PPO] Grenzpunkt, Abmarkung nach Quellenlage nicht zu spezifizieren, abweichender Rechtszustand;Punkt;15;1071
+25.09.2012;02310-3300;;[PPO] Kreditinstitut, Bank, Bankfiliale;Punkt;15;1071
+25.09.2012;02310-3301;;[PPO] Kreditinstitut, Bank, Bankfiliale (SW);Punkt;15;1071
+25.09.2012;02310-3302;;[PPO] Hotel, Motel, Pension;Punkt;15;1071
+25.09.2012;02310-3303;;[PPO] Jugendherberge;Punkt;15;1071
+25.09.2012;02310-3304;;[PPO] Jugendherberge (SW);Punkt;15;1071
+25.09.2012;02310-3305;;[PPO] Gaststaette, Restaurant;Punkt;15;1071
+25.09.2012;02310-3306;;[PPO] Kino;Punkt;15;1071
+25.09.2012;02310-3307;;[PPO] Kino (SW);Punkt;15;1071
+25.09.2012;02310-3308;;[PPO] Spielcasino;Punkt;15;1071
+25.09.2012;02310-3309;;[PPO] Parkhaus, Parkdeck;Punkt;A06;1071
+25.09.2012;02310-3310;;[PPO] Parkhaus, Parkdeck (SW);Punkt;A10;1071
+25.09.2012;02310-3311;;[PPO] Toilette;Punkt;15;1071
+25.09.2012;02310-3312;;[PPO] Post;Punkt;15;1071
+25.09.2012;02310-3313;;[PPO] Post (SW);Punkt;15;1071
+25.09.2012;02310-3314;;[PPO] Theater, Oper;Punkt;15;1071
+25.09.2012;02310-3315;;[PPO] Bibliothek, Buecherei;Punkt;15;1071
+25.09.2012;02310-3316;;[PPO] Kirche;Punkt;15;1071
+25.09.2012;02310-3317;;[PPO] Synagoge;Punkt;15;1071
+25.09.2012;02310-3318;;[PPO] Kapelle;Punkt;15;1071
+25.09.2012;02310-3319;;[PPO] Moschee;Punkt;15;1071
+25.09.2012;02310-3320;;[PPO] Tempel;Punkt;15;1071
+25.09.2012;02310-3321;;[PPO] Heilanstalt, Pflegeanstalt, Krankenhaus, Rettungsstelle;Punkt;15;1071
+25.09.2012;02310-3322;;[PPO] Heilanstalt, Pflegeanstalt, Krankenhaus, Rettungsstelle (SW);Punkt;15;1071
+25.09.2012;02310-3323;;[PPO] Kindergarten, Kindertagesstaette;Punkt;15;1071
+25.09.2012;02310-3324;;[PPO] Polizei, Polizeiwache;Punkt;15;1071
+25.09.2012;02310-3325;;[PPO] Polizei, Polizeiwache (SW);Punkt;15;1071
+25.09.2012;02310-3326;;[PPO] Feuerwehr;Punkt;15;1071
+25.09.2012;02310-3327;;[PPO] Feuerwehr (SW);Punkt;15;1071
+25.09.2012;02310-3328;;[PPO] Bahnhof U-Bahn, Haltestelle, Haltepunkt U-Bahn;Punkt;A04;1071
+25.09.2012;02310-3329;;[PPO] Bahnhof U-Bahn, Haltestelle, Haltepunkt U-Bahn (SW);Punkt;15;1071
+25.09.2012;02310-3330;;[PPO] Bahnhof S-Bahn, Haltestelle, Haltepunkt S-Bahn;Punkt;A05;1071
+25.09.2012;02310-3331;;[PPO] Bahnhof S-Bahn, Haltestelle, Haltepunkt S-Bahn (SW);Punkt;15;1071
+25.09.2012;02310-3332;;[PPO] Omnibusbahnhof;Punkt;15;1071
+25.09.2012;02310-3333;;[PPO] Omnibusbahnhof (SW);Punkt;15;1071
+25.09.2012;02310-3334;;[PPO] Hallenbad;Punkt;15;1071
+25.09.2012;02310-3335;;[PPO] Hallenbad (SW);Punkt;15;1071
+25.09.2012;02310-3336;;[PPO] Tiefgarage, Tiefgarage unter der Erdoberflaeche;Punkt;A07;1071
+25.09.2012;02310-3337;;[PPO] Tiefgarage, Tiefgarage unter der Erdoberflaeche (SW);Punkt;15;1071
+25.09.2012;02310-3338;;[PPO] Apotheke;Punkt;15;1071
+25.09.2012;02310-3339;;[PPO] Apotheke (SW);Punkt;15;1071
+25.09.2012;02310-3340;;[PPO] Touristisches Informationszentrum;Punkt;15;1071
+25.09.2012;02310-3341;;[PPO] Touristisches Informationszentrum (SW);Punkt;15;1071
+25.09.2012;02310-3342;;[PPO] Arztpraxis;Punkt;15;1071
+25.09.2012;02310-3343;;[PPO] Bahnhof Stadtbahn, Haltestelle, Haltepunkt Stadtbahn;Punkt;15;1071
+25.09.2012;02310-3344;;[PPO] Bahnhof Stadtbahn, Haltestelle, Haltepunkt Stadtbahn (SW);Punkt;15;1071
+25.09.2012;02310-3401;;[PPO] Tankstelle;Punkt;F58;1071
+25.09.2012;02310-3402;;[PPO] Foerderanlage;Punkt;15;1071
+25.09.2012;02310-3403;;[PPO] Kraftwerk;Punkt;15;1071
+25.09.2012;02310-3404;;[PPO] Umspannstation;Punkt;15;1071
+25.09.2012;02310-3405;;[PPO] Bergbaubetrieb;Punkt;15;1071
+25.09.2012;02310-3406;;[PPO] Bergbaubetrieb ausser Betrieb, stillgelegt, verlassen;Punkt;15;1071
+25.09.2012;02310-3407;;[PPO] Tagebau, Grube, Steinbruch, Torf;Punkt;B20;1071
+25.09.2012;02310-3408;;[PPO] Schornstein, Schlott, Esse;Punkt;G12;1071
+25.09.2012;02310-3409;;[PPO] Bauwerk oder Anlage fuer Sport, Freizeit und Erholung, Sportart Skating;Punkt;15;1071
+25.09.2012;02310-3410;;[PPO] Zoo;Punkt;15;1071
+25.09.2012;02310-3411;;[PPO] Safaripark, Wildpark;Punkt;15;1071
+25.09.2012;02310-3412;;[PPO] Campinplatz;Punkt;B23;1071
+25.09.2012;02310-3413;;[PPO] Gras, Gruenanlage, Gruenflaeche, Rain;Punkt;15;1071
+25.09.2012;02310-3414;;[PPO] Gras, Gruenanlage, Gruenflaeche, Rain (SW);Punkt;15;1071
+25.09.2012;02310-3415;;[PPO] Park;Punkt;15;1071
+25.09.2012;02310-3416;;[PPO] Park (SW);Punkt;15;1071
+25.09.2012;02310-3417;;[PPO] Botanischer Garten;Punkt;15;1071
+25.09.2012;02310-3418;;[PPO] Botanischer Garten (SW);Punkt;15;1071
+25.09.2012;02310-3419;;[PPO] Kleingarten;Punkt;B42;1071
+25.09.2012;02310-3420;;[PPO] Kleingarten (SW);Punkt;15;1071
+25.09.2012;02310-3421;;[PPO] Garten, Gartenland;Punkt;B43;1071
+25.09.2012;02310-3422;;[PPO] Garten, Gartenland (SW);Punkt;15;1071
+25.09.2012;02310-3423;;[PPO] Spielplatz, Bolzplatz;Punkt;15;1071
+25.09.2012;02310-3424;;[PPO] Fussweg, Gang;Punkt;15;1071
+25.09.2012;02310-3425;;[PPO] Fussweg, Gang (SW);Punkt;15;1071
+25.09.2012;02310-3426;;[PPO] Radweg;Punkt;15;1071
+25.09.2012;02310-3427;;[PPO] Radweg (SW);Punkt;15;1071
+25.09.2012;02310-3428;;[PPO] Radweg, Fussweg;Punkt;15;1071
+25.09.2012;02310-3429;;[PPO] Radweg, Fussweg (SW);Punkt;15;1071
+25.09.2012;02310-3430;;[PPO] Reitweg;Punkt;15;1071
+25.09.2012;02310-3431;;[PPO] Reitweg (SW);Punkt;15;1071
+25.09.2012;02310-3432;;[PPO] Parkplatz;Punkt;15;1071
+25.09.2012;02310-3433;;[PPO] Parkplatz (SW);Punkt;15;1071
+25.09.2012;02310-3434;;[PPO] Rastplatz;Punkt;15;1071
+25.09.2012;02310-3435;;[PPO] Rastplatz (SW);Punkt;15;1071
+25.09.2012;02310-3436;;[PPO] Raststaette;Punkt;15;1071
+25.09.2012;02310-3437;;[PPO] Raststaette (SW);Punkt;15;1071
+25.09.2012;02310-3438;;[PPO] Hubschrauberflugplatz, Hubschrauberflugplatz im Bau;Punkt;15;1071
+25.09.2012;02310-3439;;[PPO] Segelfluggelaende, Segelfluggelaende im Bau;Punkt;15;1071
+25.09.2012;02310-3440;;[PPO] Streuobstacker, Streuobstwiese;Punkt;B25;1071
+25.09.2012;02310-3441;;[PPO] Hopfen (SW);Punkt;15;1071
+25.09.2012;02310-3442;;[PPO] Hopfen;Punkt;B33;1071
+25.09.2012;02310-3444;;[PPO] Spargel;Punkt;B34;1071
+25.09.2012;02310-3445;;[PPO] Spargel (SW);Punkt;15;1071
+25.09.2012;02310-3446;;[PPO] Baumschule (SW);Punkt;B05;1071
+25.09.2012;02310-3448;;[PPO] Weingarten;Punkt;15;1071
+25.09.2012;02310-3449;;[PPO] Weingarten (SW);Punkt;15;1071
+25.09.2012;02310-3450;;[PPO] Obstplantage;Punkt;15;1071
+25.09.2012;02310-3451;;[PPO] Obstplantage (SW);Punkt;15;1071
+25.09.2012;02310-3452;;[PPO] Obstbaumplantage (SW);Punkt;15;1071
+25.09.2012;02310-3454;;[PPO] Obstrauchplantage;Punkt;15;1071
+25.09.2012;02310-3455;;[PPO] Obstrauchplantage (SW);Punkt;15;1071
+25.09.2012;02310-3456;;[PPO] Wald;Punkt;15;1071
+25.09.2012;02310-3457;;[PPO] Wald (SW);Punkt;15;1071
+25.09.2012;02310-3458;;[PPO] Baumbestand Laubholz, Baumreihe Laub- und Nadelholz, Baumreihe Laubholz, Wald Laubholz;Punkt;15;1071
+25.09.2012;02310-3459;;[PPO])Baumbestand Laubholz, Baumreihe Laub- und Nadelholz, Baumreihe Laubholz, Wald Laubholz (SW;Punkt;15;1071
+25.09.2012;02310-3460;;[PPO] Baumbestand Nadelholz, Baumreihe Laub- und Nadelholz, Baumreihe Nadelholz, Wald Nadelholz;Punkt;15;1071
+25.09.2012;02310-3461;;[PPO](Baumbestand Nadelholz, Baumreihe Laub- und Nadelholz, Baumreihe Nadelholz, Wald Nadelholz SW);Punkt;15;1071
+25.09.2012;02310-3462;;[PPO] Baumbestand Laub-und Nadelholz, Laubwald mit Nadelholz, Nadelwald mit Laubholz, Wald Laub-und Nadelholz;Punkt;15;1071
+25.09.2012;02310-3463;;[PPO] Baumbestand Laub-und Nadelholz, Laubwald mit Nadelholz, Nadelwald mit Laubholz, Wald Laub-und Nadelholz (SW);Punkt;15;1071
+25.09.2012;02310-3464;;[PPO] Streuobstwiese (SW);Punkt;15;1071
+25.09.2012;02310-3470;;[PPO] Gehoelz, Gehoelz (Vegetationsmerkmal);Punkt;15;1071
+25.09.2012;02310-3471;;[PPO] Gehoelz, Gehoelz (Vegetationsmerkmal) (SW);Punkt;15;1071
+25.09.2012;02310-3472;;[PPO] Latschenkiefer;Punkt;15;1071
+25.09.2012;02310-3473;;[PPO] Latschenkiefer (SW);Punkt;15;1071
+25.09.2012;02310-3474;;[PPO] Heide;Punkt;15;1071
+25.09.2012;02310-3475;;[PPO] Heide (SW);Punkt;15;1071
+25.09.2012;02310-3476;;[PPO] Moor;Punkt;15;1071
+25.09.2012;02310-3477;;[PPO] Moor (SW);Punkt;15;1071
+25.09.2012;02310-3478;;[PPO] Sumpf Zustand nass;Punkt;15;1071
+25.09.2012;02310-3479;;[PPO] Sumpf Zustand nass (SW);Punkt;15;1071
+25.09.2012;02310-3480;;[PPO] Unland/Vegetationslose Flaeche, Vegetationslose Flaeche, Vegetationslose Flaeche sonstigesOberflaechenmaterial;Punkt;15;1071
+25.09.2012;02310-3481;;[PPO] Fels;Punkt;15;1071
+25.09.2012;02310-3482;;[PPO] Steine, Schotter, Wellenbrecher, Buhne;Punkt;15;1071
+25.09.2012;02310-3483;;[PPO] Geroell;Punkt;15;1071
+25.09.2012;02310-3484;;[PPO] Duene, Sand, Sandbank;Punkt;15;1071
+25.09.2012;02310-3485;;[PPO] Duene, Sand, Sandbank (SW);Punkt;15;1071
+25.09.2012;02310-3486;;[PPO] Eis, Firn, Schnee;Punkt;15;1071
+25.09.2012;02310-3487;;[PPO] Eis, Firn, Schnee (SW);Punkt;15;1071
+25.09.2012;02310-3488;;[PPO] Bach, Fleet, Fliessgewaesser, Graben ...;Punkt;15;1071
+25.09.2012;02310-3489;;[PPO] Bach, Fleet, Fliessgewaesser, Graben (SW)...;Punkt;15;1071
+25.09.2012;02310-3490;;[PPO] Hafenbecken, Meer, Priel, Gewaesser, Teich (SW)...;Punkt;15;1071
+25.09.2012;02310-3491;;[PPO] Kanal im Bau (SW);Punkt;15;1071
+25.09.2012;02310-3501;;[PPO] Windrad;Punkt;15;1071
+25.09.2012;02310-3502;;[PPO] Solarzellen;Punkt;15;1071
+25.09.2012;02310-3503;;[PPO] Wasserrad;Punkt;15;1071
+25.09.2012;02310-3504;;[PPO] Mast;Punkt;15;1071
+25.09.2012;02310-3506;;[PPO] Antenne, Funkmast;Punkt;15;1071
+25.09.2012;02310-3507;;[PPO] Radioteleskop;Punkt;15;1071
+25.09.2012;02310-3509;;[PPO] Stollenmundloch;Punkt;15;1071
+25.09.2012;02310-3510;;[PPO] Schachtoeffnung;Punkt;15;1071
+25.09.2012;02310-3511;;[PPO] Kran;Punkt;15;1071
+25.09.2012;02310-3512;;[PPO] Drehkran;Punkt;15;1071
+25.09.2012;02310-3513;;[PPO] Portalkran;Punkt;15;1071
+25.09.2012;02310-3514;;[PPO] Laufkran, Brueckenkran;Punkt;15;1071
+25.09.2012;02310-3515;;[PPO] Hochofen;Punkt;15;1071
+25.09.2012;02310-3516;;[PPO] Merkzeichen, Merkstein;Punkt;15;1071
+25.09.2012;02310-3517;;[PPO] Hydrant, Oberflurhydrant;Punkt;15;1071
+25.09.2012;02310-3518;;[PPO] Unterflurhydrant;Punkt;15;1071
+25.09.2012;02310-3519;;[PPO] Schieberkappe;Punkt;15;1071
+25.09.2012;02310-3520;;[PPO] Einsteigschacht;Punkt;15;1071
+25.09.2012;02310-3521;;[PPO] Umformer (Gebaeude und Bauwerk);Punkt;15;1071
+25.09.2012;02310-3522;;[PPO] Vorratsbehaelter, Speicherbauwerk ...;Punkt;15;1071
+25.09.2012;02310-3523;;[PPO] Pumpe;Punkt;15;1071
+25.09.2012;02310-3524;;[PPO] Schiessanlage;Punkt;15;1071
+25.09.2012;02310-3525;;[PPO] Gradierwerk;Punkt;15;1071
+25.09.2012;02310-3526;;[PPO] Grosssteingrab (Dolmen), Huehnenbett;Punkt;15;1071
+25.09.2012;02310-3527;;[PPO] Grabhuegel (Huegelgrab);Punkt;15;1071
+25.09.2012;02310-3528;;[PPO] Steinmal;Punkt;15;1071
+25.09.2012;02310-3529;;[PPO] Brunnen, Gasquelle, Mofette, Heilquelle;Punkt;15;1071
+25.09.2012;02310-3530;;[PPO] Brunnen, Gasquelle, Mofette, Heilquelle (SW);Punkt;15;1071
+25.09.2012;02310-3531;;[PPO] Kellereingang;Punkt;15;1071
+25.09.2012;02310-3532;;[PPO] Denkmal, Denkstein, Standbild;Punkt;15;1071
+25.09.2012;02310-3533;;[PPO] Bildstock, Wegekreuz, Gipfelkreuz;Punkt;15;1071
+25.09.2012;02310-3534;;[PPO] Bildstock;Punkt;15;1071
+25.09.2012;02310-3535;;[PPO] Gipfelkreuz, Wegekreuz;Punkt;15;1071
+25.09.2012;02310-3536;;[PPO] Meilenstein, historischer Grenzstein;Punkt;15;1071
+25.09.2012;02310-3537;;[PPO] Brunnen (Trinkwasserversorgung);Punkt;15;1071
+25.09.2012;02310-3538;;[PPO] Brunnen (Trinkwasserversorgung) (SW);Punkt;15;1071
+25.09.2012;02310-3539;;[PPO] Sprinbrunnen, Zierbrunnen;Punkt;15;1071
+25.09.2012;02310-3540;;[PPO] Ziehbrunnen;Punkt;15;1071
+25.09.2012;02310-3541;;[PPO] Kommunikationseinrichtung;Punkt;15;1071
+25.09.2012;02310-3542;;[PPO] Fernsprechhaeuschen RBA Punkt;Punkt;15;1071
+25.09.2012;02310-3543;;[PPO] Fernsprechhaeuschen RBA Flaeche;Punkt;15;1071
+25.09.2012;02310-3544;;[PPO] Briefkasten;Punkt;15;1071
+25.09.2012;02310-3545;;[PPO] Notrufeinrichtung;Punkt;15;1071
+25.09.2012;02310-3546;;[PPO] Feuermelder;Punkt;15;1071
+25.09.2012;02310-3547;;[PPO] Polizeirufsaeule;Punkt;15;1071
+25.09.2012;02310-3548;;[PPO] Kabelkasten, Schaltkasten;Punkt;15;1071
+25.09.2012;02310-3549;;[PPO] Verkehrszeichen;Punkt;15;1071
+25.09.2012;02310-3550;;[PPO] Verkehrsampel;Punkt;15;1071
+25.09.2012;02310-3551;;[PPO] Freistehende Hinweistafel, -zeichen;Punkt;15;1071
+25.09.2012;02310-3552;;[PPO] Wegweiser von besonderer Bedeutung;Punkt;15;1071
+25.09.2012;02310-3553;;[PPO] Freistehende Warntafel;Punkt;15;1071
+25.09.2012;02310-3554;;[PPO] Bahnhof Strassenbahn, Bushaltestelle, Haltestelle Haltepunkt Strassenbahn;Punkt;15;1071
+25.09.2012;02310-3555;;[PPO] Bahnhof Strassenbahn, Bushaltestelle, Haltestelle Haltepunkt Strassenbahn (SW);Punkt;15;1071
+25.09.2012;02310-3556;;[PPO] Kilometerstein - tafel, Markierungshinweise -steine, Ortsdurchfahrtstein;Punkt;15;1071
+25.09.2012;02310-3557;;[PPO] Laterne, Kandelaber;Punkt;15;1071
+25.09.2012;02310-3558;;[PPO] Gaslaterne;Punkt;15;1071
+25.09.2012;02310-3559;;[PPO] Laterne, elektrisch;Punkt;15;1071
+25.09.2012;02310-3560;;[PPO] Gaskandelaber;Punkt;15;1071
+25.09.2012;02310-3561;;[PPO] Kandelaber, elektrisch;Punkt;15;1071
+25.09.2012;02310-3562;;[PPO] Haengende Lampe;Punkt;15;1071
+25.09.2012;02310-3563;;[PPO] Saeule, Werbeflaeche;Punkt;15;1071
+25.09.2012;02310-3564;;[PPO] Lichtsauele;Punkt;15;1071
+25.09.2012;02310-3565;;[PPO] Fahnenmast;Punkt;15;1071
+25.09.2012;02310-3566;;[PPO] Strassensinkkasten;Punkt;15;1071
+25.09.2012;02310-3567;;[PPO] Muellbox;Punkt;15;1071
+25.09.2012;02310-3568;;[PPO] Kehrichtgrube;Punkt;15;1071
+25.09.2012;02310-3569;;[PPO] Uhr;Punkt;15;1071
+25.09.2012;02310-3570;;[PPO] Richtscheinwerfer;Punkt;15;1071
+25.09.2012;02310-3571;;[PPO] Flutlichtmast;Punkt;15;1071
+25.09.2012;02310-3572;;[PPO] Brueckenpfeiler;Punkt;15;1071
+25.09.2012;02310-3573;;[PPO] Anflugbefeuerung;Punkt;15;1071
+25.09.2012;02310-3574;;[PPO] Bezeichnung (Nummer von einem Autobahnknoten);Punkt;15;1071
+25.09.2012;02310-3575;;[PPO] Bezeichnung (Nummer von einem Autobahnknoten) (SW);Punkt;15;1071
+25.09.2012;02310-3576;;[PPO] Skaterstrecke;Punkt;15;1071
+25.09.2012;02310-3577;;[PPO] Skaterstrecke (SW);Punkt;15;1071
+25.09.2012;02310-3578;;[PPO] Haltepunkt, Haltestelle ...;Punkt;15;1071
+25.09.2012;02310-3579;;[PPO] Rohrleitung, Pipline ...;Punkt;15;1071
+25.09.2012;02310-3580;;[PPO] Zaun;Punkt;15;1071
+25.09.2012;02310-3583;;[PPO] Tafel an Gewaessern;Punkt;15;1071
+25.09.2012;02310-3584;;[PPO] Pricke;Punkt;15;1071
+25.09.2012;02310-3585;;[PPO] Foerderband, Bandstrasse ...;Punkt;15;1071
+25.09.2012;02310-3586;;[PPO] Bahnuebergang, Schranke;Punkt;15;1071
+25.09.2012;02310-3587;;[PPO] Drehscheibe;Punkt;15;1071
+25.09.2012;02310-3588;;[PPO] Hubschrauberlandeplatz;Punkt;15;1071
+25.09.2012;02310-3589;;[PPO] Bake;Punkt;15;1071
+25.09.2012;02310-3590;;[PPO] Leuchtfeuer;Punkt;15;1071
+25.09.2012;02310-3591;;[PPO] Leuchtfeuer (SW);Punkt;15;1071
+25.09.2012;02310-3592;;[PPO] Sicherheitstor;Punkt;15;1071
+25.09.2012;02310-3593;;[PPO] Sperrwerk;Punkt;15;1071
+25.09.2012;02310-3594;;[PPO] Schoepfwerk;Punkt;15;1071
+25.09.2012;02310-3595;;[PPO] Fischtreppe;Punkt;15;1071
+25.09.2012;02310-3596;;[PPO] Pegel;Punkt;15;1071
+25.09.2012;02310-3597;;[PPO] Nadelbaum;Punkt;15;1071
+25.09.2012;02310-3598;;[PPO] Nadelbaum (SW);Punkt;15;1071
+25.09.2012;02310-3599;;[PPO] Laubbaum;Punkt;15;1071
+25.09.2012;02310-3600;;[PPO] Laubbaum (SW);Punkt;15;1071
+25.09.2012;02310-3601;;[PPO] Gebuesch, Graben, Hecke ...;Punkt;15;1071
+25.09.2012;02310-3602;;[PPO] Gebuesch, Graben, Hecke (SW)...;Punkt;15;1071
+25.09.2012;02310-3603;;[PPO] Roehricht, Schilf;Punkt;15;1071
+25.09.2012;02310-3604;;[PPO] Roehricht, Schilf (SW);Punkt;15;1071
+25.09.2012;02310-3605;;[PPO] Zierflaeche;Punkt;15;1071
+25.09.2012;02310-3606;;[PPO] Zierflaeche (SW);Punkt;15;1071
+25.09.2012;02310-3607;;[PPO] Korbweide;Punkt;15;1071
+25.09.2012;02310-3608;;[PPO] Korbweide (SW);Punkt;15;1071
+25.09.2012;02310-3609;;[PPO] Reet;Punkt;15;1071
+25.09.2012;02310-3610;;[PPO] Reet (SW);Punkt;15;1071
+25.09.2012;02310-3613;;[PPO] Quelle;Punkt;15;1071
+25.09.2012;02310-3614;;[PPO] Quelle (SW);Punkt;15;1071
+25.09.2012;02310-3615;;[PPO] Wasserfall;Punkt;15;1071
+25.09.2012;02310-3616;;[PPO] Wasserfall (SW);Punkt;15;1071
+25.09.2012;02310-3617;;[PPO] Stromschnelle;Punkt;15;1071
+25.09.2012;02310-3618;;[PPO] Stromschnelle (SW);Punkt;15;1071
+25.09.2012;02310-3619;;[PPO] Bach, Fleet, Graben verdolt/verohrt...;Punkt;15;1071
+25.09.2012;02310-3620;;[PPO] Bach, Fleet, Graben verdolt/verohrt (SW)...;Punkt;15;1071
+25.09.2012;02310-3621;;[PPO] Bach, Fleet, Graben nicht staendig Wasser fuehrend ...;Punkt;15;1071
+25.09.2012;02310-3622;;[PPO] Bach, Fleet, Graben nicht staendig Wasser fuehrend (SW) ...;Punkt;15;1071
+25.09.2012;02310-3623;;[PPO] Hoehe des Wasserspiegels;Punkt;15;1071
+25.09.2012;02310-3624;;[PPO] Hoehe des Wasserspiegels (SW);Punkt;15;1071
+25.09.2012;02310-3625;;[PPO] Hoehleneingang;Punkt;15;1071
+25.09.2012;02310-3626;;[PPO] Hoehleneingang (SW);Punkt;15;1071
+25.09.2012;02310-3627;;[PPO] Felsen, Felsblock, Felsnadel RBA Punkt und Flaeche;Punkt;15;1071
+25.09.2012;02310-3628;;[PPO] Felsen, Felsblock, Felsnadel RBA Punkt und Flaeche (SW);Punkt;15;1071
+25.09.2012;02310-3629;;[PPO] Besonderer topographischer Punkt;Punkt;15;1071
+25.09.2012;02310-3630;;[PPO] Besonderer topographischer Punkt (SW);Punkt;15;1071
+25.09.2012;02310-3631;;[PPO] Flurbereinigung, Sanierung, Umlegung;Punkt;15;1071
+25.09.2012;02310-3632;;[PPO] Damm, Wall, Deich, Graben ...;Punkt;15;1071
+25.09.2012;02310-3633;;[PPO] Damm, Wall, Deich, Graben (SW) ...;Punkt;15;1071
+25.09.2012;02310-3634;;[PPO] Felsen, Felsblock, Felsnadel RBA Linie;Punkt;15;1071
+25.09.2012;02310-3635;;[PPO] Felsen, Felsblock, Felsnadel RBA Linie (SW);Punkt;15;1071
+25.09.2012;02310-3636;;[PPO] Hoeckerlinie;Punkt;15;1071
+25.09.2012;02310-3637;;[PPO] Steg;Punkt;15;1071
+25.09.2012;02310-3639;;[PPO] Spundwand;Punkt;15;1071
+25.09.2012;02310-3640;;[PPO] Sonstige Einrichtung fuer den Schiffsverkehr;Punkt;15;1071
+25.09.2012;02310-3641;;[PPO] Grabloch, Bodenzahl oder Gruenlandgrundzahl;Punkt;15;1071
+25.09.2012;02310-3642;;[PPO] Luftseilbahn, Grosskabinenbahn, Kabinenbahn, Umlaufseilbahn;Punkt;15;1071
+25.09.2012;02310-3643;;[PPO] Sessellift, Ski- und Schlepplift;Punkt;15;1071
+25.09.2012;02310-3645;;[PPO] Materialseilbahn;Punkt;15;1071
+25.09.2012;02310-3646;;[PPO] Strassenbahn, Gleis ...;Punkt;15;1071
+25.09.2012;02310-3647;;[PPO] Bergbahn, Seilbahn, Gleis, Zahnradbahn ...;Punkt;15;1071
+25.09.2012;02310-3648;;[PPO] Standseilbahn, Gleis ...;Punkt;15;1071
+25.09.2012;02310-3649;;[PPO] Magnetschwebebahn, Gleis ...;Punkt;15;1071
+25.09.2012;02310-3650;;[PPO] Wehr;Punkt;15;1071
+25.09.2012;02310-3651;;[PPO] Wasserfall;Punkt;15;1071
+25.09.2012;02310-3652;;[PPO] Wasserfall (SW);Punkt;15;1071
+25.09.2012;02310-3653;;[PPO] Wehr RBA Flaeche;Punkt;15;1071
+25.09.2012;02310-3701;;[PPO] Ueberhacken der Bodenschaetzung;Punkt;15;1071
+25.09.2012;02310-3702;;[PPO] Ueberhacken der Bodenschaetzung (SW);Punkt;15;1071
+25.09.2012;02310-3703;;[PPO] Grabloch ...;Punkt;15;1071
+25.09.2012;02310-3704;;[PPO] Grabloch (SW)...;Punkt;15;1071
+25.09.2012;02310-3705;;[PPO] Grabloch, nicht lagerichtig, im Abschnitt nicht vorhanden;Punkt;15;1071
+25.09.2012;02310-3706;;[PPO] Grabloch, nicht lagerichtig, im Abschnitt nicht vorhanden (SW);Punkt;15;1071
+25.09.2012;02310-3707;;[PPO] Landesmusterstueck, Musterstueck, Vergleichsstueck;Punkt;15;1071
+25.09.2012;02310-3708;;[PPO] Landesmusterstueck, Musterstueck, Vergleichsstueck (SW);Punkt;15;1071
+25.09.2012;02310-3709;;[PPO] Grabloch, bestimmend, lagerichtig (ausserhalb des Abschnitts);Punkt;15;1071
+25.09.2012;02310-3710;;[PPO] Grabloch, bestimmend, lagerichtig (ausserhalb des Abschnitts) (SW);Punkt;15;1071
+25.09.2012;02320-0000;;[LPO] Praesentationsobjekt Linie;Linie;0;1072
+25.09.2012;02320-2001;;[LPO] Seilbahn, Schwebebahn, Lift ...;Linie;0;1072
+25.09.2012;02320-2002;;[LPO] Bahnuebergang, Schranke, Rohrleitung ...;Linie;0;1072
+25.09.2012;02320-2003;;[LPO] Damm, Wall, Deich (SW) ... ;Linie;0;1072
+25.09.2012;02320-2004;;[LPO] Zuordnungspfeil;Linie;0;1072
+25.09.2012;02320-2005;;[LPO] Zuordnungspfeil, abweichender Rechtszustand ;Linie;0;1072
+25.09.2012;02320-2006;;[LPO] Strittige Grenze ;Linie;0;1072
+25.09.2012;02320-2007;;[LPO] Strittige Grenze, abweichender Rechtszustand ;Linie;0;1072
+25.09.2012;02320-2008;;[LPO] Flurstuecksgrenze nicht feststellbar ... ;Linie;0;1072
+25.09.2012;02320-2009;;[LPO] Flurstuecksgrenze nicht feststellbar, abweichender Rechtszustand ... ;Linie;0;1072
+25.09.2012;02320-2010;;[LPO] Grenze des Landkreises, Grenze der Region ;Linie;0;1072
+25.09.2012;02320-2011;;[LPO] Grenze des Landkreises, Grenze der Region (SW) ;Linie;0;1072
+25.09.2012;02320-2012;;[LPO] Grenze der Flur ;Linie;13;1072
+25.09.2012;02320-2013;;[LPO] Grenze der Flur (SW) ;Linie;13;1072
+25.09.2012;02320-2014;;[LPO] Grenze der Gemarkung ;Linie;12;1072
+25.09.2012;02320-2015;;[LPO] Grenze der Gemarkung (SW) ;Linie;12;1072
+25.09.2012;02320-2016;;[LPO] Grenze der Bundesrepublik Deutschland ;Linie;7;1072
+25.09.2012;02320-2017;;[LPO] Grenze der Bundesrepublik Deutschland (SW) ;Linie;7;1072
+25.09.2012;02320-2018;;[LPO] Grenze des Bundeslandes ;Linie;8;1072
+25.09.2012;02320-2019;;[LPO] Grenze des Bundeslandes (SW) ;Linie;8;1072
+25.09.2012;02320-2020;;[LPO] Grenze des Regierungsbezirkes ;Linie;9;1072
+25.09.2012;02320-2021;;[LPO] Grenze des Regierungsbezirkes (SW) ;Linie;9;1072
+25.09.2012;02320-2022;;[LPO] Grenze der Gemeinde ;Linie;11;1072
+25.09.2012;02320-2023;;[LPO] Grenze der Gemeinde (SW) ;Linie;11;1072
+25.09.2012;02320-2024;;[LPO] Grenze des Gemeindeteils ;Linie;0;1072
+25.09.2012;02320-2025;;[LPO] Grenze des Gemeindeteils (SW) ;Linie;0;1072
+25.09.2012;02320-2026;;[LPO] Grenze der Verwaltungsgemeinschaft ;Linie;0;1072
+25.09.2012;02320-2027;;[LPO] Grenze der Verwaltungsgemeinschaft (SW) ;Linie;0;1072
+25.09.2012;02320-2028;;[LPO] Flurstueck ;Linie;0;1072
+25.09.2012;02320-2029;;[LPO] Flurstueck, abweichender Rechtszustand ;Linie;0;1072
+25.09.2012;02320-2030;;[LPO] Gebaeude nach Quellenlage nicht zu spezifizieren ... ;Linie;0;1072
+25.09.2012;02320-2031;;[LPO] Gebaeude nach Quellenlage nicht zu spezifizieren, aufgestaendert ... ;Linie;0;1072
+25.09.2012;02320-2032;;[LPO] Gebaeude nach Quellenlage nicht zu spezifizieren, unter der Erdoberflaeche ... ;Linie;0;1072
+25.09.2012;02320-2300;;[LPO] Bahn, Gleis unter der Erdoberflaeche ... ;Linie;0;1072
+25.09.2012;02320-2301;;[LPO] Bahn, Gleis aufgestaendert ... ;Linie;0;1072
+25.09.2012;02320-2304;;[LPO] Faehre, Schifffahrtslinie (SW) ;Linie;0;1072
+25.09.2012;02320-2305;;[LPO] Bach, Fleet, Graben (SW) ... ;Linie;0;1072
+25.09.2012;02320-2504;;[LPO] Bandstrasse, Foerderband unter der Erdoberflaeche/Wasserflaeche ;Linie;0;1072
+25.09.2012;02320-2505;;[LPO] Gebaeude nach Quellenlage nicht zu spezifizieren ... ;Linie;0;1072
+25.09.2012;02320-2506;;[LPO] Bach, Durchlass, Graben verdolt/unterirdisch/bedeckt (SW) ... ;Linie;0;1072
+25.09.2012;02320-2510;;[LPO] Mauer ... ;Linie;0;1072
+25.09.2012;02320-2512;;[LPO] Keller, Tiefgarage unter der Erdoberflaeche ;Linie;0;1072
+25.09.2012;02320-2513;;[LPO] Schornstein im Gebaeude ;Linie;0;1072
+25.09.2012;02320-2514;;[LPO] Turm im Gebaeude ;Linie;0;1072
+25.09.2012;02320-2515;;[LPO] Flaechen, Ackerland, Brachland ... ;Linie;0;1072
+25.09.2012;02320-2516;;[LPO] Bahnverkehr, Flugverkehr, Strassenverkehr im Bau ... ;Linie;0;1072
+25.09.2012;02320-2517;;[LPO] Gehoelz, Wald, Laub und Nadelwald ... ;Linie;0;1072
+25.09.2012;02320-2518;;[LPO] Fliessgewaesser, Meer, Schnee ... ;Linie;0;1072
+25.09.2012;02320-2519;;[LPO] Kanal im Bau ;Linie;0;1072
+25.09.2012;02320-2520;;[LPO] Stehendes Gewaesser, nicht staendig Wasser fuehrend ;Linie;0;1072
+25.09.2012;02320-2521;;[LPO] Foerderband, Bandstrasse, Tor ;Linie;0;1072
+25.09.2012;02320-2522;;[LPO] Foerderband, Bandstrasse, Tor (SW) ;Linie;0;1072
+25.09.2012;02320-2523;;[LPO] Erdkabel, Rohrleitung, Pipeline unter der Wasseroberflaeche ;Linie;0;1072
+25.09.2012;02320-2524;;[LPO] Freileitung ;Linie;0;1072
+25.09.2012;02320-2525;;[LPO] Bahn, Gleis, Farbahnbegrenzungslinie ... ;Linie;0;1072
+25.09.2012;02320-2526;;[LPO] Sicherheitstor ;Linie;0;1072
+25.09.2012;02320-2530;;[LPO] Steg ;Linie;0;1072
+25.09.2012;02320-2531;;[LPO] Boeschung, Kliff, Gelaendekante (SW)... ;Linie;0;1072
+25.09.2012;02320-2532;;[LPO] Gelaendekante, unsichere Ober-Unterkante ;Linie;0;1072
+25.09.2012;02320-2533;;[LPO] Widerlager ;Linie;0;1072
+25.09.2012;02320-2534;;[LPO] Steilrand, Kliffkante (SW) ;Linie;0;1072
+25.09.2012;02320-2535;;[LPO] Weg, Pfad, Steig ... ;Linie;0;1072
+25.09.2012;02320-2536;;[LPO] Weg, Pfad, Steig (SW)... ;Linie;0;1072
+25.09.2012;02320-2537;;[LPO] Wattenweg ;Linie;0;1072
+25.09.2012;02320-2538;;[LPO] Wattenweg (SW) ;Linie;0;1072
+25.09.2012;02320-2539;;[LPO] (Kletter-) Steig im Gebirge (SW) ;Linie;0;1072
+25.09.2012;02320-2560;;[LPO] Bach, Fleet, Graben verdolt/verrohrt, unterirdisch bedeckt ... ;Linie;0;1072
+25.09.2012;02320-2561;;[LPO] Dueker (SW) ;Linie;0;1072
+25.09.2012;02320-2592;;[LPO] Bach, Fleet, Graben ... ;Linie;0;1072
+25.09.2012;02320-2593;;[LPO] Bach, Fleet, Graben nicht staendig Wasser fuehrend ... ;Linie;0;1072
+25.09.2012;02320-2594;;[LPO] Bach, Fleet, Graben nicht staendig Wasser fuehrend (SW) ... ;Linie;0;1072
+25.09.2012;02320-2595;;[LPO] Bach, Fleet, Graben trocken, versiegt ... ;Linie;0;1072
+25.09.2012;02320-2596;;[LPO] Bach, Fleet, Graben trocken, versiegt (SW)... ;Linie;0;1072
+25.09.2012;02320-2609;;[LPO] Autofaehrverkehr, Eisenbahnfaehrverkehr, Personenfaehrverkehr ... ;Linie;0;1072
+25.09.2012;02320-2620;;[LPO] Boeschung, Kliff, Damm ... ;Linie;0;1072
+25.09.2012;02320-2621;;[LPO] Gelaendekante, unsichere Ober- Unterkante ;Linie;0;1072
+25.09.2012;02320-2622;;[LPO] Steilrand, Kliffkante ;Linie;0;1072
+25.09.2012;02320-2623;;[LPO] Gebaeude, nach Quellenlage nicht zu spezifizieren ... ;Linie;0;1072
+25.09.2012;02320-2670;;[LPO] Hoehenlinie 20m ;Linie;0;1072
+25.09.2012;02320-2671;;[LPO] Hoehenlinie 20m (SW) ;Linie;0;1072
+25.09.2012;02320-2672;;[LPO] Hoehenlinie 10m ;Linie;0;1072
+25.09.2012;02320-2673;;[LPO] Hoehenlinie 10m (SW) ;Linie;0;1072
+25.09.2012;02320-2674;;[LPO] Hoehenlinie 5m ;Linie;0;1072
+25.09.2012;02320-2675;;[LPO] Hoehenlinie 5m (SW) ;Linie;0;1072
+25.09.2012;02320-2676;;[LPO] Hoehenlinie 2,5m ;Linie;0;1072
+25.09.2012;02320-2677;;[LPO] Hoehenlinie 2,5m (SW) ;Linie;0;1072
+25.09.2012;02320-2678;;[LPO] Hoehenlinie 1m ;Linie;0;1072
+25.09.2012;02320-2679;;[LPO] Hoehenlinie 1m (SW) ;Linie;0;1072
+25.09.2012;02320-2680;;[LPO] Hoehenlinie 0,5m / 0,25m (SW) ;Linie;0;1072
+25.09.2012;02342-0000;;[LPO] Praesentationsobjekt Linie;Linie;0;1072
+25.09.2012;11002-2002;;Verwaltungsstreitverfahren (Grenze);Linie;0;1010
+25.09.2012;11002-2003;;Mittellinie in Gewaessern;Linie;I37;1010
+25.09.2012;11002-2100;;Topographische Gewaesserbegrenzung;Linie;H15;1010
+25.09.2012;11002-2500;;Grenze der Region;Linie;0;1010
+25.09.2012;11002-7108;;Grenze der Verwaltungsgemeinschaft;Linie;0;1010
+25.09.2012;11003-1000;;Marke, allgemein;Punkt;a05;1010
+25.09.2012;11003-1100;;Stein;Punkt;a05;1010
+25.09.2012;11003-1110;;Stein, Grenzstein;Punkt;a05;1010
+25.09.2012;11003-1140;;Kunststoffmarke;Punkt;a05;1010
+25.09.2012;11003-1160;;Landesgrenzstein;Punkt;a05;1010
+25.09.2012;11003-1170;;Kilometerstein;Punkt;a05;1010
+25.09.2012;11003-1190;;Stein mit Besonderheiten in Form oder Material;Punkt;a05;1010
+25.09.2012;11003-1200;;Rohr;Punkt;a05;1010
+25.09.2012;11003-1201;;Rohr mit Schutzkappe;Punkt;a05;1010
+25.09.2012;11003-1220;;Kunststoffrohr;Punkt;a05;1010
+25.09.2012;11003-1221;;Kunststoffrohr (mit Schutzkappe);Punkt;a05;1010
+25.09.2012;11003-1230;;Drainrohr;Punkt;a05;1010
+25.09.2012;11003-1240;;Rohr mit Schutzkasten;Punkt;a05;1010
+25.09.2012;11003-1250;;Zementrohr;Punkt;a05;1010
+25.09.2012;11003-1260;;Glasrohr;Punkt;a05;1010
+25.09.2012;11003-1290;;Tonrohr;Punkt;a05;1010
+25.09.2012;11003-1300;;Bolzen/Nagel;Punkt;a05;1010
+25.09.2012;11003-1310;;Bolzen;Punkt;a05;1010
+25.09.2012;11003-1320;;Nagel;Punkt;a05;1010
+25.09.2012;11003-1400;;Meisselzeichen (z. B. Kreuz, Kerbe, Anker);Punkt;a05;1010
+25.09.2012;11003-1500;;Pfahl;Punkt;a05;1010
+25.09.2012;11003-1600;;Sonstige Marke;Punkt;a05;1010
+25.09.2012;11003-1610;;Marke in Schutzbehaelter;Punkt;a05;1010
+25.09.2012;11003-1620;;Flasche;Punkt;a05;1010
+25.09.2012;11003-1630;;Platte;Punkt;a05;1010
+25.09.2012;11003-1635;;Platte mit Loch;Punkt;a05;1010
+25.09.2012;11003-1640;;Hohlziegel;Punkt;a05;1010
+25.09.2012;11003-1650;;Klebemarke;Punkt;a05;1010
+25.09.2012;11003-1700;;Punkt dauerhaft und gut erkennbar festgelegt;Punkt;a05;1010
+25.09.2012;11003-1720;;Grenzsaeule;Punkt;a05;1010
+25.09.2012;12001-0000;;LagebezeichnungOhneHausnummer;Text;1;1011
+25.09.2012;12002-0000;;LagebezeichnungMitHausnummer;Text;1;1011
+25.09.2012;12003-0000;;LagebezeichnungMitPseudonummer;Text;1;1099
+25.09.2012;19001-0000;;Lagefestpunkt;Text;1;1200
+25.09.2012;19002-0000;;Hoehenfestpunkt;Text;1;1200
+25.09.2012;31001-0000;;Gebaeude;Text;1;1011
+08.03.2013;31001-0000;;Gebaeude;Linie;0;1011
+25.09.2012;31001-1000;;Wohnen (allgemein);Linie;H64;1011
+25.09.2012;31001-1020;;Wohnheim;Linie;H64;1011
+25.09.2012;31001-1021;;Kinderheim;Linie;H64;1011
+25.09.2012;31001-1022;;Seniorenwohnhaus, Seniorenheim;Linie;H64;1011
+25.09.2012;31001-1023;;Schwesternwohnheim;Linie;H64;1011
+25.09.2012;31001-1024;;Studenten-, Schuelerwohnheim;Linie;H64;1011
+25.09.2012;31001-1025;;Schullandheim;Linie;H64;1011
+25.09.2012;31001-1100;;Gemischt genutztes Gebaeude mit Wohnen;Linie;H64;1011
+25.09.2012;31001-1110;;Wohnen mit Gemeinbedarf;Linie;H64;1011
+25.09.2012;31001-1120;;Wohnen mit Handel und Dienstleistungen;Linie;H64;1011
+25.09.2012;31001-1121;;Wohnen und Verwaltung;Linie;H64;1011
+25.09.2012;31001-1122;;Wohn- und Buerogebaeude;Linie;H64;1011
+25.09.2012;31001-1123;;Wohn- und Geschaeftsgebaeude;Linie;H64;1011
+25.09.2012;31001-1130;;Wohnen mit Gewerbe und Industrie;Linie;H64;1011
+25.09.2012;31001-1131;;Wohn- und Betriebsgebaeude;Linie;H64;1011
+25.09.2012;31001-1210;;Land- und forstwirtschaftliches Wohngebaeude;Linie;H64;1011
+25.09.2012;31001-1220;;Land- und forstwirtschaftliches Wohn- und Betriebsgebaeude;Linie;H64;1011
+25.09.2012;31001-1221;;Bauernhaus;Linie;H64;1011
+25.09.2012;31001-1222;;Wohn- und Wirtschaftsgebaeude;Linie;H64;1011
+25.09.2012;31001-1223;;Forsthaus;Linie;H64;1011
+25.09.2012;31001-1310;;Freizeit;Linie;H64;1011
+25.09.2012;31001-1311;;Ferienhaus;Linie;H64;1011
+25.09.2012;31001-1312;;Wochenendhaus;Linie;H64;1011
+25.09.2012;31001-1313;;Gartenhaus;Linie;H64;1011
+25.09.2012;31001-2000;;Wirtschaft oder Gewerbe (allgemein);Linie;H64;1011
+25.09.2012;31001-2010;;Handel und Dienstleistungen;Linie;H64;1011
+25.09.2012;31001-2020;;Verwaltungs-, Buerogebaeude;Linie;H64;1011
+25.09.2012;31001-2030;;Kreditinstitut, Bank;Linie;H64;1011
+25.09.2012;31001-2040;;Versicherung;Linie;H64;1011
+25.09.2012;31001-2050;;Handel, Geschaeft;Linie;H64;1011
+25.09.2012;31001-2051;;Kaufhaus;Linie;H64;1011
+25.09.2012;31001-2052;;Einkaufszentrum;Linie;H64;1011
+25.09.2012;31001-2053;;Markthalle;Linie;H64;1011
+25.09.2012;31001-2054;;Laden;Linie;H64;1011
+25.09.2012;31001-2055;;Kiosk;Linie;H64;1011
+25.09.2012;31001-2056;;Apotheke;Linie;H64;1011
+25.09.2012;31001-2060;;Messe, Ausstellung;Linie;H64;1011
+25.09.2012;31001-2070;;Beherbergung;Linie;H64;1011
+25.09.2012;31001-2071;;Hotel, Motel, Pension;Linie;H64;1011
+25.09.2012;31001-2072;;Jugendherberge;Linie;H65;1011
+25.09.2012;31001-2074;;Campingplatz;Linie;H65;1011
+25.09.2012;31001-2080;;Restauration;Linie;H65;1011
+25.09.2012;31001-2081;;Gaststaette, Restaurant;Linie;H65;1011
+25.09.2012;31001-2082;;Huette (ohne UEbernachtungsmoeglichkeit);Linie;H64;1011
+25.09.2012;31001-2083;;Kantine;Linie;H64;1011
+25.09.2012;31001-2090;;Freizeit- und Vergnuegungsstaette;Linie;H65;1011
+25.09.2012;31001-2091;;Festsaal;Linie;H65;1011
+25.09.2012;31001-2092;;Kino;Linie;H65;1011
+25.09.2012;31001-2093;;Kegel-, Bowlinghalle;Linie;H65;1011
+25.09.2012;31001-2094;;Spielkasino;Linie;H65;1011
+25.09.2012;31001-2100;;Gewerbe und Industrie (allgemein);Linie;H65;1011
+25.09.2012;31001-2110;;Produktion;Linie;H65;1011
+25.09.2012;31001-2111;;Fabrik;Linie;H65;1011
+25.09.2012;31001-2112;;Betrieb;Linie;H65;1011
+25.09.2012;31001-2120;;Werkstatt;Linie;H65;1011
+25.09.2012;31001-2130;;Tankstelle;Linie;H65;1011
+25.09.2012;31001-2140;;Lager;Linie;H65;1011
+25.09.2012;31001-2141;;Kuehlhaus;Linie;H65;1011
+25.09.2012;31001-2142;;Speicher;Linie;H65;1011
+25.09.2012;31001-2143;;Lagerhalle, Lagerschuppen, Lagerhaus;Linie;H65;1011
+25.09.2012;31001-2150;;Transport;Linie;H65;1011
+25.09.2012;31001-2160;;Forschung;Linie;H65;1011
+25.09.2012;31001-2170;;Grundstoffgewinnung;Linie;H65;1011
+25.09.2012;31001-2171;;Bergwerk;Linie;H65;1011
+25.09.2012;31001-2172;;Saline;Linie;H65;1011
+25.09.2012;31001-2180;;Betriebliche Sozialeinrichtung;Linie;H65;1011
+25.09.2012;31001-2200;;Sonstiges Gebaeude fuer Gewerbe und Industrie;Linie;H65;1011
+25.09.2012;31001-2210;;Muehle;Linie;H65;1011
+25.09.2012;31001-2211;;Windmuehle;Linie;H65;1011
+25.09.2012;31001-2212;;Wassermuehle;Linie;H65;1011
+25.09.2012;31001-2213;;Schoepfwerk;Linie;H65;1011
+25.09.2012;31001-2220;;Wetterstation;Linie;H65;1011
+25.09.2012;31001-2310;;Handel und Dienstleistung mit Wohnen;Linie;H65;1011
+25.09.2012;31001-2320;;Gewerbe und Industrie mit Wohnen;Linie;H65;1011
+25.09.2012;31001-2400;;Betriebsgebaeude zu Verkehrsanlagen (allgemein);Linie;H65;1011
+25.09.2012;31001-2410;;Strass¸enverkehr;Linie;H65;1011
+25.09.2012;31001-2411;;Strass¸enmeisterei;Linie;H65;1011
+25.09.2012;31001-2412;;Wartehalle;Linie;H65;1011
+25.09.2012;31001-2420;;Schienenverkehr;Linie;H65;1011
+25.09.2012;31001-2421;;Bahnwaerterhaus;Linie;H65;1011
+25.09.2012;31001-2422;;Lokschuppen, Wagenhalle;Linie;H65;1011
+25.09.2012;31001-2423;;Stellwerk, Blockstelle;Linie;H65;1011
+25.09.2012;31001-2424;;Gueterbahnhof;Linie;H65;1011
+25.09.2012;31001-2430;;Luftfahrt;Linie;H65;1011
+25.09.2012;31001-2431;;Flugzeughalle;Linie;H65;1011
+25.09.2012;31001-2440;;Schifffahrt;Linie;H65;1011
+25.09.2012;31001-2441;;Werft (Halle);Linie;H65;1011
+25.09.2012;31001-2442;;Dock (Halle);Linie;H65;1011
+25.09.2012;31001-2443;;Schleuse;Linie;H65;1011
+25.09.2012;31001-2444;;Bootshaus;Linie;H65;1011
+25.09.2012;31001-2450;;Seilbahn;Linie;H65;1011
+25.09.2012;31001-2451;;Drahtseilbahn (Spannwerk);Linie;H65;1011
+25.09.2012;31001-2460;;Parken;Linie;H65;1011
+25.09.2012;31001-2461;;Parkhaus;Linie;H65;1011
+25.09.2012;31001-2462;;Parkdeck;Linie;H65;1011
+25.09.2012;31001-2463;;Garage;Linie;H65;1011
+25.09.2012;31001-2464;;Fahrzeughalle;Linie;H65;1011
+25.09.2012;31001-2465;;Tiefgarage;Linie;H65;1011
+25.09.2012;31001-2500;;Versorgung (allgemein);Linie;H65;1011
+25.09.2012;31001-2501;;Energieversorgung;Linie;H65;1011
+25.09.2012;31001-2510;;Wasserversorgung;Linie;H65;1011
+25.09.2012;31001-2511;;Wasserwerk;Linie;H65;1011
+25.09.2012;31001-2512;;Pumpstation;Linie;H65;1011
+25.09.2012;31001-2513;;Wasserbehaelter;Linie;H65;1011
+25.09.2012;31001-2520;;Elektrizitaetsversorgung;Linie;H65;1011
+25.09.2012;31001-2521;;Elektrizitaetswerk;Linie;H65;1011
+25.09.2012;31001-2522;;Umspannwerk;Linie;H65;1011
+25.09.2012;31001-2523;;Umformer;Linie;H65;1011
+25.09.2012;31001-2527;;Reaktor;Linie;H65;1011
+25.09.2012;31001-2528;;Turbinenhaus;Linie;H65;1011
+25.09.2012;31001-2540;;Funk- und Fernmeldewesen;Linie;H65;1011
+25.09.2012;31001-2560;;Oberirdisches Gebaeude an unterirdischen Leitungen;Linie;H65;1011
+25.09.2012;31001-2570;;Gasversorgung;Linie;H65;1011
+25.09.2012;31001-2571;;Gaswerk;Linie;H65;1011
+25.09.2012;31001-2580;;Heizwerk;Linie;H65;1011
+25.09.2012;31001-2590;;Versorgungsanlage;Linie;H65;1011
+25.09.2012;31001-2591;;Pumpwerk (nicht fuer Wasserversorgung);Linie;H65;1011
+25.09.2012;31001-2600;;Entsorgung (allgemein);Linie;H65;1011
+25.09.2012;31001-2610;;Abwasserbeseitigung;Linie;H65;1011
+25.09.2012;31001-2611;;Klaeranlage;Linie;H65;1011
+25.09.2012;31001-2612;;Toilette;Linie;H65;1011
+25.09.2012;31001-2620;;Abfallbehandlung;Linie;H65;1011
+25.09.2012;31001-2621;;Abfallagerung;Linie;H65;1011
+25.09.2012;31001-2622;;Muellverbrennungsanlage;Linie;H65;1011
+25.09.2012;31001-2623;;Abfalldeponie;Linie;H65;1011
+25.09.2012;31001-2700;;Land- und Forstwirtschaft (allgemein);Linie;H65;1011
+25.09.2012;31001-2720;;Land- und forstwirtschaftliches Betriebsgebaeude;Linie;H65;1011
+25.09.2012;31001-2721;;Scheune;Linie;H65;1011
+25.09.2012;31001-2723;;Schuppen;Linie;H65;1011
+25.09.2012;31001-2724;;Stall;Linie;H65;1011
+25.09.2012;31001-2726;;Scheune und Stall;Linie;H65;1011
+25.09.2012;31001-2727;;Tiergross¸haltung;Linie;H65;1011
+25.09.2012;31001-2728;;Reithalle;Linie;H65;1011
+25.09.2012;31001-2729;;Wirtschaftsgebaeude;Linie;H65;1011
+25.09.2012;31001-2732;;Almhuette;Linie;H65;1011
+25.09.2012;31001-2735;;Jagdhaus, Jagdhuette;Linie;H65;1011
+25.09.2012;31001-2740;;Gewaechshaus;Linie;H65;1011
+25.09.2012;31001-2741;;Gewaechs-, Treibhaus;Linie;H65;1011
+25.09.2012;31001-2742;;Auf Schienen verschiebbares Gewaechshaus;Linie;H65;1011
+25.09.2012;31001-3000;;Gemeinwesen (allgemein);Linie;H65;1011
+25.09.2012;31001-3010;;Verwaltung;Linie;H65;1011
+25.09.2012;31001-3011;;Parlament;Linie;H65;1011
+25.09.2012;31001-3012;;Rathaus;Linie;H65;1011
+25.09.2012;31001-3013;;Post;Linie;H65;1011
+25.09.2012;31001-3014;;Zollamt;Linie;H65;1011
+25.09.2012;31001-3015;;Gericht;Linie;H65;1011
+25.09.2012;31001-3016;;Botschaft, Konsulat;Linie;H65;1011
+25.09.2012;31001-3017;;Kreisverwaltung;Linie;H65;1011
+25.09.2012;31001-3018;;Bezirksregierung;Linie;H65;1011
+25.09.2012;31001-3020;;Bildung und Forschung;Linie;H65;1011
+25.09.2012;31001-3021;;Schule;Linie;H65;1011
+25.09.2012;31001-3022;;Berufs-, Fach-, Volkshochschule;Linie;H65;1011
+25.09.2012;31001-3023;;Fachhochschule, Universitaet (Hochschulgebaeude);Linie;H65;1011
+25.09.2012;31001-3024;;Forschungsinstitut;Linie;H65;1011
+25.09.2012;31001-3030;;Kultur;Linie;H65;1011
+25.09.2012;31001-3031;;Schloss;Linie;H65;1011
+25.09.2012;31001-3032;;Theater, Oper;Linie;H65;1011
+25.09.2012;31001-3033;;Konzertgebaeude;Linie;H65;1011
+25.09.2012;31001-3034;;Museum;Linie;H65;1011
+25.09.2012;31001-3035;;Rundfunk, Fernsehen;Linie;H65;1011
+25.09.2012;31001-3036;;Veranstaltungsgebaeude;Linie;H65;1011
+25.09.2012;31001-3037;;Bibliothek, Buecherei;Linie;H65;1011
+25.09.2012;31001-3038;;Burg, Festung;Linie;H65;1011
+25.09.2012;31001-3040;;Religioese Zwecke;Linie;H65;1011
+25.09.2012;31001-3041;;Kirche;Linie;H65;1011
+25.09.2012;31001-3042;;Synagoge;Linie;H65;1011
+25.09.2012;31001-3043;;Kapelle;Linie;H65;1011
+25.09.2012;31001-3044;;Gemeindehaus, Kuesterei;Linie;H65;1011
+25.09.2012;31001-3045;;Gotteshaus (andere Relioionsgemeinschaft;Linie;H65;1011
+25.09.2012;31001-3046;;Moschee;Linie;H65;1011
+25.09.2012;31001-3047;;Tempel;Linie;H65;1011
+25.09.2012;31001-3050;;Gesundheit;Linie;H65;1011
+25.09.2012;31001-3051;;Krankenhaus;Linie;H65;1011
+25.09.2012;31001-3052;;Heilanstalt, Pflegeanstallt;Linie;H65;1011
+25.09.2012;31001-3060;;Soziale Zwecke;Linie;H65;1011
+25.09.2012;31001-3061;;Jugendfreizeitheim;Linie;H65;1011
+25.09.2012;31001-3062;;Freizeit-, Vereinsheim, Dorfgemeinschafts-, Buergerhaus;Linie;H65;1011
+25.09.2012;31001-3063;;Seniorenfreizeitstaette;Linie;H65;1011
+25.09.2012;31001-3064;;Fremden-,Obdachlosenheim;Linie;H65;1011
+25.09.2012;31001-3065;;Kindergarten, Kindertagesstaette;Linie;H65;1011
+25.09.2012;31001-3070;;Sicherheit und Ordnung;Linie;H65;1011
+25.09.2012;31001-3071;;Polizei;Linie;H65;1011
+25.09.2012;31001-3072;;Feuerwehr;Linie;H65;1011
+25.09.2012;31001-3073;;Kaserne;Linie;H65;1011
+25.09.2012;31001-3074;;Schutzbunker;Linie;H65;1011
+25.09.2012;31001-3075;;Gefaengnis;Linie;H65;1011
+25.09.2012;31001-3080;;Friedhof;Linie;H65;1011
+25.09.2012;31001-3081;;Trauerhalle;Linie;H65;1011
+25.09.2012;31001-3082;;Krematorium;Linie;H65;1011
+25.09.2012;31001-3090;;Empfangsgebaeude;Linie;H65;1011
+25.09.2012;31001-3091;;Bahnhof;Linie;H65;1011
+25.09.2012;31001-3092;;Flughafen;Linie;H65;1011
+25.09.2012;31001-3094;;U-Bahnhof;Linie;H65;1011
+25.09.2012;31001-3095;;S-Bahnhof;Linie;H65;1011
+25.09.2012;31001-3097;;Omnibusbahnhof;Linie;H65;1011
+25.09.2012;31001-3100;;Gemeinbedarf mit Wohnen;Linie;H65;1011
+25.09.2012;31001-3200;;Erholung (allgemein);Linie;H65;1011
+25.09.2012;31001-3210;;Sport;Linie;H65;1011
+25.09.2012;31001-3211;;Sport-, Turnhalle;Linie;H65;1011
+25.09.2012;31001-3212;;Sportplatz;Linie;H65;1011
+25.09.2012;31001-3220;;Baden;Linie;H65;1011
+25.09.2012;31001-3221;;Hallenbad;Linie;H65;1011
+25.09.2012;31001-3222;;Freibad;Linie;H65;1011
+25.09.2012;31001-3230;;Stadion;Linie;H65;1011
+25.09.2012;31001-3240;;Kurbetrieb;Linie;H65;1011
+25.09.2012;31001-3241;;Badegebaeude fuer medizinische Zwecke;Linie;H65;1011
+25.09.2012;31001-3242;;Sanatorium;Linie;H65;1011
+25.09.2012;31001-3260;;Zoo;Linie;H65;1011
+25.09.2012;31001-3261;;Empfangsgebaeude im Zoo;Linie;H65;1011
+25.09.2012;31001-3262;;Aquarium, Terrarium, Voliere;Linie;H65;1011
+25.09.2012;31001-3263;;Tierschauhaus;Linie;H65;1011
+25.09.2012;31001-3264;;Stall im Zoo;Linie;H65;1011
+25.09.2012;31001-3270;;Botanik;Linie;H65;1011
+25.09.2012;31001-3271;;Empfangsgebaeude fuer Botanik;Linie;H65;1011
+25.09.2012;31001-3272;;Gewaechshaus (Botanik);Linie;H65;1011
+25.09.2012;31001-3273;;Pflanzenschauhaus;Linie;H65;1011
+25.09.2012;31001-3280;;Gebaeude fuer andere Erholungseinrichtung;Linie;H65;1011
+25.09.2012;31001-3281;;Schutzhuette;Linie;H65;1011
+25.09.2012;31001-3290;;Touristisches Informationszentrum;Linie;H65;1011
+25.09.2012;31002-0000;;Bauteil;Linie;0;1011
+25.09.2012;31002-0000;;Bauteil;Flaeche;0;1011
+25.09.2012;31002-1100;;Geringgeschossiger Gebaeudeteil;Linie;0;1011
+25.09.2012;31002-1100;;Geringgeschossiger Gebaeudeteil;Flaeche;0;1011
+25.09.2012;31002-1200;;Hoehergeschossiger Gebaeudeteil;Linie;0;1011
+25.09.2012;31002-1200;;Mehrgeschossiger Gebaeudeteil;Flaeche;0;1011
+25.09.2012;31002-1300;;Hochhausgebaeudeteil;Flaeche;0;1011
+25.09.2012;31002-1400;;Abweichende Geschosshoehe;Linie;0;1011
+25.09.2012;31002-1400;;Abweichende Geschosshoehe;Flaeche;0;1011
+25.09.2012;31002-2000;;Keller;Flaeche;0;1011
+25.09.2012;31002-2100;;Tiefgarage;Flaeche;0;1011
+25.09.2012;31002-2300;;Loggia;Flaeche;0;1011
+25.09.2012;31002-2350;;Wintergarten;Flaeche;0;1011
+25.09.2012;31002-2400;;Arcade;Flaeche;0;1011
+25.09.2012;31002-2500;;Auskragende/zurueckspringende Geschosse;Flaeche;0;1011
+25.09.2012;31002-2510;;Auskragende Geschosse;Flaeche;0;1011
+25.09.2012;31002-2520;;Zurueckspringende Geschosse;Flaeche;0;1011
+25.09.2012;31002-2610;;Durchfahrt im Gebaeude;Flaeche;0;1011
+25.09.2012;31002-2620;;Durchfahrt an ueberbauter Verkehrsstrass¸e;Flaeche;0;1011
+25.09.2012;31002-2710;;Schornstein im Gebaeude;Linie;0;1011
+25.09.2012;31002-2710;;Schornstein im Gebaeude;Flaeche;0;1011
+25.09.2012;31002-2720;;Turm im Gebaeude;Linie;0;1011
+25.09.2012;31002-2720;;Turm im Gebaeude;Flaeche;0;1011
+25.09.2012;31002-9999;;Sonstiges;Linie;0;1011
+25.09.2012;31002-9999;;Sonstiges;Flaeche;0;1011
+25.09.2012;31003-0000;;BesondereGebaeudelinie;Linie;0;1011
+25.09.2012;31003-2100;;Unverputzt;Linie;0;1011
+25.09.2012;31003-2200;;Verputzt;Linie;0;1011
+25.09.2012;31003-2300;;Verklinkert;Linie;0;1011
+25.09.2012;31003-3100;;Holz;Linie;0;1011
+25.09.2012;31003-3200;;Sichtbeton;Linie;0;1011
+25.09.2012;31003-3300;;Naturstein;Linie;0;1011
+25.09.2012;31003-3400;;Glas;Linie;0;1011
+25.09.2012;31003-4000;;Trennlinie nicht eindeutig festgelegt;Linie;0;1011
+25.09.2012;31003-9999;;Sonstiges;Linie;0;1011
+25.09.2012;31005-0000;;BesondererGebaeudepunkt;Punkt;15;1011
+25.09.2012;31005-1100;;First;Punkt;15;1012
+25.09.2012;31005-1200;;Traufe;Punkt;15;1012
+25.09.2012;31005-2100;;Eingang;Punkt;15;1012
+25.09.2012;31005-2200;;Lichtschacht;Punkt;15;1012
+25.09.2012;41001-0000;;Wohnbauflaeche;Linie;0;1012
+25.09.2012;41002-0000;;IndustrieUndGewerbeflaeche;Linie;0;1012
+25.09.2012;41002-1400;;Handel und Dienstleistung;Linie;0;1012
+25.09.2012;41002-1410;;Verwaltung, freie Berufe;Linie;0;1012
+25.09.2012;41002-1420;;Bank, Kredit;Linie;0;1012
+25.09.2012;41002-1430;;Versicherung;Linie;0;1012
+25.09.2012;41002-1440;;Handel;Linie;0;1012
+25.09.2012;41002-1450;;Ausstellung, Messe;Linie;0;1012
+25.09.2012;41002-1460;;Beherbergung;Linie;0;1012
+25.09.2012;41002-1470;;Restauration;Linie;0;1012
+25.09.2012;41002-1480;;Vergnuegung;Linie;0;1012
+25.09.2012;41002-1490;;Gaertnerei;Linie;0;1012
+25.09.2012;41002-1700;;Industrie und Gewerbe;Linie;0;1012
+25.09.2012;41002-1701;;Gebaeude- und Freiflaeche Industrie und Gewerbe;Linie;0;1012
+25.09.2012;41002-1710;;Produktion;Linie;0;1012
+25.09.2012;41002-1720;;Handwerk;Linie;0;1012
+25.09.2012;41002-1730;;Tankstelle;Linie;0;1012
+25.09.2012;41002-1740;;Lagerplatz;Linie;0;1012
+25.09.2012;41002-1750;;Transport;Linie;0;1012
+25.09.2012;41002-1760;;Forschung;Linie;0;1012
+25.09.2012;41002-1770;;Grundstoff;Linie;0;1012
+25.09.2012;41002-1780;;Betriebliche Sozialeinrichtung;Linie;0;1012
+25.09.2012;41002-1790;;Werft;Linie;0;1012
+25.09.2012;41002-2500;;Versorgungsanlage;Linie;0;1012
+25.09.2012;41002-2501;;Gebaeude- und Freiflaeche Versorgungsanlage;Linie;0;1012
+25.09.2012;41002-2502;;Betriebsflaeche Versorgungsanlage;Linie;0;1012
+25.09.2012;41002-2510;;Foerderanlage;Linie;0;1012
+25.09.2012;41002-2520;;Wasserwerk;Linie;0;1012
+25.09.2012;41002-2521;;Gebaeude- und Freiflaeche Versorgungsanlage, Wasser;Linie;0;1012
+25.09.2012;41002-2522;;Betriebsflaeche Versorgungsanlage, Wasser;Linie;0;1012
+25.09.2012;41002-2530;;Kraftwerk;Linie;0;1012
+25.09.2012;41002-2531;;Gebaeude- und Freiflaeche Versorgungsanlage, Elektrizitaet;Linie;0;1012
+25.09.2012;41002-2532;;Betriebsflaeche Versorgungsanlage, Elektrizitaet;Linie;0;1012
+25.09.2012;41002-2540;;Umspannstation;Linie;0;1012
+25.09.2012;41002-2550;;Raffinerie;Linie;0;1012
+25.09.2012;41002-2551;;Gebaeude- und Freiflaeche Versorgungsanlage, Oel;Linie;0;1012
+25.09.2012;41002-2552;;Betriebsflaeche Versorganlage, Oel;Linie;0;1012
+25.09.2012;41002-2560;;Gaswerk;Linie;0;1012
+25.09.2012;41002-2561;;Gebaeude- und Freiflaeche Versorgungsanlage, Gas;Linie;0;1012
+25.09.2012;41002-2562;;Betriebsflaeche Versorgungsanlage, Gas;Linie;0;1012
+25.09.2012;41002-2570;;Heizwerk;Linie;0;1012
+25.09.2012;41002-2571;;Gebaude- und Freiflaeche Versorgungsanlage, Waerme;Linie;0;1012
+25.09.2012;41002-2572;;Betriebsflaeche Versorgungsanlage, Waerme;Linie;0;1012
+25.09.2012;41002-2580;;Funk- und Fernmeldeanlage;Linie;0;1012
+25.09.2012;41002-2581;;Fernmeldewese;Linie;0;1012
+25.09.2012;41002-2582;;Betriebsflaeche Versorgungsanlage, Funk- und Fernmeldewesen;Linie;0;1012
+25.09.2012;41002-2600;;Entsorgung;Linie;0;1012
+25.09.2012;41002-2601;;Gebaeude- und Freiflaeche Entsorgungsanlage;Linie;0;1012
+25.09.2012;41002-2602;;Betriebsflaeche Entsorgungsanlage;Linie;0;1012
+25.09.2012;41002-2610;;Klaeranlage, Klaerwerk;Linie;0;1012
+25.09.2012;41002-2611;;Gebaeude-und Freiflaeche Entsorgungsanlage, Abwasserbeseitigung;Linie;0;1012
+25.09.2012;41002-2612;;Betriebsflaeche Entsorgungsanlage, Abwasserbeseitigung;Linie;0;1012
+25.09.2012;41002-2620;;Abfallbehandlungsanlage;Linie;0;1012
+25.09.2012;41002-2621;;Gebaeude- und Freiflaeche Entsorgungsanlage, Abfallbeseitigung;Linie;0;1012
+25.09.2012;41002-2622;;Betriebsflaeche Entsorgungsanlage, Abfallbeseitigung;Linie;0;1012
+25.09.2012;41002-2623;;Betriebsflaeche Entsorgungsanlage, Schlamm;Linie;0;1012
+25.09.2012;41002-2630;;Deponie (oberirdisch;Linie;0;1012
+25.09.2012;41002-2640;;Deponie (untertaegig);Linie;0;1012
+25.09.2012;41003-0000;;Halde;Linie;0;1012
+25.09.2012;41003-2000;;Kohle;Linie;0;1012
+25.09.2012;41003-4000;;Erde;Linie;0;1012
+25.09.2012;41003-5000;;Schutt;Linie;0;1012
+25.09.2012;41003-6000;;Schlacke;Linie;0;1012
+25.09.2012;41003-7000;;Abraum;Linie;0;1012
+25.09.2012;41003-8000;;Schrott, Altmaterial;Linie;0;1012
+25.09.2012;41003-9999;;Sonstiges;Linie;0;1012
+25.09.2012;41004-0000;;Bergbaubetrieb;Linie;0;1012
+25.09.2012;41004-1001;;Ton;Linie;0;1012
+25.09.2012;41004-1007;;Kalk, Kalktuff, Kreide;Linie;0;1012
+25.09.2012;41004-2002;;Schiefer, Dachschiefer;Linie;0;1012
+25.09.2012;41004-2003;;Methamorphe Schiefer;Linie;0;1012
+25.09.2012;41004-2005;;Kalkstein;Linie;0;1012
+25.09.2012;41004-2006;;Dolomitstein;Linie;0;1012
+25.09.2012;41004-2013;;Basalt, Diabas;Linie;0;1012
+25.09.2012;41004-2021;;Talkschiefer, Speckstein;Linie;0;1012
+25.09.2012;41004-3000;;Erze;Linie;0;1012
+25.09.2012;41004-3001;;Eisen;Linie;0;1012
+25.09.2012;41004-3002;;Buntmetallerze;Linie;0;1012
+25.09.2012;41004-3003;;Kupfer;Linie;0;1012
+25.09.2012;41004-3005;;Zink;Linie;0;1012
+25.09.2012;41004-3006;;Zinn;Linie;0;1012
+25.09.2012;41004-3007;;Wismut, Kobalt, Nickel;Linie;0;1012
+25.09.2012;41004-3008;;Uran;Linie;0;1012
+25.09.2012;41004-3009;;Mangan;Linie;0;1012
+25.09.2012;41004-3010;;Antimon;Linie;0;1012
+25.09.2012;41004-3011;;Edelmetallerze;Linie;0;1012
+25.09.2012;41004-4000;;Treib- und Brennstoffe;Linie;0;1012
+25.09.2012;41004-4020;;Kohle;Linie;0;1012
+25.09.2012;41004-4021;;Braunkohle;Linie;0;1012
+25.09.2012;41004-4022;;Steinkohle;Linie;0;1012
+25.09.2012;41004-4030;;Oelschiefer;Linie;0;1012
+25.09.2012;41004-5000;;Industrieminerale, Salze;Linie;0;1012
+25.09.2012;41004-5001;;Gipsstein;Linie;0;1012
+25.09.2012;41004-5002;;Anhydritstein;Linie;0;1012
+25.09.2012;41004-5003;;Steinsalz;Linie;0;1012
+25.09.2012;41004-5004;;Kalisalz;Linie;0;1012
+25.09.2012;41004-5005;;Kalkspat;Linie;0;1012
+25.09.2012;41004-5006;;Flussspat;Linie;0;1012
+25.09.2012;41004-5007;;Schwerspat;Linie;0;1012
+25.09.2012;41004-5011;;Graphit;Linie;0;1012
+25.09.2012;41005-0000;;TagebauGrubeSteinbruch;Linie;0;1012
+25.09.2012;41005-1000;;Erden, Lockergestein;Linie;0;1012
+25.09.2012;41005-1001;;Ton;Linie;0;1012
+25.09.2012;41005-1002;;Bentonit;Linie;0;1012
+25.09.2012;41005-1003;;Kaolin;Linie;0;1012
+25.09.2012;41005-1004;;Lehm;Linie;0;1012
+25.09.2012;41005-1005;;Loess, Loesslehm;Linie;0;1012
+25.09.2012;41005-1006;;Mergel;Linie;0;1012
+25.09.2012;41005-1007;;Kalk, Kalktuff, Kreide;Linie;0;1012
+25.09.2012;41005-1008;;Sand;Linie;0;1012
+25.09.2012;41005-1009;;Kies, Kiessand;Linie;0;1012
+25.09.2012;41005-1011;;Farberden;Linie;0;1012
+25.09.2012;41005-1012;;Quarzsand;Linie;0;1012
+25.09.2012;41005-1013;;Kieselerde;Linie;0;1012
+25.09.2012;41005-2000;;Steine, Gestein, Festgestein;Linie;0;1012
+25.09.2012;41005-2001;;Tonstein;Linie;0;1012
+25.09.2012;41005-2002;;Schiefer, Dachschiefer;Linie;0;1012
+25.09.2012;41005-2003;;Metamorphe Schiefer;Linie;0;1012
+25.09.2012;41005-2004;;Mergelstein;Linie;0;1012
+25.09.2012;41005-2005;;Kalkstein;Linie;0;1012
+25.09.2012;41005-2006;;Dolomitstein;Linie;0;1012
+25.09.2012;41005-2007;;Travertin;Linie;0;1012
+25.09.2012;41005-2008;;Mamor;Linie;0;1012
+25.09.2012;41005-2009;;Sandstein;Linie;0;1012
+25.09.2012;41005-2010;;Grauwacke;Linie;0;1012
+25.09.2012;41005-2011;;Quarzit;Linie;0;1012
+25.09.2012;41005-2012;;Gneis;Linie;0;1012
+25.09.2012;41005-2013;;Basalt, Diabas;Linie;0;1012
+25.09.2012;41005-2014;;Andesit;Linie;0;1012
+25.09.2012;41005-2015;;Porphyr, Quarzporphyr;Linie;0;1012
+25.09.2012;41005-2016;;Granit;Linie;0;1012
+25.09.2012;41005-2017;;Granodiorit;Linie;0;1012
+25.09.2012;41005-2018;;Tuff, Bimstein;Linie;0;1012
+25.09.2012;41005-2019;;Trass;Linie;0;1012
+25.09.2012;41005-2020;;Lavaschlacke;Linie;0;1012
+25.09.2012;41005-2021;;Talkschiefer, Speckstein;Linie;0;1012
+25.09.2012;41005-4000;;Treib- und Brennstoffe;Linie;0;1012
+25.09.2012;41005-4010;;Torf;Linie;0;1012
+25.09.2012;41005-4020;;Kohle;Linie;0;1012
+25.09.2012;41005-4021;;Braunkohle;Linie;0;1012
+25.09.2012;41005-4022;;Steinkohle;Linie;0;1012
+25.09.2012;41005-4030;;Oelschiefer;Linie;0;1012
+25.09.2012;41005-5000;;Industrieminerale, Salze;Linie;0;1012
+25.09.2012;41005-5001;;Gipsstein;Linie;0;1012
+25.09.2012;41005-5002;;Anhydritstein;Linie;0;1012
+25.09.2012;41005-5005;;Kalkspat;Linie;0;1012
+25.09.2012;41005-5007;;Schwerspat;Linie;0;1012
+25.09.2012;41005-5008;;Quarz;Linie;0;1012
+25.09.2012;41005-5009;;Feldspat;Linie;0;1012
+25.09.2012;41005-5010;;Pegmatitsand;Linie;0;1012
+25.09.2012;41005-9999;;Sonstiges;Linie;0;1012
+25.09.2012;41006-0000;;FlaecheGemischterNutzung;Linie;0;1012
+25.09.2012;41006-2100;;Gebaeude- und Freiflaeche, Mischnutzung mit Wohnen;Linie;0;1012
+25.09.2012;41006-2110;;Wohnen mit Oeffentlich;Linie;0;1012
+25.09.2012;41006-2120;;Wohnen mit Handel und Dienstleistungen;Linie;0;1012
+25.09.2012;41006-2130;;Wohnen mit Gewerbe und Industrie;Linie;0;1012
+25.09.2012;41006-2140;;Oeffentlich mit Wohnen;Linie;0;1012
+25.09.2012;41006-2150;;Handel und Dienstleistungen mit Wohnen;Linie;0;1012
+25.09.2012;41006-2160;;Gewerbe und Industrie mit Wohnen;Linie;0;1012
+25.09.2012;41006-2700;;Gebaeude- und Freiflaeche Land- und Forstwirtschaft;Linie;0;1012
+25.09.2012;41006-2710;;Wohnen;Linie;0;1012
+25.09.2012;41006-2720;;Betrieb;Linie;0;1012
+25.09.2012;41006-2730;;Wohnen und Betrieb;Linie;0;1012
+25.09.2012;41006-6800;;Landwirtschaftliche Betriebsflaeche;Linie;0;1012
+25.09.2012;41006-7600;;Forstwirtschaftliche Betriebsflaeche;Linie;0;1012
+25.09.2012;41007-0000;;FlaecheBesondererFunktionalerPraegung;Linie;0;1012
+25.09.2012;41007-1100;;Oeffentliche Zwecke;Linie;0;1012
+25.09.2012;41007-1110;;Verwaltung;Linie;0;1012
+25.09.2012;41007-1120;;Bildung und Forschung;Linie;0;1012
+25.09.2012;41007-1130;;Kultur;Linie;0;1012
+25.09.2012;41007-1140;;Religioese Einrichtung;Linie;0;1012
+25.09.2012;41007-1150;;Gesundheit, Kur;Linie;0;1012
+25.09.2012;41007-1160;;Soziales;Linie;0;1012
+25.09.2012;41007-1170;;Sicherheit und Ordnung;Linie;0;1012
+25.09.2012;41007-1200;;Parken;Linie;0;1012
+25.09.2012;41007-1300;;Historische Anlage;Linie;0;1012
+25.09.2012;41007-1310;;Burg-, Festungsanlage;Linie;0;1012
+25.09.2012;41007-1320;;Schlossanlage;Linie;0;1012
+25.09.2012;41008-0000;;SportFreizeitUndErholungsflaeche;Linie;0;1012
+25.09.2012;41008-4001;;Gebaeude- und Freiflaeche Sport, Freizeit und Erholung;Linie;0;1012
+25.09.2012;41008-4100;;Sportanlage;Linie;0;1012
+25.09.2012;41008-4101;;Gebaeude- und Freiflaeche Erholung, Sport;Linie;0;1012
+25.09.2012;41008-4110;;Golfplatz;Linie;0;1012
+25.09.2012;41008-4120;;Sportplatz;Linie;0;1012
+25.09.2012;41008-4130;;Rennbahn;Linie;0;1012
+25.09.2012;41008-4140;;Reitplatz;Linie;0;1012
+25.09.2012;41008-4150;;Schiess¸anlage;Linie;0;1012
+25.09.2012;41008-4160;;Eis-, Rollschuhbahn;Linie;0;1012
+25.09.2012;41008-4170;;Tennisplatz;Linie;0;1012
+25.09.2012;41008-4200;;Freizeitanlage;Linie;0;1012
+25.09.2012;41008-4210;;Zoo;Linie;0;1012
+25.09.2012;41008-4211;;Gebaeude- u. Freiflaeche Erholung, Zoologie;Linie;0;1012
+25.09.2012;41008-4220;;Safaripark, Wildpark;Linie;0;1012
+25.09.2012;41008-4230;;Freizeitpark;Linie;0;1012
+25.09.2012;41008-4240;;Freilichttheater;Linie;0;1012
+25.09.2012;41008-4250;;Freilichtmuseum;Linie;0;1012
+25.09.2012;41008-4260;;Autokino, Freilichtkino;Linie;0;1012
+25.09.2012;41008-4270;;Verkehrsuebungsplatz;Linie;0;1012
+25.09.2012;41008-4280;;Hundeuebungsplatz;Linie;0;1012
+25.09.2012;41008-4290;;Modellflugplatz;Linie;0;1012
+25.09.2012;41008-4300;;Erholungsflaeche;Linie;0;1012
+25.09.2012;41008-4301;;Gebaeude- und Freiflaeche Erholung;Linie;0;1012
+25.09.2012;41008-4310;;Wochenend- und Ferienhausflaeche;Linie;0;1012
+25.09.2012;41008-4320;;Schwimmbad, Freibad;Linie;0;1012
+25.09.2012;41008-4321;;Gebaeude- u. Freiflaeche Erholung, Bad;Linie;0;1012
+25.09.2012;41008-4330;;Campingplatz;Linie;0;1012
+25.09.2012;41008-4331;;Gebaeude- u. Freiflaeche Erholung, Camping;Linie;0;1012
+25.09.2012;41008-4400;;Gruenanlage;Linie;0;1012
+25.09.2012;41008-4410;;Gruenflaeche;Linie;0;1012
+25.09.2012;41008-4420;;Park;Linie;0;1012
+25.09.2012;41008-4430;;Botanischer Garten;Linie;0;1012
+25.09.2012;41008-4431;;Gebaeude- u. Freiflaeche Erholung, Botanik;Linie;0;1012
+25.09.2012;41008-4440;;Kleingarten;Linie;0;1012
+25.09.2012;41008-4450;;Wochenendplatz;Linie;0;1012
+25.09.2012;41008-4460;;Garten;Linie;0;1012
+25.09.2012;41008-4460;;Garten;Flaeche;0;1012
+25.09.2012;41008-4470;;Spielplatz, Bolzplatz;Linie;0;1012
+25.09.2012;41008-9999;;Sonstiges;Linie;0;1012
+25.09.2012;41009-0000;;Friedhof;Linie;0;1012
+25.09.2012;41009-9401;;Gebaeude- und Freiflaeche Friedhof;Linie;0;1012
+25.09.2012;41009-9402;;Friedhof (ohne Gebaeude);Linie;0;1012
+25.09.2012;41009-9403;;Friedhof (Park);Linie;0;1012
+25.09.2012;41009-9404;;Historischer Friedhof;Linie;0;1012
+25.09.2012;42001-0000;;Strassenverkehr;Text;1;1012
+25.09.2012;42001-0000;;Strassenverkehr;Linie;0;1012
+25.09.2012;42001-0000;;Strassenverkehr;Flaeche;0;1012
+25.09.2012;42006-0000;;Weg;Text;1;1012
+25.09.2012;42006-0000;;Weg;Linie;0;1012
+25.09.2012;42006-0000;;Weg;Flaeche;0;1012
+25.09.2012;42009-0000;;Platz;Linie;0;1012
+25.09.2012;42009-5130;;Fussgaengerzone;Linie;0;1012
+25.09.2012;42009-5310;;Parkplatz;Linie;0;1012
+25.09.2012;42009-5320;;Rastplatz;Linie;0;1012
+25.09.2012;42009-5330;;Raststaette;Linie;0;1012
+25.09.2012;42009-5340;;Marktplatz;Linie;0;1012
+25.09.2012;42009-5350;;Festplatz;Linie;0;1012
+25.09.2012;42010-0000;;Bahnverkehr;Linie;0;1012
+25.09.2012;42010-1100;;Eisenbahn;Linie;0;1012
+25.09.2012;42010-1102;;Gueterverkehr;Linie;0;1012
+25.09.2012;42010-1104;;S-Bahn;Linie;0;1012
+25.09.2012;42010-1200;;Stadtbahn;Linie;0;1012
+25.09.2012;42010-1201;;Strass¸enbahn;Linie;0;1012
+25.09.2012;42010-1202;;U-Bahn;Linie;0;1012
+25.09.2012;42010-1300;;Seilbahn, Bergbahn;Linie;0;1012
+25.09.2012;42010-1301;;Zahnradbahn;Linie;0;1012
+25.09.2012;42010-1302;;Standseilbahn;Linie;0;1012
+25.09.2012;42010-1400;;Museumsbahn;Linie;0;1012
+25.09.2012;42010-1600;;Magnetschwebebahn;Linie;0;1012
+25.09.2012;42015-0000;;Flugverkehr;Linie;0;1012
+25.09.2012;42015-5510;;Flughafen;Linie;0;1012
+25.09.2012;42015-5510;;Flughafen;Flaeche;0;1012
+25.09.2012;42015-5511;;Internationaler Flughafen;Linie;0;1012
+25.09.2012;42015-5511;;Internationaler Flughafen;Flaeche;0;1012
+25.09.2012;42015-5512;;Regionalflughafen;Linie;0;1012
+25.09.2012;42015-5512;;Regionalflughafen;Flaeche;0;1012
+25.09.2012;42015-5520;;Verkehrslandeplatz;Linie;0;1012
+25.09.2012;42015-5520;;Verkehrslandeplatz;Flaeche;0;1012
+25.09.2012;42015-5530;;Hubschrauberflugplatz;Linie;0;1012
+25.09.2012;42015-5530;;Hubschrauberflugplatz;Flaeche;0;1012
+25.09.2012;42015-5540;;Landeplatz, Sonderlandeplatz;Linie;0;1012
+25.09.2012;42015-5540;;Landeplatz, Sonderlandeplatz;Flaeche;0;1012
+25.09.2012;42015-5550;;Segelfluggelaende;Linie;0;1012
+25.09.2012;42015-5550;;Segelfluggelaende;Flaeche;0;1012
+25.09.2012;42016-0000;;Schiffsverkehr;Linie;0;1012
+25.09.2012;42016-2341;;Gebaeude und Freiflaechen zur Verkehrsanlage, Schifffahrt;Linie;0;1012
+25.09.2012;42016-5610;;Hafenanlage (Landflaeche);Linie;0;1012
+25.09.2012;42016-5620;;Schleuse (Landflaeche);Linie;0;1012
+25.09.2012;42016-5630;;Anlegestelle;Linie;0;1012
+25.09.2012;42016-5640;;Faehranlage;Linie;0;1012
+25.09.2012;43001-0000;;Landwirtschaft;Linie;0;1012
+25.09.2012;43001-1010;;Ackerland;Linie;0;1012
+25.09.2012;43001-1010;;Ackerland;Flaeche;0;1012
+25.09.2012;43001-1011;;Streuobstacker;Linie;0;1012
+25.09.2012;43001-1011;;Streuobstacker;Flaeche;0;1012
+25.09.2012;43001-1012;;Hopfen;Linie;0;1012
+25.09.2012;43001-1012;;Hopfen;Flaeche;0;1012
+25.09.2012;43001-1013;;Spargel;Linie;0;1012
+25.09.2012;43001-1013;;Spargel;Flaeche;0;1012
+25.09.2012;43001-1020;;Gruenland;Linie;0;1012
+25.09.2012;43001-1020;;Gruenland;Flaeche;0;1012
+25.09.2012;43001-1021;;Streuobstwiese;Linie;0;1012
+25.09.2012;43001-1021;;Streuobstwiese;Flaeche;0;1012
+25.09.2012;43001-1030;;Gartenland;Linie;0;1012
+25.09.2012;43001-1030;;Gartenland;Flaeche;0;1012
+25.09.2012;43001-1031;;Baumschule;Linie;0;1012
+25.09.2012;43001-1031;;Baumschule;Flaeche;0;1012
+25.09.2012;43001-1040;;Weingarten;Linie;0;1012
+25.09.2012;43001-1040;;Weingarten;Flaeche;0;1012
+25.09.2012;43001-1050;;Obstplantage;Linie;0;1012
+25.09.2012;43001-1050;;Obstplantage;Flaeche;0;1012
+25.09.2012;43001-1051;;Obstbaumplantage;Linie;0;1012
+25.09.2012;43001-1051;;Obstbaumplantage;Flaeche;0;1012
+25.09.2012;43001-1052;;Obststrauchplantage;Linie;0;1012
+25.09.2012;43001-1052;;Obststrauchplantage;Flaeche;0;1012
+25.09.2012;43001-1200;;Brachland;Linie;0;1012
+25.09.2012;43001-1200;;Brachland;Flaeche;0;1012
+25.09.2012;43002-0000;;Wald;Linie;0;1012
+25.09.2012;43002-0000;;Wald;Flaeche;0;1012
+25.09.2012;43002-1100;;Laubholz;Linie;0;1012
+25.09.2012;43002-1100;;Laubholz;Flaeche;0;1012
+25.09.2012;43002-1200;;Nadelholz;Linie;0;1012
+25.09.2012;43002-1200;;Nadelholz;Flaeche;0;1012
+25.09.2012;43002-1300;;Laub- und Nadelholz;Linie;0;1012
+25.09.2012;43002-1300;;Laub- und Nadelholz;Flaeche;0;1012
+25.09.2012;43002-1310;;Laubwald mit Nadelholz;Linie;0;1012
+25.09.2012;43002-1310;;Laubwald mit Nadelholz;Flaeche;0;1012
+25.09.2012;43002-1320;;Nadelwald mit Laubholz;Linie;0;1012
+25.09.2012;43002-1320;;Nadelwald mit Laubholz;Flaeche;0;1012
+25.09.2012;43003-0000;;Gehoelz;Linie;0;1012
+25.09.2012;43003-0000;;Gehoelz;Flaeche;0;1012
+25.09.2012;43003-1400;;Latschenkiefer;Linie;0;1012
+25.09.2012;43003-1400;;Latschenkiefer;Flaeche;0;1012
+25.09.2012;43004-0000;;Heide;Linie;0;1012
+25.09.2012;43004-0000;;Heide;Flaeche;0;1012
+25.09.2012;43005-0000;;Moor;Linie;0;1012
+25.09.2012;43005-0000;;Moor;Flaeche;0;1012
+25.09.2012;43006-0000;;AX_Sumpf;Linie;0;1012
+25.09.2012;43006-0000;;AX_Sumpf;Flaeche;0;1012
+25.09.2012;43007-0000;;UnlandVegetationsloseFlaeche;Linie;0;1012
+25.09.2012;43007-0000;;UnlandVegetationsloseFlaeche;Flaeche;0;1012
+25.09.2012;44001-0000;;Fliessgewaesser;Linie;0;1012
+25.09.2012;44001-0000;;Fliessgewaesser;Flaeche;0;1012
+25.09.2012;44001-8200;;Fluss;Linie;0;1012
+25.09.2012;44001-8200;;Fluss;Flaeche;0;1012
+25.09.2012;44001-8210;;Altwasser;Linie;0;1012
+25.09.2012;44001-8210;;Altwasser;Flaeche;0;1012
+25.09.2012;44001-8220;;Altarm;Linie;0;1012
+25.09.2012;44001-8220;;Altarm;Flaeche;0;1012
+25.09.2012;44001-8300;;Kanal;Linie;0;1012
+25.09.2012;44001-8300;;Kanal;Flaeche;0;1012
+25.09.2012;44001-8400;;Graben;Linie;0;1012
+25.09.2012;44001-8400;;Graben;Flaeche;0;1012
+25.09.2012;44001-8410;;Fleet;Linie;0;1012
+25.09.2012;44001-8410;;Fleet;Flaeche;0;1012
+25.09.2012;44001-8500;;Bach;Linie;0;1012
+25.09.2012;44001-8500;;Bach;Flaeche;0;1012
+25.09.2012;44005-0000;;Hafenbecken;Linie;0;1012
+25.09.2012;44005-0000;;Hafenbecken;Flaeche;0;1012
+25.09.2012;44005-8810;;Sportboothafenbecken;Linie;0;1012
+25.09.2012;44005-8810;;Sportboothafenbecken;Flaeche;0;1012
+25.09.2012;44006-0000;;StehendesGewaesser;Linie;0;1012
+25.09.2012;44006-0000;;StehendesGewaesser;Flaeche;0;1012
+25.09.2012;44006-8610;;See;Linie;0;1012
+25.09.2012;44006-8610;;See;Flaeche;0;1012
+25.09.2012;44006-8620;;Teich;Linie;0;1012
+25.09.2012;44006-8620;;Teich;Flaeche;0;1012
+25.09.2012;44006-8630;;Stausee;Linie;0;1012
+25.09.2012;44006-8630;;Stausee;Flaeche;0;1012
+25.09.2012;44006-8631;;Speicherbecken;Linie;0;1012
+25.09.2012;44006-8631;;Speicherbecken;Flaeche;0;1012
+25.09.2012;44006-8640;;Baggersee;Linie;0;1012
+25.09.2012;44006-8640;;Baggersee;Flaeche;0;1012
+25.09.2012;44006-9999;;Sonstiges;Linie;0;1012
+25.09.2012;44006-9999;;Sonstiges;Flaeche;0;1012
+25.09.2012;44007-0000;;Meer;Linie;0;1012
+25.09.2012;44007-0000;;Meer;Flaeche;0;1012
+25.09.2012;44007-8710;;Kuestengewaesser;Linie;0;1012
+25.09.2012;44007-8710;;Kuestengewaesser;Flaeche;0;1012
+25.09.2012;44007-8720;;Flussmuendungstrichter;Linie;0;1012
+25.09.2012;44007-8720;;Flussmuendungstrichter;Flaeche;0;1012
+25.09.2012;51002-0000;;BauwerkOderAnlageFuerIndustrieUndGewerbe;Punkt;15;1040
+25.09.2012;51002-1210;;Klaerbecken;Punkt;15;1040
+25.09.2012;51002-1215;;Solarzellen;Punkt;15;1040
+25.09.2012;51002-1220;;Windrad;Punkt;15;1040
+25.09.2012;51002-1240;;Wasserrad;Punkt;15;1040
+25.09.2012;51002-1250;;Mast;Punkt;15;1040
+25.09.2012;51002-1260;;Funkmast;Punkt;15;1040
+25.09.2012;51002-1270;;Antenne;Punkt;15;1040
+25.09.2012;51002-1280;;Radioteleskop;Punkt;15;1040
+25.09.2012;51002-1290;;Schornstein, Schlott, Esse;Punkt;15;1040
+25.09.2012;51002-1310;;Stollenmundloch;Punkt;15;1040
+25.09.2012;51002-1320;;Schachtoeffnung;Punkt;15;1040
+25.09.2012;51002-1330;;Kran;Punkt;15;1040
+25.09.2012;51002-1331;;Drehkran;Punkt;15;1040
+25.09.2012;51002-1332;;Portalkran;Punkt;15;1040
+25.09.2012;51002-1333;;Laufkran, Brueckenlaufkran;Punkt;15;1040
+25.09.2012;51002-1340;;Trockendock;Punkt;15;1040
+25.09.2012;51002-1350;;Hochofen;Punkt;15;1040
+25.09.2012;51002-1360;;Merkzeichen, Merkstein;Punkt;15;1040
+25.09.2012;51002-1370;;Hydrant;Punkt;15;1040
+25.09.2012;51002-1371;;Oberflurhydrant;Punkt;15;1040
+25.09.2012;51002-1372;;Unterflurhydrant;Punkt;15;1040
+25.09.2012;51002-1380;;Schieberkappe;Punkt;15;1040
+25.09.2012;51002-1390;;Einsteigeschacht;Punkt;15;1040
+25.09.2012;51002-1400;;Umformer;Punkt;15;1040
+25.09.2012;51002-9999;;Sonstiges;Punkt;15;1040
+25.09.2012;51004-0000;;Transportanlage;Punkt;15;1040
+25.09.2012;51004-0000;;Transportanlage;Linie;0;1040
+25.09.2012;51004-1110;;Erdoel;Punkt;15;1040
+25.09.2012;51004-1110;;Erdoel;Linie;0;1040
+25.09.2012;51004-1120;;Gas;Punkt;15;1040
+25.09.2012;51004-1120;;Gas;Linie;0;1040
+25.09.2012;51004-1130;;Wasser;Punkt;15;1040
+25.09.2012;51004-1130;;Wasser;Linie;0;1040
+25.09.2012;51004-1131;;Trinkwasser;Punkt;15;1040
+25.09.2012;51004-1131;;Trinkwasser;Linie;0;1040
+25.09.2012;51004-1132;;Brauchwasser;Punkt;15;1040
+25.09.2012;51004-1132;;Brauchwasser;Linie;0;1040
+25.09.2012;51004-1133;;Abwasser;Punkt;15;1040
+25.09.2012;51004-1133;;Abwasser;Linie;0;1040
+25.09.2012;51004-1140;;Fernwaerme;Punkt;15;1040
+25.09.2012;51004-1140;;Fernwaerme;Linie;0;1040
+25.09.2012;51005-0000;;Leitung;Linie;0;1040
+25.09.2012;51005-1110;;Freileitung;Linie;0;1040
+25.09.2012;51005-1111;;Erdkabel;Linie;0;1040
+25.09.2012;51006-0000;;BauwerkOderAnlageFuerSportFreizeitUndErholung;Linie;0;1040
+25.09.2012;51006-1410;;Spielfeld;Linie;0;1040
+25.09.2012;51006-1411;;Hartplatz;Linie;0;1040
+25.09.2012;51006-1412;;Rasenplatz;Linie;0;1040
+25.09.2012;51006-1420;;Rennbahn,Laufbahn,Gelaeuf;Linie;0;1040
+25.09.2012;51006-1430;;Zuschauertribuene;Linie;0;1040
+25.09.2012;51006-1431;;Zuschauertribuene ueberdacht;Linie;0;1040
+25.09.2012;51006-1432;;Zuschauertribuene nicht ueberdacht;Linie;0;1040
+25.09.2012;51006-1440;;Stadion;Linie;0;1040
+25.09.2012;51006-1450;;Schwimmbecken;Linie;0;1040
+25.09.2012;51006-1460;;Liegewiese;Linie;0;1040
+25.09.2012;51006-1470;;Sprungschanze (Anlauf);Linie;0;1040
+25.09.2012;51006-1480;;Schiessanlage;Linie;0;1040
+25.09.2012;51006-1490;;Gradierwerk;Linie;0;1040
+25.09.2012;51006-1510;;Wieldgehege;Linie;0;1040
+25.09.2012;51006-9999;;Sonstiges;Linie;0;1040
+25.09.2012;51007-0000;;HistorischesBauwerkOderHistorischeEinrichtung;Linie;0;1040
+25.09.2012;51007-1000;;Grab;Linie;0;1040
+25.09.2012;51007-1010;;Gross¸steingrab (Dolmen), Huenenbett;Linie;0;1040
+25.09.2012;51007-1020;;Grabhuegel (Huegelgrab);Linie;0;1040
+25.09.2012;51007-1100;;Wasserleitung;Linie;0;1040
+25.09.2012;51007-1110;;Aquaedukt;Linie;0;1040
+25.09.2012;51007-1200;;Befestigung (Wall, Graben);Linie;0;1040
+25.09.2012;51007-1210;;Wachtturm (roemisch), Warte;Linie;0;1040
+25.09.2012;51007-1300;;Steinmal;Linie;0;1040
+25.09.2012;51007-1400;;Befestigung (Burgruine);Linie;0;1040
+25.09.2012;51007-1410;;Burg (Fliehburg, Ringwall);Linie;0;1040
+25.09.2012;51007-1420;;Schanze;Linie;0;1040
+25.09.2012;51007-1430;;Lager;Linie;0;1040
+25.09.2012;51007-1500;;Historische Mauer;Linie;0;1040
+25.09.2012;51007-1510;;Stadtmauer;Linie;0;1040
+25.09.2012;51007-1520;;Sonstige historische Mauer;Linie;0;1040
+25.09.2012;51007-9999;;Sonstiges;Linie;0;1040
+25.09.2012;51009-0000;;SonstigesBauwerkOderSonstigeEinrichtung;Linie;0;1040
+25.09.2012;51009-0000;;SonstigesBauwerkOderSonstigeEinrichtung;Flaeche;0;1040
+25.09.2012;51011-0000;;BesondererBauwerkspunkt;Punkt;15;1040
+25.09.2012;53001-0000;;BauwerkImVerkehrsbereich;Linie;0;1040
+25.09.2012;53001-1800;;Bruecke;Linie;0;1040
+25.09.2012;53001-1801;;Mehrstoeckige Bruecke;Linie;0;1040
+25.09.2012;53001-1802;;Bogenbruecke;Linie;0;1040
+25.09.2012;53001-1803;;Haengebruecke;Linie;0;1040
+25.09.2012;53001-1805;;Drehbruecke;Linie;0;1040
+25.09.2012;53001-1807;;Hebebruecke;Linie;0;1040
+25.09.2012;53001-1808;;Zugbruecke;Linie;0;1040
+25.09.2012;53001-1810;;Landebruecke;Linie;0;1040
+25.09.2012;53001-1820;;Steg;Linie;0;1040
+25.09.2012;53001-1840;;Brueckenpfeiler;Linie;0;1040
+25.09.2012;53001-1845;;Widerlager;Linie;0;1040
+25.09.2012;53001-1850;;Brueckenjoch;Linie;0;1040
+25.09.2012;53001-1870;;Tunnel, Unterfuehrung;Linie;0;1040
+25.09.2012;53001-1880;;Schutzgalerie;Linie;0;1040
+25.09.2012;53001-1890;;Schleusenkammer;Linie;0;1040
+25.09.2012;53001-1900;;Durchfahrt;Linie;0;1040
+25.09.2012;53001-1910;;Anflugbefeuerung;Linie;0;1040
+25.09.2012;53001-9999;;Sonstiges;Linie;0;1040
+25.09.2012;53002-0000;;Strassenverkehrsanlage;Punkt;15;1040
+25.09.2012;53002-0000;;Strassenverkehrsanlage;Linie;0;1040
+25.09.2012;53002-1000;;Fahrbahn;Punkt;15;1040
+25.09.2012;53002-1000;;Fahrbahn;Linie;0;1040
+25.09.2012;53002-1010;;Fahrbahnbegrenzungslinie;Punkt;15;1040
+25.09.2012;53002-1010;;Fahrbahnbegrenzungslinie;Linie;0;1040
+25.09.2012;53002-1011;;Fahrbahnbegrenzungslinie, ueberdeckt;Punkt;15;1040
+25.09.2012;53002-1011;;Fahrbahnbegrenzungslinie, ueberdeckt;Linie;0;1040
+25.09.2012;53002-2000;;Furt;Punkt;15;1040
+25.09.2012;53002-2000;;Furt;Linie;0;1040
+25.09.2012;53002-3000;;Autobahnknoten;Punkt;15;1040
+25.09.2012;53002-3000;;Autobahnknoten;Linie;0;1040
+25.09.2012;53002-3001;;Kreuz;Punkt;15;1040
+25.09.2012;53002-3001;;Kreuz;Linie;0;1040
+25.09.2012;53002-3002;;Dreieck;Punkt;15;1040
+25.09.2012;53002-3002;;Dreieck;Linie;0;1040
+25.09.2012;53002-3003;;Anschlussstelle;Punkt;15;1040
+25.09.2012;53002-3003;;Anschlussstelle;Linie;0;1040
+25.09.2012;53002-9999;;Sonstiges;Punkt;15;1040
+25.09.2012;53002-9999;;Sonstiges;Linie;0;1040
+25.09.2012;53003-0000;;WegPfadSteig;Punkt;15;1040
+25.09.2012;53003-0000;;WegPfadSteig;Linie;0;1040
+25.09.2012;53003-1103;;Fussweg;Punkt;15;1040
+25.09.2012;53003-1103;;Fussweg;Linie;0;1040
+25.09.2012;53003-1103;;Fussweg;Flaeche;0;1040
+25.09.2012;53003-1105;;Karren- und Ziehweg;Punkt;15;1040
+25.09.2012;53003-1105;;Karren- und Ziehweg;Linie;0;1040
+25.09.2012;53003-1106;;Radweg;Punkt;15;1040
+25.09.2012;53003-1106;;Radweg;Linie;0;1040
+25.09.2012;53003-1106;;Radweg;Flaeche;0;1040
+25.09.2012;53003-1107;;Reitweg;Punkt;15;1040
+25.09.2012;53003-1107;;Reitweg;Linie;0;1040
+25.09.2012;53003-1108;;Wattenweg;Punkt;15;1040
+25.09.2012;53003-1108;;Wattenweg;Linie;0;1040
+25.09.2012;53003-1109;;(Kletter-)Steig im Gebirge;Punkt;15;1040
+25.09.2012;53003-1109;;(Kletter-)Steig im Gebirge;Linie;0;1040
+25.09.2012;53003-1110;;Rad- und Fussweg;Punkt;15;1040
+25.09.2012;53003-1110;;Rad- und Fussweg;Linie;0;1040
+25.09.2012;53003-1110;;Rad- und Fussweg;Flaeche;0;1040
+25.09.2012;53003-1111;;Skaterstrecke;Punkt;15;1040
+25.09.2012;53003-1111;;Skaterstrecke;Linie;0;1040
+25.09.2012;53004-0000;;Bahnverkehrsanlage;Punkt;15;1040
+25.09.2012;53004-0000;;Bahnverkehrsanlage;Linie;0;1040
+25.09.2012;53004-1010;;Bahnhof;Punkt;15;1040
+25.09.2012;53004-1010;;Bahnhof;Linie;0;1040
+25.09.2012;53004-1020;;Haltstelle;Punkt;15;1040
+25.09.2012;53004-1020;;Haltstelle;Linie;0;1040
+25.09.2012;53004-1030;;Haltepunkt;Punkt;15;1040
+25.09.2012;53004-1030;;Haltepunkt;Linie;0;1040
+25.09.2012;53004-1100;;Eisenbahn;Punkt;15;1040
+25.09.2012;53004-1100;;Eisenbahn;Linie;0;1040
+25.09.2012;53004-1102;;Gueterverkehr;Punkt;15;1040
+25.09.2012;53004-1102;;Gueterverkehr;Linie;0;1040
+25.09.2012;53004-1104;;S-Bahn;Punkt;15;1040
+25.09.2012;53004-1104;;S-Bahn;Linie;0;1040
+25.09.2012;53004-1200;;Stadtbahn;Punkt;15;1040
+25.09.2012;53004-1200;;Stadtbahn;Linie;0;1040
+25.09.2012;53004-1201;;Strassenbahn;Punkt;15;1040
+25.09.2012;53004-1201;;Strassenbahn;Linie;0;1040
+25.09.2012;53004-1202;;U-Bahn;Punkt;15;1040
+25.09.2012;53004-1202;;U-Bahn;Linie;0;1040
+25.09.2012;53004-1300;;Bergbahn, Seilbahn;Punkt;15;1040
+25.09.2012;53004-1300;;Bergbahn, Seilbahn;Linie;0;1040
+25.09.2012;53004-1301;;Zahnradbahn;Punkt;15;1040
+25.09.2012;53004-1301;;Zahnradbahn;Linie;0;1040
+25.09.2012;53004-1302;;Standseilbahn;Punkt;15;1040
+25.09.2012;53004-1302;;Standseilbahn;Linie;0;1040
+25.09.2012;53004-1400;;Museumsbahn;Punkt;15;1040
+25.09.2012;53004-1400;;Museumsbahn;Linie;0;1040
+25.09.2012;53004-1500;;Bahn im Freizeitpark;Punkt;15;1040
+25.09.2012;53004-1500;;Bahn im Freizeitpark;Linie;0;1040
+25.09.2012;53004-1600;;Magnetschwebebahn;Punkt;15;1040
+25.09.2012;53004-1600;;Magnetschwebebahn;Linie;0;1040
+25.09.2012;53004-9999;;Sonstiges;Punkt;15;1040
+25.09.2012;53004-9999;;Sonstiges;Linie;0;1040
+25.09.2012;53005-0000;;SeilbahnSchwebebahn;Linie;0;1040
+25.09.2012;53005-2100;;Luftseilbahn, Grosskabinenbahn;Linie;0;1040
+25.09.2012;53005-2200;;Kabinenbahn, Umlaufseilbahn;Linie;0;1040
+25.09.2012;53005-2300;;Sessellift;Linie;0;1040
+25.09.2012;53005-2400;;Ski-, Schlepplift;Linie;0;1040
+25.09.2012;53005-2500;;Schwebebahn;Linie;0;1040
+25.09.2012;53005-2600;;Materiealseilbahn;Linie;0;1040
+25.09.2012;53006-0000;;Gleis;Punkt;15;1040
+25.09.2012;53006-0000;;Gleis;Linie;0;1040
+25.09.2012;53006-1100;;Eisenbahn;Punkt;15;1040
+25.09.2012;53006-1100;;Eisenbahn;Linie;0;1040
+25.09.2012;53006-1102;;Gueterverkehr;Punkt;15;1040
+25.09.2012;53006-1102;;Gueterverkehr;Linie;0;1040
+25.09.2012;53006-1104;;S-Bahn;Punkt;15;1040
+25.09.2012;53006-1104;;S-Bahn;Linie;0;1040
+25.09.2012;53006-1200;;Stadtbahn;Punkt;15;1040
+25.09.2012;53006-1200;;Stadtbahn;Linie;0;1040
+25.09.2012;53006-1201;;Strassenbahn;Punkt;15;1040
+25.09.2012;53006-1201;;Strassenbahn;Linie;0;1040
+25.09.2012;53006-1202;;U-Bahn;Punkt;15;1040
+25.09.2012;53006-1202;;U-Bahn;Linie;0;1040
+25.09.2012;53006-1300;;Bergbahn, Seilbahn;Punkt;15;1040
+25.09.2012;53006-1300;;Bergbahn, Seilbahn;Linie;0;1040
+25.09.2012;53006-1301;;Zahnradbahn;Punkt;15;1040
+25.09.2012;53006-1301;;Zahnradbahn;Linie;0;1040
+25.09.2012;53006-1302;;Standseilbahn;Punkt;15;1040
+25.09.2012;53006-1302;;Standseilbahn;Linie;0;1040
+25.09.2012;53006-1400;;Museumsbahn;Punkt;15;1040
+25.09.2012;53006-1400;;Museumsbahn;Linie;0;1040
+25.09.2012;53006-1500;;Bahn im Freizeitpark;Punkt;15;1040
+25.09.2012;53006-1500;;Bahn im Freizeitpark;Linie;0;1040
+25.09.2012;53006-1600;;Magnetschwebebahn;Punkt;15;1040
+25.09.2012;53006-1600;;Magnetschwebebahn;Linie;0;1040
+25.09.2012;53006-9999;;Sonstiges;Punkt;15;1040
+25.09.2012;53006-9999;;Sonstiges;Linie;0;1040
+25.09.2012;53007-0000;;Flugverkehrsanlage;Punkt;15;1040
+25.09.2012;53007-0000;;Flugverkehrsanlage;Linie;0;1040
+25.09.2012;53007-1310;;Startbahn, Landebahn;Punkt;15;1040
+25.09.2012;53007-1310;;Startbahn, Landebahn;Linie;0;1040
+25.09.2012;53007-1320;;Zurollbahn, Taxiway;Punkt;15;1040
+25.09.2012;53007-1320;;Zurollbahn, Taxiway;Linie;0;1040
+25.09.2012;53007-1330;;Vorfeld;Punkt;15;1040
+25.09.2012;53007-1330;;Vorfeld;Linie;0;1040
+25.09.2012;53007-5531;;Hubschrauberlandeplatz;Punkt;15;1040
+25.09.2012;53007-5531;;Hubschrauberlandeplatz;Linie;0;1040
+25.09.2012;53008-0000;;EinrichtungenFuerDenSchiffsverkehr;Punkt;15;1040
+25.09.2012;53008-0000;;EinrichtungenFuerDenSchiffsverkehr;Linie;0;1040
+25.09.2012;53008-1410;;Bake;Punkt;15;1040
+25.09.2012;53008-1410;;Bake;Linie;0;1040
+25.09.2012;53008-1420;;Leuchtfeuer;Punkt;15;1040
+25.09.2012;53008-1420;;Leuchtfeuer;Linie;0;1040
+25.09.2012;53008-1430;;Kilometerstein;Punkt;15;1040
+25.09.2012;53008-1430;;Kilometerstein;Linie;0;1040
+25.09.2012;53008-1440;;Tafel an Gewaessern;Punkt;15;1040
+25.09.2012;53008-1440;;Tafel an Gewaessern;Linie;0;1040
+25.09.2012;53008-1450;;Pricke;Punkt;15;1040
+25.09.2012;53008-1450;;Pricke;Linie;0;1040
+25.09.2012;53008-1460;;Anleger;Punkt;15;1040
+25.09.2012;53008-1460;;Anleger;Linie;0;1040
+25.09.2012;53008-9999;;Sonstiges;Punkt;15;1040
+25.09.2012;53008-9999;;Sonstiges;Linie;0;1040
+25.09.2012;53009-0000;;BauwerkImGewaesserbereich;Linie;0;1040
+25.09.2012;53009-2010;;Durchlass;Linie;0;1040
+25.09.2012;53009-2011;;Rohrdurchlass;Linie;0;1040
+25.09.2012;53009-2012;;Dueker;Linie;0;1040
+25.09.2012;53009-2020;;Rueckhaltebecken;Linie;0;1040
+25.09.2012;53009-2030;;Staumauer;Linie;0;1040
+25.09.2012;53009-2040;;Staudamm;Linie;0;1040
+25.09.2012;53009-2050;;Wehr;Linie;0;1040
+25.09.2012;53009-2060;;Sicherheitstor;Linie;0;1040
+25.09.2012;53009-2070;;Siel;Linie;0;1040
+25.09.2012;53009-2080;;Sperrwerk;Linie;0;1040
+25.09.2012;53009-2090;;Schoepfwerk;Linie;0;1040
+25.09.2012;53009-2110;;Fischtreppe;Linie;0;1040
+25.09.2012;53009-2120;;Pegel;Linie;0;1040
+25.09.2012;53009-2131;;Wellenbrecher, Buhne;Linie;0;1040
+25.09.2012;53009-2132;;Lahnung;Linie;0;1040
+25.09.2012;53009-2133;;Hafendamm, Mole;Linie;0;1040
+25.09.2012;53009-2135;;Deckwerk;Linie;0;1040
+25.09.2012;53009-2136;;Ufermauer, Kaimauer;Linie;0;1040
+25.09.2012;53009-9999;;Sonstiges;Linie;0;1040
+25.09.2012;54001-0000;;Vegetationsmerkmal;Punkt;15;1040
+25.09.2012;54001-0000;;Vegetationsmerkmal;Linie;0;1040
+25.09.2012;54001-1011;;Nadelbaum;Punkt;a80;1040
+25.09.2012;54001-1011;;Nadelbaum;Linie;0;1040
+25.09.2012;54001-1011;;Nadelbaum;Flaeche;0;1040
+25.09.2012;54001-1012;;Laubbaum;Punkt;a79;1040
+25.09.2012;54001-1012;;Laubbaum;Linie;0;1040
+25.09.2012;54001-1012;;Laubbaum;Flaeche;0;1040
+25.09.2012;54001-1021;;Baumbestand, Laubholz;Punkt;B08;1040
+25.09.2012;54001-1021;;Baumbestand, Laubholz;Linie;0;1040
+25.09.2012;54001-1021;;Baumbestand, Laubholz;Flaeche;0;1040
+25.09.2012;54001-1022;;Baumbestand, Nadelholz;Punkt;B09;1040
+25.09.2012;54001-1022;;Baumbestand, Nadelholz;Linie;0;1040
+25.09.2012;54001-1022;;Baumbestand, Nadelholz;Flaeche;0;1040
+25.09.2012;54001-1023;;Baumbestand, Laub- und Nadelholz;Punkt;B10;1040
+25.09.2012;54001-1023;;Baumbestand, Laub- und Nadelholz;Linie;0;1040
+25.09.2012;54001-1023;;Baumbestand, Laub- und Nadelholz;Flaeche;0;1040
+25.09.2012;54001-1100;;Hecke;Linie;50;1040
+25.09.2012;54001-1100;;Hecke;Flaeche;0;1040
+25.09.2012;54001-1101;;Heckenkante, rechts;Linie;48;1040
+25.09.2012;54001-1102;;Heckenkante, links;Linie;46;1040
+25.09.2012;54001-1102;;Heckenkante, links;Flaeche;0;1040
+25.09.2012;54001-1103;;Heckenmitte;Linie;0;1040
+25.09.2012;54001-1103;;Heckenmitte;Flaeche;0;1040
+25.09.2012;54001-1210;;Baumreihe, Laubholz;Punkt;G06;1040
+25.09.2012;54001-1210;;Baumreihe, Laubholz;Linie;0;1040
+25.09.2012;54001-1210;;Baumreihe, Laubholz;Flaeche;0;1040
+25.09.2012;54001-1220;;Baumreihe, Nadelholz;Punkt;G07;1040
+25.09.2012;54001-1220;;Baumreihe, Nadelholz;Linie;0;1040
+25.09.2012;54001-1220;;Baumreihe, Nadelholz;Flaeche;0;1040
+25.09.2012;54001-1230;;Baumreihe, Laub- und Nadelholz;Linie;0;1040
+25.09.2012;54001-1230;;Baumreihe, Laub- und Nadelholz;Flaeche;0;1040
+25.09.2012;54001-1250;;Gehoelz;Punkt;B16;1040
+25.09.2012;54001-1250;;Gehoelz;Linie;0;1040
+25.09.2012;54001-1250;;Gehoelz;Flaeche;0;1040
+25.09.2012;54001-1260;;Gebuesch;Linie;0;1040
+25.09.2012;54001-1260;;Gebuesch;Flaeche;0;1040
+25.09.2012;54001-1300;;Schneise;Linie;0;1040
+25.09.2012;54001-1300;;Schneise;Flaeche;0;1040
+25.09.2012;54001-1400;;Roehricht, Schilf;Punkt;B18;1040
+25.09.2012;54001-1400;;Roehricht, Schilf;Linie;0;1040
+25.09.2012;54001-1400;;Roehricht, Schilf;Flaeche;0;1040
+25.09.2012;54001-1500;;Gras;Punkt;B01;1040
+25.09.2012;54001-1500;;Gras;Linie;0;1040
+25.09.2012;54001-1500;;Gras;Flaeche;0;1040
+25.09.2012;54001-1510;;Rain;Linie;0;1040
+25.09.2012;54001-1510;;Rain;Flaeche;0;1040
+25.09.2012;54001-1600;;Zierflaeche;Linie;0;1040
+25.09.2012;54001-1600;;Zierflaeche;Flaeche;0;1040
+25.09.2012;54001-1700;;Korbweide;Punkt;B07;1040
+25.09.2012;54001-1700;;Korbweide;Linie;0;1040
+25.09.2012;54001-1700;;Korbweide;Flaeche;0;1040
+25.09.2012;54001-1800;;Reet;Punkt;B18;1040
+25.09.2012;54001-1800;;Reet;Linie;0;1040
+25.09.2012;54001-1800;;Reet;Flaeche;0;1040
+25.09.2012;55002-0000;;UntergeordnetesGewaesser;Linie;0;1040
+25.09.2012;55002-0000;;UntergeordnetesGewaesser;Flaeche;0;1040
+25.09.2012;55002-1010;;Graben;Linie;0;1040
+25.09.2012;55002-1010;;Graben;Flaeche;0;1040
+25.09.2012;55002-1011;;Grabenkante, rechts;Linie;0;1040
+25.09.2012;55002-1011;;Grabenkante, rechts;Flaeche;0;1040
+25.09.2012;55002-1012;;Grabenkante, links;Linie;0;1040
+25.09.2012;55002-1012;;Grabenkante, links;Flaeche;0;1040
+25.09.2012;55002-1013;;Grabenmitte;Linie;0;1040
+25.09.2012;55002-1013;;Grabenmitte;Flaeche;0;1040
+25.09.2012;55002-1020;;Fleet;Linie;0;1040
+25.09.2012;55002-1020;;Fleet;Flaeche;0;1040
+25.09.2012;55002-1030;;Bach;Linie;0;1040
+25.09.2012;55002-1030;;Bach;Flaeche;0;1040
+25.09.2012;55002-1040;;Teich;Linie;0;1040
+25.09.2012;55002-1040;;Teich;Flaeche;0;1040
+25.09.2012;61001-0000;;BoeschungKliff;Linie;0;1060
+25.09.2012;61001-0000;;BoeschungKliff;Flaeche;0;1060
+25.09.2012;61001-2400;;Befestigt;Linie;0;1060
+25.09.2012;61001-2400;;Befestigt;Flaeche;0;1060
+25.09.2012;61001-2500;;Unbefestigt;Linie;0;1060
+25.09.2012;61001-2500;;Unbefestigt;Flaeche;0;1060
+25.09.2012;61002-0000;;Boeschungsflaeche;Linie;0;1060
+25.09.2012;61002-0000;;Boeschungsflaeche;Flaeche;0;1060
+25.09.2012;61003-0000;;DammWallDeich;Linie;0;1060
+25.09.2012;61003-1910;;Hochwasserdeich;Linie;0;1060
+25.09.2012;61003-1920;;Hauptdeich, Landeschutzdeich;Linie;0;1060
+25.09.2012;61003-1930;;Ueberlaufdeich;Linie;0;1060
+25.09.2012;61003-1940;;Leitdeich;Linie;0;1060
+25.09.2012;61003-1950;;Polterdeich;Linie;0;1060
+25.09.2012;61003-1960;;Schlafdeich;Linie;0;1060
+25.09.2012;61003-1970;;Mitteldeich;Linie;0;1060
+25.09.2012;61003-1980;;Binnendeich;Linie;0;1060
+25.09.2012;61003-1990;;Wall;Linie;0;1060
+25.09.2012;61003-1991;;Wallkante, rechts;Linie;0;1060
+25.09.2012;61003-1992;;Wallkante, links;Linie;0;1060
+25.09.2012;61003-1993;;Wallmitte;Linie;0;1060
+25.09.2012;61003-2001;;Knickkante, rechts;Linie;0;1060
+25.09.2012;61003-2002;;Knickkante, links;Linie;0;1060
+25.09.2012;61003-2003;;Knickmitte;Linie;0;1060
+25.09.2012;61003-2010;;Graben mit Wall, rechts;Linie;0;1060
+25.09.2012;61003-2011;;Graben mit Wall, links;Linie;0;1060
+25.09.2012;61003-2012;;Graben mit Knick, rechts;Linie;0;1060
+25.09.2012;61003-2013;;Graben mit Knick, links;Linie;0;1060
+25.09.2012;61009-0000;;BesondererTopographischerPunkt;Punkt;15;1060
+25.09.2012;62040-0000;;Gelaendekante;Linie;0;1060
+25.09.2012;62040-1200;;Allgemeine Gelaendekante;Linie;0;1060
+25.09.2012;62040-1220;;Oberkante;Linie;0;1060
+25.09.2012;62040-1230;;Unterkante;Linie;0;1060
+25.09.2012;62040-1240;;Sonstige Begrenzungskante;Linie;0;1060
+25.09.2012;66666-0000;;Nicht zu übernehmende Texte aus ALKIS;Text;1;1073
+25.09.2012;71001-0000;;KlassifizierungNachStrassenrecht;Linie;0;1030
+25.09.2012;71001-0000;;KlassifizierungNachStrassenrecht;Flaeche;0;1030
+25.09.2012;71001-1100;;Klassifizierung nach Bundes- oder Landesstrassengesetz;Linie;0;1030
+25.09.2012;71001-1100;;Klassifizierung nach Bundes- oder Landesstrassengesetz;Flaeche;0;1030
+25.09.2012;71001-1110;;Bundesautobahn;Linie;0;1030
+25.09.2012;71001-1110;;Bundesautobahn;Flaeche;0;1030
+25.09.2012;71001-1120;;Bundesstrasse;Linie;0;1030
+25.09.2012;71001-1120;;Bundesstrasse;Flaeche;0;1030
+25.09.2012;71001-1130;;Landes- oder Staatsstrasse;Linie;0;1030
+25.09.2012;71001-1130;;Landes- oder Staatsstrasse;Flaeche;0;1030
+25.09.2012;71001-1140;;Kreisstrasse;Linie;0;1030
+25.09.2012;71001-1140;;Kreisstrasse;Flaeche;0;1030
+25.09.2012;71001-1150;;Gemeindestrasse;Linie;0;1030
+25.09.2012;71001-1150;;Gemeindestrasse;Flaeche;0;1030
+25.09.2012;71001-1160;;Ortsstrasse;Linie;0;1030
+25.09.2012;71001-1160;;Ortsstrasse;Flaeche;0;1030
+25.09.2012;71001-1170;;Gemeindeverbindungsstrasse;Linie;0;1030
+25.09.2012;71001-1170;;Gemeindeverbindungsstrasse;Flaeche;0;1030
+25.09.2012;71001-1180;;Sonstige oeffentliche Strasse;Linie;0;1030
+25.09.2012;71001-1180;;Sonstige oeffentliche Strasse;Flaeche;0;1030
+25.09.2012;71001-1190;;Privatstrasse;Linie;0;1030
+25.09.2012;71001-1190;;Privatstrasse;Flaeche;0;1030
+25.09.2012;71003-0000;;KlassifizierungNachWasserrecht;Linie;0;1030
+25.09.2012;71003-0000;;KlassifizierungNachWasserrecht;Flaeche;0;1030
+25.09.2012;71003-1300;;Klassifizierung nach Bundes- oder Landeswassergesetz;Linie;0;1030
+25.09.2012;71003-1300;;Klassifizierung nach Bundes- oder Landeswassergesetz;Flaeche;0;1030
+25.09.2012;71003-1310;;Gewaesser I. Ordnung - Bundeswasserstrass¸e;Linie;0;1030
+25.09.2012;71003-1310;;Gewaesser I. Ordnung - Bundeswasserstrass¸e;Flaeche;0;1030
+25.09.2012;71003-1320;;Gewaesser I. Ordnung - nach Landesrecht;Linie;0;1030
+25.09.2012;71003-1320;;Gewaesser I. Ordnung - nach Landesrecht;Flaeche;0;1030
+25.09.2012;71003-1330;;Gewaesser II. Ordnung;Linie;0;1030
+25.09.2012;71003-1330;;Gewaesser II. Ordnung;Flaeche;0;1030
+25.09.2012;71003-1340;;Gewaesser III. Ordnung;Linie;0;1030
+25.09.2012;71003-1340;;Gewaesser III. Ordnung;Flaeche;0;1030
+25.09.2012;71004-0000;;AndereFestlegungNachWasserrecht;Linie;0;1030
+25.09.2012;71004-0000;;AndereFestlegungNachWasserrecht;Flaeche;0;1030
+25.09.2012;71004-1410;;Wasserstrassengesetz;Linie;0;1030
+25.09.2012;71004-1410;;Wasserstrassengesetz;Flaeche;0;1030
+25.09.2012;71004-1420;;Veraenderungssperre;Linie;0;1030
+25.09.2012;71004-1420;;Veraenderungssperre;Flaeche;0;1030
+25.09.2012;71004-1421;;Veraenderungssperre nach Bundeswassergesetz;Linie;0;1030
+25.09.2012;71004-1421;;Veraenderungssperre nach Bundeswassergesetz;Flaeche;0;1030
+25.09.2012;71004-1430;;Landeswassergesetz;Linie;0;1030
+25.09.2012;71004-1430;;Landeswassergesetz;Flaeche;0;1030
+25.09.2012;71004-1440;;Ueberschwemmungsgebiet;Linie;0;1030
+25.09.2012;71004-1440;;Ueberschwemmungsgebiet;Flaeche;0;1030
+25.09.2012;71004-1441;;Festgesetztes Ueberschwemmungsgebiet;Linie;0;1030
+25.09.2012;71004-1441;;Festgesetztes Ueberschwemmungsgebiet;Flaeche;0;1030
+25.09.2012;71004-1442;;Natuerliches Ueberschwemmungsgebiet;Linie;0;1030
+25.09.2012;71004-1442;;Natuerliches Ueberschwemmungsgebiet;Flaeche;0;1030
+25.09.2012;71004-1450;;Pegelschutzgebiet;Linie;0;1030
+25.09.2012;71004-1450;;Pegelschutzgebiet;Flaeche;0;1030
+25.09.2012;71004-1460;;Wasser- und Bodenschutzgebiet;Linie;0;1030
+25.09.2012;71004-1460;;Wasser- und Bodenschutzgebiet;Flaeche;0;1030
+25.09.2012;71004-1470;;Deichgebiet;Linie;0;1030
+25.09.2012;71004-1470;;Deichgebiet;Flaeche;0;1030
+25.09.2012;71004-1480;;Unterhaltungsverbandsgebiet;Linie;0;1030
+25.09.2012;71004-1480;;Unterhaltungsverbandsgebiet;Flaeche;0;1030
+25.09.2012;71005-0000;;SchutzgebietNachWasserrecht;Linie;0;1030
+25.09.2012;71005-0000;;SchutzgebietNachWasserrecht;Flaeche;0;1030
+25.09.2012;71005-2111;;Oeffentliche Wasserversorgung;Linie;0;1030
+25.09.2012;71005-2111;;Oeffentliche Wasserversorgung;Flaeche;0;1030
+25.09.2012;71005-2112;;Grundwasseranreicherung;Linie;0;1030
+25.09.2012;71005-2112;;Grundwasseranreicherung;Flaeche;0;1030
+25.09.2012;71005-2113;;Verhuetung von schaedlichen Abfluss;Linie;0;1030
+25.09.2012;71005-2113;;Verhuetung von schaedlichen Abfluss;Flaeche;0;1030
+25.09.2012;71008-0000;;BauRaumOderBodenordnungsrecht;Linie;0;1030
+25.09.2012;71008-0000;;BauRaumOderBodenordnungsrecht;Flaeche;0;1030
+25.09.2012;71008-1700;;Festlegung nach Baugesetzbuch - Allgemeines Staedtebaurecht;Linie;0;1030
+25.09.2012;71008-1700;;Festlegung nach Baugesetzbuch - Allgemeines Staedtebaurecht;Flaeche;0;1030
+25.09.2012;71008-1710;;Bebauungsplan;Linie;0;1030
+25.09.2012;71008-1710;;Bebauungsplan;Flaeche;0;1030
+25.09.2012;71008-1720;;Veraenderungssperre nach Baugesetzbuch;Linie;0;1030
+25.09.2012;71008-1720;;Veraenderungssperre nach Baugesetzbuch;Flaeche;0;1030
+25.09.2012;71008-1730;;Vorkaufrechtssatzung;Linie;0;1030
+25.09.2012;71008-1730;;Vorkaufrechtssatzung;Flaeche;0;1030
+25.09.2012;71008-1740;;Enteignungsverfahren;Linie;0;1030
+25.09.2012;71008-1740;;Enteignungsverfahren;Flaeche;0;1030
+25.09.2012;71008-1750;;Umlegung;Linie;0;1030
+25.09.2012;71008-1750;;Umlegung;Flaeche;0;1030
+25.09.2012;71008-1760;;Bauland;Linie;0;1030
+25.09.2012;71008-1760;;Bauland;Flaeche;0;1030
+25.09.2012;71008-1770;;Vereinfachte Umlegung;Linie;0;1030
+25.09.2012;71008-1770;;Vereinfachte Umlegung;Flaeche;0;1030
+25.09.2012;71008-1780;;Vorhaben- und Erschliessungsplan;Linie;0;1030
+25.09.2012;71008-1780;;Vorhaben- und Erschliessungsplan;Flaeche;0;1030
+25.09.2012;71008-1790;;Flaechennutzungsplan;Linie;0;1030
+25.09.2012;71008-1790;;Flaechennutzungsplan;Flaeche;0;1030
+25.09.2012;71008-1800;;Festlegung nach Baugesetzbuch - Besonderes Staedtebaurecht;Linie;0;1030
+25.09.2012;71008-1800;;Festlegung nach Baugesetzbuch - Besonderes Staedtebaurecht;Flaeche;0;1030
+25.09.2012;71008-1810;;Staedtebauliche Entwicklungsmass¸nahme;Linie;0;1030
+25.09.2012;71008-1810;;Staedtebauliche Entwicklungsmass¸nahme;Flaeche;0;1030
+25.09.2012;71008-1811;;Staedtebauliche Entwicklungsmass¸nahme (Beschluss zu vorbereitenden Untersuchungen gefasst);Linie;0;1030
+25.09.2012;71008-1811;;Staedtebauliche Entwicklungsmass¸nahme (Beschluss zu vorbereitenden Untersuchungen gefasst);Flaeche;0;1030
+25.09.2012;71008-1820;;Erhaltungssatzung;Linie;0;1030
+25.09.2012;71008-1820;;Erhaltungssatzung;Flaeche;0;1030
+25.09.2012;71008-1821;;Staedtebauliches Erhaltungsgebiet;Linie;0;1030
+25.09.2012;71008-1821;;Staedtebauliches Erhaltungsgebiet;Flaeche;0;1030
+25.09.2012;71008-1822;;Soziales Erhaltungsgebiet;Linie;0;1030
+25.09.2012;71008-1822;;Soziales Erhaltungsgebiet;Flaeche;0;1030
+25.09.2012;71008-1823;;Erhaltungsgebiet zur staedtebaulichen Umstrukturierung;Linie;0;1030
+25.09.2012;71008-1823;;Erhaltungsgebiet zur staedtebaulichen Umstrukturierung;Flaeche;0;1030
+25.09.2012;71008-1824;;Soziales Erhaltungsgebiet (Aufstellungsbeschluss gefasst);Linie;0;1030
+25.09.2012;71008-1824;;Soziales Erhaltungsgebiet (Aufstellungsbeschluss gefasst);Flaeche;0;1030
+25.09.2012;71008-1830;;Staedtebauliche Gebote;Linie;0;1030
+25.09.2012;71008-1830;;Staedtebauliche Gebote;Flaeche;0;1030
+25.09.2012;71008-1840;;Sanierung;Linie;0;1030
+25.09.2012;71008-1840;;Sanierung;Flaeche;0;1030
+25.09.2012;71008-1841;;Sanierung (Beschluss zu vorbereitenden Untersuchungen gefasst);Linie;0;1030
+25.09.2012;71008-1841;;Sanierung (Beschluss zu vorbereitenden Untersuchungen gefasst);Flaeche;0;1030
+25.09.2012;71008-1900;;Wohnungsbauerleichterungsgesetz;Linie;0;1030
+25.09.2012;71008-1900;;Wohnungsbauerleichterungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2100;;Flurbereinigungsgesetz;Linie;0;1030
+25.09.2012;71008-2100;;Flurbereinigungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2110;;Flurbereinigung (Par. 1 FlurbG);Linie;0;1030
+25.09.2012;71008-2110;;Flurbereinigung (Par. 1 FlurbG);Flaeche;0;1030
+25.09.2012;71008-2120;;Vereinfachtes Flurbereinigungsverfahren (Par. 86 FlurbG);Linie;0;1030
+25.09.2012;71008-2120;;Vereinfachtes Flurbereinigungsverfahren (Par. 86 FlurbG);Flaeche;0;1030
+25.09.2012;71008-2130;;Unternehmensflurbereinigung (Par. 87 FlurbG);Linie;0;1030
+25.09.2012;71008-2130;;Unternehmensflurbereinigung (Par. 87 FlurbG);Flaeche;0;1030
+25.09.2012;71008-2140;;Beschleunigtes Zusammenlegungsverfahren (Par. 91 FlurbG);Linie;0;1030
+25.09.2012;71008-2140;;Beschleunigtes Zusammenlegungsverfahren (Par. 91 FlurbG);Flaeche;0;1030
+25.09.2012;71008-2150;;Freiwilliger Landtausch (Par. 103a FlurbG);Linie;0;1030
+25.09.2012;71008-2150;;Freiwilliger Landtausch (Par. 103a FlurbG);Flaeche;0;1030
+25.09.2012;71008-2200;;Landwirtschaftsanpassungsgesetz;Linie;0;1030
+25.09.2012;71008-2200;;Landwirtschaftsanpassungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2210;;Flurneuordnung;Linie;0;1030
+25.09.2012;71008-2210;;Flurneuordnung;Flaeche;0;1030
+25.09.2012;71008-2300;;Bodensonderungsgesetz;Linie;0;1030
+25.09.2012;71008-2300;;Bodensonderungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2310;;Unvermessenes Eigentum;Linie;0;1030
+25.09.2012;71008-2310;;Unvermessenes Eigentum;Flaeche;0;1030
+25.09.2012;71008-2320;;Unvermessenes Nutzungsrecht;Linie;0;1030
+25.09.2012;71008-2320;;Unvermessenes Nutzungsrecht;Flaeche;0;1030
+25.09.2012;71008-2330;;Ergaenzende Bodenneuordnung;Linie;0;1030
+25.09.2012;71008-2330;;Ergaenzende Bodenneuordnung;Flaeche;0;1030
+25.09.2012;71008-2340;;Komplexe Bodenneuordnung;Linie;0;1030
+25.09.2012;71008-2340;;Komplexe Bodenneuordnung;Flaeche;0;1030
+25.09.2012;71008-2400;;Vermoegenszuordnungsgesetz;Linie;0;1030
+25.09.2012;71008-2400;;Vermoegenszuordnungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2410;;Vermoegenszuordnung nach Plan;Linie;0;1030
+25.09.2012;71008-2410;;Vermoegenszuordnung nach Plan;Flaeche;0;1030
+25.09.2012;71008-2411;;Vermoegenszuordnung nach dem Aufteilungsplan;Linie;0;1030
+25.09.2012;71008-2411;;Vermoegenszuordnung nach dem Aufteilungsplan;Flaeche;0;1030
+25.09.2012;71008-2412;;Vermoegenszuordnung nach dem Zuordnungsplan;Linie;0;1030
+25.09.2012;71008-2412;;Vermoegenszuordnung nach dem Zuordnungsplan;Flaeche;0;1030
+25.09.2012;71008-2500;;Landesraumordnungsgesetz;Linie;0;1030
+25.09.2012;71008-2500;;Landesraumordnungsgesetz;Flaeche;0;1030
+25.09.2012;71008-2510;;Wasservorranggebiete;Linie;0;1030
+25.09.2012;71008-2510;;Wasservorranggebiete;Flaeche;0;1030
+25.09.2012;71008-2600;;Bauordnung;Linie;0;1030
+25.09.2012;71008-2600;;Bauordnung;Flaeche;0;1030
+25.09.2012;71008-2610;;Baulast;Linie;0;1030
+25.09.2012;71008-2610;;Baulast;Flaeche;0;1030
+25.09.2012;71008-2611;;Beguenstigende Baulast;Linie;0;1030
+25.09.2012;71008-2611;;Beguenstigende Baulast;Flaeche;0;1030
+25.09.2012;71008-2612;;Belastende Baulast;Linie;0;1030
+25.09.2012;71008-2612;;Belastende Baulast;Flaeche;0;1030
+25.09.2012;71008-2700;;Grenzfeststellungsverfahren nach Hamb. Wassergesetz;Linie;0;1030
+25.09.2012;71008-2700;;Grenzfeststellungsverfahren nach Hamb. Wassergesetz;Flaeche;0;1030
+25.09.2012;71008-2800;;Verkehrsflaechenbereinigung;Linie;0;1030
+25.09.2012;71008-2800;;Verkehrsflaechenbereinigung;Flaeche;0;1030
+25.09.2012;71012-0000;;Schutzzone;Linie;0;1030
+25.09.2012;71012-0000;;Schutzzone;Flaeche;0;1030
+25.09.2012;71012-1010;;Zone I;Linie;0;1030
+25.09.2012;71012-1010;;Zone I;Flaeche;0;1030
+25.09.2012;71012-1020;;Zone II;Linie;0;1030
+25.09.2012;71012-1020;;Zone II;Flaeche;0;1030
+25.09.2012;71012-1030;;Zone III;Linie;0;1030
+25.09.2012;71012-1030;;Zone III;Flaeche;0;1030
+25.09.2012;71012-1031;;Zone IIIa;Linie;0;1030
+25.09.2012;71012-1031;;Zone IIIa;Flaeche;0;1030
+25.09.2012;71012-1032;;Zone IIIb;Linie;0;1030
+25.09.2012;71012-1032;;Zone IIIb;Flaeche;0;1030
+25.09.2012;71012-1040;;Zone V;Linie;0;1030
+25.09.2012;71012-1040;;Zone V;Flaeche;0;1030
+25.09.2012;71012-1060;;Kernzone;Linie;0;1030
+25.09.2012;71012-1060;;Kernzone;Flaeche;0;1030
+25.09.2012;71012-1070;;Pflegezone;Linie;0;1030
+25.09.2012;71012-1070;;Pflegezone;Flaeche;0;1030
+25.09.2012;71012-1080;;Entwicklungszone;Linie;0;1030
+25.09.2012;71012-1080;;Entwicklungszone;Flaeche;0;1030
+25.09.2012;71012-1090;;Regenerationszone;Linie;0;1030
+25.09.2012;71012-1090;;Regenerationszone;Flaeche;0;1030
+25.09.2012;71012-9997;;Attribut trifft nicht zu;Linie;0;1030
+25.09.2012;71012-9997;;Attribut trifft nicht zu;Flaeche;0;1030
+25.09.2012;72001-0000;;Bodenschaetzung;Linie;0;1030
+25.09.2012;72001-0000;;Bodenschaetzung;Flaeche;0;1030
+25.09.2012;72001-1100;;Sand;Linie;0;1030
+25.09.2012;72001-1100;;Sand;Flaeche;0;1030
+25.09.2012;72001-1200;;Anlehmiger Sand (Sl);Linie;0;1030
+25.09.2012;72001-1200;;Anlehmiger Sand (Sl);Flaeche;0;1030
+25.09.2012;72001-2100;;Lehmiger Sand (lS);Linie;0;1030
+25.09.2012;72001-2100;;Lehmiger Sand (lS);Flaeche;0;1030
+25.09.2012;72001-2200;;Stark lehmiger Sand (SL);Linie;0;1030
+25.09.2012;72001-2200;;Stark lehmiger Sand (SL);Flaeche;0;1030
+25.09.2012;72001-3100;;Lehm (L);Linie;0;1030
+25.09.2012;72001-3100;;Lehm (L);Flaeche;0;1030
+25.09.2012;72001-3200;;Sandiger Lehm (sL);Linie;0;1030
+25.09.2012;72001-3200;;Sandiger Lehm (sL);Flaeche;0;1030
+25.09.2012;72001-4100;;Ton (T);Linie;0;1030
+25.09.2012;72001-4100;;Ton (T);Flaeche;0;1030
+25.09.2012;72001-4200;;Schwerer Lehm (LT);Linie;0;1030
+25.09.2012;72001-4200;;Schwerer Lehm (LT);Flaeche;0;1030
+25.09.2012;72001-5000;;Moor (Mo);Linie;0;1030
+25.09.2012;72001-5000;;Moor (Mo);Flaeche;0;1030
+25.09.2012;72001-6100;;Sand, Moor (SMo);Linie;0;1030
+25.09.2012;72001-6100;;Sand, Moor (SMo);Flaeche;0;1030
+25.09.2012;72001-6120;;Lehmiger Sand, Moor (lSMo);Linie;0;1030
+25.09.2012;72001-6120;;Lehmiger Sand, Moor (lSMo);Flaeche;0;1030
+25.09.2012;72001-6130;;Lehm, Moor (LMo);Linie;0;1030
+25.09.2012;72001-6130;;Lehm, Moor (LMo);Flaeche;0;1030
+25.09.2012;72001-6140;;Ton, Moor (TMo);Linie;0;1030
+25.09.2012;72001-6140;;Ton, Moor (TMo);Flaeche;0;1030
+25.09.2012;72001-6210;;Moor,Sand (MoS);Linie;0;1030
+25.09.2012;72001-6210;;Moor,Sand (MoS);Flaeche;0;1030
+25.09.2012;72001-6220;;Moor, Lehmiger Sand (MolS);Linie;0;1030
+25.09.2012;72001-6220;;Moor, Lehmiger Sand (MolS);Flaeche;0;1030
+25.09.2012;72001-6230;;Moor, Lehm (MoL);Linie;0;1030
+25.09.2012;72001-6230;;Moor, Lehm (MoL);Flaeche;0;1030
+25.09.2012;72001-6240;;Moor, Ton (MoT);Linie;0;1030
+25.09.2012;72001-6240;;Moor, Ton (MoT);Flaeche;0;1030
+25.09.2012;72001-7110;;Sand auf sandigem Lehm (S/sL);Linie;0;1030
+25.09.2012;72001-7110;;Sand auf sandigem Lehm (S/sL);Flaeche;0;1030
+25.09.2012;72001-7120;;Sand auf Lehm (S/L);Linie;0;1030
+25.09.2012;72001-7120;;Sand auf Lehm (S/L);Flaeche;0;1030
+25.09.2012;72001-7130;;Sand auf schwerem Lehm (S/LT);Linie;0;1030
+25.09.2012;72001-7130;;Sand auf schwerem Lehm (S/LT);Flaeche;0;1030
+25.09.2012;72001-7140;;Sand auf Ton (S/T);Linie;0;1030
+25.09.2012;72001-7140;;Sand auf Ton (S/T);Flaeche;0;1030
+25.09.2012;72001-7210;;Anlehmiger Sand auf Lehm (Sl/L);Linie;0;1030
+25.09.2012;72001-7210;;Anlehmiger Sand auf Lehm (Sl/L);Flaeche;0;1030
+25.09.2012;72001-7220;;Anlehmiger Sand auf schwerem Lehm (Sl/LT);Linie;0;1030
+25.09.2012;72001-7220;;Anlehmiger Sand auf schwerem Lehm (Sl/LT);Flaeche;0;1030
+25.09.2012;72001-7230;;Anlehmiger Sand auf Ton (Sl/T);Linie;0;1030
+25.09.2012;72001-7230;;Anlehmiger Sand auf Ton (Sl/T);Flaeche;0;1030
+25.09.2012;72001-7310;;Lehmiger Sand auf schwerem Lehm (lS/LT);Linie;0;1030
+25.09.2012;72001-7310;;Lehmiger Sand auf schwerem Lehm (lS/LT);Flaeche;0;1030
+25.09.2012;72001-7320;;Lehmiger Sand auf Ton (lS/T);Linie;0;1030
+25.09.2012;72001-7320;;Lehmiger Sand auf Ton (lS/T);Flaeche;0;1030
+25.09.2012;72001-7400;;Stark lehmiger Sand auf Ton (SL/T);Linie;0;1030
+25.09.2012;72001-7400;;Stark lehmiger Sand auf Ton (SL/T);Flaeche;0;1030
+25.09.2012;72001-7510;;Ton auf stark lehmigen Sand (T/SL);Linie;0;1030
+25.09.2012;72001-7510;;Ton auf stark lehmigen Sand (T/SL);Flaeche;0;1030
+25.09.2012;72001-7520;;Ton auf lehmigen Sand (T/lS);Linie;0;1030
+25.09.2012;72001-7520;;Ton auf lehmigen Sand (T/lS);Flaeche;0;1030
+25.09.2012;72001-7530;;Ton auf anlehmigen Sand (T/Sl);Linie;0;1030
+25.09.2012;72001-7530;;Ton auf anlehmigen Sand (T/Sl);Flaeche;0;1030
+25.09.2012;72001-7540;;Ton auf Sand (T/S);Linie;0;1030
+25.09.2012;72001-7540;;Ton auf Sand (T/S);Flaeche;0;1030
+25.09.2012;72001-7610;;Schwerer Lehm auf lehmigen Sand (LT/lS);Linie;0;1030
+25.09.2012;72001-7610;;Schwerer Lehm auf lehmigen Sand (LT/lS);Flaeche;0;1030
+25.09.2012;72001-7620;;Schwerer Lehm auf anlehmigen Sand (LT/Sl);Linie;0;1030
+25.09.2012;72001-7620;;Schwerer Lehm auf anlehmigen Sand (LT/Sl);Flaeche;0;1030
+25.09.2012;72001-7630;;Schwerer Lehm auf Sand (LT/S);Linie;0;1030
+25.09.2012;72001-7630;;Schwerer Lehm auf Sand (LT/S);Flaeche;0;1030
+25.09.2012;72001-7710;;Lehm auf anlehmigen Sand (L/Sl);Linie;0;1030
+25.09.2012;72001-7710;;Lehm auf anlehmigen Sand (L/Sl);Flaeche;0;1030
+25.09.2012;72001-7720;;Lehm auf Sand (L/S);Linie;0;1030
+25.09.2012;72001-7720;;Lehm auf Sand (L/S);Flaeche;0;1030
+25.09.2012;72001-7800;;Sandiger Lehm auf Sand (sL/S);Linie;0;1030
+25.09.2012;72001-7800;;Sandiger Lehm auf Sand (sL/S);Flaeche;0;1030
+25.09.2012;72001-8110;;Sand auf Moor (S/Mo);Linie;0;1030
+25.09.2012;72001-8110;;Sand auf Moor (S/Mo);Flaeche;0;1030
+25.09.2012;72001-8120;;Lehmiger Sand auf Moor (lS/Mo);Linie;0;1030
+25.09.2012;72001-8120;;Lehmiger Sand auf Moor (lS/Mo);Flaeche;0;1030
+25.09.2012;72001-8130;;Lehm auf Moor (L/Mo);Linie;0;1030
+25.09.2012;72001-8130;;Lehm auf Moor (L/Mo);Flaeche;0;1030
+25.09.2012;72001-8140;;Ton auf Moor (T/Mo);Linie;0;1030
+25.09.2012;72001-8140;;Ton auf Moor (T/Mo);Flaeche;0;1030
+25.09.2012;72001-8210;;Moor auf Sand (Mo/S);Linie;0;1030
+25.09.2012;72001-8210;;Moor auf Sand (Mo/S);Flaeche;0;1030
+25.09.2012;72001-8220;;Moor auf lehmigen Sand (Mo/lS);Linie;0;1030
+25.09.2012;72001-8220;;Moor auf lehmigen Sand (Mo/lS);Flaeche;0;1030
+25.09.2012;72001-8230;;Moor auf Lehm (Mo/L);Linie;0;1030
+25.09.2012;72001-8230;;Moor auf Lehm (Mo/L);Flaeche;0;1030
+25.09.2012;72001-8240;;Moor auf Ton (Mo/T);Linie;0;1030
+25.09.2012;72001-8240;;Moor auf Ton (Mo/T);Flaeche;0;1030
+25.09.2012;72001-9120;;Bodenwechsel vom Lehm zu Moor (L+Mo);Linie;0;1030
+25.09.2012;72001-9120;;Bodenwechsel vom Lehm zu Moor (L+Mo);Flaeche;0;1030
+25.09.2012;72001-9130;;Lehmiger Sand mit starkem Steingehalt (lSg);Linie;0;1030
+25.09.2012;72001-9130;;Lehmiger Sand mit starkem Steingehalt (lSg);Flaeche;0;1030
+25.09.2012;72001-9140;;Lehm mit starkem Steingehalt (Lg);Linie;0;1030
+25.09.2012;72001-9140;;Lehm mit starkem Steingehalt (Lg);Flaeche;0;1030
+25.09.2012;72001-9150;;lehmiger Sand mit Steinen und Bloecken (lS+St);Linie;0;1030
+25.09.2012;72001-9150;;lehmiger Sand mit Steinen und Blöcken (lS+St);Flaeche;0;1030
+25.09.2012;72001-9160;;Lehm mit Steinen und Bloecken L+St);Linie;0;1030
+25.09.2012;72001-9160;;Lehm mit Steinen und Bloecken L+St);Flaeche;0;1030
+25.09.2012;72001-9170;;Steine und Bloecke mit lehmigem Sand (St+lS);Linie;0;1030
+25.09.2012;72001-9170;;Steine und Bloecke mit lehmigem Sand (St+lS);Flaeche;0;1030
+25.09.2012;72001-9180;;Steine und Boecke mit Lehm (St+L);Linie;0;1030
+25.09.2012;72001-9180;;Steine und Bloecke mit Lehm (St+L);Flaeche;0;1030
+25.09.2012;72001-9190;;lehmiger Sand mit Felsen (lS+Fe);Linie;0;1030
+25.09.2012;72001-9190;;lehmiger Sand mit Felsen (lS+Fe);Flaeche;0;1030
+25.09.2012;72001-9200;;Lehm mit Felsen (L+Fe);Linie;0;1030
+25.09.2012;72001-9200;;Lehm mit Felsen (L+Fe);Flaeche;0;1030
+25.09.2012;72001-9210;;Felsen mit lehmigem Sand (Fe+lS);Linie;0;1030
+25.09.2012;72001-9210;;Felsen mit lehmigem Sand (Fe+lS);Flaeche;0;1030
+25.09.2012;72001-9220;;Felsen mit Lehm (Fe+L);Linie;0;1030
+25.09.2012;72001-9220;;Felsen mit Lehm (Fe+L);Flaeche;0;1030
+25.09.2012;72001-9310;;Sand auf lehmigen Sand (S/lS);Linie;0;1030
+25.09.2012;72001-9310;;Sand auf lehmigen Sand (S/lS);Flaeche;0;1030
+25.09.2012;72001-9320;;Anlehmiger Sand auf Mergel (Sl/Me);Linie;0;1030
+25.09.2012;72001-9320;;Anlehmiger Sand auf Mergel (Sl/Me);Flaeche;0;1030
+25.09.2012;72001-9330;;Anlehmiger Sand auf sandigem Lehm (Sl/sL);Linie;0;1030
+25.09.2012;72001-9330;;Anlehmiger Sand auf sandigem Lehm (Sl/sL);Flaeche;0;1030
+25.09.2012;72001-9340;;Lehmiger Sand auf Lehm (lS/L);Linie;0;1030
+25.09.2012;72001-9340;;Lehmiger Sand auf Lehm (lS/L);Flaeche;0;1030
+25.09.2012;72001-9350;;Lehmiger Sand auf Mergel (lS/Me);Linie;0;1030
+25.09.2012;72001-9350;;Lehmiger Sand auf Mergel (lS/Me);Flaeche;0;1030
+25.09.2012;72001-9360;;Lehmiger Sand auf sandigem Lehm (lS/sL);Linie;0;1030
+25.09.2012;72001-9360;;Lehmiger Sand auf sandigem Lehm (lS/sL);Flaeche;0;1030
+25.09.2012;72001-9370;;Lehmiger Sand, Mergel (lSMe);Linie;0;1030
+25.09.2012;72001-9370;;Lehmiger Sand, Mergel (lSMe);Flaeche;0;1030
+25.09.2012;72001-9380;;Lehmiger Sand, Moor auf Mergel (lSMo/Me);Linie;0;1030
+25.09.2012;72001-9380;;Lehmiger Sand, Moor auf Mergel (lSMo/Me);Flaeche;0;1030
+25.09.2012;72001-9390;;Anlehmiger Sand, Moor (SlMo);Linie;0;1030
+25.09.2012;72001-9390;;Anlehmiger Sand, Moor (SlMo);Flaeche;0;1030
+25.09.2012;72001-9410;;Lehm auf Mergel (L/Me);Linie;0;1030
+25.09.2012;72001-9410;;Lehm auf Mergel (L/Me);Flaeche;0;1030
+25.09.2012;72001-9420;;Lehm, Moor auf Mergel (LMo/Me);Linie;0;1030
+25.09.2012;72001-9420;;Lehm, Moor auf Mergel (LMo/Me);Flaeche;0;1030
+25.09.2012;72001-9430;;Schwerer Lehm auf Moor (LT/Mo);Linie;0;1030
+25.09.2012;72001-9430;;Schwerer Lehm auf Moor (LT/Mo);Flaeche;0;1030
+25.09.2012;72001-9440;;Ton auf Mergel (T/Me);Linie;0;1030
+25.09.2012;72001-9440;;Ton auf Mergel (T/Me);Flaeche;0;1030
+25.09.2012;72001-9450;;Moor auf Mergel (Mo/Me);Linie;0;1030
+25.09.2012;72001-9450;;Moor auf Mergel (Mo/Me);Flaeche;0;1030
+25.09.2012;72001-9460;;Moor, Lehm auf Mergel (MoL/Me);Linie;0;1030
+25.09.2012;72001-9460;;Moor, Lehm auf Mergel (MoL/Me);Flaeche;0;1030
+25.09.2012;72001-9470;;Moor, Mergel (MoMe;Linie;0;1030
+25.09.2012;72001-9470;;Moor, Mergel (MoMe;Flaeche;0;1030
+25.09.2012;74005-0000;;Wohnplatz;Text;;1030
+25.09.2012;75003-0000;;KommunalesGebiet;Linie;0;1030
+25.09.2012;75003-0000;;KommunalesGebiet;Flaeche;0;1030
+25.09.2012;91002-0000;;TopographischeLinie;Linie;H15;1099
+25.09.2012;91002-1000;;Durchgezogen;Linie;0;1099
+25.09.2012;91002-2000;;Lang gestrichelt;Linie;0;1099
+25.09.2012;91002-3000;;Kurz gestrichelt;Linie;0;1099
+27.02.2013; 25BMzweib;;Straßenachse zweibahnig;Linie;r01;
+27.02.2013;25BMzweiDL;;Damm links zweibahnig;Linie;r02;
+27.02.2013;25BMzweiEL;;Einschnitt links zweibahnig;Linie;r03;
+27.02.2013;25BMzweiDR;;Damm rechts zweibahnig;Linie;r04;
+27.02.2013;25BMzweiER;;Einschnitt rechts zweibahnig;Linie;r05;
+07.03.2013;25BrckeZW;;Brücke zweibahnig;Linie;r06;
+27.02.2013;25TunnelZW;;Tunnel zweibahnig;Linie;r07;
+27.02.2013;25BMzweiLL;;Lärmschutz links zweibahnig;Linie;r08;
+27.02.2013;25BMzweiLR;;Lärmschutz rechts zweibahnig;Linie;r09;
+27.02.2013;25BMeinb;;Straßenachse einbahnig;Linie;r11;
+27.02.2013;25BMeinDL;;Damm links einbahnig;Linie;r12;
+27.02.2013;25BMeinEL;;Einschnitt links einbahnig;Linie;r13;
+27.02.2013;25BMeinDR;;Damm rechts einbahnig;Linie;r14;
+27.02.2013;25BMeinER;;Einschnitt rechts einbahnig;Linie;r15;
+07.03.2013;25BrckeEI;;Brücke einbahnig;Linie;r16;
+27.02.2013;25tunnelEI;;Tunnel einbahnig;Linie;r17;
+27.02.2013;25BMeinLL;;Lärmschutz links einbahnig;Linie;r18;
+27.02.2013;25BMeinLR;;Lärmschutz rechts einbahnig;Linie;r19;
+27.02.2013;25Variante ;;Variante;Linie;r20;
+27.02.2013;25KNplanfr ;;Knotenpunkt planfrei;Punkt;r05;950
+27.02.2013;25KNtlplfr ;;Knotenpunkt teilplanfrei;Punkt;r06;951
+27.02.2013;25KNtlplgl ;;Knotenpunkt teilplangleich;Punkt;r07;952
+27.02.2013;25KNplangl ;;Knotenpunkt plangleich;Punkt;r08;953
+27.02.2013;25KNplglKR ;;Knotenpunkt plangleich (Kreisverkehr);Punkt;r09;954
+27.02.2013;25BWzwweib;;Brückenwiderlager zweibahnig;Punkt;r01;960
+27.02.2013;25TPzweib;;Tunnelportal zweibahnig;Punkt;r02;961
+27.02.2013;25BWeinb;;Brückenwiderlager einbahnig;Punkt;r03;965
+27.02.2013;25TPeinb;;Tunnelportal einbahnig;Punkt;r04;966
+07.03.2013;25BrNr ;;Brückennummer ;Punkt;r10;969
+07.03.2013;25BrNr ;;Brückennummer ;Text;1;969
+27.02.2013;25BAuBvorh;;Bundesautobahn;Linie;r30;910
+27.02.2013;25BStrvorh;;Bundesstraße;Linie;r31;912
+27.02.2013;25LStrvorh;;Landesstraße;Linie;r32;914
+27.02.2013;25KStrvorh;;Kreisstraße;Linie;r33;916
+07.03.2013;25SoStrvor;;sonstige Straßen;Linie;r34;918
+27.02.2013;25BeschrBA ;;Bundesautobahn;Punkt;r11;911
+27.02.2013;25BeschrBA ;;Bundesautobahn;Text;1;911
+27.02.2013;25BschrBSt ;;Bundesstraße;Punkt;r12;913
+27.02.2013;25BschrBSt ;;Bundesstraße;Text;1;913
+27.02.2013;25BeschrLS ;;Landesstraße (bis 3-Stellig);Punkt;r13;915
+27.02.2013;25BeschrLS ;;Landesstraße (bis 3-Stellig);Text;1;915
+27.02.2013;25BeschrL4 ;;Landesstraße (bis 4-Stellig);Punkt;r14;915
+27.02.2013;25BeschrL4 ;;Landesstraße (bis 4-Stellig);Text;1;915
+27.02.2013;25BeschrKS ;;Kreisstraße;Punkt;r15;917
+07.03.2013;25BeschrKS ;;Kreisstraße;Text;1;917
+07.03.2013;25BeschrSo ;;Sonstige Straße;Punkt;r16;919
+07.03.2013;25BeschrSo ;;Sonstige Straße;Text;1;919
+27.02.2013;25BAuBgepl;;Bundesautobahn;Linie;r35;920
+27.02.2013;25BStrgepl;;Bundesstraße;Linie;r36;922
+27.02.2013;25LStrgepl;;Landesstraße;Linie;r37;924
+27.02.2013;25KStrgepl;;Kreisstraße;Linie;r38;926
+27.02.2013;25SoStrgep;;sonstige Straßen;Linie;r39;928
+27.02.2013;25Grenzall;;Grenze allgemein;Linie;r40;930
+07.03.2013;25Bundgrsm;;Bundesgrenze schwarz - magentafarben hinterlegt;Linie;r41;930
+07.03.2013;25Bundgrem;;Bundesgrenze magentafarben;Linie;r42;930
+07.03.2013;25Landgrsm;;Landesgrenze schwarz - magentafarben hinterlegt;Linie;r43;930
+07.03.2013;25Landgrm;;Landesgrenze magentafarben;Linie;r44;930
+07.03.2013;25RgBzgrsm;;Regierungsbezierksgrenze schwarz - magentafarben hinterlegt;Linie;r45;930
+07.03.2013;25RgBzgrm ;;Regierungsbezierksgrenze magentafarben;Linie;r46;930
+07.03.2013;25Kreigrsm;;Kreisgrenzen schwarz - magentafarben hinterlegt;Linie;r47;930
+07.03.2013;25Kreigrm;;Kreisgrenze magentafarben;Linie;r48;930
+07.03.2013;25Gemdgrsm;;Gemeindegrenze schwarz - magentafarben hinterlegt;Linie;r49;930
+07.03.2013;25Gemdgrm;;Gemeindegrenze magentafarben;Linie;r50;930
+27.02.2013;25RBStreck;;Rückbaustrecke;Linie;r21;970
+27.02.2013;25RBFlche;;Rückbaufläche;Flaeche;10;970

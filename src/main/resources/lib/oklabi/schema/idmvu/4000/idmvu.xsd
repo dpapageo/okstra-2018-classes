@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:idmvu="http://schema.idmvu.org/4000/idmvu" elementFormDefault="qualified" targetNamespace="http://schema.idmvu.org/4000/idmvu" version="4.000.0">
+  <include schemaLocation="01_Netzmodell.xsd"/>
+  <include schemaLocation="02_Gleiskoerper.xsd"/>
+  <include schemaLocation="03_Stromversorgung.xsd"/>
+  <include schemaLocation="04_Leit-_und_Sicherungstechnik.xsd"/>
+  <include schemaLocation="05_Haltestellen.xsd"/>
+  <include schemaLocation="06_Bauwerke.xsd"/>
+  <include schemaLocation="07_Kabel_und_Leitungen.xsd"/>
+  <include schemaLocation="08_Telekommunikation.xsd"/>
+  <include schemaLocation="09_Liegenschaften.xsd"/>
+  <include schemaLocation="10_Betriebshoefe.xsd"/>
+  <include schemaLocation="11_Notfalleinrichtungen.xsd"/>
+  <include schemaLocation="12_Allgemeine_Objektarten.xsd"/>
+  <include schemaLocation="13_Zustandsdaten.xsd"/>
+  <include schemaLocation="14_Betriebliche_Daten.xsd"/>
+  <include schemaLocation="15_Kaufmaennische_Daten.xsd"/>
+  <include schemaLocation="Datentypen.xsd"/>
+  <include schemaLocation="Schluesseltabellen.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+</schema>

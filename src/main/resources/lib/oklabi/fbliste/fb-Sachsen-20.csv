@@ -1,0 +1,256 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;;
+17.09.02;#211.E001;;Trigonometrischer Punkt;Punkt;s05;;
+17.09.02;#222.E001;;Geländepunkt;Punkt;s12;;
+17.09.02;#222.E002;;Geländepunkt;Punkt;s11;;
+07.10.02;#23B.E001;;Brückenwiderlager;Linie;130;;
+07.10.02;#23B.E002;;Brückenmitte / -achse;Linie;131;;
+07.10.02;#23B.E003;;Brückengeländer;Linie;132;;
+07.10.02;#23B.E004;;Flügelmauer;Linie;133;;
+07.10.02;#23B.E005;;Brückenkopf;Linie;134;;
+07.10.02;#23B.E006;;Gesimskopf;Linie;135;;
+07.10.02;#244.E001;;Wohnhaus;Linie;30;;
+07.10.02;#244.E002;;Wirtschaftsgebäude;Linie;31;;
+07.10.02;#244.E003;;Garage;Linie;32;;
+07.10.02;#244.E004;;Wartehaus;Linie;33;;
+07.10.02;#244.E005;;Schuppen;Linie;36;;
+07.10.02;#244.E006;;Schule;Linie;34;;
+07.10.02;#244.E007;;Rathaus;Linie;35
+07.10.02;#245.E001;;Kellerlichtschacht;Punkt;s1203
+07.10.02;#245.E001;;Balkon;Linie;88
+17.09.02;#254.E001;;A-Mast;Punkt;s550
+16.09.02;#999.E002;;Belagwechsel;Linie;27
+07.10.02;#999.E003;;Fallrohr;Punkt;s63
+07.10.02;#999.E004;;andere öffentliche grenze;Linie;159
+16.09.02;0111.E001;;Grenzmarke gemessen;Linie;
+07.10.02;0111.E002;;Grenzmarke digitalisiert;Punkt;s566
+07.10.02;0111.E003;;Grenzmarke nicht mehr aktuell;Punkt;s569
+07.10.02;0111.E004;;Grenzmarke ÖbVI amtl. Koordinate;Punkt;s7
+07.10.02;0111.E005;;Grenzmarke übernommen Ver.-Büro;Punkt;s5
+07.10.02;0111.E006;;Grenzmarke neu noch nicht amtl.;Punkt;s10
+17.09.02;0122.E001;;Aufnahmepunkt,  Polygonpunkt;Punkt;s02
+07.10.02;0141.E001;;Pfeilerbolzen/Mauerbolzen;Punkt;s1109
+17.09.02;0211.E001;;Staats-Landesgrenze;Linie;150
+17.09.02;0213.E001;;Verwaltungsgrenze;Linie;151
+17.09.02;0214.E001;;Kreisgrenze;Linie;152
+17.09.02;0215.E001;;Ortsgrenze;Linie;154
+17.09.02;0231.E001;;Gemarkungsgrenze;Linie;153
+07.10.02;0233.E001;;Flurstücksgrenze;Linie;155
+07.10.02;0241.E001;;Nutzungsartengrenze;Linie;28
+07.10.02;0276.E001;;Naturschutzgebietsgrenze;Linie;156
+07.10.02;0277.E001;;Landschaftsschutz- Gebietsgrenze;Linie;157
+07.10.02;0278.E001;;Landschaftsschutz- Gebietsgrenze;Linie;158
+16.09.02;0313.E001;;Grenzmauer;Linie;82
+07.10.02;0352.E001;;Mauer;Linie;80
+07.10.02;0352.E002;;Mauer / defekt eingefallen;Linie;83
+18.09.02;0353.E001;;Zaunsäule;Punkt;s1220
+18.09.02;0353.E002;;Zaun / Holzzaun;Linie;50
+18.09.02;0353.E003;;Drahtzaun;Linie;52
+18.09.02;0353.E004;;Eisenzaun;Linie;51
+04.07.03;0427.0001;;Neigungrichtung;Punkt;M08
+07.10.02;0435.E001;;Felsen;Linie;87
+07.10.02;0463.E001;;Sohle/Graben/Rinne;Linie;24
+07.10.02;0473.E001;;Stützmauer / Futtermauer;Linie;81
+07.10.02;0481.E001;;Böschungsunterkante;Linie;118
+07.10.02;0484.E001;;Böschungsoberkante;Linie;119
+23.10.03;0487.0000;2.2.1.7;Angedeutete Böschungsrichtung erfasst;Linie;1
+23.10.03;0487.0001;;Angedeutete Böschungsrichtung nicht erfasst;Linie;1
+25.10.01;0719.0000;1.4.1;Gitterkreuz;Punkt;M50
+25.10.01;0719.0000;1.4.1;Gitternetzlinien;Linie;0
+25.10.01;0719.0001;;Schneiderahmen / Faltmarkierung;Linie;0
+25.10.01;0719.0002;;Heftrand;Linie;0
+25.10.01;0719.0003;;Koordinatenrahmen;Linie;0
+25.10.01;0719.0004;;Innenrahmen;Linie;0
+25.10.01;0719.0005;;Gitternetzbeschriftung;Text;1
+25.10.01;0719.0006;;Eckpunktbeschriftung;Text;1
+25.10.01;0719.0007;;Information im Schneiderahmen;Text;1
+07.10.02;1044.E001;;Treppe;Linie;120
+07.10.02;1049.E001;;Laderampe;Linie;86
+16.09.02;1208.E001;;Tor;Punkt;s563
+16.09.02;1208.E002;;Einfahrt;Linie;25
+07.10.02;1731.E001;;Tankstelle;Punkt;s1312
+17.09.02;1731.E001;;Tankstelle;Linie;29
+18.09.02;2369.E001;;Parken;Punkt;s1226
+07.10.02;2372.E001;;Parkscheinautomat;Punkt;s1319
+17.09.02;2513.E001;;Pumpe;Punkt;s554
+25.10.01;2514.0000;2.5.5.14;Wasserturm;Punkt;F62
+25.10.01;2514.0000;2.5.5.14;Wasserturm;Text;1
+07.10.02;3402.E001;;Signalleitung;Linie;247
+07.10.02;3403.E001;;Siganlleitung;Linie;147
+17.09.02;3411.E001;;Brunnen;Punkt;s553
+07.10.02;3421.E001;;Oberirdische Wasserleitung;Linie;140
+07.10.02;3423.E001;;Wasserleitung;Linie;240
+07.10.02;3426.E001;;Wasserversorgung;Punkt;s568
+07.10.02;3427.E001;;Oberflurhydrant;Punkt;s1247
+18.09.02;3428.E001;;Unterflurhydrant;Punkt;s1405
+18.09.02;3429.E001;;Schieberkappe, Wasser;Punkt;s1119
+07.10.02;3432.E001;;Oberirdische Erdgas-, Heizgasleitung;Linie;144
+07.10.02;3433.E001;;Unterirdische Erdgas-, Heizgasleitung;Linie;244
+17.09.02;3434.E001;;Merkzeichen für Gasleitung;Punkt;s557
+18.09.02;3435.E001;;Schieberkappe Gas;Punkt;s1117
+07.10.02;3441.E001;;Oberirdische Leitung der Elektrizitätsversorgung;Linie;142
+07.10.02;3442.E001;;Unterirdische Leitung der Elektrizitätsversorgung;Linie;242
+17.09.02;3443.E001;;Merkzeichen für Elektrizitätsversorgung;Punkt;s556
+07.10.02;3447.E001;;Trafohaus, Umformer;Punkt;s1412
+07.10.02;3447.E001;;Trafohaus, Umformer;Linie;39
+16.09.02;3447.E002;;Trafohaus;Linie;30
+18.09.02;3451.E001;;Stahlrohrmast;Punkt;s1083
+18.09.02;3452.E001;;Stahlbetonmast;Punkt;s1080
+18.09.02;3453.E001;;Stahlgittermast;Punkt;s1237
+07.10.02;3455.E001;;Doppelmast;Punkt;s1100
+18.09.02;3456.E001;;Holzmast;Punkt;s1077
+07.10.02;3464.E001;;Oberirdische Rohölleitung;Linie;146
+07.10.02;3465.E001;;Unterirdische Rohölleitung;Linie;246
+07.10.02;3474.E001;;Schacht - Heizungsanlage;Punkt;s1321
+07.10.02;3475.E001;;Oberirdische Fernheizleitung;Linie;145
+07.10.02;3476.E001;;Unterirdische Fernheizleitung;Linie;245
+17.09.02;3477.E001;;Merkzeichen für Fernheizung;Punkt;s559
+07.10.02;3481.E001;;Oberirdische Leitung des Fernmeldewesens;Linie;143
+07.10.02;3482.E001;;Unterirdische Leitung des Fernmeldewesens;Linie;243
+17.09.02;3483.E001;;Merkstein für Fernmeldewesen;Punkt;s558
+07.10.02;3484.E001;;Schacht - Fernmelde / Post;Punkt;s1322
+07.10.02;3485.E001;;Funkmast;Punkt;s1323
+07.10.02;3486.E001;;Telefonzelle;Punkt;s1311
+20.06.03;3489.0000;2.5.6.1;Kabelkasten, Schaltkasten;Punkt;F40
+17.09.02;3489.E001;;Schaltkasten, Verteilerkasten;Punkt;s565
+18.09.02;3489.E002;;Doppelschacht;Punkt;s1218
+07.10.02;3495.E001;;Windrad;Punkt;s1324
+07.10.02;3498.E001;;Schilderpfahl;Punkt;s1318
+07.10.02;3501.E001;;Oberirdische Abwasserleitung;Linie;141
+07.10.02;3502.E001;;Unterirdische Abwasser-, Schmutzwasserleitung;Linie;241
+18.09.02;3504.E001;;Schacht / Abwasser rund;Punkt;s1115
+07.10.02;3504.E002;;Schacht eckig;Punkt;s1205
+07.10.02;3505.E001;;Straßeneinlauf eckig;Punkt;s1239
+07.10.02;3505.E002;;Straßeneinlauf rund;Punkt;s1093
+07.10.02;3531.E001;;Klärgrube;Linie;69
+20.06.03;3591.0000;2.5.5.12;Benzin-, Ölabscheider;Punkt;F38
+07.10.02;3911.E001;;Schornstein;Linie;128
+18.09.02;4211.E001;;Parkanlage;Punkt;s1012
+07.10.02;4242.E001;;Wildschutzzaun;Linie;53
+07.10.02;4301.E001;;Campingplatz;Punkt;s1435
+07.10.02;5002.E001;;Netzknoten;Punkt;s31
+07.10.02;5003.E001;;Stationszeichen;Punkt;s1317
+17.09.02;5004.E001;;Tangentenpunkt, Bogen Anfang/Ende;Punkt;s1
+07.10,02;5004.E002;;Fahrbahnachse;Linie;11
+07.10.02;5004.E003;;Gleisachse;Linie;13
+07.10.02;5116.E001;;Fahrbahnmarkierung;Linie;12
+07.10.02;5172.E001;;Fundament;Punkt;84
+07.10.02;5173.E001;;Hochbord;Linie;22
+07.10.01;5174.E001;;Tiefbord;Linie;21
+07.10.02;5211.E001;;unbefestigter Weg;Linie;29
+17.09.02;5281.E001;;Wegweiser;Punkt;s564
+18.09.02;5281.E002;;Wegweiser;Punkt;s1249
+18.09.02;5281.E003;;Wegweiser;Punkt;s1263
+18.09.02;5281.E004;;Wegweiser;Punkt;s1264
+18.09.02;5281.E005;;Wegweiser;Punkt;s1265
+18.09.02;5281.E006;;Barke nach rechts;Punkt;s1279
+18.09.02;5284.E001;;Ampel;Punkt;s1273
+07.10.02;5284.E002;;Lichtzeichenbrücke;Punkt;s1320
+07.10.02;5285.E001;;Kilometerstein;Punkt;s1225
+18.09.02;5286.E001;;Gefahrzeichen;Punkt;s1267
+18.09.02;5286.E002;;Schild;Punkt;s1269
+07.10.02;5287.E001;;Verkehrszeichenbrücke;Punkt;s1302
+18.09.02;5288.E001;;Licht;Punkt;s1230
+07.10.02;5289.E001;;Ortsdurchfahrtsstein;Punkt;s592
+07.10.02;5292.E001;;Tür;Punkt;s1303
+07.10.02;5296.E001;;Fahrbahnrand;Linie;10
+07.10.02;5297.E001;;Radweg;Linie;20
+07.10.02;5297.E002;;Gehweg;Linie;23
+07.10.02;5311.E001;;Parkplatz;Punkt;s1309
+07.10.02;5411.E001;;Gleis Schiene einzeln;Linie;14
+07.10.02;5439.E001;;Bus- Bahnhaltestelle;Punkt;s636
+18.09.02;5476.E001;;Blinklicht;Punkt;s1259
+07.10.02;5476.E002;;Blinklicht;Punkt;s1301
+17.09.02;5477.E001;;Schranke;Punkt;s555
+18.09.02;5477.E002;;Andreaskreuz;Punkt;s1262
+07.10.02;5741.E001;;Gaslaterne;Punkt;s1270
+18.09.02;5742.E001;;Laterne;Punkt;s1281
+07.10.02;5742.E002;;Mast mit Lampe;Punkt;s1070
+07.10.02;5747.E001;;Werbefläche;Punkt;1300
+17.09.02;5751.E001;;Fahnenstange;Punkt;s37
+07.10.02;6110.E001;;Ackerland;Punkt;s1305
+18.09.02;6206.E001;;Schilf;Punkt;s1016
+07.10.02;6310.E001;;Gartenland;Linie;s1306
+18.09.02;6500.E001;;Moor;Punkt;s1015
+18.09.02;7100.E001;;Laubwald;Punkt;s1005
+18.09.02;7200.E001;;Nadelwald;Punkt;s1010
+18.09.02;7300.E001;;Mischwald;Punkt;s1011
+18.09.02;7400.E001;;Gebüsch;Punkt;s1256
+18.09.02;7501.E001;;Laubbaum;Punkt;s1122
+07.10.02;7501.E002;;Laubbaum einzeln;Punkt;s1001
+07.10.02;7501.E003;;Ahorn;Punkt;s1140
+07.10.02;7501.E004;;Birke;Punkt;s1141
+07.10.02;7501.E005;;Buche;Punkt;s1142
+07.10.02;7501.E006;;Eiche;Punkt;s1143
+07.10.02;7501.E007;;Esche;Punkt;s1144
+07.10.02;7501.E008;;Kastanie;Punkt;s1145
+07.10.02;7501.E009;;Linde;Punkt;s1146
+07.10.02;7501.E010;;Pappel;Punkt;s1147
+07.10.02;7501.E011;;Weide;Punkt;s1148
+07.10.02;7501.E012;;Laubbaum von planerischer Bedeutung;Punkt;s1326
+18.09.02;7502.E001;;Nadelbaum;Punkt;s1124
+07.10.02;7502.E002;;Nadelbaum;Punkt;s1325
+07.10.02;7502.E003;;Eibe;Punkt;s1150
+07.10.02;7502.E004;;Fichte;Punkt;s1151
+07.10.02;7502.E005;;Kiefer;Punkt;s1152
+07.10.02;7502.E006;;Lärche;Punkt;s1153
+07.10.02;7502.E007;;Lebensbaum;Punkt;s1154
+07.10.02;7502.E008;;Tanne;Punkt;s1155
+07.10.02;7502.E009;;Wacholder;Punkt;s1156
+07.10.02;7502.E010;;Zypresse;Punkt;s1157
+16.09.02;7506.E001;;Laub Baumreihe;Linie;103
+28.10.03;7507.E001;;Nadel Baumreihe;Linie;109
+18.09.02;7511.E001;;Obstbaum;Punkt;s1123
+07.10.02;7511.E002;;Obstbaum einzeln;Punkt;s1280
+07.10.02;7512.E001;;Obstbaumanlage;Punkt;s1304
+18.09.02;7515.E001;;Durchmesser 1.0m;Punkt;s570
+;7515.E002;;Durchmesser 0.1m;Punkt;s571
+;7515.E003;;Durchmesser 0.2m;Punkt;s572
+;7515.E004;;Durchmesser 0.3m;Punkt;s573
+;7515.E005;;Durchmesser 0.4m;Punkt;s574
+;7515.E006;;Durchmesser 0.5m;Punkt;s575
+;7515.E007;;Durchmesser 0.6m;Punkt;s576
+;7515.E008;;Durchmesser 0.7m;Punkt;s577
+;7515.E009;;Durchmesser 0.8m;Punkt;s578
+18.09.02;7515.E010;;Durchmesser 0.9m;Punkt;s579
+07.10.02;7855.E001;;Rohrauslauf;Punkt;s1308
+07.10.02;7855.E002;;Pflasterrinne;Linie;18
+17.09.02;8011.E001;;Quelle;Punkt;s552
+07.10.02;8023.E001;;Höhe des Wasserspiegels;Punkt;s1415
+07.10.02;8025.E001;;Fließrichtungspfeil;Punkt;s70
+07.10.02;8038.E001;;Uferlinie, veränderliche;Linie;117
+07.10.02;8062.E001;;Wehr;Linie;85
+07.10.02;8073.E001;;Durchlass;Punkt;s1416
+07.10.02;8091.E001;;Lattenpegel;Punkt;s1310
+20.06.03;8096.0000;2.5.5.13;Grundwasserbeobachtungsrohr;Punkt;F39
+07.10.02;9242.E001;;Lärmschutzwand;Linie;54;
+07.10.02;9291.E001;;Schutzeinrichtung;Linie;15;
+07.10.02;9292.E001;;Schutzeinrichtung;Linie;16;
+07,10.02;9332.E001;;Denkmal;Punkt;s1248;
+25.10.01;99999.9999;;Sonstiges;Punkt;1;
+25.10.01;99999.9999;;Sonstiges;Linie;0;
+25.10.01;99999.9999;;Sonstiges;Text;1;
+25.10.01;99999.9999;;Sonstiges;Flaeche;0;
+17.02.03;RE85.0001;RE 85;Fahrbahn;Flaeche;15;
+17.02.03;RE85.0002;RE 85;Bankett;Flaeche;105;
+27.11.03;RE85.0003;RE 85;Dammböschung;Flaeche;90;
+27.11.03;RE85.0004;RE 85;Einschnittsböschung;Flaeche;114;
+17.02.03;RE85.0005;RE 85;Insel gepflastert;Flaeche;16;
+17.02.03;RE85.0006;RE 85;Stützwand, Widerlager;Flaeche;08;
+17.02.03;RE85.0007;RE 85;geplanter Gebäudeabbruch;Flaeche;10;
+17.02.03;RE85.0008;RE 85;Gewässer mit Fließrichtung;Flaeche;35;
+21.11.03;RE85.0009;RE 85;Gehweg;Flaeche;115;
+17.02.03;RE85.0010;RE 85;Zufahrt;Flaeche;54;
+21.11.03;RE85.0011;RE 85;Wirtschaftsweg;Flaeche;15;
+04.11.03;RE85.0012;RE 85;Grunderwerb - für den Straßenbau vorübergehend benötigte Fläche;Flaeche;89;
+04.11.03;RE85.0013;RE 85;Grunderwerb - dauernd zu beschränkende Fläche;Flaeche;95;
+04.11.03;RE85.0014;RE 85;Grunderwerb - Restfläche;Flaeche;26;
+21.11.03;RE85.0015;RE 85;Trennstreifen;Flaeche;105;
+17.02.03;RE85.0016;RE 85;Radweg;Flaeche;82;
+21.11.03;RE85.0017;RE 85;Geh-/Radweg;Flaeche;82;
+03.12.03;RE85.0019;RE 85;Aufschüttung;Flaeche;90;
+03.12.03;RE85.0020;RE 85;Abgrabung;Flaeche;114;
+21.11.03;RE85.0021;RE 85;Lärmschutzwall;Flaeche;60;
+17.02.03;RE85.0022;RE 85;Lärmschutzwand;Flaeche;08;
+17.02.03;RE85.0023;RE 85;Gewässer ohne Fließrichtung;Flaeche;35;
+04.11.03;RE85.0024;RE 85;Grunderwerb - für den Straßenbau zu erwerbende Fläche;Flaeche;99;
+21.11.03;RE85.0025;RE 85;Gebäude bereits abgebrochen;Flaeche;10;

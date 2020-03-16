@@ -1,0 +1,709 @@
+Datum;Fachbedeutung;RAS-Verm;Bezeichnung;Symbolart;Landescode;Farbe;Block;Neue Ordnerstruktur
+22.09.2016;V8299.6T01;;Beschriftung Gelände allgemein;Text;;19;1;allgemein
+22.09.2016;V8250.6001;;Gelände;Punkt;X01;19;1;allgemein
+22.09.2016;V8250.6L01;;Gelände;Linie;00;19;1;allgemein
+22.09.2016;V8252.6001;;Bruchkante;Punkt;X01;19;1;allgemein
+22.09.2016;V8252.6L01;;Bruchkante;Linie;00;19;1;allgemein
+22.09.2016;V8256.6001;;Böschung - UK;Punkt;X01;19;1;allgemein
+22.09.2016;V8256.6L01;;Böschung - UK;Linie;00;19;1;allgemein
+22.09.2016;V8254.6001;;Böschung - OK;Punkt;X01;19;1;allgemein
+22.09.2016;V8254.6L01;;Böschung - OK;Linie;00;19;1;allgemein
+22.09.2016;V8258.6001;;Graben - Sohle;Punkt;X01;19;1;allgemein
+22.09.2016;V8258.6L01;;Graben - Sohle;Linie;00;19;1;allgemein
+22.09.2016;V8260.6001;;Graben - Rand;Punkt;X01;19;1;allgemein
+22.09.2016;V8260.6L01;;Graben - Rand;Linie;00;19;1;allgemein
+22.09.2016;V8262.6001;;Rinne;Punkt;X01;19;1;allgemein
+22.09.2016;V8262.6L01;;Rinne;Linie;05;19;1;allgemein
+22.09.2016;V8265.6001;;Mulde;Punkt;X01;19;1;allgemein
+22.09.2016;V8265.6L01;;Mulde;Linie;00;19;1;allgemein
+22.09.2016;V8283.6001;;Mauer - UK;Punkt;X01;19;1;allgemein
+22.09.2016;V8283.6L01;;Mauer - UK;Linie;52;19;1;allgemein
+22.09.2016;V8286.6001;;Mauer - OK;Punkt;X01;19;1;allgemein
+22.09.2016;V8286.6L01;;Mauer - OK;Linie;00;19;1;allgemein
+22.09.2016;V8013.6001;;Mauer-HK;Punkt;X01;19;1;allgemein
+22.09.2016;V8013.6L01;;Mauer-HK;Linie;00;19;1;allgemein
+22.09.2016;V8289.6001;;Zaun;Punkt;X01;19;1;allgemein
+22.09.2016;V8289.6L01;;Zaun;Linie;47;19;1;allgemein
+22.09.2016;V8292.6001;;Geländer;Punkt;X01;19;1;allgemein
+22.09.2016;V8292.6L01;;Geländer;Linie;06;19;1;allgemein
+22.09.2016;V8281.6001;;Nutzungsartengrenze;Punkt;X01;19;1;allgemein
+22.09.2016;V8281.6L01;;Nutzungsartengrenze;Linie;15;19;1;allgemein
+22.09.2016;V8295.6001;;Gabione;Punkt;X01;19;1;allgemein
+22.09.2016;V8295.6L01;;Gabione;Linie;Y16;19;1;allgemein
+22.09.2016;V8267.6001;;Durchlass;Punkt;Y61;19;1;allgemein
+22.09.2016;V8267.6L01;;Durchlass;Linie;Z06;19;1;allgemein
+22.09.2016;V8400.6001;;Zufahrt;Punkt;X92;19;1;allgemein
+22.09.2016;V8400.6L01;;Zufahrt;Linie;0;19;1;allgemein
+22.09.2016;V8401.6001;;Zugang;Punkt;X91;19;1;allgemein
+22.09.2016;V8401.6L01;;Zugang;Linie;0;19;1;allgemein
+22.09.2016;V8268.6001;;Ufer;Punkt;X01;19;1;allgemein
+22.09.2016;V8268.6L01;;Ufer;Linie;30;19;1;allgemein
+22.09.2016;V8270.6001;;Wasserspiegel;Punkt;X25;19;1;allgemein
+22.09.2016;V8270.6L01;;Wasserspiegel;Linie;30;19;1;allgemein
+22.09.2016;V8550.6001;;Pflaster allgemein;Punkt;X01;19;1;allgemein
+22.09.2016;V8550.6L01;;Pflaster allgemein;Linie;0;19;1;allgemein
+22.09.2016;V8552.6001;;Pflaster Kopfstein;Punkt;X01;19;1;allgemein
+22.09.2016;V8552.6L01;;Pflaster Kopfstein;Linie;0;19;1;allgemein
+22.09.2016;V8554.6001;;Pflaster Rasengitter;Punkt;X01;19;1;allgemein
+22.09.2016;V8554.6L01;;Pflaster Rasengitter;Linie;0;19;1;allgemein
+22.09.2016;V8556.6001;;Pflaster Wasserbau;Punkt;X01;19;1;allgemein
+22.09.2016;V8556.6L01;;Pflaster Wasserbau;Linie;0;19;1;allgemein
+22.09.2016;V8298.6T02;;Beschriftung Gelände allgemein unter BW;Text;;19;1;BW unten
+22.09.2016;V8251.6002;;Gelände unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8251.6L02;;Gelände unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8253.6002;;Bruchkante unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8253.6L02;;Bruchkante unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8257.6002;;Böschung - UK unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8257.6L02;;Böschung - UK unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8255.6002;;Böschung - OK unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8255.6L02;;Böschung - OK unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8259.6002;;Graben - Sohle unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8259.6L02;;Graben - Sohle unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8261.6002;;Graben - Rand unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8261.6L02;;Graben - Rand unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8263.6002;;Rinne unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8263.6L02;;Rinne unter BW;Linie;05;19;1;BW unten
+22.09.2016;V8266.6002;;Mulde unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8266.6L02;;Mulde unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8284.6002;;Mauer - UK unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8284.6L02;;Mauer - UK unter BW;Linie;52;19;1;BW unten
+22.09.2016;V8287.6002;;Mauer - OK unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8287.6L02;;Mauer - OK unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8014.6002;;Mauer-HK unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8014.6L02;;Mauer-HK unter BW;Linie;00;19;1;BW unten
+22.09.2016;V8290.6002;;Zaun unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8290.6L02;;Zaun unter BW;Linie;47;19;1;BW unten
+22.09.2016;V8293.6002;;Geländer unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8293.6L02;;Geländer unter BW;Linie;06;19;1;BW unten
+22.09.2016;V8282.6002;;Nutzungsartengrenze unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8282.6L02;;Nutzungsartengrenze unter BW;Linie;15;19;1;BW unten
+22.09.2016;V8296.6002;;Gabione unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8296.6L02;;Gabione unter BW;Linie;Y16;19;1;BW unten
+22.09.2016;V8240.6002;;Durchlass unter BW;Punkt;Y61;19;1;BW unten
+22.09.2016;V8240.6L02;;Durchlass unter BW;Linie;Z06;19;1;BW unten
+22.09.2016;V8241.6002;;Zufahrt unter BW ;Punkt;X92;19;1;BW unten
+22.09.2016;V8241.6L02;;Zufahrt unter BW ;Linie;0;19;1;BW unten
+22.09.2016;V8242.6002;;Zugang unter BW ;Punkt;X91;19;1;BW unten
+22.09.2016;V8242.6L02;;Zugang unter BW ;Linie;0;19;1;BW unten
+22.09.2016;V8269.6002;;Ufer unter BW;Punkt;X01;19;1;BW unten
+22.09.2016;V8269.6L02;;Ufer unter BW;Linie;30;19;1;BW unten
+22.09.2016;V8271.6002;;Wasserspiegel unter BW;Punkt;X25;19;1;BW unten
+22.09.2016;V8271.6L02;;Wasserspiegel unter BW;Linie;30;19;1;BW unten
+22.09.2016;V8551.6002;;Pflaster unter BW allgemein;Punkt;X01;19;1;BW unten
+22.09.2016;V8551.6L02;;Pflaster unter BW allgemein;Linie;0;19;1;BW unten
+22.09.2016;V8553.6002;;Pflaster unter BW Kopfstein;Punkt;X01;19;1;BW unten
+22.09.2016;V8553.6L02;;Pflaster unter BW Kopfstein;Linie;0;19;1;BW unten
+22.09.2016;V8555.6002;;Pflaster unter BW Rasengitter;Punkt;X01;19;1;BW unten
+22.09.2016;V8555.6L02;;Pflaster unter BW Rasengitter;Linie;0;19;1;BW unten
+22.09.2016;V8557.6002;;Pflaster unter BW Wasserbau;Punkt;X01;19;1;BW unten
+22.09.2016;V8557.6L02;;Pflaster unter BW Wasserbau;Linie;0;19;1;BW unten
+22.09.2016;V8248.6T03;;Beschriftung Gelände allgemein oben BW;Text;;19;1;BW oben
+22.09.2016;V8264.6003;;Rinne oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8264.6L03;;Rinne oben BW;Linie;05;19;1;BW oben
+22.09.2016;V8285.6003;;Mauer - UK oben BW ;Punkt;X01;19;1;BW oben
+22.09.2016;V8285.6L03;;Mauer - UK oben BW ;Linie;52;19;1;BW oben
+22.09.2016;V8288.6003;;Mauer - OK oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8288.6L03;;Mauer - OK oben BW;Linie;00;19;1;BW oben
+22.09.2016;V8015.6003;;Mauer-HK oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8015.6L03;;Mauer-HK oben BW;Linie;00;19;1;BW oben
+22.09.2016;V8291.6003;;Zaun oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8291.6L03;;Zaun oben BW;Linie;47;19;1;BW oben
+22.09.2016;V8294.6003;;Geländer oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8294.6L03;;Geländer oben BW;Linie;06;19;1;BW oben
+22.09.2016;V8297.6003;;Gabione oben BW;Punkt;X01;19;1;BW oben
+22.09.2016;V8297.6L03;;Gabione oben BW;Linie;Y16;19;1;BW oben
+22.09.2016;V8247.6T01;;Beschriftung Sonstiges Gelände;Text;;19;1;Sonstiges Gelände
+22.09.2016;V8272.6001;;Brunnen;Punkt;X26;19;1;Sonstiges Gelände
+22.09.2016;V8272.6L01;;Brunnen;Linie;0;19;1;Sonstiges Gelände
+22.09.2016;V8609.6001;;Denkmal;Punkt;X45;19;1;Sonstiges Gelände
+22.09.2016;V8609.6L01;;Denkmal;Linie;0;19;1;Sonstiges Gelände
+22.09.2016;V8610.6001;;Telefon - Standort;Punkt;X75;19;1;Sonstiges Gelände
+22.09.2016;V8610.6L01;;Telefon - Standort;Linie;0;19;1;Sonstiges Gelände
+22.09.2016;V8611.6001;;Wartehaus;Punkt;f38;19;1;Sonstiges Gelände
+22.09.2016;V8611.6L01;;Wartehaus;Linie;0;19;1;Sonstiges Gelände
+22.09.2016;V8206.6T01;;Beschriftung Bewuchs;Text;;19;1;Bewuchs
+22.09.2016;V8273.6001;;Nadelbaum;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8273.6L01;;Nadelbaum;Linie;0;19;1;Bewuchs
+22.09.2016;V8274.6001;;Nadelbaum - mehrstämmig;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8274.6L01;;Nadelbaum - mehrstämmig;Linie;0;19;1;Bewuchs
+22.09.2016;V8275.6001;;Laubbaum;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8275.6L01;;Laubbaum;Linie;0;19;1;Bewuchs
+22.09.2016;V8276.6001;;Laubbaum - mehrstämmig;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8276.6L01;;Laubbaum - mehrstämmig;Linie;0;19;1;Bewuchs
+22.09.2016;V8277.6001;;Hecke;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8277.6L01;;Hecke;Linie;0;19;1;Bewuchs
+22.09.2016;V8278.6001;;Hecke - Umrandung;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8278.6L01;;Hecke - Umrandung;Linie;0;19;1;Bewuchs
+22.09.2016;V8279.6001;;Busch;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8279.6L01;;Busch;Linie;0;19;1;Bewuchs
+22.09.2016;V8280.6001;;Busch - Umrandung;Punkt;f38;19;1;Bewuchs
+22.09.2016;V8280.6L01;;Busch - Umrandung;Linie;0;19;1;Bewuchs
+22.09.2016;V8449.6T01;;Beschriftung Straße;Text;;19;2;Straße
+22.09.2016;V8405.6001;;FB - Rand;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8405.6L01;;FB - Rand;Linie;0;19;2;Fahrbahn
+22.09.2016;V8402.6001;;FB - Mitte;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8402.6L01;;FB - Mitte;Linie;0;19;2;Fahrbahn
+22.09.2016;V8411.6001;;Bankett;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8411.6L01;;Bankett;Linie;0;19;2;Fahrbahn
+22.09.2016;V8414.6001;;Bord - UK;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8414.6L01;;Bord - UK;Linie;0;19;2;Fahrbahn
+22.09.2016;V8417.6001;;Bord - OK;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8417.6L01;;Bord - OK;Linie;0;19;2;Fahrbahn
+22.09.2016;V8420.6001;;FB - Decke;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8420.6L01;;FB - Decke;Linie;0;19;2;Fahrbahn
+22.09.2016;V8423.6001;;FB - Fuge;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8423.6L01;;FB - Fuge;Linie;0;19;2;Fahrbahn
+22.09.2016;V8426.6001;;FB - Dehnungsfuge;Punkt;X01;19;2;Fahrbahn
+22.09.2016;V8426.6L01;;FB - Dehnungsfuge;Linie;0;19;2;Fahrbahn
+22.09.2016;V8429.60r1;;Fahrbahnbegrenzung rechts schmal Linie Abb. Rechts;Punkt;X01;19;2;Markierung
+22.09.2016;V8429.6Lr1;;Fahrbahnbegrenzung rechts schmal Linie Abb. rechts;Linie;M03;19;2;Markierung
+22.09.2016;V8408.60r1;;Fahrbahnbegrenzung rehts schmal gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung
+22.09.2016;V8408.6Lr1;;Fahrbahnbegrenzung rehts schmal gestrichelt Abb. rechts;Linie;0;19;2;Markierung
+22.09.2016;V8431.60r1;;Fahrbahnbegrenzung rechts breit Linie Abb. rechts;Punkt;X01;19;2;Markierung
+22.09.2016;V8431.6Lr1;;Fahrbahnbegrenzung rechts breit Linie Abb. rechts;Linie;M09;19;2;Markierung
+22.09.2016;V8430.60r1;;Fahrbahnbegrenzung rechts breit gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung
+22.09.2016;V8430.6Lr1;;Fahrbahnbegrenzung rechts breit gestrichelt Abb. rechts;Linie;M12;19;2;Markierung
+22.09.2016;V8429.60l1;;Fahrbahnbegrenzung links schmal Linie Abb. links;Punkt;X01;19;2;Markierung
+22.09.2016;V8429.6Ll1;;Fahrbahnbegrenzung links schmal Linie Abb. links;Linie;M02;19;2;Markierung
+22.09.2016;V8408.60l1;;Fahrbahnbegrenzung links schmal gestrichelt Abb. links;Punkt;X01;19;2;Markierung
+22.09.2016;V8408.6Ll1;;Fahrbahnbegrenzung links schmal gestrichelt Abb. links;Linie;0;19;2;Markierung
+22.09.2016;V8431.60l1;;Fahrbahnbegrenzung links breit Linie Abb. links;Punkt;X01;19;2;Markierung
+22.09.2016;V8431.6Ll1;;Fahrbahnbegrenzung links breit Linie Abb. links;Linie;M08;19;2;Markierung
+22.09.2016;V8430.60l1;;Fahrbahnbegrenzung links breit gestrichelt Abb. links;Punkt;X01;19;2;Markierung
+22.09.2016;V8430.6Ll1;;Fahrbahnbegrenzung links breit gestrichelt Abb. links;Linie;M11;19;2;Markierung
+22.09.2016;V8442.60S1;;Fahrstreifenbegrenzung schmal Linie Abb. mittig;Punkt;X01;19;2;Markierung
+22.09.2016;V8442.6LS1;;Fahrstreifenbegrenzung schmal Linie Abb. mittig;Linie;M01;19;2;Markierung
+22.09.2016;V8443.60S1;;Fahrstreifenbegrenzung schmal gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung
+22.09.2016;V8443.6LS1;;Fahrstreifenbegrenzung schmal gestrichelt Abb. mittig;Linie;M05;19;2;Markierung
+22.09.2016;V8444.60S1;;Fahrstreifenbegrenzung breit Linie Abb. mittig;Punkt;X01;19;2;Markierung
+22.09.2016;V8444.6LS1;;Fahrstreifenbegrenzung breit Linie Abb. mittig;Linie;M07;19;2;Markierung
+22.09.2016;V8445.60S1;;Fahrstreifenbegrenzung breit gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung
+22.09.2016;V8445.6LS1;;Fahrstreifenbegrenzung breit gestrichelt Abb. mittig;Linie;M10;19;2;Markierung
+22.09.2016;V8438.6001;;Haltelinie breite Linie Abb. links (50 cm);Punkt;X01;19;2;Markierung
+22.09.2016;V8438.6L01;;Haltelinie breite Linie Abb. links (50 cm);Linie;M50;19;2;Markierung
+22.09.2016;V8439.6001;;Haltelinie breite gestrichelt Abb. links (50 cm);Punkt;X01;19;2;Markierung
+22.09.2016;V8439.6L01;;Haltelinie breite gestrichelt Abb. links (50 cm);Linie;M52;19;2;Markierung
+22.09.2016;V8617.6001;;Pfeil - Gerade;Punkt;X83;19;2;Markierung
+22.09.2016;V8617.6L01;;Pfeil - Gerade;Linie;0;19;2;Markierung
+22.09.2016;V8618.6001;;Pfeil - G/R;Punkt;X84;19;2;Markierung
+22.09.2016;V8618.6L01;;Pfeil - G/R;Linie;0;19;2;Markierung
+22.09.2016;V8619.6001;;Pfeil - G/L;Punkt;X85;19;2;Markierung
+22.09.2016;V8619.6L01;;Pfeil - G/L;Linie;0;19;2;Markierung
+22.09.2016;V8620.6001;;Pfeil - Rechts;Punkt;X86;19;2;Markierung
+22.09.2016;V8620.6L01;;Pfeil - Rechts;Linie;0;19;2;Markierung
+22.09.2016;V8621.6001;;Pfeil - Links;Punkt;X87;19;2;Markierung
+22.09.2016;V8621.6L01;;Pfeil - Links;Linie;0;19;2;Markierung
+22.09.2016;V8558.6001;;Wegrand;Punkt;X01;19;2;Wege
+22.09.2016;V8558.6L01;;Wegrand;Linie;5;19;2;Wege
+22.09.2016;V8561.6001;;Wegrand unbefestigt;Punkt;X01;19;2;Wege
+22.09.2016;V8561.6L01;;Wegrand unbefestigt;Linie;66;19;2;Wege
+22.09.2016;V8564.6001;;Wegmitte;Punkt;X01;19;2;Wege
+22.09.2016;V8564.6L01;;Wegmitte;Linie;0;19;2;Wege
+22.09.2016;V8567.6001;;Gehweg;Punkt;X01;19;2;Wege
+22.09.2016;V8567.6L01;;Gehweg;Linie;5;19;2;Wege
+22.09.2016;V8570.6001;;Radweg;Punkt;X01;19;2;Wege
+22.09.2016;V8570.6L01;;Radweg;Linie;5;19;2;Wege
+22.09.2016;V8573.6001;;Schotter;Punkt;X01;19;2;Wege
+22.09.2016;V8573.6L01;;Schotter;Linie;0;19;2;Wege
+22.09.2016;V8576.6001;;Rabatte;Punkt;X01;19;2;Wege
+22.09.2016;V8576.6L01;;Rabatte;Linie;0;19;2;Wege
+22.09.2016;V8498.6T02;;Beschriftung Straße unter BW;Text;;19;2;Straße BW unten
+22.09.2016;V8406.6002;;FB - Rand unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8406.6L02;;FB - Rand unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8403.6002;;FB - Mitte unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8403.6L02;;FB - Mitte unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8412.6002;;Bankett unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8412.6L02;;Bankett unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8415.6002;;Bord - UK unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8415.6L02;;Bord - UK unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8418.6002;;Bord - OK unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8418.6L02;;Bord - OK unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8421.6002;;FB - Decke unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8421.6L02;;FB - Decke unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8424.6002;;FB - Fuge unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8424.6L02;;FB - Fuge unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8427.6002;;FB - Dehnungsfuge unter BW;Punkt;X01;19;2;Fahrbahn BW unten
+22.09.2016;V8427.6L02;;FB - Dehnungsfuge unter BW;Linie;0;19;2;Fahrbahn BW unten
+22.09.2016;V8432.60r2;;Fahrbahnbegrenzung unter BW schmal Linie Abb. rechts;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8432.6Lr2;;Fahrbahnbegrenzung unter BW schmal Linie Abb. rechts;Linie;M03;19;2;Markierung BW unten
+22.09.2016;V8409.60r2;;Fahrbahnbegrenzung unter BW schmal gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8409.6Lr2;;Fahrbahnbegrenzung unter BW schmal gestrichelt Abb. rechts;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8434.60r2;;Fahrbahnbegrenzung unter BW breit Linie Abb. rechts;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8434.6Lr2;;Fahrbahnbegrenzung unter BW breit Linie Abb. rechts;Linie;M09;19;2;Markierung BW unten
+22.09.2016;V8433.60r2;;Fahrbahnbegrenzung unter BW breit gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8433.6Lr2;;Fahrbahnbegrenzung unter BW breit gestrichelt Abb. rechts;Linie;M12;19;2;Markierung BW unten
+22.09.2016;V8432.60l2;;Fahrbahnbegrenzung unter BW schmal Linie Abb. links;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8432.6Ll2;;Fahrbahnbegrenzung unter BW schmal Linie Abb. links;Linie;M02;19;2;Markierung BW unten
+22.09.2016;V8409.60l2;;Fahrbahnbegrenzung unter BW schmal gestrichelt Abb. links;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8409.6Ll2;;Fahrbahnbegrenzung unter BW schmal gestrichelt Abb. links;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8434.60l2;;Fahrbahnbegrenzung unter BW breit Linie Abb. links;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8434.6Ll2;;Fahrbahnbegrenzung unter BW breit Linie Abb. links;Linie;M08;19;2;Markierung BW unten
+22.09.2016;V8433.60l2;;Fahrbahnbegrenzung unter BW breit gestrichelt Abb. links;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8433.6Ll2;;Fahrbahnbegrenzung unter BW breit gestrichelt Abb. links;Linie;M11;19;2;Markierung BW unten
+22.09.2016;V8446.60S2;;Fahrstreifenbegrenzung unter BW schmal Linie Abb. mittig;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8446.6LS2;;Fahrstreifenbegrenzung unter BW schmal Linie Abb. mittig;Linie;M01;19;2;Markierung BW unten
+22.09.2016;V8447.60S2;;Fahrstreifenbegrenzung unter BW schmal gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8447.6LS2;;Fahrstreifenbegrenzung unter BW schmal gestrichelt Abb. mittig;Linie;M05;19;2;Markierung BW unten
+22.09.2016;V8448.60S2;;Fahrstreifenbegrenzung unter BW breit Linie Abb. mittig;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8448.6LS2;;Fahrstreifenbegrenzung unter BW breit Linie Abb. mittig;Linie;M07;19;2;Markierung BW unten
+22.09.2016;V8476.60S2;;Fahrstreifenbegrenzung unter BW breit gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8476.6LS2;;Fahrstreifenbegrenzung unter BW breit gestrichelt Abb. mittig;Linie;M10;19;2;Markierung BW unten
+22.09.2016;V8440.6002;;Haltelinie unter BW breite Linie Abb. links (50 cm);Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8440.6L02;;Haltelinie unter BW breite Linie Abb. links (50 cm);Linie;M50;19;2;Markierung BW unten
+22.09.2016;V8441.6002;;Haltelinie unter BW breite gestrichelt Abb. links (50 cm);Punkt;X01;19;2;Markierung BW unten
+22.09.2016;V8441.6L02;;Haltelinie unter BW breite gestrichelt Abb. links (50 cm);Linie;M52;19;2;Markierung BW unten
+22.09.2016;V8130.6002;;Pfeil - Gerade unter BW;Punkt;X83;19;2;Markierung BW unten
+22.09.2016;V8130.6L02;;Pfeil - Gerade unter BW;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8131.6002;;Pfeil - G/R unter BW;Punkt;X84;19;2;Markierung BW unten
+22.09.2016;V8131.6L02;;Pfeil - G/R unter BW;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8132.6002;;Pfeil - G/L unter BW;Punkt;X85;19;2;Markierung BW unten
+22.09.2016;V8132.6L02;;Pfeil - G/L unter BW;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8133.6002;;Pfeil - Rechts unter BW;Punkt;X86;19;2;Markierung BW unten
+22.09.2016;V8133.6L02;;Pfeil - Rechts unter BW;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8134.6002;;Pfeil - Links unter BW;Punkt;X87;19;2;Markierung BW unten
+22.09.2016;V8134.6L02;;Pfeil - Links unter BW;Linie;0;19;2;Markierung BW unten
+22.09.2016;V8559.6002;;Wegrand unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8559.6L02;;Wegrand unter BW;Linie;5;19;2;Wege BW unten
+22.09.2016;V8562.6002;;Wegrand unbefestigt unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8562.6L02;;Wegrand unbefestigt unter BW;Linie;66;19;2;Wege BW unten
+22.09.2016;V8565.6002;;Wegmitte unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8565.6L02;;Wegmitte unter BW;Linie;0;19;2;Wege BW unten
+22.09.2016;V8568.6002;;Gehweg  unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8568.6L02;;Gehweg  unter BW;Linie;5;19;2;Wege BW unten
+22.09.2016;V8571.6002;;Radweg unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8571.6L02;;Radweg unter BW;Linie;5;19;2;Wege BW unten
+22.09.2016;V8574.6002;;Schotter unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8574.6L02;;Schotter unter BW;Linie;0;19;2;Wege BW unten
+22.09.2016;V8577.6002;;Rabatte unter BW;Punkt;X01;19;2;Wege BW unten
+22.09.2016;V8577.6L02;;Rabatte unter BW;Linie;0;19;2;Wege BW unten
+22.09.2016;V8497.6T03;;Beschriftung Straße oben BW;Text;;19;2;Straße BW oben
+22.09.2016;V8407.6003;;FB - Rand oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8407.6L03;;FB - Rand oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8404.6003;;FB - Mitte oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8404.6L03;;FB - Mitte oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8413.6003;;Bankett oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8413.6L03;;Bankett oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8416.6003;;Bord - UK oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8416.6L03;;Bord - UK oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8419.6003;;Bord - OK oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8419.6L03;;Bord - OK oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8422.6003;;FB - Decke oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8422.6L03;;FB - Decke oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8425.6003;;FB - Fuge oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8425.6L03;;FB - Fuge oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8428.6003;;FB - Dehnungsfuge oben BW ;Punkt;X01;19;2;Fahrbahn BW oben
+22.09.2016;V8428.6L03;;FB - Dehnungsfuge oben BW ;Linie;0;19;2;Fahrbahn BW oben
+22.09.2016;V8435.60r3;;Fahrbahnbegrenzung oben BW schmal Linie Abb. rechts;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8435.6Lr3;;Fahrbahnbegrenzung oben BW schmal Linie Abb. rechts;Linie;M03;19;2;Markierung BW oben
+22.09.2016;V8410.60r3;;Fahrbahnbegrenzung oben BW schmal gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8410.6Lr3;;Fahrbahnbegrenzung oben BW schmal gestrichelt Abb. rechts;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8437.60r3;;Fahrbahnbegrenzung oben BW breit Linie Abb. rechts;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8437.6Lr3;;Fahrbahnbegrenzung oben BW breit Linie Abb. rechts;Linie;M09;19;2;Markierung BW oben
+22.09.2016;V8436.60r3;;Fahrbahnbegrenzung oben BW breit gestrichelt Abb. rechts;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8436.6Lr3;;Fahrbahnbegrenzung oben BW breit gestrichelt Abb. rechts;Linie;M12;19;2;Markierung BW oben
+22.09.2016;V8435.60l3;;Fahrbahnbegrenzung oben BW schmal Linie Abb. links;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8435.6Ll3;;Fahrbahnbegrenzung oben BW schmal Linie Abb. links;Linie;M02;19;2;Markierung BW oben
+22.09.2016;V8410.60l3;;Fahrbahnbegrenzung oben BW schmal gestrichelt Abb. links;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8410.6Ll3;;Fahrbahnbegrenzung oben BW schmal gestrichelt Abb. links;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8437.60l3;;Fahrbahnbegrenzung oben BW breit Linie Abb. links;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8437.6Ll3;;Fahrbahnbegrenzung oben BW breit Linie Abb. links;Linie;M08;19;2;Markierung BW oben
+22.09.2016;V8436.60l3;;Fahrbahnbegrenzung oben BW breit gestrichelt Abb. links;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8436.6Ll3;;Fahrbahnbegrenzung oben BW breit gestrichelt Abb. links;Linie;M11;19;2;Markierung BW oben
+22.09.2016;V8477.60S3;;Fahrstreifenbegrenzung oben BW schmal Linie Abb. mittig;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8477.6LS3;;Fahrstreifenbegrenzung oben BW schmal Linie Abb. mittig;Linie;M01;19;2;Markierung BW oben
+22.09.2016;V8478.60S3;;Fahrstreifenbegrenzung oben BW schmal gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8478.6LS3;;Fahrstreifenbegrenzung oben BW schmal gestrichelt Abb. mittig;Linie;M05;19;2;Markierung BW oben
+22.09.2016;V8479.60S3;;Fahrstreifenbegrenzung oben BW breit Linie Abb. mittig;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8479.6LS3;;Fahrstreifenbegrenzung oben BW breit Linie Abb. mittig;Linie;M07;19;2;Markierung BW oben
+22.09.2016;V8480.60S3;;Fahrstreifenbegrenzung oben BW breit gestrichelt Abb. mittig;Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8480.6LS3;;Fahrstreifenbegrenzung oben BW breit gestrichelt Abb. mittig;Linie;M10;19;2;Markierung BW oben
+22.09.2016;V8481.6003;;Haltelinie oben BW breite Linie Abb. links (50 cm);Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8481.6L03;;Haltelinie oben BW breite Linie Abb. links (50 cm);Linie;M50;19;2;Markierung BW oben
+22.09.2016;V8482.6003;;Haltelinie oben BW breite gestrichelt Abb. links (50 cm);Punkt;X01;19;2;Markierung BW oben
+22.09.2016;V8482.6L03;;Haltelinie oben BW breite gestrichelt Abb. links (50 cm);Linie;M52;19;2;Markierung BW oben
+22.09.2016;V8135.6003;;Pfeil - Gerade oben BW;Punkt;X83;19;2;Markierung BW oben
+22.09.2016;V8135.6L03;;Pfeil - Gerade oben BW;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8136.6003;;Pfeil - G/R oben BW;Punkt;X84;19;2;Markierung BW oben
+22.09.2016;V8136.6L03;;Pfeil - G/R oben BW;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8137.6003;;Pfeil - G/L oben BW;Punkt;X85;19;2;Markierung BW oben
+22.09.2016;V8137.6L03;;Pfeil - G/L oben BW;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8138.6003;;Pfeil - Rechts oben BW;Punkt;X86;19;2;Markierung BW oben
+22.09.2016;V8138.6L03;;Pfeil - Rechts oben BW;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8139.6003;;Pfeil - Links oben BW;Punkt;X87;19;2;Markierung BW oben
+22.09.2016;V8139.6L03;;Pfeil - Links oben BW;Linie;0;19;2;Markierung BW oben
+22.09.2016;V8560.6003;;Wegrand oben BW ;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8560.6L03;;Wegrand oben BW ;Linie;5;19;2;Wege BW oben
+22.09.2016;V8563.6003;;Wegrand unbefestigt oben BW ;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8563.6L03;;Wegrand unbefestigt oben BW ;Linie;66;19;2;Wege BW oben
+22.09.2016;V8566.6003;;Wegmitte oben BW ;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8566.6L03;;Wegmitte oben BW ;Linie;0;19;2;Wege BW oben
+22.09.2016;V8569.6003;;Gehweg oben BW;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8569.6L03;;Gehweg oben BW;Linie;5;19;2;Wege BW oben
+22.09.2016;V8572.6003;;Radweg oben BW;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8572.6L03;;Radweg oben BW;Linie;5;19;2;Wege BW oben
+22.09.2016;V8575.6003;;Schotter oben BW ;Punkt;X01;19;2;Wege BW oben
+22.09.2016;V8575.6L03;;Schotter oben BW ;Linie;0;19;2;Wege BW oben
+22.09.2016;V8349.6T01;;Beschriftung Schutzeinrichtung;Text;;19;3;Schutzeinrichtung
+22.09.2016;V8300.6001;;Schutzplanke;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8300.6L01;;Schutzplanke;Linie;35;19;3;Schutzeinrichtung
+22.09.2016;V8301.6001;;Gleitwand;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8301.6L01;;Gleitwand;Linie;Y04;19;3;Schutzeinrichtung
+22.09.2016;V8307.6001;;Lärmschutzwand UK;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8307.6L01;;Lärmschutzwand UK;Linie;Y10;19;3;Schutzeinrichtung
+22.09.2016;V8304.6001;;Lärmschutzwand OK;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8304.6L01;;Lärmschutzwand OK;Linie;0;19;3;Schutzeinrichtung
+22.09.2016;V8312.6001;;Gleitwand OK;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8312.6L01;;Gleitwand OK;Linie;0;19;3;Schutzeinrichtung
+22.09.2016;V8313.6001;;Gleitwand HK;Punkt;X01;19;3;Schutzeinrichtung
+22.09.2016;V8313.6L01;;Gleitwand HK;Linie;0;19;3;Schutzeinrichtung
+22.09.2016;V8399.6T02;;Beschriftung Schutzeinrichtung BW unten;Text;;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8310.6002;;Schutzplanke unter BW;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8310.6L02;;Schutzplanke unter BW;Linie;35;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8302.6002;;Gleitwand unter BW;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8302.6L02;;Gleitwand unter BW;Linie;Y04;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8308.6002;;Lärmschutzwand UK unter BW ;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8308.6L02;;Lärmschutzwand UK unter BW ;Linie;Y10;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8305.6002;;Lärmschutzwand OK unter BW ;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8305.6L02;;Lärmschutzwand OK unter BW ;Linie;0;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8314.6002;;Gleitwand OK unter BW;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8314.6L02;;Gleitwand OK unter BW;Linie;0;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8315.6002;;Gleitwand HK unter BW;Punkt;X01;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8315.6L02;;Gleitwand HK unter BW;Linie;0;19;3;Schutzeinrichtung BW unten
+22.09.2016;V8398.6T03;;Beschriftung Schutzeinrichtung BW oben;Text;;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8311.6003;;Schutzplanke oben BW;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8311.6L03;;Schutzplanke oben BW;Linie;35;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8303.6003;;Gleitwand oben BW ;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8303.6L03;;Gleitwand oben BW ;Linie;Y04;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8309.6003;;Lärmschutzwand UK oben BW ;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8309.6L03;;Lärmschutzwand UK oben BW ;Linie;Y10;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8306.6003;;Lärmschutzwand OK oben BW ;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8306.6L03;;Lärmschutzwand OK oben BW ;Linie;0;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8316.6003;;Gleitwand OK oben BW;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8316.6L03;;Gleitwand OK oben BW;Linie;0;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8317.6003;;Gleitwand HK oben BW;Punkt;X01;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8317.6L03;;Gleitwand HK oben BW;Linie;0;19;3;Schutzeinrichtung BW oben
+22.09.2016;V8649.6T01;;Beschriftung Sonstiges Zubehör;Text;;19;3;Sonstiges Zubehör
+22.09.2016;V8600.6001;;Stationszeichen - OD;Punkt;X29;19;3;Sonstiges Zubehör
+22.09.2016;V8601.6001;;Stationszeichen - Strecke;Punkt;X29;19;3;Sonstiges Zubehör
+22.09.2016;V8602.6001;;Netzknotenpunkt;Punkt;X28;19;3;Sonstiges Zubehör
+22.09.2016;V8613.6001;;Verkehrsinsel;Punkt;X01;19;3;Sonstiges Zubehör
+22.09.2016;V8614.6001;;Ampel;Punkt;X76;19;3;Sonstiges Zubehör
+22.09.2016;V8615.6001;;Laterne;Punkt;X77;19;3;Sonstiges Zubehör
+22.09.2016;V8616.6001;;Notrufsäule;Punkt;X78;19;3;Sonstiges Zubehör
+22.09.2016;V8623.6001;;Schranke;Punkt;X96;19;3;Sonstiges Zubehör
+22.09.2016;V8623.6L01;;Schranke;Linie;0;19;;Sonstiges Zubehör
+22.09.2016;V8902.6001;;Leitpfosten;Punkt;v19;19;3;Sonstiges Zubehör
+22.09.2016;V8699.6T01;;Beschriftung Beschilderung;Text;;19;3;Beschilderung
+22.09.2016;V8603.6001;;Verkehrszeichen allgemein;Punkt;X47;19;3;Beschilderung
+22.09.2016;V8608.6001;;Tafel - Info - rund;Punkt;77;19;3;Beschilderung
+22.09.2016;V8608.6L01;;Tafel - Info - rund;Linie;0;19;;Beschilderung
+22.09.2016;V8612.6001;;Halteschild;Punkt;v17;19;3;Beschilderung
+22.09.2016;V8622.6001;;OD - Schild;Punkt;X46;19;3;Beschilderung
+22.09.2016;V8604.6001;;Schilderkragen rechts;Punkt;X43;19;3;Beschilderung
+22.09.2016;V8624.6001;;Schilderkragen links;Punkt;X44;19;3;Beschilderung
+22.09.2016;V8625.6001;;Spiegel;Punkt;X48;19;3;Beschilderung
+22.09.2016;V8626.6001;;Straßenschild rechts (Straßenname);Punkt;X50;19;3;Beschilderung
+22.09.2016;V8627.6001;;Straßenschild links (Straßenname);Punkt;X49;19;3;Beschilderung
+22.09.2016;V8628.6001;;Notruf - Schild;Punkt;X51;19;3;Beschilderung
+22.09.2016;V8629.6001;;Wegweiser (1 Pfosten);Punkt;X52;19;3;Beschilderung
+22.09.2016;V8631.6001;;Wegweiser (2 Pfosten);Punkt;X53;19;3;Beschilderung
+22.09.2016;V8632.6001;;Wegweiser links (1 Pfosten);Punkt;X54;19;3;Beschilderung
+22.09.2016;V8633.6001;;Wegweiser rechts (1 Pfosten);Punkt;X55;19;3;Beschilderung
+22.09.2016;V8634.6001;;Wegweiser links (2 Pfosten);Punkt;X56;19;3;Beschilderung
+22.09.2016;V8635.6001;;Wegweiser rechts (2 Pfosten);Punkt;X57;19;3;Beschilderung
+22.09.2016;V8636.6001;;Wegweiser links/rechts (2 Pfosten);Punkt;X58;19;3;Beschilderung
+22.09.2016;V8637.6001;;Hinweisschild (1 Pfosten);Punkt;X59;19;3;Beschilderung
+22.09.2016;V8638.6001;;Hinweistafel (2 Pfosten);Punkt;X61;19;3;Beschilderung
+22.09.2016;V8639.6001;;Hinweistafel (1 Pfosten);Punkt;X60;19;3;Beschilderung
+22.09.2016;V8640.6001;;Hinweisschild (2 Pfosten);Punkt;X62;19;3;Beschilderung
+22.09.2016;V8641.6001;;Hinweisschild links (2 Pfosten);Punkt;X63;19;3;Beschilderung
+22.09.2016;V8642.6001;;Hinweisschild rechst (2 Pfosten);Punkt;X64;19;3;Beschilderung
+22.09.2016;V8643.6001;;Verkehrszeichenbrücke (1 Anzeige);Punkt;X65;19;3;Beschilderung
+22.09.2016;V8643.6L01;;Verkehrszeichenbrücke (1 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8644.6001;;Verkehrszeichenbrücke (2 Anzeige);Punkt;X66;19;3;Beschilderung
+22.09.2016;V8644.6L01;;Verkehrszeichenbrücke (2 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8645.6001;;Verkehrszeichenbrücke (3 Anzeige);Punkt;X67;19;3;Beschilderung
+22.09.2016;V8645.6L01;;Verkehrszeichenbrücke (3 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8646.6001;;Schilderbrücke (1 Anzeige);Punkt;X68;19;3;Beschilderung
+22.09.2016;V8646.6L01;;Schilderbrücke (1 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8647.6001;;Schilderbrücke (2 Anzeige);Punkt;X69;19;3;Beschilderung
+22.09.2016;V8647.6L01;;Schilderbrücke (2 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8648.6001;;Schilderbrücke (3 Anzeige);Punkt;X70;19;3;Beschilderung
+22.09.2016;V8648.6L01;;Schilderbrücke (3 Anzeige);Linie;0;19;;Beschilderung
+22.09.2016;V8650.6001;;Richtungstafel rechts (2 Pfosten);Punkt;X71;19;3;Beschilderung
+22.09.2016;V8651.6001;;Richtungstafel links (2 Pfosten);Punkt;X72;19;3;Beschilderung
+22.09.2016;V8652.6001;;Richtungstafel rechts (1 Pfosten);Punkt;X73;19;3;Beschilderung
+22.09.2016;V8653.6001;;Richtungstafel links (1 Pfosten);Punkt;X74;19;3;Beschilderung
+22.09.2016;V8549.6T01;;Beschriftung Wasser;Text;;19;4;Wasser
+22.09.2016;V8505.6001;;Ablauf rechteckig Rand;Punkt;Y18;19;4;Wasser
+22.09.2016;V8503.6001;;Ablauf rechteckig Mitte;Punkt;Y14;19;4;Wasser
+22.09.2016;V8504.6001;;Ablauf quadratisch Rand;Punkt;Y17;19;4;Wasser
+22.09.2016;V8539.6001;;Ablauf quadratisch Mitte;Punkt;Y13;19;4;Wasser
+22.09.2016;V8506.6001;;Flächen-/Hofablauf;Punkt;Y59;19;4;Wasser
+22.09.2016;V8507.6001;;Muldenablauf quadratisch (Mitte);Punkt;Y13;19;4;Wasser
+22.09.2016;V8508.6001;;Muldenablauf eckig (Mitte);Punkt;Y14;19;4;Wasser
+22.09.2016;V8540.6001;;Muldenablauf rund (Mitte);Punkt;Y59;19;4;Wasser
+22.09.2016;V8509.6001;;Schacht;Punkt;Y02;19;4;Wasser
+22.09.2016;V8510.6001;;Schacht - Mischwasser;Punkt;X17;19;4;Wasser
+22.09.2016;V8511.6001;;Schacht - Schmutzwasser;Punkt;X17;19;4;Wasser
+22.09.2016;V8512.6001;;Schacht - Regenwasser;Punkt;X17;19;4;Wasser
+22.09.2016;V8513.6001;;Sohle;Punkt;X01;19;4;Wasser
+22.09.2016;V8513.6L01;;Sohle;Linie;Z06;19;;Wasser
+22.09.2016;V8517.6001;;Hydrant;Punkt;X19;19;4;Wasser
+22.09.2016;V8518.6001;;Hydrant Überflur;Punkt;F30;19;4;Wasser
+22.09.2016;V8522.6001;;Schieber - Wasser;Punkt;X21;19;4;Wasser
+22.09.2016;V8523.6001;;Merkzeichen Wasser;Punkt;X23;19;4;Wasser
+22.09.2016;V8531.6001;;Wasserleitung;Punkt;X21;19;4;Wasser
+22.09.2016;V8531.6L01;;Wasserleitung;Linie;0;19;;Wasser
+22.09.2016;V8532.6001;;Abwasserleitung;Punkt;X21;19;4;Wasser
+22.09.2016;V8532.6L01;;Abwasserleitung;Linie;0;19;;Wasser
+22.09.2016;V8590.6T02;;Beschriftung Wasser BW unten;Text;;19;4;Wasser BW unten
+22.09.2016;V8541.6002;;Ablauf rechteckig Rand unten BW;Punkt;Y18;19;4;Wasser BW unten
+22.09.2016;V8542.6002;;Ablauf rechteckig Mitte unten BW;Punkt;Y14;19;4;Wasser BW unten
+22.09.2016;V8543.6002;;Ablauf quadratisch Rand unten BW;Punkt;Y17;19;4;Wasser BW unten
+22.09.2016;V8544.6002;;Ablauf quadratisch Mitte unten BW;Punkt;Y13;19;4;Wasser BW unten
+22.09.2016;V8545.6002;;Flächen-/Hofablauf unten BW;Punkt;Y59;19;4;Wasser BW unten
+22.09.2016;V8546.6002;;Muldenablauf quadratisch (Mitte) unten BW;Punkt;Y13;19;4;Wasser BW unten
+22.09.2016;V8547.6002;;Muldenablauf eckig (Mitte) unten BW;Punkt;Y14;19;4;Wasser BW unten
+22.09.2016;V8548.6002;;Muldenablauf rund (Mitte) unten BW;Punkt;Y59;19;4;Wasser BW unten
+22.09.2016;V8578.6002;;Schacht unten BW;Punkt;Y02;19;4;Wasser BW unten
+22.09.2016;V8579.6002;;Schacht - Mischwasser unten BW;Punkt;X17;19;4;Wasser BW unten
+22.09.2016;V8580.6002;;Schacht - Schmutzwasser unten BW;Punkt;X17;19;4;Wasser BW unten
+22.09.2016;V8581.6002;;Schacht - Regenwasser unten BW;Punkt;X17;19;4;Wasser BW unten
+22.09.2016;V8582.6002;;Sohle unten BW;Punkt;X01;19;4;Wasser BW unten
+22.09.2016;V8582.6L02;;Sohle unten BW;Linie;0;19;4;Wasser BW unten
+22.09.2016;V8583.6002;;Hydrant unten BW;Punkt;X19;19;4;Wasser BW unten
+22.09.2016;V8584.6002;;Hydrant Oberflur unten BW;Punkt;F30;19;4;Wasser BW unten
+22.09.2016;V8585.6002;;Schieber unten BW;Punkt;X21;19;4;Wasser BW unten
+22.09.2016;V8591.6T03;;Beschriftung Wasser BW oben;Text;;19;4;Wasser BW oben
+22.09.2016;V8586.6003;;Ablauf rechteckig Rand oben BW;Punkt;Y18;19;4;Wasser
+22.09.2016;V8587.6003;;Ablauf rechteckig Mitte oben BW;Punkt;Y14;19;4;Wasser
+22.09.2016;V8588.6003;;Ablauf quadratisch Rand oben BW;Punkt;Y17;19;4;Wasser
+22.09.2016;V8589.6003;;Ablauf quadratisch Mitte oben BW;Punkt;Y13;19;4;Wasser
+22.09.2016;V8524.6003;;Flächen-/Hofablauf oben BW;Punkt;Y59;19;4;Wasser
+22.09.2016;V8598.6T01;;Beschriftung Strom / Telekommunikation;Text;;19;4;Strom / Telekummunikation
+22.09.2016;V8502.6001;;Kabelstein;Punkt;X15;19;4;Strom / Telekummunikation
+22.09.2016;V8515.6001;;Kabelschacht;Punkt;X18;19;4;Strom / Telekummunikation
+22.09.2016;V8525.6001;;Leitung - Strom;Punkt;X23;19;4;Strom / Telekummunikation
+22.09.2016;V8525.6L01;;Leitung - Strom;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8527.6001;;Leitung - Kabel;Punkt;X01;19;4;Strom / Telekummunikation
+22.09.2016;V8527.6L01;;Leitung - Kabel;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8528.6001;;Leitung - Telekommunikation;Punkt;X01;19;4;Strom / Telekummunikation
+22.09.2016;V8528.6L01;;Leitung - Telekommunikation;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8529.6001;;Leerrohrtrasse;Punkt;X01;19;4;Strom / Telekummunikation
+22.09.2016;V8529.6L01;;Leerrohrtrasse;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8530.6001;;Oberleitung;Punkt;X01;19;4;Strom / Telekummunikation
+22.09.2016;V8530.6L01;;Oberleitung;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8534.6001;;Schaltkasten;Punkt;X24;19;4;Strom / Telekummunikation
+22.09.2016;V8534.6L01;;Schaltkasten;Linie;0;19;4;Strom / Telekummunikation
+22.09.2016;V8596.6T01;;Beschriftung Gas;Text;;19;4;GAS
+22.09.2016;V8519.6001;;Gasschieber;Punkt;X20;19;4;GAS
+22.09.2016;V8519.6L01;;Gasschieber;Linie;0;19;4;GAS
+22.09.2016;V8520.6001;;Gasschieber Ferngas;Punkt;P10;19;4;GAS
+22.09.2016;V8520.6L01;;Gasschieber Ferngas;Linie;0;19;4;GAS
+22.09.2016;V8521.6001;;Merkzeichen Gas;Punkt;X22;19;4;GAS
+22.09.2016;V8521.6L01;;Merkzeichen Gas;Linie;0;19;4;GAS
+22.09.2016;V8526.6001;;Gasleitung;Punkt;X01;19;4;GAS
+22.09.2016;V8526.6L01;;Gasleitung;Linie;0;19;4;GAS
+22.09.2016;V8595.6T01;;Beschriftung Mast;Text;;19;4;Mast
+22.09.2016;V8535.6001;;Mast - Beton;Punkt;X79;19;4;Mast
+22.09.2016;V8536.6001;;Mast - Holz;Punkt;X80;19;4;Mast
+22.09.2016;V8537.6001;;Mast - Stahlgitter;Punkt;X81;19;4;Mast
+22.09.2016;V8537.6L01;;Mast - Stahlgitter;Linie;0;19;4;Mast
+22.09.2016;V8538.6001;;Mast - Stahlrohr;Punkt;X82;19;4;Mast
+22.09.2016;V8538.6L01;;Mast - Stahlrohr;Linie;0;19;4;Mast
+22.09.2016;V8597.6T01;;Beschriftung Sonstige Versorgung;Text;;19;4;Sonstiges Versorgung
+22.09.2016;V8500.6001;;Bohrpunkt;Punkt;G40;19;4;Sonstiges Versorgung
+22.09.2016;V8501.6001;;Grundwassermeßstelle;Punkt;P20;19;4;Sonstiges Versorgung
+22.09.2016;V8514.6001;;Kanal Be- / Entlüftung;Punkt;Q24;19;4;Sonstiges Versorgung
+22.09.2016;V8514.6L01;;Kanal Be- / Entlüftung;Linie;0;19;4;Sonstiges Versorgung
+22.09.2016;V8533.6001;;Leitung - Fernwärme;Punkt;X01;19;4;Sonstiges Versorgung
+22.09.2016;V8533.6L01;;Leitung - Fernwärme;Linie;0;19;4;Sonstiges Versorgung
+22.09.2016;V8249.6T01;;Beschriftung Gebäude;Text;;19;5;Gebäude
+22.09.2016;V8200.6001;;Gebäude;Punkt;X01;19;5;Gebäude
+22.09.2016;V8200.6L01;;Gebäude;Linie;0;19;5;Gebäude
+22.09.2016;V8203.6001;;Lichtschacht;Punkt;X01;19;5;Gebäude
+22.09.2016;V8203.6L01;;Lichtschacht;Linie;0;19;5;Gebäude
+22.09.2016;V8204.6001;;Überdachung;Punkt;X01;19;5;Gebäude
+22.09.2016;V8204.6L01;;Überdachung;Linie;0;19;5;Gebäude
+22.09.2016;V8205.6001;;Balkon;Punkt;X01;19;5;Gebäude
+22.09.2016;V8205.6L01;;Balkon;Linie;0;19;5;Gebäude
+22.09.2016;V8201.6001;;Traufhöhe;Punkt;X25;19;5;Gebäude
+22.09.2016;V8201.6L01;;Traufhöhe;Linie;0;19;5;Gebäude
+22.09.2016;V8202.6001;;Firsthöhe;Punkt;X25;19;5;Gebäude
+22.09.2016;V8202.6L01;;Firsthöhe;Linie;0;19;5;Gebäude
+22.09.2016;V8149.6T01;;Beschriftung Bauwerk;Text;;19;6;BW allgemein
+22.09.2016;V8100.6001;;Bauwerk - allgemein;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8100.6L01;;Bauwerk - allgemein;Linie;0;19;6;BW allgemein
+22.09.2016;V8110.6001;;BW - Fundament;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8110.6L01;;BW - Fundament;Linie;0;19;6;BW allgemein
+22.09.2016;V8112.6001;;Treppe;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8112.6L01;;Treppe;Linie;0;19;6;BW allgemein
+22.09.2016;V8104.6001;;BW - Kappe;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8104.6L01;;BW - Kappe;Linie;0;19;6;BW allgemein
+22.09.2016;V8103.6001;;BW - Fuge - ÜKO;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8103.6L01;;BW - Fuge - ÜKO;Linie;0;19;6;BW allgemein
+22.09.2016;V8109.6001;;BW - Flügelwand;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8109.6L01;;BW - Flügelwand;Linie;52;19;6;BW allgemein
+22.09.2016;V8101.6001;;BW - Kopfbalken;Punkt;X01;19;6;BW allgemein
+22.09.2016;V8101.6L01;;BW - Kopfbalken;Linie;0;19;6;BW allgemein
+22.09.2016;V8198.6T02;;Beschriftung Bauwerk unten;Text;;19;6;BW unten
+22.09.2016;V8114.6002;;Bauwerk unter BW;Punkt;X01;19;6;BW unten
+22.09.2016;V8114.6L02;;Bauwerk unter BW;Linie;0;19;6;BW unten
+22.09.2016;V8116.6002;;BW - Fundament unter BW;Punkt;X01;19;6;BW unten
+22.09.2016;V8116.6L02;;BW - Fundament unter BW;Linie;0;19;6;BW unten
+22.09.2016;V81116002;;BW - Pfeiler;Punkt;X01;19;6;BW unten
+22.09.2016;V81116L02;;BW - Pfeiler;Linie;0;19;6;BW unten
+22.09.2016;V8113.6002;;Treppe unter BW;Punkt;X01;19;6;BW unten
+22.09.2016;V8113.6L02;;Treppe unter BW;Linie;0;19;6;BW unten
+22.09.2016;V8115.6002;;Kappe unter BW;Punkt;X01;19;6;BW unten
+22.09.2016;V8115.6L02;;Kappe unter BW;Linie;0;19;6;BW unten
+22.09.2016;V8108.6002;;BW - Auflagerbank;Punkt;X01;19;6;BW unten
+22.09.2016;V8108.6L02;;BW - Auflagerbank;Linie;52;19;6;BW unten
+22.09.2016;V8107.6002;;BW - Widerlager;Punkt;X01;19;6;BW unten
+22.09.2016;V8107.6L02;;BW - Widerlager;Linie;0;19;6;BW unten
+22.09.2016;V8197.6T03;;Beschriftung Bauwerk oben;Text;;19;6;BW oben
+22.09.2016;V8106.6003;;BW - Kappe oben;Punkt;X01;19;6;BW oben
+22.09.2016;V8106.6L03;;BW - Kappe oben;Linie;0;19;6;BW oben
+22.09.2016;V8196.6T04;;Beschriftung Bauwerk von unten;Text;;19;6;BW von unten
+22.09.2016;V8102.6004;;BW - Unterzug;Punkt;X01;19;6;BW von unten
+22.09.2016;V8102.6L04;;BW - Unterzug;Linie;0;19;6;BW von unten
+22.09.2016;V8105.6004;;BW - Kappe von unten;Punkt;X01;19;6;BW von unten
+22.09.2016;V8105.6L04;;BW - Kappe von unten;Linie;0;19;6;BW von unten
+22.09.2016;V8199.6T01;;Beschriftung DB;Text;;19;7;DB allgemein
+22.09.2016;V8153.6001;;Schiene UK;Punkt;X01;19;7;DB allgemein
+22.09.2016;V8153.6L01;;Schiene UK;Linie;0;19;7;DB allgemein
+22.09.2016;V8150.6001;;Schiene OK;Punkt;X01;19;7;DB allgemein
+22.09.2016;V8150.6L01;;Schiene OK;Linie;0;19;7;DB allgemein
+22.09.2016;V8171.6001;;Bahn - Schotter UK;Punkt;X01;19;7;DB allgemein
+22.09.2016;V8171.6L01;;Bahn - Schotter UK;Linie;0;19;7;DB allgemein
+22.09.2016;V8168.6001;;Bahn - Schotter OK;Punkt;X01;19;7;DB allgemein
+22.09.2016;V8168.6L01;;Bahn - Schotter OK;Linie;0;19;7;DB allgemein
+22.09.2016;V8174.6001;;DB - Kabeltrasse;Punkt;X01;19;7;DB allgemein
+22.09.2016;V8174.6L01;;DB - Kabeltrasse;Linie;0;19;7;DB allgemein
+22.09.2016;V8156.6001;;Fahrleitungsmast;Punkt;l57;19;7;DB allgemein
+22.09.2016;V8159.6001;;Signalmast;Punkt;K01;19;7;DB allgemein
+22.09.2016;V8162.6001;;Signal;Punkt;K41;19;7;DB allgemein
+22.09.2016;V8165.6001;;Bahn - KM;Punkt;K95;19;7;DB allgemein
+22.09.2016;V8195.6T02;;Beschriftung DB BW unten;Text;;19;7;DB BW unten
+22.09.2016;V8154.6002;;Schiene UK unten BW;Punkt;X01;19;7;DB BW unten
+22.09.2016;V8154.6L02;;Schiene UK unten BW;Linie;0;19;7;DB BW unten
+22.09.2016;V8151.6002;;Schiene OK unten BW;Punkt;X01;19;7;DB BW unten
+22.09.2016;V8151.6L02;;Schiene OK unten BW;Linie;0;19;7;DB BW unten
+22.09.2016;V8172.6002;;Bahn - Schotter UK unten BW;Punkt;X01;19;7;DB BW unten
+22.09.2016;V8172.6L02;;Bahn - Schotter UK unten BW;Linie;0;19;7;DB BW unten
+22.09.2016;V8169.6002;;Bahn - Schotter OK unten BW;Punkt;X01;19;7;DB BW unten
+22.09.2016;V8169.6L02;;Bahn - Schotter OK unten BW;Linie;0;19;7;DB BW unten
+22.09.2016;V8175.6002;;DB - Kabeltrasse unten BW;Punkt;X01;19;7;DB BW unten
+22.09.2016;V8175.6L02;;DB - Kabeltrasse unten BW;Linie;0;19;7;DB BW unten
+22.09.2016;V8157.6002;;Fahrleitungsmast unten BW;Punkt;l57;19;7;DB BW unten
+22.09.2016;V8160.6002;;Signalmast unten BW;Punkt;K01;19;7;DB BW unten
+22.09.2016;V8163.6002;;Signal unten BW;Punkt;K41;19;7;DB BW unten
+22.09.2016;V8166.6002;;Bahn - KM unten BW;Punkt;K95;19;7;DB BW unten
+22.09.2016;V8194.6T03;;Beschriftung DB BW oben;Text;;19;7;DB BW oben
+22.09.2016;V8155.6003;;Schiene UK oben BW;Punkt;X01;19;7;DB BW oben
+22.09.2016;V8155.6L03;;Schiene UK oben BW;Linie;0;19;7;DB BW oben
+22.09.2016;V8152.6003;;Schiene OK oben BW;Punkt;X01;19;7;DB BW oben
+22.09.2016;V8152.6L03;;Schiene OK oben BW;Linie;0;19;7;DB BW oben
+22.09.2016;V8173.6003;;Bahn - Schotter UK oben BW;Punkt;X01;19;7;DB BW oben
+22.09.2016;V8173.6L03;;Bahn - Schotter UK oben BW;Linie;0;19;7;DB BW oben
+22.09.2016;V8170.6003;;Bahn - Schotter OK oben BW;Punkt;X01;19;7;DB BW oben
+22.09.2016;V8170.6L03;;Bahn - Schotter OK oben BW;Linie;0;19;7;DB BW oben
+22.09.2016;V8176.6003;;DB - Kabeltrasse oben BW;Punkt;X01;19;7;DB BW oben
+22.09.2016;V8176.6L03;;DB - Kabeltrasse oben BW;Linie;0;19;7;DB BW oben
+22.09.2016;V8158.6003;;Fahrleitungsmast oben BW;Punkt;l57;19;7;DB BW oben
+22.09.2016;V8161.6003;;Signalmast oben BW;Punkt;K01;19;7;DB BW oben
+22.09.2016;V8164.6003;;Signal oben BW;Punkt;K41;19;7;DB BW oben
+22.09.2016;V8167.6003;;Bahn - KM oben BW;Punkt;K95;19;7;DB BW oben
+22.09.2016;V8193.6T04;;Beschriftung DB BW von unten;Text;;19;7;DB BW von unten
+22.09.2016;V8182.6004;;DB - Unterzug;Punkt;;;7;DB BW von unten
+22.09.2016;V8182.6L04;;DB - Unterzug;Linie;;;7;DB BW von unten
+22.09.2016;V8183.6004;;DB - Kappe von unten;Punkt;;;7;DB BW von unten
+22.09.2016;V8183.6L04;;DB - Kappe von unten;Linie;;;7;DB BW von unten
+22.09.2016;V8499.6T01;;Beschriftung Vermarkung;Text;;19;8;Allgemein
+22.09.2016;V8459.6001;;Festpunkt allgemein;Punkt;X09;19;8;Allgemein
+22.09.2016;V8453.6001;;TP / RFP;Punkt;X12;19;8;Allgemein
+22.09.2016;V8460.6001;;Nagel / Bolzen;Punkt;X11;19;8;Allgemein
+22.09.2016;V8461.6001;;Rohr;Punkt;X11;19;8;Allgemein
+22.09.2016;V8462.6001;;Schlagmarke;Punkt;X11;19;8;Allgemein
+22.09.2016;V8463.6001;;Kegel;Punkt;X11;19;8;Allgemein
+22.09.2016;V8464.6001;;Eisen im Beton;Punkt;X11;19;8;Allgemein
+22.09.2016;V8465.6001;;Stein;Punkt;X15;19;8;Allgemein
+22.09.2016;V8496.6T01;;Beschriftung Grenzpunkte;Text;;19;8;Grenzpunkte
+22.09.2016;V8450.6001;;Grenzpunkt allgemein;Punkt;X10;19;8;Grenzpunkte
+22.09.2016;V8451.6001;;Grenzstein;Punkt;X15;19;8;Grenzpunkte
+22.09.2016;V8452.6001;;Grenzbolzen;Punkt;X10;19;8;Grenzpunkte
+22.09.2016;V8458.6001;;Schleife;Punkt;B47;19;8;Grenzpunkte
+22.09.2016;V8466.6001;;Meißelkreuz;Punkt;X98;19;8;Grenzpunkte
+22.09.2016;V8495.6T01;;Beschriftung Höhenpunkt;Text;;19;8;Höhenpunkte
+22.09.2016;V8454.6001;;Höhenpunkt allgemein;Punkt;X13;19;8;Höhenpunkte
+22.09.2016;V8455.6001;;Mauerbolzen;Punkt;E12;19;8;Höhenpunkte
+22.09.2016;V8456.6001;;Höhenmarke;Punkt;X13;19;8;Höhenpunkte
+22.09.2016;V8457.6001;;Pfeilerbolzen (seitl.);Punkt;E12;19;8;Höhenpunkte
+22.09.2016;V8494.6T01;;Beschriftung Besondere Vermarkung;Text;;19;8;Besondere
+22.09.2016;V8467.6001;;Meßpfeiler;Punkt;E03;19;8;Besondere
+22.09.2016;V8470.6001;;Passpunkt Befliegung;Punkt;O66;19;8;Besondere
+22.09.2016;V8471.6001;;Mini Prisma;Punkt;D27;19;8;Besondere
+22.09.2016;V8472.6001;;Zielmarke Rechtwinkelplakette ;Punkt;N21;19;8;Besondere
+22.09.2016;V8473.6001;;Zielmarke Dreieck - rechts;Punkt;N23;19;8;Besondere
+22.09.2016;V8474.6001;;Zielmarke Dreieck - links;Punkt;N22;19;8;Besondere
+22.09.2016;V8475.6001;;Klebemarke;Punkt;N21;19;8;Besondere
+22.09.2016;V8493.6T01;;Beschriftung Sonstige Vermarkung;Text;;19;8;Besondere
+22.09.2016;V8468.6001;;Sonstiges;Punkt;X01;19;8;Sontige
+22.09.2016;V8697.6T01;;Beschriftung Sonstiges;Text;;19;9;Sonstiges
+22.09.2016;V8350.6001;;Sonstiges;Punkt;X01;19;9;Sonstiges
+22.09.2016;V8350.6L01;;Sonstiges;Linie;0;19;;Sonstiges
+22.09.2016;V8901.6001;;Asphalt;Punkt;X01;19;9;Sonstiges
+22.09.2016;V8901.6L01;;Asphalt;Linie;0;19;;Sonstiges
+22.09.2016;V8009.6001;;Begrenzungslinie;Punkt;X01;19;9;Sonstiges
+22.09.2016;V8009.6L01;;Begrenzungslinie;Linie;0;19;;Sonstiges
+22.09.2016;V8016.6T01;;Belagsart;Punkt;X01;19;9;Sonstiges
+22.09.2016;V8010.6T01;;Frei Text;Punkt;X01;19;9;Sonstiges
+22.09.2016;V8049.6T01;;Beschriftung Sonstiges;Text;;19;9;Absteckung
+22.09.2016;V8000.6001;;Achse;Punkt;X01;19;9;Absteckung
+22.09.2016;V8000.6L01;;Achse;Linie;0;19;;Absteckung
+22.09.2016;V8001.6001;;abgesteckter Punkt;Punkt;E17;19;9;Absteckung
+22.09.2016;V8001.6L01;;abgesteckter Punkt;Linie;0;19;;Absteckung
+22.09.2016;V8002.6001;;Holzungsgrenze;Punkt;X01;19;9;Absteckung
+22.09.2016;V8002.6L01;;Holzungsgrenze;Linie;0;19;;Absteckung
+22.09.2016;V8003.6001;;Baufeld;Punkt;X01;19;9;Absteckung
+22.09.2016;V8003.6L01;;Baufeld;Linie;0;19;;Absteckung
+22.09.2016;V8099.6T01;;Beschriftung Baukontrolle;Text;;19;9;Baukontrolle
+22.09.2016;V8050.6001;;Erdplanum;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8050.6L01;;Erdplanum;Linie;0;19;;Baukontrolle
+22.09.2016;V8051.6001;;HGT (Hydraulisch gebundene Tragschicht) ;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8051.6L01;;HGT (Hydraulisch gebundene Tragschicht) ;Linie;0;19;;Baukontrolle
+22.09.2016;V8052.6001;;Frostschutz;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8052.6L01;;Frostschutz;Linie;0;19;;Baukontrolle
+22.09.2016;V8053.6001;;Funationsschicht;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8053.6L01;;Funationsschicht;Linie;0;19;;Baukontrolle
+22.09.2016;V8054.6001;;Tragschicht;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8054.6L01;;Tragschicht;Linie;0;19;;Baukontrolle
+22.09.2016;V8055.6001;;Binder;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8055.6L01;;Binder;Linie;0;19;;Baukontrolle
+22.09.2016;V8056.6001;;Decke;Punkt;C27;19;9;Baukontrolle
+22.09.2016;V8056.6L01;;Decke;Linie;0;19;;Baukontrolle
+22.09.2016;V8098.6T01;;Beschriftung Freie Ebene;Text;;19;9;Freie Ebene
+22.09.2016;V8057.6001;;Freie Ebene 8057;Punkt;X01;19;9;Freie Ebene
+22.09.2016;V8057.6L01;;Freie Ebene 8057;Linie;0;19;;Freie Ebene
+22.09.2016;V8058.6001;;Freie Ebene 8058;Punkt;X01;19;9;Freie Ebene
+22.09.2016;V8058.6L01;;Freie Ebene 8058;Linie;0;19;;Freie Ebene
+22.09.2016;V8059.6001;;Freie Ebene 8059;Punkt;X01;19;9;Freie Ebene
+22.09.2016;V8059.6L01;;Freie Ebene 8059;Linie;0;19;;Freie Ebene
+22.09.2016;V8060.6001;;Freie Ebene 8060;Punkt;X01;19;9;Freie Ebene
+22.09.2016;V8060.6L01;;Freie Ebene 8060;Linie;0;19;;Freie Ebene
+22.09.2016;V8061.6001;;Freie Ebene 8061;Punkt;X01;19;9;Freie Ebene
+22.09.2016;V8061.6L01;;Freie Ebene 8061;Linie;0;19;;Freie Ebene
+22.09.2016;V8004.6T01;;Beschriftung Bauüberwachung;Text;;19;9;Bauüberwachung
+22.09.2016;V8005.6001;;Felshoriziont;Punkt;X98;12;9;Bauüberwachung
+22.09.2016;V8005.6L01;;Felshoriziont;Linie;0;12;;Bauüberwachung
+22.09.2016;V8006.6001;;Spundwand;Punkt;X01;11;9;Bauüberwachung
+22.09.2016;V8006.6L01;;Spundwand;Linie;0;11;;Bauüberwachung
+22.09.2016;V8007.6T01;;Beschriftung Sonstiges;Text;;19;9;Sonstiges
+22.09.2016;V8469.6001;;Standpunkt;Punkt;X99;8;9;Sonstiges
+22.09.2016;V8008.6001;;Kontrollpunkte;Punkt;X98;8;9;Sonstiges
+22.09.2016;V8011.6L01;;Böschungsschraffe;Linie;0;19;;
+22.09.2016;99999.9999;;Sonstiges;Punkt;;;;
+22.09.2016;99999.9999;;Sonstiges;Linie;;;;
+22.09.2016;99999.9999;;Sonstiges;Flaeche;;;;
+22.09.2016;99999.9999;;Sonstiges;Text;;;;
